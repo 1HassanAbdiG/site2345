@@ -9,86 +9,27 @@
             {
               "day": "Jour 1",
               "title": "Dictée 1",
-              "words": [
-                "année",
-                "cage",
-                "chanteur",
-                "crolx",
-                "famille",
-                "lecture",
-                "marbre",
-                "morne",
-                "pomme",
-                "remise",
-                "salade"
-              ]
+              "words": ["année", "cage", "chanteur", "crolx", "famille", "lecture", "marbre", "morne", "pomme", "remise", "salade"]
             },
             {
               "day": "Jour 2",
               "title": "Dictée 2",
-              "words": [
-                "gariicle",
-                "carton",
-                "charme",
-                "devenir",
-                "Ulbre",
-                "marche",
-                "octobre",
-                "premier",
-                "retour",
-                "suite",
-                "avlateur"
-              ]
-            }, {
+              "words": ["gariicle", "carton", "charme", "devenir", "Ulbre", "marche", "octobre", "premier", "retour", "suite", "avlateur"]
+            },
+            {
               "day": "Jour 3",
               "title": "Dictée 3",
-              "words": [
-                "cave",
-                "cour",
-                "douleur",
-                "fortune",
-                "ligne",
-                "marque",
-                "proverbe",
-                "riche",
-                "tasse",
-                "bonne",
-                "chaleur"
-              ]
-        
-            }, {
+              "words": ["cave", "cour", "douleur", "fortune", "ligne", "marque", "proverbe", "riche", "tasse", "bonne", "chaleur"]
+            },
+            {
               "day": "Jour 4",
               "title": "Dictée 4",
-              "words": [
-                "Costume",
-                "droite",
-                "foudre",
-                "lit",
-                "mère",
-                "pauvre",
-                "redaction",
-                "rude",
-                "tige",
-                "café",
-                "chambre"
-              ]
-        
-            },{
+              "words": ["Costume", "droite", "foudre", "lit", "mère", "pauvre", "redaction", "rude", "tige", "café", "chambre"]
+            },
+            {
               "day": "Jour 5",
               "title": "Dictée 5",
-              "words": [
-                "couche",
-                "écriture",
-                "Joumnal",
-                "maladie",
-                "mid",
-                "plus",
-                "relire",
-                "sable",
-                "volture"
-              ]
-        
-        
+              "words": ["couche", "écriture", "Joumnal", "maladie", "mid", "plus", "relire", "sable", "volture"]
             }
           ]
         },
@@ -98,122 +39,72 @@
             {
               "day": "Jour 1",
               "title": "Dictée 1",
-              "words": [
-                "acte",
-                "bois",
-                "chasseur",
-                "conduite",
-                "coude",
-                "étable",
-                "fortement",
-                "juste",
-                "miracle",
-                "prince",
-                "ruche",
-                "survenir",
-                "visite",
-                "artiste"
-              ]
-        
-            },{
+              "words": ["acte", "bois", "chasseur", "conduite", "coude", "étable", "fortement", "juste", "miracle", "prince", "ruche", "survenir", "visite", "artiste"]
+            },
+            {
               "day": "Jour 2",
               "title": "Dictée 2",
-              "words": [
-                "bor",
-                "chemise",
-                "confiture",
-                "courage",
-                "établir",
-                "froid",
-                "malade",
-                "moine",
-                "orange",
-                "regarder",
-                "SAC",
-                "tartine",
-                "visiteur",
-                "astre"
-              ]
-        
-            },{
+              "words": ["bor", "chemise", "confiture", "courage", "établir", "froid", "malade", "moine", "orange", "regarder", "SAC", "tartine", "visiteur", "astre"]
+            },
+            {
               "day": "Jour 3",
               "title": "Dictée 3",
-              "words": [
-                "bord",
-                "chercher",
-                "contenir",
-                "dans",
-                "fabrique",
-                "futur",
-                "mariage",
-                "monde",
-                "penible",
-                "reste",
-                "semaine",
-                "toucher",
-                "voleur",
-                "blé"
-              ]
-        
-            },{
+              "words": ["bord", "chercher", "contenir", "dans", "fabrique", "futur", "mariage", "monde", "penible", "reste", "semaine", "toucher", "voleur", "blé"]
+            },
+            {
               "day": "Jour 4",
               "title": "Dictée 4",
-              "words": [
-                "cabine",
-                "chevelure",
-                "convenir",
-                "élève",
-                "faute",
-                "gros",
-                "matière",
-                "musique",
-                "personne",
-                "reunir",
-                "vie",
-                "vue",
-                "boire",
-                "chasse"
-              ]
-        
-            },{
+              "words": ["cabine", "chevelure", "convenir", "élève", "faute", "gros", "matière", "musique", "personne", "reunir", "vie", "vue", "boire", "chasse"]
+            },
+            {
               "day": "Jour 5",
               "title": "Dictée 5",
-              "words": [
-                "compagnon",
-                "coucou",
-                "entro",
-                "fleuve",
-                "journée",
-                "mineur",
-                "nelge",
-                "peur",
-                "ronde",
-                "sortie",
-                "visage",
-                "lire",
-                "mouton",
-                "perle"
-              ]
-        
+              "words": ["compagnon", "coucou", "entro", "fleuve", "journée", "mineur", "nelge", "peur", "ronde", "sortie", "visage", "lire", "mouton", "perle"]
+            }
+          ]
+        },
+        {
+          "name": "Semaine 3",
+          "days": [
+            {
+              "day": "Jour 1",
+              "title": "Dictée 1",
+              "words": ["agréable", "bonjour", "chanson", "coin", "crime", "double", "jouer", "maln", "oncle", "planche", "rage", "revoir", "salutation", "tous"]
+            },
+            {
+              "day": "Jour 2",
+              "title": "Dictée 2",
+              "words": ["village", "ardeur", "bordure", "charbon", "comme", "cuivre", "ferme", "lait", "parent", "plumier", "ramage", "revue", "singe", "tout"]
+            },
+            {
+              "day": "Jour 3",
+              "title": "Dictée 3",
+              "words": ["ville", "matinee", "armoire", "bouton", "charge", "contre", "diable", "figure", "large", "meuble", "père", "poche", "reine"]
+            },
+            {
+              "day": "Jour 4",
+              "title": "Dictée 4",
+              "words": ["sorte", "usage", "volc", "balle", "cahler", "chien", "couleur", "dictée", "fromage", "lire", "mouton", "perle", "prison", "remarque"]
+            },
+            {
+              "day": "Jour 5",
+              "title": "Dictée 5",
+              "words": ["rose", "statue", "usine", "belge", "calcul", "cloche", "coupe", "directeur", "grand", "liste", "nuage", "pinte", "produire", "reproche", "tarte", "vapeur"]
             }
           ]
         }
       ]
     },
     {
-      "name": "Février",
+      "name": "Janvier",
       "weeks": [
         {
           "name": "Semaine 1",
           "days": [
             {
               "day": "Jour 1",
-              "title": "Dictée 4",
-              "words": [
-                "chien",
-                "arbre",
-                "rivière"
-              ]
+              "title": "Dictée 1",
+              "words": ["", "", ""]
             }
           ]
         }

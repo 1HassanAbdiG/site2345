@@ -9,6 +9,7 @@ import Lecture from './Pages/Francais/francais/lecture';
 import Nav from './Pages/Nav';
 import styles from './Pages//Accueil.module.css';
 import Conjugation from './Pages/conjuguaison/Conjugation';
+import AdjectiveLesson from './Pages/grammaire/AdjectiveLesson';
 
 const App = () => {
   return (
@@ -31,6 +32,8 @@ const App = () => {
           <Route path="/francais/dictee" element={<Dictation/>} />
           <Route path="/francais/comprehension" element={<Lecture/>} />
           <Route path="/francais/conjugaison" element={<Conjugation/>} />
+          <Route path="/francais/grammaire" element={<AdjectiveLesson/>} />
+          
 
           
           

@@ -1,0 +1,28 @@
+{
+    "title": "Les Adjectifs en Français",
+    "rules": {
+      "description": "En français, les adjectifs s'accordent en genre (masculin/féminin) et en nombre (singulier/pluriel) avec le nom qu'ils qualifient.",
+      "examples": {
+        "petit": { "masculin_singulier": "petit", "féminin_singulier": "petite", "masculin_pluriel": "petits", "féminin_pluriel": "petites" },
+        "intéressant": { "masculin_singulier": "intéressant", "féminin_singulier": "intéressante", "masculin_pluriel": "intéressants", "féminin_pluriel": "intéressantes" }
+      }
+    },
+    "examples": [
+      "Un grand arbre → Une grande maison",
+      "Un chat noir → Une voiture noire",
+      "Des livres intéressants → Des histoires intéressantes"
+    ],
+    "exercises": [
+      { "question": "La voiture est (blanc):", "answer": "blanche" },
+      { "question": "Les chats sont (noir):", "answer": "noirs" },
+      { "question": "La table est (grand):", "answer": "grande" },
+      { "question": "Le chien est (petit):", "answer": "petit" },
+      { "question": "Les fleurs sont (joli):", "answer": "jolies" },
+      { "question": "Les livres sont (intéressant):", "answer": "intéressants" },
+      { "question": "La chaise est (confortable):", "answer": "confortable" },
+      { "question": "Les maisons sont (moderne):", "answer": "modernes" },
+      { "question": "Le gâteau est (délicieux):", "answer": "délicieux" },
+      { "question": "Les fruits sont (frais):", "answer": "frais" }
+    ]
+  }
+  
