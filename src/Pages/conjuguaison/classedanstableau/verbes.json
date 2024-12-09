@@ -1,0 +1,10 @@
+{
+    "verbs": ["Dormir", "Danser", "Choisir", "Finir", "Être", "Faire", "Venir", "Partager", "Écouter", "Avoir", "Aller"],
+    "correctGroups": {
+      "1er groupe": ["Danser", "Partager", "Écouter"],
+      "2ème groupe": ["Choisir", "Finir"],
+      "3ème groupe": ["Dormir", "Être", "Faire", "Venir", "Avoir", "Aller"]
+    },
+    "instructions": "Déplacez les verbes dans les bons groupes."
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "verbs": [
+      { "id": 1, "pronoun": "nous", "verb": "chantons" },
+      { "id": 2, "pronoun": "vous", "verb": "secouez" },
+      { "id": 3, "pronoun": "ils", "verb": "remuent" },
+      { "id": 4, "pronoun": "nous", "verb": "collons" },
+      { "id": 5, "pronoun": "ils", "verb": "pensent" },
+      { "id": 6, "pronoun": "tu", "verb": "donnes" },
+      { "id": 7, "pronoun": "ils", "verb": "chantent" },
+      { "id": 8, "pronoun": "vous", "verb": "rangez" },
+      { "id": 9, "pronoun": "il", "verb": "joue" },
+      { "id": 10, "pronoun": "tu", "verb": "cries" },
+      { "id": 11, "pronoun": "ils", "verb": "jouent" },
+      { "id": 12, "pronoun": "il", "verb": "devine" }
+    ]
+  }
+  

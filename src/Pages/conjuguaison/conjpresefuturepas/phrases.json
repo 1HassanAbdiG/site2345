@@ -1,0 +1,34 @@
+{
+    "question": "Pour chacune des phrases, indique si l’action se déroule dans le passé, le présent ou le futur.",
+    "phrases": [
+      {
+        "text": "Les enfants ont découvert une grotte ornée.",
+        "time": "passé"
+      },
+      {
+        "text": "Ils visiteront la grotte de Lascaux.",
+        "time": "futur"
+      },
+      {
+        "text": "Nous lisions tous les jours durant une heure.",
+        "time": "passé"
+      },
+      {
+        "text": "Je fais mon exercice avec sérieux.",
+        "time": "présent"
+      },
+      {
+        "text": "Le garagiste réparera la voiture.",
+        "time": "futur"
+      },
+      {
+        "text": "Les élèves ont appris leur leçon.",
+        "time": "passé"
+      },
+      {
+        "text": "Tu écoutes du rap.",
+        "time": "présent"
+      }
+    ]
+  }
+  

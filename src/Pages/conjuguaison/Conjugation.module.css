@@ -1,0 +1,231 @@
+/* Conteneur principal */
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Titres */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Selecteurs de groupe et de verbe */
+.groupSelector,
+.verbSelector {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Boîte de règles */
+.ruleBox {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #eaf2f8;
+  border-left: 4px solid #3498db;
+  border-radius: 4px;
+}
+
+.ruleBox p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Exercice de conjugaison */
+.exerciseBox {
+  margin-bottom: 30px;
+}
+
+.verbInput {
+  width: calc(100% - 120px);
+  padding: 8px;
+  margin: 10px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pronoun {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  color: #333;
+}
+
+.checkBtn,
+.resetBtn,
+.answerBtn {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkBtn {
+  background-color: #27ae60;
+  color: white;
+}
+
+.resetBtn {
+  background-color: #e67e22;
+  color: white;
+}
+
+.answerBtn {
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Messages de feedback */
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+/* Tableaux */
+.scoresTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.scoresTable th,
+.scoresTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.scoresTable th {
+  background-color: #f4f6f6;
+  color: #333;
+}
+
+.scoresTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.scoresTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Boîte récapitulative */
+.recapBox {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #f2f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.recapBox h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+
+
+/* Styles généraux pour la règle */
+.ruleBox {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #0c7854;
+  transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.ruleBox:hover {
+  transform: scale(1.05);  /* Effet de zoom au survol */
+}
+
+/* Titre de la règle */
+.title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Liste de contenu de la règle */
+.ruleList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ruleSection {
+  margin-bottom: 20px;
+}
+
+.ruleSection strong {
+  font-size: 1.2rem;
+  color: #2C3E50;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Explication détaillée */
+.ruleSection p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Transition d'apparence */
+.ruleBox:hover {
+  transform: scale(1.05);  /* Effet de zoom au survol */
+  transition: transform 0.3s ease;
+}
+
+/* Media Query pour les petits écrans */
+@media (max-width: 768px) {
+  .ruleBox {
+    padding: 15px;
+  }
+
+  .ruleBox h3 {
+    font-size: 1.3em;
+  }
+
+  .ruleBox p,
+  .ruleBox ul li {
+    font-size: 1em;
+  }
+}

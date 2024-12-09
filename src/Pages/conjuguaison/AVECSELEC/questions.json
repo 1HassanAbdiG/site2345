@@ -1,0 +1,77 @@
+{
+  "instructions": "Écris les pronoms devant les verbes suivants.",
+  "questions": [
+    {
+      "id": 1,
+      "verb": "chantons",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Nous"
+    },
+    {
+      "id": 2,
+      "verb": "secouez",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Vous"
+    },
+    {
+      "id": 3,
+      "verb": "remuent",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Ils/Elles"
+    },
+    {
+      "id": 4,
+      "verb": "collons",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Nous"
+    },
+    {
+      "id": 5,
+      "verb": "pensent",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Ils/Elles"
+    },
+    {
+      "id": 6,
+      "verb": "donnes",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Tu"
+    },
+    {
+      "id": 7,
+      "verb": "chantent",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Ils/Elles"
+    },
+    {
+      "id": 8,
+      "verb": "rangez",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Vous"
+    },
+    {
+      "id": 9,
+      "verb": "joue",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Il/Elle"
+    },
+    {
+      "id": 10,
+      "verb": "cries",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Tu"
+    },
+    {
+      "id": 11,
+      "verb": "jouent",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Ils/Elles"
+    },
+    {
+      "id": 12,
+      "verb": "devine",
+      "options": ["Je", "Tu", "Il/Elle", "Nous", "Vous", "Ils/Elles"],
+      "correct": "Il/Elle"
+    }
+  ]
+}

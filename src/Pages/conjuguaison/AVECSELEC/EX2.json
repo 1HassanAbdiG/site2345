@@ -1,0 +1,13 @@
+{
+    "exercises": [
+      { "id": 1, "sentence": "Un vent violent (souffler)... cette nuit.", "answer": "souffle" },
+      { "id": 2, "sentence": "Est-ce que tu (aimer)... les fraises ?", "answer": "aimes" },
+      { "id": 3, "sentence": "Les médecins (soigner)... les patients.", "answer": "soignent" },
+      { "id": 4, "sentence": "Le gendarme (ramener)... un prisonnier.", "answer": "ramène" },
+      { "id": 5, "sentence": "Je (nager)... toujours dans le grand bassin.", "answer": "nage" },
+      { "id": 6, "sentence": "Vous (sauter)... dans la rivière pieds nus.", "answer": "sautez" },
+      { "id": 7, "sentence": "Les tomates (pousser)... en été.", "answer": "poussent" },
+      { "id": 8, "sentence": "Les cascadeurs (réaliser)... un numéro dangereux.", "answer": "réalisent" }
+    ]
+  }
+  

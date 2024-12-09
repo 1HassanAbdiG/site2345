@@ -1,0 +1,96 @@
+{
+  "1er groupe": {
+    "rule": {
+      "title": "Les verbes du 1er groupe",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 1er groupe se terminent en '-er', à l'exception du verbe 'aller'."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples courants : aimer, chanter, jouer, marcher."
+        },
+        {
+          "idea": "Conjugaison",
+          "text": "Les terminaisons au présent sont : -e, -es, -e, -ons, -ez, -ent. Ils suivent une conjugaison régulière et simple."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Ces verbes sont fréquents et généralement faciles à mémoriser."
+        }
+      ],
+      "color": ""
+    },
+    "verbs": {
+      "chanter": ["chante", "chantes", "chante", "chantons", "chantez", "chantent"],
+      "aimer": ["aime", "aimes", "aime", "aimons", "aimez", "aiment"],
+      "jouer": ["joue", "joues", "joue", "jouons", "jouez", "jouent"],
+      "marcher": ["marche", "marches", "marche", "marchons", "marchez", "marchent"]
+    }
+  },
+  "2e groupe": {
+    "rule": {
+      "title": "Les verbes du 2e groupe",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 2e groupe se terminent en '-ir' et forment leur participe présent en '-issant'."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples courants : finir, choisir, grandir, réussir."
+        },
+        {
+          "idea": "Conjugaison",
+          "text": "Les terminaisons au présent sont : -is, -is, -it, -issons, -issez, -issent."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Ces verbes expriment souvent des actions continues ou des états prolongés."
+        }
+      ],
+      "color": "#"
+    },
+    "verbs": {
+      "finir": ["finis", "finis", "finit", "finissons", "finissez", "finissent"],
+      "choisir": ["choisis", "choisis", "choisit", "choisissons", "choisissez", "choisissent"],
+      "grandir": ["grandis", "grandis", "grandit", "grandissons", "grandissez", "grandissent"],
+      "réussir": ["réussis", "réussis", "réussit", "réussissons", "réussissez", "réussissent"]
+    }
+  },
+  "3e groupe": {
+    "rule": {
+      "title": "Les verbes du 3e groupe",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 3e groupe ont des terminaisons variées et souvent irrégulières."
+        },
+        {
+          "idea": "Sous-groupes",
+          "text": "Ils incluent : les verbes en '-re' (ex. : prendre), en '-ir' irréguliers (ex. : partir), en '-oir' (ex. : voir), et les verbes complètement irréguliers (ex. : aller)."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Ces verbes nécessitent une mémorisation individuelle car leurs conjugaisons varient beaucoup."
+        }
+      ],
+      "color": "#"
+    },
+    "verbs": {
+      "dire": ["dis", "dis", "dit", "disons", "dites", "disent"],
+      "faire": ["fais", "fais", "fait", "faisons", "faites", "font"],
+      "venir": ["viens", "viens", "vient", "venons", "venez", "viennent"],
+      "prendre": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
+      "aller": ["vais", "vas", "va", "allons", "allez", "vont"],
+      "voir": ["vois", "vois", "voit", "voyons", "voyez", "voient"],
+      "pouvoir": ["peux", "peux", "peut", "pouvons", "pouvez", "peuvent"],
+      "vouloir": ["veux", "veux", "veut", "voulons", "voulez", "veulent"]
+    }
+  }
+}

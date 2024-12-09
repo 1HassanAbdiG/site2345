@@ -8,6 +8,7 @@ import Dictation from './Pages/Francais/dictée/Dictation';
 import Lecture from './Pages/Francais/francais/lecture';
 import Nav from './Pages/Nav';
 import styles from './Pages//Accueil.module.css';
+import Conjugation from './Pages/conjuguaison/Conjugation';
 
 const App = () => {
   return (
@@ -29,6 +30,9 @@ const App = () => {
           <Route path="/francais" element={<Francais/>} />
           <Route path="/francais/dictee" element={<Dictation/>} />
           <Route path="/francais/comprehension" element={<Lecture/>} />
+          <Route path="/francais/conjugaison" element={<Conjugation/>} />
+
+          
           
           
 
