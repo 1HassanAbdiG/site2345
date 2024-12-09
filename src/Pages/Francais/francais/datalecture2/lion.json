@@ -1,0 +1,205 @@
+{
+    "text": {
+        "title": "Le roi de la forêt",
+        "content": [
+            "Un lion a choisi d'être le roi d'une forêt. Les autres animaux avaient peur de lui.",
+            "Le lion menaçait de les tuer tous s'ils ne lui apportaient pas un animal par jour à manger.",
+            "Chaque jour, les animaux tiraient au sort pour savoir lequel irait à la tanière et serait mangé.",
+            "Un jour, c'était au tour du lièvre d'aller à la tanière du lion.",
+            "Le lièvre a pensé à un plan pour sauver sa vie. Il a pris son temps et est arrivé très tard à la tanière du lion.",
+            "Le lion était furieux.",
+            "\"Pardonnez-moi, mon roi, dit le lièvre pour s'excuser. J'ai été poursuivi par un autre lion. Il était si féroce que j'ai couru et je me suis caché.\"",
+            "\"Quoi ? dit le lion en rugissant. Est-ce qu'il y a un autre lion comme moi dans cette forêt ? Montre-moi où il est et j'irai l'anéantir.\"",
+            "Le lièvre amena le lion en colère jusqu'à un puits profond.",
+            "\"Mon roi, le palais de l'autre roi est ici, dit-il. Vous le verrez quand vous regarderez au fond.\"",
+            "Le lion a regardé au fond et a vu un autre lion qui le fixait.",
+            "Il a rugi, et l'écho est revenu lui cent fois plus fort.",
+            "En colère, le lion a sauté dans le puits profond et s'est noyé."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Un lion a choisi d'être le roi d'une forêt.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Les animaux avaient peur du lièvre.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le lièvre est arrivé très tard à la tanière du lion.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le lièvre a dit qu'il avait été poursuivi par un autre lion.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le lion a fini par anéantir l'autre lion.",
+            "correctAnswer": false
+        },
+            
+        
+            {
+              "type": "shortAnswer",
+              "question": "Qui devait aller voir le lion ce jour-là ?",
+              "correctAnswer": "demande à l'enseignant pour avoir le point"
+            },
+            {
+              "type": "shortAnswer",
+              "question": "Qu'est-ce que le lion demandait aux animaux ?",
+              "correctAnswer": "demande à l'enseignant pour avoir le point"
+            },
+            {
+              "type": "shortAnswer",
+              "question": "Que voulait montrer le lièvre au lion ?",
+              "correctAnswer": "demande à l'enseignant pour avoir le point"
+            },
+            {
+              "type": "shortAnswer",
+              "question": "Où le lièvre a-t-il amené le lion ?",
+              "correctAnswer": "demande à l'enseignant pour avoir le point"
+            },
+            {
+              "type": "shortAnswer",
+              "question": "Pourquoi le lion s'est-il jeté dans le puits ?",
+              "correctAnswer": "demande à l'enseignant pour avoir le point"
+            }
+          
+          
+          ,{
+            "type": "multipleChoice",
+            "question": "Pourquoi le lion était furieux ?",
+            "choices": [
+                "Parce que le lièvre était en retard",
+                "Parce que le lièvre avait menti",
+                "Parce qu'il avait faim"
+            ],
+            "correctAnswer": "Parce que le lièvre était en retard"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Comment le lièvre a-t-il sauvé sa vie ?",
+            "choices": [
+                "En promettant de donner un autre animal",
+                "En amenant le lion jusqu'à un puits",
+                "En se cachant dans la forêt"
+            ],
+            "correctAnswer": "En amenant le lion jusqu'à un puits"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel était l'objectif du lièvre avec son plan pour échapper au lion ?",
+            "choices": [
+                "Obtenir de la nourriture",
+                "Montrer l'autre lion",
+                "Sauver sa vie"
+            ],
+            "correctAnswer": "Sauver sa vie"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi le lion s'est noyé ?",
+            "choices": [
+                "Il a sauté dans le puits",
+                "Il a été attaqué",
+                "Il a glissé dans le puits"
+            ],
+            "correctAnswer": "Il a sauté dans le puits"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que voyait le lion quand il regardait dans le puits?",
+            "choices": [
+                "Il voyait un autre lion",
+                "Il ne voyait rien",
+                "Il voyait son reflet"
+            ],
+            "correctAnswer": "Il voyait son reflet"
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Un 'puits' est une grande cavité dans laquelle on peut puiser de l'eau.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un 'tanière' est un endroit où le lion vit.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un lion est souvent perçu comme une créature féroce.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le terme 'anéantir' signifie détruire complètement.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un 'écho' est une sensation que l'on peut entendre dans une caverne.",
+            "correctAnswer": false
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'tanière' ?",
+            "choices": [
+                "Une maison de lion",
+                "Un puits",
+                "Un endroit pour dormir"
+            ],
+            "correctAnswer": "Une maison de lion"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'anéantir' ?",
+            "choices": [
+                "Construire",
+                "Détruire complètement",
+                "Protéger"
+            ],
+            "correctAnswer": "Détruire complètement"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'écho' ?",
+            "choices": [
+                "Un son qui revient",
+                "Un bruit dans la forêt",
+                "Une action féroce"
+            ],
+            "correctAnswer": "Un son qui revient"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'colère' ?",
+            "choices": [
+                "La joie",
+                "La peur",
+                "La fureur"
+            ],
+            "correctAnswer": "La fureur"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'profondeur' dans ce contexte ?",
+            "choices": [
+                "Un puits",
+                "Un espace profond",
+                "Une hauteur"
+            ],
+            "correctAnswer": "Un espace profond"
+        }
+    ]
+}

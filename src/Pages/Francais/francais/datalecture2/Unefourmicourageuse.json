@@ -1,0 +1,185 @@
+{
+    "text": {
+      "title": "Une fourmi courageuse",
+      "content": [
+        "Un jour qu'il faisait beau, une fourmi est allée au bord d'une rivière. Elle avait très soif.",
+        "Par malheur, comme elle se penchait pour boire, elle a glissé et est tombée à l'eau.",
+        "Elle a nagé de toutes ses forces pour se rendre sur la rive, mais elle n'était pas capable. Le courant était trop fort.",
+        "Au moment où la fourmi perdait espoir, un oiseau a volé par là. Il a vu la fourmi se débattre dans l'eau.",
+        "Ayant pitié d'elle, il a ramassé une feuille sur le sol. Il a volé au-dessus de la fourmi et a laissé tomber la feuille dans l'eau.",
+        "La fourmi a immédiatement monté sur la feuille et a été sauvée.",
+        "Quelques jours plus tard, la fourmi a aperçu l'oiseau qui lui avait sauvé la vie. Il était perché sur la branche d'un arbre.",
+        "Tout à coup, la fourmi a vu un chasseur. Il pointait sa carabine vers l'oiseau.",
+        "Malgré sa peur, la fourmi a marché jusqu'au chasseur et a mordu sa cheville.",
+        "Le chasseur s'est mis à crier. En entendant le cri du chasseur, l'oiseau s'est envolé.",
+        "Par son courage, la fourmi a sauvé la vie de l'oiseau."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "La fourmi avait très soif lorsqu'elle s'est rendue au bord de la rivière.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La fourmi a réussi à rejoindre la rive sans difficulté.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un oiseau a aidé la fourmi en lui jetant une feuille dans l'eau.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La fourmi a mordu le chasseur pour se protéger.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi la fourmi n'a pas réussi à sortir de l'eau toute seule ?",
+        "choices": [
+          "Le courant était trop fort",
+          "Elle était trop fatiguée",
+          "Elle ne savait pas nager"
+        ],
+        "correctAnswer": "Le courant était trop fort"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment l'oiseau a-t-il aidé la fourmi ?",
+        "choices": [
+          "Il l'a poussée avec ses ailes",
+          "Il lui a jeté une feuille",
+          "Il a crié pour attirer de l'aide"
+        ],
+        "correctAnswer": "Il lui a jeté une feuille"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que faisait le chasseur lorsque la fourmi l'a mordu ?",
+        "choices": [
+          "Il dormait",
+          "Il pointait sa carabine vers l'oiseau",
+          "Il buvait de l'eau"
+        ],
+        "correctAnswer": "Il pointait sa carabine vers l'oiseau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel rôle la fourmi a-t-elle joué pour l'oiseau ?",
+        "choices": [
+          "Elle l'a aidé à trouver de la nourriture",
+          "Elle l'a sauvé en mordant le chasseur",
+          "Elle lui a donné un abri"
+        ],
+        "correctAnswer": "Elle l'a sauvé en mordant le chasseur"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment la fourmi a-t-elle été sauvée de la rivière ?",
+        "correctAnswer": "L'oiseau lui a jeté une feuille"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi la fourmi a-t-elle mordu le chasseur ?",
+        "correctAnswer": "Pour sauver l'oiseau"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que faisait l'oiseau lorsqu'il a été sauvé par la fourmi ?",
+        "correctAnswer": "Il était perché sur la branche d'un arbre"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi la fourmi avait-elle peur lorsqu'elle a mordu le chasseur ?",
+        "correctAnswer": "Parce qu'elle était face à un danger"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment l'oiseau a-t-il réagi après que la fourmi a mordu le chasseur ?",
+        "correctAnswer": "Il s'est envolé"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un chasseur utilise généralement une carabine.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La fourmi a utilisé ses ailes pour voler.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "La feuille est l'objet utilisé par l'oiseau pour sauver la fourmi.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La rivière était calme lorsque la fourmi a glissé.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le courage peut permettre de surmonter des obstacles difficiles.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'courant' dans le texte ?",
+        "choices": [
+          "Un courant d'air",
+          "Le déplacement de l'eau",
+          "Une course rapide"
+        ],
+        "correctAnswer": "Le déplacement de l'eau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'carabine' dans le texte ?",
+        "choices": [
+          "Un moyen de transport",
+          "Une arme utilisée pour la chasse",
+          "Un outil de pêche"
+        ],
+        "correctAnswer": "Une arme utilisée pour la chasse"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'mordu' dans le contexte de l'histoire ?",
+        "choices": [
+          "Avoir mordu un aliment",
+          "Avoir mordu pour attaquer",
+          "Avoir goûté quelque chose"
+        ],
+        "correctAnswer": "Avoir mordu pour attaquer"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'risqué' dans le contexte du texte ?",
+        "choices": [
+          "Un danger lié à la peur",
+          "Une action audacieuse",
+          "Un obstacle difficile"
+        ],
+        "correctAnswer": "Une action audacieuse"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi l'action de la fourmi est-elle considérée comme courageuse ?",
+        "choices": [
+          "Parce qu'elle a attaqué le chasseur",
+          "Parce qu'elle a surmonté sa peur",
+          "Parce qu'elle a sauvé l'oiseau"
+        ],
+        "correctAnswer": "Parce qu'elle a sauvé l'oiseau"
+      }
+    ]
+  }
+  

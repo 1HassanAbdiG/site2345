@@ -1,0 +1,157 @@
+{
+  "text": {
+    "title": "L'école",
+    "content": [
+      "Rémi va à l'école.",
+      "Il lit.",
+      "Il aime lire.",
+      "Il parle avec des amis.",
+      "Il a un pupitre.",
+      "Il rédige des phrases.",
+      "Il joue avec des jeux.",
+      "Il dîne à l'école.",
+      "Rémi aime aller à l'école."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Rémi va à l'école.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Rémi n'aime pas lire.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Il parle avec des amis.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Rémi a un bureau.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Rémi aime aller à l'école.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que fait Rémi à l'école ?",
+      "choices": ["Il mange", "Il lit"],
+      "correctAnswer": "Il lit"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Avec qui Rémi parle-t-il ?",
+      "choices": ["Avec des amis", "Avec des enseignants"],
+      "correctAnswer": "Avec des amis"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que rédige Rémi ?",
+      "choices": ["Des phrases", "Des mots"],
+      "correctAnswer": "Des phrases"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel objet a Rémi ?",
+      "choices": ["Un pupitre", "Une table"],
+      "correctAnswer": "Un pupitre"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qu'est-ce que Rémi fait à l'école ?",
+      "choices": ["Il dîne", "Il joue"],
+      "correctAnswer": "Il dîne"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que fait Rémi quand il est à l'école ?",
+      "correctAnswer": "Il lit"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Avec qui Rémi parle-t-il à l'école ?",
+      "correctAnswer": "Des amis"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que rédige Rémi ?",
+      "correctAnswer": "Des phrases"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quel est le type de meuble que Rémi a ?",
+      "correctAnswer": "Un pupitre"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que fait Rémi à l'école ?",
+      "correctAnswer": "Il dîne"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Un 'pupitre' est un meuble pour travailler.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Dîner' signifie manger le matin.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Rédiger signifie écrire quelque chose.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Lire' signifie parler.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Jeux' signifie des objets pour jouer.",
+      "correctAnswer": true
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'rédiger' ?",
+      "choices": ["Écrire", "Lire"],
+      "correctAnswer": "Écrire"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que sont des 'jeux' ?",
+      "choices": ["Des objets pour jouer", "Des objets pour dormir"],
+      "correctAnswer": "Des objets pour jouer"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'dîner' ?",
+      "choices": ["Manger", "Boire"],
+      "correctAnswer": "Manger"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'parler' ?",
+      "choices": ["Communiquer", "Lire"],
+      "correctAnswer": "Communiquer"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que fait Rémi avec ses amis ?",
+      "choices": ["Il parle", "Il dort"],
+      "correctAnswer": "Il parle"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+    "text": {
+      "title": "Le judo",
+      "content": [
+        "C'est samedi.",
+        "Émilie et Félix font du judo.",
+        "Émilie est une judoka.",
+        "Félix est un judoka.",
+        "Le dojo est la salle de judo.",
+        "Émilie doit écouter.",
+        "Félix doit suivre les consignes.",
+        "Émilie et Félix ont une ceinture jaune.",
+        "Émilie a fait tomber Félix.",
+        "Félix est tombé sur un matelas.",
+        "Il y a beaucoup de règles de sécurité.",
+        "Émilie et Félix s'amusent beaucoup."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Émilie et Félix font du judo.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Émilie est un judoka.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le dojo est la salle de judo.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Félix doit écouter.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Émilie a fait tomber Félix.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle couleur de ceinture ont Émilie et Félix ?",
+        "choices": ["Jaune", "Bleue", "Noire"],
+        "correctAnswer": "Jaune"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Sur quoi Félix est-il tombé ?",
+        "choices": ["Un matelas", "Une chaise", "Le sol"],
+        "correctAnswer": "Un matelas"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que doit faire Félix pendant le judo ?",
+        "choices": ["Écouter", "Suivre les consignes", "Jouer"],
+        "correctAnswer": "Suivre les consignes"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel sport font Émilie et Félix ?",
+        "choices": ["Le judo", "Le football", "Le tennis"],
+        "correctAnswer": "Le judo"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi Félix est tombé ?",
+        "choices": ["Parce qu'Émilie l'a fait tomber", "Parce qu'il a glissé", "Parce qu'il s'est blessé"],
+        "correctAnswer": "Parce qu'Émilie l'a fait tomber"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que doivent suivre Émilie et Félix au dojo ?",
+        "correctAnswer": "Les consignes"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui a fait tomber Félix ?",
+        "correctAnswer": "Émilie"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Où Félix est-il tombé ?",
+        "correctAnswer": "Sur un matelas"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "De quelle couleur est la ceinture d'Émilie et Félix ?",
+        "correctAnswer": "Jaune"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel jour Émilie et Félix font-ils du judo ?",
+        "correctAnswer": "Samedi"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un 'dojo' est la salle où on fait du judo.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un 'judoka' est une personne qui pratique le judo.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une 'ceinture jaune' est un grade au judo.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un 'matelas' est utilisé pour les combats de judo.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le judo est un sport d'équipe.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'dojo' ?",
+        "choices": ["Salle de judo", "Salle de gym", "Salle de classe"],
+        "correctAnswer": "Salle de judo"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'judoka' ?",
+        "choices": ["Pratiquant du judo", "Pratiquant de karaté", "Entraîneur de football"],
+        "correctAnswer": "Pratiquant du judo"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'ceinture jaune' au judo ?",
+        "choices": ["Un grade", "Un accessoire", "Une décoration"],
+        "correctAnswer": "Un grade"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'matelas' dans ce contexte ?",
+        "choices": ["Un tapis pour chuter", "Un lit", "Un coussin"],
+        "correctAnswer": "Un tapis pour chuter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'consignes' ?",
+        "choices": ["Règles à suivre", "Jouets", "Chaises"],
+        "correctAnswer": "Règles à suivre"
+      }
+    ]
+  }
+  

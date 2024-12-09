@@ -1,0 +1,156 @@
+{
+  "text": {
+    "title": "La chambre",
+    "content": [
+      "Manon a une belle chambre.",
+      "Elle est grande.",
+      "Dans la chambre, il y a un lit et un bureau.",
+      "Il y a des jeux par terre.",
+      "Son chat, Kato, a marché sur son jeu de construction.",
+      "Il y a des cubes de bois partout.",
+      "Manon doit ranger sa chambre.",
+      "Manon est contente de sa belle chambre propre."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Manon a une belle chambre.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Manon a une petite chambre.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Le chat de Manon s'appelle Kato.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Il n'y a pas de jeux par terre dans la chambre.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Manon est contente de sa chambre propre.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que trouve-t-on sur le sol de la chambre ?",
+      "choices": ["Des cubes de bois", "Des vêtements"],
+      "correctAnswer": "Des cubes de bois"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel animal marche sur le jeu de construction ?",
+      "choices": ["Un chien", "Un chat"],
+      "correctAnswer": "Un chat"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que doit faire Manon dans sa chambre ?",
+      "choices": ["Ranger", "Dormir"],
+      "correctAnswer": "Ranger"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que trouve-t-on dans la chambre de Manon ?",
+      "choices": ["Un bureau", "Une télévision"],
+      "correctAnswer": "Un bureau"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "De quelle taille est la chambre de Manon ?",
+      "choices": ["Grande", "Petite"],
+      "correctAnswer": "Grande"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Comment s'appelle le chat de Manon ?",
+      "correctAnswer": "Kato"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que trouve-t-on par terre dans la chambre de Manon ?",
+      "correctAnswer": "Des jeux"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que doit faire Manon dans sa chambre ?",
+      "correctAnswer": "Ranger"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que trouve-t-on partout dans la chambre après que Kato a marché ?",
+      "correctAnswer": "Des cubes de bois"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Pourquoi Manon est-elle contente à la fin de l'histoire ?",
+      "correctAnswer": "Sa chambre est propre"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Un 'bureau' est un meuble pour travailler.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Des 'cubes de bois' sont des blocs en plastique.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Ranger' signifie mettre en ordre.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Par terre' signifie au plafond.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un 'chat' est un animal de compagnie.",
+      "correctAnswer": true
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'ranger' ?",
+      "choices": ["Mettre en ordre", "Détruire"],
+      "correctAnswer": "Mettre en ordre"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que sont des 'cubes de bois' ?",
+      "choices": ["Des blocs", "Des jouets électroniques"],
+      "correctAnswer": "Des blocs"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'chambre' ?",
+      "choices": ["Une pièce pour dormir", "Une pièce pour cuisiner"],
+      "correctAnswer": "Une pièce pour dormir"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que fait Manon dans sa chambre ?",
+      "choices": ["Elle la range", "Elle la détruit"],
+      "correctAnswer": "Elle la range"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'par terre' ?",
+      "choices": ["Sur le sol", "Sur le bureau"],
+      "correctAnswer": "Sur le sol"
+    }
+  ]
+}

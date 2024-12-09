@@ -1,0 +1,161 @@
+{
+  "text": {
+    "title": "La lecture",
+    "content": [
+      "Dany a une lecture à faire.",
+      "Ce soir, il doit lire.",
+      "Il doit lire tous les mots.",
+      "Il doit lire tous les sons.",
+      "Dany aime lire.",
+      "Dans son livre, il y a une fusée.",
+      "La fusée se promène vers une planète.",
+      "Dany aime lire des aventures."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Dany doit lire des mots.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Dany n'aime pas lire.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Il y a une fusée dans le livre de Dany.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "La fusée va vers le soleil.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Dany aime lire des aventures.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que doit faire Dany ce soir ?",
+      "choices": [
+        "Jouer avec des amis",
+        "Faire ses devoirs",
+        "Lire un livre"
+      ],
+      "correctAnswer": "Lire un livre"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que se promène dans le livre de Dany ?",
+      "choices": [
+        "Un avion",
+        "Une fusée",
+        "Un bateau"
+      ],
+      "correctAnswer": "Une fusée"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Où va la fusée dans le livre ?",
+        "choices": [
+          "Vers une planète",
+          "Vers une étoile",
+          "Vers la Terre"
+        ],
+        "correctAnswer": "Vers une planète"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que lit Dany dans son livre ?",
+      "choices": [
+        "Des aventures",
+        "Des histoires de pirates",
+        "Des récits de science-fiction"
+      ],
+      "correctAnswer": "Des aventures"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui aime lire ?",
+      "choices": [
+        "Dany",
+        "Un astronaute",
+        "Un scientifique"
+      ],
+      "correctAnswer": "Dany"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que fait la fusée dans le livre ?",
+      "correctAnswer": "Elle se promène"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Qu'est-ce que Dany doit lire ?",
+      "correctAnswer": "Tous les mots"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "'Fusée' désigne un engin qui se déplace dans l'espace.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Planète' signifie un corps céleste en orbite autour d'une étoile.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Lire' signifie regarder un film.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Aventure' signifie un récit imaginaire ou réel.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Sons' signifie des images dans un livre.",
+      "correctAnswer": false
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'fusée' ?",
+      "choices": ["Un engin spatial", "Un véhicule terrestre"],
+      "correctAnswer": "Un engin spatial"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'planète' ?",
+      "choices": ["Un corps céleste", "Une étoile"],
+      "correctAnswer": "Un corps céleste"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'lire' ?",
+      "choices": ["Regarder un texte", "Écouter une musique"],
+      "correctAnswer": "Regarder un texte"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'aventure' ?",
+      "choices": ["Un récit excitant", "Un objet du quotidien"],
+      "correctAnswer": "Un récit excitant"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'son' dans le contexte de la lecture ?",
+      "choices": ["Un élément auditif", "Un mot prononcé"],
+      "correctAnswer": "Un élément auditif"
+    }
+  ]
+}

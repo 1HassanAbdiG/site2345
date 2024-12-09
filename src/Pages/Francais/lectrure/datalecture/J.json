@@ -1,0 +1,129 @@
+{
+    "text": {
+      "title": "Number Sense",
+      "content": [
+        "Number Sense, ou la compréhension des nombres, couvre des concepts fondamentaux tels que la valeur de position, les nombres premiers, la numération romaine et plus encore.",
+        "Les élèves apprendront à identifier et utiliser la valeur de position des chiffres dans un nombre.",
+        "Ils pourront aussi arrondir des nombres, reconnaître les nombres pairs et impairs, et comprendre les nombres entiers.",
+        "D'autres notions comme la numération romaine, les séquences de comptage par sauts, et les nombres premiers et composés seront abordées.",
+        "Ces concepts permettront aux élèves de mieux comprendre les relations entre les nombres et de développer leur compétence en mathématiques."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "La valeur de position est la valeur d'un chiffre selon sa place dans un nombre.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Tous les nombres sont premiers.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "La numération romaine est une ancienne méthode pour écrire les nombres.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un nombre pair peut être divisé par 2 sans reste.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les nombres composés sont uniquement divisibles par eux-mêmes et par 1.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la valeur du chiffre 5 dans 253 ?",
+        "choices": ["50", "5", "500"],
+        "correctAnswer": "50"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel nombre est un nombre premier ?",
+        "choices": ["9", "15", "7"],
+        "correctAnswer": "7"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'arrondir un nombre' ?",
+        "choices": ["Trouver la valeur exacte", "Approcher un nombre à la dizaine ou centaine la plus proche"],
+        "correctAnswer": "Approcher un nombre à la dizaine ou centaine la plus proche"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment appelle-t-on le chiffre romain V ?",
+        "choices": ["5", "10", "50"],
+        "correctAnswer": "5"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est un exemple de séquence de comptage par sauts ?",
+        "choices": ["2, 4, 6, 8", "1, 3, 5, 7"],
+        "correctAnswer": "2, 4, 6, 8"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "'Pair' signifie divisible par 2.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "'Composé' signifie que le nombre a plus de deux diviseurs.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "'Entier' signifie un nombre sans fraction.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "'Arrondir' signifie trouver la valeur exacte.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "'Séquence de comptage par sauts' signifie compter avec des intervalles réguliers.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'nombre premier' ?",
+        "choices": ["Un nombre divisible seulement par 1 et lui-même", "Un nombre divisible par 2"],
+        "correctAnswer": "Un nombre divisible seulement par 1 et lui-même"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'arrondir' ?",
+        "choices": ["Trouver la valeur exacte", "Approcher la valeur"],
+        "correctAnswer": "Approcher la valeur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'pair' ?",
+        "choices": ["Un nombre divisible par 2", "Un nombre divisible par 3"],
+        "correctAnswer": "Un nombre divisible par 2"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'séquence de comptage par sauts' ?",
+        "choices": ["Compter normalement", "Compter avec des intervalles réguliers"],
+        "correctAnswer": "Compter avec des intervalles réguliers"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'entier' ?",
+        "choices": ["Un nombre sans fraction", "Un nombre avec une fraction"],
+        "correctAnswer": "Un nombre sans fraction"
+      }
+    ]
+  }
+  

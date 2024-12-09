@@ -1,0 +1,157 @@
+{
+    "text": {
+      "title": "La poule",
+      "content": [
+        "La poule est dans son nid.",
+        "Elle se nomme Blanche.",
+        "Blanche pond des œufs.",
+        "De bons œufs pour notre déjeuner.",
+        "Blanche est contente de se promener dans son enclos.",
+        "Blanche mange des grains.",
+        "Blanche est ma poule préférée."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "La poule se nomme Blanche.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Blanche est une vache.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Blanche pond des œufs.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Blanche est triste de se promener dans son enclos.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Blanche est ma poule préférée.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment s'appelle la poule ?",
+        "choices": ["Blanche", "Noire"],
+        "correctAnswer": "Blanche"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que pond Blanche ?",
+        "choices": ["Des œufs", "Des fruits"],
+        "correctAnswer": "Des œufs"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que mange Blanche ?",
+        "choices": ["Des grains", "De la viande"],
+        "correctAnswer": "Des grains"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où est Blanche ?",
+        "choices": ["Dans le jardin", "Dans son nid"],
+        "correctAnswer": "Dans son nid"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi Blanche est-elle contente ?",
+        "choices": ["Parce qu'elle mange", "Parce qu'elle se promène"],
+        "correctAnswer": "Parce qu'elle se promène"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel est le nom de la poule ?",
+        "correctAnswer": "Blanche"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que pond Blanche ?",
+        "correctAnswer": "Des œufs"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Où se trouve la poule ?",
+        "correctAnswer": "Dans son nid"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que mange Blanche ?",
+        "correctAnswer": "Des grains"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi Blanche est-elle contente ?",
+        "correctAnswer": "De se promener dans son enclos"
+      }
+    ], 
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un 'nid' est un endroit où les oiseaux vivent et pondent des œufs.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les 'grains' sont un type de fruit.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le mot 'œufs' désigne des aliments produits par les poules.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le mot 'enclos' signifie un espace fermé où les animaux peuvent se déplacer.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le mot 'déjeuner' signifie un repas du soir.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'nid' ?",
+        "choices": ["Une maison pour oiseaux", "Un jardin"],
+        "correctAnswer": "Une maison pour oiseaux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que sont les 'grains' dans le texte ?",
+        "choices": ["De la nourriture pour poules", "Des fruits"],
+        "correctAnswer": "De la nourriture pour poules"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'pondre' ?",
+        "choices": ["Déposer des œufs", "Manger des œufs"],
+        "correctAnswer": "Déposer des œufs"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'enclos' ?",
+        "choices": ["Un espace fermé pour animaux", "Un parc pour les enfants"],
+        "correctAnswer": "Un espace fermé pour animaux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'déjeuner' dans le texte ?",
+        "choices": ["Un repas du matin", "Un repas du midi"],
+        "correctAnswer": "Un repas du midi"
+      }
+    ]
+  
+  }
+  

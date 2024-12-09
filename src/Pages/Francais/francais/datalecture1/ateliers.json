@@ -1,0 +1,155 @@
+{
+    "text": {
+      "title": "Les ateliers",
+      "content": [
+        "Dans notre classe, nous avons des ateliers.",
+        "Dans notre atelier, nous jouons à des jeux éducatifs.",
+        "Valérie joue au domino des mots avec Simon.",
+        "Caroline s'amuse à chercher des mots avec Mathieu.",
+        "Josée aime lire des histoires drôles.",
+        "Dans notre classe, tout le monde s'amuse."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Dans notre classe, il y a des ateliers.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Caroline joue au domino des mots avec Simon.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Josée aime lire des histoires tristes.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Tout le monde s'amuse dans la classe.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Valérie s'amuse à chercher des mots avec Mathieu.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fait Caroline dans l'atelier ?",
+        "choices": ["Elle cherche des mots avec Mathieu", "Elle joue au domino des mots avec Simon", "Elle lit des histoires drôles"],
+        "correctAnswer": "Elle cherche des mots avec Mathieu"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Avec qui Valérie joue-t-elle au domino des mots ?",
+        "choices": ["Caroline", "Simon", "Josée"],
+        "correctAnswer": "Simon"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'aime faire Josée ?",
+        "choices": ["Jouer au domino", "Chercher des mots", "Lire des histoires drôles"],
+        "correctAnswer": "Lire des histoires drôles"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quels types de jeux se jouent dans l'atelier ?",
+        "choices": ["Jeux de société", "Jeux éducatifs", "Jeux vidéo"],
+        "correctAnswer": "Jeux éducatifs"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment se sent tout le monde dans la classe ?",
+        "choices": ["Heureux", "Triste", "Indifférent"],
+        "correctAnswer": "Heureux"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel jeu éducatif joue Valérie ?",
+        "correctAnswer": "Domino des mots"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui cherche des mots avec Caroline ?",
+        "correctAnswer": "Mathieu"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que fait Josée dans l'atelier ?",
+        "correctAnswer": "Elle lit des histoires drôles."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Combien de personnages sont mentionnés dans l'atelier ?",
+        "correctAnswer": "5"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que font les élèves dans l'atelier ?",
+        "correctAnswer": "Ils jouent à des jeux éducatifs."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un atelier est un lieu où l'on travaille ou s'amuse.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un domino est un jeu éducatif.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les mots sont des lettres assemblées.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lire des histoires drôles rend triste.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les ateliers ne sont que pour les adultes.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'atelier' dans ce contexte ?",
+        "choices": ["Un lieu de travail", "Un espace de jeu éducatif", "Un restaurant"],
+        "correctAnswer": "Un espace de jeu éducatif"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un 'domino' dans cet atelier ?",
+        "choices": ["Un jeu avec des chiffres", "Un jeu de mots", "Un livre"],
+        "correctAnswer": "Un jeu de mots"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'une 'histoire drôle' ?",
+        "choices": ["Un conte sérieux", "Une histoire amusante", "Un jeu"],
+        "correctAnswer": "Une histoire amusante"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fait-on généralement dans un atelier ?",
+        "choices": ["On lit", "On travaille", "On s'amuse tout en apprenant"],
+        "correctAnswer": "On s'amuse tout en apprenant"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 's'amuser' ?",
+        "choices": ["Être triste", "Prendre du plaisir", "Ne rien faire"],
+        "correctAnswer": "Prendre du plaisir"
+      }
+    ]
+  }
+  

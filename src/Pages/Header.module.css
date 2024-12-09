@@ -1,0 +1,127 @@
+.header {
+  background-image: url('/public/imag/IBN_BATOUTA.png');
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  width: 98%;   
+  display: flex;      
+  text-align: center;
+  background-color: rgb(79, 1, 1);
+  color: white;
+  padding: 1rem;
+  text-align: center
+}
+
+
+.headerContent {
+  display: flex;
+  justify-content: space-between; /* Space out items */
+  align-items: center;
+  width: 100%; /* Use full width of header */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Logo size */
+  height: auto;
+  border-radius: 50%; /* Circular outline */
+  border: 2px solid #fff; /* White border */
+  margin-right: 1rem; /* Space between logo and text */
+  transition: transform 0.3s; /* Animation on hover */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Logo enlarges on hover */
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.textContent h1 {
+  font-size: 26px; /* Larger font size */
+  margin: 0;
+  color: #ffff;
+}
+
+.textContent p {
+  font-size: 18px; /* Increased font size */
+  color: #ffff;
+  margin: 0;
+}
+
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 30px; /* Size of hamburger icon */
+  cursor: pointer; /* Pointer cursor for clickable */
+  color: white; /* Color for hamburger */
+}
+
+.nav {
+  display: flex; /* Flex display for navigation */
+  transition: max-height 0.3s ease; /* Smooth transition for dropdown */
+  background: rgb(14, 13, 13);
+  margin-right: 150px;
+}
+
+.navList {
+  display: flex; /* Flex for horizontal navigation */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.navList li {
+  margin-left: 20px; /* Space between links */
+}
+
+.navList a {
+  color: #f8efef;
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Increase font size for better visibility */
+  padding: 10px 15px; /* Add padding for better click area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background 0.3s, color 0.3s; /* Smooth color transition */
+}
+
+.navList a:hover {
+  background: rgba(255, 255, 255, 0.2); /* Background change on hover */
+  color: #f0f0f0; /* Change color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav {
+      display: none; /* Hide nav by default on small screens */
+      position: absolute; /* Absolute positioning for dropdown */
+      top: 80px; /* Position below the header */
+      left: 0; /* Align to left */
+      width: 100%; /* Full width */
+      background-color: rgba(79, 1, 1, 0.9); /* Semi-transparent background */
+      z-index: 10; /* Ensure it appears above other elements */
+      flex-direction: column; /* Stack items vertically */
+  }
+
+  .nav.open {
+      display: flex; /* Show nav when open */
+  }
+
+  .navList {
+      flex-direction: column; /* Vertical list on small screens */
+      padding: 1rem; /* Padding for better spacing */
+  }
+
+  .navList li {
+      margin: 10px 0; /* Space between links */
+  }
+
+  .hamburger {
+      display: block; /* Show hamburger icon on small screens */
+  }
+}

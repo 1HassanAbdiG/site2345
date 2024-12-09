@@ -1,0 +1,134 @@
+
+  {
+    "textes": { "LeRepas": [
+        {
+          "fr": "Maman lave les tomates.",
+          "en": "Mom washes the tomatoes.",
+          "showEnglish": false
+        },
+        {
+          "fr": "Mario lave la laitue et les légumes.",
+          "en": "Mario washes the lettuce and vegetables.",
+          "showEnglish": false
+        },
+        {
+          "fr": "Maman coupe les tomates et les légumes.",
+          "en": "Mom cuts the tomatoes and vegetables.",
+          "showEnglish": false
+        },
+        {
+          "fr": "Papa coupe le rôti.",
+          "en": "Dad cuts the roast.",
+          "showEnglish": false
+        },
+        {
+          "fr": "Valérie met la nappe et les plats sur la table.",
+          "en": "Valérie sets the table with the cloth and the dishes.",
+          "showEnglish": false
+        },
+        {
+          "fr": "Tout le monde mange.",
+          "en": "Everyone eats.",
+          "showEnglish": false
+        },
+        {
+          "fr": "C'est bon !",
+          "en": "It's good!",
+          "showEnglish": false
+        }
+      ],
+      "LaLecture": [
+        { "fr": "Dany a une lecture à faire.", "en": "Dany has some reading to do." },
+        { "fr": "Ce soir, il doit lire.", "en": "Tonight, he must read." },
+        { "fr": "Il doit lire tous les mots.", "en": "He must read all the words." },
+        { "fr": "Il doit lire tous les sons.", "en": "He must read all the sounds." },
+        { "fr": "Dany aime lire.", "en": "Dany loves to read." },
+        { "fr": "Dans son livre, il y a une fusée.", "en": "In his book, there is a rocket." },
+        { "fr": "La fusée se promène vers une planète.", "en": "The rocket is going toward a planet." },
+        { "fr": "Dany aime lire des aventures.", "en": "Dany loves to read adventures." }
+      ],
+      "Boubou": [
+        { "fr": "Boubou est un canari.", "en": "Boubou is a canary." },
+        { "fr": "Il est jaune.", "en": "He is yellow." },
+        { "fr": "Boubou aime bien sa cage.", "en": "Boubou likes his cage." },
+        { "fr": "Parfois, il peut sortir.", "en": "Sometimes, he can go out." },
+        { "fr": "Cathy aime Boubou.", "en": "Cathy loves Boubou." },
+        { "fr": "Sa grand-maman lui a donné Boubou.", "en": "Her grandmother gave her Boubou." },
+        { "fr": "Cathy lui donne des grains.", "en": "Cathy gives him seeds." },
+        { "fr": "Cathy aime entendre Boubou chanter.", "en": "Cathy loves to hear Boubou sing." }
+      ],
+      "MonChien": [
+        { "fr": "Mon chien se nomme Roko.", "en": "My dog is named Roko." },
+        { "fr": "Roko est noir avec des taches blanches.", "en": "Roko is black with white spots." },
+        { "fr": "Roko aime se cacher dans le panier de vêtements propres.", "en": "Roko loves hiding in the basket of clean clothes." },
+        { "fr": "Il mange de la nourriture pour chiens.", "en": "He eats dog food." },
+        { "fr": "Roko se couche sur le tapis de ma chambre.", "en": "Roko lies on the rug in my room." },
+        { "fr": "J'aime mon chien.", "en": "I love my dog." }
+      ],
+      "LaPoule": [
+        { "fr": "La poule est dans son nid.", "en": "The hen is in her nest." },
+        { "fr": "Elle se nomme Blanche.", "en": "Her name is Blanche." },
+        { "fr": "Blanche pond des œufs.", "en": "Blanche lays eggs." },
+        { "fr": "De bons œufs pour notre déjeuner.", "en": "Good eggs for our breakfast." },
+        { "fr": "Blanche est contente de se promener dans son enclos.", "en": "Blanche is happy to walk around her pen." },
+        { "fr": "Blanche mange des grains.", "en": "Blanche eats seeds." },
+        { "fr": "Blanche est ma poule préférée.", "en": "Blanche is my favorite hen." }
+      ],
+      "LeChat": [
+        { "fr": "Le chat Bingo aime se coucher près de la cage de Boubou.", "en": "The cat Bingo likes to lie near Boubou's cage." },
+        { "fr": "Bingo regarde le canari.", "en": "Bingo watches the canary." },
+        { "fr": "Boubou n'aime pas Bingo.", "en": "Boubou doesn't like Bingo." },
+        { "fr": "Boubou ne chante pas près du chat.", "en": "Boubou doesn't sing near the cat." },
+        { "fr": "Bingo pense que Boubou va sortir de sa cage.", "en": "Bingo thinks Boubou will come out of his cage." },
+        { "fr": "Boubou a peur.", "en": "Boubou is scared." },
+        { "fr": "Marie chasse Bingo et rassure Boubou.", "en": "Marie chases Bingo away and reassures Boubou." }
+      ],
+      "LePatin": [
+        { "fr": "Nicolas aime l'hiver.", "en": "Nicolas loves winter." },
+        { "fr": "Il met sa tuque rouge et son foulard bleu.", "en": "He puts on his red hat and blue scarf." },
+        { "fr": "Son manteau jaune et son pantalon bleu sont chauds.", "en": "His yellow coat and blue pants are warm." },
+        { "fr": "Il aime mettre ses patins bruns.", "en": "He loves putting on his brown skates." },
+        { "fr": "Il patine vite.", "en": "He skates fast." },
+        { "fr": "Nicolas aime patiner.", "en": "Nicolas loves skating." },
+        { "fr": "Nicolas aime l'hiver.", "en": "Nicolas loves winter." }
+      ],"LesAteliers": [
+    { "fr": "Dans notre classe, nous avons des ateliers.", "en": "In our class, we have workshops." },
+    { "fr": "Dans notre atelier, nous jouons à des jeux éducatifs.", "en": "In our workshop, we play educational games." },
+    { "fr": "Valérie joue au domino des mots avec Simon.", "en": "Valérie plays word dominoes with Simon." },
+    { "fr": "Caroline s'amuse à chercher des mots avec Mathieu.", "en": "Caroline has fun searching for words with Mathieu." },
+    { "fr": "Josée aime lire des histoires drôles.", "en": "Josée enjoys reading funny stories." },
+    { "fr": "Dans notre classe, tout le monde s'amuse.", "en": "In our class, everyone is having fun." }
+],"AlaFerme": [
+    { "fr": "Dans la ferme d'oncle Noé, il y a beaucoup d'animaux.", "en": "In Uncle Noé's farm, there are many animals." },
+    { "fr": "Il y a deux poules, un coq et trois poussins.", "en": "There are two hens, a rooster, and three chicks." },
+    { "fr": "Il y a trois moutons, une vache et trois canards.", "en": "There are three sheep, a cow, and three ducks." },
+    { "fr": "Oncle Noé aime beaucoup ses animaux.", "en": "Uncle Noé loves his animals very much." },
+    { "fr": "Il leur donne des granulés et de l'herbe fraîche.", "en": "He gives them pellets and fresh grass." }
+],"LeJudo": [
+    { "fr": "C'est samedi.", "en": "It's Saturday." },
+    { "fr": "Émilie et Félix font du judo.", "en": "Émilie and Félix practice judo." },
+    { "fr": "Émilie est une judoka.", "en": "Émilie is a judoka." },
+    { "fr": "Félix est un judoka.", "en": "Félix is a judoka." },
+    { "fr": "Le dojo est la salle de judo.", "en": "The dojo is the judo hall." },
+    { "fr": "Émilie doit écouter.", "en": "Émilie must listen." },
+    { "fr": "Félix doit suivre les consignes.", "en": "Félix must follow the instructions." },
+    { "fr": "Émilie et Félix ont une ceinture jaune.", "en": "Émilie and Félix have a yellow belt." },
+    { "fr": "Émilie a fait tomber Félix.", "en": "Émilie knocked Félix down." },
+    { "fr": "Félix est tombé sur un matelas.", "en": "Félix fell on a mat." },
+    { "fr": "Il y a beaucoup de règles de sécurité.", "en": "There are many safety rules." },
+    { "fr": "Émilie et Félix s'amusent beaucoup.", "en": "Émilie and Félix have a lot of fun." }
+],"LaSoupe": [
+    { "fr": "Papa a décidé de faire sa fameuse soupe aux légumes.", "en": "Dad decided to make his famous vegetable soup." },
+    { "fr": "Mélanie lave les carottes et le céleri.", "en": "Mélanie washes the carrots and celery." },
+    { "fr": "Dans le bouillon de poulet, Rémi ajoute des morceaux de poireaux.", "en": "In the chicken broth, Rémi adds pieces of leeks." },
+    { "fr": "Papa ajoute une boîte de tomates coupées en dés.", "en": "Dad adds a can of diced tomatoes." },
+    { "fr": "Papa, Mélanie et Rémi regardent la soupe qui mijote.", "en": "Dad, Mélanie, and Rémi watch the soup simmer." },
+    { "fr": "Toute la famille s'en régalera pour le dîner.", "en": "The whole family will enjoy it for dinner." }
+]
+
+
+
+
+    }
+  }
+  

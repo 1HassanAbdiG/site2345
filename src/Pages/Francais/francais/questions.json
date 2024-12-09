@@ -1,0 +1,97 @@
+{
+  "text": {
+    "title": "Boubou",
+    "content": [
+      "Boubou est un canari.",
+      "Il est jaune.",
+      "Boubou aime bien sa cage.",
+      "Parfois, il peut sortir.",
+      "Cathy aime Boubou.",
+      "Sa grand-maman lui a donné Boubou.",
+      "Cathy lui donne des grains.",
+      "Cathy aime entendre Boubou chanter."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Boubou est un canari.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Boubou est rouge.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Cathy aime Boubou.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Boubou n'aime pas sa cage.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Cathy a reçu Boubou de sa grand-maman.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quelle couleur est Boubou ?",
+      "choices": ["Jaune", "Bleu"],
+      "correctAnswer": "Jaune"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui donne des grains à Boubou ?",
+      "choices": ["Cathy", "Sa grand-mam"],
+      "correctAnswer": "Cathy"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quand Boubou peut-il sortir ?",
+      "choices": ["Quand il veut", "Parfois"],
+      "correctAnswer": "Parfois"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui aime entendre Boubou chanter ?",
+      "choices": ["Cathy", "Boubou"],
+      "correctAnswer": "Cathy"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel animal est Boubou ?",
+      "choices": ["Un canari", "Un chien"],
+      "correctAnswer": "Un canari"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quel est le nom du canari ?",
+      "correctAnswer": "Boubou"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "De qui Cathy a-t-elle reçu Boubou ?",
+      "correctAnswer": "Sa grand-maman"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quelle nourriture Cathy donne-t-elle à Boubou ?",
+      "correctAnswer": "Des grains"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "De quelle couleur est Boubou ?",
+      "correctAnswer": "Jaune"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Qu'est-ce que Cathy aime faire avec Boubou ?",
+      "correctAnswer": "Entendre chanter"
+    }
+  ]
+}

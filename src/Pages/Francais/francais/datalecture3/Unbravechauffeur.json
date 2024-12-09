@@ -1,0 +1,190 @@
+{
+    "text": {
+      "title": "La poursuite de Steve",
+      "content": [
+        "Steve, un chauffeur de taxi, retournait en ville. Il venait de reconduire un touriste à l'aéroport.",
+        "En chemin, il s'est arrêté acheter un gouter au casse-croute.",
+        "Il est ensuite allé déguster son sandwich à l'ombre d'un arbre dans un parc.",
+        "De là, il a remarqué un jeune homme d'apparence négligée, aux longs cheveux emmêlés.",
+        "Il suivait un couple de gens âgés qui se promenaient tranquillement dans le parc.",
+        "Le jeune homme lui semblait suspect, alors Steve a décidé de garder un œil sur le couple âgé.",
+        "Tout à coup, le jeune homme a arraché le sac à main de la dame et s'est sauvé. La vieille dame s'est mise à crier.",
+        "Steve a immédiatement jeté le reste de son sandwich et est parti à la course pour tenter de rattraper l'homme.",
+        "Le voleur courait très vite. Steve savait qu'il ne pourrait pas le rattraper à pied.",
+        "Il a décidé de prendre son taxi. Le voleur s'est élancé dans la rue sans tenir compte de la circulation. Il a failli se faire renverser par une voiture.",
+        "Ensuite, il est entré dans la foule et Steve l'a perdu de vue.",
+        "Malgré cela, Steve refusait d'abandonner. Après l'avoir cherché pendant une dizaine de minutes, Steve a aperçu le jeune voleur à un arrêt d'autobus.",
+        "Rapidement, il a garé son taxi sur le bord de la rue et s'est précipité derrière le voleur.",
+        "Lorsqu'il l'a rejoint, il s'est jeté sur lui. Le voleur s'est débattu de toutes ses forces, et Steve a été poignardé au bras droit.",
+        "Même s'il était blessé, il a réussi à maitriser le voleur.",
+        "Au même moment, le couple âgé est arrivé dans une voiture de police. Les policiers ont rapidement arrêté le voleur et lui ont passé les menottes."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Steve a reconduit un touriste à l'aéroport avant de retourner en ville.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Steve a vu un jeune homme suspect dans le parc.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le jeune homme a volé le sac à main de la dame sans que Steve ne réagisse.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Steve a utilisé son taxi pour poursuivre le voleur.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment Steve a-t-il perdu le voleur de vue ?",
+        "choices": [
+          "En entrant dans la foule",
+          "En continuant à pied",
+          "En se cachant derrière un arbre"
+        ],
+        "correctAnswer": "En entrant dans la foule"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que faisait le jeune homme dans le parc avant de voler le sac ?",
+        "choices": [
+          "Il se promenait",
+          "Il suivait un couple",
+          "Il discutait avec Steve"
+        ],
+        "correctAnswer": "Il suivait un couple"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que s'est-il passé lorsqu'ils ont rejoint le voleur à l'arrêt d'autobus ?",
+        "choices": [
+          "Steve a réussi à lui parler",
+          "Steve a été blessé",
+          "Steve a échappé au voleur"
+        ],
+        "correctAnswer": "Steve a été blessé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'ont fait les policiers après avoir attrapé le voleur ?",
+        "choices": [
+          "Ils lui ont passé les menottes",
+          "Ils l'ont relâché",
+          "Ils ont interrogé Steve"
+        ],
+        "correctAnswer": "Ils lui ont passé les menottes"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qu'est-ce que Steve a jeté avant de poursuivre le voleur ?",
+        "correctAnswer": "Le reste de son sandwich"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "À quel moment Steve a été blessé ?",
+        "correctAnswer": "Lorsqu'il a maîtrisé le voleur"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi Steve a-t-il pris son taxi ?",
+        "correctAnswer": "Pour poursuivre le voleur"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que faisait le jeune homme juste avant de s'enfuir avec le sac à main ?",
+        "correctAnswer": "Il a arraché le sac à main de la dame"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel moyen de transport Steve a-t-il utilisé pour poursuivre le voleur ?",
+        "correctAnswer": "Son taxi"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un voleur peut s'enfuir après avoir volé un objet.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un taxi est un moyen de transport utilisé pour de longues distances.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Steve a utilisé un train pour poursuivre le voleur.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les menottes sont utilisées pour arrêter une personne.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un parc est un endroit où l'on trouve seulement des arbres.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'voleur' dans le contexte du texte ?",
+        "choices": [
+          "Une personne qui utilise la force pour obtenir de l'argent",
+          "Une personne qui vole un objet",
+          "Une personne qui travaille dans un taxi"
+        ],
+        "correctAnswer": "Une personne qui vole un objet"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le rôle des menottes dans l'histoire ?",
+        "choices": [
+          "Se protéger",
+          "Arrêter le voleur",
+          "Garder le voleur éloigné"
+        ],
+        "correctAnswer": "Arrêter le voleur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel moyen de transport Steve a-t-il utilisé ?",
+        "choices": [
+          "Un avion",
+          "Un train",
+          "Un taxi"
+        ],
+        "correctAnswer": "Un taxi"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi le jeune homme a-t-il traversé la rue ?",
+        "choices": [
+          "Pour éviter Steve",
+          "Pour traverser la foule",
+          "Pour échapper à la police"
+        ],
+        "correctAnswer": "Pour échapper à la police"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'une poursuite dans une histoire comme celle-ci ?",
+        "choices": [
+          "Une compétition de course",
+          "Le fait de poursuivre quelqu'un pour le capturer",
+          "Une histoire de taxi"
+        ],
+        "correctAnswer": "Le fait de poursuivre quelqu'un pour le capturer"
+      }
+    ]
+  }
+  

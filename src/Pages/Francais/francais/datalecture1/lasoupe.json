@@ -1,0 +1,155 @@
+{
+    "text": {
+      "title": "La soupe",
+      "content": [
+        "Papa a décidé de faire sa fameuse soupe aux légumes.",
+        "Mélanie lave les carottes et le céleri.",
+        "Dans le bouillon de poulet, Rémi ajoute des morceaux de poireaux.",
+        "Papa ajoute une boîte de tomates coupées en dés.",
+        "Papa, Mélanie et Rémi regardent la soupe qui mijote.",
+        "Toute la famille s'en régalera pour le dîner."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Papa a décidé de faire une soupe aux légumes.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Mélanie lave des tomates et du céleri.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Rémi ajoute des morceaux de poireaux au bouillon de poulet.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Papa ajoute des carottes dans la soupe.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Toute la famille va se régaler de la soupe pour le dîner.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que lave Mélanie pour la soupe ?",
+        "choices": ["Des poireaux", "Des carottes et du céleri", "Des tomates"],
+        "correctAnswer": "Des carottes et du céleri"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'ajoute Rémi dans le bouillon de poulet ?",
+        "choices": ["Des carottes", "Des poireaux", "Des tomates"],
+        "correctAnswer": "Des poireaux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que met Papa dans la soupe après Rémi ?",
+        "choices": ["Des tomates coupées en dés", "Des carottes", "Des oignons"],
+        "correctAnswer": "Des tomates coupées en dés"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que la famille va manger pour le dîner ?",
+        "choices": ["Une soupe aux légumes", "Une salade", "Des pâtes"],
+        "correctAnswer": "Une soupe aux légumes"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qui lave les légumes pour la soupe ?",
+        "choices": ["Papa", "Mélanie", "Rémi"],
+        "correctAnswer": "Mélanie"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel type de soupe prépare Papa ?",
+        "correctAnswer": "Une soupe aux légumes"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui ajoute des poireaux dans le bouillon ?",
+        "correctAnswer": "Rémi"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quelle sorte de tomates ajoute Papa dans la soupe ?",
+        "correctAnswer": "Des tomates coupées en dés"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui participe à la préparation de la soupe ?",
+        "correctAnswer": "Papa, Mélanie et Rémi"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quand la famille va-t-elle manger la soupe ?",
+        "correctAnswer": "Pour le dîner"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un bouillon est un liquide utilisé pour cuire des aliments.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Mijoter signifie cuire rapidement.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Des tomates coupées en dés sont des tomates coupées en petits morceaux.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le céleri est un fruit.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Toute la famille participera à la dégustation de la soupe.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'mijoter' ?",
+        "choices": ["Cuire lentement", "Cuire rapidement", "Ne pas cuire"],
+        "correctAnswer": "Cuire lentement"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un bouillon ?",
+        "choices": ["Un légume", "Un liquide de cuisson", "Un fruit"],
+        "correctAnswer": "Un liquide de cuisson"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que sont des tomates coupées en dés ?",
+        "choices": ["Des tomates écrasées", "Des tomates entières", "Des tomates coupées en petits morceaux"],
+        "correctAnswer": "Des tomates coupées en petits morceaux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel légume est mentionné dans le texte ?",
+        "choices": ["Carotte", "Céleri", "Poireau", "Tous les trois"],
+        "correctAnswer": "Tous les trois"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que va faire la famille avec la soupe ?",
+        "choices": ["La jeter", "La manger", "La donner à un ami"],
+        "correctAnswer": "La manger"
+      }
+    ]
+  }
+  

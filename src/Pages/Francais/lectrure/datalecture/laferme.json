@@ -1,0 +1,154 @@
+{
+    "text": {
+      "title": "À la ferme",
+      "content": [
+        "Dans la ferme d'oncle Noé, il y a beaucoup d'animaux.",
+        "Il y a deux poules, un coq et trois poussins.",
+        "Il y a trois moutons, une vache et trois canards.",
+        "Oncle Noé aime beaucoup ses animaux.",
+        "Il leur donne des granulés et de l'herbe fraîche."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Il y a deux poules à la ferme.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Il y a quatre canards dans la ferme.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Oncle Noé donne de l'herbe fraîche à ses animaux.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Il y a un coq et trois poussins à la ferme.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Il y a cinq moutons dans la ferme.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Combien de poules y a-t-il à la ferme d'oncle Noé ?",
+        "choices": ["Deux", "Trois", "Quatre"],
+        "correctAnswer": "Deux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quels animaux se trouvent dans la ferme avec le coq et les poussins ?",
+        "choices": ["Deux poules", "Trois moutons", "Une vache"],
+        "correctAnswer": "Deux poules"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que Noé donne à ses animaux ?",
+        "choices": ["Du pain", "Des granulés et de l'herbe fraîche", "Des fruits"],
+        "correctAnswer": "Des granulés et de l'herbe fraîche"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qui aime beaucoup ses animaux ?",
+        "choices": ["Oncle Noé", "La vache", "Les poussins"],
+        "correctAnswer": "Oncle Noé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Combien de canards sont dans la ferme ?",
+        "choices": ["Trois", "Deux", "Cinq"],
+        "correctAnswer": "Trois"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Combien d'animaux différents sont mentionnés dans le texte ?",
+        "correctAnswer": "6"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel est le nom de la ferme ?",
+        "correctAnswer": "La ferme d'oncle Noé"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que donne Noé à ses animaux en plus des granulés ?",
+        "correctAnswer": "De l'herbe fraîche"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Combien de poussins y a-t-il à la ferme ?",
+        "correctAnswer": "Trois"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quel est l'animal qui accompagne les moutons et les canards ?",
+        "correctAnswer": "Une vache"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un coq est un animal de la ferme.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une vache donne du lait.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les poussins sont des bébés poules.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les canards volent dans le ciel.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les moutons n'ont pas de laine.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que mange une vache ?",
+        "choices": ["De l'herbe fraîche", "Des fruits", "Du poisson"],
+        "correctAnswer": "De l'herbe fraîche"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'granulés' ?",
+        "choices": ["Petits morceaux d'aliments", "Petites pierres", "Grains de sable"],
+        "correctAnswer": "Petits morceaux d'aliments"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un 'coq' ?",
+        "choices": ["Un oiseau de ferme", "Un poisson", "Un reptile"],
+        "correctAnswer": "Un oiseau de ferme"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fait le mouton ?",
+        "choices": ["Il produit de la laine", "Il vole", "Il nage"],
+        "correctAnswer": "Il produit de la laine"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un 'poussin' ?",
+        "choices": ["Un bébé poule", "Un canard", "Un mouton"],
+        "correctAnswer": "Un bébé poule"
+      }
+    ]
+  }
+  

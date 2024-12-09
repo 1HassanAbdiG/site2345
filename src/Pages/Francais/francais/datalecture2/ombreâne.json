@@ -1,0 +1,264 @@
+{
+    "text": {
+        "title": "À l'ombre d'un âne",
+        "content": [
+            "Un marchand devait se rendre dans une ville. Il devait traverser un vaste désert pour s'y rendre.",
+            "Il a décidé d'engager un guide et son âne. Le marchand s'est assis sur l'âne, et le guide marchait à côté.",
+            "Vers midi, le soleil était très chaud. Ils étaient rendus au milieu du désert. Ils ne voyaient aucun arbre et aucun buisson autour.",
+            "Le marchand était fatigué, alors il est descendu de l'âne et s'est assis dans son ombre.",
+            "Pour la première fois, le guide s'est plaint.",
+            "\"Cette place est ma place, a dit le guide. Déplace-toi et laisse-moi m'asseoir là.\"",
+            "\"Pas question, a répondu le marchand. J'ai loué cet âne pour la journée entière.\"",
+            "\"Je suis d'accord, tu as loué l'âne, a dit le guide. Mais tu n'as pas loué son ombre. L'ombre est à moi.\"",
+            "Le marchand et le guide ont commencé à se disputer.",
+            "Pendant leur dispute, l'âne était fatigué de rester debout et il est parti.",
+            "Les deux hommes étaient inattentifs quand l'âne est parti.",
+            "À la fin, le marchand et le guide sont restés seuls dans le désert, sans ombre et sans transport."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Le marchand et son guide traversaient une ville.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le marchand a loué l'âne pour toute la journée.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le guide a affirmé que l'ombre de l'âne lui appartenait.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "L'âne est parti alors que le marchand et le guide se disputaient.",
+            "correctAnswer": true
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi le marchand s'est-il assis dans l'ombre de l'âne ?",
+            "choices": [
+                "Parce qu'il était fatigué.",
+                "Parce qu'il avait loué l'âne pour toute la journée.",
+                "Parce qu'il voulait se reposer du soleil.",
+                "Les trois réponses ci-dessus."
+            ],
+            "correctAnswer": "Les trois réponses ci-dessus."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel argument le guide a utilisé pour essayer de s'asseoir dans l'ombre de l'âne ?",
+            "choices": [
+                "Il avait loué l'âne.",
+                "L'ombre appartenait au guide.",
+                "Il était fatigué.",
+                "Il avait des droits sur l'âne."
+            ],
+            "correctAnswer": "L'ombre appartenait au guide."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Qu'est-il arrivé à la fin après la dispute entre le marchand et le guide ?",
+            "choices": [
+                "Ils ont retrouvé l'âne.",
+                "L'âne est parti, et ils se sont retrouvés seuls dans le désert.",
+                "Le marchand a gagné la dispute.",
+                "Le guide a accepté la décision du marchand."
+            ],
+            "correctAnswer": "L'âne est parti, et ils se sont retrouvés seuls dans le désert."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel était le problème avec le désert où ils se trouvaient ?",
+            "choices": [
+                "Il était très froid.",
+                "Il n'y avait aucun arbre ni buisson pour se protéger du soleil.",
+                "Le sol était boueux.",
+                "Il y avait beaucoup d'animaux dangereux."
+            ],
+            "correctAnswer": "Il n'y avait aucun arbre ni buisson pour se protéger du soleil."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi le marchand et le guide ont-ils commencé à se disputer ?",
+            "correctAnswer": "Parce que le guide voulait s'asseoir dans l'ombre de l'âne, mais le marchand ne le lui permettait pas."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Qu'est-ce qui a causé leur situation difficile à la fin de l'histoire ?",
+            "correctAnswer": "L'âne est parti pendant qu'ils se disputaient, les laissant seuls dans le désert sans ombre et sans transport."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quel était l'argument principal du guide pour avoir le droit de s'asseoir dans l'ombre ?",
+            "correctAnswer": "Il a dit que l'ombre appartenait au guide, même si le marchand avait loué l'âne pour la journée."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "L'ombre est une protection contre le soleil.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un désert est une région avec beaucoup de pluie et de verdure.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le marchand a loué l'âne, mais pas son ombre.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le guide avait des droits exclusifs sur l'ombre de l'âne.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Les disputes résolvent toujours les conflits.",
+            "correctAnswer": false
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie le mot 'désert' dans le texte ?",
+            "choices": [
+                "Un endroit avec des maisons",
+                "Une grande étendue de sable et chaleur",
+                "Un endroit avec beaucoup de verdure",
+                "Une petite ville"
+            ],
+            "correctAnswer": "Une grande étendue de sable et chaleur"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le sens du mot 'om ombre' dans le contexte du texte ?",
+            "choices": [
+                "Un endroit où se protéger du soleil",
+                "Un objet matériel",
+                "Un endroit pour dormir",
+                "Un espace de repos dans une maison"
+            ],
+            "correctAnswer": "Un endroit où se protéger du soleil"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Lequel de ces mots se rapporte à un déplacement dans le désert ?",
+            "choices": [
+                "Transport",
+                "Ville",
+                "Arbre",
+                "Repos"
+            ],
+            "correctAnswer": "Transport"
+        }
+    ],
+    "conjugationQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'traverse' dans la phrase : 'Il traverse un vaste désert pour s'y rendre' (forme modifiée) ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Présent"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'se plaignait' dans la phrase : 'Pour la première fois, le guide se plaignait' ?",
+            "choices": [
+                "Imparfait",
+                "Présent",
+                "Futur simple"
+            ],
+            "correctAnswer": "Imparfait"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'verra' dans la phrase : 'Bientôt, le marchand verra un village au loin' (forme modifiée) ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Futur simple"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'étaient' dans la phrase : 'Ils étaient inattentifs quand l'âne est parti' ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Imparfait"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'disputent' dans la phrase : 'Le marchand et le guide se disputent à propos de l'ombre' (forme modifiée) ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Présent"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'sera' dans la phrase : 'L'âne sera fatigué de rester debout au soleil' (forme modifiée) ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Futur simple"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'marchait' dans la phrase : 'Le guide marchait à côté de l'âne' ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Imparfait"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'se reposera' dans la phrase : 'Le marchand se reposera à l'ombre de l'âne' (forme modifiée) ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Futur simple"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'reste' dans la phrase : 'L'ombre reste immobile malgré leur dispute' (forme modifiée) ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Présent"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'étaient' dans la phrase : 'Les deux hommes étaient seuls dans le désert' ?",
+            "choices": [
+                "Présent",
+                "Futur simple",
+                "Imparfait"
+            ],
+            "correctAnswer": "Imparfait"
+        }
+    ]
+}

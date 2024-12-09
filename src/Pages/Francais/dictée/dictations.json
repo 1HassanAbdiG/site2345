@@ -1,0 +1,223 @@
+{
+  "months": [
+    {
+      "name": "December",
+      "weeks": [
+        {
+          "name": "Semaine 1",
+          "days": [
+            {
+              "day": "Jour 1",
+              "title": "Dictée 1",
+              "words": [
+                "année",
+                "cage",
+                "chanteur",
+                "crolx",
+                "famille",
+                "lecture",
+                "marbre",
+                "morne",
+                "pomme",
+                "remise",
+                "salade"
+              ]
+            },
+            {
+              "day": "Jour 2",
+              "title": "Dictée 2",
+              "words": [
+                "gariicle",
+                "carton",
+                "charme",
+                "devenir",
+                "Ulbre",
+                "marche",
+                "octobre",
+                "premier",
+                "retour",
+                "suite",
+                "avlateur"
+              ]
+            }, {
+              "day": "Jour 3",
+              "title": "Dictée 3",
+              "words": [
+                "cave",
+                "cour",
+                "douleur",
+                "fortune",
+                "ligne",
+                "marque",
+                "proverbe",
+                "riche",
+                "tasse",
+                "bonne",
+                "chaleur"
+              ]
+        
+            }, {
+              "day": "Jour 4",
+              "title": "Dictée 4",
+              "words": [
+                "Costume",
+                "droite",
+                "foudre",
+                "lit",
+                "mère",
+                "pauvre",
+                "redaction",
+                "rude",
+                "tige",
+                "café",
+                "chambre"
+              ]
+        
+            },{
+              "day": "Jour 5",
+              "title": "Dictée 5",
+              "words": [
+                "couche",
+                "écriture",
+                "Joumnal",
+                "maladie",
+                "mid",
+                "plus",
+                "relire",
+                "sable",
+                "volture"
+              ]
+        
+        
+            }
+          ]
+        },
+        {
+          "name": "Semaine 2",
+          "days": [
+            {
+              "day": "Jour 1",
+              "title": "Dictée 1",
+              "words": [
+                "acte",
+                "bois",
+                "chasseur",
+                "conduite",
+                "coude",
+                "étable",
+                "fortement",
+                "juste",
+                "miracle",
+                "prince",
+                "ruche",
+                "survenir",
+                "visite",
+                "artiste"
+              ]
+        
+            },{
+              "day": "Jour 2",
+              "title": "Dictée 2",
+              "words": [
+                "bor",
+                "chemise",
+                "confiture",
+                "courage",
+                "établir",
+                "froid",
+                "malade",
+                "moine",
+                "orange",
+                "regarder",
+                "SAC",
+                "tartine",
+                "visiteur",
+                "astre"
+              ]
+        
+            },{
+              "day": "Jour 3",
+              "title": "Dictée 3",
+              "words": [
+                "bord",
+                "chercher",
+                "contenir",
+                "dans",
+                "fabrique",
+                "futur",
+                "mariage",
+                "monde",
+                "penible",
+                "reste",
+                "semaine",
+                "toucher",
+                "voleur",
+                "blé"
+              ]
+        
+            },{
+              "day": "Jour 4",
+              "title": "Dictée 4",
+              "words": [
+                "cabine",
+                "chevelure",
+                "convenir",
+                "élève",
+                "faute",
+                "gros",
+                "matière",
+                "musique",
+                "personne",
+                "reunir",
+                "vie",
+                "vue",
+                "boire",
+                "chasse"
+              ]
+        
+            },{
+              "day": "Jour 5",
+              "title": "Dictée 5",
+              "words": [
+                "compagnon",
+                "coucou",
+                "entro",
+                "fleuve",
+                "journée",
+                "mineur",
+                "nelge",
+                "peur",
+                "ronde",
+                "sortie",
+                "visage",
+                "lire",
+                "mouton",
+                "perle"
+              ]
+        
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Février",
+      "weeks": [
+        {
+          "name": "Semaine 1",
+          "days": [
+            {
+              "day": "Jour 1",
+              "title": "Dictée 4",
+              "words": [
+                "chien",
+                "arbre",
+                "rivière"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

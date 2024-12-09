@@ -1,0 +1,79 @@
+/* PhraseReconstruction.module.css */
+.gameContainer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  .phraseArea {
+    margin-bottom: 20px;
+    border: 2px solid #4169e1;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .wordBank {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .word {
+    background-color: #4169e1;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .word:hover {
+    transform: scale(1.05);
+  }
+  
+  .constructionArea {
+    min-height: 30px;
+    border: 2px dashed #4169e1;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .checkButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .buttonArea {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actionButton {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actionButton:hover {
+    background-color: #1976D2;
+  }
+  

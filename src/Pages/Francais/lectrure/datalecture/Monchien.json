@@ -1,0 +1,154 @@
+{
+  "text": {
+    "title": "Mon chien",
+    "content": [
+      "Mon chien se nomme Roko.",
+      "Roko est noir avec des taches blanches.",
+      "Roko aime se cacher dans le panier de vêtements propres.",
+      "Il mange de la nourriture pour chiens.",
+      "Roko se couche sur le tapis de ma chambre.",
+      "J'aime mon chien."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Mon chien se nomme Roko.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Roko est blanc.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Roko aime se cacher dans le panier de vêtements propres.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Roko mange des légumes.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "J'aime mon chien.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "De quelle couleur est Roko ?",
+      "choices": ["Noir", "Blanc"],
+      "correctAnswer": "Noir"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Où Roko aime-t-il se cacher ?",
+      "choices": ["Dans le jardin", "Dans le panier de vêtements propres"],
+      "correctAnswer": "Dans le panier de vêtements propres"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que mange Roko ?",
+      "choices": ["De la nourriture pour chiens", "Des bonbons"],
+      "correctAnswer": "De la nourriture pour chiens"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Où Roko se couche-t-il ?",
+      "choices": ["Sur le tapis de ma chambre", "Dans le jardin"],
+      "correctAnswer": "Sur le tapis de ma chambre"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Comment s'appelle mon chien ?",
+      "choices": ["Roko", "Bobo"],
+      "correctAnswer": "Roko"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quel est le nom de mon chien ?",
+      "correctAnswer": "Roko"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quelle est la couleur de Roko ?",
+      "correctAnswer": "Noir avec des taches blanches"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que fait Roko dans le panier ?",
+      "correctAnswer": "Se cacher"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quelle nourriture Roko mange-t-il ?",
+      "correctAnswer": "De la nourriture pour chiens"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Où Roko se couche-t-il ?",
+      "correctAnswer": "Sur le tapis de ma chambre"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "'Noir' est une couleur sombre.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Se cacher' signifie se rendre visible.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Chambre' signifie une pièce où l'on dort.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Tapis' signifie une surface dure.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Nourriture' est ce qu'on mange.",
+      "correctAnswer": true
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'se cacher' ?",
+      "choices": ["Se rendre invisible", "Se rendre visible"],
+      "correctAnswer": "Se rendre invisible"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'noir' ?",
+      "choices": ["Couleur sombre", "Couleur claire"],
+      "correctAnswer": "Couleur sombre"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'chambre' ?",
+      "choices": ["Une pièce pour dormir", "Une pièce pour manger"],
+      "correctAnswer": "Une pièce pour dormir"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'tapis' ?",
+      "choices": ["Une couverture pour le sol", "Une couverture pour le lit"],
+      "correctAnswer": "Une couverture pour le sol"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'nourriture' ?",
+      "choices": ["Ce qu'on mange", "Ce qu'on boit"],
+      "correctAnswer": "Ce qu'on mange"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+    "text": {
+      "title": "Le visiteur masqué",
+      "content": [
+        "Un soir, monsieur Dumont et sa famille regardaient la télévision. Ils étaient réunis dans le salon.",
+        "Soudain, vers 22 h 30, ils ont entendu un bruit. C'était comme si quelqu'un ou quelque chose tombait.",
+        "Ça venait d'une chambre à coucher à l'étage. Chacun était surpris parce qu'ils étaient tous en bas.",
+        "Monsieur Dumont n'a pas perdu de temps et s'est rendu en haut. Tous les membres de la famille, même le plus jeune, l'ont suivi.",
+        "Monsieur Dumont est entré dans la chambre des maitres et a allumé la lampe.",
+        "Il y avait un homme debout devant la fenêtre ouverte. Il portait un masque et des vêtements noirs de la tête aux pieds.",
+        "C'était un voleur! Monsieur Dumont a couru pour l'attraper, mais il était trop tard.",
+        "Le voleur avait déjà descendu par une corde. Bientôt, il a disparu dans la noirceur.",
+        "Monsieur Dumont a regardé autour de lui et a repris sa mallette qui était par terre.",
+        "C'était peut-être ça le bruit. Heureusement, rien n'a été volé.",
+        "Le voleur n'a pas eu le temps de commettre le vol."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "La famille Dumont regardait la télévision un soir dans le salon.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "L'homme masqué portait des vêtements rouges.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Monsieur Dumont a couru pour attraper le voleur, mais il n'a pas réussi.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La mallette de monsieur Dumont a été volée.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel bruit a attiré l'attention de la famille Dumont ?",
+        "choices": [
+          "Un bruit de porte",
+          "Un bruit comme si quelqu'un ou quelque chose tombait",
+          "Un bruit de voiture",
+          "Un cri venant de l'étage"
+        ],
+        "correctAnswer": "Un bruit comme si quelqu'un ou quelque chose tombait"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où se trouvait le voleur lorsque la famille Dumont l'a aperçu ?",
+        "choices": [
+          "Dans le salon",
+          "Devant la fenêtre ouverte dans la chambre des maîtres",
+          "Dans la cuisine",
+          "Sur le toit"
+        ],
+        "correctAnswer": "Devant la fenêtre ouverte dans la chambre des maîtres"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment le voleur a-t-il disparu ?",
+        "choices": [
+          "Il a couru rapidement",
+          "Il a descendu par une corde",
+          "Il a sauté par la fenêtre",
+          "Il a été capturé par la police"
+        ],
+        "correctAnswer": "Il a descendu par une corde"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que pensait monsieur Dumont à propos du bruit entendu ?",
+        "choices": [
+          "Qu'un objet avait été volé",
+          "Qu'il s'agissait de la mallette qu'il avait laissée",
+          "Qu'un autre membre de la famille avait été en danger",
+          "Qu'un animal était dans la maison"
+        ],
+        "correctAnswer": "Qu'il s'agissait de la mallette qu'il avait laissée"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi la famille Dumont était-elle surprise lorsqu'elle a entendu le bruit ?",
+        "correctAnswer": "Parce qu'ils étaient tous en bas, loin de la source du bruit."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que faisait l'homme masqué lorsqu'il a été vu par la famille ?",
+        "correctAnswer": "Il était debout devant la fenêtre ouverte, avec un masque et des vêtements noirs."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "La mallette a-t-elle été volée par le voleur ?",
+        "correctAnswer": "Non, rien n'a été volé."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment le voleur a-t-il échappé à la famille Dumont ?",
+        "correctAnswer": "Il a descendu par une corde et a disparu dans la noirceur."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Monsieur Dumont a repris sa mallette après avoir cherché autour de lui. Que savait-il à ce moment ?",
+        "correctAnswer": "Il savait que rien n'avait été volé."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un masque est souvent utilisé pour dissimuler l'identité.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La mallette de M. Dumont a été volée par le voleur.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les vêtements noirs sont souvent associés à des activités de cambrioleur dans les histoires.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le bruit venait d'une voiture passant dans la rue.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Monsieur Dumont a réussi à capturer le voleur.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'voleur' dans le texte ?",
+        "choices": [
+          "Une personne qui donne de l'argent",
+          "Une personne qui prend quelque chose sans autorisation",
+          "Une personne qui travaille dans une agence",
+          "Une personne qui répare des objets"
+        ],
+        "correctAnswer": "Une personne qui prend quelque chose sans autorisation"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'noirceur' dans le contexte du texte ?",
+        "choices": [
+          "La lumière",
+          "Les ténèbres ou l'obscurité",
+          "La couleur de vêtements",
+          "Une ombre",
+          "La peur"
+        ],
+        "correctAnswer": "Les ténèbres ou l'obscurité"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'bruit' dans le texte ?",
+        "choices": [
+          "Un son provenant de la nature",
+          "Un son étrange et soudain",
+          "Un son provenant de la rue",
+          "Un son dans la maison"
+        ],
+        "correctAnswer": "Un son étrange et soudain"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment le mot 'mallette' est-il utilisé dans ce texte ?",
+        "choices": [
+          "Un outil de travail",
+          "Un objet personnel souvent utilisé pour transporter des affaires",
+          "Une arme",
+          "Un moyen de transport"
+        ],
+        "correctAnswer": "Un objet personnel souvent utilisé pour transporter des affaires"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'disparu dans la noirceur' ?",
+        "choices": [
+          "Avoir disparu dans une lumière vive",
+          "Avoir disparu dans l'obscurité",
+          "Avoir disparu avec un cri",
+          "Avoir disparu en courant"
+        ],
+        "correctAnswer": "Avoir disparu dans l'obscurité"
+      }
+    ]
+  }
+  

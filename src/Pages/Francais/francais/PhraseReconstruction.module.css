@@ -1,0 +1,115 @@
+/* Game container styles */
+.gameContainer {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+}
+
+/* Phrase area */
+.phraseArea {
+  margin-bottom: 20px;
+  border: 2px solid #4169e1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Word bank */
+.wordBank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.word {
+  background-color: #4169e1;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.word:hover {
+  transform: scale(1.05);
+}
+
+/* Construction area */
+.constructionArea {
+  min-height: 30px;
+  border: 2px dashed #4169e1;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Check button */
+.checkButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Message style */
+.message {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* Button area */
+.buttonArea {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.actionButton {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  background-color: #1976D2;
+}
+
+/* Attractive Select styles */
+.selectContainer {
+  margin: 80px ;
+
+}
+
+.selectDropdown {
+  appearance: none; /* Remove default browser styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  gap: 20px;
+  
+  padding: 10px 15px;
+  border: 2px solid #9f4315;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.selectDropdown:hover {
+  background-color: #d9eaff;
+}
+
+.selectDropdown:focus {
+  outline: none;
+  border-color: #1e90ff;
+}

@@ -1,0 +1,155 @@
+{
+  "text": {
+    "title": "Le repas",
+    "content": [
+      "Maman lave les tomates.",
+      "Mario lave la laitue et les légumes.",
+      "Maman coupe les tomates et les légumes.",
+      "Papa coupe le rôti.",
+      "Valérie met la nappe et les plats sur la table.",
+      "Tout le monde mange.",
+      "C'est bon !"
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Maman lave les tomates.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Mario coupe la laitue.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Papa coupe le rôti.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Valérie met la nappe sur la table.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Personne ne mange à la fin.",
+      "correctAnswer": false
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui lave la laitue et les légumes ?",
+      "choices": ["Maman", "Mario"],
+      "correctAnswer": "Mario"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui coupe les tomates ?",
+      "choices": ["Maman", "Papa"],
+      "correctAnswer": "Maman"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui met la nappe sur la table ?",
+      "choices": ["Valérie", "Mario"],
+      "correctAnswer": "Valérie"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que fait Papa pendant le repas ?",
+      "choices": ["Il coupe le rôti", "Il met la table"],
+      "correctAnswer": "Il coupe le rôti"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Comment est le repas à la fin ?",
+      "choices": ["C'est bon", "C'est mauvais"],
+      "correctAnswer": "C'est bon"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que lave Maman ?",
+      "correctAnswer": "Les tomates"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que fait Mario avec les légumes ?",
+      "correctAnswer": "Il les lave"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Qui coupe le rôti ?",
+      "correctAnswer": "Papa"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que met Valérie sur la table ?",
+      "correctAnswer": "La nappe et les plats"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Comment est le repas pour tout le monde à la fin ?",
+      "correctAnswer": "C'est bon"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "'Laver' signifie nettoyer quelque chose.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Couper' signifie assembler des choses.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Nappe' signifie une couverture pour la table.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Légumes' signifie des fruits.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Rôti' est un plat de viande.",
+      "correctAnswer": true
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'laver' ?",
+      "choices": ["Nettoyer", "Cuisiner"],
+      "correctAnswer": "Nettoyer"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'couper' ?",
+      "choices": ["Diviser en morceaux", "Assembler des choses"],
+      "correctAnswer": "Diviser en morceaux"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'nappe' ?",
+      "choices": ["Couverture pour la table", "Couverture pour dormir"],
+      "correctAnswer": "Couverture pour la table"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que sont des 'légumes' ?",
+      "choices": ["Des plantes à manger", "Des fruits"],
+      "correctAnswer": "Des plantes à manger"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'rôti' ?",
+      "choices": ["Un plat de viande", "Un dessert"],
+      "correctAnswer": "Un plat de viande"
+    }
+  ]
+}

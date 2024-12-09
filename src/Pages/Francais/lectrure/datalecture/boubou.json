@@ -1,0 +1,156 @@
+{
+  "text": {
+    "title": "Boubou",
+    "content": [
+      "Boubou est un canari.",
+      "Il est jaune.",
+      "Boubou aime bien sa cage.",
+      "Parfois, il peut sortir.",
+      "Cathy aime Boubou.",
+      "Sa grand-maman lui a donné Boubou.",
+      "Cathy lui donne des grains.",
+      "Cathy aime entendre Boubou chanter."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Boubou est un canari.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Boubou est rouge.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Cathy aime Boubou.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Boubou n'aime pas sa cage.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Cathy a reçu Boubou de sa grand-maman.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quelle couleur est Boubou ?",
+      "choices": ["Jaune", "Bleu", "Vert"],
+      "correctAnswer": "Jaune"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui donne des grains à Boubou ?",
+      "choices": ["Cathy", "Sa grand-maman", "Son papa"],
+      "correctAnswer": "Cathy"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quand Boubou peut-il sortir ?",
+      "choices": ["Quand il veut", "Parfois", "Jamais"],
+      "correctAnswer": "Parfois"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui aime entendre Boubou chanter ?",
+      "choices": ["Cathy", "Boubou", "Son papa"],
+      "correctAnswer": "Cathy"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel animal est Boubou ?",
+      "choices": ["Un canari", "Un chien", "Un chat"],
+      "correctAnswer": "Un canari"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quel est le nom du canari ?",
+      "correctAnswer": "Boubou"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "De qui Cathy a-t-elle reçu Boubou ?",
+      "correctAnswer": "Sa grand-maman"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quelle nourriture Cathy donne-t-elle à Boubou ?",
+      "correctAnswer": "Des grains"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "De quelle couleur est Boubou ?",
+      "correctAnswer": "Jaune"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Qu'est-ce que Cathy aime faire avec Boubou ?",
+      "correctAnswer": "Entendre chanter"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Un 'canari' est un petit oiseau.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Une 'cage' est un endroit fermé pour garder des animaux.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les 'grains' sont un type de nourriture pour les oiseaux.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un 'chat' est un oiseau.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Chanter signifie émettre des sons mélodieux.",
+      "correctAnswer": true
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'canari' ?",
+      "choices": ["Un oiseau", "Un chat", "Un chien"],
+      "correctAnswer": "Un oiseau"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que sont les 'grains' dans le texte ?",
+      "choices": ["De la nourriture pour oiseaux", "Des fruits", "De l'eau"],
+      "correctAnswer": "De la nourriture pour oiseaux"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'cage' ?",
+      "choices": ["Un endroit pour garder des animaux", "Une table", "Un jouet"],
+      "correctAnswer": "Un endroit pour garder des animaux"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'chanter' ?",
+      "choices": ["Émettre des sons mélodieux", "Voler", "Manger"],
+      "correctAnswer": "Émettre des sons mélodieux"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quelle est la couleur de Boubou ?",
+      "choices": ["Jaune", "Rouge", "Bleu"],
+      "correctAnswer": "Jaune"
+    }
+  ]
+}

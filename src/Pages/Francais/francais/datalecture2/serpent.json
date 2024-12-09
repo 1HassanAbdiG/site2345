@@ -1,0 +1,193 @@
+{
+    "text": {
+      "title": "Le Voleur d'Oeufs",
+      "content": [
+        "Un jour, une corneille a construit un nid dans un arbre pour pondre ses œufs.",
+        "Cet arbre était dans la cour de la maison d'un riche marchand.",
+        "Un serpent vivait au pied de cet arbre.",
+        "Un jour que la corneille cherchait de la nourriture, le serpent a rampé jusqu'au nid et a mangé tous les œufs.",
+        "La corneille était très fâchée quand elle a vu le désastre. Elle a voulu prendre sa revanche sur le serpent.",
+        "La corneille a volé jusque dans la maison du marchand.",
+        "Elle a pris un collier de perles qui se trouvait sur la table de l'épouse du marchand.",
+        "Elle a ensuite volé jusqu'à l'arbre et a laissé tomber le collier de perles dans le trou du serpent.",
+        "Lorsque le marchand a appris que le collier de sa femme avait disparu, il a ordonné à ses serviteurs de le retrouver.",
+        "Ils ont cherché partout. L'un des serviteurs a vu le trou au pied de l'arbre.",
+        "Il a alors trouvé le collier et le serpent.",
+        "Immédiatement, il a tué le serpent avec un gros bâton.",
+        "Comme le marchand récompensait le serviteur, la corneille est arrivée toute joyeuse.",
+        "Elle s'était enfin débarrassée de son vilain voisin."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "La corneille a construit un nid pour pondre ses œufs.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le serpent a rampé jusqu'au nid pour jouer avec les œufs.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "La corneille a volé un collier de perles dans la maison du marchand.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le serpent vivait dans un autre arbre, loin de la corneille.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "La corneille s'est vengée du serpent en mettant le collier dans son trou.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où la corneille a-t-elle construit son nid ?",
+        "choices": ["Dans la cour d'un marchand", "Dans une forêt", "Sur une montagne"],
+        "correctAnswer": "Dans la cour d'un marchand"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qui vivait au pied de l'arbre de la corneille ?",
+        "choices": ["Un chat", "Un serpent", "Un chien"],
+        "correctAnswer": "Un serpent"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'a fait le serpent pendant que la corneille cherchait de la nourriture ?",
+        "choices": ["Il a mangé les œufs", "Il s'est caché", "Il a volé le collier"],
+        "correctAnswer": "Il a mangé les œufs"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où la corneille a-t-elle laissé tomber le collier de perles ?",
+        "choices": ["Dans le trou du serpent", "Dans le nid", "Dans la rivière"],
+        "correctAnswer": "Dans le trou du serpent"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment le serviteur a-t-il tué le serpent ?",
+        "choices": ["Avec un bâton", "Avec une épée", "Avec une pierre"],
+        "correctAnswer": "Avec un bâton"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi la corneille était-elle fâchée ?",
+        "correctAnswer": "Parce que le serpent a mangé ses œufs."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qu'a volé la corneille dans la maison du marchand ?",
+        "correctAnswer": "Un collier de perles."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment le serpent a-t-il été retrouvé ?",
+        "correctAnswer": "Un serviteur a trouvé le serpent dans son trou avec le collier."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment la corneille a-t-elle réagi après la mort du serpent ?",
+        "correctAnswer": "Elle était joyeuse de s'être débarrassée de son voisin."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un 'nid' est l'endroit où les oiseaux pondent leurs œufs.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un 'serpent' est un mammifère.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le mot 'collier' désigne un bijou.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un 'marchand' est une personne qui vend des produits.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un 'serviteur' est quelqu'un qui aide une personne riche.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'corneille' ?",
+        "choices": ["Un oiseau", "Un serpent", "Un chat"],
+        "correctAnswer": "Un oiseau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'serpent' ?",
+        "choices": ["Un reptile", "Un oiseau", "Un mammifère"],
+        "correctAnswer": "Un reptile"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'nid' ?",
+        "choices": ["Un abri pour les œufs", "Un aliment", "Une maison"],
+        "correctAnswer": "Un abri pour les œufs"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'marchand' ?",
+        "choices": ["Une personne qui vend des produits", "Une personne qui enseigne", "Un médecin"],
+        "correctAnswer": "Une personne qui vend des produits"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'collier' ?",
+        "choices": ["Un bijou", "Un aliment", "Un outil"],
+        "correctAnswer": "Un bijou"
+      }
+    ],
+        "conjugationQCM": [
+          {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'a construit' dans la phrase : 'Une corneille a construit un nid dans un arbre' ?",
+            "choices": ["Passé composé", "Présent", "Futur simple"],
+            "correctAnswer": "Passé composé"
+          },
+          {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'cherchait' dans la phrase : 'Un jour que la corneille cherchait de la nourriture' ?",
+            "choices": ["Imparfait", "Passé composé", "Présent"],
+            "correctAnswer": "Imparfait"
+          },
+          {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'vivait' dans la phrase : 'Un serpent vivait au pied de cet arbre' ?",
+            "choices": ["Imparfait", "Passé composé", "Présent"],
+            "correctAnswer": "Imparfait"
+          },
+          {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'a laissé' dans la phrase : 'Elle a laissé tomber le collier de perles dans le trou du serpent' ?",
+            "choices": ["Passé composé", "Présent", "Imparfait"],
+            "correctAnswer": "Passé composé"
+          },
+          {
+            "type": "multipleChoice",
+            "question": "Quel est le temps du verbe 'récompensait' dans la phrase : 'Comme le marchand récompensait le serviteur' ?",
+            "choices": ["Imparfait", "Présent", "Futur simple"],
+            "correctAnswer": "Imparfait"
+          }
+        ]
+    
+      
+    
+  }
+  
