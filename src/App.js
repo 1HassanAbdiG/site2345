@@ -10,6 +10,8 @@ import Nav from './Pages/Nav';
 import styles from './Pages//Accueil.module.css';
 import Conjugation from './Pages/conjuguaison/Conjugation';
 import AdjectiveLesson from './Pages/grammaire/AdjectiveLesson';
+import DecimauxExercice from './Pages/maths/decimaux/decimaux';
+import Mathematiques from './Pages/maths/Mathematiques';
 
 const App = () => {
   return (
@@ -29,10 +31,14 @@ const App = () => {
             
           <Route path="/" element={<Accueil/>} />
           <Route path="/francais" element={<Francais/>} />
+          <Route path="/mathematiques" element={<Mathematiques/>} />
+          
+
           <Route path="/francais/dictee" element={<Dictation/>} />
           <Route path="/francais/comprehension" element={<Lecture/>} />
           <Route path="/francais/conjugaison" element={<Conjugation/>} />
           <Route path="/francais/grammaire" element={<AdjectiveLesson/>} />
+          <Route path="/exerciseDecimaux" element={<DecimauxExercice/>} />
           
 
           
