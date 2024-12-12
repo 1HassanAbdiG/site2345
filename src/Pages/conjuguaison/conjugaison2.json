@@ -1,0 +1,97 @@
+{
+    "1er groupe": {
+      "rule": {
+        "title": "Les verbes du 1er groupe au futur simple",
+        "content": [
+          {
+            "idea": "Structure",
+            "text": "Les verbes du 1er groupe au futur simple conservent leur radical en '-er' et ajoutent les terminaisons : -ai, -as, -a, -ons, -ez, -ont."
+          },
+          {
+            "idea": "Exemples",
+            "text": "Exemples courants : aimer, chanter, jouer, marcher."
+          },
+          {
+            "idea": "Conjugaison",
+            "text": "Les terminaisons au futur sont régulières et suivent une structure simple."
+          },
+          {
+            "idea": "Astuce",
+            "text": "Pensez à garder le radical complet du verbe avant d'ajouter les terminaisons."
+          }
+        ],
+        "color": ""
+      },
+      "verbs": {
+        "chanter": ["chanterai", "chanteras", "chantera", "chanterons", "chanterez", "chanteront"],
+        "aimer": ["aimerai", "aimeras", "aimera", "aimerons", "aimerez", "aimeront"],
+        "jouer": ["jouerai", "joueras", "jouera", "jouerons", "jouerez", "joueront"],
+        "marcher": ["marcherai", "marcheras", "marchera", "marcherons", "marcherez", "marcheront"]
+      }
+    },
+    "2e groupe": {
+      "rule": {
+        "title": "Les verbes du 2e groupe au futur simple",
+        "content": [
+          {
+            "idea": "Structure",
+            "text": "Les verbes du 2e groupe conservent leur radical en '-ir' et ajoutent les terminaisons : -ai, -as, -a, -ons, -ez, -ont."
+          },
+          {
+            "idea": "Exemples",
+            "text": "Exemples courants : finir, choisir, grandir, réussir."
+          },
+          {
+            "idea": "Conjugaison",
+            "text": "Le futur suit une structure régulière et logique."
+          },
+          {
+            "idea": "Astuce",
+            "text": "N'oubliez pas que le radical du verbe inclut toujours le 'i'."
+          }
+        ],
+        "color": "#"
+      },
+      "verbs": {
+        "finir": ["finirai", "finiras", "finira", "finirons", "finirez", "finiront"],
+        "choisir": ["choisirai", "choisiras", "choisira", "choisirons", "choisirez", "choisiront"],
+        "grandir": ["grandirai", "grandiras", "grandira", "grandirons", "grandirez", "grandiront"],
+        "réussir": ["réussirai", "réussiras", "réussira", "réussirons", "réussirez", "réussiront"]
+      }
+    },
+    "3e groupe": {
+      "rule": {
+        "title": "Les verbes du 3e groupe au futur simple",
+        "content": [
+          {
+            "idea": "Structure",
+            "text": "Les verbes du 3e groupe ont des radicaux souvent irréguliers et nécessitent d'être mémorisés."
+          },
+          {
+            "idea": "Sous-groupes",
+            "text": "Ils incluent : les verbes en '-re' (ex. : prendre), en '-ir' irréguliers (ex. : partir), en '-oir' (ex. : voir), et les verbes complètement irréguliers (ex. : aller)."
+          },
+          {
+            "idea": "Exemples",
+            "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+          },
+          {
+            "idea": "Astuce",
+            "text": "Concentrez-vous sur les radicaux des verbes pour bien conjuguer au futur."
+          }
+        ],
+        "color": "#"
+      },
+      "verbs": {
+        "dire": ["dirai", "diras", "dira", "dirons", "direz", "diront"],
+        "faire": ["ferai", "feras", "fera", "ferons", "ferez", "feront"],
+        "venir": ["viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront"],
+        "prendre": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
+        "aller": ["irai", "iras", "ira", "irons", "irez", "iront"],
+        "voir": ["verrai", "verras", "verra", "verrons", "verrez", "verront"],
+        "pouvoir": ["pourrai", "pourras", "pourra", "pourrons", "pourrez", "pourront"],
+        "vouloir": ["voudrai", "voudras", "voudra", "voudrons", "voudrez", "voudront"]
+      }
+    }
+  }
+  

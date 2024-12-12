@@ -339,4 +339,4 @@ const Questionnaire1 = () => {
   );
 };
 
-export default Questionnaire1;
+export default Questionnaire;

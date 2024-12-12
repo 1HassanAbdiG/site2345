@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Conjugation.module.css";
-import conjugationsData from "./conjuguaison.json";
+import conjugationsData from "./conjugaison2.json";
 
 const Conjugation = () => {
   const [selectedGroup, setSelectedGroup] = useState("1er groupe");

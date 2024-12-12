@@ -1,0 +1,34 @@
+{
+    "exercices": [
+      {
+        "id": 1,
+        "titre": "Relier les couples d'animaux",
+        "instructions": "Relie chaque animal à son partenaire.",
+        "questions": [
+          { "id": 1, "groupe1": "une chèvre", "groupe2": "un bouc" },
+          { "id": 2, "groupe1": "un taureau", "groupe2": "une vache" },
+          { "id": 3, "groupe1": "un mouton", "groupe2": "une brebis" },
+          { "id": 4, "groupe1": "un tigre", "groupe2": "une tigresse" },
+          { "id": 5, "groupe1": "un éléphant", "groupe2": "une éléphante" },
+          { "id": 6, "groupe1": "une poule", "groupe2": "un coq" },
+          { "id": 7, "groupe1": "un lion", "groupe2": "une lionne" },
+          { "id": 8, "groupe1": "une dinde", "groupe2": "un dindon" },
+          { "id": 9, "groupe1": "un renard", "groupe2": "une renarde" }
+        ]
+      },
+      {
+        "id": 2,
+        "titre": "Relie les noms masculins à leurs formes féminines",
+        "instructions": "Associe chaque mot masculin à sa forme féminine.",
+        "questions": [
+          { "id": 1, "groupe1": "un porc", "groupe2": "une truie" },
+          { "id": 2, "groupe1": "un oncle", "groupe2": "une tante" },
+          { "id": 3, "groupe1": "un neveu", "groupe2": "une nièce" },
+          { "id": 4, "groupe1": "un parrain", "groupe2": "une marraine" },
+          { "id": 5, "groupe1": "un lecteur", "groupe2": "une lectrice" },
+          { "id": 6, "groupe1": "un frère", "groupe2": "une sœur" }
+        ]
+      }
+    ]
+  }
+  
