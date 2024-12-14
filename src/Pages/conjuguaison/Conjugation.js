@@ -1,23 +1,43 @@
 import React, { useState, useEffect } from "react";
+import {  Box, Typography, Container, List, ListItem, ListItemText, Paper ,Button, ButtonGroup,Card, CardContent} from '@mui/material';
+import { CheckCircle } from '@mui/icons-material';
 import styles from "./Conjugation.module.css";
-import conjugationsData from "./conjugaison2.json";
+
+// Object to store paths to the JSON files
+const jsonPaths = {
+  present: "./conjugaison1.json",
+  future: "./conjugaison2.json",
+  imperfect: "./conjugaison3.json",
+  past: "./conjugaison4.json",
+};
 
 const Conjugation = () => {
   const [selectedGroup, setSelectedGroup] = useState("1er groupe");
   const [selectedVerb, setSelectedVerb] = useState("");
+  const [conjugationData, setConjugationData] = useState({});
   const [scores, setScores] = useState({});
   const [message, setMessage] = useState("");
 
-  // Initialiser les scores pour tous les verbes
+  // Function to dynamically import the conjugation data based on selected tense
+  const handleTenseChange = async (selectedTense) => {
+    try {
+      const data = await import(`${jsonPaths[selectedTense]}`);
+      setConjugationData(data.default || data); // Handle default export or named export
+    } catch (error) {
+      console.error("Error loading conjugation data:", error);
+    }
+  };
+
+  // Initialize scores for all verbs whenever the conjugation data changes
   useEffect(() => {
     const initialScores = {};
-    Object.keys(conjugationsData).forEach((group) => {
-      Object.keys(conjugationsData[group].verbs).forEach((verb) => {
+    Object.keys(conjugationData).forEach((group) => {
+      Object.keys(conjugationData[group]?.verbs || {}).forEach((verb) => {
         initialScores[verb] = { best: 0, last: 0, first: null, group };
       });
     });
     setScores(initialScores);
-  }, []);
+  }, [conjugationData]); // Ensure re-run when conjugationData changes
 
   const handleGroupChange = (e) => {
     setSelectedGroup(e.target.value);
@@ -43,19 +63,16 @@ const Conjugation = () => {
     inputs.forEach((input) => {
       if (input.value.trim() === "") {
         allFilled = false;
-        input.style.backgroundColor = "#f9e79f"; // Jaune pour les champs vides
+        input.style.backgroundColor = "#f9e79f"; // Yellow for empty fields
       } else {
         const userAnswer = input.value.toLowerCase().trim();
-        const correctAnswer =
-          conjugationsData[selectedGroup].verbs[selectedVerb][
-          parseInt(input.dataset.index)
-          ];
+        const correctAnswer = conjugationData[selectedGroup].verbs[selectedVerb][parseInt(input.dataset.index)];
 
         if (userAnswer === correctAnswer) {
-          input.style.backgroundColor = "#d5f5e3"; // Vert pour une bonne réponse
+          input.style.backgroundColor = "#d5f5e3"; // Green for correct answer
           correct++;
         } else {
-          input.style.backgroundColor = "#fadbd8"; // Rouge pour une mauvaise réponse
+          input.style.backgroundColor = "#fadbd8"; // Red for incorrect answer
         }
       }
     });
@@ -75,10 +92,7 @@ const Conjugation = () => {
         updatedScores[selectedVerb].first = correct;
       }
 
-      updatedScores[selectedVerb].best = Math.max(
-        updatedScores[selectedVerb].best,
-        correct
-      );
+      updatedScores[selectedVerb].best = Math.max(updatedScores[selectedVerb].best, correct);
 
       return updatedScores;
     });
@@ -93,103 +107,215 @@ const Conjugation = () => {
     setMessage("");
   };
 
- /* const showAnswers = () => {
-    const inputs = document.querySelectorAll(`.${styles.verbInput}`);
-    inputs.forEach((input, index) => {
-      input.value =
-        conjugationsData[selectedGroup].verbs[selectedVerb][index];
-      input.style.backgroundColor = "#d5f5e3"; // Vert clair
-    });
-  };*/
-
   return (
     <div className={styles.container}>
-      <h1>Conjugaison</h1>
+      < Container sx={{ mt: 4 }}>
+      <Typography variant="h3" align="center" gutterBottom>
+        Conjugaison
+      </Typography>
 
-      {/* Sélection du groupe */}
-      <select
-        className={styles.groupSelector}
-        value={selectedGroup}
-        onChange={handleGroupChange}
-      >
-        {Object.keys(conjugationsData).map((group) => (
+      <Paper sx={{ p: 3, boxShadow: 3 }}>
+        <Typography variant="h5" gutterBottom>
+          Instructions :
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Suivez les étapes ci-dessous pour pratiquer la conjugaison des verbes aux différents temps :
+        </Typography>
+
+        <List>
+          <ListItem>
+            <ListItemText 
+              primary="1. Choisissez un temps, puis le groupe et un verbe parmi ceux proposés."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText 
+              primary="2. Conjuguez le verbe choisi :"
+            />         
+           
+          </ListItem>
+          <ListItem>
+          <ListItemText 
+              primary="3. Vérifiez vos réponses à chaque étape."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText 
+              primary="4. Répétez l’exercice avec différents verbes pour mieux maîtriser chaque temps."
+            />
+          </ListItem>
+        </List>
+      </Paper>
+    </Container>
+      <ButtonGroup variant="contained" color="primary" aria-label="tense buttons" style={{ display: 'flex', justifyContent: 'space-around', marginTop: '20px', width: '100%' }}>
+        <Button
+          onClick={() => handleTenseChange("present")}
+          style={{
+            borderRadius: '12px',
+            fontSize: '1.2rem',
+            padding: '10px 20px',
+            textTransform: 'none',
+            transition: '0.3s ease',
+            margin: '0 10px',
+            backgroundColor: '#2196f3', // Default blue
+            color: 'white',
+            width: '20%',
+            '&:hover': {
+              backgroundColor: '#0288d1', // Darker blue on hover
+              transform: 'scale(1.05)', // Zoom effect on hover
+            },
+          }}
+        >
+          Présent
+        </Button>
+        <Button
+          onClick={() => handleTenseChange("future")}
+          style={{
+            borderRadius: '12px',
+            fontSize: '1.2rem',
+            padding: '10px 20px',
+            textTransform: 'none',
+            transition: '0.3s ease',
+            margin: '0 10px',
+            backgroundColor: '#2196f3', // Default blue
+            color: 'white',
+            width: '20%',
+            '&:hover': {
+              backgroundColor: '#0288d1', // Darker blue on hover
+              transform: 'scale(1.05)', // Zoom effect on hover
+            },
+          }}
+        >
+          Future
+        </Button>
+        <Button
+          onClick={() => handleTenseChange("imperfect")}
+          style={{
+            borderRadius: '12px',
+            fontSize: '1.2rem',
+            padding: '10px 20px',
+            textTransform: 'none',
+            transition: '0.3s ease',
+            margin: '0 10px',
+            backgroundColor: '#2196f3', // Default blue
+            color: 'white',
+            width: '20%',
+            '&:hover': {
+              backgroundColor: '#0288d1', // Darker blue on hover
+              transform: 'scale(1.05)', // Zoom effect on hover
+            },
+          }}
+        >
+          Imparfait
+        </Button>
+        <Button
+          onClick={() => handleTenseChange("past")}
+          style={{
+            borderRadius: '12px',
+            fontSize: '1.2rem',
+            padding: '10px 20px',
+            textTransform: 'none',
+            transition: '0.3s ease',
+            margin: '0 10px',
+            backgroundColor: '#2196f3', // Default blue
+            color: 'white',
+            width: '20%',
+            '&:hover': {
+              backgroundColor: '#0288d1', // Darker blue on hover
+              transform: 'scale(1.05)', // Zoom effect on hover
+            },
+          }}
+        >
+          Passe composé
+        </Button>
+      </ButtonGroup>
+      <br></br>
+
+      {/* Group selection */}
+      <select className={styles.groupSelector} value={selectedGroup} onChange={handleGroupChange}>
+        {Object.keys(conjugationData).map((group) => (
           <option key={group} value={group}>
             {group}
           </option>
         ))}
       </select>
 
-
-      {/* Affichage de la règle du groupe */}
-      <div
-        className={styles.ruleBox}
-        style={{
-          backgroundColor: conjugationsData[selectedGroup]?.rule?.color || '#fff',  // Couleur par défaut
-          borderRadius: '10px',  // Coins arrondis
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',  // Ombre douce pour plus de profondeur
-          padding: '20px',  // Espacement interne
-          transition: 'transform 0.3s ease',  // Transition pour l'animation de survol
-        }}
-        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}  // Effet de zoom au survol
-        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}  // Retour à la taille normale
-      >
+      {/* Display the rule of the selected group */}
+      <Card sx={{ marginBottom: '30px', boxShadow: 3, borderRadius: '10px', backgroundColor: '#f4f6f9' }}>
+      <CardContent>
         {/* Titre de la règle */}
-        <h3
-          className={styles.title}
-          
+        <Typography 
+          variant="h4" 
+          sx={{
+            textAlign: 'center',
+            color: '#fff',
+            marginBottom: '20px',
+            padding: '15px',
+            backgroundColor: 'red',  // Bleu clair pour un titre moderne
+            borderRadius: '8px',
+            fontWeight: 'bold'
+          }}
         >
-          {conjugationsData[selectedGroup]?.rule?.title || 'Titre indisponible'}
-        </h3>
+          {conjugationData[selectedGroup]?.rule?.title || 'Titre indisponible'}
+        </Typography>
 
-        {/* Contenu de la règle */}
-        <ul className={styles.ruleList}>
-          {conjugationsData[selectedGroup]?.rule?.content?.map((item, index) => (
-            <li key={index} className={styles.ruleSection}>
-              {/* Idée principale */}
-              <strong
-                style={{
-                  fontSize: '1.5rem',  // Taille de la police pour l'idée
-                  color: '#2C3E50',  // Couleur d'une idée importante
-                  marginBottom: '10px',  // Espacement sous l'idée
-                  display: 'block',  // Assurer que c'est sur une nouvelle ligne
-                }}
-              >
-                {item?.idea || 'Idée non disponible'}
-              </strong>
-              {/* Explication détaillée */}
-              <ul>
-                <li style={{
-                  fontSize: '1.2rem',  // Taille de la police pour le texte
-                  lineHeight: '1.6',  // Espacement entre les lignes pour une lecture facile
-                  color: '#ffff',  // Couleur du texte
-                  border:"solid",
-                  padding:"10px",
-                  background:"#0c7854"
-                }}> {item?.text || 'Explication non disponible'}
-
-                </li>
-              </ul>
-              
+        <List>
+          {conjugationData[selectedGroup]?.rule?.content?.map((item, index) => (
+            <ListItem 
+              key={index} 
+              sx={{
+                paddingBottom: '20px',
+                backgroundColor: index % 2 === 0 ? '#111a23' : '#111a23',  // Alternance de couleurs pastel
+                borderRadius: '8px',
+                boxShadow: 2,
+                marginBottom: '10px'
+              }}
+            >
+              <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
                 
-              
-               
-              
-            </li>
+                {/* Section Idée */}
+                <Typography 
+                  variant="h6" 
+                  sx={{
+                    fontWeight: 'bold',
+                    color: '#2c3e50',
+                    marginBottom: '10px',
+                    backgroundColor: '#ffc107',  // Jaune vif pour l'idée
+                    padding: '10px',
+                    borderRadius: '8px',
+                    display: 'flex', 
+                    alignItems: 'center'
+                  }}
+                >
+                  <CheckCircle sx={{ marginRight: '10px', color: '#28a745' }} /> {/* Icône pour l'idée */}
+                  {item?.idea || 'Idée non disponible'}
+                </Typography>
+
+                {/* Explication */}
+                <ListItemText
+                  primary={item?.text || 'Explication non disponible'}
+                  sx={{ 
+                    color: '#555', 
+                    fontSize: '1rem', 
+                    lineHeight: 1.6, 
+                    backgroundColor: '#fff',  // Fond blanc pour l'explication
+                    padding: '10px',
+                    borderRadius: '8px',
+                    boxShadow: 1,
+                    marginTop: '10px'
+                  }}
+                />
+              </Box>
+            </ListItem>
           ))}
-        </ul>
-      </div>
-
-
-
-      {/* Sélection du verbe */}
+        </List>
+      </CardContent>
+    </Card>
+      {/* Verb selection */}
       {selectedGroup && (
-        <select
-          className={styles.verbSelector}
-          value={selectedVerb}
-          onChange={handleVerbChange}
-        >
+        <select className={styles.verbSelector} value={selectedVerb} onChange={handleVerbChange}>
           <option value="">-- Choisir un verbe --</option>
-          {Object.keys(conjugationsData[selectedGroup].verbs).map((verb) => (
+          {Object.keys(conjugationData[selectedGroup]?.verbs || {}).map((verb) => (
             <option key={verb} value={verb}>
               {verb}
             </option>
@@ -197,45 +323,27 @@ const Conjugation = () => {
         </select>
       )}
 
-      {/* Exercice de conjugaison */}
+      {/* Conjugation exercise */}
       {selectedVerb && (
         <div className={styles.exerciseBox}>
-          <h2>
-            Conjuguez le verbe "<span>{selectedVerb}</span>" au présent de
-            l'indicatif
-          </h2>
-          {conjugationsData[selectedGroup].verbs[selectedVerb].map(
-            (_, index) => (
-              <div key={index}>
-                <span className={styles.pronoun}>
-                  {["je", "tu", "il/elle", "nous", "vous", "ils/elles"][index]}
-                </span>
-                <input
-                  type="text"
-                  className={styles.verbInput}
-                  data-index={index}
-                />
-              </div>
-            )
-          )}
-          <button className={styles.checkBtn} onClick={checkAnswers}>
-            Vérifier
-          </button>
-          <button className={styles.resetBtn} onClick={resetExercise}>
-            Réinitialiser
-          </button>
-          
+          <h2>Conjuguez le verbe "<span>{selectedVerb}</span>" </h2>
+          {conjugationData[selectedGroup].verbs[selectedVerb]?.map((_, index) => (
+            <div key={index}>
+              <span className={styles.pronoun}>{["je", "tu", "il/elle", "nous", "vous", "ils/elles"][index]}</span>
+              <input type="text" className={styles.verbInput} data-index={index} />
+            </div>
+          ))}
+          <button className={styles.checkBtn} onClick={checkAnswers}>Vérifier</button>
+          <button className={styles.resetBtn} onClick={resetExercise}>Réinitialiser</button>
           {message && (
-            <p
-              className={`${styles.message} ${message.includes("correct") ? styles.success : styles.error
-                }`}
-            >
+            <p className={`${styles.message} ${message.includes("correct") ? styles.success : styles.error}`}>
               {message}
             </p>
           )}
         </div>
       )}
-      {/* Tableau récapitulatif */}
+
+      {/* Scores table */}
       {selectedGroup && (
         <table className={styles.scoresTable}>
           <thead>
@@ -248,13 +356,11 @@ const Conjugation = () => {
           </thead>
           <tbody>
             {Object.entries(scores)
-              .filter(([verb]) => Object.keys(conjugationsData[selectedGroup].verbs).includes(verb))
+              .filter(([verb]) => Object.keys(conjugationData[selectedGroup]?.verbs || {}).includes(verb))
               .map(([verb, score]) => (
                 <tr key={verb}>
                   <td>{verb}</td>
-                  <td>
-                    {score.first !== null ? `${score.first}/6` : "Pas encore validé"}
-                  </td>
+                  <td>{score.first !== null ? `${score.first}/6` : "Pas encore validé"}</td>
                   <td>{score.last}/6</td>
                   <td>{score.best}/6</td>
                 </tr>
@@ -262,70 +368,6 @@ const Conjugation = () => {
           </tbody>
         </table>
       )}
-
-
-      {/* {/* Tableau du verbe sélectionné *
-      {selectedVerb && (
-        <table className={styles.scoresTable}>
-          <thead>
-            <tr>
-              <th>Verbe</th>
-              <th>Score de la première validation</th>
-              <th>Dernier score</th>
-              <th>Meilleur score</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{selectedVerb.charAt(0).toUpperCase() + selectedVerb.slice(1)}</td>
-              <td>
-                {scores[selectedVerb]?.first !== null
-                  ? `${scores[selectedVerb].first}/6`
-                  : "Pas encore validé"}
-              </td>
-              <td>{scores[selectedVerb]?.last}/6</td>
-              <td>{scores[selectedVerb]?.best}/6</td>
-            </tr>
-          </tbody>
-        </table>
-      )}/*}
-
-      {/* Tableau récapitulatif par groupe */}
-      <div className={styles.recapBox}>
-        <h3>Tableau récapitulatif des scores par groupe :</h3>
-        <table className={styles.scoresTable}>
-          <thead>
-            <tr>
-              <th>Groupe</th>
-              <th>Nombre de verbes validés</th>
-              <th>Score moyen</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Object.keys(conjugationsData).map((group) => {
-              const groupScores = Object.values(scores).filter(
-                (score) => score.group === group
-              );
-
-              const validated = groupScores.filter(
-                (score) => score.first !== null
-              ).length;
-
-              const average =
-                groupScores.reduce((acc, score) => acc + score.best, 0) /
-                groupScores.length || 0;
-
-              return (
-                <tr key={group}>
-                  <td>{group}</td>
-                  <td>{validated} / {groupScores.length}</td>
-                  <td>{average.toFixed(2)} / 6</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 };

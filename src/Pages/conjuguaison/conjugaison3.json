@@ -1,97 +1,95 @@
 {
-    "1er groupe": {
-      "rule": {
-        "title": "Les verbes du 1er groupe",
-        "content": [
-          {
-            "idea": "Structure",
-            "text": "Les verbes du 1er groupe se terminent en '-er', à l'exception du verbe 'aller'."
-          },
-          {
-            "idea": "Exemples",
-            "text": "Exemples courants : aimer, chanter, jouer, marcher."
-          },
-          {
-            "idea": "Conjugaison",
-            "text": "Les terminaisons au présent sont : -e, -es, -e, -ons, -ez, -ent. Ils suivent une conjugaison régulière et simple."
-          },
-          {
-            "idea": "Astuce",
-            "text": "Ces verbes sont fréquents et généralement faciles à mémoriser."
-          }
-        ],
-        "color": ""
-      },
-      "verbs": {
-        "chanter": ["chante", "chantes", "chante", "chantons", "chantez", "chantent"],
-        "aimer": ["aime", "aimes", "aime", "aimons", "aimez", "aiment"],
-        "jouer": ["joue", "joues", "joue", "jouons", "jouez", "jouent"],
-        "marcher": ["marche", "marches", "marche", "marchons", "marchez", "marchent"]
-      }
+  "1er groupe": {
+    "rule": {
+      "title": "Les verbes du 1er groupe à l'imparfait",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 1er groupe à l'imparfait prennent le radical du présent de l'indicatif et ajoutent les terminaisons : -ais, -ais, -ait, -ions, -iez, -aient."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples courants : aimer, chanter, jouer, marcher."
+        },
+        {
+          "idea": "Conjugaison",
+          "text": "Les terminaisons sont régulières et suivent une structure simple."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Rappelez-vous de garder le radical du verbe au présent, puis ajoutez les terminaisons de l'imparfait."
+        }
+      ],
+      "color": ""
     },
-    "2e groupe": {
-      "rule": {
-        "title": "Les verbes du 2e groupe",
-        "content": [
-          {
-            "idea": "Structure",
-            "text": "Les verbes du 2e groupe se terminent en '-ir' et forment leur participe présent en '-issant'."
-          },
-          {
-            "idea": "Exemples",
-            "text": "Exemples courants : finir, choisir, grandir, réussir."
-          },
-          {
-            "idea": "Conjugaison",
-            "text": "Les terminaisons au présent sont : -is, -is, -it, -issons, -issez, -issent."
-          },
-          {
-            "idea": "Astuce",
-            "text": "Ces verbes expriment souvent des actions continues ou des états prolongés."
-          }
-        ],
-        "color": "#"
-      },
-      "verbs": {
-        "finir": ["finis", "finis", "finit", "finissons", "finissez", "finissent"],
-        "choisir": ["choisis", "choisis", "choisit", "choisissons", "choisissez", "choisissent"],
-        "grandir": ["grandis", "grandis", "grandit", "grandissons", "grandissez", "grandissent"],
-        "réussir": ["réussis", "réussis", "réussit", "réussissons", "réussissez", "réussissent"]
-      }
-    },
-    "3e groupe": {
-      "rule": {
-        "title": "Les verbes du 3e groupe",
-        "content": [
-          {
-            "idea": "Structure",
-            "text": "Les verbes du 3e groupe ont des terminaisons variées et souvent irrégulières."
-          },
-          {
-            "idea": "Sous-groupes",
-            "text": "Ils incluent : les verbes en '-re' (ex. : prendre), en '-ir' irréguliers (ex. : partir), en '-oir' (ex. : voir), et les verbes complètement irréguliers (ex. : aller)."
-          },
-          {
-            "idea": "Exemples",
-            "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
-          },
-          {
-            "idea": "Astuce",
-            "text": "Ces verbes nécessitent une mémorisation individuelle car leurs conjugaisons varient beaucoup."
-          }
-        ],
-        "color": "#"
-      },
-      "verbs": {
-        "dire": ["dis", "dis", "dit", "disons", "dites", "disent"],
-        "faire": ["fais", "fais", "fait", "faisons", "faites", "font"],
-        "venir": ["viens", "viens", "vient", "venons", "venez", "viennent"],
-        "prendre": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
-        "aller": ["vais", "vas", "va", "allons", "allez", "vont"],
-        "voir": ["vois", "vois", "voit", "voyons", "voyez", "voient"],
-        "pouvoir": ["peux", "peux", "peut", "pouvons", "pouvez", "peuvent"],
-        "vouloir": ["veux", "veux", "veut", "voulons", "voulez", "veulent"]
-      }
+    "verbs": {
+      "chanter": ["chantais", "chantais", "chantait", "chantions", "chantiez", "chantaient"],
+      "aimer": ["aimais", "aimais", "aimait", "aimions", "aimiez", "aimaient"],
+      "jouer": ["jouais", "jouais", "jouait", "jouions", "jouiez", "jouaient"],
+      "marcher": ["marchais", "marchais", "marchait", "marchions", "marchiez", "marchaient"]
     }
-  }
-  
+  },
+  "2e groupe": {
+    "rule": {
+      "title": "Les verbes du 2e groupe à l'imparfait",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 2e groupe à l'imparfait suivent la même règle que le 1er groupe. Le radical est pris à partir du présent et les terminaisons sont : -ais, -ais, -ait, -ions, -iez, -aient."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples courants : finir, choisir, grandir, réussir."
+        },
+        {
+          "idea": "Conjugaison",
+          "text": "Les conjugaisons sont régulières et suivent la même structure que celles des verbes du 1er groupe."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Utilisez le radical du verbe au présent et ajoutez les terminaisons de l'imparfait."
+        }
+      ],
+      "color": "#"
+    },
+    "verbs": {
+      "finir": ["finissais", "finissais", "finissait", "finissions", "finissiez", "finissaient"],
+      "choisir": ["choisissais", "choisissais", "choisissait", "choisissions", "choisissiez", "choisissaient"],
+      "grandir": ["grandissais", "grandissais", "grandissait", "grandissions", "grandissiez", "grandissaient"],
+      "réussir": ["réussissais", "réussissais", "réussissait", "réussissions", "réussissiez", "réussissaient"]
+    }
+  },
+  "3e groupe": {
+    "rule": {
+      "title": "Les verbes du 3e groupe à l'imparfait",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 3e groupe à l'imparfait ont des radicaux irréguliers et nécessitent une mémorisation. Les terminaisons restent : -ais, -ais, -ait, -ions, -iez, -aient."
+        },
+        {
+          "idea": "Sous-groupes",
+          "text": "Il existe plusieurs sous-groupes de verbes irréguliers dans ce groupe. Par exemple, les verbes en '-re', les verbes en '-ir' irréguliers, et les verbes totalement irréguliers."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Il est important de mémoriser les radicaux irréguliers pour conjuguer correctement."
+        }
+      ],
+      "color": "#"
+    },
+    "verbs": {
+      "dire": ["disais", "disais", "disait", "disions", "disiez", "disaient"],
+      "faire": ["faisais", "faisais", "faisait", "faisions", "faisiez", "faisaient"],
+      "venir": ["venais", "venais", "venait", "venions", "veniez", "venaient"],
+      "prendre": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"],
+      "aller": ["allais", "allais", "allait", "allions", "alliez", "allaient"],
+      "voir": ["voyais", "voyais", "voyait", "voyions", "voyiez", "voyaient"],
+      "pouvoir": ["pouvais", "pouvais", "pouvait", "pouvions", "pouviez", "pouvaient"],
+      "vouloir": ["voulais", "voulais", "voulait", "voulions", "vouliez", "voulaient"]
+    }
+  }}

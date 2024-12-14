@@ -1,181 +1,171 @@
 {
-    "text": {
-      "title": "Le trio de papillons",
-      "content": [
-        "Il y avait trois papillons : un blanc, un rouge et un jaune.",
-        "Ils étaient les trois meilleurs amis et jouaient toujours ensemble au soleil, dans les jardins en fleurs.",
-        "Un lis a proposé de prendre le papillon blanc parce qu'il lui ressemblait.",
-        "Le papillon blanc a préféré se faire tremper que de quitter ses amis.",
-        "Ils ont cherché un abri sous une rose, mais celle-ci a refusé d'accepter plus d'un papillon.",
-        "Le papillon rouge a décidé de rester avec ses amis malgré la pluie.",
-        "La tulipe a aussi refusé d'accueillir plus d'un papillon.",
-        "Le soleil a remarqué leur fidélité et les a séchés avec ses rayons.",
-        "Les trois papillons ont continué à jouer joyeusement après que la pluie s'est arrêtée.",
-        "Le comportement des trois papillons a impressionné le soleil."
-      ]
-    },
-    "questions": [
-      {
-        "type": "trueFalse",
-        "question": "Les trois papillons jouaient toujours ensemble au soleil.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Le lis a accepté les trois papillons pour leur offrir un abri.",
-        "correctAnswer": false
-      },
-      {
-        "type": "trueFalse",
-        "question": "Le papillon blanc a préféré se tremper que de quitter ses amis.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "La rose a accepté d'offrir un abri au papillon rouge uniquement.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "La tulipe a accepté de laisser les trois papillons s'abriter.",
-        "correctAnswer": false
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quel était le comportement du papillon blanc face à la proposition du lis ?",
-        "choices": ["Il l'a accepté.", "Il a préféré se tremper.", "Il l'a refusé."],
-        "correctAnswer": "Il a préféré se tremper."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quelle était la réaction de la rose lorsqu'ils ont demandé un abri ?",
-        "choices": ["Elle a accepté tous les trois.", "Elle a refusé le papillon jaune.", "Elle a refusé le papillon rouge."],
-        "correctAnswer": "Elle a refusé le papillon rouge."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Qu'a fait le papillon rouge lorsqu'il a été rejeté par la rose ?",
-        "choices": ["Il s'est envolé seul.", "Il a décidé de rester avec ses amis.", "Il a cherché un autre abri."],
-        "correctAnswer": "Il a décidé de rester avec ses amis."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Pourquoi le soleil a été impressionné par les trois papillons ?",
-        "choices": ["Ils étaient fidèles entre eux.", "Ils étaient colorés.", "Ils se sont cachés sous la pluie."],
-        "correctAnswer": "Ils étaient fidèles entre eux."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Comment les trois papillons ont-ils fini leur journée après la pluie ?",
-        "choices": ["Ils se sont envolés loin.", "Ils ont joué joyeusement dans le jardin.", "Ils se sont reposés sous un arbre."],
-        "correctAnswer": "Ils ont joué joyeusement dans le jardin."
-      },
-      {
-        "type": "shortAnswer",
-        "question": "Pourquoi les trois papillons ont-ils cherché un abri ?",
-        "correctAnswer": "Parce qu'il pleuvait."
-      },
-      {
-        "type": "shortAnswer",
-        "question": "Qu'a fait le soleil après avoir vu les papillons ?",
-        "correctAnswer": "Il a chassé les nuages et les a séchés."
-      },
-      {
-        "type": "shortAnswer",
-        "question": "Quel a été le choix du papillon blanc en raison de son amitié avec les autres ?",
-        "correctAnswer": "Il a préféré se tremper plutôt que de quitter ses amis."
-      }
-    ],
-    "vocabularyTrueFalse": [
-      {
-        "type": "trueFalse",
-        "question": "Un 'lis' est une fleur.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Le terme 'abri' signifie un endroit pour se protéger.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Un 'papillon' est un type d'oiseau.",
-        "correctAnswer": false
-      },
-      {
-        "type": "trueFalse",
-        "question": "Un 'tulipe' est une fleur similaire à la rose.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Le soleil peut avoir un impact sur le temps.",
-        "correctAnswer": true
-      }
-    ],
-    "vocabularyQCM": [
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie le mot 'papillon' ?",
-        "choices": ["Un oiseau", "Un insecte", "Un mammifère"],
-        "correctAnswer": "Un insecte"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie le mot 'rose' dans l'histoire ?",
-        "choices": ["Une fleur", "Une couleur", "Un nom propre"],
-        "correctAnswer": "Une fleur"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie 'abri' ?",
-        "choices": ["Un endroit pour se protéger", "Un animal", "Une maison"],
-        "correctAnswer": "Un endroit pour se protéger"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Qu'est-ce qu'une tulipe ?",
-        "choices": ["Une fleur", "Un arbre", "Un insecte"],
-        "correctAnswer": "Une fleur"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie 'fidélité' dans l'histoire ?",
-        "choices": ["L'amitié sincère", "Le fait de partir seul", "Une amitié durable"],
-        "correctAnswer": "Une amitié durable"
-      }
-    ],
-    "conjugationQCM": [
-      {
-        "type": "multipleChoice",
-        "question": "Quel est le temps du verbe 'étaient' dans la phrase : 'Ils étaient les trois meilleurs amis' ?",
-        "choices": ["Présent", "Imparfait", "Passé composé"],
-        "correctAnswer": "Imparfait"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quel est le temps du verbe 'a proposé' dans la phrase : 'Un lis a proposé de prendre le papillon blanc' ?",
-        "choices": ["Présent", "Passé composé", "Imparfait"],
-        "correctAnswer": "Passé composé"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quel est le temps du verbe 'a été impressionné' dans la phrase : 'Le soleil a été impressionné par le comportement des trois papillons' ?",
-        "choices": ["Passé composé", "Présent", "Imparfait"],
-        "correctAnswer": "Passé composé"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quel est le temps du verbe 'a chassé' dans la phrase : 'Il a chassé les nuages' ?",
-        "choices": ["Passé composé", "Présent", "Futur simple"],
-        "correctAnswer": "Passé composé"
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quel est le temps du verbe 'pleuvait' dans la phrase : 'Comme il pleuvait de plus en plus fort' ?",
-        "choices": ["Imparfait", "Passé composé", "Présent"],
-        "correctAnswer": "Imparfait"
-      }
+  "text": {
+    "title": "Les trois papillons",
+    "content": [      
+      "Il y avait trois papillons : un blanc, un rouge et un jaune. Ils étaient les trois meilleurs amis et jouaient toujours ensemble au soleil, dans les jardins en fleurs.",
+      "Un jour, les trois papillons jouaient comme d'habitude quand il s'est mis à pleuvoir. Ils ont essayé de retourner à la maison, mais elle était trop éloignée.",
+      "Comme ils ne réussissaient pas à trouver un abri, ils ont dû rester sous la pluie et se laisser tremper.",
+      "Le papillon rouge a eu une idée. Les papillons ont volé ensemble jusqu'à un lis blanc, et le papillon rouge a dit :",
+      "« Aimable lis, s'il te plaît, ouvre tes pétales pour nous offrir un abri contre la pluie. »",
+      "« Je serais heureux de prendre le papillon blanc avec moi, a répondu le lis, parce qu'il me ressemble, mais je ne prendrai pas les deux autres papillons. »",
+      "« Si vous ne prenez pas mes amis, a répondu le papillon blanc, j'aime mieux me faire tremper plutôt que de les quitter. »",
+      "Comme la pluie tombait de plus en plus fort, ils sont allés voir une rose.",
+      "« Chère rose, s'il te plaît, ouvre tes pétales pour nous procurer un abri contre la pluie. »",
+      "« Je serais heureuse d'accueillir le papillon rouge seulement, a répondu la rose. »",
+      "« Si vous n'acceptez pas mes amis, alors je devrai me passer de votre aide », a décidé le papillon rouge. Ils se sont de nouveau envolés ensemble.",
+      "À la fin, ils se sont adressés à une tulipe. Elle aussi ne voulait accueillir qu'un seul papillon, le jaune, parce qu'ils étaient tous deux de la même couleur.",
+      "« Je préfère me faire tremper avec mes amis plutôt que de les abandonner », a affirmé le papillon jaune.",
+      "Le soleil, qui se cachait derrière un nuage, les a entendus de loin. Il était bien impressionné par le comportement des trois papillons qui restaient fidèlement les uns près des autres.",
+      "Il a chassé les nuages et la pluie, et s'est penché sur le jardin pour sécher les ailes des papillons.",
+      "Ils ont donc pu continuer à danser et à s'amuser joyeusement dans le jardin le reste de la journée."
+    
     ]
-  }
-  
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Les trois papillons étaient de couleurs différentes : blanc, rouge et jaune.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les papillons ont trouvé un abri sous le lis.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "La tulipe a proposé de protéger seulement le papillon jaune.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les papillons ont préféré se séparer pour se mettre à l'abri.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Le soleil a récompensé les papillons pour leur fidélité en chassant la pluie.",
+      "correctAnswer": true
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Pourquoi le papillon blanc a-t-il refusé l'offre du lis ?",
+      "correctAnswer": "Parce qu'il ne voulait pas abandonner ses amis."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que montre le comportement des papillons dans cette histoire ?",
+      "correctAnswer": "Il montre leur fidélité et leur amitié."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Comment le soleil a-t-il aidé les papillons à la fin ?",
+      "correctAnswer": "Le soleil a chassé la pluie et a séché leurs ailes."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Pourquoi les papillons ne sont-ils pas retournés à la maison ?",
+      "choices": [
+        "Ils voulaient jouer sous la pluie.",
+        "Leur maison était trop éloignée.",
+        "Ils avaient peur de voler.",
+        "Ils ne savaient pas où était leur maison."
+      ],
+      "correctAnswer": "Leur maison était trop éloignée."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que voulait faire le lis ?",
+      "choices": [
+        "Accueillir tous les papillons.",
+        "Accueillir uniquement le papillon blanc.",
+        "Accueillir le papillon rouge.",
+        "Les ignorer tous."
+      ],
+      "correctAnswer": "Accueillir uniquement le papillon blanc."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel papillon la rose a-t-elle accepté ?",
+      "choices": [
+        "Le papillon blanc.",
+        "Le papillon rouge.",
+        "Le papillon jaune.",
+        "Aucun des trois."
+      ],
+      "correctAnswer": "Le papillon rouge."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Pourquoi le soleil a-t-il chassé la pluie ?",
+      "choices": [
+        "Parce qu'il n'aimait pas la pluie.",
+        "Parce qu'il était impressionné par l'amitié des papillons.",
+        "Parce qu'il voulait briller.",
+        "Parce que les fleurs l'ont demandé."
+      ],
+      "correctAnswer": "Parce qu'il était impressionné par l'amitié des papillons."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que faisaient les papillons après la pluie ?",
+      "choices": [
+        "Ils dormaient sous une fleur.",
+        "Ils dansaient et s’amusaient dans le jardin.",
+        "Ils cherchaient encore un abri.",
+        "Ils se disputaient avec le soleil."
+      ],
+      "correctAnswer": "Ils dansaient et s’amusaient dans le jardin."
+    },
+    
+    {
+      "type": "shortAnswer",
+      "question": "Conjugue les verbes au présent : Dire",
+      "correctAnswer": "Je dis Tu dis  Il/Elle dit  Nous disons  Vous dites  Ils/Elles disent"
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Conjugue les verbes au présent : Ouvrir",
+      "correctAnswer": "J'ouvre  Tu ouvres  Il/Elle ouvre  Nous ouvrons  Vous ouvrez  Ils/Elles ouvrent"
+    }
+  ],
+    "vocabularyQCM": [
+      
+    {
+     "type": "multipleChoice",
+      "question": "Trouve un synonyme du mot 'aimable'.",
+      "choices": ["Gentil", "Méchant", "Silencieux", "Fatigué"],
+      "correctAnswer": "Gentil"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Trouve un antonyme du mot 'fidèle'.",
+      "choices": ["Infidèle", "Loyal", "Honnête", "Attentif"],
+      "correctAnswer": "Infidèle"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie le mot 'pétales' dans le contexte du texte ?",
+      "choices": [
+        "Les feuilles d’une fleur.",
+        "Les tiges d’une fleur.",
+        "Les parties colorées d’une fleur.",
+        "Les racines d’une fleur."
+      ],
+      "correctAnswer": "Les parties colorées d’une fleur."
+    
+    },{
+      "type": "multipleChoice",
+      "question": "Quel est le nom formé à partir du verbe 'voler' ?",
+      "choices": ["Vol", "Volage", "Voleur", "Volant"],
+      "correctAnswer": "Vol"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel est le nom formé à partir du verbe 'ouvrir' ?",
+      "choices": ["Ouverture", "Ouvreur", "Ouvert", "Ouvrier"],
+      "correctAnswer": "Ouverture"
+    }
+  ]
+}
+

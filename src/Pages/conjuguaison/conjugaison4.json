@@ -1,97 +1,96 @@
 {
-    "1er groupe": {
-      "rule": {
-        "title": "Les verbes du 1er groupe",
-        "content": [
-          {
-            "idea": "Structure",
-            "text": "Les verbes du 1er groupe se terminent en '-er', à l'exception du verbe 'aller'."
-          },
-          {
-            "idea": "Exemples",
-            "text": "Exemples courants : aimer, chanter, jouer, marcher."
-          },
-          {
-            "idea": "Conjugaison",
-            "text": "Les terminaisons au présent sont : -e, -es, -e, -ons, -ez, -ent. Ils suivent une conjugaison régulière et simple."
-          },
-          {
-            "idea": "Astuce",
-            "text": "Ces verbes sont fréquents et généralement faciles à mémoriser."
-          }
-        ],
-        "color": ""
-      },
-      "verbs": {
-        "chanter": ["chante", "chantes", "chante", "chantons", "chantez", "chantent"],
-        "aimer": ["aime", "aimes", "aime", "aimons", "aimez", "aiment"],
-        "jouer": ["joue", "joues", "joue", "jouons", "jouez", "jouent"],
-        "marcher": ["marche", "marches", "marche", "marchons", "marchez", "marchent"]
-      }
+  "1er groupe": {
+    "rule": {
+      "title": "Les verbes du 1er groupe au passé composé",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 1er groupe au passé composé se conjuguent avec l'auxiliaire 'avoir' ou 'être' et prennent le participe passé du verbe. Le participe passé des verbes réguliers se termine en '-é'."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples courants : aimer, chanter, jouer, marcher."
+        },
+        {
+          "idea": "Conjugaison",
+          "text": "La structure est : auxiliaire (avoir/être) + participe passé. Les verbes avec 'être' sont principalement des verbes de mouvement ou des verbes pronominaux."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Les verbes du 1er groupe se forment simplement avec 'avoir' et ajoutent 'é' à leur radical."
+        }
+      ],
+      "color": ""
     },
-    "2e groupe": {
-      "rule": {
-        "title": "Les verbes du 2e groupe",
-        "content": [
-          {
-            "idea": "Structure",
-            "text": "Les verbes du 2e groupe se terminent en '-ir' et forment leur participe présent en '-issant'."
-          },
-          {
-            "idea": "Exemples",
-            "text": "Exemples courants : finir, choisir, grandir, réussir."
-          },
-          {
-            "idea": "Conjugaison",
-            "text": "Les terminaisons au présent sont : -is, -is, -it, -issons, -issez, -issent."
-          },
-          {
-            "idea": "Astuce",
-            "text": "Ces verbes expriment souvent des actions continues ou des états prolongés."
-          }
-        ],
-        "color": "#"
-      },
-      "verbs": {
-        "finir": ["finis", "finis", "finit", "finissons", "finissez", "finissent"],
-        "choisir": ["choisis", "choisis", "choisit", "choisissons", "choisissez", "choisissent"],
-        "grandir": ["grandis", "grandis", "grandit", "grandissons", "grandissez", "grandissent"],
-        "réussir": ["réussis", "réussis", "réussit", "réussissons", "réussissez", "réussissent"]
-      }
+    "verbs": {
+      "chanter": ["ai chanté", "as chanté", "a chanté", "avons chanté", "avez chanté", "ont chanté"],
+      "aimer": ["ai aimé", "as aimé", "a aimé", "avons aimé", "avez aimé", "ont aimé"],
+      "jouer": ["ai joué", "as joué", "a joué", "avons joué", "avez joué", "ont joué"],
+      "marcher": ["ai marché", "as marché", "a marché", "avons marché", "avez marché", "ont marché"]
+    }
+  },
+  "2e groupe": {
+    "rule": {
+      "title": "Les verbes du 2e groupe au passé composé",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 2e groupe au passé composé suivent la même règle que les verbes du 1er groupe. Ils utilisent l'auxiliaire 'avoir' ou 'être' et leur participe passé se termine en '-i'."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples courants : finir, choisir, grandir, réussir."
+        },
+        {
+          "idea": "Conjugaison",
+          "text": "La structure est la même : auxiliaire (avoir/être) + participe passé. Les verbes réguliers du 2e groupe ont un participe passé en '-i'."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Les verbes du 2e groupe se forment avec 'avoir' et le participe passé en '-i'."
+        }
+      ],
+      "color": "#"
     },
-    "3e groupe": {
-      "rule": {
-        "title": "Les verbes du 3e groupe",
-        "content": [
-          {
-            "idea": "Structure",
-            "text": "Les verbes du 3e groupe ont des terminaisons variées et souvent irrégulières."
-          },
-          {
-            "idea": "Sous-groupes",
-            "text": "Ils incluent : les verbes en '-re' (ex. : prendre), en '-ir' irréguliers (ex. : partir), en '-oir' (ex. : voir), et les verbes complètement irréguliers (ex. : aller)."
-          },
-          {
-            "idea": "Exemples",
-            "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
-          },
-          {
-            "idea": "Astuce",
-            "text": "Ces verbes nécessitent une mémorisation individuelle car leurs conjugaisons varient beaucoup."
-          }
-        ],
-        "color": "#"
-      },
-      "verbs": {
-        "dire": ["dis", "dis", "dit", "disons", "dites", "disent"],
-        "faire": ["fais", "fais", "fait", "faisons", "faites", "font"],
-        "venir": ["viens", "viens", "vient", "venons", "venez", "viennent"],
-        "prendre": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
-        "aller": ["vais", "vas", "va", "allons", "allez", "vont"],
-        "voir": ["vois", "vois", "voit", "voyons", "voyez", "voient"],
-        "pouvoir": ["peux", "peux", "peut", "pouvons", "pouvez", "peuvent"],
-        "vouloir": ["veux", "veux", "veut", "voulons", "voulez", "veulent"]
-      }
+    "verbs": {
+      "finir": ["ai fini", "as fini", "a fini", "avons fini", "avez fini", "ont fini"],
+      "choisir": ["ai choisi", "as choisi", "a choisi", "avons choisi", "avez choisi", "ont choisi"],
+      "grandir": ["ai grandi", "as grandi", "a grandi", "avons grandi", "avez grandi", "ont grandi"],
+      "réussir": ["ai réussi", "as réussi", "a réussi", "avons réussi", "avez réussi", "ont réussi"]
+    }
+  },
+  "3e groupe": {
+    "rule": {
+      "title": "Les verbes du 3e groupe au passé composé",
+      "content": [
+        {
+          "idea": "Structure",
+          "text": "Les verbes du 3e groupe au passé composé sont irréguliers. Ils utilisent 'avoir' ou 'être' comme auxiliaire et ont des participes passés irréguliers."
+        },
+        {
+          "idea": "Sous-groupes",
+          "text": "Les verbes irréguliers sont souvent des verbes de mouvement, des verbes pronominaux, ou des verbes totalement irréguliers."
+        },
+        {
+          "idea": "Exemples",
+          "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+        },
+        {
+          "idea": "Astuce",
+          "text": "Il est important de mémoriser les participes passés irréguliers pour conjuguer correctement."
+        }
+      ],
+      "color": "#"
+    },
+    "verbs": {
+      "dire": ["ai dit", "as dit", "a dit", "avons dit", "avez dit", "ont dit"],
+      "faire": ["ai fait", "as fait", "a fait", "avons fait", "avez fait", "ont fait"],
+      "venir": ["suis venu", "es venu", "est venu", "sommes venus", "êtes venus", "sont venus"],
+      "prendre": ["ai pris", "as pris", "a pris", "avons pris", "avez pris", "ont pris"],
+      "aller": ["suis allé", "es allé", "est allé", "sommes allés", "êtes allés", "sont allés"],
+      "voir": ["ai vu", "as vu", "a vu", "avons vu", "avez vu", "ont vu"],
+      "pouvoir": ["ai pu", "as pu", "a pu", "avons pu", "avez pu", "ont pu"],
+      "vouloir": ["ai voulu", "as voulu", "a voulu", "avons voulu", "avez voulu", "ont voulu"]
     }
   }
-  
+}

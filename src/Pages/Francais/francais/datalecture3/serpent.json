@@ -152,6 +152,7 @@
         "question": "Que signifie 'collier' ?",
         "choices": ["Un bijou", "Un aliment", "Un outil"],
         "correctAnswer": "Un bijou"
+        
       }
     ],
         "conjugationQCM": [

@@ -12,8 +12,8 @@ import Conjugation from './Pages/conjuguaison/Conjugation';
 import AdjectiveLesson from './Pages/grammaire/AdjectiveLesson';
 import DecimauxExercice from './Pages/maths/decimaux/decimaux';
 import Mathematiques from './Pages/maths/Mathematiques';
-import Conjugation1 from './Pages/conjuguaison/conjugaison1';
-import ConjugationPractice from './Pages/conjuguaison/conjugaison1';
+//import Conjugation1 from './Pages/conjuguaison/conjugaison1';
+//import ConjugationPractice from './Pages/conjuguaison/conjugaison1';
 
 const App = () => {
   return (
