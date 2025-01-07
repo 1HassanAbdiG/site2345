@@ -1,0 +1,68 @@
+{
+  "histoires": [
+    {
+      "niveau": "Niveau : Facile",
+      "histoires": [
+        {
+          "titre": "Les Trois Papillons",
+          "image": "./papillon1.png",
+          "link": "/story/contes-africains"
+        },
+        {
+          "titre": "Le Petit Chaperon Rouge",
+          "image": "./couverture.png",
+          "link": "/story/chaperon"
+        },
+        {
+          "titre": "Première journée dans une nouvelle école",
+          "image": "./ce.png",
+          "link": "/story/ecole"
+        }, {
+          "titre": "Le Garçon Courageux",
+          "image": "./cg.png",
+          "link": "/story/Le_Garçon_Courageux"
+        }
+      ]
+    },
+    {
+      "niveau": "Niveau : Intermédiaire",
+      "histoires": [
+        {
+          "titre": "Contes de princesses et de princes",
+          "image": "./papillon3.png",
+          "link": "/story/contes-princesses-princes"
+        },
+        {
+          "titre": "Le jeune garçon et le trésor oublié",
+          "image": "./cp.png",
+          "link": "/story/enfant_coeur_pur"
+        },
+        {
+          "titre": "Contes d'animaux",
+          "image": "./papillon1.png",
+          "link": "/story/contes-animaux"
+        }
+      ]
+    },
+    {
+      "niveau": "Niveau : Avancé",
+      "histoires": [
+        {
+          "titre": "Contes de princesses et de princes",
+          "image": "./papillon3.png",
+          "link": "/story/contes-princesses-princes"
+        },
+        {
+          "titre": "Contes du Japon",
+          "image": "./papillon4.png",
+          "link": "/story/contes-japon"
+        },
+        {
+          "titre": "Contes d'animaux",
+          "image": "./papillon1.png",
+          "link": "/story/contes-animaux"
+        }
+      ]
+    }
+  ]
+}

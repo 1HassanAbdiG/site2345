@@ -1,0 +1,29 @@
+{
+  "title": "Un nouveau départ",
+  "sections": [
+    {
+      "title": "C’était un matin frais de septembre",
+      "text": "C’était un matin frais de septembre, et le soleil peinait à percer les nuages. Clara ajusta une dernière fois son sac à dos, rempli de cahiers neufs et de stylos colorés. Aujourd’hui, c’était sa première journée dans une nouvelle école, et elle ne savait pas à quoi s’attendre. Les murmures des élèves rassemblés dans la cour résonnaient dans l’air, mêlés aux éclats de rire et aux salutations enthousiastes. Mais Clara, elle, se sentait seule au milieu de cette foule.",
+      "image": "1",
+      "audio": "audio_chapter1"
+    },
+    {
+      "title": "La rencontre inattendue",
+      "text": "En entrant dans la salle de classe, Clara sentit son cœur s’accélérer. Elle balaya la pièce du regard, cherchant un visage amical, mais tout le monde semblait plongé dans ses propres conversations. Elle s’installa au fond, espérant passer inaperçue. Soudain, une fille aux cheveux bouclés s’approcha. 'Salut, moi c’est Inès. Tu es nouvelle ?' Clara hocha timidement la tête. Inès lui sourit et ajouta : 'Si tu veux, on peut déjeuner ensemble à midi.' Cette simple phrase éclaira la matinée de Clara.",
+      "image": "2",
+      "audio": "audio_chapter2"
+    },
+    {
+      "title": "Un défi inattendu",
+      "text": "Le professeur principal entra dans la classe et distribua un questionnaire pour briser la glace. Chaque élève devait se présenter et partager un rêve ou une passion. Quand ce fut le tour de Clara, elle prit une grande inspiration. 'Je m’appelle Clara, et j’adore dessiner. J’aimerais devenir illustratrice un jour.' À sa grande surprise, plusieurs élèves applaudirent et l’encouragèrent. Même Inès lui fit un clin d’œil. Clara sentit ses épaules se détendre. Peut-être que cette école ne serait pas si terrible après tout.",
+      "image": "3",
+      "audio": "audio_chapter3"
+    },
+    {
+      "title": "Une journée bien remplie",
+      "text": "À la fin de la journée, Clara se tenait à côté d’Inès et d’un petit groupe de nouveaux amis. Ensemble, ils discutaient des cours et des clubs proposés par l’école. Clara était déjà impatiente de s’inscrire au club de dessin. En rentrant chez elle, elle raconta tout à ses parents avec enthousiasme. Cette journée, qu’elle redoutait tant, s’était transformée en une belle aventure. Elle avait franchi une étape importante, et elle était prête à affronter cette nouvelle année scolaire avec le sourire.",
+      "image": "4",
+      "audio": "audio_chapter4"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff8dc;
+   padding-bottom: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  h1 {
+    color: #ff6b6b;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+  #game-container {
+    margin-top: 20px;
+    min-height: 400px;
+    border: 3px solid #ffa502;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fffaf0;
+  
+  }
+  .phrase {
+    background-color: #fff5e6;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: move;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid #ffd700;
+    font-size: 1.1em;
+   
+  }
+  .phrase:hover {
+    background-color: #ffe4b5;
+    transform: translateY(-2px);
+  }
+  .phrase.dragging {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+  .phrase.correct {
+    background-color: #98fb98;
+    border: 2px solid #32cd32;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    
+  }
+  #check {
+    margin: 20px;
+    background-color: #4cd137;
+    color: white;
+  }
+  #reset, #restart {
+    background-color: #ff7f50;
+    color: white;
+    
+  }
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  #message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+   
+  }
+  .success {
+    background-color: #98fb98;
+    color: #006400;
+   
+    
+  }
+  .error {
+    background-color: #ffcccb;
+    color: #8b0000;
+  }
+  #next-task {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f3ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+  }
+  #stats {
+    background-color: #ffe4e1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    
+  }
+  #attempts, #successes {
+    font-weight: bold;
+    color: #ff6b6b;
+    padding-bottom: 120px;
+  }
+  .instructions {
+    background-color: #e6f3ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border: 2px dashed #4cd137;
+    padding-bottom: 50px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  select {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .phrase {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .phrase.correct {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .listen-story-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .listen-story-btn:hover {
+    background-color: #e67e22;
+  }
+  .phrase-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .listen-phrase-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listen-phrase-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .playing {
+    font-weight: bold;
+    color: blue; /* Couleur lorsque la phrase est en cours de lecture */
+  }
+  
+  .listen-phrase-btn.active {
+    background-color: #388e3c; /* Changer la couleur pendant la lecture */
+  }
+  .header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+
+    bottom: 0;
+  }
+  /* App container */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height */
+  }
+  
+  /* Header */
+  header {
+    flex-shrink: 0; /* Prevents shrinking */
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Main content */
+  .main-content {
+    flex-grow: 1; /* Takes up remaining space */
+    overflow-y: auto; /* Enables vertical scrolling if content is too tall */
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Footer */
+  footer {
+    flex-shrink: 0; /* Prevents shrinking */
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+  .story{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+    text-align: left;
+  }
+ /* ************multiplication **************/
+
+ .game-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.question-box {
+  background-color: #ffeb3b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.answer-section input {
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+}
+
+.answer-section button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.feedback {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.progress {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.table-selector, .answer-section, .feedback, .progress {
+  text-align: center;
+}
+
+.recap-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.recap-table th, .recap-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.recap-table th {
+  background-color: #f4f4f4;
+}
+
+.chart-container {
+  margin-top: 30px;
+}
+
+.total-time {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}

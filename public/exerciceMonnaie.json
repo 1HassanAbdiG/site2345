@@ -1,0 +1,148 @@
+{
+  "title": "Exercices avancés sur la monnaie",
+  "exercises": [
+    {
+      "title": "Exercice 1 : Comparer des montants",
+      "questions": [
+        {"question": "Quel est le plus grand montant entre $5.20 et $4.95 ?", "correctAnswer": "5.20"},
+        {"question": "Quel est le plus petit montant entre $3.50 et $3.49 ?", "correctAnswer": "3.49"},
+        {"question": "Quel est le plus grand montant entre $7.00 et $6.99 ?", "correctAnswer": "7.00"},
+        {"question": "Quel est le plus petit montant entre $1.20 et $1.25 ?", "correctAnswer": "1.20"},
+        {"question": "Quel est le plus grand montant entre $10.50 et $10.49 ?", "correctAnswer": "10.50"}
+      ]
+    },
+    {
+      "title": "Exercice 2 : Faire des achats multiples",
+      "questions": [
+        {"question": "Tu achètes 2 articles à $3.50 chacun. Combien cela coûte-t-il au total ?", "correctAnswer": "7.00"},
+        {"question": "Tu achètes 3 articles à $4.20 chacun. Combien cela coûte-t-il au total ?", "correctAnswer": "12.60"},
+        {"question": "Tu achètes 5 articles à $2.10 chacun. Combien cela coûte-t-il au total ?", "correctAnswer": "10.50"},
+        {"question": "Tu achètes 4 articles à $6.75 chacun. Combien cela coûte-t-il au total ?", "correctAnswer": "27.00"},
+        {"question": "Tu achètes 6 articles à $1.90 chacun. Combien cela coûte-t-il au total ?", "correctAnswer": "11.40"}
+      ]
+    },
+    {
+      "title": "Exercice 3 : Trouver la différence entre deux montants",
+      "questions": [
+        {"question": "Quelle est la différence entre $10.00 et $3.75 ?", "correctAnswer": "6.25"},
+        {"question": "Quelle est la différence entre $5.50 et $2.25 ?", "correctAnswer": "3.25"},
+        {"question": "Quelle est la différence entre $20.00 et $15.10 ?", "correctAnswer": "4.90"},
+        {"question": "Quelle est la différence entre $7.80 et $3.40 ?", "correctAnswer": "4.40"},
+        {"question": "Quelle est la différence entre $50.00 et $35.75 ?", "correctAnswer": "14.25"}
+      ]
+    },
+    {
+      "title": "Exercice 4 : Identifier les pièces nécessaires pour un montant",
+      "questions": [
+        {"question": "Quels billets et pièces faut-il pour $3.25 ?", "correctAnswer": "3 billets de $1 et 1 pièce de 25 cents"},
+        {"question": "Quels billets et pièces faut-il pour $5.50 ?", "correctAnswer": "1 billet de $5 et 1 pièce de 50 cents"},
+        {"question": "Quels billets et pièces faut-il pour $7.75 ?", "correctAnswer": "1 billet de $5, 2 billets de $1 et 1 pièce de 25 cents"},
+        {"question": "Quels billets et pièces faut-il pour $9.30 ?", "correctAnswer": "1 billet de $5, 4 billets de $1 et 1 pièce de 30 cents"},
+        {"question": "Quels billets et pièces faut-il pour $12.40 ?", "correctAnswer": "1 billet de $10, 2 billets de $1 et 1 pièce de 40 cents"}
+      ]
+    },
+    {
+      "title": "Exercice 5 : Planifier un budget",
+      "questions": [
+        {
+          "question": "Tu as $20. Tu veux acheter un livre à $12.50 et un stylo à $2.75. Combien te restera-t-il après ces achats ?",
+          "correctAnswer": "4.75"
+        },
+        {
+          "question": "Tu as $50. Tu veux acheter 3 jeux vidéo à $15 chacun. Combien te restera-t-il ?",
+          "correctAnswer": "5.00"
+        },
+        {
+          "question": "Tu as $30. Tu veux acheter une chemise à $18 et un pantalon à $24. Combien te manque-t-il pour les deux ?",
+          "correctAnswer": "12.00"
+        },
+        {
+          "question": "Tu as $100. Tu veux acheter une montre à $75.50 et un bracelet à $12.25. Combien te restera-t-il après ces achats ?",
+          "correctAnswer": "12.25"
+        },
+        {
+          "question": "Tu as $25. Tu veux acheter 2 billets de cinéma à $12 chacun. Combien te manque-t-il ?",
+          "correctAnswer": "1.00"
+        }
+      ]
+    },{
+      
+          "title": "Exercice 1 : Résoudre des problèmes de monnaie",
+          "questions": [
+            {
+              "question": "Un magasin vend des pommes à $3 chacune. Si tu en achètes 4, combien cela coûte-t-il au total ?",
+              "correctAnswer": "12.00"
+            },
+            {
+              "question": "Tu as $50. Après avoir acheté un sac à $35.75, combien te reste-t-il ?",
+              "correctAnswer": "14.25"
+            },
+            {
+              "question": "Un billet de cinéma coûte $10. Si tu achètes des billets pour 5 personnes, combien dépenses-tu ?",
+              "correctAnswer": "50.00"
+            },
+            {
+              "question": "Une boîte de chocolats coûte $9. Si tu partages le coût équitablement entre 3 amis, combien chacun doit-il payer ?",
+              "correctAnswer": "3.00"
+            },
+            {
+              "question": "Tu as $25 et achètes une écharpe à $12.80. Combien te reste-t-il ?",
+              "correctAnswer": "12.20"
+            }
+          ]
+        },
+        {
+          "title": "Exercice 2 : Calculer des montants",
+          "questions": [
+            {
+              "question": "Un bonbon coûte $0.75. Si tu en achètes 8, combien dépenses-tu au total ?",
+              "correctAnswer": "6.00"
+            },
+            {
+              "question": "Un gâteau coûte $15. Si tu le partages en 5 parts égales, combien coûte chaque part ?",
+              "correctAnswer": "3.00"
+            },
+            {
+              "question": "Tu as $20. Après avoir acheté un livre à $14.50, combien te reste-t-il ?",
+              "correctAnswer": "5.50"
+            },
+            {
+              "question": "Une bouteille de jus coûte $2.25. Si tu en achètes 3, combien dépenses-tu ?",
+              "correctAnswer": "6.75"
+            },
+            {
+              "question": "Un restaurant propose un menu à $12. Si tu invites 4 amis et que chacun prend le menu, combien cela coûte-t-il ?",
+              "correctAnswer": "60.00"
+            }
+          ]
+        },
+        {
+          "title": "Exercice 3 : Résoudre des problèmes complexes",
+          "questions": [
+            {
+              "question": "Un vélo coûte $300. Tu as économisé $125 et reçois $50 de plus. Combien te reste-t-il à économiser pour acheter le vélo ?",
+              "correctAnswer": "125.00"
+            },
+            {
+              "question": "Un magasin vend 3 chemises pour $45. Quel est le prix d'une chemise ?",
+              "correctAnswer": "15.00"
+            },
+            {
+              "question": "Tu achètes un jeu à $40 et une extension à $15. Si tu paies avec un billet de $100, combien te rend-on ?",
+              "correctAnswer": "45.00"
+            },
+            {
+              "question": "Une tablette coûte $250. Si tu la paies en 5 versements égaux, combien paies-tu à chaque versement ?",
+              "correctAnswer": "50.00"
+            },
+            {
+              "question": "Un zoo propose un billet familial pour $60. Si une famille de 6 partage le coût, combien chacun doit-il payer ?",
+              "correctAnswer": "10.00"
+            }
+          ]
+        }
+      ]
+    }
+    
+  
+

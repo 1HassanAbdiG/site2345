@@ -1,0 +1,31 @@
+{
+    "histoires": [
+      {
+        "niveau": "2e année",
+        "histoires": [
+          {
+            "titre": "Les Trois Papillons",
+            "image": "../papillon1.png"
+          },
+          {
+            "titre": "Contes d'animaux",
+            "image": "../papillon1.png"
+          }
+        ]
+      },
+      {
+        "niveau": "3e année",
+        "histoires": [
+          {
+            "titre": "Contes de princesses et de princes",
+            "image": "../papillon3.png"
+          },
+          {
+            "titre": "Contes du Japon",
+            "image": "../papillon4.png"
+          }
+        ]
+      }
+    ]
+  }
+  

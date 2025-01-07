@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import textes from './sentences.json'; // Ensure you have the correct path to your JSON file
 import styles from './lecture.module.css'; // Import the CSS module
-import Questions from './questions.json'; // Make sure the path to your questions JSON file is correct
+//import Questions from './questions.json'; // Ensure the path to your questions JSON file is correct
 import Questionnaire from './questionnaires'; // Import the Questionnaire component
-import { Button } from '@mui/material'; // Ensure MUI is installed
+import { Button, ButtonGroup } from '@mui/material'; // Material-UI components for buttons
 import PhraseReconstruction from './PhraseReconstruction';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow'; // Icon for play button
+import QuizIcon from '@mui/icons-material/Quiz'; // Icon for quiz button
+import LanguageIcon from '@mui/icons-material/Language'; // Icon for language toggle button
 
 
 const Lecture = () => {
   const [selectedStoryKey, setSelectedStoryKey] = useState('LaLecture'); // Default story
   const [language, setLanguage] = useState('fr'); // State to track the selected language
   const [visibleSection, setVisibleSection] = useState('story'); // Track the currently visible section
-  const [submittedAnswers, setSubmittedAnswers] = useState(null); // State to store submitted answers
 
   const selectedStory = textes.textes[selectedStoryKey];
 
@@ -25,7 +27,7 @@ const Lecture = () => {
   // Function to read a sentence with speech synthesis
   const speakSentence = (sentence) => {
     const utterance = new SpeechSynthesisUtterance(language === 'fr' ? sentence.fr : sentence.en);
-    utterance.lang = language === 'fr' ? 'fr-FR' : 'en-US'; // Specify the language
+    utterance.lang = language === 'fr' ? 'fr-FR' : 'en-US';
     window.speechSynthesis.speak(utterance); // Start speech synthesis
   };
 
@@ -34,102 +36,87 @@ const Lecture = () => {
     setLanguage((prevLang) => (prevLang === 'fr' ? 'en' : 'fr'));
   };
 
-  // Function to get questions based on the selected story
-  const getQuestionsForStory = () => {
-    return Questions[selectedStoryKey] || []; // Adjust this to match your questions structure
-  };
-
-  const handleQuestionnaireSubmit = (answers) => {
-    console.log('Submitted answers:', answers);
-    setSubmittedAnswers(answers); // Store submitted answers
-    setVisibleSection('story'); // Reset to story section after submission
+  // Function to toggle visibility of components
+  const toggleComponent = (component) => {
+    setVisibleSection(component);
   };
 
   return (
     <div className={styles.container}>
+      {/* Button group for toggling sections */}
+      <ButtonGroup variant="contained" color="primary" aria-label="primary button group" style={{ marginBottom: '20px' }}>
+  <Button 
+    onClick={() => toggleComponent('story')} 
+    startIcon={<PlayArrowIcon />} 
+    sx={{
+      backgroundColor: '#1976d2',
+      '&:hover': {
+        backgroundColor: '#1565c0',
+      },
+      padding: '10px 20px',
+      fontWeight: 'bold',
+    }}
+  >
+    Lecture avec audio
+  </Button>
+  <Button 
+    onClick={() => toggleComponent('questionnaire')} 
+    startIcon={<QuizIcon />} 
+    sx={{
+      backgroundColor: '#388e3c',
+      '&:hover': {
+        backgroundColor: '#2c6b2f',
+      },
+      padding: '10px 20px',
+      fontWeight: 'bold',
+    }}
+  >
+    Compréhension
+  </Button>
+  <Button 
+    onClick={() => toggleComponent('phraseReconstruction')} 
+    startIcon={<LanguageIcon />} 
+    sx={{
+      backgroundColor: '#fbc02d',
+      '&:hover': {
+        backgroundColor: '#f9a825',
+      },
+      padding: '10px 20px',
+      fontWeight: 'bold',
+    }}
+  >
+    Reconstruction des phrases
+  </Button>
+</ButtonGroup>
 
-      {/* Button to toggle Questionnaire visibility */}
-      {visibleSection !== 'questionnaire' && ( // Show the Questionnaire button only if the Questionnaire is not visible
-        <Button variant="contained" color="primary" onClick={() => {
-          setVisibleSection(prev => (prev === 'questionnaire' ? 'story' : 'questionnaire'));
-        }}>
-          {visibleSection === 'questionnaire' ? 'Cacher le Questionnaire' : 'Comprehension'}
-        </Button>
-      )}
-
-      {/* Display the Questionnaire if the flag is true */}
-      {visibleSection === 'questionnaire' && (
-        <Questionnaire
-          questions={getQuestionsForStory()}
-          onSubmit={handleQuestionnaireSubmit}
-        />
-      )}
-
-      {/* Optional: Display submitted answers */}
-      {submittedAnswers && (
-        <div>
-          <h3>Vos Réponses :</h3>
-          <pre>{JSON.stringify(submittedAnswers, null, 2)}</pre>
-        </div>
-      )}
-
-      <br></br>
-      <br></br>
-      <br></br>
-      
-      
-
-      {/* Button to toggle Phrase Reconstruction */}
-      {visibleSection !== 'phraseReconstruction' && ( // Show the Phrase Reconstruction button only if the Phrase Reconstruction is not visible
-        <Button
-          variant="contained"
-          color="secondary"
-          style={{ gap: "20px" }}
-          onClick={() => {
-            setVisibleSection(prev => (prev === 'phraseReconstruction' ? 'story' : 'phraseReconstruction'));
-          }}
-        >
-          {visibleSection === 'phraseReconstruction' ? 'Cacher la Construction de Phrases' : 'Construction de Phrases'}
-        </Button>
-      )}
-
-      {/* Display Phrase Reconstruction if the flag is true */}
-      {visibleSection === 'phraseReconstruction' && (
-        <PhraseReconstruction />
-      )}
-      
-
-      <h1 className={styles.title}>Lecture </h1>
-      <p>
-        <strong>Consigne :</strong>
-        <ol>
-          <li>Sélectionnez un texte dans le menu déroulant.</li>
-          <li>Lisez le texte plusieurs fois pour bien le comprendre.</li>
-          <li>Si vous souhaitez écouter le texte, cliquez sur la flèche audio à droite de la phrase.</li>
-          <li>Essayez de répéter ce que vous entendez pour améliorer votre prononciation.</li>
-          <li>Vous pouvez passer en anglais pour mieux comprendre le texte.</li>
-        </ol>
-      </p>
-
-
-      {/* Story selection */}
-      <select onChange={handleStoryChange} value={selectedStoryKey} className={styles.select}>
-        {Object.keys(textes.textes).map((key, index) => (
-          <option key={index} value={key}>
-            {key.replace(/([A-Z])/g, ' $1').trim()} {/* Format the key for display */}
-          </option>
-        ))}
-      </select>
-
-      {/* Language Toggle Button */}
-      <button onClick={toggleLanguage} className={styles.languageButton} style={{ marginRight:"20px"}}>
-        {language === 'fr' ? 'Passer à l\'Anglais (EN)' : 'Passer au Français (FR)'}
-      </button>
-
-      {/* Render story and sentence cards only when the story section is visible */}
+      {/* Render selected component based on visibleSection state */}
       {visibleSection === 'story' && (
         <div className={styles.storyContainer}>
-          {/* Display the story and buttons for each sentence */}
+          <h1 className={styles.title}>Lecture</h1>
+          <p>
+            <strong>Consigne :</strong>
+            <ol>
+              <li>Sélectionnez un texte dans le menu déroulant.</li>
+              <li>Lisez le texte plusieurs fois pour bien le comprendre.</li>
+              <li>Si vous souhaitez écouter le texte, cliquez sur la flèche audio à droite de la phrase.</li>
+              <li>Essayez de répéter ce que vous entendez pour améliorer votre prononciation.</li>
+              <li>Vous pouvez passer en anglais pour mieux comprendre le texte.</li>
+            </ol>
+          </p>
+          <select onChange={handleStoryChange} value={selectedStoryKey} className={styles.select}>
+          {Object.keys(textes.textes).map((key, index) => (
+            <option key={index} value={key}>
+              {key.replace(/([A-Z])/g, ' $1').trim()} {/* Format key for display */}
+            </option>
+          ))}
+        </select>
+
+          {/* Language Toggle Button */}
+          <Button onClick={toggleLanguage} color="default" style={{ marginBottom: '20px' }}>
+            {language === 'fr' ? "Passer à l'Anglais (EN)" : "Passer au Français (FR)"}
+          </Button>
+
+          {/* Story sentences */}
           {selectedStory.map((sentence, index) => (
             <div key={index} className={styles.sentenceCard}>
               <p className={styles.sentence}>
@@ -139,8 +126,8 @@ const Lecture = () => {
                   onClick={() => speakSentence(sentence)}
                   role="button"
                   aria-label="Lire la phrase"
-                  tabIndex={0} // Make it focusable for accessibility
-                  onKeyPress={(e) => e.key === 'Enter' && speakSentence(sentence)} // Handle Enter key for accessibility
+                  tabIndex={0}
+                  onKeyPress={(e) => e.key === 'Enter' && speakSentence(sentence)}
                 >
                   {' ▶'}
                 </span>
@@ -150,7 +137,11 @@ const Lecture = () => {
         </div>
       )}
 
-      
+      {/* Render Questionnaire Component */}
+      {visibleSection === 'questionnaire' && <Questionnaire />}
+
+      {/* Render Phrase Reconstruction Component */}
+      {visibleSection === 'phraseReconstruction' && <PhraseReconstruction />}
     </div>
   );
 };

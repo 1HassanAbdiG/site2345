@@ -45,10 +45,10 @@ const Mathematiques = () => {
           <div className={styles['progress-bar']}>
             <div className={styles['progress']} data-progress="75"></div>
           </div>
-          <Link to="/multiplication" className={styles.button}>
-            Pratiquer
+          <Link to="/addSoustraction" className={styles.button}>
+            Pratiquer2
           </Link>
-          
+
         </div>
 
         {/* Carte 2 */}
@@ -88,10 +88,30 @@ const Mathematiques = () => {
           <div className={styles['progress-bar']}>
             <div className={styles['progress']} data-progress="30"></div>
           </div>
-          <Link to="/exerciseDecimaux" className={styles.button}> Découvrir</Link>
-            
-        
+          <Link to="/faction" className={styles.button}> Découvrir</Link>
+
+
         </div>
+        {/* Carte Monnaie */}
+        <div className={styles['topic-card']}>
+          <svg viewBox="0 0 100 100" width="60" height="60">
+            <circle cx="50" cy="50" r="45" fill="#4CAF50" opacity="0.2" />
+            <path d="M30 50 L70 50 M50 30 L50 70" stroke="#4CAF50" strokeWidth="5" />
+            <text x="50" y="55" textAnchor="middle" fill="#4CAF50" fontSize="20" fontWeight="bold">$</text>
+          </svg>
+          <h3>Monnaie</h3>
+          <div className={styles['difficulty-indicator']}>
+            <span className={`${styles['difficulty-dot']} ${styles.active}`}></span>
+            <span className={styles['difficulty-dot']}></span>
+            <span className={styles['difficulty-dot']}></span>
+          </div>
+          <p>Exercices sur les pièces et billets canadiens</p>
+          <div className={styles['progress-bar']}>
+            <div className={styles['progress']} data-progress="50"></div>
+          </div>
+          <Link to="/exerciseMonnaie" className={styles.button}>Découvrir</Link>
+        </div>
+
 
         {/* Carte 4 */}
         <div className={styles['topic-card']}>
@@ -110,7 +130,7 @@ const Mathematiques = () => {
             <div className={styles['progress']} data-progress="60"></div>
           </div>
           <Link to="/exerciseDecimaux" className={styles.button}> Explorer</Link>
-          
+
         </div>
         <div className={styles['topic-card']}>
           <svg viewBox="0 0 100 100" width="60" height="60">
@@ -149,9 +169,29 @@ const Mathematiques = () => {
             <div className={styles['progress']} data-progress="20"></div>
           </div>
           <Link to="/exerciseDecimaux" className={styles.button}> Explorer</Link>
-           
-          
+
+
         </div>
+        {/* Nouvelle Carte - Suites Numériques */}
+        <div className={styles['topic-card']}>
+          <svg viewBox="0 0 100 100" width="60" height="60">
+            <circle cx="50" cy="50" r="45" fill="#2196F3" opacity="0.2" />
+            <line x1="30" y1="70" x2="50" y2="50" stroke="#2196F3" strokeWidth="5" />
+            <line x1="50" y1="50" x2="70" y2="30" stroke="#2196F3" strokeWidth="5" />
+          </svg>
+          <h3>Suites Numériques</h3>
+          <div className={styles['difficulty-indicator']}>
+            <span className={`${styles['difficulty-dot']} ${styles.active}`}></span>
+            <span className={styles['difficulty-dot']}></span>
+            <span className={styles['difficulty-dot']}></span>
+          </div>
+          <p>Exercez-vous à compléter des suites logiques de nombres selon des règles simples.</p>
+          <div className={styles['progress-bar']}>
+            <div className={styles['progress']} data-progress="40"></div>
+          </div>
+          <Link to="/exerciseSuite" className={styles.button}> Explorer</Link>
+        </div>
+
       </div>
     </div>
   );

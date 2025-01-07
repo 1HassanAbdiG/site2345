@@ -1,0 +1,51 @@
+{
+    "title": "Les Trois Papillons",
+    "sections": [
+      {
+        "title": "Présentation des papillons et de leur amitié",
+        "text": "Il y avait trois papillons : un blanc, un rouge et un jaune. Ils étaient les trois meilleurs amis et jouaient toujours ensemble au soleil, dans les jardins en fleurs.",
+        "image": "three_butterflies_playing",
+        "audio": "audio_paragraph1"
+      },
+      {
+        "title": "Le début de la pluie et la quête d'abri",
+        "text": "Un jour, les trois papillons jouaient comme d'habitude quand il s'est mis à pleuvoir. Ils ont essayé de retourner à la maison, mais elle était trop éloignée. Comme ils ne réussissaient pas à trouver un abri, ils ont dû rester sous la pluie et se laisser tremper.",
+        "image": "butterflies_in_rain",
+        "audio": "audio_paragraph2"
+      },
+      
+          {
+            "title": "La demande au lis blanc",
+            "text": "Le papillon rouge a eu une idée. Les papillons ont volé ensemble jusqu'à un lis blanc, et le papillon rouge a dit : « Aimable lis, s'il te plaît, ouvre tes pétales pour nous offrir un abri contre la pluie. » Le lis a répondu qu'il accepterait seulement le papillon blanc, mais pas les autres. Le papillon blanc a refusé d'abandonner ses amis et a préféré se faire tremper.",
+            "image": "red_butterfly_and_lily",
+            "audio": "audio_paragraph3"
+          },
+          {
+            "title": "La demande à la rose",
+            "text": "Les papillons, toujours trempés, se sont dirigés vers une rose. Le papillon rouge a de nouveau demandé un abri, mais la rose n'a accepté que lui. Le papillon rouge a alors décidé de partir sans aide plutôt que de laisser ses amis.",
+            "image": "butterflies_asking_rose",
+            "audio": "audio_paragraph4"
+          },
+          {
+            "title": "La demande à la tulipe",
+            "text": "Enfin, ils se sont adressés à une tulipe, mais elle n’a accepté que le papillon jaune, car ils avaient la même couleur. Le papillon jaune a aussi refusé d’abandonner ses amis, même si cela signifiait se faire tremper.",
+            "image": "yellow_butterfly_and_tulip",
+            "audio": "audio_paragraph5"
+          },
+        
+      
+      {
+        "title": "L’intervention du soleil et la fin de la pluie",
+        "text": "Le soleil, impressionné par la fidélité des trois papillons, a chassé les nuages et la pluie. Il s'est penché sur le jardin pour sécher les ailes des papillons.",
+        "image": "sun_shining_on_butterflies",
+        "audio": "audio_paragraph6"
+      },
+      {
+        "title": "Le retour à la joie",
+        "text": "Les trois papillons ont pu continuer à danser et à s'amuser joyeusement dans le jardin le reste de la journée.",
+        "image": "butterflies_dancing_in_sun",
+        "audio": "audio_paragraph7"
+      }
+    ]
+  }
+  

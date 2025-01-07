@@ -1,0 +1,211 @@
+{
+  "title": " Exercices de Mathématiques - 5e Année",
+  "exercises": [
+    {
+      "title": "Exercice 1 - Multiplication",
+      "type": "multiplication",
+      "questions": [
+        {
+          "question": "5 × 3 = ?",
+          "correctAnswer": "15",
+          "type": "simple"
+        },
+        {
+          "question": "12 × 7 = ?",
+          "correctAnswer": "84",
+          "type": "simple"
+        },
+        {
+          "question": "15 × 4 = ?",
+          "correctAnswer": "60",
+          "type": "simple"
+        },
+        {
+          "question": "10 × 2 × 3 = ?",
+          "correctAnswer": "60",
+          "type": "multiple"
+        },
+        {
+          "question": "100 × 5 = ?",
+          "correctAnswer": "500",
+          "type": "simple"
+        },
+        {
+          "question": "20 × 3 × 2 = ?",
+          "correctAnswer": "120",
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 2 - Multiplication avec grands nombres",
+      "type": "multiplication_large",
+      "questions": [
+        {
+          "question": "52 × 3 = ?",
+          "correctAnswer": "156",
+          "type": "simple"
+        },
+        {
+          "question": "76 × 4 = ?",
+          "correctAnswer": "304",
+          "type": "simple"
+        },
+        {
+          "question": "125 × 2 = ?",
+          "correctAnswer": "250",
+          "type": "simple"
+        },
+        {
+          "question": "150 × 2 × 3 = ?",
+          "correctAnswer": "900",
+          "type": "multiple"
+        },
+        {
+          "question": "90 × 5 = ?",
+          "correctAnswer": "450",
+          "type": "simple"
+        },
+        {
+          "question": "200 × 3 = ?",
+          "correctAnswer": "600",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 3 - Division",
+      "type": "division",
+      "questions": [
+        {
+          "question": "15 ÷ 3 = ?",
+          "correctAnswer": "5",
+          "type": "simple"
+        },
+        {
+          "question": "50 ÷ 10 = ?",
+          "correctAnswer": "5",
+          "type": "simple"
+        },
+        {
+          "question": "100 ÷ 25 = ?",
+          "correctAnswer": "4",
+          "type": "simple"
+        },
+        {
+          "question": "30 ÷ 5 ÷ 2 = ?",
+          "correctAnswer": "3",
+          "type": "multiple"
+        },
+        {
+          "question": "200 ÷ 50 = ?",
+          "correctAnswer": "4",
+          "type": "simple"
+        },
+        {
+          "question": "80 ÷ 10 ÷ 4 = ?",
+          "correctAnswer": "2",
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 4 - Division avec grands nombres",
+      "type": "division_large",
+      "questions": [
+        {
+          "question": "105 ÷ 5 = ?",
+          "correctAnswer": "21",
+          "type": "simple"
+        },
+        {
+          "question": "345 ÷ 15 = ?",
+          "correctAnswer": "23",
+          "type": "simple"
+        },
+        {
+          "question": "78 ÷ 3 ÷ 2 = ?",
+          "correctAnswer": "13",
+          "type": "simple"
+        },
+        {
+          "question": "100 ÷ 2 ÷ 5 = ?",
+          "correctAnswer": "10",
+          "type": "multiple"
+        },
+        {
+          "question": "120 ÷ 4 = ?",
+          "correctAnswer": "30",
+          "type": "simple"
+        },
+        {
+          "question": "60 ÷ 3 = ?",
+          "correctAnswer": "20",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 5 - Problèmes de Multiplication",
+      "type": "multiplication_problems",
+      "questions": [
+        {
+          "question": "Un jardinier plante 12 rangées de 8 fleurs chacune. Combien de fleurs a-t-il plantées en tout ?",
+          "correctAnswer": "96",
+          "type": "problem"
+        },
+        {
+          "question": "Une usine produit 250 pièces par jour. Combien de pièces sont produites en 4 jours ?",
+          "correctAnswer": "1000",
+          "type": "problem"
+        },
+        {
+          "question": "Chaque boîte contient 24 crayons. Combien de crayons y a-t-il dans 6 boîtes ?",
+          "correctAnswer": "144",
+          "type": "problem"
+        },
+        {
+          "question": "Un agriculteur récolte 15 pommes par arbre. Combien de pommes récolte-t-il sur 20 arbres ?",
+          "correctAnswer": "300",
+          "type": "problem"
+        },
+        {
+          "question": "Un camion transporte 8 palettes, chaque palette pèse 75 kg. Quel est le poids total transporté ?",
+          "correctAnswer": "600",
+          "type": "problem"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 6 - Problèmes de Division",
+      "type": "division_problems",
+      "questions": [
+        {
+          "question": "Un agriculteur récolte 200 pommes et veut les répartir équitablement dans 5 paniers. Combien de pommes y a-t-il par panier ?",
+          "correctAnswer": "40",
+          "type": "problem"
+        },
+        {
+          "question": "Une usine emballe 600 bouteilles dans des cartons de 12 bouteilles. Combien de cartons sont nécessaires ?",
+          "correctAnswer": "50",
+          "type": "problem"
+        },
+        {
+          "question": "Un bus transporte 72 passagers répartis en 9 rangées. Combien de passagers y a-t-il par rangée ?",
+          "correctAnswer": "8",
+          "type": "problem"
+        },
+        {
+          "question": "Un magasin a vendu 180 articles en 6 jours. Combien d’articles ont été vendus par jour en moyenne ?",
+          "correctAnswer": "30",
+          "type": "problem"
+        },
+        {
+          "question": "Un chef divise 120 cookies en 10 assiettes. Combien de cookies y a-t-il par assiette ?",
+          "correctAnswer": "12",
+          "type": "problem"
+        }
+      ]
+    }
+  ]
+}

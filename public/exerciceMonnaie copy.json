@@ -1,0 +1,89 @@
+{
+  "title": "Exercices sur la monnaie ",
+  "exercises": [
+    {
+      "title": "Exercice 1 : Additionner des montants",
+      "questions": [
+        {"question": "$2 + 50 cents = _______", "correctAnswer": "2.50"},
+        {"question": "$1 + 75 cents = _______", "correctAnswer": "1.75"},
+        {"question": "$3 + 20 cents = _______", "correctAnswer": "3.20"},
+        {"question": "$5 + $1 + 25 cents = _______", "correctAnswer": "6.25"},
+        {"question": "$10 + $3 + 50 cents = _______", "correctAnswer": "13.50"}
+      ]
+    },
+    {
+      "title": "Exercice 2 : Rendre la monnaie",
+      "questions": [
+        {"question": "Tu achètes un article à $7, et tu payes avec un billet de $10. Combien te rend-on ?", "correctAnswer": "3.00"},
+        {"question": "Tu achètes un article à $3.60, et tu payes avec un billet de $5. Combien te rend-on ?", "correctAnswer": "1.40"},
+        {"question": "Tu achètes un article à $12.25, et tu payes avec un billet de $20. Combien te rend-on ?", "correctAnswer": "7.75"},
+        {"question": "Tu achètes un article à $6.80, et tu payes avec un billet de $10. Combien te rend-on ?", "correctAnswer": "3.20"},
+        {"question": "Tu achètes un article à $4.50, et tu payes avec un billet de $5. Combien te rend-on ?", "correctAnswer": "0.50"}
+      ]
+    },
+    {
+      "title": "Exercice 3 : Conversion entre dollars et cents",
+      "questions": [
+        {"question": "$2 = _______ cents", "correctAnswer": "200"},
+        {"question": "$3.75 = _______ cents", "correctAnswer": "375"},
+        {"question": "$5.50 = _______ cents", "correctAnswer": "550"},
+        {"question": "$4.10 = _______ cents", "correctAnswer": "410"},
+        {"question": "$1.25 = _______ cents", "correctAnswer": "125"}
+      ]
+    },
+    {
+      "title": "Exercice 4 : Calculer le prix total",
+      "questions": [
+        {
+          "question": "Un bonbon coûte $0.50, un jus coûte $1.20, et une barre chocolatée coûte $1.50. Quel est le prix total ?",
+          "correctAnswer": "3.20"
+        },
+        {
+          "question": "Un stylo coûte $0.80, un cahier coûte $2.50, et une gomme coûte $0.70. Quel est le prix total ?",
+          "correctAnswer": "4.00"
+        },
+        {
+          "question": "Un billet de cinéma coûte $7, une boisson coûte $2.30, et un pop-corn coûte $3.50. Quel est le prix total ?",
+          "correctAnswer": "12.80"
+        },
+        {
+          "question": "Une pizza coûte $9.50, un dessert coûte $4.25, et une boisson coûte $3. Combien cela coûte-t-il au total ?",
+          "correctAnswer": "16.75"
+        },
+        {
+          "question": "Un livre coûte $12.50, un marque-page coûte $2.75, et un carnet coûte $6. Quel est le prix total ?",
+          "correctAnswer": "21.25"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 5 : Résoudre des problèmes de monnaie",
+      "questions": [
+        {
+          "question": "Zoé veut acheter un jouet qui coûte $8.90. Elle a $5 et 3 pièces de $1. Combien lui manque-t-il pour acheter le jouet ?",
+          "correctAnswer": "0.90"
+        },
+        {
+          "question": "Paul a $10, il achète une boisson à $3.50 et une pizza à $5.30. Combien lui reste-t-il après ses achats ?",
+          "correctAnswer": "1.20"
+        },
+        {
+          "question": "Claire a $15 et veut acheter trois livres. Chaque livre coûte $4.80. Combien dépensera-t-elle au total ?",
+          "correctAnswer": "14.40"
+        },
+        {
+          "question": " et combien lui restera-t-il après les achats ?",
+          "correctAnswer": "0.60"
+        },
+        {
+          "question": "Léo a $20 et achète une casquette à $12.75 et un sac à $5.50. Combien lui reste-t-il ?",
+          "correctAnswer": "1.75"
+        },
+        {
+          "question": "Emma a $50 et veut acheter 4 jeux à $10 chacun. Combien lui restera-t-il après ses achats ?",
+          "correctAnswer": "10.00"
+        }
+      ]
+    }
+  ]
+}

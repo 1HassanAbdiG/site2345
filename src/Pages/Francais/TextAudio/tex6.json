@@ -1,0 +1,23 @@
+{
+  "title": "Le Garçon Courageux",
+  "sections": [
+    {
+      "title": "Un acte de courage",
+      "text": "Il était une fois un garçon nommé Leo, qui vivait dans un petit village entouré de montagnes. Bien que jeune, il avait un cœur rempli de courage et de bonté. Un jour, une vieille femme du village perdit sa chèvre dans la forêt. Cet animal lui était vital pour sa survie, mais personne n'osait s'aventurer dans ces bois sombres et réputés dangereux. Malgré la peur qui régnait, Leo déclara : 'Je vais retrouver cette chèvre.'",
+      "image": "1",
+      "audio": "audio_chapter1"
+    },
+    {
+      "title": "Une quête dans la forêt",
+      "text": "Avec une lanterne et une corde, il entra dans la forêt. Les arbres semblaient gigantesques et les bruits de la nuit étaient effrayants, mais Leo continua d'avancer. Après de longues recherches, il entendit un faible bêlement. Il trouva la chèvre coincée dans des branches épineuses. Sans hésiter, il la libéra, bien que ses mains fussent égratignées. Le chemin du retour fut difficile, marqué par des hurlements de loups et l'obscurité oppressante, mais Leo tint bon.",
+      "image": "2",
+      "audio": "audio_chapter2"
+    },
+    {
+      "title": "Un retour triomphant",
+      "text": "Lorsqu’il revint au village, les habitants l'accueillirent avec des applaudissements. La vieille femme, en larmes, remercia Leo en serrant sa chèvre dans ses bras. 'Tu es un héros,' dit-elle. Leo répondit avec modestie : 'J'ai simplement suivi mon cœur.' Depuis ce jour, il fut connu comme un garçon courageux, et son exemple inspira tout le village à affronter leurs peurs pour aider les autres.",
+      "image": "3",
+      "audio": "audio_chapter3"
+    }
+  ]
+}

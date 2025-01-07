@@ -1,0 +1,48 @@
+{
+    "title": "Le jeune garçon et le trésor oublié",
+    "sections": [
+      {
+        "title": "L’enfant au cœur pur",
+        "text": "Il était une fois, dans un petit village niché au bord d’une forêt mystérieuse, un jeune garçon nommé Élie. Orphelin et très pauvre, il vivait dans une modeste cabane en bois, ornée de quelques fleurs sauvages qu’il cultivait pour honorer la mémoire de sa grand-mère. Chaque jour, Élie affrontait la rudesse de la vie avec un sourire sincère, cueillant des baies juteuses et ramassant du bois qu'il vendait au marché. Ses yeux pétillants reflétaient une curiosité insatiable pour les merveilles du monde qui l’entourait, même dans les moments les plus sombres.",
+        "image": "1",
+        "audio": "audio_chapter1"
+      },
+      {
+        "title": "L’appel de la forêt mystérieuse",
+        "text": "Un matin, alors que le ciel se teintait de nuances roses et dorées, Élie sentit un appel irrésistible. Il décida de s’aventurer plus profondément dans la forêt, un territoire où même les villageois les plus courageux n’osaient pas s’aventurer. Les légendes murmuraient l’existence d’anciens secrets enfouis au cœur des bois. Armé de son courage, d’un sac en toile usée, et de sa lampe à huile, il s’engagea sur un sentier à peine visible, tapissé de mousse douce et bordé de fougères luxuriantes. Les arbres, majestueux et imposants, semblaient susurrer des histoires anciennes à chaque souffle de vent.",
+        "image": "2",
+        "audio": "audio_chapter2"
+      },
+      {
+        "title": "La découverte secrète",
+        "text": "Après des heures de marche, Élie émergea dans une clairière baignée d’une lumière éclatante. Les rayons du soleil traversaient les feuilles, créant un spectacle de lumières dansantes. Au centre, une pierre étrange, couverte de symboles mystérieux, attira son attention. Intrigué, il s’agenouilla pour examiner les gravures, sentant une vibration subtile lorsqu’il posa sa main sur la surface froide. Soudain, le sol se déroba doucement, révélant une trappe en bois dissimulée. Le cœur battant, Élie tira sur l’anneau métallique et découvrit un escalier plongeant dans l’obscurité.",
+        "image": "3",
+        "audio": "audio_chapter3"
+      },
+      {
+        "title": "La descente dans l'obscurité",
+        "text": "Tandis que la lumière du jour s’estompait derrière lui, Élie alluma sa lampe à huile et descendit lentement les marches, ses pas résonnant dans le silence. L’air, dense et empreint d’un parfum ancien, semblait chargé de mystères oubliés. En bas des escaliers, il découvrit une immense salle souterraine, ses murs ornés de gravures énigmatiques. Au centre, sur un piédestal en pierre, un coffre massif, renforcé de ferrures dorées, l’attendait. L’éclat de l’or sur les ferrures reflétait la lumière de sa lampe, ajoutant une touche magique à l’atmosphère déjà envoûtante.",
+        "image": "4",
+        "audio": "audio_chapter4"
+      },
+      {
+        "title": "La découverte du trésor",
+        "text": "Avec une prudence mêlée d’excitation, Élie ouvrit le coffre. Une lumière dorée emplit la pièce, révélant des pièces d’or scintillantes, des bijoux ornés de pierres précieuses, et des objets d’art d’une beauté époustouflante. Mais ce qui retint son souffle fut un carnet en cuir patiné, déposé délicatement au sommet. En l’ouvrant, il découvrit une lettre écrite par un ancien roi, racontant comment ce trésor avait été dissimulé pour échapper aux envahisseurs. Le roi espérait qu’un jour, une âme pure viendrait le découvrir et l’utiliser pour faire le bien.",
+        "image": "5",
+        "audio": "audio_chapter5"
+      },
+      {
+        "title": "L'émotion et la décision",
+        "text": "Élie resta figé, l’émotion le submergeant. Il imaginait les vies qu’il pourrait transformer avec ces richesses. Mais il comprenait aussi la responsabilité qui pesait sur lui. Déterminé à faire un usage noble de ce trésor, il entreprit de ramener une partie des richesses dans son humble cabane. Peu à peu, il reconstruisit le village, apporta un soutien inestimable aux familles nécessiteuses, et veilla à ce que personne ne revive les épreuves qu’il avait endurées.",
+        "image": "6",
+        "audio": "audio_chapter6"
+      },
+      {
+        "title": "La leçon du trésor",
+        "text": "Les actes généreux d’Élie transformèrent le village en un lieu de bonheur et de prospérité. Les villageois, reconnaissants, lui témoignèrent une admiration éternelle. Mais Élie n’oublia jamais la véritable leçon de cette aventure : les trésors les plus précieux résident dans la bonté, le courage, et le partage. Ainsi, sa légende traversa les âges, inspirant ceux qui écoutaient son histoire à chercher le trésor dans leurs propres cœurs.",
+        "image": "7",
+        "audio": "audio_chapter7"
+      }
+    ]
+  }
+  

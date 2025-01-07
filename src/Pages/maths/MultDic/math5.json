@@ -1,0 +1,175 @@
+{
+  "title": "Exercices de Mathématiques - 5e Année",
+  "exercises": [
+    {
+      "title": "Exercice 1 - Multiplication avec grands nombres",
+      "type": "multiplication_large",
+      "questions": [
+        {
+          "question": "345 × 12 = ?",
+          "correctAnswer": "4140",
+          "type": "simple"
+        },
+        {
+          "question": "567 × 23 = ?",
+          "correctAnswer": "13041",
+          "type": "simple"
+        },
+        {
+          "question": "125 × 48 = ?",
+          "correctAnswer": "6000",
+          "type": "simple"
+        },
+        {
+          "question": "150 × 25 × 2 = ?",
+          "correctAnswer": "7500",
+          "type": "multiple"
+        },
+        {
+          "question": "102 × 36 = ?",
+          "correctAnswer": "3672",
+          "type": "simple"
+        },
+        {
+          "question": "208 × 15 = ?",
+          "correctAnswer": "3120",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 2 - Écrivez la réponse sous la forme :Quotient reste Reste, soit 50 reste 4",
+      "type": "division_remainder",
+      "questions": [
+        {
+          "question": "321 ÷ 5 = ?",
+          "correctAnswer": "64 reste 1",
+          "type": "simple"
+        },
+        {
+          "question": "450 ÷ 8 = ?",
+          "correctAnswer": "56 reste 2",
+          "type": "simple"
+        },
+        {
+          "question": "789 ÷ 7 = ?",
+          "correctAnswer": "112 reste 5",
+          "type": "simple"
+        },
+        {
+          "question": "625 ÷ 9 = ?",
+          "correctAnswer": "69 reste 4",
+          "type": "multiple"
+        },
+        {
+          "question": "910 ÷ 4 = ?",
+          "correctAnswer": "227 reste 2",
+          "type": "simple"
+        },
+        {
+          "question": "1001 ÷ 6 = ?",
+          "correctAnswer": "166 reste 5",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 3 - Fractions et Multiplication",
+      "type": "fractions_multiplication",
+      "questions": [
+        {
+          "question": "1/2 × 6 = ?",
+          "correctAnswer": "3",
+          "type": "simple"
+        },
+        {
+          "question": "3/4 × 8 = ?",
+          "correctAnswer": "6",
+          "type": "simple"
+        },
+        {
+          "question": "5 × 2/5 = ?",
+          "correctAnswer": "2",
+          "type": "simple"
+        },
+        {
+          "question": "3 × 1/3 × 9 = ?",
+          "correctAnswer": "9",
+          "type": "multiple"
+        },
+        {
+          "question": "7 × 4/7 = ?",
+          "correctAnswer": "4",
+          "type": "simple"
+        },
+        {
+          "question": "10 × 3/5 = ?",
+          "correctAnswer": "6",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 4 - Problèmes de Multiplication",
+      "type": "multiplication_problems",
+      "questions": [
+        {
+          "question": "Un avion transporte 350 passagers par vol. Combien de passagers transporte-t-il en 15 vols ?",
+          "correctAnswer": "5250",
+          "type": "problem"
+        },
+        {
+          "question": "Une usine produit 1200 boîtes chaque jour. Combien de boîtes sont produites en 8 jours ?",
+          "correctAnswer": "9600",
+          "type": "problem"
+        },
+        {
+          "question": "Un agriculteur récolte 45 kg de blé par hectare. Combien récolte-t-il sur 12 hectares ?",
+          "correctAnswer": "540",
+          "type": "problem"
+        },
+        {
+          "question": "Un train transporte 50 tonnes de marchandises par wagon. Combien transporte-t-il avec 18 wagons ?",
+          "correctAnswer": "900",
+          "type": "problem"
+        },
+        {
+          "question": "Une entreprise emballe 2500 produits par semaine. Combien en emballe-t-elle en 4 semaines ?",
+          "correctAnswer": "10000",
+          "type": "problem"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 5 - Problèmes de Division",
+      "type": "division_problems",
+      "questions": [
+        {
+          "question": "Un agriculteur récolte 720 pommes et les répartit dans 18 paniers. Combien de pommes y a-t-il par panier ?",
+          "correctAnswer": "40",
+          "type": "problem"
+        },
+        {
+          "question": "Une entreprise emballe 2400 boîtes dans des cartons de 12 boîtes. Combien de cartons sont nécessaires ?",
+          "correctAnswer": "200",
+          "type": "problem"
+        },
+        {
+          "question": "Une école répartit 540 élèves en 18 classes. Combien y a-t-il d’élèves par classe ?",
+          "correctAnswer": "30",
+          "type": "problem"
+        },
+        {
+          "question": "Un camion transporte 350 kg de marchandises et les répartit en sacs de 25 kg. Combien de sacs sont nécessaires ?",
+          "correctAnswer": "14",
+          "type": "problem"
+        },
+        {
+          "question": "Un chef divise 450 cookies en 15 assiettes. Combien de cookies y a-t-il par assiette ?",
+          "correctAnswer": "30",
+          "type": "problem"
+        }
+      ]
+    }
+  ]
+}

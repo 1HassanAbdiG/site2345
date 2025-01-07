@@ -1,0 +1,29 @@
+{
+  "title": "Le Petit Chaperon Rouge",
+  "sections": [
+    {
+      "title": "La mission de la mère",
+      "text": "Un jour, une mère demanda à sa fille, surnommée Le Petit Chaperon Rouge à cause de sa cape rouge, de rendre visite à sa grand-mère malade. Elle lui donna un panier rempli de pain et de confiture en lui disant : 'Va directement chez ta grand-mère et ne parle à personne en chemin.' Joyeuse et obéissante, Le Petit Chaperon Rouge partit à travers la forêt.",
+      "image": "depart",
+      "audio": "audio_chapter1"
+    },
+    {
+      "title": "La rencontre avec le loup",
+      "text": "En marchant dans la forêt, Le Petit Chaperon Rouge rencontra un loup. Curieuse mais prudente, elle répondit poliment lorsque le loup lui demanda où elle allait. 'Je vais chez ma grand-mère qui habite de l'autre côté de la forêt', dit-elle innocemment. Le loup, rusé, décida de devancer la petite fille pour atteindre la maison de la grand-mère avant elle.",
+      "image": "petit_loup",
+      "audio": "audio_chapter2"
+    },
+    {
+      "title": "Le piège du loup",
+      "text": "Le loup arriva chez la grand-mère, frappa à la porte, et se fit passer pour Le Petit Chaperon Rouge. La grand-mère, sans méfiance, ouvrit la porte et fut aussitôt enfermée dans un placard par le loup. Il se déguisa alors avec les vêtements de la vieille dame et se coucha dans son lit, attendant l'arrivée de la petite fille.",
+      "image": "lechasseur",
+      "audio": "audio_chapter3"
+    },
+    {
+      "title": "Le sauvetage héroïque",
+      "text": "Quand Le Petit Chaperon Rouge arriva chez sa grand-mère, elle trouva la porte ouverte. En entrant, elle remarqua que sa grand-mère semblait différente. 'Grand-mère, que vous avez de grandes oreilles !' dit-elle. 'C'est pour mieux t'entendre, mon enfant,' répondit le loup. Après plusieurs questions, le loup bondit hors du lit pour la manger, mais un chasseur qui passait par là entendit les cris. Il entra dans la maison et chassa le loup, sauvant Le Petit Chaperon Rouge et sa grand-mère.",
+      "image": "fin",
+      "audio": "audio_chapter4"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "title": "Exercices de Mathématiques - 6e Année",
+  "exercises": [
+    {
+      "title": "Exercice 1 - Multiplication avec grands nombres",
+      "type": "multiplication_large",
+      "questions": [
+        {
+          "question": "2567 × 18 = ?",
+          "correctAnswer": "46206",
+          "type": "simple"
+        },
+        {
+          "question": "3549 × 27 = ?",
+          "correctAnswer": "95823",
+          "type": "simple"
+        },
+        {
+          "question": "1289 × 56 = ?",
+          "correctAnswer": "72064",
+          "type": "simple"
+        },
+        {
+          "question": "980 × 42 = ?",
+          "correctAnswer": "41160",
+          "type": "multiple"
+        },
+        {
+          "question": "234 × 78 = ?",
+          "correctAnswer": "18252",
+          "type": "simple"
+        },
+        {
+          "question": "1234 × 35 = ?",
+          "correctAnswer": "43190",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 2 - Division avec reste",
+      "type": "division_remainder",
+      "questions": [
+        {
+          "question": "987 ÷ 8 = ?",
+          "correctAnswer": "123 reste 3",
+          "type": "simple"
+        },
+        {
+          "question": "1546 ÷ 9 = ?",
+          "correctAnswer": "171 reste 7",
+          "type": "simple"
+        },
+        {
+          "question": "1789 ÷ 6 = ?",
+          "correctAnswer": "298 reste 5",
+          "type": "simple"
+        },
+        {
+          "question": "2025 ÷ 7 = ?",
+          "correctAnswer": "289 reste 2",
+          "type": "multiple"
+        },
+        {
+          "question": "3468 ÷ 5 = ?",
+          "correctAnswer": "693 reste 3",
+          "type": "simple"
+        },
+        {
+          "question": "5042 ÷ 11 = ?",
+          "correctAnswer": "458 reste 4",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 3 - Fractions et Multiplication",
+      "type": "fractions_multiplication",
+      "questions": [
+        {
+          "question": "2/3 × 9 = ?",
+          "correctAnswer": "6",
+          "type": "simple"
+        },
+        {
+          "question": "7/8 × 16 = ?",
+          "correctAnswer": "14",
+          "type": "simple"
+        },
+        {
+          "question": "5/6 × 18 = ?",
+          "correctAnswer": "15",
+          "type": "simple"
+        },
+        {
+          "question": "9 × 3/4 = ?",
+          "correctAnswer": "6.75",
+          "type": "multiple"
+        },
+        {
+          "question": "3 × 5/7 = ?",
+          "correctAnswer": "2.14",
+          "type": "simple"
+        },
+        {
+          "question": "10 × 2/3 = ?",
+          "correctAnswer": "6.67",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 4 - Problèmes de Multiplication",
+      "type": "multiplication_problems",
+      "questions": [
+        {
+          "question": "Un magasin vend 230 articles chaque jour. Combien d'articles vend-il en 25 jours ?",
+          "correctAnswer": "5750",
+          "type": "problem"
+        },
+        {
+          "question": "Un fermier récolte 180 pommes par arbre. Combien de pommes récolte-t-il sur 30 arbres ?",
+          "correctAnswer": "5400",
+          "type": "problem"
+        },
+        {
+          "question": "Un train transporte 180 passagers par wagon. Combien de passagers sont transportés avec 22 wagons ?",
+          "correctAnswer": "3960",
+          "type": "problem"
+        },
+        {
+          "question": "Un ouvrier fabrique 50 unités par heure. Combien d'unités fabrique-t-il en 120 heures ?",
+          "correctAnswer": "6000",
+          "type": "problem"
+        },
+        {
+          "question": "Une usine produit 1000 pièces chaque jour. Combien de pièces produit-elle en 45 jours ?",
+          "correctAnswer": "45000",
+          "type": "problem"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 5 - Problèmes de Division",
+      "type": "division_problems",
+      "questions": [
+        {
+          "question": "Une ferme récolte 1200 tomates et les répartit dans 30 paniers. Combien de tomates y a-t-il par panier ?",
+          "correctAnswer": "40",
+          "type": "problem"
+        },
+        {
+          "question": "Une entreprise emballe 3000 produits dans des cartons de 25 produits. Combien de cartons sont nécessaires ?",
+          "correctAnswer": "120",
+          "type": "problem"
+        },
+        {
+          "question": "Un autobus transporte 60 élèves. Combien d'autobus sont nécessaires pour transporter 1200 élèves ?",
+          "correctAnswer": "20",
+          "type": "problem"
+        },
+        {
+          "question": "Un magasin vend 1800 produits chaque mois. Combien de produits vend-il en 6 mois ?",
+          "correctAnswer": "10800",
+          "type": "problem"
+        },
+        {
+          "question": "Un chef divise 2500 cookies en 50 boîtes. Combien de cookies y a-t-il par boîte ?",
+          "correctAnswer": "50",
+          "type": "problem"
+        }
+      ]
+    }
+  ]
+}

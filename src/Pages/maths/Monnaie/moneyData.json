@@ -1,0 +1,18 @@
+{
+    "coins": [
+      {"name": "Toonie", "value": 2.00, "class": "toonie"},
+      {"name": "Loonie", "value": 1.00, "class": "loonie"},
+      {"name": "Quarter", "value": 0.25, "class": "quarter"},
+      {"name": "Dime", "value": 0.10, "class": "dime"},
+      {"name": "Nickel", "value": 0.05, "class": "nickel"},
+      {"name": "Nickel", "value": 0.01, "class": "nickel"}
+    ],
+    "bills": [
+      {"name": "Hundred", "value": 100.00, "class": "hundred"},
+      {"name": "Fifty", "value": 50.00, "class": "fifty"},
+      {"name": "Twenty", "value": 20.00, "class": "twenty"},
+      {"name": "Ten", "value": 10.00, "class": "ten"},
+      {"name": "Five", "value": 5.00, "class": "five"}
+    ]
+  }
+  

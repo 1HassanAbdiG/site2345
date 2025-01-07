@@ -1,0 +1,211 @@
+{
+  "title": "Exercices de Mathématiques - Multiplication et Division (4e Année)",
+  "exercises": [
+    {
+      "title": "Exercice 1 - Multiplication",
+      "type": "multiplication",
+      "questions": [
+        {
+          "question": "8 × 9 = ?",
+          "correctAnswer": "72",
+          "type": "simple"
+        },
+        {
+          "question": "12 × 12 = ?",
+          "correctAnswer": "144",
+          "type": "simple"
+        },
+        {
+          "question": "25 × 4 = ?",
+          "correctAnswer": "100",
+          "type": "simple"
+        },
+        {
+          "question": "15 × 3 × 2 = ?",
+          "correctAnswer": "90",
+          "type": "multiple"
+        },
+        {
+          "question": "150 × 2 = ?",
+          "correctAnswer": "300",
+          "type": "simple"
+        },
+        {
+          "question": "50 × 4 × 3 = ?",
+          "correctAnswer": "600",
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 2 - Multiplication avec grands nombres",
+      "type": "multiplication_large",
+      "questions": [
+        {
+          "question": "75 × 6 = ?",
+          "correctAnswer": "450",
+          "type": "simple"
+        },
+        {
+          "question": "120 × 5 = ?",
+          "correctAnswer": "600",
+          "type": "simple"
+        },
+        {
+          "question": "300 × 3 = ?",
+          "correctAnswer": "900",
+          "type": "simple"
+        },
+        {
+          "question": "45 × 10 × 2 = ?",
+          "correctAnswer": "900",
+          "type": "multiple"
+        },
+        {
+          "question": "250 × 4 = ?",
+          "correctAnswer": "1000",
+          "type": "simple"
+        },
+        {
+          "question": "500 × 2 = ?",
+          "correctAnswer": "1000",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 3 - Division",
+      "type": "division",
+      "questions": [
+        {
+          "question": "72 ÷ 9 = ?",
+          "correctAnswer": "8",
+          "type": "simple"
+        },
+        {
+          "question": "144 ÷ 12 = ?",
+          "correctAnswer": "12",
+          "type": "simple"
+        },
+        {
+          "question": "300 ÷ 25 = ?",
+          "correctAnswer": "12",
+          "type": "simple"
+        },
+        {
+          "question": "120 ÷ 6 ÷ 2 = ?",
+          "correctAnswer": "10",
+          "type": "multiple"
+        },
+        {
+          "question": "360 ÷ 90 = ?",
+          "correctAnswer": "4",
+          "type": "simple"
+        },
+        {
+          "question": "240 ÷ 12 ÷ 5 = ?",
+          "correctAnswer": "4",
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 4 - Division avec grands nombres",
+      "type": "division_large",
+      "questions": [
+        {
+          "question": "630 ÷ 9 = ?",
+          "correctAnswer": "70",
+          "type": "simple"
+        },
+        {
+          "question": "840 ÷ 12 = ?",
+          "correctAnswer": "70",
+          "type": "simple"
+        },
+        {
+          "question": "600 ÷ 15 ÷ 2 = ?",
+          "correctAnswer": "20",
+          "type": "simple"
+        },
+        {
+          "question": "900 ÷ 3 ÷ 5 = ?",
+          "correctAnswer": "60",
+          "type": "multiple"
+        },
+        {
+          "question": "450 ÷ 15 = ?",
+          "correctAnswer": "30",
+          "type": "simple"
+        },
+        {
+          "question": "720 ÷ 8 = ?",
+          "correctAnswer": "90",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 5 - Problèmes de Multiplication",
+      "type": "multiplication_problems",
+      "questions": [
+        {
+          "question": "Une classe compte 25 élèves, et chaque élève écrit 3 pages pour un projet. Combien de pages sont écrites en tout ?",
+          "correctAnswer": "75",
+          "type": "problem"
+        },
+        {
+          "question": "Un magasin vend 120 articles chaque jour. Combien d'articles vend-il en 7 jours ?",
+          "correctAnswer": "840",
+          "type": "problem"
+        },
+        {
+          "question": "Un fermier a 15 poules, et chaque poule pond 4 œufs par semaine. Combien d'œufs sont pondus en une semaine ?",
+          "correctAnswer": "60",
+          "type": "problem"
+        },
+        {
+          "question": "Chaque sac contient 36 bonbons. Si une usine fabrique 50 sacs, combien de bonbons sont produits ?",
+          "correctAnswer": "1800",
+          "type": "problem"
+        },
+        {
+          "question": "Un bus transporte 45 passagers. Si 8 bus sont utilisés, combien de passagers peuvent être transportés ?",
+          "correctAnswer": "360",
+          "type": "problem"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 6 - Problèmes de Division",
+      "type": "division_problems",
+      "questions": [
+        {
+          "question": "Un fermier récolte 960 pommes et les répartit équitablement dans 12 paniers. Combien de pommes y a-t-il par panier ?",
+          "correctAnswer": "80",
+          "type": "problem"
+        },
+        {
+          "question": "Une usine emballe 480 bouteilles dans des cartons de 24 bouteilles. Combien de cartons sont nécessaires ?",
+          "correctAnswer": "20",
+          "type": "problem"
+        },
+        {
+          "question": "Une classe de 90 élèves est répartie en 5 groupes égaux. Combien y a-t-il d'élèves par groupe ?",
+          "correctAnswer": "18",
+          "type": "problem"
+        },
+        {
+          "question": "Une bibliothèque a 1080 livres répartis également sur 30 étagères. Combien de livres y a-t-il par étagère ?",
+          "correctAnswer": "36",
+          "type": "problem"
+        },
+        {
+          "question": "Un chef divise 360 cookies en 18 assiettes. Combien de cookies y a-t-il par assiette ?",
+          "correctAnswer": "20",
+          "type": "problem"
+        }
+      ]
+    }
+  ]
+}

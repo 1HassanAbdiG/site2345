@@ -1,0 +1,185 @@
+{
+  "title": "Exercices de Mathématiques - Niveau 4",
+  "exercises": [
+    {
+      "title": "Exercice 1 - Addition de grands nombres",
+      "type": "addition",
+      "questions": [
+        {
+          "question": "456 + 789 = ?",
+          "correctAnswer": "1245",
+          "type": "simple"
+        },
+        {
+          "question": "1234 + 567 = ?",
+          "correctAnswer": "1801",
+          "type": "simple"
+        },
+        {
+          "question": "234 + 432 + 876 = ?",
+          "correctAnswer": "1542",
+          "type": "multiple"
+        },
+        {
+          "question": "999 + 999 = ?",
+          "correctAnswer": "1998",
+          "type": "simple"
+        },
+        {
+          "question": "1200 + 345 + 65 = ?",
+          "correctAnswer": "1610",
+          "type": "multiple"
+        },
+        {
+          "question": "876 + 543 + 210 = ?",
+          "correctAnswer": "1629",
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 2 - Soustraction de grands nombres",
+      "type": "soustraction",
+      "questions": [
+        {
+          "question": "1000 - 456 = ?",
+          "correctAnswer": "544",
+          "type": "simple"
+        },
+        {
+          "question": "1500 - 789 = ?",
+          "correctAnswer": "711",
+          "type": "simple"
+        },
+        {
+          "question": "2345 - 1234 = ?",
+          "correctAnswer": "1111",
+          "type": "simple"
+        },
+        {
+          "question": "2000 - 876 - 543 = ?",
+          "correctAnswer": "581",
+          "type": "multiple"
+        },
+        {
+          "question": "5000 - 1234 = ?",
+          "correctAnswer": "3766",
+          "type": "simple"
+        },
+        {
+          "question": "3000 - 567 - 432 = ?",
+          "correctAnswer": "2001",
+          "type": "multiple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 3 - Addition et Soustraction combinées",
+      "type": "mixed",
+      "questions": [
+        {
+          "question": "1000 + 500 - 345 = ?",
+          "correctAnswer": "1155",
+          "type": "simple"
+        },
+        {
+          "question": "2000 - 750 + 600 = ?",
+          "correctAnswer": "1850",
+          "type": "simple"
+        },
+        {
+          "question": "1500 + 345 - 1200 = ?",
+          "correctAnswer": "645",
+          "type": "simple"
+        },
+        {
+          "question": "2500 - 600 + 400 = ?",
+          "correctAnswer": "2300",
+          "type": "multiple"
+        },
+        {
+          "question": "4000 + 1200 - 800 = ?",
+          "correctAnswer": "4400",
+          "type": "multiple"
+        },
+        {
+          "question": "5000 - 2000 + 300 = ?",
+          "correctAnswer": "3300",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 4 - Soustraction avec emprunt",
+      "type": "soustraction_emprunt",
+      "questions": [
+        {
+          "question": "652 - 478 = ?",
+          "correctAnswer": "174",
+          "type": "simple"
+        },
+        {
+          "question": "1234 - 987 = ?",
+          "correctAnswer": "247",
+          "type": "simple"
+        },
+        {
+          "question": "2000 - 754 = ?",
+          "correctAnswer": "1246",
+          "type": "simple"
+        },
+        {
+          "question": "3000 - 1250 - 500 = ?",
+          "correctAnswer": "1250",
+          "type": "multiple"
+        },
+        {
+          "question": "4500 - 2345 = ?",
+          "correctAnswer": "2155",
+          "type": "simple"
+        },
+        {
+          "question": "6000 - 3456 = ?",
+          "correctAnswer": "2544",
+          "type": "simple"
+        }
+      ]
+    },
+    {
+      "title": "Exercice 5 - Addition avec plusieurs nombres",
+      "type": "addition_multiple",
+      "questions": [
+        {
+          "question": "120 + 345 + 678 = ?",
+          "correctAnswer": "1143",
+          "type": "simple"
+        },
+        {
+          "question": "234 + 567 + 890 = ?",
+          "correctAnswer": "1691",
+          "type": "simple"
+        },
+        {
+          "question": "1000 + 2000 + 300 = ?",
+          "correctAnswer": "3300",
+          "type": "simple"
+        },
+        {
+          "question": "150 + 250 + 350 + 450 = ?",
+          "correctAnswer": "1200",
+          "type": "multiple"
+        },
+        {
+          "question": "500 + 600 + 700 = ?",
+          "correctAnswer": "1800",
+          "type": "simple"
+        },
+        {
+          "question": "1000 + 500 + 250 = ?",
+          "correctAnswer": "1750",
+          "type": "simple"
+        }
+      ]
+    }
+  ]
+}

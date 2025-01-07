@@ -1,0 +1,14 @@
+{
+    "process": ["+ 5", "× 4"],
+    "questions": [
+      { "input": 9, "options": [52, 56, 60], "correct": 56 },
+      { "input": 10, "options": [56, 60, 64], "correct": 60 },
+      { "input": 11, "options": [60, 64, 68], "correct": 64 },
+      { "input": 12, "options": [64, 68, 72], "correct": 68 },
+      { "input": 13, "options": [68, 72, 76], "correct": 72 },
+      { "input": 14, "options": [72, 76, 80], "correct": 76 },
+      { "input": 15, "options": [76, 80, 84], "correct": 80 },
+      { "input": 16, "options": [80, 84, 88], "correct": 84 }
+    ]
+  }
+  

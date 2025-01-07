@@ -1,0 +1,55 @@
+{
+  "exercises": [
+    {
+      "title": "Exercice 1 : Trouvez l'intrus",
+      "lists": [
+        { "items": ["Pomme", "Poire", "Banane", "Voiture"], "intruderIndex": 3 },
+        { "items": ["Chien", "Chat", "Lapin", "Télévision"], "intruderIndex": 3 },
+        { "items": ["Rouge", "Bleu", "Vert", "Ordinateur"], "intruderIndex": 3 },
+        { "items": ["Soleil", "Lune", "Étoile", "Chaise"], "intruderIndex": 3 },
+        { "items": ["Table", "Chaise", "Canapé", "Nuage"], "intruderIndex": 3 }
+      ]
+    },
+    {
+      "title": "Exercice 2 : Repérez l'erreur",
+      "lists": [
+        { "items": ["Lait", "Eau", "Jus", "Ordinateur"], "intruderIndex": 3 },
+        { "items": ["Tigre", "Lion", "Éléphant", "Téléphone"], "intruderIndex": 3 },
+        { "items": ["Baguette", "Croissant", "Pain", "Voiture"], "intruderIndex": 3 },
+        { "items": ["Vélo", "Moto", "Voiture", "Soleil"], "intruderIndex": 3 },
+        { "items": ["Fleur", "Arbre", "Herbe", "Télévision"], "intruderIndex": 3 }
+      ]
+    },
+    {
+      "title": "Exercice 3 : Catégorisation",
+      "lists": [
+        { "items": ["Ananas", "Pomme", "Cassis", "Métier"], "intruderIndex": 3 },
+        { "items": ["Abricot", "Raisin", "Banane", "Poire"], "intruderIndex": -1 },
+        { "items": ["Baguette", "Croissant", "Pain", "Voiture"], "intruderIndex": 3 },
+        { "items": ["Vélo", "Moto", "Voiture", "Soleil"], "intruderIndex": 3 },
+        { "items": ["Fleur", "Arbre", "Herbe", "Télévision"], "intruderIndex": 3 }
+
+      ]
+    },
+    {
+      "title": "Exercice 4 : Les bateaux",
+      "lists": [
+        { "items": ["Le voilier", "La barque", "Le bateau", "Le phare"], "intruderIndex": 3 },
+        { "items": ["Le pétrolier", "Le chalutier", "La péniche", "Le paquebot"], "intruderIndex": -1 },
+        { "items": ["Baguette", "Croissant", "Pain", "Voiture"], "intruderIndex": 3 },
+        { "items": ["Vélo", "Moto", "Voiture", "Soleil"], "intruderIndex": 3 },
+        { "items": ["Fleur", "Arbre", "Herbe", "Télévision"], "intruderIndex": 3 }
+      ]
+    },
+    {
+      "title": "Exercice 5 : Les animaux",
+      "lists": [
+        { "items": ["Lion", "Chien", "Chat", "Lapin"], "intruderIndex": -1 },
+        { "items": ["Maison", "Mouton", "Chèvre", "Cheval"], "intruderIndex": 0 },
+        { "items": ["Baguette", "Croissant", "Pain", "Voiture"], "intruderIndex": 3 },
+        { "items": ["Vélo", "Moto", "Voiture", "Soleil"], "intruderIndex": 3 },
+        { "items": ["Fleur", "Arbre", "Herbe", "Télévision"], "intruderIndex": 3 }
+      ]
+    }
+  ]
+}

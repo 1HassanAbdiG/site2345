@@ -283,21 +283,21 @@ const Questionnaire = () => {
             color="primary"
             onClick={() => setDifficulty("easy")}
           >
-            Facile
+           Niveau Facile
           </Button>
           <Button
             variant={difficulty === "medium" ? "contained" : "outlined"}
             color="primary"
             onClick={() => setDifficulty("medium")}
           >
-            Moyen
+           Niveau Moyen
           </Button>
           <Button
             variant={difficulty === "hard" ? "contained" : "outlined"}
             color="primary"
             onClick={() => setDifficulty("hard")}
           >
-            Difficile
+            Niveau Intermediaire 
           </Button>
         </Box>
       </Box>

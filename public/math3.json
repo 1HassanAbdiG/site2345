@@ -1,0 +1,186 @@
+{
+    "title": "Exercices de Mathématiques - Addition et Soustraction",
+    "exercises": [
+      {
+        "title": "Exercice 1 - Addition",
+        "type": "addition",
+        "questions": [
+          {
+            "question": "5 + 3 = ?",
+            "correctAnswer": "8",
+            "type": "simple"
+          },
+          {
+            "question": "12 + 7 = ?",
+            "correctAnswer": "19",
+            "type": "simple"
+          },
+          {
+            "question": "15 + 25 = ?",
+            "correctAnswer": "40",
+            "type": "simple"
+          },
+          {
+            "question": "10 + 15 + 5 = ?",
+            "correctAnswer": "30",
+            "type": "multiple"
+          },
+          {
+            "question": "100 + 50 = ?",
+            "correctAnswer": "150",
+            "type": "simple"
+          },
+          {
+            "question": "20 + 30 + 50 = ?",
+            "correctAnswer": "100",
+            "type": "multiple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 2 - Soustraction",
+        "type": "soustraction",
+        "questions": [
+          {
+            "question": "15 - 7 = ?",
+            "correctAnswer": "8",
+            "type": "simple"
+          },
+          {
+            "question": "50 - 20 = ?",
+            "correctAnswer": "30",
+            "type": "simple"
+          },
+          {
+            "question": "100 - 45 = ?",
+            "correctAnswer": "55",
+            "type": "simple"
+          },
+          {
+            "question": "30 - 10 - 5 = ?",
+            "correctAnswer": "15",
+            "type": "multiple"
+          },
+          {
+            "question": "200 - 75 = ?",
+            "correctAnswer": "125",
+            "type": "simple"
+          },
+          {
+            "question": "80 - 40 - 10 = ?",
+            "correctAnswer": "30",
+            "type": "multiple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 3 - Addition et Soustraction Combinées",
+        "type": "mixed",
+        "questions": [
+          {
+            "question": "10 + 5 - 3 = ?",
+            "correctAnswer": "12",
+            "type": "simple"
+          },
+          {
+            "question": "20 + 10 - 15 = ?",
+            "correctAnswer": "15",
+            "type": "simple"
+          },
+          {
+            "question": "50 - 20 + 10 = ?",
+            "correctAnswer": "40",
+            "type": "simple"
+          },
+          {
+            "question": "30 + 25 - 10 = ?",
+            "correctAnswer": "45",
+            "type": "multiple"
+          },
+          {
+            "question": "100 - 25 + 50 = ?",
+            "correctAnswer": "125",
+            "type": "simple"
+          },
+          {
+            "question": "60 + 30 - 40 = ?",
+            "correctAnswer": "50",
+            "type": "multiple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 4 - Soustraction avec emprunt",
+        "type": "soustraction_emprunt",
+        "questions": [
+          {
+            "question": "52 - 29 = ?",
+            "correctAnswer": "23",
+            "type": "simple"
+          },
+          {
+            "question": "76 - 48 = ?",
+            "correctAnswer": "28",
+            "type": "simple"
+          },
+          {
+            "question": "125 - 68 = ?",
+            "correctAnswer": "57",
+            "type": "simple"
+          },
+          {
+            "question": "150 - 75 - 30 = ?",
+            "correctAnswer": "45",
+            "type": "multiple"
+          },
+          {
+            "question": "90 - 45 = ?",
+            "correctAnswer": "45",
+            "type": "simple"
+          },
+          {
+            "question": "200 - 87 = ?",
+            "correctAnswer": "113",
+            "type": "simple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 5 - Addition avec plusieurs chiffres",
+        "type": "addition_multiple",
+        "questions": [
+          {
+            "question": "105 + 89 = ?",
+            "correctAnswer": "194",
+            "type": "simple"
+          },
+          {
+            "question": "345 + 67 = ?",
+            "correctAnswer": "412",
+            "type": "simple"
+          },
+          {
+            "question": "78 + 65 + 43 = ?",
+            "correctAnswer": "186",
+            "type": "simple"
+          },
+          {
+            "question": "100 + 200 + 50 = ?",
+            "correctAnswer": "350",
+            "type": "multiple"
+          },
+          {
+            "question": "120 + 80 = ?",
+            "correctAnswer": "200",
+            "type": "simple"
+          },
+          {
+            "question": "60 + 150 = ?",
+            "correctAnswer": "210",
+            "type": "simple"
+          }
+        ]
+      }
+    ]
+  }
+  

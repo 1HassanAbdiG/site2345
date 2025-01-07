@@ -1,0 +1,216 @@
+{
+    "title": "Exercices de Mathématiques - Niveau 5",
+    "exercises": [
+      {
+        "title": "Exercice 1 - Addition de très grands nombres",
+        "type": "addition",
+        "questions": [
+          {
+            "question": "56789 + 12345 = ?",
+            "correctAnswer": "69134",
+            "type": "simple"
+          },
+          {
+            "question": "123456 + 654321 = ?",
+            "correctAnswer": "777777",
+            "type": "simple"
+          },
+          {
+            "question": "7890 + 5678 + 1234 = ?",
+            "correctAnswer": "14702",
+            "type": "multiple"
+          },
+          {
+            "question": "99999 + 11111 = ?",
+            "correctAnswer": "111110",
+            "type": "simple"
+          },
+          {
+            "question": "87654 + 34567 + 12345 = ?",
+            "correctAnswer": "134566",
+            "type": "multiple"
+          },
+          {
+            "question": "54321 + 43210 + 32109 = ?",
+            "correctAnswer": "129640",
+            "type": "multiple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 2 - Soustraction avancée",
+        "type": "soustraction",
+        "questions": [
+          {
+            "question": "120000 - 34567 = ?",
+            "correctAnswer": "85433",
+            "type": "simple"
+          },
+          {
+            "question": "987654 - 123456 = ?",
+            "correctAnswer": "864198",
+            "type": "simple"
+          },
+          {
+            "question": "50000 - 23456 - 1000 = ?",
+            "correctAnswer": "25544",
+            "type": "multiple"
+          },
+          {
+            "question": "75000 - 34567 = ?",
+            "correctAnswer": "40433",
+            "type": "simple"
+          },
+          {
+            "question": "60000 - 25000 - 10000 = ?",
+            "correctAnswer": "25000",
+            "type": "multiple"
+          },
+          {
+            "question": "999999 - 123456 = ?",
+            "correctAnswer": "876543",
+            "type": "simple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 3 - Opérations combinées",
+        "type": "mixed",
+        "questions": [
+          {
+            "question": "150000 + 75000 - 50000 = ?",
+            "correctAnswer": "175000",
+            "type": "simple"
+          },
+          {
+            "question": "200000 - 12345 + 67890 = ?",
+            "correctAnswer": "255545",
+            "type": "simple"
+          },
+          {
+            "question": "50000 + 30000 - 15000 = ?",
+            "correctAnswer": "65000",
+            "type": "simple"
+          },
+          {
+            "question": "750000 - 500000 + 250000 = ?",
+            "correctAnswer": "500000",
+            "type": "multiple"
+          },
+          {
+            "question": "400000 + 120000 - 80000 = ?",
+            "correctAnswer": "440000",
+            "type": "multiple"
+          },
+          {
+            "question": "600000 - 200000 + 100000 = ?",
+            "correctAnswer": "500000",
+            "type": "simple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 4 - Soustraction avec emprunts complexes",
+        "type": "soustraction_emprunt",
+        "questions": [
+          {
+            "question": "765432 - 123456 = ?",
+            "correctAnswer": "641976",
+            "type": "simple"
+          },
+          {
+            "question": "876543 - 765432 = ?",
+            "correctAnswer": "111111",
+            "type": "simple"
+          },
+          {
+            "question": "900000 - 456789 = ?",
+            "correctAnswer": "443211",
+            "type": "simple"
+          },
+          {
+            "question": "1000000 - 543210 - 123456 = ?",
+            "correctAnswer": "333334",
+            "type": "multiple"
+          },
+          {
+            "question": "750000 - 375000 = ?",
+            "correctAnswer": "375000",
+            "type": "simple"
+          },
+          {
+            "question": "600000 - 345678 = ?",
+            "correctAnswer": "254322",
+            "type": "simple"
+          }
+        ]
+      },
+      {
+        "title": "Exercice 5 - Addition et Soustraction combinées avec des multiples nombres",
+        "type": "addition_soustraction_multiple",
+        "questions": [
+          {
+            "question": "120000 + 34500 - 6789 = ?",
+            "correctAnswer": "148711",
+            "type": "simple"
+          },
+          {
+            "question": "123456 + 654321 - 50000 = ?",
+            "correctAnswer": "727777",
+            "type": "simple"
+          },
+          {
+            "question": "1000000 + 500000 - 750000 = ?",
+            "correctAnswer": "750000",
+            "type": "simple"
+          },
+          {
+            "question": "150000 + 250000 - 100000 + 50000 = ?",
+            "correctAnswer": "350000",
+            "type": "multiple"
+          },
+          {
+            "question": "500000 + 600000 - 400000 = ?",
+            "correctAnswer": "700000",
+            "type": "simple"
+          },
+          {
+            "question": "1000000 - 250000 + 300000 = ?",
+            "correctAnswer": "1050000",
+            "type": "simple"
+          }
+        ]
+      }, {
+        "title": "Exercice 6 - Problèmes mathématiques",
+        "type": "probleme",
+        "questions": [
+          {
+            "question": "Pierre a 1234 billes. Il en donne 567 à son ami et en trouve 300 de plus. Combien de billes a-t-il maintenant ?",
+            "correctAnswer": "967",
+            "type": "simple"
+          },
+          {
+            "question": "Marie a 2500 euros. Elle achète une télévision pour 1234 euros et un téléphone pour 567 euros. Combien d'argent lui reste-t-il ?",
+            "correctAnswer": "699",
+            "type": "simple"
+          },
+          {
+            "question": "Un magasin reçoit 5000 articles. Il vend 3456 articles le matin et 1234 l'après-midi. Combien d'articles restent-ils en stock ?",
+            "correctAnswer": "310",
+            "type": "multiple"
+          },
+          {
+            "question": "Une voiture parcourt 1500 km en 2 jours : 800 km le premier jour et le reste le deuxième jour. Combien de kilomètres a-t-elle parcourus le deuxième jour ?",
+            "correctAnswer": "700",
+            "type": "simple"
+          },
+          {
+            "question": "Un agriculteur récolte 4321 pommes. Il en vend 1234 et distribue 567 à ses voisins. Combien de pommes lui restent-elles ?",
+            "correctAnswer": "2520",
+            "type": "simple"
+          }
+        ]
+      }
+    ]
+  }
+    

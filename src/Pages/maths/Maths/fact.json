@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "numerator": "?",
+      "denominator": 3,
+      "equalsNumerator": 6,
+      "equalsDenominator": 9,
+      "answer": "2"
+    },
+    {
+      "id": 2,
+      "numerator": 4,
+      "denominator": "?",
+      "equalsNumerator": 8,
+      "equalsDenominator": 10,
+      "answer": "5"
+    },
+    {
+      "id": 3,
+      "numerator": "?",
+      "denominator": 4,
+      "equalsNumerator": 15,
+      "equalsDenominator": 20,
+      "answer": "3"
+    },
+    {
+      "id": 4,
+      "numerator": 5,
+      "denominator": 6,
+      "equalsNumerator": "?",
+      "equalsDenominator": 12,
+      "answer": "10"
+    },
+    {
+      "id": 5,
+      "numerator": 3,
+      "denominator": 8,
+      "equalsNumerator": "?",
+      "equalsDenominator": 24,
+      "answer": "9"
+    }
+  ]
+  
