@@ -39,24 +39,24 @@ const Questionnaire = () => {
   //const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
- /* useEffect(() => {
-    const loadLectures = () => {
-      try {
-        const files = requireJsonFiles[difficulty].keys().map((key) =>
-          requireJsonFiles[difficulty](key)
-        );
-        setLectures(files);
-        
-      } catch (err) {
-        setError("Error loading lectures.");
-      }
-    };
-    loadLectures();
-  
-  }, [difficulty]);*/
+  /* useEffect(() => {
+     const loadLectures = () => {
+       try {
+         const files = requireJsonFiles[difficulty].keys().map((key) =>
+           requireJsonFiles[difficulty](key)
+         );
+         setLectures(files);
+         
+       } catch (err) {
+         setError("Error loading lectures.");
+       }
+     };
+     loadLectures();
+   
+   }, [difficulty]);*/
 
   useEffect(() => {
-    handleReset ()
+    handleReset()
     const loadTitles = () => {
       try {
         let loadedTitles = {};
@@ -66,13 +66,13 @@ const Questionnaire = () => {
           loadedTitles[fileName] = jsonData.text.title;
         });
         setTitles(loadedTitles);
-    
+
       } catch (err) {
         setError("Error loading titles.");
       }
     };
     loadTitles();
- 
+
   }, [difficulty]);
 
   /*useEffect(() => {
@@ -115,8 +115,8 @@ const Questionnaire = () => {
   const handleChange = (question, value) => {
     setAnswers((prev) => ({ ...prev, [question]: value }));
     setSelectedFile("");
-  
-  
+
+
   };
 
   const handleSubmit = (e) => {
@@ -161,7 +161,7 @@ const Questionnaire = () => {
     setSelectedFile("");
     setData(null);
   };
- 
+
   const renderQuestionsByType = (type) => {
     const questionTypes = {
       trueFalse: 'Vrai/Faux',
@@ -185,11 +185,11 @@ const Questionnaire = () => {
       vocabularyQCM: 'Vocabulaire QCM',
       conjugationQCM: 'Conjugaison QCM', // Correction ici pour afficher "Conjugaison QCM"
     };
-  
+
     if (!data[type] || data[type].length === 0) {
       return null; // Return null or some fallback UI if no data
     }
-  
+
     return (
       <React.Fragment>
         <Typography
@@ -202,7 +202,7 @@ const Questionnaire = () => {
       </React.Fragment>
     );
   };
-  
+
 
   const renderQuestion = (question, number) => {
     switch (question.type) {
@@ -258,7 +258,7 @@ const Questionnaire = () => {
     }
   };
 
-  
+
 
   if (error) {
     return <Typography color="error">{error}</Typography>;
@@ -270,7 +270,7 @@ const Questionnaire = () => {
 
   return (
     <Box p={4}>
-      <Typography variant="h4" gutterBottom style={{textAlign:"center",color:"red"}}>
+      <Typography variant="h4" gutterBottom style={{ textAlign: "center", color: "red" }}>
         Compréhension
       </Typography>
 
@@ -283,25 +283,26 @@ const Questionnaire = () => {
             color="primary"
             onClick={() => setDifficulty("easy")}
           >
-           Niveau Facile
+            Niveau Facile
           </Button>
           <Button
             variant={difficulty === "medium" ? "contained" : "outlined"}
             color="primary"
             onClick={() => setDifficulty("medium")}
           >
-           Niveau Moyen
+            Niveau Intermédiaire
           </Button>
           <Button
             variant={difficulty === "hard" ? "contained" : "outlined"}
             color="primary"
             onClick={() => setDifficulty("hard")}
           >
-            Niveau Intermediaire 
+            Niveau Avancé
           </Button>
+
         </Box>
       </Box>
-      
+
 
       <Box mb={3}>
         <FormControl fullWidth>
@@ -313,7 +314,7 @@ const Questionnaire = () => {
               Sélectionnez un texte
             </MenuItem >
             {Object.keys(titles).map((file) => (
-              <MenuItem key={file} value={file} style={{color:"red"}}>
+              <MenuItem key={file} value={file} style={{ color: "red" }}>
                 {titles[file]}
               </MenuItem>
             ))}
@@ -322,8 +323,8 @@ const Questionnaire = () => {
       </Box>
 
       {data && (
-        <Box style={{padding:"20px" , border:"solid,10px red ",fontSize:"200px"}}>
-          <Typography variant="h5" style={{color:"red" ,fontWeight:"bold", textAlign:"center"}}>{data.text.title}</Typography>
+        <Box style={{ padding: "20px", border: "solid,10px red ", fontSize: "200px" }}>
+          <Typography variant="h5" style={{ color: "red", fontWeight: "bold", textAlign: "center" }}>{data.text.title}</Typography>
           {data.text.content.map((line, idx) => (
             <Typography key={idx}>{line}</Typography>
           ))}
@@ -343,7 +344,7 @@ const Questionnaire = () => {
             {renderVocabularyQuestions('vocabularyTrueFalse')}
             {renderVocabularyQuestions('vocabularyQCM')}
             {renderVocabularyQuestions('conjugationQCM')}
-            
+
 
             <Box mt={4}>
               <Button variant="contained" color="primary" type="submit" fullWidth>
@@ -388,7 +389,7 @@ const Questionnaire = () => {
               </TableContainer>
             </Box>
           )}
-            </Paper>
+        </Paper>
       )}
     </Box>
   );
