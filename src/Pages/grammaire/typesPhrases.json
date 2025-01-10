@@ -1,0 +1,82 @@
+{
+    "title": "Les Types de Phrases en Français",
+    "rules": {
+        "description": "En français, il existe quatre types de phrases : déclarative, interrogative, exclamative et impérative. Chaque type a des caractéristiques spécifiques.",
+        "examples": {
+            "déclarative": {
+                "déclarative": "Elle sert à donner une information ou exprimer une idée.",
+                "example": "Le chat dort sous la table."
+            },
+            "interrogative": {
+                "interrogative": "Elle sert à poser une question.",
+                "example": "Où est le chat ?"
+            },
+            "exclamative": {
+                "exclamative": "Elle sert à exprimer une émotion forte.",
+                "example": "Quel beau chat !"
+            },
+            "impérative": {
+                "description": "Elle sert à donner un ordre ou un conseil.",
+                "example": "Ferme la porte, s'il te plaît."
+            }
+        }
+    },
+    "examples": [
+        "Phrase déclarative : Il fait beau aujourd'hui.",
+        "Phrase interrogative : Pourquoi es-tu en retard ?",
+        "Phrase exclamative : Comme ce gâteau est délicieux !",
+        "Phrase impérative : Écoutez attentivement les instructions."
+    ],
+    "exercises": [
+        { 
+            "question": "Identifiez le type de phrase : 'Ferme la fenêtre.'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "impérative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Comment vas-tu ?'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "interrogative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Le train arrive à 18 heures.'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "déclarative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Quel beau paysage !'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "exclamative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Mange tes légumes.'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "impérative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Est-ce que tu viens avec nous ?'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "interrogative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'La mer est calme aujourd'hui.'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "déclarative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Oh, quel dommage !'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "exclamative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Apprends ta leçon.'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "impérative" 
+        },
+        { 
+            "question": "Identifiez le type de phrase : 'Quand commence le spectacle ?'", 
+            "options": ["déclarative", "interrogative", "exclamative", "impérative"],
+            "answer": "interrogative" 
+        }
+    ]
+}

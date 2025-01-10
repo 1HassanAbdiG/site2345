@@ -13,11 +13,10 @@ import {
   Alert,
 } from "@mui/material";
 
+// Assuming dictinationsData is structured as per your new JSON
+import dictinationsData from "./dictee.json";
 
-import dictinationsData from "./dictations.json";
-
-
-const Dictation = () => {
+const WordPlayer = () => {
   const [selectedMonth, setSelectedMonth] = useState("");
   const [selectedWeek, setSelectedWeek] = useState("");
   const [selectedDay, setSelectedDay] = useState(null);
@@ -26,10 +25,8 @@ const Dictation = () => {
   const [result, setResult] = useState(null);
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
-
-
-
-
+  const[nombre,Setnombre]=useState(0)
+  
 
   // Snackbar handler
   const handleSnackbar = (message) => {
@@ -42,6 +39,8 @@ const Dictation = () => {
   };
 
   const handleMonthChange = (event) => {
+    Setnombre(event.target);
+    console.log(nombre)
     setSelectedMonth(event.target.value);
     setSelectedWeek("");
     setSelectedDay(null);
@@ -67,29 +66,22 @@ const Dictation = () => {
     setResult(null);
   };
 
-
-
-
   const handleAnswerChange = (index, value) => {
     const updatedAnswers = [...answers];
     updatedAnswers[index] = value;
     setAnswers(updatedAnswers);
   };
 
-
   const startDictation = () => {
     setShowWords(false);
     setResult(null); // Clear the result when a new dictation starts
   };
 
-
-
- 
-  const playWord = (word) => {
-    const audio = new Audio(`/audio/${word}.mp3`); // Ensure your audio path is correct
+  // Play word audio
+  const playWord = (mp3) => {
+    const audio = new Audio(`/audio/${mp3}`);
     audio.play();
   };
-
 
   const verifyDictation = () => {
     if (answers.includes("")) {
@@ -100,14 +92,14 @@ const Dictation = () => {
     let correctCount = 0;
     const errors = [];
 
-    selectedDay.words.forEach((word, index) => {
+    selectedDay.words.forEach((wordObj, index) => {
       const userInput = answers[index];
-      const isCorrect = word.toLowerCase() === userInput.toLowerCase();
+      const isCorrect = wordObj.word.toLowerCase() === userInput.toLowerCase();
 
       if (isCorrect) {
         correctCount++;
       } else {
-        errors.push({ word, userInput, isCorrect });
+        errors.push({ word: wordObj.word, userInput, isCorrect });
       }
     });
 
@@ -118,10 +110,8 @@ const Dictation = () => {
   };
 
   return (
-
     <>
-      
-      {/* Barre supérieure */}
+      {/* Top bar */}
       <Box
         sx={{
           backgroundColor: "primary.main",
@@ -134,7 +124,7 @@ const Dictation = () => {
       </Box>
 
       <Box sx={{ p: 3, maxWidth: 1200, mx: "auto" }}>
-        {/* Configuration Mois/Week/Day */}
+        {/* Config: Month/Week/Day */}
         <Card sx={{ mb: 3 }}>
           <CardContent>
             <Typography variant="h6" gutterBottom>
@@ -143,18 +133,24 @@ const Dictation = () => {
             <Select
               fullWidth
               value={selectedMonth}
+              
               onChange={handleMonthChange}
               displayEmpty
             >
               <MenuItem value="" disabled>
-                Sélectionnez un mois
+                Sélectionnez un Echellon
               </MenuItem>
               {dictinationsData.months.map((month) => (
                 <MenuItem key={month.name} value={month.name}>
                   {month.name}
+              
                 </MenuItem>
               ))}
             </Select>
+            
+           
+           
+
             {selectedMonth && (
               <Select
                 fullWidth
@@ -164,7 +160,7 @@ const Dictation = () => {
                 sx={{ mt: 2 }}
               >
                 <MenuItem value="" disabled>
-                  Sélectionnez une semaine
+                  Sélectionnez l'Echellon
                 </MenuItem>
                 {dictinationsData.months
                   .find((month) => month.name === selectedMonth)
@@ -225,7 +221,7 @@ const Dictation = () => {
                     margin: 0,
                   }}
                 >
-                  {selectedDay.words.map((word, index) => (
+                  {selectedDay.words.map((wordObj, index) => (
                     <li
                       key={index}
                       style={{
@@ -246,10 +242,10 @@ const Dictation = () => {
                           fontWeight: "500",
                         }}
                       >
-                        {word}
+                        {wordObj.word}
                       </Typography>
                       <Button
-                        onClick={() => playWord(word)}
+                        onClick={() => playWord(wordObj.mp3)}
                         variant="contained"
                         sx={{
                           backgroundColor: "#1976d2",
@@ -286,62 +282,59 @@ const Dictation = () => {
                   Commencer la dictée
                 </Button>
               </>
-
             ) : (
               <>
                 <Typography variant="h6" sx={{ mb: 2, color: "primary.main" }}>
                   Écrivez les mots de la dictée ci-dessous :
                 </Typography>
-                {selectedDay.words.map((word, index) => (
-                  <Box
-                    key={index}
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                      mb: 2,
-                      backgroundColor: "#f9f9f9",
-                      p: 2,
-                      borderRadius: 1,
-                      boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",
-                    }}
-                  >
-                    <TextField
-                      fullWidth
-                      label={`Mot ${index + 1}`}
-                      variant="outlined"
-                      value={answers[index]}
-                      onChange={(e) => handleAnswerChange(index, e.target.value)}
-                      sx={{
-                        backgroundColor: "#ffffff",
-                        "& .MuiOutlinedInput-root": {
-                          "& fieldset": {
-                            borderColor: "#1976d2",
-                          },
-                          "&:hover fieldset": {
-                            borderColor: "#115293",
-                          },
-                          "&.Mui-focused fieldset": {
-                            borderColor: "#0d47a1",
-                          },
-                        },
+                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                  {selectedDay.words.map((wordObj, index) => (
+                    <li
+                      key={index}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                        padding: "10px",
+                        backgroundColor: "#f1f8ff",
+                        borderRadius: "8px",
+                        boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
                       }}
-                    />
-                    <Button
-                      sx={{
-                        ml: 2,
-                        backgroundColor: "#1976d2",
-                        color: "white",
-                        "&:hover": {
-                          backgroundColor: "#0d47a1",
-                        },
-                      }}
-                      variant="contained"
-                      onClick={() => playWord(word)}
                     >
-                      🔊
-                    </Button>
-                  </Box>
-                ))}
+                      <Typography
+                        sx={{
+                          flex: 1,
+                          fontSize: "1.1rem",
+                          color: "#0d47a1",
+                          fontWeight: "500",
+                        }}
+                      >
+                        <Button
+                        onClick={() => playWord(wordObj.mp3)}
+                        variant="contained"
+                        sx={{
+                          backgroundColor: "#1976d2",
+                          color: "white",
+                          "&:hover": {
+                            backgroundColor: "#0d47a1",
+                          },
+                          boxShadow: "0px 3px 6px rgba(0, 0, 0, 0.2)",
+                        }}
+                      >
+                        🔊
+                      </Button>
+                      </Typography>
+                      <TextField
+                        variant="outlined"
+                        value={answers[index]}
+                        onChange={(e) =>
+                          handleAnswerChange(index, e.target.value)
+                        }
+                        sx={{ flex: 2 }}
+                      />
+                    </li>
+                  ))}
+                </ul>
                 <Button
                   variant="contained"
                   color="secondary"
@@ -360,40 +353,45 @@ const Dictation = () => {
                   Vérifier
                 </Button>
               </>
-
             )}
           </Paper>
         )}
 
-        {/* Résultats */}
+        {/* Results */}
         {result && (
           <Paper sx={{ p: 2, mt: 3 }}>
             <Typography variant="h6">Résultats :</Typography>
             <Typography>Score : {result.score.toFixed(2)}%</Typography>
+            {result.errors.length > 0 && (
+              <Typography variant="body2" sx={{ color: "error.main" }}>
+                Erreurs :
+              </Typography>
+            )}
             <ul>
               {result.errors.map((error, index) => (
                 <li key={index}>
-                  {error.word} - Vous avez écrit : {error.userInput || "vide"}{" "}
-                  {error.isCorrect ? "✅" : "❌"}
+                  <Typography variant="body2" sx={{ color: "error.main" }}>
+                    {error.word} ➔ {error.userInput}
+                  </Typography>
                 </li>
               ))}
             </ul>
           </Paper>
         )}
-
-        {/* Snackbar */}
-        <Snackbar
-          open={snackbarOpen}
-          autoHideDuration={3000}
-          onClose={handleCloseSnackbar}
-        >
-          <Alert severity="info" onClose={handleCloseSnackbar}>
-            {snackbarMessage}
-          </Alert>
-        </Snackbar>
       </Box>
+
+      {/* Snackbar for feedback */}
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={3000}
+        onClose={handleCloseSnackbar}
+      >
+        <Alert onClose={handleCloseSnackbar} severity="info" sx={{ width: "100%" }}>
+          {snackbarMessage}
+        </Alert>
+      </Snackbar>
     </>
   );
 };
 
-export default Dictation;
+export default WordPlayer;

@@ -6,10 +6,10 @@ import { Box, Typography, Button } from "@mui/material";
 import bookData from "../Tex3.json";
 import { useNavigate } from "react-router-dom"; // Import de useNavigate
 
-import audioParagraph1 from "./Chapitre1.mp3";
-import audioParagraph2 from "./Chapitre2.mp3";
-import audioParagraph3 from "./Chapitre3.mp3";
-import audioParagraph4 from "./Chapitre4.mp3";
+import audioParagraph1 from "./1.mp3";
+import audioParagraph2 from "./2.mp3";
+import audioParagraph3 from "./3.mp3";
+import audioParagraph4 from "./4.mp3";
 
 import image1 from "./depart.png";
 import image2 from "./petit_loup.png";

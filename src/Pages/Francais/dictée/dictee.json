@@ -1,0 +1,193 @@
+{
+    "months": [
+        {
+            "name": "Echellon 11",
+            "weeks": [
+                {
+                    "name": "Partie 1",
+                    "days": [
+                        {
+                            "day": "Dictée 1",
+                            "title": "Dictée 1",
+                            "words": [
+                                {"word": "agréable", "mp3": "1.mp3"},
+                                {"word": "bonjour", "mp3": "2.mp3"},
+                                {"word": "chanson", "mp3": "3.mp3"},
+                                {"word": "coin", "mp3": "4.mp3"},
+                                {"word": "crime", "mp3": "5.mp3"},
+                                {"word": "double", "mp3": "6.mp3"},
+                                {"word": "jouer", "mp3": "7.mp3"},
+                                {"word": "main", "mp3": "8.mp3"},
+                                {"word": "oncle", "mp3": "9.mp3"},
+                                {"word": "planche", "mp3": "10.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "Dictée  2",
+                            "title": "Dictée 2",
+                            "words": [
+                                {"word": "rage", "mp3": "11.mp3"},
+                                {"word": "revoir", "mp3": "12.mp3"},
+                                {"word": "salutation", "mp3": "13.mp3"},
+                                {"word": "tous", "mp3": "14.mp3"},
+                                {"word": "village", "mp3": "15.mp3"},
+                                {"word": "ardeur", "mp3": "16.mp3"},
+                                {"word": "bordure", "mp3": "17.mp3"},
+                                {"word": "charbon", "mp3": "18.mp3"},
+                                {"word": "comme", "mp3": "19.mp3"},
+                                {"word": "culvre", "mp3": "20.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "Dictée  3",
+                            "title": "Dictée 3",
+                            "words": [
+                                {"word": "ferme", "mp3": "21.mp3"},
+                                {"word": "lait", "mp3": "22.mp3"},
+                                {"word": "matinée", "mp3": "23.mp3"},
+                                {"word": "parent", "mp3": "24.mp3"},
+                                {"word": "plumier", "mp3": "25.mp3"},
+                                {"word": "ramage", "mp3": "26.mp3"},
+                                {"word": "revue", "mp3": "27.mp3"},
+                                {"word": "singe", "mp3": "28.mp3"},
+                                {"word": "tout", "mp3": "29.mp3"},
+                                {"word": "ville", "mp3": "30.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "Dictée  4",
+                            "title": "Dictée 4",
+                            "words": [
+                                {"word": "armoire", "mp3": "31.mp3"},
+                                {"word": "bouton", "mp3": "32.mp3"},
+                                {"word": "charge", "mp3": "33.mp3"},
+                                {"word": "contre", "mp3": "34.mp3"},
+                                {"word": "diable", "mp3": "35.mp3"},
+                                {"word": "figure", "mp3": "36.mp3"},
+                                {"word": "large", "mp3": "37.mp3"},
+                                {"word": "meuble", "mp3": "38.mp3"},
+                                {"word": "père", "mp3": "39.mp3"},
+                                {"word": "poche", "mp3": "40.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "Dictée 5",
+                            "title": "Dictée 5",
+                            "words": [
+                                {"word": "reine", "mp3": "41.mp3"},
+                                {"word": "roi", "mp3": "42.mp3"},
+                                {"word": "sorte", "mp3": "43.mp3"},
+                                {"word": "usage", "mp3": "44.mp3"},
+                                {"word": "voici", "mp3": "45.mp3"},
+                                {"word": "balle", "mp3": "46.mp3"},
+                                {"word": "cahier", "mp3": "47.mp3"},
+                                {"word": "chien", "mp3": "48.mp3"},
+                                {"word": "couleur", "mp3": "49.mp3"},
+                                {"word": "dictée", "mp3": "50.mp3"}
+                            ]
+                        }
+                        
+                        
+                    ]
+                },{
+                    "name": "Partie 2",
+                    "days": [
+                        {
+                            "day": "Dictée 6",
+                            "title": "Dictée 6",
+                            "words": [
+                                {"word": "fromage", "mp3": "51.mp3"},
+                                {"word": "lire", "mp3": "52.mp3"},
+                                {"word": "mouton", "mp3": "53.mp3"},
+                                {"word": "perle", "mp3": "54.mp3"},
+                                {"word": "prison", "mp3": "55.mp3"},
+                                {"word": "remarque", "mp3": "56.mp3"},
+                                {"word": "rose", "mp3": "57.mp3"},
+                                {"word": "statue", "mp3": "58.mp3"},
+                                {"word": "usine", "mp3": "59.mp3"},
+                                {"word": "belge", "mp3": "60.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "Dictée 7",
+                            "title": "Dictée 7",
+                            "words": [
+                                {"word": "calcul", "mp3": "61.mp3"},
+                                {"word": "cloche", "mp3": "62.mp3"},
+                                {"word": "coupe", "mp3": "63.mp3"},
+                                {"word": "directeur", "mp3": "64.mp3"},
+                                {"word": "grand", "mp3": "65.mp3"},
+                                {"word": "liste", "mp3": "66.mp3"},
+                                {"word": "nuage", "mp3": "67.mp3"},
+                                {"word": "piste", "mp3": "68.mp3"},
+                                {"word": "produire", "mp3": "69.mp3"},
+                                {"word": "reproche", "mp3": "70.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "dictée 8",
+                            "title": "Dictée 8",
+                            "words": [
+                                {"word": "sac", "mp3": "71.mp3"},
+                                {"word": "tarte", "mp3": "72.mp3"},
+                                {"word": "vapeur", "mp3": "73.mp3"}
+                            ]
+                        }
+                    ]
+                }
+                        
+            ]
+        },
+        {
+            "name": "Echellon 12",
+            "weeks": [
+                {
+                    "name": "Partie 2",
+                    "days": [
+                        {
+                            "day": "Dictée 6",
+                            "title": "Dictée 6",
+                            "words": [
+                                {"word": "fromage", "mp3": "51.mp3"},
+                                {"word": "lire", "mp3": "52.mp3"},
+                                {"word": "mouton", "mp3": "53.mp3"},
+                                {"word": "perle", "mp3": "54.mp3"},
+                                {"word": "prison", "mp3": "55.mp3"},
+                                {"word": "remarque", "mp3": "56.mp3"},
+                                {"word": "rose", "mp3": "57.mp3"},
+                                {"word": "statue", "mp3": "58.mp3"},
+                                {"word": "usine", "mp3": "59.mp3"},
+                                {"word": "belge", "mp3": "60.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "Dictée 7",
+                            "title": "Dictée 7",
+                            "words": [
+                                {"word": "calcul", "mp3": "61.mp3"},
+                                {"word": "cloche", "mp3": "62.mp3"},
+                                {"word": "coupe", "mp3": "63.mp3"},
+                                {"word": "directeur", "mp3": "64.mp3"},
+                                {"word": "grand", "mp3": "65.mp3"},
+                                {"word": "liste", "mp3": "66.mp3"},
+                                {"word": "nuage", "mp3": "67.mp3"},
+                                {"word": "piste", "mp3": "68.mp3"},
+                                {"word": "produire", "mp3": "69.mp3"},
+                                {"word": "reproche", "mp3": "70.mp3"}
+                            ]
+                        },
+                        {
+                            "day": "dictée 8",
+                            "title": "Dictée 8",
+                            "words": [
+                                {"word": "sac", "mp3": "71.mp3"},
+                                {"word": "tarte", "mp3": "72.mp3"},
+                                {"word": "vapeur", "mp3": "73.mp3"}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

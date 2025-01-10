@@ -6,12 +6,19 @@ import {
     ListItem,
     TextField,
     Button,
-    Alert
+    Alert,
+    MenuItem,
+    Select,
+    FormControl,
+    InputLabel
 } from "@mui/material";
-import data from "./grammaireAdjectif.json";
+import grammaireAdjectif from "./grammaireAdjectif.json"; // Exemple de JSON par défaut
+import typesPhrases from "./typesPhrases.json"; // Autre JSON (ajoutez-en d'autres si nécessaire)
 
 const AdjectiveLesson = () => {
+    const [selectedData, setSelectedData] = useState(grammaireAdjectif); // JSON par défaut
     const [answers, setAnswers] = useState({});
+    const [feedback, setFeedback] = useState({});
     const [score, setScore] = useState(null);
 
     const handleInputChange = (index, value) => {
@@ -19,16 +26,36 @@ const AdjectiveLesson = () => {
     };
 
     const verifyAnswers = () => {
+        const feedback = {};
         let correctCount = 0;
-        data.exercises.forEach((exercise, index) => {
-            if (
+        selectedData.exercises.forEach((exercise, index) => {
+            const isCorrect =
                 answers[index]?.trim().toLowerCase() ===
-                exercise.answer.toLowerCase()
-            ) {
-                correctCount++;
-            }
+                exercise.answer.toLowerCase();
+            feedback[index] = isCorrect ? "correct" : "incorrect";
+            if (isCorrect) correctCount++;
         });
         setScore(correctCount);
+        setFeedback(feedback);
+    };
+
+    const handleSelectChange = (event) => {
+        const selectedJson = event.target.value;
+        setAnswers({});
+        setScore(null);
+        setFeedback({});
+
+        // Mise à jour des données selon le choix
+        switch (selectedJson) {
+            case "grammaireAdjectif":
+                setSelectedData(grammaireAdjectif);
+                break;
+            case "typesPhrases":
+                setSelectedData(typesPhrases);
+                break;
+            default:
+                setSelectedData(grammaireAdjectif);
+        }
     };
 
     return (
@@ -42,8 +69,23 @@ const AdjectiveLesson = () => {
                 boxShadow: 3
             }}
         >
+            {/* Sélection du fichier JSON */}
+            <FormControl fullWidth sx={{ marginBottom: 3 }}>
+                <InputLabel id="select-json-label">Sélectionnez le sujet</InputLabel>
+                <Select
+                    labelId="select-json-label"
+                    value={selectedData.title}
+                    onChange={handleSelectChange}
+                    displayEmpty
+                >
+                    <MenuItem value="grammaireAdjectif">Les Adjectifs</MenuItem>
+                    <MenuItem value="typesPhrases">Les Types de Phrases</MenuItem>
+                </Select>
+            </FormControl>
+
+            {/* Titre */}
             <Typography variant="h4" gutterBottom>
-                {data.title}
+                {selectedData.title}
             </Typography>
 
             {/* Section Rules */}
@@ -66,10 +108,10 @@ const AdjectiveLesson = () => {
                     📘 La Règle
                 </Typography>
                 <Typography sx={{ marginBottom: 2 }}>
-                    {data.rules.description}
+                    {selectedData.rules.description}
                 </Typography>
                 <List>
-                    {Object.entries(data.rules.examples).map(([key, example], index) => (
+                    {Object.entries(selectedData.rules.examples).map(([key, example], index) => (
                         <ListItem
                             key={index}
                             sx={{
@@ -80,43 +122,53 @@ const AdjectiveLesson = () => {
                                 boxShadow: 1
                             }}
                         >
-                            <ul style={{ paddingLeft: 20 }}>
-                                <li>
-                                    <Typography
-                                        sx={{ color: "#1e88e5", fontWeight: "bold" }}
+                            <ul
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    padding: 0,
+                                    margin: 0,
+                                    width: "100%"
+                                }}
+                            >
+                                {Object.entries(example).map(([type, value], idx) => (
+                                    <li
+                                        key={idx}
+                                        style={{
+                                            display: "flex",
+                                            justifyContent: "normal",
+                                            padding: "5px 0",
+                                            width: "100%",
+                                            borderBottom: "1px solid #ddd",  // Ligne séparatrice
+                                            paddingLeft: "10px",
+                                            paddingRight: "10px"
+                                        }}
                                     >
-                                        Masculin singulier:
-                                    </Typography>{" "}
-                                    {example.masculin_singulier}
-                                </li>
-                                <li>
-                                    <Typography
-                                        sx={{ color: "#43a047", fontWeight: "bold" }}
-                                    >
-                                        Masculin pluriel:
-                                    </Typography>{" "}
-                                    {example.masculin_pluriel}
-                                </li>
-                                <li>
-                                    <Typography
-                                        sx={{ color: "#d32f2f", fontWeight: "bold" }}
-                                    >
-                                        Féminin singulier:
-                                    </Typography>{" "}
-                                    {example.féminin_singulier}
-                                </li>
-                                <li>
-                                    <Typography
-                                        sx={{ color: "#fb8c00", fontWeight: "bold" }}
-                                    >
-                                        Féminin pluriel:
-                                    </Typography>{" "}
-                                    {example.féminin_pluriel}
-                                </li>
+                                        <span
+                                            style={{
+                                                fontWeight: "bold",
+                                                textTransform: "capitalize",
+                                                width: "40%",  // Largeur fixe pour les types
+                                                textAlign: "left"
+                                            }}
+                                        >
+                                            {type.replace("_", " ").toUpperCase()}:
+                                        </span>
+                                        <span
+                                            style={{
+                                                width: "60%",  // Largeur fixe pour les valeurs
+                                                textAlign: "felt"
+                                            }}
+                                        >
+                                            {value}
+                                        </span>
+                                    </li>
+                                ))}
                             </ul>
                         </ListItem>
                     ))}
                 </List>
+
             </Box>
 
             {/* Section Examples */}
@@ -130,7 +182,7 @@ const AdjectiveLesson = () => {
             >
                 <Typography variant="h5">Exemples</Typography>
                 <List>
-                    {data.examples.map((example, index) => (
+                    {selectedData.examples.map((example, index) => (
                         <ListItem key={index}>{example}</ListItem>
                     ))}
                 </List>
@@ -146,19 +198,57 @@ const AdjectiveLesson = () => {
                 }}
             >
                 <Typography variant="h5">Exercices</Typography>
-                <Typography>
-                    Complétez avec la forme correcte de l'adjectif:
-                </Typography>
-                {data.exercises.map((exercise, index) => (
-                    <Box key={index} sx={{ marginBottom: 2 }}>
+                <Typography>Complétez avec la forme correcte :</Typography>
+                {selectedData.exercises.map((exercise, index) => (
+                    <Box
+                        key={index}
+                        sx={{
+                            marginBottom: 2,
+                            border:
+                                feedback?.[index] === "correct"
+                                    ? "2px solid green"
+                                    : feedback?.[index] === "incorrect"
+                                        ? "2px solid red"
+                                        : "1px solid #ccc",
+                            padding: 2,
+                            borderRadius: 2,
+                            backgroundColor:
+                                feedback?.[index] === "correct"
+                                    ? "#e8f5e9"
+                                    : feedback?.[index] === "incorrect"
+                                        ? "#ffebee"
+                                        : "white",
+                            boxShadow: feedback?.[index]
+                                ? "0px 4px 6px rgba(0, 0, 0, 0.1)"
+                                : "none"
+                        }}
+                    >
                         <Typography>{exercise.question}</Typography>
-                        <TextField
-                            variant="outlined"
-                            size="small"
-                            onChange={(e) =>
-                                handleInputChange(index, e.target.value)
-                            }
-                        />
+                        {exercise.options ? (
+                            <FormControl fullWidth>
+                                <Select
+                                    value={answers[index] || ""}
+                                    onChange={(e) =>
+                                        handleInputChange(index, e.target.value)
+                                    }
+                                >
+                                    {exercise.options.map((option, optIndex) => (
+                                        <MenuItem key={optIndex} value={option}>
+                                            {option}
+                                        </MenuItem>
+                                    ))}
+                                </Select>
+                            </FormControl>
+                        ) : (
+                            <TextField
+                                variant="outlined"
+                                size="small"
+                                value={answers[index] || ""}
+                                onChange={(e) =>
+                                    handleInputChange(index, e.target.value)
+                                }
+                            />
+                        )}
                     </Box>
                 ))}
                 <Button variant="contained" onClick={verifyAnswers}>
@@ -166,10 +256,10 @@ const AdjectiveLesson = () => {
                 </Button>
                 {score !== null && (
                     <Alert
-                        severity={score === data.exercises.length ? "success" : "info"}
+                        severity={score === selectedData.exercises.length ? "success" : "info"}
                         sx={{ marginTop: 2 }}
                     >
-                        Score: {score}/{data.exercises.length}
+                        Score: {score}/{selectedData.exercises.length}
                     </Alert>
                 )}
             </Box>
