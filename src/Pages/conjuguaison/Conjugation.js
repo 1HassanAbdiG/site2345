@@ -186,7 +186,7 @@ const Conjugation = () => {
             },
           }}
         >
-          Future
+          Futur
         </Button>
         <Button
           onClick={() => handleTenseChange("imperfect")}
