@@ -4,6 +4,11 @@
       "niveau": "Niveau : Facile",
       "histoires": [
         {
+          "titre": "Bons Amis",
+          "image": "./cba.png",
+          "link": "/story/Bons_Amis"
+        },
+        {
           "titre": "Les Trois Papillons",
           "image": "./papillon1.png",
           "link": "/story/contes-africains"

@@ -1,0 +1,97 @@
+{
+    "title": "Les Bons Amis",
+    "sections": [
+        {
+            "title": "Le petit lapin",
+            "text": [
+                
+                "Il neige tant et tant",
+                "que les champs sont blancs, tout blancs.",
+                "Le petit lapin n’a plus rien à manger. Rien.",
+                "Il ouvre sa porte : « Brr... Qu’il fait froid ! »",
+                "",
+                "Le petit lapin s’en va chercher quelque chose à manger.",
+                "Et voilà qu’il trouve, savez-vous quoi ?",
+                "Deux carottes rouges, grosses comme ça, qui dormaient sous la neige.",
+                "Croque, croque, croque.",
+                "Il en mange une. Il n’a plus faim.",
+                "Il se dit :",
+                "« Il fait si froid, il neige si fort, le petit cheval mon voisin, a sûrement faim.",
+                "Je vais porter l’autre carotte chez lui. »",
+                "",
+                "Court, court, le petit lapin,",
+                "chez le petit cheval, son voisin.",
+                "Toc ! Toc ! Il ouvre la porte ....",
+                "Ah ! Le petit cheval n’est pas là !",
+                "Il laisse la carotte... et s’en va."
+            ],
+            "image1": "2",
+            "image2": "3",
+            "audio": "audio_lapin"
+        },
+        {
+            "title": "Cheval",
+            "text": [
+                "Dans la neige qui glisse et qui crisse, le petit cheval cherche quelque chose à manger.",
+                "Et voilà qu’il trouve, savez-vous quoi ?",
+                "Un gros navet, blanc et violet, qui faisait une bosse sous la neige.",
+                "Croque, croque, croque. Il mange le navet.",
+                "Bon, bon ! Il n’a plus faim, et il revient dans sa maison.",
+                "Il rentre chez lui, voit la carotte et dit : « Qui me l’apporte ? C’est le lapin gris : j’ai vu ses petits pas dans la neige ! Comme il est gentil, ce petit lapin gris ! »",
+                "Puis il se dit encore : « Il fait si froid, il neige si fort que le mouton a sûrement faim. Vite, je lui porte cette carotte et je reviens. »",
+                "Galope ! Petit cheval, galope ! Hop ! Hop ! Hop ! Hop ! Hop ! Hop ! vers la maison du gros mouton.",
+                "Toc ! Toc ! Il ouvre la porte. Ah ! Le mouton n’est pas là !",
+                "Le petit cheval pose la carotte et s’en va ..."
+            ],
+            "image1": "2",
+            "image2": "3",
+
+            "audio": "audio_partage"
+        },
+        {
+            "title": "Le mouton",
+            "text": [
+                "Le gros mouton frisé est allé chercher quelque chose à manger.",
+                "Et voilà qu’il trouve, savez-vous quoi ? Un chou rouge bien caché sous la neige.",
+                "Il mange le chou feuille à feuille, croque, croque, croque.",
+                "Il n’a plus faim et il revient dans sa maison.",
+                "Mouton entre chez lui, voit la carotte et dit : « Une carotte, qui me l’apporte ? C’est le petit cheval, je parie : Je vois ses pas dans la neige ! »",
+                "Et le mouton dit encore : « Il fait si froid, il neige si fort, le chevreuil a sûrement faim, je lui porte la carotte et je reviens. »",
+                "Le gros mouton trotte, trotte, sur la neige qui glisse et qui crisse, sur les prés gelés, à travers les bois, jusqu’à la maison du petit chevreuil roux.",
+                "Toc, toc, il ouvre la porte... Ah ! Le chevreuil n’est pas là !",
+                "Il laisse la carotte et s’en va."
+            ],
+           "image1": "2",
+            "image2": "3",
+            "audio": "audio_mouton"
+        },
+        {
+            "title": "Le chevreuil",
+            "text": [
+                "Le chevreuil est allé chercher quelque chose à manger.",
+                "Il a trouvé, savez-vous quoi ? Une touffe d’herbe gelée et les bourgeons d’un petit sapin.",
+                "Il en mange tant qu’il n’a plus faim.",
+                "Il rentre chez lui, voit la carotte et dit : « Qui me l’apporte ? Le mouton marron, je crois, il a perdu un brin de laine, en sortant d’ici. »",
+                "Et le chevreuil dit encore : « Il fait si froid, il neige si fort... le lapin gris a sûrement faim. Vite, vite, je lui porte cette carotte et je reviens. »",
+                "Saute, saute, le petit chevreuil roux, par-dessus les haies, par-dessus les houx, dans les bois sans feuilles, saute le chevreuil.",
+                "Il arrive, il arrive enfin, à la porte du petit lapin."
+            ],
+          "image1": "2",
+            "image2": "3",
+            "audio": "audio_chevreuil"
+        },
+        {
+            "title": "Les bons amis",
+            "text": [
+                "En rentrant chez lui, le lapin gris s’est endormi.",
+                "Le chevreuil, tout doux, ouvre la porte et pose la carotte, tout doux près du lit.",
+                "Le lapin se réveille. Le chevreuil lui dit : « Il fait si froid, il neige si fort, tu n’as peut-être rien à manger ! Je t’apporte une carotte ... »",
+                "Et c’est ainsi que, du cheval au mouton, du mouton au chevreuil, la carotte revint au petit lapin gris.",
+                "Ah ! les bons, les bons amis !"
+            ],
+           "image1": "2",
+            "image2": "3",
+            "audio": "audio_bons_amis"
+        }
+    ]
+}

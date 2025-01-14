@@ -1,0 +1,143 @@
+{
+    "text": {
+      "title": "Sauvez notre bébé !",
+      "content": [
+        "L'eau cristalline est claire et bleue. Fannie bat lentement des pieds. Ses grandes palmes la font avancer doucement. Elle aspire profondément l'air de sa bouteille.",
+        "Fannie raffole de la plongée. Ses parents l'ont laissé prendre des leçons l'année dernière. Cette année, c'est son premier voyage à la mer. Elle est tellement excitée ! Pendant trois jours, sa famille a exploré le récif corallien. Fannie a déjà vu beaucoup de belles choses. La veille, elle a vu un banc de poissons-perroquets aux couleurs vives. Qui sait ce qu'elle pourra voir aujourd'hui ?",
+        "Fannie fait un signe de la main à ses parents. Ses parents nagent tout près d'elle. Ils lèvent la main en signe d'assentiment. Ensuite, son père lève les deux mains, les dix doigts écartés. « J'ai encore dix minutes », comprend Fannie. Elle hoche la tête.",
+        "Au même moment, Fannie voit une ombre menaçante passer dans l'eau au-dessus d'elle. Elle reste figée sur place. « Des requins ! » pense-t-elle. Elle se laisse flotter, immobile. D'autres ombres s'approchent. Le cœur de Fannie bat la chamade. Puis, une silhouette la dépasse. Ce sont des dauphins ! Fannie est soulagée.",
+        "Il y a trois dauphins. L'un d'eux est un bébé. Les deux dauphins adultes nagent de chaque côté du bébé. Fannie sourit. Ensuite, elle remarque que le bébé saigne. Fannie regarde de plus près. Un énorme hameçon est planté dans le flanc du bébé.",
+        "Doucement, les deux dauphins adultes poussent le bébé vers Fannie avec leur nez. « Que veulent-ils ? » se demande-t-elle. C'est alors qu'elle comprend. « Ils veulent que j'aide leur bébé ! »",
+        "Fannie retire l'hameçon du flanc du bébé avec précaution. Elle appuie sa main sur la blessure pour arrêter le sang. Peu après, le bébé lui échappe des mains en se tortillant. Il retourne auprès de ses parents. Les deux dauphins adultes regardent l'endroit où était l'hameçon. Fannie entend les dauphins échanger des sons secs et aigus.",
+        "Le plus gros dauphin se retourne et s'approche de Fannie. Le dauphin la pousse gentiment avec son nez. Soudain, Fannie réalise : « Il me dit merci ! » Les trois dauphins disparaissent ensuite dans l'eau bleue silencieusement."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Fannie est en voyage pour son premier séjour à la mer.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Fannie a peur des requins au début.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les dauphins adultes aident Fannie à soigner le bébé dauphin.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le bébé dauphin a été blessé par un requin.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que Fannie aime faire ?",
+        "choices": [
+          "Nager dans une piscine",
+          "Plonger sous l'eau",
+          "Faire du bateau",
+          "Explorer des grottes"
+        ],
+        "correctAnswer": "Plonger sous l'eau"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que représente l'ombre menaçante que Fannie aperçoit d'abord ?",
+        "choices": [
+          "Un requin",
+          "Un dauphin",
+          "Un banc de poissons",
+          "Un plongeur"
+        ],
+        "correctAnswer": "Un dauphin"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment les dauphins communiquent-ils avec Fannie ?",
+        "choices": [
+          "Avec des sons secs et aigus",
+          "En nageant rapidement autour d'elle",
+          "En sautant hors de l'eau",
+          "En poussant Fannie vers la surface"
+        ],
+        "correctAnswer": "Avec des sons secs et aigus"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi Fannie est-elle soulagée lorsqu'elle voit les dauphins ?",
+        "correctAnswer": "Parce qu'elle pensait qu'il s'agissait de requins."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que fait Fannie pour aider le bébé dauphin ?",
+        "correctAnswer": "Elle retire l'hameçon et appuie sur la blessure pour arrêter le sang."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment Fannie sait-elle que le dauphin la remercie ?",
+        "correctAnswer": "Le dauphin la pousse gentiment avec son nez."
+      }, {
+        "type": "shortAnswer",
+        "question": "Que feriez-vous si vous voyiez un bébé dauphin blessé comme Fannie ?",
+        "correctAnswer": "Je lui apporterais mon aide ou demanderais de l'aide à un spécialiste."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi les dauphins sont-ils gentils avec Fannie ?",
+        "correctAnswer": "Parce qu'elle a aidé leur bébé blessé."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi pensez-vous que les dauphins ont poussé le bébé vers Fannie ?",
+        "correctAnswer": "Ils savaient qu'elle pourrait les aider."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que peut-on comprendre sur la relation entre les dauphins et leur bébé ?",
+        "correctAnswer": "Les dauphins protègent et prennent soin de leurs bébés."
+      }
+    
+  
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un récif corallien est une formation sous-marine composée de coraux.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un hameçon est un objet utilisé pour pêcher.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'palmes' ?",
+        "choices": [
+          "Un type de poisson",
+          "Des accessoires pour nager plus vite",
+          "Un équipement de plongée sous-marine",
+          "Un vêtement de protection"
+        ],
+        "correctAnswer": "Des accessoires pour nager plus vite"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'hameçon' dans le contexte du texte ?",
+        "choices": [
+          "Un crochet utilisé pour pêcher",
+          "Un outil de plongée",
+          "Un morceau de corail",
+          "Un accessoire pour les dauphins"
+        ],
+        "correctAnswer": "Un crochet utilisé pour pêcher"
+      }
+    ]
+  }
+  

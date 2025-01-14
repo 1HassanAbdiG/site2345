@@ -1,0 +1,157 @@
+{
+    "text": {
+      "title": "La mer",
+      "content": [
+        "Durant nos vacances, toute la famille est allée à la mer.",
+        "Nous avons fait de belles découvertes.",
+        "Maxime a trouvé beaucoup de coquillages sur le bord de l'eau.",
+        "Mélissa a vu des algues sur la plage.",
+        "Camille a aimé nager dans les grosses vagues.",
+        "Papa a fait du pédalo avec maman.",
+        "Nous avons adoré demeurer dans le joli petit chalet.",
+        "Vive les vacances !"
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Toute la famille est allée à la mer durant les vacances.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Maxime a trouvé des algues sur le bord de l'eau.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Camille a aimé nager dans les grosses vagues.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Mélissa a trouvé des coquillages sur la plage.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Papa a fait du pédalo avec maman.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce que Maxime a trouvé sur le bord de l'eau ?",
+        "choices": ["Des algues", "Des coquillages", "Des crabes"],
+        "correctAnswer": "Des coquillages"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'a vu Mélissa sur la plage ?",
+        "choices": ["Des coquillages", "Des algues", "Des vagues"],
+        "correctAnswer": "Des algues"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle activité a été faite par papa et maman ?",
+        "choices": ["Du pédalo", "Du bateau", "De la planche à voile"],
+        "correctAnswer": "Du pédalo"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Où la famille a-t-elle séjourné ?",
+        "choices": ["Dans un hôtel", "Dans une maison", "Dans un chalet"],
+        "correctAnswer": "Dans un chalet"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment la famille a-t-elle ressenti les vacances ?",
+        "choices": ["Ennuyeuses", "Agréables", "Stressantes"],
+        "correctAnswer": "Agréables"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui a trouvé des coquillages ?",
+        "correctAnswer": "Maxime"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qu'a vu Mélissa sur la plage ?",
+        "correctAnswer": "Des algues"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quelle activité Camille a-t-elle préférée ?",
+        "correctAnswer": "Nager dans les grosses vagues"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Avec qui papa a-t-il fait du pédalo ?",
+        "correctAnswer": "Avec maman"
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Où la famille a-t-elle séjourné durant les vacances ?",
+        "correctAnswer": "Dans un chalet"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un coquillage est une coquille trouvée sur le bord de l'eau.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un pédalo est un bateau à moteur.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les algues poussent dans l'eau de mer.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un chalet est une grande maison.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les vagues sont formées par le vent.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'coquillage' ?",
+        "choices": ["Une pierre", "Une coquille trouvée sur la plage", "Un animal marin"],
+        "correctAnswer": "Une coquille trouvée sur la plage"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un 'pédalo' ?",
+        "choices": ["Un bateau à rames", "Un bateau à pédales", "Un voilier"],
+        "correctAnswer": "Un bateau à pédales"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que sont les 'algues' ?",
+        "choices": ["Des plantes marines", "Des coquilles", "Des poissons"],
+        "correctAnswer": "Des plantes marines"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu'est-ce qu'un 'chalet' ?",
+        "choices": ["Une maison typique en bois", "Un bâtiment en pierre", "Un hôtel"],
+        "correctAnswer": "Une maison typique en bois"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que sont les 'vagues' ?",
+        "choices": ["Des mouvements de l'eau", "Des plantes marines", "Des animaux marins"],
+        "correctAnswer": "Des mouvements de l'eau"
+      }
+    ]
+  }
+  

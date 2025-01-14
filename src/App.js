@@ -31,6 +31,8 @@ import InteractiveBook6 from './Pages/Francais/TextAudio/GARCON/tex5.js';
 import Suite from './Pages/maths/suite/suite1.jsx';
 import FractionQuiz from './Pages/maths/FRACT/FractionQuiz.js';
 import WordPlayer from './Pages/Francais/dictée/dictee.jsx';
+import Jeuhistoire from './Pages/OQRE/jeuHistoire.js';
+import InteractiveBook7 from './Pages/Francais/TextAudio/Bons_Amis/tex10.js';
 //import Conjugation1 from './Pages/conjuguaison/conjugaison1';
 //import ConjugationPractice from './Pages/conjuguaison/conjugaison1';
 
@@ -66,7 +68,7 @@ const App = () => {
             <Route path="/exerciseDecimaux" element={<DecimauxExercice />} />
             
             <Route path="/francais/intrus" element={<IntruderExercise />} />
-            {/*<Route path="/francais/construction" element={<PhraseBuilder />} />*/}
+            <Route path="/francais/construction" element={<Jeuhistoire />} />
             
 
 
@@ -80,6 +82,7 @@ const App = () => {
             <Route path="/story/enfant_coeur_pur" element={<InteractiveBook4 />} />
             <Route path="/story/ecole" element={<InteractiveBook5 />} />
             <Route path="/story/Le_Garçon_Courageux" element={<InteractiveBook6 />} />
+            <Route path="/story/Bons_Amis" element={< InteractiveBook7/>} />
             
             
 
