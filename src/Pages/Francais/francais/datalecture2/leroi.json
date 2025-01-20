@@ -1,0 +1,213 @@
+{
+    "text": {
+      "title": "Le roi",
+      "content": [
+        "Il était une fois un roi très sage qui vivait dans un grand château.",
+        "Chaque jour, il écoutait les problèmes de ses sujets et essayait de les aider.",
+        "Un jour, un messager arriva et dit au roi qu'un dragon attaquait le village voisin.",
+        "Le roi appela immédiatement ses chevaliers pour organiser une mission.",
+        "Il donna des instructions précises et promit une grande récompense à celui qui sauverait le village.",
+        "Un jeune chevalier courageux accepta la mission et partit à l'aventure.",
+        "Après un long combat, il vainquit le dragon et retourna au château avec les villageois reconnaissants.",
+        "Le roi organisa une grande fête pour célébrer cette victoire.",
+        "Il nomma le jeune chevalier capitaine de sa garde royale.",
+        "Depuis ce jour, le roi était encore plus aimé et respecté par son peuple."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Le roi vivait dans un grand château.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le roi ignorait les doléances de ses sujets.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un dragon menaçait le village voisin.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le roi a demandé à un sorcier de combattre le dragon.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel était le rôle du roi dans son royaume ?",
+        "choices": [
+          "Il ignorait ses sujets.",
+          "Il écoutait les doléances et aidait à résoudre les problèmes.",
+          "Il organisait des fêtes tous les jours.",
+          "Il restait enfermé dans son château."
+        ],
+        "correctAnswer": "Il écoutait les doléances et aidait à résoudre les problèmes."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qui a accepté de combattre le dragon ?",
+        "choices": [
+          "Un vieux chevalier",
+          "Un jeune chevalier courageux",
+          "Le roi lui-même",
+          "Un paysan du village"
+        ],
+        "correctAnswer": "Un jeune chevalier courageux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle récompense le roi a-t-il donnée au jeune chevalier ?",
+        "choices": [
+          "Une grande fête",
+          "Le titre de capitaine de la garde royale",
+          "Une bourse remplie d'or",
+          "Une nouvelle armure"
+        ],
+        "correctAnswer": "Le titre de capitaine de la garde royale"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment les villageois ont-ils réagi après la victoire sur le dragon ?",
+        "choices": [
+          "Ils ont ignoré le chevalier.",
+          "Ils étaient reconnaissants.",
+          "Ils ont critiqué le roi.",
+          "Ils ont quitté le royaume."
+        ],
+        "correctAnswer": "Ils étaient reconnaissants."
+      },
+     {
+        "type": "shortAnswer",
+        "question": "Pourquoi le roi était-il considéré comme sage ?",
+        "correctAnswer": "Parce qu'il écoutait les problèmes de ses sujets et essayait de les aider."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quelle nouvelle le messager apporta-t-il au roi ?",
+        "correctAnswer": "Un dragon attaquait le village voisin."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que fit le roi après avoir entendu la nouvelle du messager ?",
+        "correctAnswer": "Il appela ses chevaliers pour organiser une mission."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quelle récompense le roi promit-il à celui qui sauverait le village ?",
+        "correctAnswer": "Une grande récompense."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui accepta la mission de sauver le village ?",
+        "correctAnswer": "Un jeune chevalier courageux."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Que fit le jeune chevalier après avoir vaincu le dragon ?",
+        "correctAnswer": "Il retourna au château avec les villageois reconnaissants."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Comment le roi célébra-t-il la victoire du jeune chevalier ?",
+        "correctAnswer": "Il organisa une grande fête."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quelle nouvelle position le roi donna-t-il au jeune chevalier ?",
+        "correctAnswer": "Le capitaine de sa garde royale."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Quelle fut la conséquence de la victoire du jeune chevalier sur la popularité du roi ?",
+        "correctAnswer": "Le roi fut encore plus aimé et respecté par son peuple."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un dragon est une créature légendaire souvent représentée comme dangereuse.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un messager est une personne envoyée pour transmettre des informations.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un chevalier est une personne qui travaille uniquement dans les champs.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un château est une petite cabane dans un village.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le capitaine de la garde royale est responsable de la sécurité du roi.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le sens du mot 'dragon' ?",
+        "choices": [
+          "Une petite créature inoffensive",
+          "Un animal légendaire souvent dangereux",
+          "Un oiseau de proie",
+          "Un personnage historique"
+        ],
+        "correctAnswer": "Un animal légendaire souvent dangereux"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'chevalier' ?",
+        "choices": [
+          "Un guerrier noble prêt à défendre le royaume",
+          "Un messager du roi",
+          "Un paysan courageux",
+          "Un garde du village"
+        ],
+        "correctAnswer": "Un guerrier noble prêt à défendre le royaume"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment le mot 'château' est-il utilisé dans le texte ?",
+        "choices": [
+          "Comme une maison ordinaire",
+          "Comme une grande résidence royale",
+          "Comme un lieu de bataille",
+          "Comme un village fortifié"
+        ],
+        "correctAnswer": "Comme une grande résidence royale"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'garde royale' ?",
+        "choices": [
+          "Un groupe de soldats protégeant le roi",
+          "Un groupe de paysans",
+          "Un groupe de chasseurs",
+          "Un groupe d'artisans"
+        ],
+        "correctAnswer": "Un groupe de soldats protégeant le roi"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'doléances' dans le texte ?",
+        "choices": [
+          "Les demandes et plaintes des sujets",
+          "Les festivités organisées par le roi",
+          "Les ordres donnés par le roi",
+          "Les histoires racontées par les villageois"
+        ],
+        "correctAnswer": "Les demandes et plaintes des sujets"
+      }
+    ]
+  }
+  

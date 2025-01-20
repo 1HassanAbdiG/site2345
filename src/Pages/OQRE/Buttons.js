@@ -1,11 +1,24 @@
 import React from 'react';
+import { Button, Stack } from '@mui/material'; // Import des composants Material-UI
 
 const Buttons = ({ checkOrder, restartGame }) => {
   return (
-    <div>
-      <button id="check" onClick={checkOrder}>Vérifier l'ordre</button>
-      <button id="restart" onClick={restartGame}>Recommencer</button>
-    </div>
+    <Stack direction="row" spacing={2}>
+      <Button 
+        variant="contained" 
+        color="primary" 
+        onClick={checkOrder}
+      >
+        Vérifier l'ordre
+      </Button>
+      <Button 
+        variant="outlined" 
+        color="secondary" 
+        onClick={restartGame}
+      >
+        Recommencer
+      </Button>
+    </Stack>
   );
 };
 

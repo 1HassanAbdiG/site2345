@@ -1,0 +1,42 @@
+{
+  "title": "L'Aventure de Léo le Lionceau",
+  "sections": [
+    {
+      "title": "Départ pour l'aventure",
+      "text": "Il était une fois, dans la savane africaine, un petit lionceau nommé Léo. Léo était curieux et aimait explorer les environs avec ses amis. Un jour, Léo décida de partir à l'aventure pour découvrir de nouveaux endroits.",
+   
+      "image": "1",
+      "audio": "1"
+    },
+    {
+      "title": "Rencontre avec Zoé la girafe",
+      "text": "Léo rencontra d'abord Zoé la girafe, qui était très grande et gentille. Zoé lui montra comment manger les feuilles des arbres les plus hauts.",
+      "image": "2",
+      "audio": "2"
+    },
+    {
+      "title": "Découverte avec Max le singe",
+      "text": "Ensuite, Léo fit la connaissance de Max le singe, qui était très agile et aimait grimper aux arbres. Max apprit à Léo comment sauter de branche en branche.",
+      "image": "3",
+      "audio": "3"
+    },
+    {
+      "title": "Lila l'éléphante enseigne la force",
+      "text": "Puis, Léo croisa la route de Lila l'éléphante, qui était très forte et sage. Lila lui enseigna comment utiliser sa force pour aider les autres animaux.",
+      "image": "4",
+      "audio": "4"
+    },
+    {
+      "title": "Course avec Oscar le zèbre",
+      "text": "Enfin, Léo rencontra Oscar le zèbre, qui était très rapide et aimait courir. Oscar lui montra comment courir vite et éviter les obstacles.",
+      "image": "5",
+      "audio": "5"
+    },
+    {
+      "title": "Retour à la maison",
+      "text": "À la fin de la journée, Léo était fatigué mais heureux. Il avait appris tant de choses nouvelles et s'était fait de nouveaux amis. Léo retourna chez lui, prêt pour de nouvelles aventures le lendemain.",
+      "image": "6",
+      "audio": "6"
+    }
+  ]
+}

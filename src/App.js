@@ -33,6 +33,7 @@ import FractionQuiz from './Pages/maths/FRACT/FractionQuiz.js';
 import WordPlayer from './Pages/Francais/dictée/dictee.jsx';
 import Jeuhistoire from './Pages/OQRE/jeuHistoire.js';
 import InteractiveBook7 from './Pages/Francais/TextAudio/Bons_Amis/tex10.js';
+import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 //import Conjugation1 from './Pages/conjuguaison/conjugaison1';
 //import ConjugationPractice from './Pages/conjuguaison/conjugaison1';
 
@@ -83,6 +84,9 @@ const App = () => {
             <Route path="/story/ecole" element={<InteractiveBook5 />} />
             <Route path="/story/Le_Garçon_Courageux" element={<InteractiveBook6 />} />
             <Route path="/story/Bons_Amis" element={< InteractiveBook7/>} />
+            <Route path="/story/aventure_leo" element={< InteractiveBook11/>} />
+            
+            
             
             
 

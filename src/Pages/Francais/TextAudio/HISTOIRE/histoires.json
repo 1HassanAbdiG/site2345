@@ -4,6 +4,11 @@
       "niveau": "Niveau : Facile",
       "histoires": [
         {
+          "titre": "Les aventures de Leo",
+          "image": "./clea.png",
+          "link": "/story/aventure_leo"
+        },
+        {
           "titre": "Bons Amis",
           "image": "./cba.png",
           "link": "/story/Bons_Amis"

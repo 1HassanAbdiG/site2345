@@ -3,7 +3,7 @@ import PhraseList from './PhraseList';
 import Buttons from './Buttons';
 import Message from './Message';
 import Stats from './Stats';
-import './styles.css';
+import styles from './Jeuhistoire.module.css'; // Import CSS Module
 import storiesData from './phrases.json';
 
 const shuffleArray = (array) => {
@@ -108,10 +108,11 @@ const Jeuhistoire = () => {
     window.speechSynthesis.speak(utterance); // Lancer la synthèse vocale
   };
 
+
   return (
-    <div className="container">
+    <div className={styles.container}>
       <h1>Choisis ton histoire</h1>
-      <select onChange={handleStoryChange}>
+      <select onChange={handleStoryChange} className={styles.select}>
         <option value="0">La journée de Marie</option>
         <option value="1">Une journée à la plage</option>
         <option value="2">La fête d'anniversaire</option>
@@ -119,7 +120,7 @@ const Jeuhistoire = () => {
       </select>
 
       {showInstructions ? (
-        <div className="instructions">
+        <div className={styles.instructions}>
           <h2>Consigne :</h2>
           <p>Range les phrases dans l'ordre pour raconter l'histoire.</p>
           <ol>
@@ -128,7 +129,7 @@ const Jeuhistoire = () => {
             <li>Quand tu as fini, clique sur le bouton vert "Vérifier".</li>
             <li>Les phrases bien placées deviendront vertes !</li>
           </ol>
-          <button onClick={startGame}>Commencer</button>
+          <button onClick={startGame} className={styles.startButton}>Commencer</button>
         </div>
       ) : (
         <>
@@ -139,29 +140,30 @@ const Jeuhistoire = () => {
 
           {showReadStoryButton && (
             <>
-              <button className="read-story-btn" onClick={readStory}>
+              <button className={styles.readStoryButton} onClick={readStory}>
                 Lire l'histoire
               </button>
-              <button className="listen-story-btn" onClick={speakStory}>
+              <button className={styles.listenStoryButton} onClick={speakStory}>
                 Écouter l'histoire
               </button>
             </>
           )}
 
           {isStoryRead && (
-            <div className="story">
+            <div className={styles.story}>
               <h2>L'histoire complète :</h2>
               {selectedStory.map((phrase, index) => (
                 <p key={index}>{phrase}</p>
               ))}
+              
             </div>
           )}
         </>
       )}
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

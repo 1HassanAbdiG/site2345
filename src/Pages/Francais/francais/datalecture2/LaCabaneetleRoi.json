@@ -1,0 +1,206 @@
+{
+    "text": {
+        "title": "La Cabane et le Roi",
+        "content": [
+            "Il était une fois un roi qui voulait construire un nouveau palais à l'extérieur de la ville.",
+            "Il a trouvé le terrain idéal, mais il y avait une cabane en bois dessus.",
+            "Elle appartenait à une vieille femme qui vivait seule.",
+            "Sans hésiter, le roi a ordonné à ses hommes de détruire la cabane.",
+            "Au moment de la destruction, la vieille femme était malade et vivait chez une amie.",
+            "Elle a mis plusieurs mois avant de retourner chez elle.",
+            "Lorsqu'elle est revenue, sa maison avait disparu. Il y avait un grand palais à la place.",
+            "Quand elle s'est approchée du palais, un gardien l'a chassée.",
+            "Elle a essayé de voir le roi, mais il refusait de la rencontrer.",
+            "Il a demandé à ses hommes d'éloigner la femme.",
+            "La vieille femme était très fâchée. Elle criait et insultait le roi.",
+            "Tout à coup, il y a eu un grand coup de tonnerre. Les éclairs illuminaient le ciel.",
+            "Horreur ! Le sol sous le palais s'est ouvert.",
+            "Le palais s'est effondré en emportant le roi égoïste et ses hommes."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Le roi voulait construire un palais dans la ville.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le terrain idéal avait une cabane en bois dessus.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "La cabane appartenait à une vieille femme.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "La vieille femme vivait avec sa famille.",
+            "correctAnswer": false
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi le roi voulait-il détruire la cabane ?",
+            "choices": [
+                "Pour construire un palais.",
+                "Parce qu'elle était vieille.",
+                "Parce qu'elle appartenait à une femme malade.",
+                "Pour planter un jardin."
+            ],
+            "correctAnswer": "Pour construire un palais."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Où vivait la vieille femme pendant la destruction ?",
+            "choices": [
+                "Chez une amie.",
+                "Dans un hôpital.",
+                "Dans la cabane.",
+                "Dans le palais."
+            ],
+            "correctAnswer": "Chez une amie."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que fit le roi pour éloigner la vieille femme du palais ?",
+            "choices": [
+                "Il l'a chassée avec un gardien.",
+                "Il lui a donné une autre maison.",
+                "Il l'a invitée à vivre dans le palais.",
+                "Il l'a ignorée."
+            ],
+            "correctAnswer": "Il l'a chassée avec un gardien."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Comment a réagi la vieille femme en découvrant la disparition de sa cabane ?",
+            "choices": [
+                "Elle était furieuse.",
+                "Elle était contente.",
+                "Elle était triste mais compréhensive.",
+                "Elle a décidé de quitter la ville."
+            ],
+            "correctAnswer": "Elle était furieuse."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi la vieille femme ne vivait-elle pas dans sa cabane au moment de la destruction ?",
+            "correctAnswer": "Elle était malade et vivait chez une amie."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Qu'est-il arrivé au palais à la fin de l'histoire ?",
+            "correctAnswer": "Il s'est effondré avec le roi et ses hommes."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Que voulait construire le roi à l'extérieur de la ville ?",
+            "correctAnswer": "Un nouveau palais."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Qui vivait dans la cabane en bois ?",
+            "correctAnswer": "Une vieille femme qui vivait seule."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi la vieille femme n'était-elle pas présente pendant la destruction de sa maison ?",
+            "correctAnswer": "Elle était malade et vivait chez une amie."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Qu'a fait le roi lorsqu'il a appris que la vieille femme voulait lui parler ?",
+            "correctAnswer": "Il a refusé de la rencontrer et a demandé à ses hommes de l'éloigner."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Que s'est-il passé au palais à la fin de l'histoire ?",
+            "correctAnswer": "Le palais s'est effondré avec le roi et ses hommes."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Une cabane est une petite maison en bois.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un palais est un petit bâtiment en bois.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un gardien est une personne qui protège un lieu.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un éclair est une lumière dans le ciel pendant un orage.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un tonnerre est un bruit fort qui accompagne souvent les éclairs.",
+            "correctAnswer": true
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le sens du mot 'cabane' ?",
+            "choices": [
+                "Un grand palais.",
+                "Une petite maison en bois.",
+                "Un terrain vide.",
+                "Une maison en pierre."
+            ],
+            "correctAnswer": "Une petite maison en bois."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'palais' dans le texte ?",
+            "choices": [
+                "Une petite maison.",
+                "Un grand bâtiment royal.",
+                "Un lieu pour cultiver des plantes.",
+                "Un abri temporaire."
+            ],
+            "correctAnswer": "Un grand bâtiment royal."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que veut dire 'tonnerre' ?",
+            "choices": [
+                "Un bruit fort pendant un orage.",
+                "Une lumière dans le ciel.",
+                "Un vent puissant.",
+                "Un bâtiment détruit."
+            ],
+            "correctAnswer": "Un bruit fort pendant un orage."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Comment est utilisé le mot 'gardien' dans le texte ?",
+            "choices": [
+                "Comme une personne qui protège le palais.",
+                "Comme un chevalier du roi.",
+                "Comme un messager de la vieille femme.",
+                "Comme un villageois."
+            ],
+            "correctAnswer": "Comme une personne qui protège le palais."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'éclair' ?",
+            "choices": [
+                "Un bruit fort.",
+                "Une lumière brillante dans le ciel.",
+                "Un vent puissant.",
+                "Un objet en métal."
+            ],
+            "correctAnswer": "Une lumière brillante dans le ciel."
+        }
+    ]
+}

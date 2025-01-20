@@ -1,0 +1,69 @@
+{
+  "title": "Un long voyage",
+  "text": "Un jour, Alex et sa mère marchent sur la plage après un orage.\n« Regarde », dit Alex. Il pointe son index vers un morceau de vitre bleue. Le morceau de vitre est presque enfoui dans le sable. Ils creusent autour et trouvent une boule de vitre ronde. Elle est un peu plus petite qu'un ballon de soccer.\n« Qu'est-ce que c'est? » demande Alex.\n« C'est un flotteur de pêche, dit sa mère. Autrefois, les pêcheurs japonais utilisaient des flotteurs comme celui-là. Ces flotteurs empêchaient leurs filets de pêche de couler. »\n« Cette boule est donc venue du Japon jusqu'ici? demande Alex. Elle a plus voyagé que moi! »",
+  "questions": {
+    "multipleChoice": [
+      {
+        "question": "Pourquoi Alex dit-il que la boule a voyagé plus que lui ?",
+        "options": [
+          "C’est la première fois qu’Alex voit un flotteur pour la pêche.",
+          "Alex veut devenir pêcheur.",
+          "Alex n’a probablement jamais été au Japon.",
+          "Alex et sa mère voyagent beaucoup."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Comment Alex s’est-il probablement senti à la fin de l’histoire ?",
+        "options": ["Triste.", "Effrayé.", "Excité.", "Fatigué."],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Laquelle de ces phrases est un fait de l’histoire ?",
+        "options": [
+          "Les flotteurs pour la pêche sont intéressants.",
+          "Il est excitant de trouver des choses sur la plage.",
+          "Alex aime voyager.",
+          "Les pêcheurs japonais utilisaient des flotteurs."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Que va-t-il probablement arriver ensuite ?",
+        "options": [
+          "Un orage va renvoyer le flotteur au Japon.",
+          "Alex va garder le flotteur.",
+          "Alex va apprendre à pêcher en utilisant le flotteur.",
+          "Alex va rapporter le flotteur au Japon."
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "openEnded": [
+      {
+        "question": "Où Alex et sa mère sont-ils allés marcher ?",
+        "answer": "Ils sont allés marcher sur la plage."
+      },
+      {
+        "question": "Que s'est-il passé avant qu'ils marchent sur la plage ?",
+        "answer": "Il y a eu un orage."
+      },
+      {
+        "question": "À quoi le flotteur de pêche trouvé par Alex dans le sable sert-il ?",
+        "answer": "Il sert à empêcher les filets de pêche de couler."
+      },
+      {
+        "question": "Complète la phrase suivante : Le flotteur est plus petit qu'un...",
+        "answer": "ballon de soccer."
+      },
+      {
+        "question": "Que ferais-tu avec le flotteur si tu étais à la place d'Alex ? Explique pourquoi.",
+        "answer": "Réponse libre de l'utilisateur."
+      },
+      {
+        "question": "De quelle façon le flotteur de pêche a-t-il voyagé entre le Japon et la plage où se trouve Alex ?",
+        "answer": "Il a flotté sur l'eau pendant un long voyage."
+      }
+    ]
+  }
+}

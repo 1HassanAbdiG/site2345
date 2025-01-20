@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { IconButton, Box, Typography, Paper } from '@mui/material';
+import { VolumeUp } from '@mui/icons-material'; // Icône de haut-parleur
+import './PhraseList.css'; // Import du fichier CSS pour des styles spécifiques
 
 const PhraseList = ({ phrases }) => {
   const [currentOrder, setCurrentOrder] = useState(phrases);
@@ -37,29 +40,39 @@ const PhraseList = ({ phrases }) => {
   };
 
   return (
-    <div id="game-container">
+    <Box id="game-container" sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
       {currentOrder.map((phrase, index) => (
-        <div
+        <Paper
           key={index}
           className="phrase"
           draggable
           onDragStart={handleDragStart(index)}
           onDrop={handleDrop(index)}
           onDragOver={(e) => e.preventDefault()}
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            padding: 2,
+            gap: 2,
+            boxShadow: isPlaying && currentPhrase === phrase ? 3 : 1,
+            border: isPlaying && currentPhrase === phrase ? '1px solid #4caf50' : '1px solid #ddd',
+          }}
         >
-             <button
-            className={`listen-phrase-btn ${isPlaying && currentPhrase === phrase ? 'active' : ''}`}
+          <IconButton
+            color={isPlaying && currentPhrase === phrase ? 'success' : 'primary'}
             onClick={() => speakPhrase(phrase)}
           >
-            <img src="/audio.png" alt="Speak" style={{ width: '20px', height: '20px' }} />
-          </button>
-          <span style={{marginLeft:'20px'}} className={isPlaying && currentPhrase === phrase ? 'playing' : ''}>
+            <VolumeUp />
+          </IconButton>
+          <Typography
+            className={`phrase-text ${isPlaying && currentPhrase === phrase ? 'playing' : ''}`}
+            sx={{ fontSize: '1rem', fontWeight: isPlaying && currentPhrase === phrase ? 'bold' : 'normal' }}
+          >
             {phrase}
-          </span>
-         
-        </div>
+          </Typography>
+        </Paper>
       ))}
-    </div>
+    </Box>
   );
 };
 

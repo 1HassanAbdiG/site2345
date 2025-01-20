@@ -1,0 +1,196 @@
+{
+    "text": {
+      "title": "Au feu!",
+      "content": [
+        "Quand l’alarme d’incendie sonne, les élèves de la classe de Béatrice savent quoi faire. Ils se mettent en rangs. Béatrice chuchote à son amie Kim : « Je me demande pourquoi nous avons un autre exercice d’incendie. Nous en avons eu un cette semaine. »",
+        " ",
+        "Toutes les classes se mettent en rangs dans la cour d’école. Puis, les élèves se retournent et regardent vers l’école. Ils attendent le signal de la cloche pour retourner à l’intérieur.",
+        " ",
+        "Au lieu de la cloche, ils entendent des sirènes! Un énorme camion d’incendie arrive à toute vitesse à l’école! La police le suit!",
+        " ",
+        "Tout le monde commence à chuchoter. Puis, Béatrice entend : « Au feu! C’est un vrai feu! »",
+        "",
+        "Un vrai feu! Béatrice se sent très excitée. Elle a aussi très peur. Est-ce que leur classe peut brûler ? Qu’arrivera-t-il à Jeannot, leur hamster ?",
+        "",
+        "À ce moment-là, la cloche sonne. Les élèves se regardent avec surprise. Puis, ils rentrent dans l’école.",
+        "",
+        "« Qu’est-il arrivé? » demandent-ils à leur enseignante, en rentrant dans l’école.",
+        "",
+        "« Oh, dit l’enseignante. Quelqu’un se faisait cuire une rôtie, qui a un peu brûlé. La fumée a déclenché l’alarme d’incendie. »",
+        "",
+        "Béatrice chuchote à Kim : « Une chance que c’était une fausse alarme, même si c’était excitant! »"
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Les élèves savent quoi faire quand l’alarme d’incendie sonne.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les élèves attendent le signal de la sirène pour retourner dans l’école.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un camion d’incendie arrive à toute vitesse à l’école.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Béatrice est calme et ne ressent aucune peur.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fait Béatrice quand l’alarme d’incendie sonne ?",
+        "choices": [
+          "Elle se cache.",
+          "Elle se met en rang.",
+          "Elle court dehors.",
+          "Elle parle à son amie Kim."
+        ],
+        "correctAnswer": "Elle se met en rang."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fait la police quand elle arrive à l’école ?",
+        "choices": [
+          "Elle donne des instructions aux élèves.",
+          "Elle suit le camion d’incendie.",
+          "Elle éteint le feu.",
+          "Elle distribue des bonbons."
+        ],
+        "correctAnswer": "Elle suit le camion d’incendie."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi Béatrice a-t-elle peur ?",
+        "choices": [
+          "Elle pense que la classe peut brûler.",
+          "Elle a perdu son hamster.",
+          "Elle n’aime pas les alarmes.",
+          "Elle a peur des sirènes."
+        ],
+        "correctAnswer": "Elle pense que la classe peut brûler."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que s’est-il passé finalement à l’école ?",
+        "choices": [
+          "Un vrai incendie.",
+          "Un exercice d’incendie.",
+          "La fumée d’un toast brûlé.",
+          "Un autre exercice d’incendie."
+        ],
+        "correctAnswer": "La fumée d’un toast brûlé."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que dit l’enseignante à propos de l’alarme d’incendie ?",
+        "choices": [
+          "Un élève a fait un mauvais coup.",
+          "Quelqu’un cuisinait une rôtie qui a brûlé.",
+          "Il y a eu un vrai incendie.",
+          "Les élèves ont paniqué."
+        ],
+        "correctAnswer": "Quelqu’un cuisinait une rôtie qui a brûlé."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Pourquoi Béatrice dit-elle que c’était excitant ?",
+        "correctAnswer": "Parce qu’elle a cru que c’était un vrai incendie."
+      },
+      {
+        "type": "shortAnswer",
+        "question": "Qui était en danger pendant l’incendie ?",
+        "correctAnswer": "Jeannot, le hamster."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Une alarme d’incendie est déclenchée en cas de fumée.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une rôtie est un repas froid.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un camion d’incendie est utilisé pour éteindre les feux.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les sirènes sont utilisées pour calmer les gens.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une fausse alarme d’incendie est une alarme qui ne signifie pas un vrai danger.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'alarme' ?",
+        "choices": [
+          "Un bruit fort pour signaler un danger",
+          "Un signal de fin de cours",
+          "Une chanson amusante",
+          "Un jeu d’enfants"
+        ],
+        "correctAnswer": "Un bruit fort pour signaler un danger"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'sirène' ?",
+        "choices": [
+          "Un instrument de musique",
+          "Un bruit fort pour alerter",
+          "Un véhicule de police",
+          "Un signal sonore pour avertir de quelque chose"
+        ],
+        "correctAnswer": "Un bruit fort pour alerter"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'rôtie' ?",
+        "choices": [
+          "Un toast brûlé",
+          "Un sandwich froid",
+          "Un fruit",
+          "Un gâteau"
+        ],
+        "correctAnswer": "Un toast brûlé"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'excitée' ?",
+        "choices": [
+          "Calme et détendue",
+          "Stressée et nerveuse",
+          "Très intéressée ou inquiète",
+          "Fatiguée"
+        ],
+        "correctAnswer": "Très intéressée ou inquiète"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'fumée' ?",
+        "choices": [
+          "L’air frais",
+          "Le gaz chaud produit par le feu",
+          "La lumière d’un incendie",
+          "L’odeur du pain grillé"
+        ],
+        "correctAnswer": "Le gaz chaud produit par le feu"
+      }
+    ]
+  }
+  

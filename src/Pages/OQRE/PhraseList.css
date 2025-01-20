@@ -1,0 +1,59 @@
+/* PhraseList.css */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .phrase {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: grab;
+    transition: background-color 0.2s;
+  }
+  
+  .phrase:active {
+    cursor: grabbing;
+  }
+  
+  .listen-phrase-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .listen-phrase-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .listen-phrase-btn.active {
+    transform: scale(1.2);
+  }
+  
+  .audio-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .phrase-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .phrase-text.playing {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .phrase:hover {
+    background-color: #e6f7ff;
+  }
+  

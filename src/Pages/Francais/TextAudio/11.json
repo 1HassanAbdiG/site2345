@@ -1,0 +1,30 @@
+{
+    "title": "Léa et le Trésor Perdu de la Vallée des Fées",
+    "sections": [
+      {
+        "title": "La découverte de la carte",
+        "text": "Dans la paisible Vallée des Fées, où les fleurs dansent avec le vent et les ruisseaux murmurent des secrets, vivait une jeune fée nommée Léa. Léa était connue pour son esprit vif et son cœur aventureux. Un jour, alors qu'elle volait près d'un ancien chêne, elle découvrit une carte cachée dans une fente de l'écorce. La carte semblait ancienne, avec des symboles mystérieux et des chemins sinueux. 'Quelle découverte incroyable !' s'exclama Léa, les yeux brillants de curiosité. Elle décida de suivre la carte, espérant découvrir le trésor perdu de la vallée.",
+        "image": "lea_finds_map",
+        "audio": "audio_chapter1"
+      },
+      {
+        "title": "Le voyage à travers la vallée",
+        "text": "Léa s'envola, suivant les indications de la carte. Elle traversa des champs de fleurs multicolores, survola des cascades scintillantes et se faufila entre des arbres centenaires. Chaque étape du voyage révélait de nouveaux paysages enchanteurs. En chemin, elle rencontra d'autres créatures magiques qui lui offrirent leur aide : une libellule rapide comme l'éclair, un écureuil agile et une chouette sage. Ensemble, ils surmontèrent les obstacles et résolurent les énigmes indiquées sur la carte.",
+        "image": "lea_journey",
+        "audio": "audio_chapter2"
+      },
+      {
+        "title": "La grotte du trésor",
+        "text": "Après de nombreuses aventures, Léa et ses amis arrivèrent à l'entrée d'une grotte cachée derrière une cascade. La carte indiquait que le trésor se trouvait à l'intérieur. Avec un mélange d'excitation et d'appréhension, ils pénétrèrent dans la grotte. Les murs scintillaient de cristaux lumineux, et l'air était empli de magie. Au fond de la grotte, ils découvrirent un coffre ancien, orné de pierres précieuses. Léa l'ouvrit avec précaution, révélant un trésor de joyaux étincelants et de poussière de fée.",
+        "image": "treasure_cave",
+        "audio": "audio_chapter3"
+      },
+      {
+        "title": "Le retour triomphal",
+        "text": "Avec le trésor en leur possession, Léa et ses amis retournèrent à la Vallée des Fées. La nouvelle de leur aventure se répandit rapidement, et tous les habitants de la vallée vinrent les accueillir en héros. Le trésor fut partagé équitablement, apportant prospérité et bonheur à tous. Léa devint une légende, et son courage inspira de nombreuses autres fées à explorer et à protéger la magie de la vallée. Ainsi, la Vallée des Fées continua à briller de mille feux, grâce à l'audace et à la détermination de Léa.",
+        "image": "valley_celebration",
+        "audio": "audio_chapter4"
+      }
+    ]
+  }
+  

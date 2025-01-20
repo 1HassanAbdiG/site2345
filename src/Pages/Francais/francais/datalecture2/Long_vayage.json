@@ -1,0 +1,203 @@
+{
+  "text": {
+    "title": "Un long voyage",
+    "content": [
+      "Un jour, Alex et sa mère marchent sur la plage après un orage.",
+      "« Regarde », dit Alex. Il pointe son index vers un morceau de vitre bleue.",
+      "Le morceau de vitre est presque enfoui dans le sable.",
+      "Ils creusent autour et trouvent une boule de vitre ronde.",
+      "Elle est un peu plus petite qu'un ballon de soccer.",
+      "« Qu'est-ce que c'est? » demande Alex.",
+      "« C'est un flotteur de pêche, dit sa mère. Autrefois, les pêcheurs japonais utilisaient des flotteurs comme celui-là.",
+      "Ces flotteurs empêchaient leurs filets de pêche de couler. »",
+      "« Cette boule est donc venue du Japon jusqu'ici? demande Alex.",
+      "Elle a plus voyagé que moi! »"
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Alex et sa mère marchent sur la plage après un orage.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Alex trouve un morceau de métal bleu dans le sable.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "La boule de vitre est plus grande qu'un ballon de soccer.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les flotteurs de pêche empêchaient les filets de couler.",
+      "correctAnswer": true
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que pointe Alex sur la plage ?",
+      "choices": [
+        "Un coquillage",
+        "Un morceau de vitre bleue",
+        "Une pièce de monnaie",
+        "Un bâton"
+      ],
+      "correctAnswer": "Un morceau de vitre bleue"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que trouvent Alex et sa mère en creusant dans le sable ?",
+      "choices": [
+        "Un ballon de soccer",
+        "Une boule de vitre ronde",
+        "Un coquillage géant",
+        "Un trésor"
+      ],
+      "correctAnswer": "Une boule de vitre ronde"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "D'où vient la boule de vitre selon la mère d'Alex ?",
+      "choices": [
+        "De Chine",
+        "Du Japon",
+        "D'Australie",
+        "Du Canada"
+      ],
+      "correctAnswer": "Du Japon"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que faisaient les flotteurs de pêche selon la mère d'Alex ?",
+      "choices": [
+        "Ils décoraient les bateaux.",
+        "Ils empêchaient les filets de couler.",
+        "Ils attrapaient les poissons.",
+        "Ils protégeaient les pêcheurs."
+      ],
+      "correctAnswer": "Ils empêchaient les filets de couler."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Pourquoi Alex dit-il que la boule a voyagé plus que lui ?",
+      "choices": [
+        "C’est la première fois qu’Alex voit un flotteur pour la pêche.",
+        "Alex veut devenir pêcheur.",
+        "Alex n’a probablement jamais été au Japon.",
+        "Alex et sa mère voyagent beaucoup."
+      ],
+      "correctAnswer": "Alex n’a probablement jamais été au Japon."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Que pointe Alex avec son index sur la plage ?",
+      "correctAnswer": "Un morceau de vitre bleue."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Qu'apprend-on sur les flotteurs de pêche japonais ?",
+      "correctAnswer": "Ils empêchaient les filets de pêche de couler."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "À quoi le flotteur de pêche trouvé par Alex sert-il ?",
+      "correctAnswer": "Il sert à empêcher les filets de pêche de couler."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Complète la phrase suivante : Le flotteur est plus petit qu'un...",
+      "correctAnswer": "ballon de soccer."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "De quelle façon le flotteur de pêche a-t-il voyagé entre le Japon et la plage où se trouve Alex ?",
+      "correctAnswer": "Il a flotté sur l'eau pendant un long voyage."
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Un flotteur de pêche est utilisé pour aider les filets à flotter.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un orage est une période de calme et de beau temps.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Une boule peut être ronde et en verre.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un morceau est une grande partie entière d'un objet.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Le sable est souvent trouvé sur les plages.",
+      "correctAnswer": true
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie le mot 'orage' ?",
+      "choices": [
+        "Une tempête avec du tonnerre et des éclairs",
+        "Un jour de soleil",
+        "Un vent léger",
+        "Une pluie calme"
+      ],
+      "correctAnswer": "Une tempête avec du tonnerre et des éclairs"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qu'un 'flotteur' ?",
+      "choices": [
+        "Un objet qui aide à flotter",
+        "Un bateau de pêche",
+        "Un filet de pêche",
+        "Un ballon"
+      ],
+      "correctAnswer": "Un objet qui aide à flotter"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie le mot 'morceau' ?",
+      "choices": [
+        "Une petite partie d’un objet",
+        "Un objet entier",
+        "Un outil de pêche",
+        "Un type de poisson"
+      ],
+      "correctAnswer": "Une petite partie d’un objet"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie le mot 'sable' ?",
+      "choices": [
+        "Des petits grains que l’on trouve sur la plage",
+        "Une grande pierre",
+        "Une sorte de bois flotté",
+        "Un filet de pêche"
+      ],
+      "correctAnswer": "Des petits grains que l’on trouve sur la plage"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'flotter' ?",
+      "choices": [
+        "Rester à la surface de l'eau",
+        "Couler au fond",
+        "Être emporté par le vent",
+        "Être immobile sur terre"
+      ],
+      "correctAnswer": "Rester à la surface de l'eau"
+    }
+  ]
+}
