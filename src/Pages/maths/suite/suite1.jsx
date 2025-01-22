@@ -151,8 +151,8 @@ function Suite() {
                 color="success"
             />
             <CustomButton
-                onClick={() => handleButtonClick("avancer", "avancer.json")}
-                label={visibleComponent === "avancer" ? "Masquer avancer" : "Afficher avancer"}
+                onClick={() => handleButtonClick("avancé", "avancer.json")}
+                label={visibleComponent === "avancé" ? "Masquer avancé" : "Afficher avancé"}
                 color="warning"
             />
             <Typography variant="h4" gutterBottom sx={{ color: '#4CAF50', fontWeight: 'bold' }}>
