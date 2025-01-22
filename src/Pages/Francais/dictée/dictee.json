@@ -618,6 +618,79 @@
                     ]
                 }
             ]
-        }
+        },{
+            "name": "Echellon 13",
+            "weeks": [
+              {
+                "name": "Partie 1",
+                "days": [
+                  {
+                    "day": "Dictée 1",
+                    "title": "Dictée 1",
+                    "words": [
+                      { "word": "abeille", "mp3": "abeille.mp3" },
+                      { "word": "avion", "mp3": "avion.mp3" },
+                      { "word": "bien", "mp3": "bien.mp3" },
+                      { "word": "boule", "mp3": "boule.mp3" },
+                      { "word": "canard", "mp3": "canard.mp3" },
+                      { "word": "chevalier", "mp3": "chevalier.mp3" },
+                      { "word": "confrère", "mp3": "confrere.mp3" },
+                      { "word": "décembre", "mp3": "decembre.mp3" },
+                      { "word": "dix", "mp3": "dix.mp3" },
+                      { "word": "épreuve", "mp3": "epreuve.mp3" }
+                    ]
+                  },
+                  {
+                    "day": "Dictée 2",
+                    "title": "Dictée 2",
+                    "words": [
+                      { "word": "fée", "mp3": "fee.mp3" },
+                      { "word": "foule", "mp3": "foule.mp3" },
+                      { "word": "grammaire", "mp3": "grammaire.mp3" },
+                      { "word": "insecte", "mp3": "insecte.mp3" },
+                      { "word": "jouet", "mp3": "jouet.mp3" },
+                      { "word": "laver", "mp3": "laver.mp3" },
+                      { "word": "lunette", "mp3": "lunette.mp3" },
+                      { "word": "mélange", "mp3": "melange.mp3" },
+                      { "word": "ministre", "mp3": "ministre.mp3" },
+                      { "word": "multitude", "mp3": "multitude.mp3" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Partie 2",
+                "days": [
+                  {
+                    "day": "Dictée 1",
+                    "title": "Dictée 1",
+                    "words": [
+                      { "word": "offre", "mp3": "offre.mp3" },
+                      { "word": "patrie", "mp3": "patrie.mp3" },
+                      { "word": "place", "mp3": "place.mp3" },
+                      { "word": "poulet", "mp3": "poulet.mp3" },
+                      { "word": "procureur", "mp3": "procureur.mp3" },
+                      { "word": "renard", "mp3": "renard.mp3" },
+                      { "word": "robuste", "mp3": "robuste.mp3" },
+                      { "word": "samedi", "mp3": "samedi.mp3" },
+                      { "word": "sombre", "mp3": "sombre.mp3" },
+                      { "word": "sulvre", "mp3": "sulvre.mp3" }
+                    ]
+                  },
+                  {
+                    "day": "Dictée 2",
+                    "title": "Dictée 2",
+                    "words": [
+                      { "word": "tigre", "mp3": "tigre.mp3" },
+                      { "word": "trouble", "mp3": "trouble.mp3" },
+                      { "word": "vent", "mp3": "vent.mp3" },
+                      { "word": "vitrine", "mp3": "vitrine.mp3" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+          
     ]
 }
