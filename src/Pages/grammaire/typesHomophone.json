@@ -1,0 +1,103 @@
+{
+    "homophones": [
+        {
+            "title": "Les Homophones : A et À",
+            "rules": {
+                "description": "En français, 'a' et 'à' sont des homophones, mais ils ont des significations différentes et des usages distincts.",
+                "examples": {
+                    "a": {
+                        "description": "'a' est une forme du verbe 'avoir' à la 3e personne du singulier.",
+                        "example": "Il a un livre."
+                    },
+                    "à": {
+                        "description": "'à' est une préposition indiquant un lieu, un moment ou une direction.",
+                        "example": "Nous allons à l'école."
+                    }
+                }
+            },
+            "examples": [
+                "A : Il a une voiture.",
+                "À : Je vais à la plage.",
+                "A : Elle a 10 ans.",
+                "À : Le rendez-vous est à 14 heures."
+            ],
+            "exercises": [
+                {
+                    "question": "Complétez la phrase : 'Il ___ un chien.'",
+                    "options": ["a", "à"],
+                    "answer": "a"
+                },
+                {
+                    "question": "Complétez la phrase : 'Je vais ___ l'école.'",
+                    "options": ["a", "à"],
+                    "answer": "à"
+                },
+                {
+                    "question": "Complétez la phrase : 'Elle ___ une maison.'",
+                    "options": ["a", "à"],
+                    "answer": "a"
+                },
+                {
+                    "question": "Complétez la phrase : 'Ils sont ___ la gare.'",
+                    "options": ["a", "à"],
+                    "answer": "à"
+                }
+            ]
+        },
+        {
+            "title": "Ma / M'a",
+            "rules": {
+                "description": "En français, 'ma' et 'm'a' ont des usages différents et ne doivent pas être confondus.",
+                "examples": {
+                    "ma": {
+                        "description": "'Ma' est un déterminant possessif féminin singulier qui accompagne un nom.",
+                        "example": "Exemple : Ma voiture est stationnée près de l'église."
+                    },
+                    "m'a": {
+                        "description": "'M'a' est la forme du verbe 'avoir' conjugué à la 3e personne du singulier, accompagnée du pronom 'me' après élision (m').",
+                        "example": "Exemple : Le professeur m'a fait remarquer que j'étais en retard ce matin."
+                    }
+                },
+                "note": "Le 'm’' signifie 'à moi'. 'M’a' est généralement suivi d’un participe passé."
+            },
+            "examples": [
+                "Ma : Ma sœur est très gentille.",
+                "M'a : Il m'a offert un cadeau pour mon anniversaire.",
+                "Ma : Ma maison est proche de l'école.",
+                "M'a : Elle m'a conseillé de lire ce livre."
+            ],
+            "exercises": [
+                {
+                    "instruction": "Complétez les phrases en ajoutant ma ou m'a.",
+                    "questions": [
+                        {
+                            "text": "___ vraie passion est celle que mon père ___ donnée en collectionnant des timbres.",
+                            "options": ["ma", "m'a"],
+                            "answers": ["ma", "m'a"]
+                        },
+                        {
+                            "text": "J’ai terminé de ranger ___ chambre. Je vais donner ___ vieille poupée.",
+                            "options": ["ma", "m'a"],
+                            "answers": ["ma", "m'a"]
+                        },
+                        {
+                            "text": "Elle ___ apporté un cadeau. ___ marraine était arrivée.",
+                            "options": ["ma", "m'a"],
+                            "answers": ["m'a", "ma"]
+                        },
+                        {
+                            "text": "Quand je suis allé chez le coiffeur, il ___ fait asseoir. Il ___ lavé et coiffé les cheveux.",
+                            "options": ["ma", "m'a"],
+                            "answers": ["m'a", "m'a"]
+                        },
+                        {
+                            "text": "___ mère, tante et cousine sont arrivées.",
+                            "options": ["ma", "m'a"],
+                            "answer": "ma"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

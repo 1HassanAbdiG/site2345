@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 5",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["Paul", "lit", "un", "livre", "dans", "le", "salon", "."],
+          "correctOrder": ["Paul", "lit", "un", "livre", "dans", "le", "salon", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Où", "est", "ma", "bouteille", "d'eau", "?"],
+          "correctOrder": ["Où", "est", "ma", "bouteille", "d'eau", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Ferme", "les", "rideaux", "avant", "de", "sortir", "."],
+          "correctOrder": ["Ferme", "les", "rideaux", "avant", "de", "sortir", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quelle", "belle", "journée", "!"],
+          "correctOrder": ["Quelle", "belle", "journée", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Le", "chat", "dort", "sur", "le", "canapé", "."],
+          "correctOrder": ["Le", "chat", "dort", "sur", "le", "canapé", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Je", "n'ai", "pas", "faim", "ce", "matin", "."],
+          "correctOrder": ["Je", "n'ai", "pas", "faim", "ce", "matin", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Les", "enfants", "jouent", "dans", "le", "parc", "."],
+          "correctOrder": ["Les", "enfants", "jouent", "dans", "le", "parc", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Combien", "coûte", "ce", "vêtement", "?"],
+          "correctOrder": ["Combien", "coûte", "ce", "vêtement", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Apporte", "moi", "un", "verre", "d'eau", "."],
+          "correctOrder": ["Apporte", "moi", "un", "verre", "d'eau", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Comme", "c'est", "amusant", "!"],
+          "correctOrder": ["Comme", "c'est", "amusant", "!"]
+        }
+      ]
+    }
+  }
+  

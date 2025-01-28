@@ -4,11 +4,12 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 800px;
+   
+   
   }
   
   .phraseArea {
+    width: 100%;
     margin-bottom: 20px;
     border: 2px solid #4169e1;
     border-radius: 5px;
@@ -76,4 +77,11 @@
   .actionButton:hover {
     background-color: #1976D2;
   }
-  
+  .sentenceType {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Set a visible color */
+    padding: 5px;
+    background-color: #f0f0f0; /* Optional: add background color to make it stand out */
+}

@@ -1,0 +1,57 @@
+{
+  "text": {
+    "title": "Exercice 3",
+    "sentences": [
+      {
+        "type": "déclarative",
+        "words": ["Marie", "lit", "un", "livre", "."],
+        "correctOrder": ["Marie", "lit", "un", "livre", "."]
+      },
+      {
+        "type": "interrogative",
+        "words": ["Quand", "pars-tu", "en", "vacances", "?"],
+        "correctOrder": ["Quand", "pars-tu", "en", "vacances", "?"]
+      },
+      {
+        "type": "impérative",
+        "words": ["Écoute", "bien", "la", "leçon", "."],
+        "correctOrder": ["Écoute", "bien", "la", "leçon", "."]
+      },
+      {
+        "type": "exclamatif",
+        "words": ["Quel", "beau", "tableau", "!"],
+        "correctOrder": ["Quel", "beau", "tableau", "!"]
+      },
+      {
+        "type": "positif",
+        "words": ["Les", "enfants", "jouent", "dans", "le", "jardin", "."],
+        "correctOrder": ["Les", "enfants", "jouent", "dans", "le", "jardin", "."]
+      },
+      {
+        "type": "négatif",
+        "words": ["Je", "ne", "veux", "pas", "manger", "maintenant", "."],
+        "correctOrder": ["Je", "ne", "veux", "pas", "manger", "maintenant", "."]
+      },
+      {
+        "type": "déclarative",
+        "words": ["Le", "chaton", "boit", "du", "lait", "."],
+        "correctOrder": ["Le", "chaton", "boit", "du", "lait", "."]
+      },
+      {
+        "type": "interrogative",
+        "words": ["Pourquoi", "es-tu", "en", "retard", "?"],
+        "correctOrder": ["Pourquoi", "es-tu", "en", "retard", "?"]
+      },
+      {
+        "type": "impérative",
+        "words": ["Apporte", "moi", "un", "verre", "d'eau", "."],
+        "correctOrder": ["Apporte", "moi", "un", "verre", "d'eau", "."]
+      },
+      {
+        "type": "exclamatif",
+        "words": ["Comme", "tu", "es", "gentil", "!"],
+        "correctOrder": ["Comme", "tu", "es", "gentil", "!"]
+      }
+    ]
+  }
+}

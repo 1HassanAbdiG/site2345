@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 8",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["La", "montagne", "est", "couverte", "de", "neige", "."],
+          "correctOrder": ["La", "montagne", "est", "couverte", "de", "neige", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["À", "quelle", "heure", "commence", "le", "film", "?"],
+          "correctOrder": ["À", "quelle", "heure", "commence", "le", "film", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Ouvrez", "votre", "livre", "à", "la", "page", "10", "."],
+          "correctOrder": ["Ouvrez", "votre", "livre", "à", "la", "page", "10", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Que", "cette", "peinture", "est", "belle", "!"],
+          "correctOrder": ["Que", "cette", "peinture", "est", "belle", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Les", "oiseaux", "chantent", "dans", "les", "arbres", "."],
+          "correctOrder": ["Les", "oiseaux", "chantent", "dans", "les", "arbres", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Je", "ne", "sais", "pas", "quoi", "dire", "."],
+          "correctOrder": ["Je", "ne", "sais", "pas", "quoi", "dire", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Les", "élèves", "font", "leurs", "devoirs", "en", "silence", "."],
+          "correctOrder": ["Les", "élèves", "font", "leurs", "devoirs", "en", "silence", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Qui", "a", "gagné", "le", "match", "?"],
+          "correctOrder": ["Qui", "a", "gagné", "le", "match", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Lavez-vous", "les", "mains", "avant", "de", "manger", "."],
+          "correctOrder": ["Lavez-vous", "les", "mains", "avant", "de", "manger", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Oh", "que", "c'est", "mignon", "!"],
+          "correctOrder": ["Oh", "que", "c'est", "mignon", "!"]
+        }
+      ]
+    }
+  }
+  

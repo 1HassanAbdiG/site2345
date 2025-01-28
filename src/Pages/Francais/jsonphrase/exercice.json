@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 1",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["Marie", "aime", "les", "fleurs", "."],
+          "correctOrder": ["Marie", "aime", "les", "fleurs", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Pourquoi", "le", "chat", "miaule", "?"],
+          "correctOrder": ["Pourquoi", "le", "chat", "miaule", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Écris", "ton", "nom", "ici", "."],
+          "correctOrder": ["Écris", "ton", "nom", "ici", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Que", "c'est", "joli", "!"],
+          "correctOrder": ["Que", "c'est", "joli", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Les", "arbres", "sont", "verts", "."],
+          "correctOrder": ["Les", "arbres", "sont", "verts", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Je", "ne", "veux", "pas", "venir", "."],
+          "correctOrder": ["Je", "ne", "veux", "pas", "venir", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Le", "chien", "court", "dans", "le", "jardin", "."],
+          "correctOrder": ["Le", "chien", "court", "dans", "le", "jardin", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Quand", "commence", "la", "réunion", "?"],
+          "correctOrder": ["Quand", "commence", "la", "réunion", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Ouvre", "la", "fenêtre", "."],
+          "correctOrder": ["Ouvre", "la", "fenêtre", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quel", "beau", "spectacle", "!"],
+          "correctOrder": ["Quel", "beau", "spectacle", "!"]
+        }
+      ]
+    }
+  }
+  

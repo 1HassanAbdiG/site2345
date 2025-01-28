@@ -9,7 +9,7 @@ import Lecture from './Pages/Francais/francais/lecture';
 import Nav from './Pages/Nav';
 import styles from './Pages//Accueil.module.css';
 import Conjugation from './Pages/conjuguaison/Conjugation';
-import AdjectiveLesson from './Pages/grammaire/AdjectiveLesson';
+//import AdjectiveLesson from './Pages/grammaire/AdjectiveLesson';
 import DecimauxExercice from './Pages/maths/decimaux/decimaux';
 import Mathematiques from './Pages/maths/Mathematiques';
 import IntruderExercise from './Pages/Francais/intrus/IntruderExercise';
@@ -34,6 +34,8 @@ import WordPlayer from './Pages/Francais/dictée/dictee.jsx';
 import Jeuhistoire from './Pages/OQRE/jeuHistoire.js';
 import InteractiveBook7 from './Pages/Francais/TextAudio/Bons_Amis/tex10.js';
 import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
+
+import Grammaire from './Pages/grammaire/grammaire.jsx';
 //import Conjugation1 from './Pages/conjuguaison/conjugaison1';
 //import ConjugationPractice from './Pages/conjuguaison/conjugaison1';
 
@@ -58,13 +60,13 @@ const App = () => {
             <Route path="/mathematiques" element={<Mathematiques />} />
 
 
-            <Route path="/francais/dictee" element={<WordPlayer />} />
+            <Route path="/francais/dictee" element={< WordPlayer/>} />
             <Route path="/francais/comprehension" element={<Lecture />} />
             <Route path="/francais/conjugaison" element={<Conjugation />} />
 
 
 
-            <Route path="/francais/grammaire" element={<AdjectiveLesson />} />
+            <Route path="/francais/grammaire" element={<Grammaire />} />
             <Route path="/faction" element={<FractionQuiz />} />
             <Route path="/exerciseDecimaux" element={<DecimauxExercice />} />
             

@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 7",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["Le", "chien", "aboie", "devant", "la", "maison", "."],
+          "correctOrder": ["Le", "chien", "aboie", "devant", "la", "maison", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Peux-tu", "me", "prêter", "un", "crayon", "?"],
+          "correctOrder": ["Peux-tu", "me", "prêter", "un", "crayon", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Rends-moi", "mon", "cahier", "s'il", "te", "plaît", "."],
+          "correctOrder": ["Rends-moi", "mon", "cahier", "s'il", "te", "plaît", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Comme", "cette", "musique", "est", "douce", "!"],
+          "correctOrder": ["Comme", "cette", "musique", "est", "douce", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Marie", "étudie", "sérieusement", "pour", "son", "examen", "."],
+          "correctOrder": ["Marie", "étudie", "sérieusement", "pour", "son", "examen", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Nous", "n'allons", "pas", "au", "cinéma", "ce", "soir", "."],
+          "correctOrder": ["Nous", "n'allons", "pas", "au", "cinéma", "ce", "soir", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Les", "feuilles", "tombent", "des", "arbres", "en", "automne", "."],
+          "correctOrder": ["Les", "feuilles", "tombent", "des", "arbres", "en", "automne", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Pourquoi", "ne", "viens-tu", "pas", "avec", "nous", "?"],
+          "correctOrder": ["Pourquoi", "ne", "viens-tu", "pas", "avec", "nous", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Écoutez", "attentivement", "les", "instructions", "."],
+          "correctOrder": ["Écoutez", "attentivement", "les", "instructions", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quel", "plaisir", "de", "se", "reposer", "!"],
+          "correctOrder": ["Quel", "plaisir", "de", "se", "reposer", "!"]
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,115 @@
+{
+    "texts": [
+      {
+        "title": "Exemple de texte",
+        "sentences": [
+          {
+            "type": "déclarative",
+            "words": ["Rémi", "va", "à", "l'école."],
+            "correctOrder": ["Rémi", "va", "à", "l'école."]
+          },
+          {
+            "type": "interrogative",
+            "words": ["Va-t-il", "à", "l'école", "?"],
+            "correctOrder": ["Va-t-il", "à", "l'école", "?"]
+          },
+          {
+            "type": "impérative",
+            "words": ["Va", "à", "l'école", "!"],
+            "correctOrder": ["Va", "à", "l'école", "!"]
+          },
+          {
+            "type": "exclamatif",
+            "words": ["Quel", "beau", "jour", "nous", "avons", "!"],
+            "correctOrder": ["Quel", "beau", "jour", "nous", "avons", "!"]
+          },
+          {
+            "type": "positif",
+            "words": ["Il", "fait", "beau", "aujourd'hui", "."],
+            "correctOrder": ["Il", "fait", "beau", "aujourd'hui", "."]
+          },
+          {
+            "type": "négatif",
+            "words": ["Il", "ne", "fait", "pas", "beau", "."],
+            "correctOrder": ["Il", "ne", "fait", "pas", "beau", "."]
+          },
+          {
+            "type": "déclarative",
+            "words": ["Marie", "a", "un", "chien", "mignon", "."],
+            "correctOrder": ["Marie", "a", "un", "chien", "mignon", "."]
+          },
+          {
+            "type": "interrogative",
+            "words": ["Est-ce", "qu'il", "y", "a", "un", "chat", "ici", "?"],
+            "correctOrder": ["Est-ce", "qu'il", "y", "a", "un", "chat", "ici", "?"]
+          },
+          {
+            "type": "impérative",
+            "words": ["Prends", "ton", "sac", "et", "viens", "!"],
+            "correctOrder": ["Prends", "ton", "sac", "et", "viens", "!"]
+          },
+          {
+            "type": "exclamatif",
+            "words": ["Quel", "super", "film", "nous", "avons", "regardé", "!"],
+            "correctOrder": ["Quel", "super", "film", "nous", "avons", "regardé", "!"]
+          },
+          {
+            "type": "positif",
+            "words": ["Je", "suis", "content", "de", "te", "voir", "."],
+            "correctOrder": ["Je", "suis", "content", "de", "te", "voir", "."]
+          },
+          {
+            "type": "négatif",
+            "words": ["Je", "ne", "veux", "pas", "manger", "de", "bonbons", "."],
+            "correctOrder": ["Je", "ne", "veux", "pas", "manger", "de", "bonbons", "."]
+          },
+          {
+            "type": "déclarative",
+            "words": ["Les", "enfants", "jouent", "dans", "le", "parc", "."],
+            "correctOrder": ["Les", "enfants", "jouent", "dans", "le", "parc", "."]
+          },
+          {
+            "type": "interrogative",
+            "words": ["Pourquoi", "ne", "viens-tu", "pas", "aujourd'hui", "?"],
+            "correctOrder": ["Pourquoi", "ne", "viens-tu", "pas", "aujourd'hui", "?"]
+          },
+          {
+            "type": "impérative",
+            "words": ["Donne-moi", "le", "crayon", "s'il", "te", "plaît", "."],
+            "correctOrder": ["Donne-moi", "le", "crayon", "s'il", "te", "plaît", "."]
+          },
+          {
+            "type": "exclamatif",
+            "words": ["C'est", "incroyable", "ce", "qui", "vient", "d'arriver", "!"],
+            "correctOrder": ["C'est", "incroyable", "ce", "qui", "vient", "d'arriver", "!"]
+          },
+          {
+            "type": "positif",
+            "words": ["Elle", "a", "réussi", "à", "trouver", "la", "solution", "."],
+            "correctOrder": ["Elle", "a", "réussi", "à", "trouver", "la", "solution", "."]
+          },
+          {
+            "type": "négatif",
+            "words": ["Il", "n'a", "pas", "fini", "ses", "devoirs", "."],
+            "correctOrder": ["Il", "n'a", "pas", "fini", "ses", "devoirs", "."]
+          },
+          {
+            "type": "déclarative",
+            "words": ["L'hiver", "est", "très", "froid", "cette", "année", "."],
+            "correctOrder": ["L'hiver", "est", "très", "froid", "cette", "année", "."]
+          },
+          {
+            "type": "interrogative",
+            "words": ["Quand", "partons-nous", "en", "vacances", "?"],
+            "correctOrder": ["Quand", "partons-nous", "en", "vacances", "?"]
+          },
+          {
+            "type": "impérative",
+            "words": ["Regarde", "ce", "beau", "ciel", "!"],
+            "correctOrder": ["Regarde", "ce", "beau", "ciel", "!"]
+          }
+        ]
+      }
+    ]
+  }
+  

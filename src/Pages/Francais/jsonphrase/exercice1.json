@@ -1,0 +1,107 @@
+{
+  "text": {
+    "title": "Exercice 2",
+    "sentences": [
+      {
+        "type": "déclarative",
+        "words": ["Le", "chat", "dort", "."],
+        "correctOrder": ["Le", "chat", "dort", "."]
+      },
+      {
+        "type": "interrogative",
+        "words": ["Où", "est", "le", "chien", "?"],
+        "correctOrder": ["Où", "est", "le", "chien", "?"]
+      },
+      {
+        "type": "impérative",
+        "words": ["Mange", "ta", "soupe", "!"],
+        "correctOrder": ["Mange", "ta", "soupe", "!"]
+      },
+      {
+        "type": "exclamatif",
+        "words": ["Quelle", "belle", "maison", "!"],
+        "correctOrder": ["Quelle", "belle", "maison", "!"]
+      },
+      {
+        "type": "positif",
+        "words": ["Il", "fait", "chaud", "aujourd'hui", "."],
+        "correctOrder": ["Il", "fait", "chaud", "aujourd'hui", "."]
+      },
+      {
+        "type": "négatif",
+        "words": ["Je", "n'aime", "pas", "les", "poireaux", "."],
+        "correctOrder": ["Je", "n'aime", "pas", "les", "poireaux", "."]
+      },
+      {
+        "type": "déclarative",
+        "words": ["Paul", "joue", "avec", "sa", "voiture", "."],
+        "correctOrder": ["Paul", "joue", "avec", "sa", "voiture", "."]
+      },
+      {
+        "type": "interrogative",
+        "words": ["Aimes-tu", "les", "pommes", "?"],
+        "correctOrder": ["Aimes-tu", "les", "pommes", "?"]
+      },
+      {
+        "type": "impérative",
+        "words": ["Ferme", "la", "porte", "."],
+        "correctOrder": ["Ferme", "la", "porte", "."]
+      },
+      {
+        "type": "exclamatif",
+        "words": ["Oh", "la", "jolie", "fleur", "!"],
+        "correctOrder": ["Oh", "la", "jolie", "fleur", "!"]
+      },
+      {
+        "type": "positif",
+        "words": ["Le", "soleil", "brille", "."],
+        "correctOrder": ["Le", "soleil", "brille", "."]
+      },
+      {
+        "type": "négatif",
+        "words": ["Le", "bébé", "ne", "pleure", "pas", "."],
+        "correctOrder": ["Le", "bébé", "ne", "pleure", "pas", "."]
+      },
+      {
+        "type": "déclarative",
+        "words": ["L'oiseau", "vole", "dans", "le", "ciel", "."],
+        "correctOrder": ["L'oiseau", "vole", "dans", "le", "ciel", "."]
+      },
+      {
+        "type": "interrogative",
+        "words": ["Qui", "vient", "à", "la", "fête", "?"],
+        "correctOrder": ["Qui", "vient", "à", "la", "fête", "?"]
+      },
+      {
+        "type": "impérative",
+        "words": ["Viens", "ici", "tout", "de", "suite", "!"],
+        "correctOrder": ["Viens", "ici", "tout", "de", "suite", "!"]
+      },
+      {
+        "type": "exclamatif",
+        "words": ["Quelle", "chance", "tu", "as", "!"],
+        "correctOrder": ["Quelle", "chance", "tu", "as", "!"]
+      },
+      {
+        "type": "positif",
+        "words": ["La", "classe", "est", "calme", "."],
+        "correctOrder": ["La", "classe", "est", "calme", "."]
+      },
+      {
+        "type": "négatif",
+        "words": ["Je", "n'ai", "pas", "faim", "."],
+        "correctOrder": ["Je", "n'ai", "pas", "faim", "."]
+      },
+      {
+        "type": "déclarative",
+        "words": ["Le", "livre", "est", "sur", "la", "table", "."],
+        "correctOrder": ["Le", "livre", "est", "sur", "la", "table", "."]
+      },
+      {
+        "type": "interrogative",
+        "words": ["Peux-tu", "me", "prêter", "un", "stylo", "?"],
+        "correctOrder": ["Peux-tu", "me", "prêter", "un", "stylo", "?"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 9",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["Marie", "dessine", "un", "beau", "tableau", "."],
+          "correctOrder": ["Marie", "dessine", "un", "beau", "tableau", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Pourquoi", "le", "chat", "miaule-t-il", "?"],
+          "correctOrder": ["Pourquoi", "le", "chat", "miaule-t-il", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Ouvre", "la", "porte", "vite", "."],
+          "correctOrder": ["Ouvre", "la", "porte", "vite", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Comme", "il", "court", "vite", "!"],
+          "correctOrder": ["Comme", "il", "court", "vite", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Le", "ciel", "est", "bleu", "et", "clair", "."],
+          "correctOrder": ["Le", "ciel", "est", "bleu", "et", "clair", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Je", "n'aime", "pas", "les", "épinards", "."],
+          "correctOrder": ["Je", "n'aime", "pas", "les", "épinards", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Le", "chien", "joue", "avec", "une", "balle", "."],
+          "correctOrder": ["Le", "chien", "joue", "avec", "une", "balle", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Quand", "le", "train", "arrive-t-il", "?"],
+          "correctOrder": ["Quand", "le", "train", "arrive-t-il", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Prends", "tes", "affaires", "et", "viens", "."],
+          "correctOrder": ["Prends", "tes", "affaires", "et", "viens", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quel", "courage", "tu", "as", "!"],
+          "correctOrder": ["Quel", "courage", "tu", "as", "!"]
+        }
+      ]
+    }
+  }
+  

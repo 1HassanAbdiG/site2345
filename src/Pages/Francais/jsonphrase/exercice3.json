@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 4",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["Le", "chien", "court", "dans", "le", "parc", "."],
+          "correctOrder": ["Le", "chien", "court", "dans", "le", "parc", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Combien", "de", "temps", "reste-t-il", "?"],
+          "correctOrder": ["Combien", "de", "temps", "reste-t-il", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Range", "tes", "affaires", "vite", "."],
+          "correctOrder": ["Range", "tes", "affaires", "vite", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quelle", "magnifique", "soirée", "!"],
+          "correctOrder": ["Quelle", "magnifique", "soirée", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Le", "ciel", "est", "clair", "ce", "soir", "."],
+          "correctOrder": ["Le", "ciel", "est", "clair", "ce", "soir", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Nous", "ne", "pouvons", "pas", "aller", "au", "cinéma", "."],
+          "correctOrder": ["Nous", "ne", "pouvons", "pas", "aller", "au", "cinéma", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Mon", "frère", "fait", "du", "vélo", "."],
+          "correctOrder": ["Mon", "frère", "fait", "du", "vélo", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Où", "as-tu", "mis", "mon", "livre", "?"],
+          "correctOrder": ["Où", "as-tu", "mis", "mon", "livre", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Lave", "tes", "mains", "avant", "de", "manger", "."],
+          "correctOrder": ["Lave", "tes", "mains", "avant", "de", "manger", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quel", "talent", "incroyable", "!"],
+          "correctOrder": ["Quel", "talent", "incroyable", "!"]
+        }
+      ]
+    }
+  }
+  

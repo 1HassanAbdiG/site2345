@@ -1,0 +1,814 @@
+[
+    {
+      "exercice": 1,
+      "titre": "et - est",
+      
+        "rules": "Règle : La distinction entre {{et}} et {{est}}.\n\n- {{et}} : une conjonction qui relie des mots ou des groupes de mots.\n- {{est}} : une forme du verbe {{être}}.",
+      
+           
+      
+      "phrases": [
+        {
+          "id": 1,
+          "phrase": "Prenez vite votre valise ________________ votre sac !",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 2,
+          "phrase": "Il ________________ temps de partir.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 3,
+          "phrase": "Ce qui ________________ beau n'est pas toujours si cher que l'on croit.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 4,
+          "phrase": "J'aime tant ce qui ________________ simple : une fleur, un oiseau par exemple.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 5,
+          "phrase": "Un sourire : C'est beau, simple ________________ pas cher !",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 6,
+          "phrase": "Comme il ________________ rare de te voir triste !",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 7,
+          "phrase": "Connaissais-tu l'expression 'pur ________________ dur comme du diamant' ?",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 8,
+          "phrase": "Lui ________________ moi ne nous entendons plus très bien depuis ce jour.",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 9,
+          "phrase": "On ne peut pas toujours tout prévoir : c' ________________ impossible !",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 10,
+          "phrase": "Amélie ________________ partie se promener avec les chiens.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 11,
+          "phrase": "Ma sœur ________________ faible en orthographe.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 12,
+          "phrase": "Oui, mais elle est excellente en maths ________________ en physique.",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 13,
+          "phrase": "Vous ? C'est vrai, ________________ vous ? Je vous avais oublié.",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 14,
+          "phrase": "Nous nous couchons tôt ________________ nous lisons au lit.",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 15,
+          "phrase": "Comme c' ________________ curieux !",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 16,
+          "phrase": "C' ________________ une habitude qui remonte à l'enfance.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 17,
+          "phrase": "Sonnez ________________ entrez.",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 18,
+          "phrase": "Il ________________ entré après avoir sonné.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 19,
+          "phrase": "Il a dit 'bonjour' ________________ a souri à tout le monde.",
+          "reponses": ["et"],
+          "options": ["et", "est"]
+        },
+        {
+          "id": 20,
+          "phrase": "Vous savez, c' ________________ un brave garçon.",
+          "reponses": ["est"],
+          "options": ["et", "est"]
+        }
+      ]
+    },
+  
+  
+    {
+      "exercice": 2,
+      "titre": "'a' et 'à'",
+      
+        "rules": "Règle : La distinction entre '{{a}}' et '{{à}}'.\n\n- '{{a}}' : une forme du verbe '{{avoir}}' (exemple : il {{a}} un livre).\n- '{{à}}' : une préposition indiquant un lieu, un moment ou une direction (exemple : il va '{{à}}' l'école).", 
+      
+      "phrases": [
+        {
+          "id": 1,
+          "phrase": "Je parle _______ ma mère.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 2,
+          "phrase": "Il _______ trouvé un emploi.",
+          "reponses": ["a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 3,
+          "phrase": "Je veux un yogourt _______ la vanille.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 4,
+          "phrase": "J’aime aller _______ la campagne.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 5,
+          "phrase": "J’habite _______ Montréal.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 6,
+          "phrase": "Elle _______ trois enfants.",
+          "reponses": ["a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 7,
+          "phrase": "Mon père _______ beaucoup d’argent.",
+          "reponses": ["a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 8,
+          "phrase": "Il _______ probablement pris sa voiture.",
+          "reponses": ["a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 9,
+          "phrase": "Tu gagnes _______ chaque fois.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 10,
+          "phrase": "Le patron___ fait un discours émouvant et il ___remercié tous les employés.",
+          "reponses": ["a", "a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 11,
+          "phrase": "Comme elle _______ de beaux yeux !",
+          "reponses": ["a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 12,
+          "phrase": "Donne-le _______ ton fils.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 13,
+          "phrase": "Il ___ perdu ses mitaines ___l’école.",
+          "reponses": ["a", "à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 14,
+          "phrase": "J’ai un rendez-vous _______ cinq heures.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 15,
+          "phrase": "Je retourne _______ Québec la semaine prochaine.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 16,
+          "phrase": "Je pense _______ lui tous les jours.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 17,
+          "phrase": "_______ -t-il répondu à ton message ?",
+          "reponses": ["A"],
+          "options": ["A", "À"]
+        },
+        {
+          "id": 18,
+          "phrase": "Tournez ____ droite après la pharmacie.",
+          "reponses": ["à"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 19,
+          "phrase": "Alex _______ impressionné tous les juges lors de la compétition.",
+          "reponses": ["a"],
+          "options": ["a", "à"]
+        },
+        {
+          "id": 20,
+          "phrase": "C’est avec beaucoup de tristesse qu’il ___ annoncé son départ ___ toute la communauté.",
+          "reponses": ["a", "à"],
+          "options": ["a", "à"]
+        }
+      ]
+    },
+  
+  
+   
+    
+    {
+        "exercice": 3,
+        "titre": "son - sont",
+        
+            "rules": "Règle : La distinction entre '{{son}}' et '{{sont}}'.\n\n- '{{son}}' : un déterminant possessif, utilisé pour désigner quelque chose qui appartient à la troisième personne (exemple : {{son}} chien).\n- '{{sont}}' : une forme du verbe '{{être}}' (exemple : ils {{sont}} heureux).",
+          
+          
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "Les enfants ________________ dans la classe.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 2,
+            "phrase": "Tes habits ________________ préparés sur la chaise.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 3,
+            "phrase": "Baisse le ________________ de ta radio s'il te plaît !",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 4,
+            "phrase": "Les nouvelles ne ________________ pas bonnes ce matin.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 5,
+            "phrase": "Cet avion vient de passer le mur du ________________.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 6,
+            "phrase": "Ce vieil oreiller est rempli avec du ________________.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 7,
+            "phrase": "Les violons ________________ au premier rang de l'orchestre.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 8,
+            "phrase": "Il n'a pas voulu me donner ________________ nom.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 9,
+            "phrase": "Il vient de prendre ________________ sac et de sortir.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 10,
+            "phrase": "Les dictionnaires ________________ très utiles pour apprendre le vocabulaire.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 11,
+            "phrase": "Les enfants ________________ dans le jardin.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 12,
+            "phrase": "Il a perdu ________________ téléphone hier.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 13,
+            "phrase": "Les fleurs ________________ magnifiques cette saison.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 14,
+            "phrase": "Elle a rangé ________________ livre sur la table.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 15,
+            "phrase": "Les voitures ________________ garées devant la maison.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 16,
+            "phrase": "Chaque matin, il joue avec ________________ chien.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 17,
+            "phrase": "Ces idées ________________ intéressantes.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 18,
+            "phrase": "Elle a oublié ________________ sac au restaurant.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 19,
+            "phrase": "Les élèves ________________ heureux de partir en voyage.",
+            "reponses": ["sont"],
+            "options": ["son", "sont"]
+          },
+          {
+            "id": 20,
+            "phrase": "Il a terminé ________________ dessin avant tout le monde.",
+            "reponses": ["son"],
+            "options": ["son", "sont"]
+          }
+        ]
+      },{
+        "exercice": 4,
+        "titre": "ma et m'a",
+        
+           
+            "rules": "Règle : La distinction entre {{ma}} et {{m'a}}.\n\n- *{{ma}} : un déterminant possessif, utilisé pour désigner quelque chose qui appartient à la première personne (exemple : {{ma}} maison).\n- *{{m'a}} : une contraction de '{{me}} {{a}}', utilisée lorsque '{{me}}' est suivi du verbe '{{avoir}}' (exemple : il {{m'a}} donné un cadeau).",
+           
+          
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "J'ai vu _______ sœur à l'école.",
+            "reponses": ["ma"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 2,
+            "phrase": "Il _______ demandé où j'habitais.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 3,
+            "phrase": "_______ maman m'a préparé un gâteau.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "M'a"]
+          },
+          {
+            "id": 4,
+            "phrase": "Elle m'a dit que _______ père était malade.",
+            "reponses": ["mon"],
+            "options": ["ma", "mon"]
+          },
+          {
+            "id": 5,
+            "phrase": "_______ amie a trouvé un travail.",
+            "reponses": ["Mon"],
+            "options": ["ma", "Mon"]
+          },
+          {
+            "id": 6,
+            "phrase": "Elle _______ expliqué la situation.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 7,
+            "phrase": "_______ mère a toujours été présente pour moi.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "m'a"]
+          },
+          {
+            "id": 8,
+            "phrase": "Il _______ dit qu'il viendrait demain.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 9,
+            "phrase": "_______ frère adore jouer au football.",
+            "reponses": ["Mon"],
+            "options": ["Mon", "Ma"]
+          },
+          {
+            "id": 10,
+            "phrase": "Elle _______ demandé de l'aider avec ses devoirs.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 11,
+            "phrase": "_______ cousine habite à Paris.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "M'a"]
+          },
+          {
+            "id": 12,
+            "phrase": "Il _______ dit qu'il serait là à 18h.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 13,
+            "phrase": "_______ grand-mère est venue me rendre visite.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "M'a"]
+          },
+          {
+            "id": 14,
+            "phrase": "Elle _______ donné un joli cadeau pour mon anniversaire.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 15,
+            "phrase": "_______ voiture est en panne.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "M'a"]
+          },
+          {
+            "id": 16,
+            "phrase": "Il _______ expliqué pourquoi il était en retard.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 17,
+            "phrase": "_______ tante m'a appelé ce matin.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "M'a"]
+          },
+          {
+            "id": 18,
+            "phrase": "Elle _______ dit qu'elle partait en vacances.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 19,
+            "phrase": "_______ entreprise cherche des nouveaux employés.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "M'a"]
+          },
+          {
+            "id": 20,
+            "phrase": "Il _______ demandé de bien vouloir patienter.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+            {
+              "id": 21,
+              "phrase": "Elle _______ expliqué comment résoudre le problème.",
+              "reponses": ["m'a"],
+              "options": ["ma", "m'a"]
+            },
+            {
+              "id": 22,
+              "phrase": "Nous _______ dit qu'il fallait partir tôt.",
+              "reponses": ["nous a"],
+              "options": ["nous", "nous a"]
+            },
+            {
+              "id": 23,
+              "phrase": "Tu _______ donné un excellent conseil.",
+              "reponses": ["m'as"],
+              "options": ["ma", "m'as"]
+            },
+            {
+              "id": 24,
+              "phrase": "Ils _______ expliqué la situation en détail.",
+              "reponses": ["nous ont"],
+              "options": ["nous", "nous ont"]
+            },
+            {
+              "id": 25,
+              "phrase": "Il _______ appris à jouer de la guitare.",
+              "reponses": ["m'a"],
+              "options": ["ma", "m'a"]
+            }
+          ]
+        
+      },{
+        "exercice": 5,
+        "titre": "'ou' et 'où'",
+        "rules": "Règle : La distinction entre '{{ou}}' et '{{où}}'.\n\n- '{{ou}}' : une conjonction de coordination qui indique un choix (exemple : Tu veux du chocolat {{ou}} de la vanille ?).\n- '{{où}}' : un adverbe de lieu qui indique un endroit ou une direction (exemple : Je ne sais pas {{où}} il est allé).",
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "Tu veux du thé _______ du café ?",
+            "reponses": ["ou"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 2,
+            "phrase": "Je ne sais pas _______ il a mis la clé.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 3,
+            "phrase": "Nous allons _______ nous voulons demain.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 4,
+            "phrase": "Il faut choisir ___ partir maintenant ___ attendre.",
+            "reponses": ["ou", "ou"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 5,
+            "phrase": "Je ne sais pas _______ je vais demain.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 6,
+            "phrase": "Est-ce que tu sais _______ il a caché son argent ?",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 7,
+            "phrase": "Elle veut savoir _______ se trouve son livre.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 8,
+            "phrase": "Je veux savoir _______ tu vas prendre tes vacances.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 9,
+            "phrase": "Tu préfères rester _______ tu es ou partir ?",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 10,
+            "phrase": "Il n’a pas encore dit _______ il va passer Noël.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 11,
+            "phrase": "Tu veux manger _______ tu veux boire ?",
+            "reponses": ["ou"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 12,
+            "phrase": "Savais-tu _______ se trouve le musée ?",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 13,
+            "phrase": "Je ne sais pas _______ il a mis son téléphone.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 14,
+            "phrase": "Nous devons choisir _______ partir en vacances.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 15,
+            "phrase": "_______ allons-nous aller ce week-end ?",
+            "reponses": ["Où"],
+            "options": ["Ou", "Où"]
+          },
+          {
+            "id": 16,
+            "phrase": "Tu veux aller au cinéma _______ au théâtre ?",
+            "reponses": ["ou"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 17,
+            "phrase": "_______ est-ce que tu veux aller en vacances ?",
+            "reponses": ["Où"],
+            "options": ["Ou", "Où"]
+          },
+          {
+            "id": 18,
+            "phrase": "Je vais savoir _______ il a caché sa clé.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 19,
+            "phrase": "Tu veux une pomme _______ une orange ?",
+            "reponses": ["ou"],
+            "options": ["ou", "où"]
+          },
+          {
+            "id": 20,
+            "phrase": "Il ne sait pas _______ il doit aller demain.",
+            "reponses": ["où"],
+            "options": ["ou", "où"]
+          }
+        ]
+      },{
+        "exercice": 6,
+        "titre": "un - une",
+        "rules": "Règle : La distinction entre {{un}} et {{une}}.\n\n- {{un}} : un article masculin défini.\n- {{une}} : un article féminin défini.",
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "C'est ________________ beau cadeau que j'ai jamais reçu.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 2,
+            "phrase": "Voici ________________ idée géniale !",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 3,
+            "phrase": "J'ai ________________ livre à rendre demain.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 4,
+            "phrase": "Elle a ________________ amie très gentille.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 5,
+            "phrase": "C'est ________________ bon choix.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 6,
+            "phrase": "Il a ________________ projet très intéressant.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 7,
+            "phrase": "Je vais acheter ________________ pomme.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 8,
+            "phrase": "J'ai ________________ question à poser.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 9,
+            "phrase": "Tu veux ________________ chocolat chaud ?",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 10,
+            "phrase": "Elle a ________________ rêve magnifique.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 11,
+            "phrase": "Il a ________________ talent incroyable.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 12,
+            "phrase": "Elle a ________________ belle voix.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 13,
+            "phrase": "C'est ________________ belle journée aujourd'hui.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 14,
+            "phrase": "J'ai ________________ idée pour ce projet.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 15,
+            "phrase": "Il a ________________ passion pour la musique.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 16,
+            "phrase": "Nous avons ________________ grande chance de réussir.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 17,
+            "phrase": "Il a ________________ problème avec son ordinateur.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 18,
+            "phrase": "Elle a ________________ idée très originale.",
+            "reponses": ["une"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 19,
+            "phrase": "Je veux ________________ croissant pour le petit déjeuner.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          },
+          {
+            "id": 20,
+            "phrase": "C'est ________________ moment parfait pour parler.",
+            "reponses": ["un"],
+            "options": ["un", "une"]
+          }
+        ]
+      }
+      
+            
+
+    ]

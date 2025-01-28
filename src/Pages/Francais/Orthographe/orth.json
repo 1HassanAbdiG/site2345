@@ -1,0 +1,122 @@
+{
+    "data": {
+      "phrases": [
+        {
+          "id": 1,
+          "phrase": "Comment t'appelles-tu ?",
+          "types": ["interrogative"]
+        },
+        {
+          "id": 2,
+          "phrase": "Formidable ! Nous allons au cinéma !",
+          "types": ["exclamative"]
+        },
+        {
+          "id": 3,
+          "phrase": "J’ai fini mes devoirs avant de regarder la télévision.",
+          "types": ["déclarative"]
+        },{
+          "id": 4,
+          "phrase": "La maison est décorée pour les fêtes de fin d’année.",
+          "types": ["déclarative"]
+        },
+        {
+          "id": 5,
+          "phrase": "Le chien joue dans le jardin avec les enfants.",
+          "types": ["déclarative"]
+        },
+        {
+          "id": 6,
+          "phrase": "Quel beau temps pour la saison !",
+          "types": ["exclamative"]
+        },
+        {
+          "id": 7,
+          "phrase": "Qui a gagné la dernière partie ?",
+          "types": ["interrogative"]
+        },
+        {
+          "id": 8,
+          "phrase": "Tais-toi et écoute ce bruit bizarre.",
+          "types": ["impérative"]
+        },
+        {
+          "id": 9,
+          "phrase": "Tournez à droite et montez les marches.",
+          "types": ["impérative"]
+        },
+        {
+          "id": 10,
+          "phrase": "Tu as enfin reçu ton colis !",
+          "types": ["exclamative"]
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple-choice",
+          "question": "Phrase déclarative :",
+          "options": [
+            "Elle pose une question. Elle se termine par un point d'interrogation.",
+            "Elle exprime une émotion forte, comme la surprise, la joie, la colère, etc.",
+            "Elle sert à donner une information, à faire une déclaration. Elle se termine généralement par un point.",
+            "Elle donne un ordre, une consigne, ou une demande. Elle se termine souvent par un point ou un point d'exclamation.",
+            "Elle exprime une négation à l'aide d'expressions comme ne... pas, ne... jamais, ne... plus, etc."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "id": 2,
+          "type": "multiple-choice",
+          "question": "Phrase impérative :",
+          "options": [
+            "Elle pose une question. Elle se termine par un point d'interrogation.",
+            "Elle exprime une émotion forte, comme la surprise, la joie, la colère, etc.",
+            "Elle sert à donner une information, à faire une déclaration. Elle se termine généralement par un point.",
+            "Elle donne un ordre, une consigne, ou une demande. Elle se termine souvent par un point ou un point d'exclamation.",
+            "Elle exprime une négation à l'aide d'expressions comme ne... pas, ne... jamais, ne... plus, etc."
+          ],
+          "correctAnswer": "3"
+        },{
+          "id": 3,
+          "type": "multiple-choice",
+          "question": "Phrase interrogative :",
+          "options": [
+            "Elle pose une question. Elle se termine par un point d'interrogation.",
+            "Elle exprime une émotion forte, comme la surprise, la joie, la colère, etc.",
+            "Elle sert à donner une information, à faire une déclaration. Elle se termine généralement par un point.",
+            "Elle donne un ordre, une consigne, ou une demande. Elle se termine souvent par un point ou un point d'exclamation.",
+            "Elle exprime une négation à l'aide d'expressions comme ne... pas, ne... jamais, ne... plus, etc."
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "id": 4,
+          "type": "multiple-choice",
+          "question": "Phrase exclamative :",
+          "options": [
+            "Elle pose une question. Elle se termine par un point d'interrogation.",
+            "Elle exprime une émotion forte, comme la surprise, la joie, la colère, etc.",
+            "Elle sert à donner une information, à faire une déclaration. Elle se termine généralement par un point.",
+            "Elle donne un ordre, une consigne, ou une demande. Elle se termine souvent par un point ou un point d'exclamation.",
+            "Elle exprime une négation à l'aide d'expressions comme ne... pas, ne... jamais, ne... plus, etc."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "id": 5,
+          "type": "multiple-choice",
+          "question": "Phrase négative :",
+          "options": [
+            "Elle pose une question. Elle se termine par un point d'interrogation.",
+            "Elle exprime une émotion forte, comme la surprise, la joie, la colère, etc.",
+            "Elle sert à donner une information, à faire une déclaration. Elle se termine généralement par un point.",
+            "Elle donne un ordre, une consigne, ou une demande. Elle se termine souvent par un point ou un point d'exclamation.",
+            "Elle exprime une négation à l'aide d'expressions comme ne... pas, ne... jamais, ne... plus, etc."
+          ],
+          "correctAnswer": "5"
+        }
+      ]
+    }
+  }
+  

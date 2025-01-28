@@ -1,0 +1,58 @@
+{
+    "text": {
+      "title": "Exercice 6",
+      "sentences": [
+        {
+          "type": "déclarative",
+          "words": ["Il", "fait", "chaud", "aujourd'hui", "."],
+          "correctOrder": ["Il", "fait", "chaud", "aujourd'hui", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Qui", "veut", "venir", "avec", "moi", "?"],
+          "correctOrder": ["Qui", "veut", "venir", "avec", "moi", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Éteins", "la", "lumière", "avant", "de", "dormir", "."],
+          "correctOrder": ["Éteins", "la", "lumière", "avant", "de", "dormir", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["C'est", "incroyable", "!"],
+          "correctOrder": ["C'est", "incroyable", "!"]
+        },
+        {
+          "type": "positif",
+          "words": ["Les", "fleurs", "sont", "magnifiques", "dans", "le", "jardin", "."],
+          "correctOrder": ["Les", "fleurs", "sont", "magnifiques", "dans", "le", "jardin", "."]
+        },
+        {
+          "type": "négatif",
+          "words": ["Tu", "n'as", "pas", "fait", "tes", "devoirs", "."],
+          "correctOrder": ["Tu", "n'as", "pas", "fait", "tes", "devoirs", "."]
+        },
+        {
+          "type": "déclarative",
+          "words": ["Mon", "père", "prépare", "le", "dîner", "."],
+          "correctOrder": ["Mon", "père", "prépare", "le", "dîner", "."]
+        },
+        {
+          "type": "interrogative",
+          "words": ["Quand", "partons-nous", "en", "vacances", "?"],
+          "correctOrder": ["Quand", "partons-nous", "en", "vacances", "?"]
+        },
+        {
+          "type": "impérative",
+          "words": ["Travaille", "bien", "pour", "l'examen", "."],
+          "correctOrder": ["Travaille", "bien", "pour", "l'examen", "."]
+        },
+        {
+          "type": "exclamatif",
+          "words": ["Quel", "magnifique", "paysage", "!"],
+          "correctOrder": ["Quel", "magnifique", "paysage", "!"]
+        }
+      ]
+    }
+  }
+  

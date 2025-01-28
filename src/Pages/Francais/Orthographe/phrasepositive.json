@@ -1,0 +1,17 @@
+{
+    "sentences": [
+      {
+        "id": 1,
+        "positivePhrase": "Il mange une pomme.",
+        "negativePhrase": "Il ne mange pas de pomme.",
+        "words": ["Il", "mange", "une", "pomme"]
+      },
+      {
+        "id": 2,
+        "positivePhrase": "Elle aime les animaux.",
+        "negativePhrase": "Elle n'aime pas les animaux.",
+        "words": ["Elle", "aime", "les", "animaux"]
+      }
+    ]
+  }
+  

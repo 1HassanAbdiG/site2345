@@ -93,8 +93,7 @@
   appearance: none; /* Remove default browser styles */
   -webkit-appearance: none;
   -moz-appearance: none;
-  gap: 20px;
-  
+  gap: 20px;  
   padding: 10px 15px;
   border: 2px solid #9f4315;
   border-radius: 5px;
@@ -113,3 +112,12 @@
   outline: none;
   border-color: #1e90ff;
 }
+.sentenceType {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333; /* Set a visible color */
+  padding: 5px;
+  background-color: #f0f0f0; /* Optional: add background color to make it stand out */
+}
+
