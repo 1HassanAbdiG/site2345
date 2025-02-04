@@ -18,6 +18,7 @@ import {
   TableContainer,
   TableHead,
   TableRow,
+  Checkbox,
 } from "@mui/material";
 
 // Dynamically require JSON files for different difficulty levels
@@ -203,7 +204,20 @@ const Questionnaire = () => {
     );
   };
 
-
+  const handleCheckboxChange = (question, choice, checked) => {
+    const newAnswers = { ...answers };
+    
+    if (checked) {
+      // Ajouter le choix à la liste des réponses si la case est cochée
+      newAnswers[question] = [...(newAnswers[question] || []), choice];
+    } else {
+      // Retirer le choix de la liste des réponses si la case est décochée
+      newAnswers[question] = newAnswers[question].filter(item => item !== choice);
+    }
+    
+    setAnswers(newAnswers);
+  };
+  
   const renderQuestion = (question, number) => {
     switch (question.type) {
       case 'trueFalse':
@@ -223,23 +237,46 @@ const Questionnaire = () => {
             </FormControl>
           </Box>
         );
-      case 'multipleChoice':
-        return (
-          <Box key={question.question} my={2}>
-            <FormControl fullWidth>
-              <FormLabel>{number}. {question.question}</FormLabel>
-              <Select
-                value={answers[question.question] || ''}
-                onChange={(e) => handleChange(question.question, e.target.value)}
-              >
-                <MenuItem value=""><em>Sélectionnez une option</em></MenuItem>
-                {question.choices.map((choice) => (
-                  <MenuItem key={choice} value={choice}>{choice}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </Box>
-        );
+        case 'multipleChoice':
+          return (
+            <Box key={question.question} my={2}>
+              <FormControl fullWidth>
+                <FormLabel>{number}. {question.question}</FormLabel>
+                <Select
+                  value={answers[question.question] || ''}
+                  onChange={(e) => handleChange(question.question, e.target.value)}
+                >
+                  <MenuItem value=""><em>Sélectionnez une option</em></MenuItem>
+                  {question.choices.map((choice) => (
+                    <MenuItem key={choice} value={choice}>{choice}</MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Box>
+          );
+        
+          case 'checkbox':
+            return (
+              <Box key={question.question} my={2}>
+                <FormControl component="fieldset" fullWidth>
+                  <FormLabel component="legend">{number}. {question.question}</FormLabel>
+                  {question.choices.map((choice) => (
+                    <FormControlLabel
+                      key={choice}
+                      control={
+                        <Checkbox
+                          checked={answers[question.question]?.includes(choice) || false}
+                          onChange={(e) => handleCheckboxChange(question.question, choice, e.target.checked)}
+                          name={choice}
+                        />
+                      }
+                      label={choice}
+                    />
+                  ))}
+                </FormControl>
+              </Box>
+            );     
+        
       case 'shortAnswer':
         return (
           <Box key={question.question} my={2}>

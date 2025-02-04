@@ -1,0 +1,85 @@
+{
+    "title": "Programme de Mathématiques - 5e Année",
+    "sections": [
+      {
+        "id": "fractions",
+        "title": "A. Fractions",
+        "topics": [
+          {
+            "name": "Understanding fractions",
+            "pdf": "/pdfs/fractions.pdf"
+          },
+          {
+            "name": "Comparing and ordering fractions",
+            "pdf": "/pdfs/compare_fractions.pdf"
+          },
+          {
+            "name": "Adding and subtracting fractions",
+            "pdf": "/pdfs/add_subtract_fractions.pdf"
+          },
+          {
+            "name": "Multiplying and dividing fractions",
+            "pdf": "/pdfs/multiply_divide_fractions.pdf"
+          }
+        ],
+        "points": "Maîtriser les fractions et les opérations associées.",
+        "tests": [
+          {
+            "name": "Test 1",
+            "pdf": "/tests/test1.pdf"
+          },
+          {
+            "name": "Test 2",
+            "pdf": "/tests/test2.pdf"
+          },
+          {
+            "name": "Test 3",
+            "pdf": "/tests/test3.pdf"
+          }
+        ]
+      },
+      {
+        "id": "decimals",
+        "title": "B. Decimals",
+        "topics": [
+          {
+            "name": "Understanding decimal notation",
+            "pdf": "/pdfs/decimal_notation_5e.pdf"
+          },
+          {
+            "name": "Comparing and ordering decimals",
+            "pdf": "/pdfs/compare_decimals_5e.pdf"
+          },
+          {
+            "name": "Adding and subtracting decimals",
+            "pdf": "/pdfs/add_subtract_decimals_5e.pdf"
+          },
+          {
+            "name": "Multiplying and dividing decimals",
+            "pdf": "/pdfs/multiply_divide_decimals_5e.pdf"
+          }
+        ],
+        "points": "Maîtriser la notation décimale et les opérations avec les décimaux.",
+        "tests": [
+          {
+            "name": "Test 1",
+            "pdf": "/tests/test1_5e.pdf"
+          },
+          {
+            "name": "Test 2",
+            "pdf": "/tests/test2_5e.pdf"
+          },
+          {
+            "name": "Test 3",
+            "pdf": "/tests/test3_5e.pdf"
+          }
+        ]
+      }
+    ],
+    "game": {
+      "title": "Jeu : les fractions et les décimaux",
+      "buttonText": "Fermer",
+      "score": 800
+    }
+  }
+  

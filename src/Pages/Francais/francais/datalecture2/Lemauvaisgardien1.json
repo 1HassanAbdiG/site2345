@@ -1,0 +1,105 @@
+{
+    "text": {
+        "title": "Le mauvais gardien2",
+        "content": [
+            "Léo est un jeune garçon passionné de football. Depuis tout petit, il rêve de devenir gardien de but professionnel.",
+            "Aujourd'hui, son équipe joue un match décisif. Léo est nerveux, car il sait que son rôle est crucial.",
+            "Dès le début du match, l'équipe adverse attaque avec force. Léo fait de son mieux pour arrêter les tirs, mais il laisse passer deux buts.",
+            "À la mi-temps, son entraîneur lui parle doucement et l'encourage à ne pas abandonner.",
+            "De retour sur le terrain, Léo se concentre. Il anticipe mieux les tirs et réussit plusieurs arrêts impressionnants.",
+            "Son équipe marque un but, puis un deuxième. Le score est désormais à égalité.",
+            "Dans les dernières minutes, un attaquant adverse frappe fort. Léo plonge et arrête le ballon de justesse !",
+            "Le coup de sifflet final retentit. L'équipe de Léo a réussi à tenir tête à leurs adversaires. Tout le monde le félicite pour sa détermination."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Léo est un attaquant dans son équipe de football.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Léo laisse passer deux buts au début du match.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Léo abandonne après avoir encaissé deux buts.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Son équipe gagne le match facilement.",
+            "correctAnswer": false
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi Léo est-il nerveux avant le match ?",
+            "choices": [
+                "Parce qu'il n'aime pas jouer au football",
+                "Parce qu'il sait que son rôle est important",
+                "Parce qu'il veut changer d'équipe",
+                "Parce qu'il ne connaît pas les règles du jeu"
+            ],
+            "correctAnswer": "Parce qu'il sait que son rôle est important"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Comment Léo améliore-t-il son jeu après la mi-temps ?",
+            "choices": [
+                "Il quitte le terrain",
+                "Il joue comme attaquant",
+                "Il se concentre et anticipe mieux les tirs",
+                "Il demande à un autre joueur de garder le but"
+            ],
+            "correctAnswer": "Il se concentre et anticipe mieux les tirs"
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Que fait Léo dans les dernières minutes du match ?",
+            "correctAnswer": "Il plonge et arrête un tir important."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi Léo est-il félicité après le match ?",
+            "correctAnswer": "Parce qu'il n'a pas abandonné et a réussi plusieurs arrêts."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Un gardien de but doit empêcher le ballon d'entrer dans le but.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un attaquant est un joueur qui défend le but.",
+            "correctAnswer": false
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie le mot 'plonger' dans le contexte du football ?",
+            "choices": [
+                "Aller sous l'eau",
+                "Se jeter au sol pour arrêter un ballon",
+                "Sauter très haut",
+                "Frapper le ballon avec le pied"
+            ],
+            "correctAnswer": "Se jeter au sol pour arrêter un ballon"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le rôle principal d'un gardien de but ?",
+            "choices": [
+                "Marquer des buts",
+                "Empêcher l'équipe adverse de marquer",
+                "Passer le ballon aux attaquants",
+                "Courir partout sur le terrain"
+            ],
+            "correctAnswer": "Empêcher l'équipe adverse de marquer"
+        }
+    ]
+}

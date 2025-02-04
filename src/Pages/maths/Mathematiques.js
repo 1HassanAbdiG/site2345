@@ -149,6 +149,29 @@ const Mathematiques = () => {
           </div>
           <Link to="/exerciseDecimaux" className={styles.button}>Commencer</Link>
         </div>
+      
+    <div className={styles['topic-card']}>
+      <svg viewBox="0 0 100 100" width="60" height="60">
+        <circle cx="50" cy="50" r="45" fill="#4CAF50" opacity="0.2" />
+        <path d="M30 50 L70 50 M50 30 L50 70" stroke="#4CAF50" strokeWidth="5" />
+      </svg>
+      <h3>Multiplier et diviser des nombres décimaux</h3>
+      <div className={styles['difficulty-indicator']}>
+        <span className={`${styles['difficulty-dot']} ${styles.active}`}></span>
+        <span className={`${styles['difficulty-dot']} ${styles.active}`}></span>
+        <span className={styles['difficulty-dot']}></span>
+      </div>
+      <p>Travail sur la multiplication et la division des nombres décimaux.</p>
+      <div className={styles['progress-bar']}>
+        <div className={styles['progress']} data-progress="50"></div>
+      </div>
+      <Link to="/exerciseMultiplicationDivision" className={styles.button}>Commencer</Link>
+    </div>
+
+
+
+
+
 
 
         {/* Nouvelle Carte - Statistiques et probabilités */}

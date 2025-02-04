@@ -3,6 +3,7 @@
   color: #fff;
   padding: 40px 20px;
   text-align: left;
+
 }
 
 .container {
@@ -12,6 +13,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+    height:"100vh"
 }
 
 .column {

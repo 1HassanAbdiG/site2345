@@ -36,6 +36,9 @@ import InteractiveBook7 from './Pages/Francais/TextAudio/Bons_Amis/tex10.js';
 import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 
 import Grammaire from './Pages/grammaire/grammaire.jsx';
+import DecimauxExercice1 from './Pages/maths/decimaux/decimaux Mult_Div.js';
+//import MathProgram from './Pages/OQRE/matiere.jsx';
+import UnderConstruction from './Pages/UnderConstruction.js';
 //import Conjugation1 from './Pages/conjuguaison/conjugaison1';
 //import ConjugationPractice from './Pages/conjuguaison/conjugaison1';
 
@@ -56,8 +59,10 @@ const App = () => {
           <Routes>
 
             <Route path="/" element={<Accueil />} />
-            <Route path="/francais" element={<Francais />} />
+            <Route path="/francais" element={<Francais/>} />             
             <Route path="/mathematiques" element={<Mathematiques />} />
+            <Route path="/jeux" element={<UnderConstruction />} />
+            
 
 
             <Route path="/francais/dictee" element={< WordPlayer/>} />
@@ -69,6 +74,8 @@ const App = () => {
             <Route path="/francais/grammaire" element={<Grammaire />} />
             <Route path="/faction" element={<FractionQuiz />} />
             <Route path="/exerciseDecimaux" element={<DecimauxExercice />} />
+            <Route path="/exerciseMultiplicationDivision" element={<DecimauxExercice1 />} />
+           
             
             <Route path="/francais/intrus" element={<IntruderExercise />} />
             <Route path="/francais/construction" element={<Jeuhistoire />} />

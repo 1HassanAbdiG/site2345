@@ -1,0 +1,59 @@
+{
+  "exercices": [
+      {
+          "id": 1,
+          "titre": "Estimation des produits",
+          "instructions": "Arrondis chaque facteur au nombre entier le plus proche, puis effectue la multiplication.",
+          "questions": [
+              { "id": 1, "question": "3,2 × 7,6", "answer": 24 },
+              { "id": 2, "question": "5,9 × 4,1", "answer": 24 },
+              { "id": 3, "question": "824 × 2,3", "answer": 1600 },
+              { "id": 4, "question": "39 × 9,2", "answer": 360 }
+          ]
+      },
+      {
+          "id": 2,
+          "titre": "Multiplications simples",
+          "instructions": "Calcule les produits suivants :",
+          "questions": [
+              { "id": 5, "question": "0,05 × 1000", "answer": 50 },
+              { "id": 6, "question": "4,23 × 100", "answer": 423 },
+              { "id": 7, "question": "1000 × 6,15", "answer": 6150 },
+              { "id": 8, "question": "100 × 13,25", "answer": 1325 }
+          ]
+      },
+      {
+          "id": 3,
+          "titre": "Divisions",
+          "instructions": "Écris le résultat sous forme de nombre entier ou décimal.",
+          "questions": [
+              { "id": 9, "question": "45 ÷ 100", "answer": 0.45 },
+              { "id": 10, "question": "7420 × 0,01", "answer": 74.2 },
+              { "id": 11, "question": "852 × 0.1", "answer": 85.2 },
+              { "id": 12, "question": "38 215 × 0.1", "answer": 3821.5 }
+          ]
+      },
+      {
+          "id": 4,
+          "titre": "Complète les suites logiques",
+          "instructions": "Complétez les suites en trouvant les nombres manquants.",
+          "questions": [
+              { "id": 13, "question": "0,999 ÷ ____ = 0,00999", "answer": 100 },
+              { "id": 14, "question": "9,999 ÷ ____ = 0,00999", "answer": 1000 },
+              { "id": 15, "question": "99,99 ÷ 10 000", "answer": 0.009999 },
+              { "id": 16, "question": "____ ÷ 1 000 000 = 0,00999", "answer": 9990 }
+          ]
+      },
+      {
+          "id": 5,
+          "titre": "Divisions à compléter",
+          "instructions": "Complétez les divisions suivantes :",
+          "questions": [
+              { "id": 17, "question": "912 ÷ 100", "answer": 9.12 },
+              { "id": 18, "question": "75 890 ÷ 1000", "answer": 75.89 },
+              { "id": 19, "question": "5342 ÷ 1000", "answer": 5.342 },
+              { "id": 20, "question": "1254 ÷ 10", "answer": 125.4 }
+          ]
+      }
+  ]
+}

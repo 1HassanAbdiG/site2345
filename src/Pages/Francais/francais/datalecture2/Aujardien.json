@@ -1,0 +1,162 @@
+{
+    "text": {
+      "title": "Au jardin",
+      "content": [
+        "Il fait soleil. Thomas travaille dans son jardin. Il a aménagé un coin pour les tomates. En ce moment, il arrose ses tournesols. Ils sont très grands, plus grands que lui. Chaque tournesol a des pétales d’un jaune vif. Tous les tournesols poussent droit vers le ciel, sauf un. Un des tournesols penche vers le sol. On dirait qu’il parle à Lia, la chienne de Thomas.",
+        "Lia aboie après le tournesol, mais le tournesol ne répond pas. Lia aboie à nouveau et s’assoit. Thomas dépose son arrosoir et ouvre la porte du jardin.",
+        "\"Tu vois, Lia, dit-il, les fleurs ne te parleront pas. Moi, je peux le faire. C’est l’heure de s’amuser.\"",
+        "Lia remue joyeusement la queue."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Thomas arrose ses tomates dans le jardin.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un des tournesols semble parler à Lia.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lia aboie après Thomas parce qu’elle veut jouer.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Thomas explique à Lia que les fleurs ne peuvent pas parler.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Qu’est-ce qui va probablement arriver ensuite ?",
+        "choices": [
+          "Lia va aboyer après les tomates.",
+          "Thomas et Lia vont jouer.",
+          "Thomas va arroser ses tournesols.",
+          "Thomas va arroser ses tomates."
+        ],
+        "correctAnswer": "Thomas et Lia vont jouer."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que peux-tu faire pour en apprendre davantage sur les tournesols ?",
+        "choices": [
+          "Demander de l’information à ton enseignante ou ton enseignant.",
+          "Lire un livre sur les tournesols.",
+          "Lire une histoire inventée au sujet d’un jardin.",
+          "Regarder le journal d’aujourd’hui."
+        ],
+        "correctAnswer": "Lire un livre sur les tournesols."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi Lia aboie-t-elle après le tournesol ?",
+        "choices": [
+          "Elle veut aller dans le jardin.",
+          "Elle croit que le tournesol lui parle.",
+          "Le tournesol penche vers le sol.",
+          "Elle en a peur."
+        ],
+        "correctAnswer": "Elle croit que le tournesol lui parle."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Dans le texte, on dit que les tournesols poussent droit vers le ciel. Qu’est-ce que cela veut dire ?",
+        "choices": [
+          "Les fleurs penchent.",
+          "Les fleurs touchent le ciel.",
+          "Les fleurs sont plus grandes que Thomas.",
+          "Les fleurs poussent droit en l’air."
+        ],
+        "correctAnswer": "Les fleurs poussent droit en l’air."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un tournesol a des pétales jaunes.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les fleurs de tournesol sont petites.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lia est une chienne de Thomas.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le jardin de Thomas est dans sa maison.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les tournesols poussent toujours droits vers le ciel.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'aménager' ?",
+        "choices": [
+          "Décorer",
+          "Organiser ou installer quelque chose",
+          "Construire une maison",
+          "Faire du jardinage"
+        ],
+        "correctAnswer": "Organiser ou installer quelque chose"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'pétale' ?",
+        "choices": [
+          "La tige de la fleur",
+          "La partie colorée de la fleur",
+          "Le centre de la fleur",
+          "Les feuilles autour de la fleur"
+        ],
+        "correctAnswer": "La partie colorée de la fleur"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'pencher' ?",
+        "choices": [
+          "Tirer droit",
+          "Se pencher en avant",
+          "Se courber ou s’incliner",
+          "Tomber"
+        ],
+        "correctAnswer": "Se courber ou s’incliner"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'joyeusement' ?",
+        "choices": [
+          "De manière triste",
+          "De manière calme",
+          "Avec bonheur et enthousiasme",
+          "De manière énervée"
+        ],
+        "correctAnswer": "Avec bonheur et enthousiasme"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'arroser' ?",
+        "choices": [
+          "Fertiliser les plantes",
+          "Mettre de l'eau sur les plantes",
+          "Couper les plantes",
+          "Planter des graines"
+        ],
+        "correctAnswer": "Mettre de l'eau sur les plantes"
+      }
+    ]
+  }
+  

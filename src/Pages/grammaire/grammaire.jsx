@@ -3,7 +3,10 @@ import { Button, Box, Container, Grid, Typography } from "@mui/material";
 import AdjectiveLesson from "./AdjectiveLesson";
 import Orthographeaa from "../Francais/Orthographe/Orthographeaa";
 import DragDropExercise from "../Francais/completerunephrase";
-import PhraseTable from "../Francais/Orthographe/phraseTable";
+
+import Orthographeaa1 from "../Francais/possessif/Phpossessif";
+//import PhraseTable from "../Francais/Orthographe/phraseTable";
+
 
 // Composant pour le bouton personnalisé
 function CustomButton({ onClick, label, color = "primary", variant = "contained" }) {
@@ -73,11 +76,11 @@ export default function Grammaire() {
                 </Grid>
                 <Grid item>
                     <CustomButton
-                        onClick={() => handleButtonClick("Test")}
+                        onClick={() => handleButtonClick("Possessif")}
                         label={
-                            visibleComponent === "Test" 
-                                ? "Test" 
-                                : "Test"
+                            visibleComponent === "Possessif" 
+                                ? "Possessif" 
+                                : "Possessif" 
                         }
                         color="success"
                     />
@@ -89,7 +92,8 @@ export default function Grammaire() {
                 {visibleComponent === "Adjectif" && <AdjectiveLesson />}
                 {visibleComponent === "Homophone" && <Orthographeaa />}
                 {visibleComponent === "construction" && <DragDropExercise />}
-                {visibleComponent === "Test" && <PhraseTable />}
+                {visibleComponent === "Possessif" && <Orthographeaa1 />}
+              
                 {!visibleComponent && (
                     <Typography variant="body1" align="center">
                         Sélectionnez un sujet pour commencer.

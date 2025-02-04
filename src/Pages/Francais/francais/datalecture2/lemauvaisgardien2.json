@@ -1,0 +1,220 @@
+{
+    "text": {
+        "title": "Le mauvais gardien 3",
+        "content": [
+            "Un jour, la mère de Simon, un garçon simple d'esprit, devait aller à la rivière pour faire la lessive.",
+            "Cependant, cela signifiait qu'elle ne pourrait pas s'occuper de la maison durant son absence.",
+            "Elle a décidé de confier à Simon le soin de la maison.",
+            "Il réussissait habituellement à faire ce qu'on lui demandait, même s'il était simple d'esprit et un peu lunatique.",
+            "Simon, lui a dit sa mère, je vais à la rivière pour laver nos vêtements et je ne reviendrai pas avant une heure ou deux.",
+            "S'il te plaît, surveille la porte durant mon absence. Un voleur pourrait l'ouvrir et entrer dans notre maison.",
+            "Oui, maman, a acquiescé le garçon obéissant.",
+            "Durant la première heure, ou à peu près, Simon s'est contenté de demeurer à l'intérieur ou à l'extérieur de la maison, mais il surveillait constamment la porte.",
+            "Après la deuxième heure, cependant, il s'est senti fatigué. Il a décidé de descendre à la rivière pour voir ce qui retenait sa mère aussi longtemps.",
+            "Comme sa mère lui avait dit d'avoir un œil sur la porte, Simon ne pouvait pas la laisser sans surveillance et aller voir sa mère.",
+            "Il était pris dans un dilemme. Soudain, il a eu une idée.",
+            "En quelques minutes, il a enlevé la porte de sa charnière, l'a hissée sur son dos et a marché péniblement vers la rivière.",
+            "Aussitôt que sa mère l'a aperçu, elle s'est écriée : Simon, qu'est-ce que tu fais ici? Ne t'ai-je pas demandé de surveiller la porte?",
+            "Oh, ne t'en fais pas, maman, a répondu Simon tout heureux. Je l'ai apportée."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "La mère de Simon part à la rivière pour chercher de l'eau.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Simon est un garçon qui fait toujours ce qu'on lui demande.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Simon devait surveiller la porte pendant l'absence de sa mère.",
+            "correctAnswer": true
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi la mère de Simon quitte-t-elle la maison ?",
+            "choices": [
+                "Pour aller chercher de l'eau",
+                "Pour laver du linge",
+                "Pour aller au marché",
+                "Pour chercher Simon"
+            ],
+            "correctAnswer": "Pour laver du linge"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que demande la mère de Simon avant de partir ?",
+            "choices": [
+                "De faire le ménage",
+                "De préparer le repas",
+                "De surveiller la porte",
+                "De l'accompagner"
+            ],
+            "correctAnswer": "De surveiller la porte"
+        },
+        {
+            "type": "trueFalse",
+            "question": "Simon est resté à surveiller la porte sans interruption.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Après deux heures, Simon décide de partir voir sa mère.",
+            "correctAnswer": true
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi Simon veut-il aller à la rivière ?",
+            "choices": [
+                "Il a peur d'un voleur",
+                "Il veut voir ce qui retient sa mère",
+                "Il s'ennuie à la maison",
+                "Il a soif"
+            ],
+            "correctAnswer": "Il veut voir ce qui retient sa mère"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel dilemme rencontre Simon ?",
+            "choices": [
+                "Il ne sait pas comment fermer la porte",
+                "Il veut surveiller la porte mais aussi aller voir sa mère",
+                "Il ne sait pas comment laver le linge",
+                "Il a peur d'aller à la rivière"
+            ],
+            "correctAnswer": "Il veut surveiller la porte mais aussi aller voir sa mère"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que fait Simon pour résoudre son dilemme ?",
+            "choices": [
+                "Il verrouille la porte",
+                "Il demande de l'aide",
+                "Il enlève la porte et l'emmène avec lui",
+                "Il reste finalement à la maison"
+            ],
+            "correctAnswer": "Il enlève la porte et l'emmène avec lui"
+        },{
+            "type": "shortAnswer",
+            "question": "Pourquoi la mère de Simon doit-elle quitter la maison ?",
+            "correctAnswer": "Pour aller laver les vêtements à la rivière."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quelle tâche la mère confie-t-elle à Simon en son absence ?",
+            "correctAnswer": "Surveiller la porte de la maison."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi Simon décide-t-il d'aller voir sa mère après deux heures ?",
+            "correctAnswer": "Parce qu'il se demande pourquoi elle met autant de temps à revenir."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quelle solution Simon trouve-t-il pour ne pas laisser la porte sans surveillance ?",
+            "correctAnswer": "Il enlève la porte de ses charnières et l'emmène avec lui."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quelle est la réaction de la mère en voyant Simon avec la porte ?",
+            "correctAnswer": "Elle est surprise et lui demande pourquoi il a apporté la porte."
+        },{
+            "type": "shortAnswer",
+            "question": "Penses-tu que Simon a bien compris la consigne de sa mère ? Que pourrais-tu lui expliquer pour qu'il comprenne mieux ?",
+            "correctAnswer": "Simon a suivi la consigne de sa mère de manière très littérale, sans en comprendre le sens réel. Il pensait bien faire en emportant la porte avec lui, mais il n’a pas saisi que 'surveiller la porte' signifiait simplement rester à la maison et s’assurer que personne n’entre.\n\nPour l’aider à mieux comprendre, on pourrait lui expliquer que 'surveiller' veut dire rester attentif à quelque chose sans nécessairement le déplacer. On pourrait lui donner d’autres exemples, comme surveiller un bébé sans le porter partout, ou surveiller une casserole sur le feu sans la prendre avec soi.\n\nAinsi, Simon apprendrait à interpréter les consignes en tenant compte du contexte et non seulement des mots exacts."
+
+        }
+        
+    
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Un dilemme est une situation où l'on doit choisir entre deux options difficiles.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Une charnière est un outil pour couper du bois.",
+            "correctAnswer": false
+        },
+            {
+                "type": "trueFalse",
+                "question": "Simon était un garçon simple d'esprit mais il obéissait à sa mère.",
+                "correctAnswer": true
+            },
+            {
+                "type": "trueFalse",
+                "question": "La mère de Simon lui a demandé de garder la fenêtre et non la porte.",
+                "correctAnswer": false
+            },
+            {
+                "type": "trueFalse",
+                "question": "Simon a laissé la porte sur place lorsqu'il est parti voir sa mère.",
+                "correctAnswer": false
+            }
+        
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie le mot 'lunatique' ?",
+            "choices": [
+                "Quelqu'un qui change souvent d'humeur",
+                "Quelqu'un qui est très sérieux",
+                "Quelqu'un qui parle beaucoup",
+                "Quelqu'un qui est toujours en colère"
+            ],
+            "correctAnswer": "Quelqu'un qui change souvent d'humeur"
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le sens du mot 'charnière' dans le contexte du texte ?",
+            "choices": [
+                "Une pièce qui permet d'attacher une porte",
+                "Un outil pour scier du bois",
+                "Un type de serrure",
+                "Un élément décoratif"
+            ],
+            "correctAnswer": "Une pièce qui permet d'attacher une porte"
+        },
+            {
+                "type": "multipleChoice",
+                "question": "Pourquoi Simon devait-il surveiller la porte ?",
+                "choices": [
+                    "Parce qu'un voleur pourrait entrer",
+                    "Parce que la porte était cassée",
+                    "Parce qu'il voulait la peindre",
+                    "Parce que sa mère lui a demandé de la réparer"
+                ],
+                "correctAnswer": "Parce qu'un voleur pourrait entrer"
+            },
+            {
+                "type": "multipleChoice",
+                "question": "Pourquoi Simon a-t-il apporté la porte à la rivière ?",
+                "choices": [
+                    "Parce qu'il voulait la vendre",
+                    "Parce qu'il pensait ainsi bien la surveiller",
+                    "Parce qu'il avait peur des voleurs",
+                    "Parce qu'elle était trop lourde pour rester en place"
+                ],
+                "correctAnswer": "Parce qu'il pensait ainsi bien la surveiller"
+            },
+            {
+                "type": "multipleChoice",
+                "question": "Comment réagit la mère de Simon en le voyant arriver avec la porte ?",
+                "choices": [
+                    "Elle était en colère",
+                    "Elle était amusée",
+                    "Elle était surprise",
+                    "Elle était fière"
+                ],
+                "correctAnswer": "Elle était surprise"
+            }
+        
+    ]
+}

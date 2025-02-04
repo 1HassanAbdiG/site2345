@@ -1,0 +1,115 @@
+{
+    "text": {
+      "title": "Le mauvais gardien",
+      "content": [
+        "Paul travaillait comme gardien dans un petit musée de la ville.",
+        "Un soir, alors qu'il faisait sa ronde, il a entendu un bruit étrange.",
+        "Il venait de la salle des antiquités précieuses. Paul s'est approché avec prudence.",
+        "Lorsqu'il est entré, il a vu une ombre bouger près d'une vitrine.",
+        "Il a allumé sa lampe de poche et a découvert un homme vêtu de noir.",
+        "L'homme tenait une statue ancienne dans ses mains. Il était en train de la voler !",
+        "Paul a voulu appeler la police, mais son téléphone n'avait plus de batterie.",
+        "Le voleur a vu Paul et a couru vers la sortie de secours.",
+        "Malheureusement, la porte était restée ouverte. Le voleur s'est échappé facilement.",
+        "Le lendemain, le directeur du musée a demandé des explications à Paul.",
+        "Paul a avoué qu'il avait oublié de verrouiller la porte de secours.",
+        "C'est ainsi que le voleur avait pu entrer et sortir sans difficulté."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Paul travaillait comme gardien dans un musée.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le bruit venait de la salle des peintures modernes.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Paul a vu une ombre bouger près d'une vitrine.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le voleur était une femme en robe rouge.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que tenait le voleur dans ses mains ?",
+        "choices": [
+          "Un tableau célèbre",
+          "Une statue ancienne",
+          "Un vase précieux",
+          "Un coffre rempli d'or"
+        ],
+        "correctAnswer": "Une statue ancienne"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi Paul n'a-t-il pas pu appeler la police ?",
+        "choices": [
+          "Il avait peur",
+          "Son téléphone n'avait plus de batterie",
+          "Il n'avait pas son téléphone avec lui",
+          "Le voleur l'a empêché de téléphoner"
+        ],
+        "correctAnswer": "Son téléphone n'avait plus de batterie"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment le voleur s'est-il échappé ?",
+        "choices": [
+          "Par la fenêtre",
+          "Par la porte de secours ouverte",
+          "En se cachant dans le musée",
+          "En prenant l'escalier principal"
+        ],
+        "correctAnswer": "Par la porte de secours ouverte"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un gardien est une personne qui surveille un lieu.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un musée est un endroit où l'on vend des objets anciens.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une vitrine est une grande fenêtre d'un bâtiment.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'gardien' dans le texte ?",
+        "choices": [
+          "Une personne qui protège un lieu",
+          "Un visiteur du musée",
+          "Un voleur",
+          "Un guide touristique"
+        ],
+        "correctAnswer": "Une personne qui protège un lieu"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'vitrine' dans le texte ?",
+        "choices": [
+          "Un meuble en verre pour exposer des objets",
+          "Une lampe pour éclairer une pièce",
+          "Un coffre pour ranger de l'argent",
+          "Un rideau qui cache une fenêtre"
+        ],
+        "correctAnswer": "Un meuble en verre pour exposer des objets"
+      }
+    ]
+}

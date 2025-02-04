@@ -1,0 +1,386 @@
+[
+  {
+    "exercice": 1,
+    "titre": "mon_ma_mes",
+    "rules": "Règle : La distinction entre {{mon}}, {{ma}} et {{mes}}.\n\n- {{mon}} : utilisé devant un nom masculin singulier.\n- {{ma}} : utilisé devant un nom féminin singulier.\n- {{mes}} : utilisé devant un nom pluriel.",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Voici ____ père et ____ mère.",
+        "reponses": ["mon", "ma"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 2,
+        "phrase": "J’ai oublié ____ clés sur la table.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 3,
+        "phrase": "Elle adore ____ chat, il est très affectueux.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 4,
+        "phrase": "Nous avons rangé ____ affaires avant de partir.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 5,
+        "phrase": "Je vais voir ____ grand-mère cet après-midi.",
+        "reponses": ["ma"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 6,
+        "phrase": "Il pleut et j’ai oublié ____ parapluie.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 7,
+        "phrase": "Tu peux emprunter ____ chaussures si tu veux.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 8,
+        "phrase": "Elle a perdu ____ trousse à l'école.",
+        "reponses": ["ma"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 9,
+        "phrase": "Nous partons demain avec ____ cousins en voyage.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 10,
+        "phrase": "Il a emmené ____ vélo au parc.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 11,
+        "phrase": "J'ai invité ____ amie à dîner ce soir.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 12,
+        "phrase": "Elle adore jouer avec ____ poupée.",
+        "reponses": ["ma"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 13,
+        "phrase": "Il a mis ____ gants dans son sac.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 14,
+        "phrase": "J’ai prêté ____ stylo à mon camarade de classe.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 15,
+        "phrase": "Nous avons apporté ____ photos de vacances.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 16,
+        "phrase": "Elle a déchiré ____ robe par accident.",
+        "reponses": ["ma"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 17,
+        "phrase": "J’aime beaucoup ____ école.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 18,
+        "phrase": "Nous avons trouvé ____ stylos sous la table.",
+        "reponses": ["mes"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 19,
+        "phrase": "Elle vient de recevoir ____ lettre d’admission.",
+        "reponses": ["ma"],
+        "options": ["mon", "ma", "mes"]
+      },
+      {
+        "id": 20,
+        "phrase": "Il a accroché ____ manteau au portemanteau.",
+        "reponses": ["mon"],
+        "options": ["mon", "ma", "mes"]
+      }
+    ]
+  },
+  
+    {
+      "exercice": 2,
+      "titre": "son_sa_ses",
+      "rules": "Règle : La distinction entre {{son}}, {{sa}} et {{ses}}.\n\n- {{son}} : utilisé devant un nom masculin singulier ou un nom féminin commençant par une voyelle.\n- {{sa}} : utilisé devant un nom féminin singulier.\n- {{ses}} : utilisé devant un nom pluriel.",
+      "phrases": [
+        {
+          "id": 1,
+          "phrase": "Le sac de Lucie : ____ sac.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 2,
+          "phrase": "Le vélo de l’étudiant : ____ vélo.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 3,
+          "phrase": "Les notes du professeur : ____ notes.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 4,
+          "phrase": "La sœur de Julie : ____ sœur.",
+          "reponses": ["sa"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 5,
+          "phrase": "L’amie d’Émilie : ____ amie.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 6,
+          "phrase": "Le dictionnaire de Paul : ____ dictionnaire.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 7,
+          "phrase": "Le chapeau du jardinier : ____ chapeau.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 8,
+          "phrase": "Les chaussures de Marie : ____ chaussures.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 9,
+          "phrase": "La voiture de Marc : ____ voiture.",
+          "reponses": ["sa"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 10,
+          "phrase": "Les livres de l’étudiant : ____ livres.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 11,
+          "phrase": "Le stylo de Paul : ____ stylo.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 12,
+          "phrase": "Les lunettes de Sophie : ____ lunettes.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 13,
+          "phrase": "La maison de Luc : ____ maison.",
+          "reponses": ["sa"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 14,
+          "phrase": "Les enfants de Marc : ____ enfants.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 15,
+          "phrase": "Le chat de Julien : ____ chat.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 16,
+          "phrase": "La robe de Claire : ____ robe.",
+          "reponses": ["sa"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 17,
+          "phrase": "Les crayons de Pierre : ____ crayons.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 18,
+          "phrase": "Le chien de Jacques : ____ chien.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 19,
+          "phrase": "Les vêtements d’Emilie : ____ vêtements.",
+          "reponses": ["ses"],
+          "options": ["son", "sa", "ses"]
+        },
+        {
+          "id": 20,
+          "phrase": "Le livre de Pierre : ____ livre.",
+          "reponses": ["son"],
+          "options": ["son", "sa", "ses"]
+        }
+      ]
+    }, {
+      "exercice": 3,
+      "titre": "ton_ta_tes",
+      "rules": "Règle : La distinction entre {{ton}}, {{ta}} et {{tes}}.\n\n- {{ton}} : utilisé devant un nom masculin singulier.\n- {{ta}} : utilisé devant un nom féminin singulier.\n- {{tes}} : utilisé devant un nom pluriel.",
+      "phrases": [
+        {
+          "id": 1,
+          "phrase": "J'aime ____ joli visage.",
+          "reponses": ["ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 2,
+          "phrase": "____ beaux cheveux blonds et belle silhouette.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 3,
+          "phrase": "____ charmant sourire.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 4,
+          "phrase": "J'aime aussi ____ corps.",
+          "reponses": ["ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 5,
+          "phrase": "Je vois ____ bouche en cœur.",
+          "reponses": ["ta"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 6,
+          "phrase": "Quand je regarde ____ grands yeux bleus.",
+          "reponses": ["tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 7,
+          "phrase": "Tout me plaît chez toi, ____ belles grandes jambes.",
+          "reponses": ["tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 8,
+          "phrase": "____ corps est magnifique.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 9,
+          "phrase": "____ visage est radieux.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 10,
+          "phrase": "____ bras sont forts et élégants.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 11,
+          "phrase": "____ yeux brillent de joie.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 12,
+          "phrase": "Je trouve ____ sourire très joli.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 13,
+          "phrase": "____ visage est une œuvre d'art.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 14,
+          "phrase": "____ cheveux sont magnifiques.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 15,
+          "phrase": "____ bras sont très musclés.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 16,
+          "phrase": "____ sourire est contagieux.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 17,
+          "phrase": "____ jambes sont élancées.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 18,
+          "phrase": "____ yeux sont d'un bleu éclatant.",
+          "reponses": ["Tes"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 19,
+          "phrase": "Je suis admiratif de ____ silhouette.",
+          "reponses": ["ta"],
+          "options": ["ton", "ta", "tes"]
+        },
+        {
+          "id": 20,
+          "phrase": "____ regard est fascinant.",
+          "reponses": ["Ton"],
+          "options": ["ton", "ta", "tes"]
+        }
+      ]
+    }
+  ]
+  
+  
+

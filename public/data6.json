@@ -1,0 +1,92 @@
+{
+  "title": "Programme de Mathématiques - 6e Année",
+  "sections": [
+    {
+      "id": "whole-numbers",
+      "title": "A. Whole numbers",
+      "topics": [
+        {
+          "name": "Place values in whole numbers up to 1 million",
+          "pdf": "/place_values_million.pdf"
+        },
+        {
+          "name": "Place values in whole numbers up to billions",
+          "pdf": "/pdfs/place_values_billions.pdf"
+        },
+        {
+          "name": "Word names for numbers",
+          "pdf": "/pdfs/word_names.pdf"
+        },
+        {
+          "name": "Compare whole numbers",
+          "pdf": "/pdfs/compare_numbers.pdf"
+        },
+        {
+          "name": "Order whole numbers",
+          "pdf": "/pdfs/order_numbers.pdf"
+        },
+        {
+          "name": "Roman numerals",
+          "pdf": "/pdfs/roman_numerals.pdf"
+        }
+      ],
+      "points": "Comprendre les nombres entiers, les opérations de base, et les propriétés des nombres.",
+      "tests": [
+        {
+          "name": "Test 1",
+          "pdf": "/tests/test1.pdf"
+        },
+        {
+          "name": "Test 2",
+          "pdf": "/tests/test2.pdf"
+        },
+        {
+          "name": "Test 3",
+          "pdf": "/tests/test3.pdf"
+        }
+      ]
+    },
+    {
+      "id": "decimals",
+      "title": "B. Decimals",
+      "topics": [
+        {
+          "name": "Understanding decimal notation",
+          "pdf": "/pdfs/decimal_notation.pdf"
+        },
+        {
+          "name": "Comparing and ordering decimals",
+          "pdf": "/pdfs/compare_decimals.pdf"
+        },
+        {
+          "name": "Adding and subtracting decimals",
+          "pdf": "/pdfs/add_subtract_decimals.pdf"
+        },
+        {
+          "name": "Multiplying and dividing decimals",
+          "pdf": "/pdfs/multiply_divide_decimals.pdf"
+        }
+      ],
+      "points": "Maîtriser la notation décimale et les opérations avec les décimaux.",
+      "tests": [
+        {
+          "name": "Test 1",
+          "pdf": "/tests/test1.pdf"
+        },
+        {
+          "name": "Test 2",
+          "pdf": "/tests/test2.pdf"
+        },
+        {
+          "name": "Test 3",
+          "pdf": "/tests/test3.pdf"
+        }
+      ]
+    }
+  ],
+  "game": {
+    "title": "Jeu : les milliers, les centaines, les dizaines et les unités",
+    "buttonText": "Fermer",
+    "score": 1000
+  }
+}
