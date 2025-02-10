@@ -1,0 +1,106 @@
+{
+    "pdfUrls": {
+        "wholeNumbers": [
+            "/PDF/Place_values_in_whole_numbers_up_to_1_million.pdf",
+            "/pdf/Place_values_in_whole_numbers_up_to_billions.pdf",
+            "/pdf/Word_names_for_numbers.pdf",
+            "/pdf/Compare_whole_numbers.pdf",
+            "/pdf/Order_whole_numbers.pdf",
+            "/pdf/Roman_numerals.pdf"
+        ],
+        "decimals": [
+            "path/to/What_decimal_number_is_illustrated.pdf",
+            "path/to/Decimal_place_values.pdf",
+            "path/to/Word_names_for_decimal_numbers.pdf",
+            "path/to/Equivalent_decimals.pdf",
+            "path/to/Convert_decimals_between_standard_and_expanded_form.pdf",
+            "path/to/Compose_and_decompose_decimals_in_multiple_ways.pdf",
+            "path/to/Round_decimals.pdf",
+            "path/to/Round_whole_numbers_and_decimals_find_the_missing_digit.pdf",
+            "path/to/Decimal_number_lines.pdf",
+            "path/to/Compare_decimals_using_models.pdf",
+            "path/to/Compare_decimals_on_number_lines.pdf",
+            "path/to/Compare_decimal_numbers.pdf",
+            "path/to/Put_decimal_numbers_in_order.pdf",
+            "path/to/Compare_order_and_round_decimals_word_problems.pdf"
+        ]
+    },
+    "programme": [
+        {
+            "title": "A. Whole numbers",
+            "lien": "/jeuPlacer_Val",
+            "videos": [
+                {
+                    "title": "Unités, dizaines, centaines et milliers","videoLink": "https://www.youtube.com/watch?v=al6TomRg2t8"
+                },
+                {
+                    "title": "Unités, dizaines, centaines",
+                    "videoLink": "https://www.youtube.com/watch?v=3Z80gwvh-7Y"
+                },
+                {
+                    "title": "La classe des mille - Les nombres jusqu'à 999 999 - CM1 - CM2 - Cycle 3 - Maths - Numération",
+                    "videoLink": "https://www.youtube.com/watch?v=4NDrTxdwceU"
+                }
+            ],
+            "sousTitre": [
+                "Place values in whole numbers up to 1 million",
+                "Place values in whole numbers up to billions",
+                "Word names for numbers",
+                "Compare whole numbers",
+                "Order whole numbers",
+                "Roman numerals"
+            ],
+            "pdfLinks": [
+                "/PDF/Place_values_in_whole_numbers_up_to_1_million.pdf",
+                "/pdf/Place_values_in_whole_numbers_up_to_billions.pdf",
+                "/pdf/Word_names_for_numbers.pdf",
+                "/pdf/Compare_whole_numbers.pdf",
+                "/pdf/Order_whole_numbers.pdf",
+                "/pdf/Roman_numerals.pdf"
+            ],
+            "pointsImportants": "Comprendre les nombres entiers, les opérations de base, et les propriétés des nombres.",
+            "evaluation": [
+                "Test 1",
+                "Test 2",
+                "Test 3"
+            ]
+        },
+        {
+            "title": "B. Decimals",
+            "sousTitre": [
+                "What decimal number is illustrated?",
+                "Decimal place values",
+                "Word names for decimal numbers",
+                "Equivalent decimals",
+                "Convert decimals between standard and expanded form",
+                "Compose and decompose decimals in multiple ways",
+                "Round decimals",
+                "Round whole numbers and decimals: find the missing digit",
+                "Decimal number lines",
+                "Compare decimals using models",
+                "Compare decimals on number lines",
+                "Compare decimal numbers",
+                "Put decimal numbers in order",
+                "Compare, order and round decimals: word problems"
+            ],
+            "pdfLinks": [
+                "path/to/What_decimal_number_is_illustrated.pdf",
+                "path/to/Decimal_place_values.pdf",
+                "path/to/Word_names_for_decimal_numbers.pdf",
+                "path/to/Equivalent_decimals.pdf",
+                "path/to/Convert_decimals_between_standard_and_expanded_form.pdf",
+                "path/to/Compose_and_decompose_decimals_in_multiple_ways.pdf",
+                "path/to/Round_decimals.pdf",
+                "path/to/Round_whole_numbers_and_decimals_find_the_missing_digit.pdf",
+                "path/to/Decimal_number_lines.pdf",
+                "path/to/Compare_decimals_using_models.pdf",
+                "path/to/Compare_decimals_on_number_lines.pdf",
+                "path/to/Compare_decimal_numbers.pdf",
+                "path/to/Put_decimal_numbers_in_order.pdf",
+                "path/to/Compare_order_and_round_decimals_word_problems.pdf"
+            ],
+            "pointsImportants": "Maîtriser les fractions, les décimales, et les pourcentages.",
+            "evaluation": "Évaluation sur les fractions et les décimales."
+        }
+    ]
+}

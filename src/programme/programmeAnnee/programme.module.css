@@ -1,0 +1,259 @@
+/* Styles généraux pour Maths6e */
+:local(.body) {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e9; /* Beige clair pour le fond */
+    margin: 0;
+    padding: 0;
+    color: #4b3b30; /* Marron foncé pour le texte */
+}
+
+/* En-tête */
+:local(.header) {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+:local(.backgroundImage) {
+    width: 100%;
+    height: 40vh;
+    opacity: 0.7;
+}
+
+:local(.Content1 h1) {
+    color: white;
+}
+
+/* Conteneur principal */
+:local(.container) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Boutons de navigation */
+:local(.navButtons) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+:local(.navButton) {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #8b4513; /* Marron moyen */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+:local(.navButton:hover) {
+    background-color: #5e2a0c; /* Marron foncé */
+}
+
+/* Liste du programme */
+:local(.programList) {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #d2b48c; /* Tan */
+}
+
+:local(.programList h2) {
+    color: #4b3b30; /* Marron foncé */
+    margin-bottom: 20px;
+}
+
+:local(.programButton) {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #8b4513; /* Marron moyen */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+:local(.programButton:hover) {
+    background-color: #5e2a0c; /* Marron foncé */
+}
+
+/* Détails du programme */
+:local(.programDetails) {
+    flex: 2;
+}
+
+:local(.programDetails h2) {
+    color: #4b3b30; /* Marron foncé */
+    margin-bottom: 10px;
+}
+
+:local(.programDetails h3) {
+    color: #8b4513; /* Marron moyen */
+    margin-bottom: 10px;
+}
+
+:local(.programDetails ul) {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+:local(.programDetails li) {
+    margin-bottom: 5px;
+}
+
+:local(.programDetails table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+:local(.programDetails th),
+:local(.programDetails td) {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+:local(.programDetails th) {
+    background-color: #8b4513; /* Marron moyen */
+    color: white;
+}
+
+:local(.programDetails td) {
+    background-color: #f7f3e9; /* Beige clair */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    :local(.container) {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    :local(.navButtons) {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    :local(.programList) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    :local(.programButton) {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    :local(.navButton) {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    :local(.programDetails h2),
+    :local(.programDetails h3) {
+        font-size: 18px;
+    }
+
+    :local(.programDetails th),
+    :local(.programDetails td) {
+        font-size: 14px;
+    }
+
+    :local(.programButton) {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+.videoSection {
+    margin-top: 20px;
+}
+
+.videoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.videoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #FFF5EE; /* Light beige */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.videoCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.videoInfo {
+    
+    
+    padding: 15px;
+    text-align: center;
+}
+
+.videoTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+.watchButton {
+    background-color: #16110f; /* Dominant brown color */    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.watchButton:hover {
+    background-color: #6E3D1B; /* Darker brown on hover */
+    transform: scale(1.05);
+}
+
+.closeButton {
+    background-color: #d0470c; /* Couleur dominante */ 
+    padding: 10px 15px;
+    width: 5%; /* Ajustement automatique */
+    
+    border-radius: 30px; /* Coins arrondis */
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 14px;
+}
+

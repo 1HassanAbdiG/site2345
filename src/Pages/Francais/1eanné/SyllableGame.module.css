@@ -1,0 +1,106 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: "Arial", sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .instructions {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .wordContainer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: fit-content;
+  }
+  
+  .syllables {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .syllable {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    background-color: #250808;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .syllable:hover {
+    transform: scale(1.1);
+    background-color: #155c1b;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  .resetBtn,
+  .verifyBtn,
+  .nextBtn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .resetBtn {
+    background-color: #ff9800;
+  }
+  
+  .verifyBtn {
+    background-color: #4caf50;
+  }
+  
+  .nextBtn {
+    background-color: #03a9f4;
+  }
+  
+  .resetBtn:hover {
+    background-color: #fb8c00;
+  }
+  
+  .verifyBtn:hover {
+    background-color: #388e3c;
+  }
+  
+  .nextBtn:hover {
+    background-color: #0288d1;
+  }
+  
+  .score {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-top: 20px;
+  }
+  
+  .message {
+    font-size: 1rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+  }
+  

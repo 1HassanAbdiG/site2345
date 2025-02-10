@@ -1,0 +1,78 @@
+{
+    "primaire": [
+        {
+            "titre": "MathMania",
+            "description": "Un jeu captivant pour maîtriser les opérations de base et la résolution de problèmes.",
+            "image": "/imag/header.jpg",
+            "lien": "/jeux/mathmania"
+        },
+        {
+            "titre": "Spelling Bee Adventure",
+            "description": "Améliorez votre orthographe et votre vocabulaire avec ce jeu amusant.",
+            "image": "/imag/header.jpg",
+            "lien": "/jeux/spelling-bee"
+        },
+        {
+            "titre": "Science Explorer",
+            "description": "Partez à la découverte du monde naturel avec des expériences virtuelles interactives.",
+            "image": "/imag/header.jpg",
+            "lien": "/jeux/science-explorer"
+        }
+    ],
+    "secondaire": [
+        {
+            "titre": "Physics Challenge",
+            "description": "Résolvez des énigmes basées sur les lois de la physique et gagnez des points.",
+            "image": "/imag/header.jpg",
+            "lien": "/jeux/physics-challenge"
+        },
+        {
+            "titre": "Literature Quest",
+            "description": "Explorez les grands classiques de la littérature à travers un jeu de rôle passionnant.",
+            "image": "/imag/header.jpg",
+            "lien": "/jeux/history-time"
+        },
+        {
+            "titre": "History Time Machine",
+            "description": "Voyagez dans le temps et vivez les moments clés de l'histoire canadienne et mondiale.",
+            "image": "/imag/header.jpg",
+            "lien": "/jeux/history-time-machine"
+        }
+    ],
+    "ressources": [
+        {
+            "titre": "Guides d'étude interactifs",
+            "lien": "/ressources/guides-etude"
+        },
+        {
+            "titre": "Fiches de révision personnalisées",
+            "lien": "/ressources/fiches-revision"
+        },
+        {
+            "titre": "Quiz adaptatifs",
+            "lien": "/ressources/quiz-adaptatifs"
+        },
+        {
+            "titre": "Vidéos explicatives",
+            "lien": "/ressources/videos-explicatives"
+        }
+    ],
+    "parents": [
+        {
+            "titre": "Suivi des progrès",
+            "lien": "/parents/suivi-progres"
+        },
+        {
+            "titre": "Conseils pour l'éducation",
+            "lien": "/parents/conseils-education"
+        },
+        {
+            "titre": "Activités éducatives à la maison",
+            "lien": "/parents/activites-maison"
+        },
+        {
+            "titre": "Forum des parents",
+            "lien": "/parents/forum"
+        }
+    ]
+}

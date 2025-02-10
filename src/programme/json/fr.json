@@ -1,0 +1,45 @@
+{
+    "synonyms": [
+      {
+        "question": "Heureux",
+        "answer": "joyeux"
+      },
+      {
+        "question": "Véloce",
+        "answer": "rapide"
+      },
+      {
+        "question": "Magnifique",
+        "answer": "beau"
+      }
+    ],
+    "antonyms": [
+      {
+        "question": "Chaud",
+        "answer": "froid"
+      },
+      {
+        "question": "Rapide",
+        "answer": "lent"
+      },
+      {
+        "question": "Grand",
+        "answer": "petit"
+      }
+    ],
+    "idioms": [
+      {
+        "question": "Avoir le coup de _____ (tomber amoureux)",
+        "answer": "foudre"
+      },
+      {
+        "question": "Être dans de beaux _____ (être dans une situation difficile)",
+        "answer": "draps"
+      },
+      {
+        "question": "Mettre les pieds dans le _____ (commettre une gaffe)",
+        "answer": "plat"
+      }
+    ]
+  }
+  

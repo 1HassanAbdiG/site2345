@@ -1,0 +1,23 @@
+[
+    { "text": "Par une belle journée ensoleillée, les enfants vont dans la forêt enchantée.", "reponse": "les enfants" },
+    { "text": "Dans la clairière magique, les fées cueillent des fleurs arc-en-ciel.", "reponse": "les fées" },
+    { "text": "Au cœur de la forêt, l'oiseau bleu chante une mélodie envoûtante.", "reponse": "l'oiseau bleu" },
+    { "text": "Sous les rayons dorés du soleil, les lutins dansent avec les papillons.", "reponse": "les lutins" },
+    { "text": "Près du ruisseau cristallin, le vieux chêne raconte des histoires fabuleuses.", "reponse": "le vieux chêne" },
+    { "text": "Dans les buissons enchantés, les lapins magiques se cachent des yeux curieux.", "reponse": "les lapins magiques" },
+    { "text": "Au crépuscule, la lune bienveillante illumine le sentier de la forêt.", "reponse": "la lune bienveillante" },
+    { "text": "Parmi les champignons géants, les gnomes organisent un festin.", "reponse": "les gnomes" },
+    { "text": "Sur les branches les plus hautes, les araignées féeriques tissent des toiles arc-en-ciel.", "reponse": "les araignées féeriques" },
+    { "text": "Dans la grotte mystérieuse, le dragon amical garde un trésor étincelant.", "reponse": "le dragon amical" },
+    { "text": "À l'orée du bois, un vieux sorcier fabrique des potions magiques.", "reponse": "un vieux sorcier" },
+    { "text": "En haut de la montagne, un aigle majestueux surveille le paysage.", "reponse": "un aigle majestueux" },
+    { "text": "Dans le jardin secret, une jolie princesse s'amuse avec ses poupées.", "reponse": "une jolie princesse" },
+    { "text": "Dans le parc, les enfants jouent avec un grand cerf-volant coloré.", "reponse": "les enfants" },
+    { "text": "Dans le champ de blé, un fermier conduit son tracteur.", "reponse": "un fermier" },
+    { "text": "Sur la plage, un petit garçon construit un château de sable.", "reponse": "un petit garçon" },
+    { "text": "Dans la forêt, une famille de renards se cache sous un buisson.", "reponse": "une famille de renards" },
+    { "text": "Dans la bibliothèque, un lecteur passionné dévore un roman d'aventure.", "reponse": "un lecteur passionné" },
+    { "text": "Sur le toit de la maison, un chat paresseux dort au soleil.", "reponse": "un chat paresseux" },
+    { "text": "Dans le jardin, un couple de tourtereaux chante joyeusement sur une branche.", "reponse": "un couple de tourtereaux" }
+]
+

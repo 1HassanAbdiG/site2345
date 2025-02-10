@@ -1,0 +1,179 @@
+{
+    "text": {
+      "title": "Le Hanami",
+      "content": [
+        "Au Japon, la floraison des cerisiers est un évènement extraordinaire.",
+        ". ",
+        "Les fleurs des cerisiers rappellent la nature aux gens. Les cerisiers sont en fleurs quelques jours par année seulement.",
+        ".",
+        "Quand les cerisiers sont en fleurs, les Japonais célèbrent le Hanami. Ils font la fête sous les arbres, le soir. C’est une très ancienne tradition. Elle vient du temps où les poètes lisaient des poèmes sous les arbres. Leurs poèmes parlaient des cerisiers en fleurs."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "La floraison des cerisiers dure plusieurs mois.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les Japonais célèbrent le Hanami en se rassemblant sous les cerisiers.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le Hanami est une tradition récente.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Autrefois, les poètes composaient des poèmes sous les cerisiers en fleurs.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le Hanami est une fête qui rappelle la nature aux Japonais.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Ce texte pourrait aussi avoir pour titre :",
+        "choices": [
+          "La fête des cerisiers en fleurs.",
+          "L’histoire du Japon.",
+          "Les fêtes roses.",
+          "Les poèmes japonais."
+        ],
+        "correctAnswer": "La fête des cerisiers en fleurs."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Au Japon, les fleurs de cerisiers sont :",
+        "choices": [
+          "importantes.",
+          "durables.",
+          "laides.",
+          "jaunes."
+        ],
+        "correctAnswer": "importantes."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pendant le Hanami, les Japonais tiennent des fêtes :",
+        "choices": [
+          "dans la neige, le soir.",
+          "sous les cerisiers, dans la neige.",
+          "sous les cerisiers, le soir.",
+          "sous les très vieux cerisiers."
+        ],
+        "correctAnswer": "sous les cerisiers, le soir."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Si tu veux en apprendre davantage sur les fleurs de cerisiers, tu peux :",
+        "choices": [
+          "manger des cerises.",
+          "lire des livres sur les fleurs de cerisiers à la bibliothèque.",
+          "Demander à un Japonais qui ne connaît pas le Hanami.",
+          "dessiner une fleur de cerisier."
+        ],
+        "correctAnswer": "lire des livres sur les fleurs de cerisiers à la bibliothèque."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi les Japonais croient-ils que les fleurs de cerisiers sont extraordinaires ?",
+        "choices": [
+          "Les gens qui habitent au Japon aiment la neige.",
+          "Les fleurs de cerisiers rappellent la nature aux gens.",
+          "Il n’existe aucune autre fête au Japon.",
+          "Il y a beaucoup de poèmes sur les fleurs de cerisiers."
+        ],
+        "correctAnswer": "Les fleurs de cerisiers rappellent la nature aux gens."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Une fleur est une partie d’un arbre.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une fête est un moment de travail.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les gens sont des personnes.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un événement est quelque chose d’ordinaire qui arrive tous les jours.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une tradition ancienne existe depuis longtemps.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie le mot 'floraison' dans le texte ?",
+        "choices": [
+          "L’apparition des fleurs.",
+          "La chute des feuilles.",
+          "La croissance des arbres.",
+          "Le changement de couleur des feuilles."
+        ],
+        "correctAnswer": "L’apparition des fleurs."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'extraordinaire' dans le texte ?",
+        "choices": [
+          "Remarquable, exceptionnel.",
+          "Normal, habituel.",
+          "Dangereux.",
+          "Inutile."
+        ],
+        "correctAnswer": "Remarquable, exceptionnel."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'tradition' dans le texte ?",
+        "choices": [
+          "Une habitude récente.",
+          "Une coutume ancienne transmise dans le temps.",
+          "Une nouvelle mode.",
+          "Un objet précieux."
+        ],
+        "correctAnswer": "Une coutume ancienne transmise dans le temps."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'poète' dans le texte ?",
+        "choices": [
+          "Une personne qui chante.",
+          "Une personne qui écrit des poèmes.",
+          "Une personne qui peint des paysages.",
+          "Une personne qui raconte des histoires drôles."
+        ],
+        "correctAnswer": "Une personne qui écrit des poèmes."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'rappellent' dans la phrase 'Les fleurs des cerisiers rappellent la nature aux gens' ?",
+        "choices": [
+          "Oublier quelque chose.",
+          "Faire penser à quelque chose.",
+          "Regarder quelque chose.",
+          "Décrire quelque chose."
+        ],
+        "correctAnswer": "Faire penser à quelque chose."
+      }
+    ]
+  }
+  

@@ -1,0 +1,64 @@
+{
+  "programme": [
+    {
+      "title": "A. Biologie",
+      "sousTitre": [
+        "Les cellules et les organismes",
+        "Les écosystèmes",
+        "La diversité des êtres vivants"
+      ],
+      "pdfLinks": [
+        "/pdf/Les_cellules_et_les_organismes.pdf",
+        "/pdf/Les_ecosystemes.pdf",
+        "/pdf/La_diversite_des_etres_vivants.pdf"
+      ],
+      "pointsImportants": "Comprendre la structure des cellules, le fonctionnement des écosystèmes et la diversité des espèces.",
+      "evaluation": ["Exercice 1", "Exercice 2", "Exercice 3"]
+    },
+    {
+      "title": "B. Physique",
+      "sousTitre": [
+        "Les forces et les mouvements",
+        "L'électricité et le magnétisme",
+        "Les états de la matière"
+      ],
+      "pdfLinks": [
+        "/pdf/Les_forces_et_les_mouvements.pdf",
+        "/pdf/Lelectricite_et_le_magnetisme.pdf",
+        "/pdf/Les_etats_de_la_matiere.pdf"
+      ],
+      "pointsImportants": "Apprendre les principes de base des forces, du mouvement, de l'électricité et des états de la matière.",
+      "evaluation": ["Exercice 1", "Exercice 2"]
+    },
+    {
+      "title": "C. Chimie",
+      "sousTitre": [
+        "Les éléments et les composés",
+        "Les réactions chimiques",
+        "Les solutions et les mélanges"
+      ],
+      "pdfLinks": [
+        "/pdf/Les_elements_et_les_composes.pdf",
+        "/pdf/Les_reactions_chimiques.pdf",
+        "/pdf/Les_solutions_et_les_melanges.pdf"
+      ],
+      "pointsImportants": "Connaître les éléments chimiques, les types de réactions chimiques et les propriétés des solutions et mélanges.",
+      "evaluation": ["Exercice 1", "Exercice 2", "Exercice 3"]
+    },
+    {
+      "title": "D. Astronomie",
+      "sousTitre": [
+        "Le système solaire",
+        "Les étoiles et les galaxies",
+        "L'exploration spatiale"
+      ],
+      "pdfLinks": [
+        "/pdf/Le_systeme_solaire.pdf",
+        "/pdf/Les_etoiles_et_les_galaxies.pdf",
+        "/pdf/Lexploration_spatiale.pdf"
+      ],
+      "pointsImportants": "Découvrir la composition et le fonctionnement du système solaire, des étoiles et des galaxies, ainsi que l'histoire de l'exploration spatiale.",
+      "evaluation": ["Exercice 1", "Exercice 2"]
+    }
+  ]
+}

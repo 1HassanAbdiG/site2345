@@ -1,0 +1,103 @@
+{
+    "pdftexte": {
+      "text": "/texte_ce2.pdf"
+    },
+    "questions": [
+
+      {
+        "id": 1,
+        "type": "text",
+        "question": "De quel livre ce texte est-il extrait ?",
+        "answer": "Les enfants de l’aube"
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "question": "Qui en est l’auteur ?",
+        "answer": "Alain Surget"
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "question": "Chez quel éditeur est-il paru ?",
+        "answer": "Nathan"
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "question": "En quelle année ?",
+        "answer": "1999"
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "question": "Quel est le personnage principal de cette histoire ?",
+        "answer": "Rou"
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "question": "Quels sont les autres personnages ?",
+        "answer": "Le chef, Maé, le père de Rou, la mère de Rou, le sorcier, les Cro-Magnons."
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "question": "Donne un titre à ce texte.",
+        "answer": "La nuit des Cro-Magnons"
+      },
+      {
+        "id": 8,
+        "type": "multipleChoice",
+        "question": "Coche la bonne réponse.",
+        "choices": [
+          { "value": "A", "text": "neuf ans" },
+          { "value": "B", "text": "dix ans", "correct": true },
+          { "value": "C", "text": "Le texte ne le dit pas" }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 9,
+        "type": "multipleChoice",
+        "question": "D’après le sorcier, celui qui rêve ressemble :",
+        "choices": [
+          { "value": "A", "text": "à un sanglier" },
+          { "value": "B", "text": "au papillon", "correct": true },
+          { "value": "C", "text": "au bison" }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "type": "text",
+        "question": "Dans le texte, Maé dit quatre fois « Chef… ». Pourquoi ?",
+        "answer": "Maé essaie d'attirer l'attention du chef pour lui dire qu'il a les deux pieds dans une bouse de bison, mais elle est interrompue à plusieurs reprises."
+      },
+      {
+        "id": 11,
+        "type": "text",
+        "question": "Écris le nom de trois animaux de la préhistoire nommés dans ce texte.",
+        "answer": "Loup, ours des cavernes, tigre aux dents de sabre, rhinocéros laineux."
+      },
+      {
+        "id": 12,
+        "type": "text",
+        "question": "D’après son père, à quoi Rou passe-t-il ses journées ?",
+        "answer": "Rou passe ses journées à observer les fourmis et à étudier le vol des oiseaux."
+      },
+      {
+        "id": 13,
+        "type": "text",
+        "question": "Le père de Rou n’a pas envie de répondre à ses questions. Recopie la phrase qui le prouve.",
+        "answer": "Je n'en sais rien, ronchonne son père, surpris par la question."
+      },
+      {
+        "id": 14,
+        "type": "text",
+        "question": "D’après le chef, pourquoi ces loups ne chantent-ils pas comme les autres ?",
+        "answer": "Selon le chef, les loups ne chantent pas comme les autres parce qu'ils se sont peut-être mordu la langue."
+      }
+    ]
+  }
+  

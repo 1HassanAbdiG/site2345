@@ -1,0 +1,68 @@
+{
+  "programme": [
+    {
+      "title": "A. Conjugaison",
+      "sousTitre": [
+        "Les verbes au présent",
+        "Les verbes au passé composé",
+        "Les verbes au futur"
+      ],
+      "pdfLinks": [
+        "/pdf/Les_verbes_au_present.pdf",
+        "/pdf/Les_verbes_au_passe_compose.pdf",
+        "/pdf/Les_verbes_au_futur.pdf"
+      ],
+      "pointsImportants": "Maîtriser les différents temps de conjugaison et leur usage.",
+      "evaluation": [
+        "Exercice 1",
+        "Exercice 2"
+      ],
+      "lien": "/jeuSuJVerb",
+      "componentPath": "../jeu/francais/conjuguaison/compo/jeuduc",
+      "componentName": "CombinedGame",
+      "videos": [
+        {
+          "title": "Le verbe - CP - CE1 - Cycle 2 - Français - Etude de la langue - Grammaire CP",
+          "videoLink": "https://www.youtube.com/watch?v=CBGA58qRawU"
+        },
+        {
+          "title": "Les constituants de la phrase (sujet, verbe, complément) CE1 - CE2 - Cycle 2 - Français - Grammaire",
+          "videoLink": "https://www.youtube.com/watch?v=OduDKcXAXoo"
+        },
+        {
+          "title": "Le verbe CE2 - CE1 - Cycle 2 - français - étude de la langue",
+          "videoLink": "https://www.youtube.com/watch?v=O5vMKPnf-24"
+        }
+      ]
+    },
+    {
+      "title": "B. Orthographe",
+      "sousTitre": [
+        "Les règles de base",
+        "Les exceptions",
+        "Les homophones"
+      ],
+      "pdfLinks": [
+        "/pdf/Les_regles_de_base.pdf",
+        "/pdf/Les_exceptions.pdf",
+        "/pdf/Les_homophones.pdf"
+      ],
+      "pointsImportants": "Améliorer la précision orthographique et la compréhension des règles.",
+      "evaluation": "Évaluation sur l'orthographe.",
+      "videos": [
+        {
+          "title": "Introduction à l'orthographe",
+          "videoLink": "https://www.youtube.com/watch?v=CN1iPhSnwlQ"
+        },
+        {
+          "title": "Les exceptions orthographiques",
+          "videoLink": "https://www.youtube.com/watch?v=exampleLink3"
+        },
+        {
+          "title": "Comprendre les homophones",
+          "videoLink": "https://www.youtube.com/watch?v=exampleLink4"
+        }
+      ]
+    }
+  ]
+}

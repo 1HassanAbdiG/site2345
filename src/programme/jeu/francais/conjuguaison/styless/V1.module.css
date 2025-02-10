@@ -1,0 +1,81 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .title {
+    font-family: 'Fredoka One', cursive;
+    color: #FF758C;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .verbDisplay {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FF758C;
+  }
+  .container {
+    margin-bottom: 25px;
+  }
+  
+  .input {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #6DD5FA;
+    border-radius: 10px;
+    width: 70%;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #FF758C;
+    box-shadow: 0 0 10px rgba(255, 117, 140, 0.5);
+  }
+  
+  .button {
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #FF758C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: #6DD5FA;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f0f;
+    animation: confetti 5s ease-in-out infinite;
+  }
+  
+  @keyframes confetti {
+    0% { transform: translateY(0) rotateZ(0deg); opacity: 1; }
+    100% { transform: translateY(1000px) rotateZ(720deg); opacity: 0; }
+  }
+      
+  

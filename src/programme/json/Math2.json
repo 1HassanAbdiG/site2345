@@ -1,0 +1,57 @@
+{
+    "header": {
+      "title": "MathQuest",
+      "tagline": "Explorez l'Univers des Mathématiques"
+    },
+    "navItems": [
+      { "text": "Accueil", "href": "https://websim.ai/math" },
+      { "text": "Algèbre", "href": "https://websim.ai/math/algebra" },
+      { "text": "Géométrie", "href": "https://websim.ai/math/geometry" },
+      { "text": "Calcul", "href": "https://websim.ai/math/calculus" },
+      { "text": "Statistiques", "href": "https://websim.ai/math/statistics" }
+    ],
+    "mainContent": {
+      "welcomeTitle": "Bienvenue sur MathQuest",
+      "welcomeText": "Embarquez pour un voyage passionnant à travers le monde des mathématiques. Que vous soyez débutant ou expert, notre plateforme offre des ressources interactives, des défis stimulants et des explications claires pour tous les niveaux.",
+      "dailyChallenge": {
+        "title": "Défi du Jour",
+        "question": "Résolvez l'équation : 3x + 7 = 22",
+        "solution": "x = 5"
+      },
+      "cards": [
+        {
+          "title": "Algèbre",
+          "description": "Explorez le monde des équations, des fonctions et des structures mathématiques.",
+          "linkText": "En savoir plus",
+          "href": "https://websim.ai/math/algebra"
+        },
+        {
+          "title": "Géométrie",
+          "description": "Découvrez les formes, les espaces et les propriétés des figures géométriques.",
+          "linkText": "Explorer",
+          "href": "https://websim.ai/math/geometry"
+        },
+        {
+          "title": "Calcul",
+          "description": "Plongez dans le monde des dérivées, des intégrales et des limites.",
+          "linkText": "Commencer",
+          "href": "https://websim.ai/math/calculus"
+        }
+      ]
+    },
+    "sidebar": {
+      "popularResourcesTitle": "Ressources Populaires",
+      "resources": [
+        { "text": "Guide : Résolution d'Équations", "href": "https://websim.ai/math/tutorials/solving-equations" },
+        { "text": "Tutoriel : Tracer des Fonctions", "href": "https://websim.ai/math/tutorials/graphing-functions" },
+        { "text": "Calculatrice Scientifique", "href": "https://websim.ai/math/calculators/scientific" },
+        { "text": "Forum d'Entraide", "href": "https://websim.ai/math/forum" }
+      ],
+      "quote": {
+        "text": "La mathématique est la poésie logique des idées.",
+        "author": "Albert Einstein"
+      }
+    },
+    "footerText": "&copy; 2023 MathQuest - Tous droits réservés"
+  }
+  
