@@ -1,0 +1,215 @@
+{
+    "text": {
+      "title": "Le cycle du haricot",
+      "content": [
+        "Le cycle du haricot commence lorsque la graine est plantée dans le sol. Elle a besoin d’eau, de chaleur et d’oxygène pour germer. Une fois la germination commencée, les racines se développent en premier, suivies par la tige. Les cotylédons nourrissent la jeune plante jusqu'à ce que les premières feuilles apparaissent. Ensuite, la plante commence à produire des fleurs, puis des gousses contenant des graines. La plante de haricot continue à croître et peut produire plusieurs gousses durant sa vie."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Une graine de haricot a besoin d’eau, de chaleur et d’oxygène pour germer.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les racines du haricot poussent après l’apparition des feuilles.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les cotylédons servent à nourrir la jeune plante avant que les feuilles ne grandissent.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Le haricot ne produit pas de fleurs avant de donner des gousses.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une plante de haricot peut produire plusieurs gousses contenant des graines.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que devient la graine après la germination ?",
+        "choices": [
+          "Elle disparaît",
+          "Elle devient une fleur",
+          "Elle donne naissance à une plante"
+        ],
+        "correctAnswer": "Elle donne naissance à une plante"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le rôle des cotylédons ?",
+        "choices": [
+          "Nourrir la jeune plante",
+          "Produire des fleurs",
+          "Absorber l’eau du sol"
+        ],
+        "correctAnswer": "Nourrir la jeune plante"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "À quel moment apparaissent les premières feuilles ?",
+        "choices": [
+          "Juste après la germination",
+          "Après la floraison",
+          "Une fois les gousses formées"
+        ],
+        "correctAnswer": "Juste après la germination"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment appelle-t-on les organes qui permettent à la plante de se reproduire ?",
+        "choices": [
+          "Les feuilles",
+          "Les fleurs",
+          "Les racines"
+        ],
+        "correctAnswer": "Les fleurs"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que contient la gousse du haricot ?",
+        "choices": [
+          "Des fleurs",
+          "Des graines",
+          "De la terre"
+        ],
+        "correctAnswer": "Des graines"
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Les racines permettent à la plante de capter l’eau et les sels minéraux.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les tiges transportent la sève de la racine vers les feuilles.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les cotylédons sont des fleurs.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les gousses sont les fruits du haricot.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "La chlorophylle donne aux feuilles leur couleur verte.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Quel est l’organe souterrain de la plante ?",
+        "choices": [
+          "La tige",
+          "Les racines",
+          "Les feuilles"
+        ],
+        "correctAnswer": "Les racines"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle partie de la plante capte l’énergie du soleil ?",
+        "choices": [
+          "Les racines",
+          "Les fleurs",
+          "Les feuilles"
+        ],
+        "correctAnswer": "Les feuilles"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment appelle-t-on le fruit du haricot ?",
+        "choices": [
+          "Une gousse",
+          "Une feuille",
+          "Une graine"
+        ],
+        "correctAnswer": "Une gousse"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que contiennent les gousses ?",
+        "choices": [
+          "Des graines",
+          "Des fleurs",
+          "De l’eau"
+        ],
+        "correctAnswer": "Des graines"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle partie de la plante grandit en premier après la germination ?",
+        "choices": [
+          "La tige",
+          "Les racines",
+          "Les fleurs"
+        ],
+        "correctAnswer": "Les racines"
+      }
+    ],
+    "reperageQuestions": [
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la première étape du cycle du haricot ?",
+        "choices": [
+          "La plante fleurit",
+          "La graine germe",
+          "La gousse apparaît"
+        ],
+        "correctAnswer": "La graine germe"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quand les cotylédons disparaissent-ils ?",
+        "choices": [
+          "Dès que la plante sort de terre",
+          "Quand les premières feuilles apparaissent",
+          "Après la floraison"
+        ],
+        "correctAnswer": "Quand les premières feuilles apparaissent"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel événement suit immédiatement la floraison ?",
+        "choices": [
+          "L’apparition des gousses",
+          "La germination",
+          "La chute des feuilles"
+        ],
+        "correctAnswer": "L’apparition des gousses"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Dans quelle partie de la plante trouve-t-on les graines ?",
+        "choices": [
+          "Dans la tige",
+          "Dans les racines",
+          "Dans les gousses"
+        ],
+        "correctAnswer": "Dans les gousses"
+      }
+    ],
+    "reactionQuestion": {
+      "question": "Pourquoi est-il important de planter des haricots à la bonne saison ?",
+      "correctAnswer": "Il est important de planter des haricots à la bonne saison pour garantir leur croissance optimale."
+    },
+    "interferenceQuestion": {
+      "question": "Si on coupe la tige principale d’un plant de haricot, que peut-il se passer ?",
+      "correctAnswer": "Si la tige principale est coupée, la plante pourrait commencer à produire de nouvelles tiges latérales, mais elle risque aussi de ne pas se développer correctement."
+    }
+  }
+  

@@ -2,7 +2,8 @@
   {
     "exercice": 1,
     "titre": "mon_ma_mes",
-    "rules": "Règle : La distinction entre {{mon}}, {{ma}} et {{mes}}.\n\n- {{mon}} : utilisé devant un nom masculin singulier.\n- {{ma}} : utilisé devant un nom féminin singulier.\n- {{mes}} : utilisé devant un nom pluriel.",
+    "rules": "Règle : La distinction entre {{mon}}, {{ma}} et {{mes}}.\n\n- {{mon}} : utilisé devant un nom masculin singulier ou un nom féminin commençant par une voyelle (ex. : mon ami, mon école).\n- {{ma}} : utilisé devant un nom féminin singulier commençant par une consonne (ex. : ma maison).\n- {{mes}} : utilisé devant un nom pluriel (ex. : mes amis, mes écoles).",
+
     "phrases": [
       {
         "id": 1,
