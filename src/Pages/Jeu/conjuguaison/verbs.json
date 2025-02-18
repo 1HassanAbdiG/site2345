@@ -1,0 +1,75 @@
+ 
+
+
+    
+  
+    {
+        "present": [
+            { "infinitive": "manger", "pronoun": "je", "correct": "mange" },
+            { "infinitive": "chanter", "pronoun": "il", "correct": "chante" },
+            { "infinitive": "travailler", "pronoun": "vous", "correct": "travaillez" },
+            { "infinitive": "danser", "pronoun": "ils", "correct": "dansent" },
+            { "infinitive": "écouter", "pronoun": "elles", "correct": "écoutent" },
+            { "infinitive": "arriver", "pronoun": "nous", "correct": "arrivons" },
+            { "infinitive": "adorer", "pronoun": "vous", "correct": "adorez" },
+            { "infinitive": "nager", "pronoun": "tu", "correct": "nages" },
+            { "infinitive": "sauter", "pronoun": "elles", "correct": "sautent" },
+            { "infinitive": "entrer", "pronoun": "on", "correct": "entre" },
+            { "infinitive": "fermer", "pronoun": "ils", "correct": "ferment" },
+            { "infinitive": "pleurer", "pronoun": "elle", "correct": "pleure" },
+            { "infinitive": "chercher", "pronoun": "je", "correct": "cherche" },
+            { "infinitive": "cacher", "pronoun": "ils", "correct": "cachent" },
+            { "infinitive": "préparer", "pronoun": "elle", "correct": "prépare" },
+            { "infinitive": "admirer", "pronoun": "on", "correct": "admire" },
+            { "infinitive": "guider", "pronoun": "nous", "correct": "guidons" },
+            { "infinitive": "arriver", "pronoun": "j", "correct": "arrive" },
+            { "infinitive": "terminer", "pronoun": "ils", "correct": "terminent" },
+            { "infinitive": "aimer", "pronoun": "tu", "correct": "aimes" },
+            { "infinitive": "danser", "pronoun": "je", "correct": "danse" },
+            { "infinitive": "coller", "pronoun": "nous", "correct": "collons" },
+            { "infinitive": "parler", "pronoun": "il", "correct": "parle" },
+            { "infinitive": "jouer", "pronoun": "nous", "correct": "jouons" },
+            { "infinitive": "oublier", "pronoun": "vous", "correct": "oubliez" },
+            { "infinitive": "décider", "pronoun": "vous", "correct": "décidez" },
+            { "infinitive": "réparer", "pronoun": "on", "correct": "répare" },
+            { "infinitive": "regarder", "pronoun": "nous", "correct": "regardons" },
+            { "infinitive": "payer", "pronoun": "vous", "correct": "payez" }
+        ],
+        "futur": [
+          { "infinitive": "manger", "pronoun": "je", "correct": "mangerai" },
+          { "infinitive": "chanter", "pronoun": "il", "correct": "chantera" },
+          { "infinitive": "travailler", "pronoun": "vous", "correct": "travaillerez" },
+          { "infinitive": "danser", "pronoun": "ils", "correct": "danseront" },
+          { "infinitive": "écouter", "pronoun": "elles", "correct": "écouteront" },
+          { "infinitive": "arriver", "pronoun": "nous", "correct": "arriverons" },
+          { "infinitive": "adorer", "pronoun": "vous", "correct": "adorerez" },
+          { "infinitive": "nager", "pronoun": "tu", "correct": "nageras" },
+          { "infinitive": "sauter", "pronoun": "elles", "correct": "sauteront" },
+          { "infinitive": "entrer", "pronoun": "on", "correct": "entrera" }
+        ],
+        "imparfait": [
+          { "infinitive": "manger", "pronoun": "je", "correct": "mangeais" },
+          { "infinitive": "chanter", "pronoun": "il", "correct": "chantait" },
+          { "infinitive": "travailler", "pronoun": "vous", "correct": "travailliez" },
+          { "infinitive": "danser", "pronoun": "ils", "correct": "dansaient" },
+          { "infinitive": "écouter", "pronoun": "elles", "correct": "écoutaient" },
+          { "infinitive": "arriver", "pronoun": "nous", "correct": "arrivions" },
+          { "infinitive": "adorer", "pronoun": "vous", "correct": "adoriez" },
+          { "infinitive": "nager", "pronoun": "tu", "correct": "nageais" },
+          { "infinitive": "sauter", "pronoun": "elles", "correct": "sautaient" },
+          { "infinitive": "entrer", "pronoun": "on", "correct": "entrait" }
+        ],
+        "passe_Composé": [
+          { "infinitive": "manger", "pronoun": "je", "correct": "ai mangé" },
+          { "infinitive": "chanter", "pronoun": "il", "correct": "a chanté" },
+          { "infinitive": "travailler", "pronoun": "vous", "correct": "avez travaillé" },
+          { "infinitive": "danser", "pronoun": "ils", "correct": "ont dansé" },
+          { "infinitive": "écouter", "pronoun": "elles", "correct": "ont écouté" },
+          { "infinitive": "arriver", "pronoun": "nous", "correct": "sommes arrivés" },
+          { "infinitive": "adorer", "pronoun": "vous", "correct": "avez adoré" },
+          { "infinitive": "nager", "pronoun": "tu", "correct": "as nagé" },
+          { "infinitive": "sauter", "pronoun": "elles", "correct": "ont sauté" },
+          { "infinitive": "entrer", "pronoun": "on", "correct": "est entré" }
+        ]
+      }
+      

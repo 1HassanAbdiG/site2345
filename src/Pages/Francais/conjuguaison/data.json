@@ -1,0 +1,155 @@
+{
+    "jeOuJ": [
+        {
+            "id": "regarde",
+            "sentence": "... regarde la télé",
+            "answer": "je"
+        },
+        {
+            "id": "arrive",
+            "sentence": "... arrive à 7 heures",
+            "answer": "j'"
+        },
+        {
+            "id": "habite",
+            "sentence": "... habite en France",
+            "answer": "j'"
+        },
+        {
+            "id": "parle",
+            "sentence": "... parle russe",
+            "answer": "je"
+        },
+        {
+            "id": "prepare",
+            "sentence": "... prépare une tarte",
+            "answer": "je"
+        },
+        {
+            "id": "adore",
+            "sentence": "... adore le cinéma",
+            "answer": "j'"
+        },
+        {
+            "id": "marche",
+            "sentence": "... marche vite",
+            "answer": "je"
+        },
+        {
+            "id": "ecoute",
+            "sentence": "... écoute de la musique",
+            "answer": "j'"
+        }
+    ],
+    "conjugation": [
+        {
+            "id": "phrase1",
+            "sentence": "Nous ... ce film.",
+            "answer": "adorons"
+        },
+        {
+            "id": "phrase2",
+            "sentence": "Tu ... le français.",
+            "answer": "parles"
+        },
+        {
+            "id": "phrase3",
+            "sentence": "Je ... le dîner.",
+            "answer": "prépare"
+        },
+        {
+            "id": "phrase4",
+            "sentence": "Vous ... la télévision.",
+            "answer": "regardez"
+        },
+        {
+            "id": "phrase5",
+            "sentence": "Ils ... aux cartes.",
+            "answer": "jouent"
+        },
+        {
+            "id": "phrase6",
+            "sentence": "Tu ... à travailler à 8h.",
+            "answer": "commences"
+        },
+        {
+            "id": "phrase7",
+            "sentence": "Nous ... au restaurant le samedi.",
+            "answer": "dînons"
+        },
+        {
+            "id": "phrase8",
+            "sentence": "Tu ... le thé au café.",
+            "answer": "préfères"
+        },
+        {
+            "id": "phrase9",
+            "sentence": "Elle ... une pomme.",
+            "answer": "mange"
+        }
+    ],
+    "infinitiveConjugation": [
+        {
+            "id": "1",
+            "sentence": "Tu écoutes la radio.",
+            "infinitive": "écouter",
+            "answer": "écouter"
+        },
+        {
+            "id": "2",
+            "sentence": "Je travaille chez moi.",
+            "infinitive": "travailler",
+            "answer": "travailler"
+        },
+        {
+            "id": "3",
+            "sentence": "Il arrive à 8 heures.",
+            "infinitive": "arriver",
+            "answer": "arriver"
+        },
+        {
+            "id": "4",
+            "sentence": "Vous lavez la voiture?",
+            "infinitive": "laver",
+            "answer": "laver"
+        },
+        {
+            "id": "5",
+            "sentence": "Ils parlent russe et anglais.",
+            "infinitive": "parler",
+            "answer": "parler"
+        },
+        {
+            "id": "6",
+            "sentence": "Elles dansent le rock.",
+            "infinitive": "danser",
+            "answer": "danser"
+        },
+        {
+            "id": "7",
+            "sentence": "Nous déjeunons à la cantine.",
+            "infinitive": "déjeuner",
+            "answer": "déjeuner"
+        }
+    ],
+    "verbs": [
+        {
+            "id": "7",
+            "infinitive": "aimer",
+            "pronoun": "je",
+            "answer": "aime"
+        },
+        {
+            "id": "8",
+            "infinitive": "finir",
+            "pronoun": "nous",
+            "answer": "finissons"
+        },
+        {
+            "id": "9",
+            "infinitive": "prendre",
+            "pronoun": "ils",
+            "answer": "prennent"
+        }
+    ]
+}

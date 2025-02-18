@@ -1,0 +1,165 @@
+{
+    "levels": [
+      {
+        "level": "1re année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A1/dictee1.mp4",
+            "thumbnail": "/dictee/thumbnails/A1/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A1/dictee2.mp4",
+            "thumbnail": "/thumbnails/A1/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A1/dictee3.mp4",
+            "thumbnail": "/thumbnails/A1/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "2e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A2/dictee1.mp4",
+            "thumbnail": "/thumbnails/A2/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A2/dictee2.mp4",
+            "thumbnail": "/thumbnails/A2/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A2/dictee3.mp4",
+            "thumbnail": "/thumbnails/A2/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "3e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A3/dictee1.mp4",
+            "thumbnail": "/thumbnails/A3/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A3/dictee2.mp4",
+            "thumbnail": "/thumbnails/A3/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A3/dictee3.mp4",
+            "thumbnail": "/thumbnails/A3/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "4e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A4/dictee1.mp4",
+            "thumbnail": "/thumbnails/A4/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A4/dictee2.mp4",
+            "thumbnail": "/thumbnails/A4/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A4/dictee3.mp4",
+            "thumbnail": "/thumbnails/A4/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "5e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A5/dictee1.mp4",
+            "thumbnail": "/thumbnails/A5/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A5/dictee2.mp4",
+            "thumbnail": "/thumbnails/A5/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A5/dictee3.mp4",
+            "thumbnail": "/thumbnails/A5/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "6e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A6/dictee1.mp4",
+            "thumbnail": "/thumbnails/A6/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A6/dictee2.mp4",
+            "thumbnail": "/thumbnails/A6/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A6/dictee3.mp4",
+            "thumbnail": "/thumbnails/A6/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "7e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A7/dictee1.mp4",
+            "thumbnail": "/thumbnails/A7/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A7/dictee2.mp4",
+            "thumbnail": "/thumbnails/A7/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A7/dictee3.mp4",
+            "thumbnail": "/thumbnails/A7/dictee3.jpg"
+          }
+        ]
+      },
+      {
+        "level": "8e année",
+        "videos": [
+          { 
+            "title": "Dictée 1", 
+            "url": "/dictee/videos/A8/dictee1.mp4",
+            "thumbnail": "/thumbnails/A8/dictee1.jpg"
+          },
+          { 
+            "title": "Dictée 2", 
+            "url": "/dictee/videos/A8/dictee2.mp4",
+            "thumbnail": "/thumbnails/A8/dictee2.jpg"
+          },
+          { 
+            "title": "Dictée 3", 
+            "url": "/dictee/videos/A8/dictee3.mp4",
+            "thumbnail": "/thumbnails/A8/dictee3.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,608 @@
+{"exercises": {
+    "articles": [
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'Le chat dort' ?",
+            "options": [
+                "Le",
+                "Un",
+                "Des",
+                "De"
+            ],
+            "answer": "Le"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Une pomme est sur la table' ?",
+            "options": [
+                "Le",
+                "Une",
+                "Des",
+                "La"
+            ],
+            "answer": "Une"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'La voiture est rouge' ?",
+            "options": [
+                "La",
+                "Une",
+                "Des",
+                "Un"
+            ],
+            "answer": "La"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Un oiseau vole dans le ciel' ?",
+            "options": [
+                "Un",
+                "Le",
+                "La",
+                "Des"
+            ],
+            "answer": "Un"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'Les enfants jouent dans le jardin' ?",
+            "options": [
+                "Les",
+                "Un",
+                "Des",
+                "Le"
+            ],
+            "answer": "Les"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'J'ai acheté des bonbons' ?",
+            "options": [
+                "Les",
+                "Des",
+                "Le",
+                "La"
+            ],
+            "answer": "Des"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'L'école est fermée aujourd'hui' ?",
+            "options": [
+                "L'",
+                "Une",
+                "Des",
+                "Un"
+            ],
+            "answer": "L'"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Un enfant joue avec un ballon' ?",
+            "options": [
+                "Un",
+                "Le",
+                "Les",
+                "Des"
+            ],
+            "answer": "Un"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'Le soleil brille' ?",
+            "options": [
+                "Le",
+                "Un",
+                "Des",
+                "Une"
+            ],
+            "answer": "Le"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Il y a une chaise dans la pièce' ?",
+            "options": [
+                "Une",
+                "Le",
+                "Des",
+                "La"
+            ],
+            "answer": "Une"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'Les fleurs sont belles' ?",
+            "options": [
+                "Les",
+                "Un",
+                "Des",
+                "Une"
+            ],
+            "answer": "Les"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Il mange un sandwich' ?",
+            "options": [
+                "Un",
+                "Le",
+                "Des",
+                "Une"
+            ],
+            "answer": "Un"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'L'ordinateur est éteint' ?",
+            "options": [
+                "L'",
+                "Un",
+                "Une",
+                "Des"
+            ],
+            "answer": "L'"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Une souris court sous la table' ?",
+            "options": [
+                "Une",
+                "Le",
+                "Des",
+                "Un"
+            ],
+            "answer": "Une"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'La mer est calme aujourd'hui' ?",
+            "options": [
+                "La",
+                "Un",
+                "Une",
+                "Des"
+            ],
+            "answer": "La"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Il a des amis formidables' ?",
+            "options": [
+                "Des",
+                "Le",
+                "Un",
+                "Une"
+            ],
+            "answer": "Des"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'Les oiseaux chantent le matin' ?",
+            "options": [
+                "Les",
+                "Un",
+                "Des",
+                "Une"
+            ],
+            "answer": "Les"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Elle porte une robe bleue' ?",
+            "options": [
+                "Une",
+                "Le",
+                "Des",
+                "Un"
+            ],
+            "answer": "Une"
+        },
+        {
+            "question": "Quel est l'article défini dans cette phrase : 'L'enfant dort paisiblement' ?",
+            "options": [
+                "L'",
+                "Une",
+                "Un",
+                "Des"
+            ],
+            "answer": "L'"
+        },
+        {
+            "question": "Quel est l'article indéfini dans cette phrase : 'Un chat noir traverse la rue' ?",
+            "options": [
+                "Un",
+                "Le",
+                "Des",
+                "Une"
+            ],
+            "answer": "Un"
+        }
+    ],
+    "adjectifs": [
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le grand arbre est vert' ?",
+            "options": [
+                "Le",
+                "grand",
+                "arbre",
+                "est"
+            ],
+            "answer": "grand"
+        },
+        {
+            "question": "Quel est l'adjectif dans cette phrase : 'Cette maison est magnifique' ?",
+            "options": [
+                "Cette",
+                "maison",
+                "est",
+                "magnifique"
+            ],
+            "answer": "magnifique"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le petit chien court dans le jardin' ?",
+            "options": [
+                "Le",
+                "petit",
+                "chien",
+                "court"
+            ],
+            "answer": "petit"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Il porte une chemise bleue' ?",
+            "options": [
+                "Il",
+                "porte",
+                "chemise",
+                "bleue"
+            ],
+            "answer": "bleue"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Les fleurs sont jolies' ?",
+            "options": [
+                "Les",
+                "fleurs",
+                "sont",
+                "jolies"
+            ],
+            "answer": "jolies"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Ce film est intéressant' ?",
+            "options": [
+                "Ce",
+                "film",
+                "est",
+                "intéressant"
+            ],
+            "answer": "intéressant"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Ma sœur a une robe rouge' ?",
+            "options": [
+                "Ma",
+                "sœur",
+                "robe",
+                "rouge"
+            ],
+            "answer": "rouge"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le gâteau est délicieux' ?",
+            "options": [
+                "Le",
+                "gâteau",
+                "est",
+                "délicieux"
+            ],
+            "answer": "délicieux"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Son sac est lourd' ?",
+            "options": [
+                "Son",
+                "sac",
+                "est",
+                "lourd"
+            ],
+            "answer": "lourd"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Cette voiture est rapide' ?",
+            "options": [
+                "Cette",
+                "voiture",
+                "est",
+                "rapide"
+            ],
+            "answer": "rapide"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Les enfants sont joyeux' ?",
+            "options": [
+                "Les",
+                "enfants",
+                "sont",
+                "joyeux"
+            ],
+            "answer": "joyeux"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le ciel est bleu aujourd’hui' ?",
+            "options": [
+                "Le",
+                "ciel",
+                "est",
+                "bleu"
+            ],
+            "answer": "bleu"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Ce garçon est intelligent' ?",
+            "options": [
+                "Ce",
+                "garçon",
+                "est",
+                "intelligent"
+            ],
+            "answer": "intelligent"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le vieil homme marche lentement' ?",
+            "options": [
+                "Le",
+                "vieil",
+                "homme",
+                "marche"
+            ],
+            "answer": "vieil"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Nous avons une classe calme' ?",
+            "options": [
+                "Nous",
+                "avons",
+                "classe",
+                "calme"
+            ],
+            "answer": "calme"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Son frère est fort en maths' ?",
+            "options": [
+                "Son",
+                "frère",
+                "est",
+                "fort"
+            ],
+            "answer": "fort"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Ma tante a une belle maison' ?",
+            "options": [
+                "Ma",
+                "tante",
+                "belle",
+                "maison"
+            ],
+            "answer": "belle"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le vent est froid en hiver' ?",
+            "options": [
+                "Le",
+                "vent",
+                "est",
+                "froid"
+            ],
+            "answer": "froid"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Le chat a un pelage doux' ?",
+            "options": [
+                "Le",
+                "chat",
+                "pelage",
+                "doux"
+            ],
+            "answer": "doux"
+        },
+        {
+            "question": "Quel est l'adjectif dans la phrase : 'Les montagnes sont hautes' ?",
+            "options": [
+                "Les",
+                "montagnes",
+                "sont",
+                "hautes"
+            ],
+            "answer": "hautes"
+        }
+    ],
+    "verbes": [
+        {
+            "question": "Quel est le verbe dans la phrase : 'Paul mange une pomme' ?",
+            "options": [
+                "Paul",
+                "mange",
+                "une",
+                "pomme"
+            ],
+            "answer": "mange"
+        },
+        {
+            "question": "Quel est le verbe dans cette phrase : 'Nous courons dans le parc' ?",
+            "options": [
+                "Nous",
+                "courons",
+                "dans",
+                "parc"
+            ],
+            "answer": "courons"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Elle chante une chanson' ?",
+            "options": [
+                "Elle",
+                "chante",
+                "une",
+                "chanson"
+            ],
+            "answer": "chante"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Tu écoutes de la musique' ?",
+            "options": [
+                "Tu",
+                "écoutes",
+                "de",
+                "musique"
+            ],
+            "answer": "écoutes"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Les enfants jouent au ballon' ?",
+            "options": [
+                "Les",
+                "enfants",
+                "jouent",
+                "ballon"
+            ],
+            "answer": "jouent"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Nous lisons un livre' ?",
+            "options": [
+                "Nous",
+                "lisons",
+                "un",
+                "livre"
+            ],
+            "answer": "lisons"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Le chat dort sur le canapé' ?",
+            "options": [
+                "chat",
+                "dort",
+                "sur",
+                "canapé"
+            ],
+            "answer": "dort"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Je regarde la télévision' ?",
+            "options": [
+                "Je",
+                "regarde",
+                "la",
+                "télévision"
+            ],
+            "answer": "regarde"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Il écrit une lettre' ?",
+            "options": [
+                "Il",
+                "écrit",
+                "une",
+                "lettre"
+            ],
+            "answer": "écrit"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Vous parlez trop fort' ?",
+            "options": [
+                "Vous",
+                "parlez",
+                "trop",
+                "fort"
+            ],
+            "answer": "parlez"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Les oiseaux volent dans le ciel' ?",
+            "options": [
+                "Les",
+                "oiseaux",
+                "volent",
+                "ciel"
+            ],
+            "answer": "volent"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Pierre et Sophie dessinent un arbre' ?",
+            "options": [
+                "Pierre",
+                "Sophie",
+                "dessinent",
+                "arbre"
+            ],
+            "answer": "dessinent"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Je nage dans la piscine' ?",
+            "options": [
+                "Je",
+                "nage",
+                "dans",
+                "piscine"
+            ],
+            "answer": "nage"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Le soleil brille dans le ciel' ?",
+            "options": [
+                "Le",
+                "soleil",
+                "brille",
+                "ciel"
+            ],
+            "answer": "brille"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Nous écoutons le professeur' ?",
+            "options": [
+                "Nous",
+                "écoutons",
+                "le",
+                "professeur"
+            ],
+            "answer": "écoutons"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Le bébé pleure dans son lit' ?",
+            "options": [
+                "bébé",
+                "pleure",
+                "dans",
+                "lit"
+            ],
+            "answer": "pleure"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Mon père conduit une voiture rouge' ?",
+            "options": [
+                "Mon",
+                "père",
+                "conduit",
+                "voiture"
+            ],
+            "answer": "conduit"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Elles dansent sur la scène' ?",
+            "options": [
+                "Elles",
+                "dansent",
+                "sur",
+                "scène"
+            ],
+            "answer": "dansent"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Les enfants rient aux éclats' ?",
+            "options": [
+                "Les",
+                "enfants",
+                "rient",
+                "éclats"
+            ],
+            "answer": "rient"
+        },
+        {
+            "question": "Quel est le verbe dans la phrase : 'Nous faisons un gâteau au chocolat' ?",
+            "options": [
+                "Nous",
+                "faisons",
+                "gâteau",
+                "chocolat"
+            ],
+            "answer": "faisons"
+        }
+    ]
+}}
