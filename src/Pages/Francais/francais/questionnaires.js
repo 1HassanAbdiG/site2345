@@ -206,7 +206,7 @@ const Questionnaire = () => {
 
   const handleCheckboxChange = (question, choice, checked) => {
     const newAnswers = { ...answers };
-    
+
     if (checked) {
       // Ajouter le choix à la liste des réponses si la case est cochée
       newAnswers[question] = [...(newAnswers[question] || []), choice];
@@ -214,10 +214,10 @@ const Questionnaire = () => {
       // Retirer le choix de la liste des réponses si la case est décochée
       newAnswers[question] = newAnswers[question].filter(item => item !== choice);
     }
-    
+
     setAnswers(newAnswers);
   };
-  
+
   const renderQuestion = (question, number) => {
     switch (question.type) {
       case 'trueFalse':
@@ -237,46 +237,46 @@ const Questionnaire = () => {
             </FormControl>
           </Box>
         );
-        case 'multipleChoice':
-          return (
-            <Box key={question.question} my={2}>
-              <FormControl fullWidth>
-                <FormLabel>{number}. {question.question}</FormLabel>
-                <Select
-                  value={answers[question.question] || ''}
-                  onChange={(e) => handleChange(question.question, e.target.value)}
-                >
-                  <MenuItem value=""><em>Sélectionnez une option</em></MenuItem>
-                  {question.choices.map((choice) => (
-                    <MenuItem key={choice} value={choice}>{choice}</MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
-            </Box>
-          );
-        
-          case 'checkbox':
-            return (
-              <Box key={question.question} my={2}>
-                <FormControl component="fieldset" fullWidth>
-                  <FormLabel component="legend">{number}. {question.question}</FormLabel>
-                  {question.choices.map((choice) => (
-                    <FormControlLabel
-                      key={choice}
-                      control={
-                        <Checkbox
-                          checked={answers[question.question]?.includes(choice) || false}
-                          onChange={(e) => handleCheckboxChange(question.question, choice, e.target.checked)}
-                          name={choice}
-                        />
-                      }
-                      label={choice}
+      case 'multipleChoice':
+        return (
+          <Box key={question.question} my={2}>
+            <FormControl fullWidth>
+              <FormLabel>{number}. {question.question}</FormLabel>
+              <Select
+                value={answers[question.question] || ''}
+                onChange={(e) => handleChange(question.question, e.target.value)}
+              >
+                <MenuItem value=""><em>Sélectionnez une option</em></MenuItem>
+                {question.choices.map((choice) => (
+                  <MenuItem key={choice} value={choice}>{choice}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
+        );
+
+      case 'checkbox':
+        return (
+          <Box key={question.question} my={2}>
+            <FormControl component="fieldset" fullWidth>
+              <FormLabel component="legend">{number}. {question.question}</FormLabel>
+              {question.choices.map((choice) => (
+                <FormControlLabel
+                  key={choice}
+                  control={
+                    <Checkbox
+                      checked={answers[question.question]?.includes(choice) || false}
+                      onChange={(e) => handleCheckboxChange(question.question, choice, e.target.checked)}
+                      name={choice}
                     />
-                  ))}
-                </FormControl>
-              </Box>
-            );     
-        
+                  }
+                  label={choice}
+                />
+              ))}
+            </FormControl>
+          </Box>
+        );
+
       case 'shortAnswer':
         return (
           <Box key={question.question} my={2}>
@@ -358,15 +358,40 @@ const Questionnaire = () => {
           </Select>
         </FormControl>
       </Box>
-
       {data && (
-        <Box style={{ padding: "20px", border: "solid,10px red ", fontSize: "200px" }}>
-          <Typography variant="h5" style={{ color: "red", fontWeight: "bold", textAlign: "center" }}>{data.text.title}</Typography>
+        <Box style={{ padding: "20px", border: "solid 10px red", fontSize: "200px" }}>
+          <Typography
+            variant="h5"
+            style={{ color: "red", fontWeight: "bold", textAlign: "center" }}
+          >
+            {data.text.title}
+          </Typography>
+
+          {/* Vérification de l'image */}
+          {data.text.url && (
+            <img
+              src={data.text.url}  // Utilisation correcte du chemin
+              alt="Illustration"
+              style={{ display: "block", margin: "20px auto", width: "50%", borderRadius: "8px" }}
+              onError={(e) => {
+                e.target.style.display = "none";
+                console.error("Image non trouvée :", data.text.url);
+              }}
+            />
+          )}
+
+
           {data.text.content.map((line, idx) => (
-            <Typography key={idx}>{line}</Typography>
+            <Typography
+              key={idx}
+              dangerouslySetInnerHTML={{ __html: line }}
+              style={{ fontSize: "1.2rem" }}
+            />
           ))}
         </Box>
       )}
+
+
 
       {/* Questionnaire */}
       {data && (

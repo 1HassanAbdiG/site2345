@@ -1,96 +1,98 @@
 {
-    "text": {
-      "title": "Des jardins de papillons",
-      "content": [
-        "Si tu aimes les papillons, tu peux leur créer un jardin.",
-        "Pour créer un jardin aux papillons, choisis un endroit ensoleillé. Il doit y avoir peu ou pas de vent à cet endroit.",
-        "Deuxièmement, choisis des fleurs à planter dans ton jardin. Les papillons aiment les fleurs roses et blanches aux larges pétales plats.",
-        "Troisièmement, plante les fleurs dans ton jardin.",
-        "Quatrièmement, place un plat d’eau peu profond près des fleurs. Garde toujours ton plat rempli d’eau.",
-        "Tout l’été, de beaux papillons aux couleurs vives viendront dans ton jardin."
-      ]
+  "text": {
+    "title": "Des jardins de papillons",
+   
+    "content": [
+      "Si tu aimes les papillons, tu peux leur créer un jardin.",
+      "Pour créer un jardin aux papillons, choisis un endroit ensoleillé. Il doit y avoir peu ou pas de vent à cet endroit.",
+      "Deuxièmement, choisis des fleurs à planter dans ton jardin. Les papillons aiment les fleurs roses et blanches aux larges pétales plats.",
+      "Troisièmement, plante les fleurs dans ton jardin.",
+      "Quatrièmement, place un plat d’eau peu profond près des fleurs. Garde toujours ton plat rempli d’eau.",
+      "Tout l’été, de beaux papillons aux couleurs vives viendront dans ton jardin."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Les papillons préfèrent les endroits venteux.",
+      "correctAnswer": false
     },
-    "questions": [
-      {
-        "type": "trueFalse",
-        "question": "Les papillons préfèrent les endroits venteux.",
-        "correctAnswer": false
-      },
-      {
-        "type": "trueFalse",
-        "question": "Les papillons aiment les fleurs roses et blanches.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Un jardin aux papillons doit être placé à l’ombre.",
-        "correctAnswer": false
-      },
-      {
-        "type": "trueFalse",
-        "question": "Il faut mettre de l’eau près des fleurs pour attirer les papillons.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Les papillons ne viennent que pendant l’hiver.",
-        "correctAnswer": false
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Pourquoi faut-il choisir un endroit ensoleillé ?",
-        "choices": [
-          "Parce que les papillons aiment la chaleur.",
-          "Parce que les papillons aiment l’ombre.",
-          "Parce que les papillons ne supportent pas la lumière.",
-          "Parce que le vent attire les papillons."
-        ],
-        "correctAnswer": "Parce que les papillons aiment la chaleur."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quels types de fleurs attirent les papillons ?",
-        "choices": [
-          "Les fleurs roses et blanches aux pétales plats.",
-          "Les fleurs bleues et violettes.",
-          "Les fleurs noires et grises.",
-          "Toutes les fleurs, peu importe la couleur."
-        ],
-        "correctAnswer": "Les fleurs roses et blanches aux pétales plats."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Pourquoi faut-il garder le plat d’eau rempli ?",
-        "choices": [
-          "Pour que les papillons puissent boire.",
-          "Pour arroser les fleurs.",
-          "Pour éloigner les papillons.",
-          "Pour que l’eau ne sèche pas les plantes."
-        ],
-        "correctAnswer": "Pour que les papillons puissent boire."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Quand les papillons viendront-ils dans le jardin ?",
-        "choices": [
-          "Tout l’été.",
-          "Toute l’année.",
-          "Seulement en hiver.",
-          "Seulement au printemps."
-        ],
-        "correctAnswer": "Tout l’été."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Pourquoi planter des fleurs dans un jardin aux papillons ?",
-        "choices": [
-          "Parce que les papillons se nourrissent du nectar des fleurs.",
-          "Parce que les papillons aiment manger les feuilles.",
-          "Parce que les fleurs repoussent les papillons.",
-          "Parce que les papillons dorment sur les fleurs."
-        ],
-        "correctAnswer": "Parce que les papillons se nourrissent du nectar des fleurs."
-      },{
+    {
+      "type": "trueFalse",
+      "question": "Les papillons aiment les fleurs roses et blanches.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un jardin aux papillons doit être placé à l’ombre.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Il faut mettre de l’eau près des fleurs pour attirer les papillons.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les papillons ne viennent que pendant l’hiver.",
+      "correctAnswer": false
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Pourquoi faut-il choisir un endroit ensoleillé ?",
+      "choices": [
+        "Parce que les papillons aiment la chaleur.",
+        "Parce que les papillons aiment l’ombre.",
+        "Parce que les papillons ne supportent pas la lumière.",
+        "Parce que le vent attire les papillons."
+      ],
+      "correctAnswer": "Parce que les papillons aiment la chaleur."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quels types de fleurs attirent les papillons ?",
+      "choices": [
+        "Les fleurs roses et blanches aux pétales plats.",
+        "Les fleurs bleues et violettes.",
+        "Les fleurs noires et grises.",
+        "Toutes les fleurs, peu importe la couleur."
+      ],
+      "correctAnswer": "Les fleurs roses et blanches aux pétales plats."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Pourquoi faut-il garder le plat d’eau rempli ?",
+      "choices": [
+        "Pour que les papillons puissent boire.",
+        "Pour arroser les fleurs.",
+        "Pour éloigner les papillons.",
+        "Pour que l’eau ne sèche pas les plantes."
+      ],
+      "correctAnswer": "Pour que les papillons puissent boire."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quand les papillons viendront-ils dans le jardin ?",
+      "choices": [
+        "Tout l’été.",
+        "Toute l’année.",
+        "Seulement en hiver.",
+        "Seulement au printemps."
+      ],
+      "correctAnswer": "Tout l’été."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Pourquoi planter des fleurs dans un jardin aux papillons ?",
+      "choices": [
+        "Parce que les papillons se nourrissent du nectar des fleurs.",
+        "Parce que les papillons aiment manger les feuilles.",
+        "Parce que les fleurs repoussent les papillons.",
+        "Parce que les papillons dorment sur les fleurs."
+      ],
+      "correctAnswer": "Parce que les papillons se nourrissent du nectar des fleurs."
+    },
+    {
       "type": "multipleChoice",
       "question": "Ce texte porte surtout sur :",
       "choices": [
@@ -123,90 +125,89 @@
       ],
       "correctAnswer": "Plante les fleurs."
     }
-    ],
-    "vocabularyTrueFalse": [
-      {
-        "type": "trueFalse",
-        "question": "Un papillon est un insecte.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Un pétale est une partie d’une fleur.",
-        "correctAnswer": true
-      },
-      {
-        "type": "trueFalse",
-        "question": "Un jardin est un endroit où l’on range des outils.",
-        "correctAnswer": false
-      },
-      {
-        "type": "trueFalse",
-        "question": "L’ombre est l’endroit le plus ensoleillé d’un jardin.",
-        "correctAnswer": false
-      },
-      {
-        "type": "trueFalse",
-        "question": "L’été est la saison la plus froide.",
-        "correctAnswer": false
-      }
-    ],
-    "vocabularyQCM": [
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie le mot 'jardin' ?",
-        "choices": [
-          "Un lieu avec des arbres et des fleurs.",
-          "Un endroit pour ranger les voitures.",
-          "Un type de papillon.",
-          "Un outil de jardinage."
-        ],
-        "correctAnswer": "Un lieu avec des arbres et des fleurs."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que veut dire 'ensoleillé' ?",
-        "choices": [
-          "Où il y a beaucoup de soleil.",
-          "Où il y a beaucoup de vent.",
-          "Où il y a beaucoup d’eau.",
-          "Où il y a de l’ombre."
-        ],
-        "correctAnswer": "Où il y a beaucoup de soleil."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie 'pétale' ?",
-        "choices": [
-          "Une partie d’une fleur.",
-          "Un type d’insecte.",
-          "Une sorte de jardin.",
-          "Une plante verte."
-        ],
-        "correctAnswer": "Une partie d’une fleur."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que veut dire 'plat' dans 'un plat d’eau peu profond' ?",
-        "choices": [
-          "Un récipient pour mettre de l’eau.",
-          "Une nourriture spéciale pour papillons.",
-          "Une fleur qui pousse en été.",
-          "Un jardin très grand."
-        ],
-        "correctAnswer": "Un récipient pour mettre de l’eau."
-      },
-      {
-        "type": "multipleChoice",
-        "question": "Que signifie 'vent' dans le texte ?",
-        "choices": [
-          "Un mouvement de l’air.",
-          "Une plante qui pousse dans le jardin.",
-          "Une fleur blanche.",
-          "Un bruit fait par les papillons."
-        ],
-        "correctAnswer": "Un mouvement de l’air."
-      }
-    ]
-  }
-  
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Un papillon est un insecte.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un pétale est une partie d’une fleur.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un jardin est un endroit où l’on range des outils.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "L’ombre est l’endroit le plus ensoleillé d’un jardin.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "L’été est la saison la plus froide.",
+      "correctAnswer": false
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie le mot 'jardin' ?",
+      "choices": [
+        "Un lieu avec des arbres et des fleurs.",
+        "Un endroit pour ranger les voitures.",
+        "Un type de papillon.",
+        "Un outil de jardinage."
+      ],
+      "correctAnswer": "Un lieu avec des arbres et des fleurs."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que veut dire 'ensoleillé' ?",
+      "choices": [
+        "Où il y a beaucoup de soleil.",
+        "Où il y a beaucoup de vent.",
+        "Où il y a beaucoup d’eau.",
+        "Où il y a de l’ombre."
+      ],
+      "correctAnswer": "Où il y a beaucoup de soleil."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'pétale' ?",
+      "choices": [
+        "Une partie d’une fleur.",
+        "Un type d’insecte.",
+        "Une sorte de jardin.",
+        "Une plante verte."
+      ],
+      "correctAnswer": "Une partie d’une fleur."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que veut dire 'plat' dans 'un plat d’eau peu profond' ?",
+      "choices": [
+        "Un récipient pour mettre de l’eau.",
+        "Une nourriture spéciale pour papillons.",
+        "Une fleur qui pousse en été.",
+        "Un jardin très grand."
+      ],
+      "correctAnswer": "Un récipient pour mettre de l’eau."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'vent' dans le texte ?",
+      "choices": [
+        "Un mouvement de l’air.",
+        "Une plante qui pousse dans le jardin.",
+        "Une fleur blanche.",
+        "Un bruit fait par les papillons."
+      ],
+      "correctAnswer": "Un mouvement de l’air."
+    }
+  ]
+}

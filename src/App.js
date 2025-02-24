@@ -47,7 +47,7 @@ import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 // Importation des jeux éducatifs
 import ConjugationGame from './Pages/Jeu/conjuguaison/ver.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
-import DictationPage from './Pages/VIDEO/video_dictée.jsx';
+//import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 
 const App = () => {
   return (
@@ -95,7 +95,7 @@ const App = () => {
 
           {/* Jeux éducatifs */}
           <Route path="/jeu/jeu-conjugaison" element={<ConjugationGame />} />
-          <Route path="/jeu/jeu-grammaire" element={< DictationPage />} />
+         {/* <Route path="/jeu/jeu-grammaire" element={< DictationPage />} />*/}
           
         </Routes>
       </div>

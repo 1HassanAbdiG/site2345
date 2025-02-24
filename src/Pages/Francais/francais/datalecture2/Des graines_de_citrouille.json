@@ -1,0 +1,190 @@
+{
+    "text": {
+      "title": "Des graines de citrouille",
+      "url": "/imag/citrouille.jpg",
+      "content": [
+        "<br />",
+        "Voici une recette amusante pour faire des graines de citrouille grillées.",
+        "Demande l’aide d’un ou d’une adulte pour le four.",
+        "<br />",
+        " <strong>Tu as besoin de : </strong>",
+        "<br />",
+        "1. Une grosse citrouille.",
+        "2. Une cuillère à café de sel.",
+        "<br />",
+        "\tRetire les graines de la citrouille à l’aide d’une cuillère. (Tu peux avoir à retirer certaines graines à la main.)",
+        "Sépare les graines de la chair de citrouille. Rince les graines. Étends les graines sur une plaque à biscuits.",
+        "Saupoudre-les de sel.",
+        "<br />",
+        "Fais rôtir les graines à 175 °C (350 °F). Après quelques minutes, retourne les graines.",
+        "Lorsqu’elles sont légèrement dorées, sors-les du four. Elles sont bonnes à manger chaudes ou froides."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "On peut manger les graines de citrouille grillées chaudes ou froides.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Il ne faut pas rincer les graines avant de les faire griller.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les graines de citrouille doivent être saupoudrées de sucre.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Il faut demander l’aide d’un adulte pour utiliser le four.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les graines de citrouille doivent être cuites à 200°C.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que faut-il faire avant de mettre les graines au four ?",
+        "choices": [
+          "Les rincer et les étendre sur une plaque.",
+          "Les mettre directement dans le four.",
+          "Les mélanger avec de la farine.",
+          "Les congeler."
+        ],
+        "correctAnswer": "Les rincer et les étendre sur une plaque."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "À quelle température faut-il cuire les graines ?",
+        "choices": [
+          "175°C.",
+          "200°C.",
+          "100°C.",
+          "150°C."
+        ],
+        "correctAnswer": "175°C."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que faut-il saupoudrer sur les graines avant la cuisson ?",
+        "choices": [
+          "Du sel.",
+          "Du sucre.",
+          "De la farine.",
+          "De la cannelle."
+        ],
+        "correctAnswer": "Du sel."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Comment savoir que les graines sont prêtes ?",
+        "choices": [
+          "Elles sont légèrement dorées.",
+          "Elles deviennent rouges.",
+          "Elles gonflent beaucoup.",
+          "Elles fondent dans le four."
+        ],
+        "correctAnswer": "Elles sont légèrement dorées."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi faut-il retourner les graines pendant la cuisson ?",
+        "choices": [
+          "Pour qu’elles dorent uniformément.",
+          "Pour qu’elles refroidissent plus vite.",
+          "Pour qu’elles ne collent pas à la plaque.",
+          "Pour leur donner du goût."
+        ],
+        "correctAnswer": "Pour qu’elles dorent uniformément."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Une citrouille est un légume.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Une plaque à biscuits est une assiette en verre.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Rôtir signifie cuire à haute température.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Saupoudrer signifie verser une grande quantité de sel.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Légèrement doré signifie légèrement bruni par la cuisson.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'rôtir' ?",
+        "choices": [
+          "Cuire à haute température.",
+          "Mélanger des ingrédients.",
+          "Couper en petits morceaux.",
+          "Laisser tremper dans l’eau."
+        ],
+        "correctAnswer": "Cuire à haute température."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'étendre' dans le texte ?",
+        "choices": [
+          "Répartir sur une surface.",
+          "Faire chauffer à feu doux.",
+          "Plonger dans l’eau.",
+          "Ajouter du sucre."
+        ],
+        "correctAnswer": "Répartir sur une surface."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'saupoudrer' ?",
+        "choices": [
+          "Mettre une petite quantité sur une surface.",
+          "Plonger dans un liquide.",
+          "Faire cuire dans de l’eau bouillante.",
+          "Écraser en petits morceaux."
+        ],
+        "correctAnswer": "Mettre une petite quantité sur une surface."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'légèrement doré' ?",
+        "choices": [
+          "Un peu coloré par la cuisson.",
+          "Complètement brûlé.",
+          "Totalement blanc.",
+          "Mou et humide."
+        ],
+        "correctAnswer": "Un peu coloré par la cuisson."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'retourner' dans le texte ?",
+        "choices": [
+          "Changer de côté.",
+          "Mélanger avec de l’eau.",
+          "Écraser avec une fourchette.",
+          "Ajouter du sel."
+        ],
+        "correctAnswer": "Changer de côté."
+      }
+    ]
+  }
+  
