@@ -21,6 +21,15 @@ import {
   Checkbox,
 } from "@mui/material";
 
+// Fonction pour mélanger les choix
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 // Dynamically require JSON files for different difficulty levels
 const requireJsonFiles = {
   easy: require.context("./datalecture1", false, /\.json$/),
@@ -30,34 +39,17 @@ const requireJsonFiles = {
 
 const Questionnaire = () => {
   const [difficulty, setDifficulty] = useState("easy");
-  //const [lectures, setLectures] = useState([]);
   const [selectedFile, setSelectedFile] = useState("");
   const [data, setData] = useState(null);
   const [titles, setTitles] = useState({});
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [results, setResults] = useState([]);
-  //const [loading, setLoading] = useState(false);
+  const [summary, setSummary] = useState([]);
+  const [validationCount, setValidationCount] = useState(0); // Ajout du compteur de validations
   const [error, setError] = useState(null);
 
-  /* useEffect(() => {
-     const loadLectures = () => {
-       try {
-         const files = requireJsonFiles[difficulty].keys().map((key) =>
-           requireJsonFiles[difficulty](key)
-         );
-         setLectures(files);
-         
-       } catch (err) {
-         setError("Error loading lectures.");
-       }
-     };
-     loadLectures();
-   
-   }, [difficulty]);*/
-
   useEffect(() => {
-    handleReset()
     const loadTitles = () => {
       try {
         let loadedTitles = {};
@@ -68,42 +60,28 @@ const Questionnaire = () => {
         });
         setTitles(loadedTitles);
 
+
       } catch (err) {
         setError("Error loading titles.");
       }
     };
     loadTitles();
-
   }, [difficulty]);
 
-  /*useEffect(() => {
-  
-    if (selectedFile) {
-      setLoading(true);
-      try {
-        const jsonData = requireJsonFiles[difficulty](`./${selectedFile}.json`);
-        setData(jsonData);
-        
-       
-        
-      
-       
-      } catch (err) {
-        setLoading(true);
-      } finally {
-        setLoading(false);
-    
-      }
-    }
-  }, [selectedFile, difficulty]);*/
-
-
-  // Dynamically load file content when the user selects one
+  // Chargez les données du fichier et mélangez les choix
   useEffect(() => {
     const loadFileData = async () => {
       if (selectedFile) {
         try {
           const jsonData = requireJsonFiles[difficulty](`./${selectedFile}.json`);
+
+          // Mélanger les choix pour chaque type de question
+          jsonData.questions.forEach((question) => {
+            if (question.type === 'multipleChoice' || question.type === 'checkbox') {
+              question.choices = shuffleArray(question.choices);
+            }
+          });
+
           setData(jsonData);
         } catch (err) {
           setError("Could not load the selected file.");
@@ -116,10 +94,7 @@ const Questionnaire = () => {
   const handleChange = (question, value) => {
     setAnswers((prev) => ({ ...prev, [question]: value }));
     setSelectedFile("");
-
-
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     let totalScore = 0;
@@ -153,7 +128,21 @@ const Questionnaire = () => {
 
     setScore(totalScore);
     setResults(resultDetails);
+    setValidationCount((prevCount) => prevCount + 1);
+
+    // Get the current date and time
+    const validationDate = new Date().toLocaleString();
+
+    // Update the summary with the title and score
+    const currentSummary = {
+      title: data.text.title,
+      score: totalScore,
+      validationDate: validationDate,
+    };
+    setSummary((prev) => [...prev, currentSummary]);
   };
+
+
 
   const handleReset = () => {
     setAnswers({});
@@ -161,6 +150,13 @@ const Questionnaire = () => {
     setResults([]);
     setSelectedFile("");
     setData(null);
+
+  };
+  const handleReset_resutat = () => {
+    setAnswers({});
+    setScore(null);
+    setResults([]);
+
   };
 
   const renderQuestionsByType = (type) => {
@@ -184,11 +180,13 @@ const Questionnaire = () => {
     const questionTypes = {
       vocabularyTrueFalse: 'Vocabulaire Vrai/Faux',
       vocabularyQCM: 'Vocabulaire QCM',
-      conjugationQCM: 'Conjugaison QCM', // Correction ici pour afficher "Conjugaison QCM"
+      conjugationQCM: 'Conjugaison QCM',
+      shortAnswer: 'Réponse Courte',
+
     };
 
     if (!data[type] || data[type].length === 0) {
-      return null; // Return null or some fallback UI if no data
+      return null;
     }
 
     return (
@@ -197,9 +195,9 @@ const Questionnaire = () => {
           variant="h6"
           gutterBottom
           style={{ color: '#ffffff', textAlign: 'center', border: 'solid 2px #000', background: '#4a90e2', padding: '10px', fontSize: '20px', fontWeight: 'bold' }}>
-          {questionTypes[type]} {/* Displays the title based on the question type */}
+          {questionTypes[type]}
         </Typography>
-        {data[type].map((question, index) => renderQuestion(question, index + 1))} {/* Renders the questions of the specified type */}
+        {data[type].map((question, index) => renderQuestion(question, index + 1))}
       </React.Fragment>
     );
   };
@@ -208,10 +206,8 @@ const Questionnaire = () => {
     const newAnswers = { ...answers };
 
     if (checked) {
-      // Ajouter le choix à la liste des réponses si la case est cochée
       newAnswers[question] = [...(newAnswers[question] || []), choice];
     } else {
-      // Retirer le choix de la liste des réponses si la case est décochée
       newAnswers[question] = newAnswers[question].filter(item => item !== choice);
     }
 
@@ -295,8 +291,6 @@ const Questionnaire = () => {
     }
   };
 
-
-
   if (error) {
     return <Typography color="error">{error}</Typography>;
   }
@@ -318,34 +312,45 @@ const Questionnaire = () => {
           <Button
             variant={difficulty === "easy" ? "contained" : "outlined"}
             color="primary"
-            onClick={() => setDifficulty("easy")}
+            onClick={() => {
+              setDifficulty("easy");
+              handleReset(); // Reset relevant states
+            }}
           >
             Niveau Facile
           </Button>
           <Button
             variant={difficulty === "medium" ? "contained" : "outlined"}
             color="primary"
-            onClick={() => setDifficulty("medium")}
+            onClick={() => {
+              setDifficulty("medium");
+              handleReset(); // Reset relevant states
+            }}
           >
             Niveau Intermédiaire
           </Button>
           <Button
             variant={difficulty === "hard" ? "contained" : "outlined"}
             color="primary"
-            onClick={() => setDifficulty("hard")}
+            onClick={() => {
+              setDifficulty("hard");
+              handleReset(); // Reset relevant states
+            }}
+
           >
             Niveau Avancé
           </Button>
-
         </Box>
       </Box>
-
 
       <Box mb={3}>
         <FormControl fullWidth>
           <Select
             value={selectedFile}
-            onChange={(e) => setSelectedFile(e.target.value)}
+            onChange={(e) => {
+              setSelectedFile(e.target.value);
+              handleReset_resutat(); // Reset answers when changing the selected file
+            }}
           >
             <MenuItem value="" disabled>
               Sélectionnez un texte
@@ -370,7 +375,7 @@ const Questionnaire = () => {
           {/* Vérification de l'image */}
           {data.text.url && (
             <img
-              src={data.text.url}  // Utilisation correcte du chemin
+              src={data.text.url}
               alt="Illustration"
               style={{ display: "block", margin: "20px auto", width: "50%", borderRadius: "8px" }}
               onError={(e) => {
@@ -379,7 +384,6 @@ const Questionnaire = () => {
               }}
             />
           )}
-
 
           {data.text.content.map((line, idx) => (
             <Typography
@@ -391,8 +395,6 @@ const Questionnaire = () => {
         </Box>
       )}
 
-
-
       {/* Questionnaire */}
       {data && (
         <Paper elevation={3} style={{ padding: '20px' }}>
@@ -402,11 +404,10 @@ const Questionnaire = () => {
             {renderQuestionsByType('trueFalse')}
             {renderQuestionsByType('multipleChoice')}
             {renderQuestionsByType('shortAnswer')}
-
             {renderVocabularyQuestions('vocabularyTrueFalse')}
             {renderVocabularyQuestions('vocabularyQCM')}
             {renderVocabularyQuestions('conjugationQCM')}
-
+            {renderVocabularyQuestions('shortAnswer')}
 
             <Box mt={4}>
               <Button variant="contained" color="primary" type="submit" fullWidth>
@@ -416,13 +417,13 @@ const Questionnaire = () => {
                 Réinitialiser
               </Button>
             </Box>
+
           </form>
 
           {/* Display results */}
           {score !== null && (
             <Box mt={4}>
-              <Typography variant="h6">Votre score : {score} sur {results.length}
-
+              <Typography variant="h6">Votre score : {score} sur {results.length} (Validé {validationCount} fois)
               </Typography>
               <Typography variant="subtitle1" color="red">
                 La partie que tu as rédigée, l'enseignant doit vérifier si c'est correct.
@@ -444,6 +445,32 @@ const Questionnaire = () => {
                         <TableCell>{result.userAnswer}</TableCell>
                         <TableCell>{String(result.correctAnswer)}</TableCell>
                         <TableCell>{result.isCorrect ? '✔️' : '❌'}</TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+
+           
+              {/* Summary Table */}
+              <Typography variant="h5" gutterBottom style={{ marginTop: '20px' }}>
+                Récapitulatif des études
+              </Typography>
+              <TableContainer component={Paper}>
+                <Table>
+                  <TableHead>
+                    <TableRow>
+                      <TableCell>Titre</TableCell>
+                      <TableCell>Score Obtenu</TableCell>
+                      <TableCell>Date et Heure de Validation</TableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    {summary.map((item, index) => (
+                      <TableRow key={index}>
+                        <TableCell>{item.title}</TableCell>
+                        <TableCell>{item.score}</TableCell>
+                        <TableCell>{item.validationDate}</TableCell> {/* Updated to show validation date */}
                       </TableRow>
                     ))}
                   </TableBody>

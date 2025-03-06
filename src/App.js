@@ -45,7 +45,10 @@ import InteractiveBook7 from './Pages/Francais/TextAudio/Bons_Amis/tex10.js';
 import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 
 // Importation des jeux éducatifs
-import ConjugationGame from './Pages/Jeu/conjuguaison/ver.jsx';
+//import ConjugationGame from './Pages/Jeu/conjuguaison/ver.jsx';
+//import Conj from './Pages/Francais/conjuguaison/conj.jsx';
+import Multip from './Pages/maths/multip.jsx';
+import About from './Pages/About.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 
@@ -61,6 +64,7 @@ const App = () => {
         <Routes>
           {/* Routes principales */}
           <Route path="/" element={<Accueil />} />
+          <Route path="/about" element={<About />} />
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
           <Route path="/jeux" element={<JeuEdu />} />
@@ -94,9 +98,9 @@ const App = () => {
           <Route path="/exerciseSuite" element={<Suite />} />
 
           {/* Jeux éducatifs */}
-          <Route path="/jeu/jeu-conjugaison" element={<ConjugationGame />} />
-         {/* <Route path="/jeu/jeu-grammaire" element={< DictationPage />} />*/}
-          
+          <Route path="/jeu/jeu-conjugaison" element={<Multip />} />
+          {/* <Route path="/jeu/jeu-grammaire" element={< DictationPage />} />*/}
+
         </Routes>
       </div>
 

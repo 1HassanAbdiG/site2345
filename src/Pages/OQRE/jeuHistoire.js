@@ -3,7 +3,7 @@ import PhraseList from './PhraseList';
 import Buttons from './Buttons';
 import Message from './Message';
 import Stats from './Stats';
-import styles from './Jeuhistoire.module.css'; // Import CSS Module
+import styles from './Jeuhistoire.module.css'; // Assurez-vous que votre fichier CSS comprend les nouvelles classes
 import storiesData from './phrases.json';
 
 const shuffleArray = (array) => {
@@ -14,6 +14,7 @@ const shuffleArray = (array) => {
 };
 
 const Jeuhistoire = () => {
+  const [selectedStoryIndex, setSelectedStoryIndex] = useState(0);
   const [selectedStory, setSelectedStory] = useState(storiesData.stories[0].phrases);
   const [phrases, setPhrases] = useState([]);
   const [attempts, setAttempts] = useState(0);
@@ -21,30 +22,31 @@ const Jeuhistoire = () => {
   const [message, setMessage] = useState('');
   const [messageType, setMessageType] = useState('');
   const [showInstructions, setShowInstructions] = useState(true);
-  const [showReadStoryButton, setShowReadStoryButton] = useState(false); // Ajouter un état pour afficher le bouton
-  const [isStoryRead, setIsStoryRead] = useState(false); // Pour gérer l'affichage de l'histoire
+  const [showReadStoryButton, setShowReadStoryButton] = useState(false);
+  const [isStoryRead, setIsStoryRead] = useState(false);
 
-  // Fonction de réinitialisation complète lorsque l'utilisateur choisit une nouvelle histoire
   const handleStoryChange = (event) => {
-    const storyIndex = event.target.value;
-    
-    // Réinitialiser l'état
+    const storyIndex = parseInt(event.target.value);
+    setSelectedStoryIndex(storyIndex);
     setSelectedStory(storiesData.stories[storyIndex].phrases);
-    setAttempts(0);  // Réinitialiser les tentatives
-    setSuccesses(0); // Réinitialiser les réussites
-    setMessage('');  // Vider les messages
-    setMessageType(''); // Réinitialiser le type de message
-    setShowReadStoryButton(false);  // Masquer le bouton de lecture de l'histoire
-    setIsStoryRead(false); // Masquer l'histoire lue
-    setShowInstructions(true); // Réafficher les instructions
+    
+    resetGame();
 
-    // Mélanger les phrases de la nouvelle histoire sélectionnée
     const shuffledPhrases = shuffleArray(storiesData.stories[storyIndex].phrases);
     setPhrases(shuffledPhrases);
   };
 
+  const resetGame = () => {
+    setAttempts(0);
+    setSuccesses(0);
+    setMessage('');
+    setMessageType('');
+    setShowReadStoryButton(false);
+    setIsStoryRead(false);
+    setShowInstructions(true);
+  };
+
   useEffect(() => {
-    // Lors de l'initialisation de l'application, mélanger les phrases de la première histoire
     const shuffledPhrases = shuffleArray(selectedStory);
     setPhrases(shuffledPhrases);
   }, [selectedStory]);
@@ -75,7 +77,7 @@ const Jeuhistoire = () => {
         <p>Amuse-toi bien !</p>
       </div>);
       setMessageType('success');
-      setShowReadStoryButton(true); // Afficher le bouton pour lire l'histoire
+      setShowReadStoryButton(true);
     } else {
       setMessage(`Tu as ${correctCount} phrase${correctCount > 1 ? 's' : ''} bien placée${correctCount > 1 ? 's' : ''}. Corrige les autres phrases.`);
       setMessageType('error');
@@ -83,40 +85,35 @@ const Jeuhistoire = () => {
   };
 
   const restartGame = () => {
-    setAttempts(0);
-    setSuccesses(0);
-    setMessage('');
-    setMessageType('');
+    resetGame();
     const shuffledPhrases = shuffleArray(selectedStory);
     setPhrases(shuffledPhrases);
-    setShowReadStoryButton(false);
-    setIsStoryRead(false);
   };
 
   const startGame = () => {
-    setShowInstructions(false); // Masquer les consignes lorsque le jeu commence
+    setShowInstructions(false);
   };
 
   const readStory = () => {
-    setIsStoryRead(true); // Afficher l'histoire dans l'ordre correct
+    setIsStoryRead(true);
   };
 
   const speakStory = () => {
-    const storyText = selectedStory.join('. '); // Convertir les phrases en texte complet
+    const storyText = selectedStory.join('. ');
     const utterance = new SpeechSynthesisUtterance(storyText);
-    utterance.lang = 'fr-FR'; // Spécifier la langue (français)
-    window.speechSynthesis.speak(utterance); // Lancer la synthèse vocale
+    utterance.lang = 'fr-FR';
+    window.speechSynthesis.speak(utterance);
   };
-
 
   return (
     <div className={styles.container}>
-      <h1>Choisis ton histoire</h1>
-      <select onChange={handleStoryChange} className={styles.select}>
-        <option value="0">La journée de Marie</option>
-        <option value="1">Une journée à la plage</option>
-        <option value="2">La fête d'anniversaire</option>
-        <option value="3">Une sortie au zoo</option>
+      <h1 className={styles.title}>Choisis ton histoire</h1>
+      <select onChange={handleStoryChange} className={styles.select} value={selectedStoryIndex}>
+        {storiesData.stories.map((story, index) => (
+          <option key={index} value={index}>
+            {`Histoire ${index + 1} : ${story.title}`}
+          </option>
+        ))}
       </select>
 
       {showInstructions ? (
@@ -139,14 +136,14 @@ const Jeuhistoire = () => {
           <Stats attempts={attempts} successes={successes} />
 
           {showReadStoryButton && (
-            <>
+            <div className={styles.readStoryContainer}>
               <button className={styles.readStoryButton} onClick={readStory}>
                 Lire l'histoire
               </button>
               <button className={styles.listenStoryButton} onClick={speakStory}>
                 Écouter l'histoire
               </button>
-            </>
+            </div>
           )}
 
           {isStoryRead && (
@@ -155,14 +152,10 @@ const Jeuhistoire = () => {
               {selectedStory.map((phrase, index) => (
                 <p key={index}>{phrase}</p>
               ))}
-              
             </div>
           )}
         </>
       )}
-      <br />
-      <br />
-      <br />
       <br />
     </div>
   );

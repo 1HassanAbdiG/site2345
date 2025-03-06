@@ -1,0 +1,161 @@
+{
+    "text": {
+      "title": "In the Garden",
+      "content": [
+        "It is sunny. Thomas is working in his garden. He has set up a spot for tomatoes. Right now, he is watering his sunflowers. They are very tall, taller than him. Each sunflower has bright yellow petals. All the sunflowers are growing straight toward the sky, except one. One of the sunflowers leans toward the ground. It looks like it is talking to Lia, Thomas's dog.",
+        "Lia barks at the sunflower, but the sunflower does not respond. Lia barks again and sits down. Thomas puts down his watering can and opens the garden gate.",
+        "\"You see, Lia,\" he says, \"the flowers will not talk to you. I can do that. It’s time to have fun.\"",
+        "Lia happily wags her tail."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Thomas waters his tomatoes in the garden.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "One of the sunflowers seems to talk to Lia.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lia barks at Thomas because she wants to play.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Thomas explains to Lia that flowers cannot talk.",
+        "correctAnswer": true
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What is likely to happen next?",
+        "choices": [
+          "Lia will bark at the tomatoes.",
+          "Thomas and Lia will play.",
+          "Thomas will water his sunflowers.",
+          "Thomas will water his tomatoes."
+        ],
+        "correctAnswer": "Thomas and Lia will play."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What can you do to learn more about sunflowers?",
+        "choices": [
+          "Ask your teacher for information.",
+          "Read a book about sunflowers.",
+          "Read an invented story about a garden.",
+          "Watch today’s news."
+        ],
+        "correctAnswer": "Read a book about sunflowers."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Why does Lia bark at the sunflower?",
+        "choices": [
+          "She wants to go into the garden.",
+          "She thinks the sunflower is talking to her.",
+          "The sunflower leans toward the ground.",
+          "She is afraid of it."
+        ],
+        "correctAnswer": "She thinks the sunflower is talking to her."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "In the text, it says that the sunflowers grow straight toward the sky. What does that mean?",
+        "choices": [
+          "The flowers lean.",
+          "The flowers touch the sky.",
+          "The flowers are taller than Thomas.",
+          "The flowers grow straight up."
+        ],
+        "correctAnswer": "The flowers grow straight up."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "A sunflower has yellow petals.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Sunflower flowers are small.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lia is a dog of Thomas.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Thomas's garden is at his house.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Sunflowers always grow straight to the sky.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "What does the word 'aménager' mean?",
+        "choices": [
+          "Decorate",
+          "Organize or install something",
+          "Build a house",
+          "Do gardening"
+        ],
+        "correctAnswer": "Organize or install something."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'pétale' mean?",
+        "choices": [
+          "The stem of the flower",
+          "The colored part of the flower",
+          "The center of the flower",
+          "The leaves around the flower"
+        ],
+        "correctAnswer": "The colored part of the flower."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'pencher' mean?",
+        "choices": [
+          "Pull straight",
+          "Lean forward",
+          "Bend or incline",
+          "Fall"
+        ],
+        "correctAnswer": "Bend or incline."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'joyeusement' mean?",
+        "choices": [
+          "In a sad manner",
+          "In a calm manner",
+          "With happiness and enthusiasm",
+          "In an angry manner"
+        ],
+        "correctAnswer": "With happiness and enthusiasm."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "What does 'arroser' mean?",
+        "choices": [
+          "Fertilize the plants",
+          "Put water on the plants",
+          "Cut the plants",
+          "Plant seeds"
+        ],
+        "correctAnswer": "Put water on the plants."
+      }
+    ]
+  }

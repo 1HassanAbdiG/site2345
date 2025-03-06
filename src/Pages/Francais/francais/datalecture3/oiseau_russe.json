@@ -1,0 +1,207 @@
+{
+    "text": {
+        "title": "Des oiseaux rusés",
+        "url": "/imag/oiseau.png",
+        "content": [
+            "<br />",
+            "Un marchand avait un oiseau qu'il gardait dans une cage. Il devait aller en Inde, le pays d'où venait l'oiseau. Il a demandé à l'oiseau s'il voulait qu'il lui rapporte quelque chose de l'Inde. À la place, l'oiseau lui a demandé sa liberté, mais le marchand a refusé catégoriquement.",
+            "<br />",
+            "L'oiseau a alors demandé au marchand d'aller dans la jungle et d'informer les oiseaux sauvages de ce qui lui était arrivé. Le marchand a fait ce que l'oiseau avait demandé. Juste après avoir expliqué la situation aux oiseaux et dit qu'il le gardait dans une cage, un oiseau sauvage, tout comme celui qu'il avait à la maison, est tombé de l'arbre et a atterri sur le sol, à ses pieds.",
+            "Le marchand a pensé que l'oiseau était parent avec le sien et que la mauvaise nouvelle avait causé sa mort.",
+            "<br />",
+            "Lorsqu'il est revenu à la maison, l'oiseau lui a demandé s'il rapportait de bonnes nouvelles de l'Inde. « Non, répondit le marchand, j'ai bien peur que mes nouvelles soient mauvaises. L'un de tes parents s'est effondré et est tombé à mes pieds quand j'ai parlé de ta captivité. »",
+            "Aussitôt ces mots prononcés, l'oiseau du marchand s'est effondré, puis est tombé au fond de la cage. « La nouvelle de la mort de son parent l'a tué lui aussi », s'est dit le marchand. Tristement, il a ramassé l'oiseau et l'a déposé sur le rebord de la fenêtre.",
+            "<br />",
+            "Tout à coup, l'oiseau s'est relevé et s'est envolé vers un arbre à proximité. « Maintenant, dit l'oiseau, tu sais. Ce que tu croyais être une catastrophe pour moi était en fait une bonne nouvelle. Le message que tu as rapporté était, en réalité, une indication sur la façon de m'évader. »",
+            "Sur ces mots, l'oiseau s'est envolé en direction de son pays. Le brillant oiseau avait enfin retrouvé sa liberté."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Le marchand a décidé de libérer l'oiseau.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "L'oiseau a demandé au marchand d'informer les oiseaux sauvages.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le marchand a appris la situation de l'oiseau en discutant avec les oiseaux sauvages.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "L'oiseau dans la cage est mort en entendant la nouvelle de son parent.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "L'oiseau sauvage a été touché par la nouvelle.",
+            "correctAnswer": true
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi l'oiseau a-t-il reculé en entendant la nouvelle ?",
+            "choices": [
+                "Pour feindre sa mort.",
+                "Pour montrer qu'il avait perdu espoir.",
+                "Pour alerter le marchand.",
+                "Pour s'envoler."
+            ],
+            "correctAnswer": "Pour feindre sa mort."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel était le rôle du marchand dans l'histoire ?",
+            "choices": [
+                "Il gardait l'oiseau dans une cage.",
+                "Il était un oiseau sauvage.",
+                "Il était un autre oiseau.",
+                "Il n'avait pas de lien avec les oiseaux."
+            ],
+            "correctAnswer": "Il gardait l'oiseau dans une cage."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel message l'oiseau a-t-il voulu transmettre ?",
+            "choices": [
+                "La liberté est précieuse.",
+                "La cage est confortable.",
+                "Les oiseaux ne doivent pas voler.",
+                "Les oiseaux ne doivent pas parler."
+            ],
+            "correctAnswer": "La liberté est précieuse."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quelle était la réaction du marchand lorsqu'il a ramené la nouvelle ?",
+            "choices": [
+                "Il a été triste.",
+                "Il était heureux.",
+                "Il n'a rien ressenti.",
+                "Il était perplexe."
+            ],
+            "correctAnswer": "Il a été triste."
+        },
+        {
+            "type": "multipleChoice",
+            "question": " Ce texte est ?",
+            "choices": [
+                "une biographie",
+                "un récit",
+                "un poème en prose",
+                "une description"
+            ],
+            "correctAnswer": "un récit"
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "L'oiseau dans la cage vient d'Inde.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le marchand est un oiseau.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Les oiseaux peuvent communiquer entre eux.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un oiseau sauvage est un oiseau en captivité.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "L'oiseau a feint sa mort pour s'échapper.",
+            "correctAnswer": true
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'captivité' ?",
+            "choices": [
+                "Être libre.",
+                "Être enfermé.",
+                "Être sauvé.",
+                "Être heureux."
+            ],
+            "correctAnswer": "Être enfermé."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que veut dire 's'évader' ?",
+            "choices": [
+                "Sortir d'une situation.",
+                "Rester à l'intérieur.",
+                "Demander de l'aide.",
+                "Avoir peur."
+            ],
+            "correctAnswer": "Sortir d'une situation."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'message' dans le contexte ?",
+            "choices": [
+                "Une nouvelle à transmettre.",
+                "Une lettre.",
+                "Une promesse.",
+                "Un cri."
+            ],
+            "correctAnswer": "Une nouvelle à transmettre."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'parent' ?",
+            "choices": [
+                "Un ami.",
+                "Un proche.",
+                "Un inconnu.",
+                "Un ennemi."
+            ],
+            "correctAnswer": "Un proche."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 's'envoler' ?",
+            "choices": [
+                "Se déplacer rapidement.",
+                "Voler dans les airs.",
+                "Tomber.",
+                "Rester sur le sol."
+            ],
+            "correctAnswer": "Voler dans les airs."
+        }
+    ],
+    "shortAnswer": [
+        {
+            "type": "shortAnswer",
+            "question": "Quel événement a poussé l'oiseau à feindre sa mort?",
+            "correctAnswer": "La mort de son parent."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Comment le marchand a-t-il appris la situation de l'oiseau?",
+            "correctAnswer": "En parlant aux oiseaux sauvages."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Qu'est-ce que l'oiseau voulait vraiment quand il a demandé sa liberté?",
+            "correctAnswer": "S'échapper de la cage."
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quelle a été ta réaction lorsque l'oiseau en cage a feint sa mort pour s'échapper ? Explique pourquoi tu as ressenti cela?",
+            "correctAnswer": ""
+        }
+    ]
+}

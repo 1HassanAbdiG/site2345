@@ -1,0 +1,229 @@
+{
+    "text": {
+        "title": "Le premier pas",
+        "url": "/imag/lune.png",
+        "content": [
+            "<br />",
+            "C'est le 20 juillet 1969. Neil Armstrong marche sur la Lune. Il a voyagé trois jours pour s'y rendre. Il porte une combinaison spatiale, car il n'y a pas d'air sur la Lune. Il n'y a pas d'eau non plus. Personne n'est encore allé sur la Lune. Neil est le premier homme sur la Lune.",
+            "<br />",
+            "Neil fait quelque chose. Il le fait tout de suite. Il le fait dès qu'il sort. Que fait-il? Il prend du sol lunaire. Le sol lunaire, c'est de la terre qui provient de la Lune. Le sol lunaire est rocheux. Il est poussiéreux. Neil met le sol lunaire dans un sac. Il met le sac dans une poche spéciale. Elle est dans sa combinaison spatiale. Elle est faite spécialement pour le sol lunaire.",
+            "<br />",
+            "Pourquoi Neil prend-il du sol lunaire? Personne ne s'est rendu sur la Lune avant lui. Neil devra peut-être quitter la Lune rapidement. Il devra peut-être partir avant d'avoir trouvé des choses pour les scientifiques. C'est pour cela que Neil commence par prendre du sol lunaire. Il le fait pour éviter de revenir les mains vides. Les scientifiques pourront regarder les roches. Ils pourront les étudier et apprendre des choses au sujet de la Lune."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Neil Armstrong a été le premier homme à marcher sur Mars.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Neil a pris du sol lunaire pour les scientifiques.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Il y a de l'air sur la Lune.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Neil a voyagé pour aller à la Lune pendant trois jours.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Neil Armstrong a pris de l'eau lunaire.",
+            "correctAnswer": false
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel événement majeur a eu lieu le 20 juillet 1969?",
+            "choices": [
+                
+                "Neil Armstrong a pris un vol vers Mars.",
+                "Neil Armstrong a été élu président.",
+                "Neil Armstrong a marché sur la Lune.",
+                "Neil Armstrong a découvert l'eau sur la Lune."
+            ],
+            "correctAnswer": "Neil Armstrong a marché sur la Lune."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quelle est la première chose que Neil Armstrong a fait sur la Lune?",
+            "choices": [
+                "Il a pris des photos.",
+                
+                "Il a planté un drapeau.",
+                "Il a pris du sol lunaire.",
+                "Il a chanté une chanson."
+            ],
+            "correctAnswer": "Il a pris du sol lunaire."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Cette histoire parle surtout :",
+            "choices": [
+                "de petits et grands cratères.",
+                "de scientifiques et de sol lunaire.",
+                "de Neil Armstrong et de la Lune."
+            ],
+            "correctAnswer": "de Neil Armstrong et de la Lune."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Combien de temps Neil a-t-il pris pour atteindre la Lune ?",
+            "choices": [
+                "1 jour.",
+                "20 ans.",
+                "3 jours.",
+                "1969 années."
+            ],
+            "correctAnswer": "3 jours."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel énoncé sur le premier pas sur la Lune est faux ?",
+            "choices": [
+                
+                "C'est le 20 juillet.",
+                "C'est en 1969.",
+                "Neil Armstrong a fait le premier pas.",
+                "Le sol est humide."
+            ],
+            "correctAnswer": "Le sol est humide."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quelle phrase est dans le bon ordre ?",
+            "choices": [
+               
+                "Neil sort; il prend du sol lunaire et le met dans sa poche.",
+                "Neil se rend sur la Lune; il sort et met une combinaison spatiale.",
+                "Neil met sa combinaison spatiale; il prend du sol lunaire et il sort."
+            ],
+            "correctAnswer": "Neil met sa combinaison spatiale; il prend du sol lunaire et il sort."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Neil Armstrong est un astronaute.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "La Lune a de l'air.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Neil prend du sol lunaire pour ne pas revenir les mains vides.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le sol lunaire est sec.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Neil a été le premier homme à marcher sur la Terre.",
+            "correctAnswer": false
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'astronaute'?",
+            "choices": [
+              
+                "Une créature lunaire.",
+                "Une plante.",
+                "Une personne qui se rend dans l'espace.",
+                "Un outil spatial."
+            ],
+            "correctAnswer": "Une personne qui se rend dans l'espace."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que veut dire 'sol lunaire'?",
+            "choices": [
+               
+                "De la poussière.",
+                "Des roches de la Terre.",
+                "Une surface de Mars.",
+                "De la terre de la Lune."
+            ],
+            "correctAnswer": "De la terre de la Lune."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'combinaison spatiale'?",
+            "choices": [
+                "Des vêtements normaux.",
+                "Des vêtements pour aller dans l'espace.",
+                "Un costume de fête.",
+                "Des vêtements d'hiver."
+            ],
+            "correctAnswer": "Des vêtements pour aller dans l'espace."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'poussiéreux'?",
+            "choices": [
+               
+                "Propre.",
+                "Nouveau.",
+                "Soleil.",
+
+                "Couvert de poussière."
+            ],
+            "correctAnswer": "Couvert de poussière."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'voyager'?",
+            "choices": [
+                "Rester à la maison.",
+                "Se déplacer d'un endroit à un autre.",
+                "Faire la cuisine.",
+                "Dormir."
+            ],
+            "correctAnswer": "Se déplacer d'un endroit à un autre."
+        }
+    ],
+    "shortAnswer": [
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi Neil Armstrong a-t-il pris du sol lunaire?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Combien de temps a duré le voyage vers la Lune?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Qu'est-ce que Neil Armstrong a porté sur la Lune?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Que pourront apprendre les scientifiques en étudiant les roches lunaires?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Aurais-tu aimé être à la place de Neil Armstrong et devenir le premier être humain à marcher sur la Lune ? Justifie ta réponse.",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Par quel moyen de transport Neil Armstrong s’est-il rendu sur la Lune ?",
+            "correctAnswer": ""
+        }
+    ]
+}

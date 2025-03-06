@@ -397,11 +397,7 @@
       },{
         "exercice": 4,
         "titre": "ma et m'a",
-        
-           
-            "rules": "Règle : La distinction entre {{ma}} et {{m'a}}.\n\n- *{{ma}} : un déterminant possessif, utilisé pour désigner quelque chose qui appartient à la première personne (exemple : {{ma}} maison).\n- *{{m'a}} : une contraction de '{{me}} {{a}}', utilisée lorsque '{{me}}' est suivi du verbe '{{avoir}}' (exemple : il {{m'a}} donné un cadeau).",
-           
-          
+        "rules": "Règle : La distinction entre {{ma}} et {{m'a}}.\n\n- *{{ma}} : un déterminant possessif, utilisé pour désigner quelque chose qui appartient à la première personne (exemple : {{ma}} maison).\n- *{{m'a}} : une contraction de '{{me}} {{a}}', utilisée lorsque '{{me}}' est suivi du verbe '{{avoir}}' (exemple : il {{m'a}} donné un cadeau).",
         "phrases": [
           {
             "id": 1,
@@ -419,141 +415,112 @@
             "id": 3,
             "phrase": "_______ maman m'a préparé un gâteau.",
             "reponses": ["Ma"],
-            "options": ["Ma", "M'a"]
+            "options": ["Ma", "m'a"]
           },
           {
             "id": 4,
-            "phrase": "Elle m'a dit que _______ père était malade.",
-            "reponses": ["mon"],
-            "options": ["ma", "mon"]
-          },
-          {
-            "id": 5,
-            "phrase": "_______ amie a trouvé un travail.",
-            "reponses": ["Mon"],
-            "options": ["ma", "Mon"]
-          },
-          {
-            "id": 6,
             "phrase": "Elle _______ expliqué la situation.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 7,
+            "id": 5,
             "phrase": "_______ mère a toujours été présente pour moi.",
             "reponses": ["Ma"],
             "options": ["Ma", "m'a"]
           },
           {
-            "id": 8,
+            "id": 6,
             "phrase": "Il _______ dit qu'il viendrait demain.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 9,
-            "phrase": "_______ frère adore jouer au football.",
-            "reponses": ["Mon"],
-            "options": ["Mon", "Ma"]
-          },
-          {
-            "id": 10,
+            "id": 7,
             "phrase": "Elle _______ demandé de l'aider avec ses devoirs.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 11,
+            "id": 8,
             "phrase": "_______ cousine habite à Paris.",
             "reponses": ["Ma"],
-            "options": ["Ma", "M'a"]
+            "options": ["Ma", "m'a"]
           },
           {
-            "id": 12,
+            "id": 9,
             "phrase": "Il _______ dit qu'il serait là à 18h.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 13,
+            "id": 10,
             "phrase": "_______ grand-mère est venue me rendre visite.",
             "reponses": ["Ma"],
-            "options": ["Ma", "M'a"]
+            "options": ["Ma", "m'a"]
           },
           {
-            "id": 14,
+            "id": 11,
             "phrase": "Elle _______ donné un joli cadeau pour mon anniversaire.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 15,
+            "id": 12,
             "phrase": "_______ voiture est en panne.",
             "reponses": ["Ma"],
-            "options": ["Ma", "M'a"]
+            "options": ["Ma", "m'a"]
           },
           {
-            "id": 16,
+            "id": 13,
             "phrase": "Il _______ expliqué pourquoi il était en retard.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 17,
-            "phrase": "_______ tante m'a appelé ce matin.",
-            "reponses": ["Ma"],
-            "options": ["Ma", "M'a"]
-          },
-          {
-            "id": 18,
+            "id": 14,
             "phrase": "Elle _______ dit qu'elle partait en vacances.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
           {
-            "id": 19,
-            "phrase": "_______ entreprise cherche des nouveaux employés.",
-            "reponses": ["Ma"],
-            "options": ["Ma", "M'a"]
-          },
-          {
-            "id": 20,
-            "phrase": "Il _______ demandé de bien vouloir patienter.",
+            "id": 15,
+            "phrase": "Il _______ montré comment faire ce plat.",
             "reponses": ["m'a"],
             "options": ["ma", "m'a"]
           },
-            {
-              "id": 21,
-              "phrase": "Elle _______ expliqué comment résoudre le problème.",
-              "reponses": ["m'a"],
-              "options": ["ma", "m'a"]
-            },
-            {
-              "id": 22,
-              "phrase": "Nous _______ dit qu'il fallait partir tôt.",
-              "reponses": ["nous a"],
-              "options": ["nous", "nous a"]
-            },
-            {
-              "id": 23,
-              "phrase": "Tu _______ donné un excellent conseil.",
-              "reponses": ["m'as"],
-              "options": ["ma", "m'as"]
-            },
-            {
-              "id": 24,
-              "phrase": "Ils _______ expliqué la situation en détail.",
-              "reponses": ["nous ont"],
-              "options": ["nous", "nous ont"]
-            },
-            {
-              "id": 25,
-              "phrase": "Il _______ appris à jouer de la guitare.",
-              "reponses": ["m'a"],
-              "options": ["ma", "m'a"]
-            }
-          ]
+          {
+            "id": 16,
+            "phrase": "_______ professeure m'a conseillé de lire ce livre.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "m'a"]
+          },
+          {
+            "id": 17,
+            "phrase": "Elle _______ dit que le film était excellent.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 18,
+            "phrase": "_______ tante est venue m'aider avec mes devoirs.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "m'a"]
+          },
+          {
+            "id": 19,
+            "phrase": "Il _______ donné son avis sur le sujet.",
+            "reponses": ["m'a"],
+            "options": ["ma", "m'a"]
+          },
+          {
+            "id": 20,
+            "phrase": "_______ maison est très cosy.",
+            "reponses": ["Ma"],
+            "options": ["Ma", "m'a"]
+          }
+        ]
+      
         
       },{
         "exercice": 5,

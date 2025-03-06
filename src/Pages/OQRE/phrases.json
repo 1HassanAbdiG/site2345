@@ -1,61 +1,154 @@
 {
-    "stories": [
-      {
-        "phrases": [
-          "Ce matin, il fait beau.",
-          "De bonne heure, Marie se lève pour aller au marché.",
-          "Ensuite, elle prépare son sac et sort de la maison.",
-          "Au marché, elle achète des fruits et des légumes.",
-          "Plus tard, elle rencontre son amie Sophie devant l'étal des fleurs.",
-          "Pendant quelques minutes, elles discutent et rient ensemble.",
-          "Après leurs échanges, Marie rentre chez elle avec ses achats.",
-          "Une fois chez elle, elle range les courses dans la cuisine.",
-          "Ensuite, elle prépare un gâteau aux pommes.",
-          "Le soir, elle partage le gâteau avec sa famille."
-        ]
-      },
-      {
-        "phrases": [
-          "Aujourd'hui, il fait très chaud.",
-          "Dans la matinée, Lucas et sa famille décident d'aller à la plage.",
-          "Quelques instants plus tard, ils mettent leurs affaires dans la voiture.",
-          "Arrivés à la plage, ils installent leur serviette sur le sable.",
-          "Lucas ne perd pas de temps et court vers la mer pour se baigner.",
-          "Pendant une heure, il joue avec un ballon dans l'eau.",
-          "Après la baignade, à midi, ils mangent un pique-nique.",
-          "L'après-midi, Lucas fait un château de sable avec sa sœur.",
-          "Avant de partir, ils ramassent des coquillages sur le bord de l'eau.",
-          "En fin de journée, ils prennent une glace pour se rafraîchir."
-        ]
-      },
-      {
-        "phrases": [
-          "Ce matin, c'est l'anniversaire de Léo.",
-          "Peu après, il invite ses amis à la maison pour fêter cela.",
-          "Pour l'occasion, sa maman a préparé un beau gâteau au chocolat.",
-          "Dans l'après-midi, les invités arrivent avec des cadeaux.",
-          "Ensuite, ils jouent à cache-cache dans le jardin.",
-          "Plus tard, Léo souffle ses bougies et fait un vœu.",
-          "Tout le monde mange le gâteau avec plaisir.",
-          "Après le goûter, ils font une partie de ballon.",
-          "Avant de terminer, Léo ouvre ses cadeaux avec impatience.",
-          "Enfin, ils passent une excellente journée ensemble."
-        ]
-      },
-      {
-        "phrases": [
-          "Aujourd'hui, Emma et sa famille vont au zoo.",
-          "Ils arrivent tôt dans la matinée pour voir tous les animaux.",
-          "Le premier enclos qu'ils visitent est celui des éléphants.",
-          "Peu après, ils regardent les singes sauter d'arbre en arbre.",
-          "Plus tard dans la matinée, Emma prend des photos des lions qui se reposent.",
-          "En début d'après-midi, ils assistent au spectacle des otaries.",
-          "Ensuite, ils pique-niquent près de l'étang.",
-          "Emma adore voir les girafes avec leur long cou juste avant de partir.",
-          "Avant de quitter le zoo, ils achètent un souvenir.",
-          "En fin de journée, Emma est très contente de sa journée au zoo."
-        ]
-      }
-    ]
-  }
-  
+  "stories": [
+    {
+      "title": "La journée de Marie",
+      "phrases": [
+        "Ce matin, il fait beau.",
+        "De bonne heure, Marie se lève pour aller au marché.",
+        "Ensuite, elle prépare son sac et sort de la maison.",
+        "Au marché, elle achète des fruits et des légumes.",
+        "Plus tard, elle rencontre son amie Sophie devant l'étal des fleurs.",
+        "Pendant quelques minutes, elles discutent et rient ensemble.",
+        "Après leurs échanges, Marie rentre chez elle avec ses achats.",
+        "Une fois chez elle, elle range les courses dans la cuisine.",
+        "Ensuite, elle prépare un gâteau aux pommes.",
+        "Le soir, elle partage le gâteau avec sa famille."
+      ]
+    },
+    {
+      "title": "Une journée à la plage",
+      "phrases": [
+        "Aujourd'hui, il fait très chaud.",
+        "Dans la matinée, Lucas et sa famille décident d'aller à la plage.",
+        "Quelques instants plus tard, ils mettent leurs affaires dans la voiture.",
+        "Arrivés à la plage, ils installent leur serviette sur le sable.",
+        "Lucas ne perd pas de temps et court vers la mer pour se baigner.",
+        "Pendant une heure, il joue avec un ballon dans l'eau.",
+        "Après la baignade, à midi, ils mangent un pique-nique.",
+        "L'après-midi, Lucas fait un château de sable avec sa sœur.",
+        "Avant de partir, ils ramassent des coquillages sur le bord de l'eau.",
+        "En fin de journée, ils prennent une glace pour se rafraîchir."
+      ]
+    },
+    {
+      "title": "L'anniversaire de Léo",
+      "phrases": [
+        "Ce matin, c'est l'anniversaire de Léo.",
+        "Peu après, il invite ses amis à la maison pour fêter cela.",
+        "Pour l'occasion, sa maman a préparé un beau gâteau au chocolat.",
+        "Dans l'après-midi, les invités arrivent avec des cadeaux.",
+        "Ensuite, ils jouent à cache-cache dans le jardin.",
+        "Plus tard, Léo souffle ses bougies et fait un vœu.",
+        "Tout le monde mange le gâteau avec plaisir.",
+        "Après le goûter, ils font une partie de ballon.",
+        "Avant de terminer, Léo ouvre ses cadeaux avec impatience.",
+        "Enfin, ils passent une excellente journée ensemble."
+      ]
+    },
+    {
+      "title": "Une sortie au zoo",
+      "phrases": [
+        "Aujourd'hui, Emma et sa famille vont au zoo.",
+        "Ils arrivent tôt dans la matinée pour voir tous les animaux.",
+        "Le premier enclos qu'ils visitent est celui des éléphants.",
+        "Peu après, ils regardent les singes sauter d'arbre en arbre.",
+        "Plus tard dans la matinée, Emma prend des photos des lions qui se reposent.",
+        "En début d'après-midi, ils assistent au spectacle des otaries.",
+        "Ensuite, ils pique-niquent près de l'étang.",
+        "Emma adore voir les girafes avec leur long cou juste avant de partir.",
+        "Avant de quitter le zoo, ils achètent un souvenir.",
+        "En fin de journée, Emma est très contente de sa journée au zoo."
+      ]
+    },
+    {
+      "title": "Une journée au parc",
+      "phrases": [
+        "C'est une belle journée d'été.",
+        "Lucas et sa famille décident d'aller faire un pique-nique au parc.",
+        "Ils préparent des sandwiches, des fruits et des boissons.",
+        "Arrivés au parc, ils choisissent un bel endroit sous un grand arbre.",
+        "Lucas joue au frisbee avec son frère pendant que leurs parents installent la nappe.",
+        "Après avoir mangé, ils font une promenade autour du lac.",
+        "Ils voient des canards nager et des familles profiter du soleil.",
+        "Avant de rentrer, ils s'arrêtent au terrain de jeux.",
+        "Lucas s'amuse à glisser et à grimper sur les structures.",
+        "Enfin, ils retournent chez eux, très contents de leur journée."
+      ]
+    },
+    {
+      "title": "Une visite au musée",
+      "phrases": [
+        "Aujourd'hui, Clara a décidé de visiter le musée de science.",
+        "Elle prend le bus tôt le matin pour y arriver.",
+        "À son arrivée, elle prend un plan du musée et choisit les expositions à voir.",
+        "Elle commence par la salle des dinosaures.",
+        "Clara admire les squelettes imposants et prend des photos.",
+        "Ensuite, elle se dirige vers l'exposition sur l'espace.",
+        "Elle apprend plein de nouvelles choses sur les planètes et les étoiles.",
+        "Après une matinée remplie d'apprentissage, elle se repose dans le café du musée.",
+        "Dans l'après-midi, elle assiste à un atelier sur les volcans.",
+        "En fin de journée, Clara rentre chez elle avec des souvenirs et de belles expériences."
+      ]
+    },
+    {
+      "title": "Le voyage en train",
+      "phrases": [
+        "Ce matin, Alice et son frère préparent leur valise.",
+        "Ils sont impatients d'aller en vacances chez leur grand-mère.",
+        "Une fois arrivés à la gare, ils trouvent leur train sur l'affichage.",
+        "Quand le train arrive, ils montent rapidement pour trouver leurs places.",
+        "Pendant le voyage, ils regardent le paysage défiler par la fenêtre.",
+        "Alice sort son livre et commence à lire.",
+        "Son frère, lui, joue avec son nouveau jouet.",
+        "Après quelques heures, le train arrive à destination.",
+        "Ils descendent du train et sont accueillis par leur grand-mère.",
+        "Ensemble, ils rentrent chez elle, ravis de passer du temps en famille."
+      ]
+    },
+    {
+      "title": "Le jardin secret",
+      "phrases": [
+        "Un jour, Sarah découvre une porte cachée dans le jardin de sa maison.",
+        "Curieuse, elle décide de l'ouvrir et s'aventure à l'intérieur.",
+        "Elle découvre un jardin magnifique rempli de fleurs colorées.",
+        "Au centre, elle trouve un petit étang avec des poissons rouges.",
+        "Mais ce n'est pas tout, un petit renard l'observe de derrière un arbre.",
+        "Intriguée, Sarah s'approche doucement et commence à lui parler.",
+        "Le renard, surpris, ne s'enfuit pas et reste là à l'écouter.",
+        "Chaque jour, Sarah revient dans ce jardin secret pour jouer avec son nouvel ami.",
+        "Ensemble, ils passent des heures à explorer et à découvrir de nouvelles choses.",
+        "Ce jardin devient leur petit coin de bonheur, loin du monde."
+      ]
+    },
+    {
+      "title": "La surprise d'anniversaire",
+      "phrases": [
+        "Aujourd'hui, c'est l'anniversaire de Julie.",
+        "Ses amis lui préparent une surprise avec l'aide de sa mère.",
+        "Tout est prêt pour la fête : des ballons, des gâteaux et des jeux.",
+        "Quand Julie rentre de l'école, elle ne se doute de rien.",
+        "Soudain, elle entre dans le salon et tout le monde crie : Surprise !",
+        "Julie est très heureuse et remercie tous ses amis.",
+        "Ils commencent par jouer à des jeux amusants.",
+        "Puis, vient l'heure de couper le gâteau et de faire des vœux.",
+        "Tout le monde chante joyeusement pendant qu'elle souffle ses bougies.",
+        "Cette journée restera gravée dans sa mémoire comme la plus belle de toutes."
+      ]
+    },
+    {
+      "title": "La chasse au trésor",
+      "phrases": [
+        "Un matin ensoleillé, Tom et ses amis décident d'organiser une chasse au trésor.",
+        "Ils se répartissent les rôles : un sera le trésorier, tandis que les autres partiront à la recherche d'indices.",
+        "Le trésorier reste dans le parc et crée une carte mystérieuse.",
+        "Les amis suivent les indices un par un, courant avec excitation.",
+        "Ils trouvent des trésors en chocolat cachés sous des pierres.",
+        "Après de nombreuses aventures et un peu d'exploration, ils arrivent à la fin de la chasse.",
+        "Là, ils découvrent un grand coffre rempli de bonbons.",
+        "Tous ensemble, ils célèbrent leur victoire avec un goûter sucré.",
+        "Cette journée devient un souvenir inoubliable pour chacun d'eux.",
+        "Ils décident de recommencer la chasse au trésor chaque année."
+      ]
+    }
+  ]
+}
