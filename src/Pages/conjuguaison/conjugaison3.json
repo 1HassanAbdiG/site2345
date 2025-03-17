@@ -5,22 +5,22 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 1er groupe à l'imparfait prennent le radical du présent de l'indicatif et ajoutent les terminaisons : -ais, -ais, -ait, -ions, -iez, -aient."
+          "text": "Les verbes du 1er groupe à l'imparfait prennent le radical du présent de l'indicatif et ajoutent les terminaisons : {{-ais, -ais, -ait, -ions, -iez, -aient}}. Cela signifie que pour former l'imparfait, il faut commencer avec la première personne du pluriel de l'indicatif présent."
         },
         {
-          "idea": "Exemples",
-          "text": "Exemples courants : aimer, chanter, jouer, marcher."
+          "idea": "Formation",
+          "text": "Pour conjuguer un verbe du 1er groupe à l'imparfait, commencez par le radical obtenu en prenant la forme 'nous {{aimons}}' pour '{{aimer}}', ce qui donne le radical '{{aim-}}' et ajoutez les terminaisons."
         },
         {
-          "idea": "Conjugaison",
-          "text": "Les terminaisons sont régulières et suivent une structure simple."
+          "idea": "Exemples d'utilisation",
+          "text": "Voici quelques exemples de phrases : 'Quand j'étais petit, je {{chantais}} souvent', 'Nous {{aimions}} jouer au parc tous les dimanches'."
         },
         {
-          "idea": "Astuce",
-          "text": "Rappelez-vous de garder le radical du verbe au présent, puis ajoutez les terminaisons de l'imparfait."
+          "idea": "Conseils pratiques",
+          "text": "Rappelez-vous de garder le radical du verbe au présent, puis ajoutez les terminaisons de l'imparfait. Entraînez-vous avec un {{tableau}} des {{conjugaisons}} pour mieux mémoriser ces formes."
         }
       ],
-      "color": ""
+      "color": "red"
     },
     "verbs": {
       "chanter": ["chantais", "chantais", "chantait", "chantions", "chantiez", "chantaient"],
@@ -35,19 +35,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 2e groupe à l'imparfait suivent la même règle que le 1er groupe. Le radical est pris à partir du présent et les terminaisons sont : -ais, -ais, -ait, -ions, -iez, -aient."
+          "text": "Les verbes du 2e groupe à l'imparfait suivent la même règle que le 1er groupe. Le radical est pris à partir du présent et les terminaisons sont : {{ -ais, -ais, -ait, -ions, -iez, -aient}}."
         },
         {
-          "idea": "Exemples",
-          "text": "Exemples courants : finir, choisir, grandir, réussir."
+          "idea": "Formation",
+          "text": "Pour conjuguer un verbe du 2e groupe à l'imparfait, utilisez le radical se formant à partir de la première personne du pluriel au présent (par exemple, 'nous {{finissons}}' pour '{{finir}}', ce qui donne le radical '{{finiss-}}')."
         },
         {
-          "idea": "Conjugaison",
-          "text": "Les conjugaisons sont régulières et suivent la même structure que celles des verbes du 1er groupe."
+          "idea": "Exemples d'utilisation",
+          "text": "Exemples : 'Quand j'étais jeune, je {{choisissais}} toujours des {{histoires fantastiques}}', 'Nous {{finissions}} nos {{devoirs}} avant le {{dîner}}.'"
         },
         {
-          "idea": "Astuce",
-          "text": "Utilisez le radical du verbe au présent et ajoutez les terminaisons de l'imparfait."
+          "idea": "Conseils pratiques",
+          "text": "Les conjugaisons du 2e groupe sont {{régulières}}, donc si vous connaissez quelques verbes, vous pouvez facilement les conjuguer à l'imparfait. Pratiquez avec des {{phrases complètes}} pour assimiler les formes."
         }
       ],
       "color": "#"
@@ -65,19 +65,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 3e groupe à l'imparfait ont des radicaux irréguliers et nécessitent une mémorisation. Les terminaisons restent : -ais, -ais, -ait, -ions, -iez, -aient."
+          "text": "Les verbes du 3e groupe à l'imparfait ont des {{radicaux irréguliers}} et nécessitent une {{mémorisation}}. Les terminaisons restent : {{ -ais, -ais, -ait, -ions, -iez, -aient}}."
         },
         {
           "idea": "Sous-groupes",
-          "text": "Il existe plusieurs sous-groupes de verbes irréguliers dans ce groupe. Par exemple, les verbes en '-re', les verbes en '-ir' irréguliers, et les verbes totalement irréguliers."
+          "text": "Il existe plusieurs {{sous-groupes}} de verbes irréguliers dans ce groupe. Par exemple, les verbes en '{{-re}}', les verbes en '{{-ir}}' irréguliers, et les verbes totalement irréguliers comme '{{être}}' qui ont des {{formes uniques}}."
         },
         {
-          "idea": "Exemples",
-          "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+          "idea": "Exemples d'utilisation",
+          "text": "Des exemples incluent des phrases comme : 'Quand j'étais petit, je {{venais}} au {{parc}} chaque {{dimanche}}', 'Il {{faisait}} toujours du {{vélo}} après l'{{école}}.'"
         },
         {
-          "idea": "Astuce",
-          "text": "Il est important de mémoriser les radicaux irréguliers pour conjuguer correctement."
+          "idea": "Conseils pratiques",
+          "text": "Il est très important de mémoriser les {{radicaux irréguliers}} pour conjuguer correctement ces verbes. Entraînez-vous avec des {{exercices de conjugaison}} et des {{cartes mémoire}}."
         }
       ],
       "color": "#"
@@ -90,6 +90,8 @@
       "aller": ["allais", "allais", "allait", "allions", "alliez", "allaient"],
       "voir": ["voyais", "voyais", "voyait", "voyions", "voyiez", "voyaient"],
       "pouvoir": ["pouvais", "pouvais", "pouvait", "pouvions", "pouviez", "pouvaient"],
-      "vouloir": ["voulais", "voulais", "voulait", "voulions", "vouliez", "voulaient"]
+      "vouloir": ["voulais", "voulais", "voulait", "voulions", "vouliez", "voulaient"],
+      "être": ["étais", "étais", "était", "étions", "étiez", "étaient"]
     }
-  }}
+  }
+}

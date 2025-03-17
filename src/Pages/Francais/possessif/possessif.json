@@ -261,125 +261,126 @@
       "phrases": [
         {
           "id": 1,
-          "phrase": "J'aime ____ joli visage.",
+          "phrase": "J'aime ____ beau dessin.",
           "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 2,
-          "phrase": "____ beaux cheveux blonds et belle silhouette.",
-          "reponses": ["Tes"],
+          "phrase": "____ peluche est très douce.",
+          "reponses": ["ta"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 3,
-          "phrase": "____ charmant sourire.",
-          "reponses": ["Ton"],
+          "phrase": "Regarde ____ joli livre.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 4,
-          "phrase": "J'aime aussi ____ corps.",
+          "phrase": "J'adore aussi ____ jeu.",
           "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 5,
-          "phrase": "Je vois ____ bouche en cœur.",
+          "phrase": "Je vois ____ belle table.",
           "reponses": ["ta"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 6,
-          "phrase": "Quand je regarde ____ grands yeux bleus.",
+          "phrase": "Quand je regarde ____ livres sur l'étagère.",
           "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 7,
-          "phrase": "Tout me plaît chez toi, ____ belles grandes jambes.",
+          "phrase": "Tout me plaît dans ta chambre, ____ jolis posters.",
           "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 8,
-          "phrase": "____ corps est magnifique.",
-          "reponses": ["Ton"],
+          "phrase": "____ chat est très mignon.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 9,
-          "phrase": "____ visage est radieux.",
-          "reponses": ["Ton"],
+          "phrase": "____ vélo est rapide.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 10,
-          "phrase": "____ bras sont forts et élégants.",
-          "reponses": ["Tes"],
+          "phrase": "____ crayons sont colorés.",
+          "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 11,
-          "phrase": "____ yeux brillent de joie.",
-          "reponses": ["Tes"],
+          "phrase": "____ chaussures brillent au soleil.",
+          "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 12,
-          "phrase": "Je trouve ____ sourire très joli.",
-          "reponses": ["Ton"],
+          "phrase": "Je trouve ____ goûter délicieux.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 13,
-          "phrase": "____ visage est une œuvre d'art.",
-          "reponses": ["Ton"],
+          "phrase": "____ ordinateur est rapide.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 14,
-          "phrase": "____ cheveux sont magnifiques.",
-          "reponses": ["Tes"],
+          "phrase": "____ jouets sont amusants.",
+          "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 15,
-          "phrase": "____ bras sont très musclés.",
-          "reponses": ["Tes"],
+          "phrase": "____ amis sont géniaux.",
+          "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 16,
-          "phrase": "____ sourire est contagieux.",
-          "reponses": ["Ton"],
+          "phrase": "____ gâteau est très bon.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 17,
-          "phrase": "____ jambes sont élancées.",
-          "reponses": ["Tes"],
+          "phrase": "____ poupées sont en bois.",
+          "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 18,
-          "phrase": "____ yeux sont d'un bleu éclatant.",
-          "reponses": ["Tes"],
+          "phrase": "____ animaux sont très gentils.",
+          "reponses": ["tes"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 19,
-          "phrase": "Je suis admiratif de ____ silhouette.",
+          "phrase": "Je suis fier de ____ dessin.",
           "reponses": ["ta"],
           "options": ["ton", "ta", "tes"]
         },
         {
           "id": 20,
-          "phrase": "____ regard est fascinant.",
-          "reponses": ["Ton"],
+          "phrase": "____ comportement est exemplaire.",
+          "reponses": ["ton"],
           "options": ["ton", "ta", "tes"]
         }
       ]
+    
     }
   ]
   

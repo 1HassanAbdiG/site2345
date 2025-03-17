@@ -48,7 +48,11 @@ import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 //import ConjugationGame from './Pages/Jeu/conjuguaison/ver.jsx';
 //import Conj from './Pages/Francais/conjuguaison/conj.jsx';
 import Multip from './Pages/maths/multip.jsx';
-import About from './Pages/About.jsx';
+//import About from './Pages/About.jsx';
+//import ChatComponent from './ChatComponent.js';
+//import Exercicegram from './Exercice de conjuguaison/exercice.jsx';
+//import SyllableGame from './Pages/Francais/1eanné/SyllableGame.js';
+import Exercice1e2e from './Pages/Francais/1eanné/1eannée/header.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 
@@ -64,7 +68,7 @@ const App = () => {
         <Routes>
           {/* Routes principales */}
           <Route path="/" element={<Accueil />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<Exercice1e2e />} />
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
           <Route path="/jeux" element={<JeuEdu />} />

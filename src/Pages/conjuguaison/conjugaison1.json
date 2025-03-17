@@ -1,23 +1,23 @@
 {
   "1er groupe": {
     "rule": {
-      "title": "Les verbes du 1er groupe au present ",
+      "title": "Les verbes du 1er groupe au présent",
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 1er groupe se terminent en '-er', à l'exception du verbe 'aller'."
+          "text": "Les verbes du 1er groupe se terminent en '{{-er}}', à l'exception du verbe '{{aller}}'."
         },
         {
           "idea": "Exemples",
-          "text": "Exemples courants : aimer, chanter, jouer, marcher."
+          "text": "Exemples courants : {{aimer}}, {{chanter}}, {{jouer}}, {{marcher}}."
         },
         {
           "idea": "Conjugaison",
-          "text": "Les terminaisons au présent sont : -e, -es, -e, -ons, -ez, -ent. Ils suivent une conjugaison régulière et simple."
+          "text": "Les terminaisons au {{présent}} sont : {{ -e, -es, -e, -ons, -ez, -ent}}. Ils suivent une {{conjugaison régulière}} et simple."
         },
         {
           "idea": "Astuce",
-          "text": "Ces verbes sont fréquents et généralement faciles à mémoriser."
+          "text": "Ces verbes sont fréquents et généralement {{faciles à mémoriser}}."
         }
       ],
       "color": ""
@@ -35,19 +35,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 2e groupe se terminent en '-ir' et forment leur participe présent en '-issant'."
+          "text": "Les verbes du 2e groupe se terminent en '{{-ir}}' et forment leur {{participe présent}} en '{{-issant}}'."
         },
         {
           "idea": "Exemples",
-          "text": "Exemples courants : finir, choisir, grandir, réussir."
+          "text": "Exemples courants : {{finir}}, {{choisir}}, {{grandir}}, {{réussir}}."
         },
         {
           "idea": "Conjugaison",
-          "text": "Les terminaisons au présent sont : -is, -is, -it, -issons, -issez, -issent."
+          "text": "Les terminaisons au {{présent}} sont : {{ -is, -is, -it, -issons, -issez, -issent}}."
         },
         {
           "idea": "Astuce",
-          "text": "Ces verbes expriment souvent des actions continues ou des états prolongés."
+          "text": "Ces verbes expriment souvent des {{actions continues}} ou des {{états prolongés}}."
         }
       ],
       "color": "#"
@@ -65,19 +65,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 3e groupe ont des terminaisons variées et souvent irrégulières."
+          "text": "Les verbes du 3e groupe ont des terminaisons {{variées}} et souvent {{irrégulières}}."
         },
         {
           "idea": "Sous-groupes",
-          "text": "Ils incluent : les verbes en '-re' (ex. : prendre), en '-ir' irréguliers (ex. : partir), en '-oir' (ex. : voir), et les verbes complètement irréguliers (ex. : aller)."
+          "text": "Ils incluent : les verbes en '{{-re}}' (ex. : {{prendre}}), en '{{-ir}}' irréguliers (ex. : {{partir}}), en '{{-oir}}' (ex. : {{voir}}), et les verbes complètement {{irréguliers}} (ex. : {{aller}})."
         },
         {
           "idea": "Exemples",
-          "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+          "text": "Exemples : {{dire}}, {{faire}}, {{venir}}, {{prendre}}, {{aller}}, {{voir}}, {{pouvoir}}, {{vouloir}}."
         },
         {
           "idea": "Astuce",
-          "text": "Ces verbes nécessitent une mémorisation individuelle car leurs conjugaisons varient beaucoup."
+          "text": "Ces verbes nécessitent une {{mémorisation individuelle}} car leurs conjugaisons varient beaucoup."
         }
       ],
       "color": "#"

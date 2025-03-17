@@ -34,7 +34,7 @@ export default function Grammaire() {
     };
 
     return (
-        <Container maxWidth="md" sx={{ marginTop: "2rem" }}> {/* Conteneur centré */}
+        <Container maxWidth="lg" sx={{ marginTop: "2rem" }}> {/* Conteneur centré */}
             <Typography variant="h3" align="center" gutterBottom>
                 Grammaire
             </Typography>

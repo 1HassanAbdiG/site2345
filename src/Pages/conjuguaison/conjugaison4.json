@@ -5,19 +5,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 1er groupe au passé composé se conjuguent avec l'auxiliaire 'avoir' ou 'être' et prennent le participe passé du verbe. Le participe passé des verbes réguliers se termine en '-é'."
+          "text": "Les verbes du 1er groupe au {{passé composé}} se conjuguent avec l'auxiliaire '{{avoir}}' ou '{{être}}' et prennent le {{participe passé}} du verbe. Le participe passé des verbes réguliers se termine en '{{-é}}'."
         },
         {
           "idea": "Exemples",
-          "text": "Exemples courants : aimer, chanter, jouer, marcher."
+          "text": "Exemples courants : {{aimer}}, {{chanter}}, {{jouer}}, {{marcher}}."
         },
         {
           "idea": "Conjugaison",
-          "text": "La structure est : auxiliaire (avoir/être) + participe passé. Les verbes avec 'être' sont principalement des verbes de mouvement ou des verbes pronominaux."
+          "text": "La structure est : {{auxiliaire}} (avoir/être) + {{participe passé}}. Les verbes avec '{{être}}' sont principalement des {{verbes de mouvement}} ou des {{verbes pronominaux}}."
         },
         {
           "idea": "Astuce",
-          "text": "Les verbes du 1er groupe se forment simplement avec 'avoir' et ajoutent 'é' à leur radical."
+          "text": "Les verbes du 1er groupe se forment simplement avec 'avoir' et ajoutent '{{-é}}' à leur radical."
         }
       ],
       "color": ""
@@ -35,19 +35,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 2e groupe au passé composé suivent la même règle que les verbes du 1er groupe. Ils utilisent l'auxiliaire 'avoir' ou 'être' et leur participe passé se termine en '-i'."
+          "text": "Les verbes du 2e groupe au {{passé composé}} suivent la même règle que les verbes du 1er groupe. Ils utilisent l'auxiliaire '{{avoir}}' ou '{{être}}' et leur participe passé se termine en '{{-i}}'."
         },
         {
           "idea": "Exemples",
-          "text": "Exemples courants : finir, choisir, grandir, réussir."
+          "text": "Exemples courants : {{finir}}, {{choisir}}, {{grandir}}, {{réussir}}."
         },
         {
           "idea": "Conjugaison",
-          "text": "La structure est la même : auxiliaire (avoir/être) + participe passé. Les verbes réguliers du 2e groupe ont un participe passé en '-i'."
+          "text": "La structure est la même : {{auxiliaire}} (avoir/être) + {{participe passé}}. Les verbes réguliers du 2e groupe ont un participe passé en '{{-i}}'."
         },
         {
           "idea": "Astuce",
-          "text": "Les verbes du 2e groupe se forment avec 'avoir' et le participe passé en '-i'."
+          "text": "Les verbes du 2e groupe se forment avec '{{avoir}}' et le participe passé en '{{-i}}'."
         }
       ],
       "color": "#"
@@ -65,19 +65,19 @@
       "content": [
         {
           "idea": "Structure",
-          "text": "Les verbes du 3e groupe au passé composé sont irréguliers. Ils utilisent 'avoir' ou 'être' comme auxiliaire et ont des participes passés irréguliers."
+          "text": "Les verbes du 3e groupe au {{passé composé}} sont {{irréguliers}}. Ils utilisent '{{avoir}}' ou '{{être}}' comme {{auxiliaire}} et ont des participes passés {{irréguliers}}."
         },
         {
           "idea": "Sous-groupes",
-          "text": "Les verbes irréguliers sont souvent des verbes de mouvement, des verbes pronominaux, ou des verbes totalement irréguliers."
+          "text": "Les verbes irréguliers sont souvent des {{verbes de mouvement}}, des {{verbes pronominaux}}, ou des {{verbes totalement irréguliers}}."
         },
         {
           "idea": "Exemples",
-          "text": "Exemples : dire, faire, venir, prendre, aller, voir, pouvoir, vouloir."
+          "text": "Exemples : {{dire}}, {{faire}}, {{venir}}, {{prendre}}, {{aller}}, {{voir}}, {{pouvoir}}, {{vouloir}}."
         },
         {
           "idea": "Astuce",
-          "text": "Il est important de mémoriser les participes passés irréguliers pour conjuguer correctement."
+          "text": "Il est important de {{mémoriser}} les participes passés irréguliers pour conjuguer correctement."
         }
       ],
       "color": "#"

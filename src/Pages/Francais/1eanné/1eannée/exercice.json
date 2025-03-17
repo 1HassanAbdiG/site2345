@@ -1,0 +1,15 @@
+{
+    "titre": "Relier les couples d'animaux",
+    "instructions": "Cliquez sur un élément de la colonne de gauche puis sur l'élément correspondant dans la colonne de droite pour créer une association.",
+    "questions": [
+      { "id": 1, "groupe1": "une chèvre", "groupe2": "un bouc" },
+      { "id": 2, "groupe1": "un taureau", "groupe2": "une vache" },
+      { "id": 3, "groupe1": "un mouton", "groupe2": "une brebis" },
+      { "id": 4, "groupe1": "un tigre", "groupe2": "une tigresse" },
+      { "id": 5, "groupe1": "un éléphant", "groupe2": "une éléphante" },
+      { "id": 6, "groupe1": "une poule", "groupe2": "un coq" },
+      { "id": 7, "groupe1": "un lion", "groupe2": "une lionne" },
+      { "id": 8, "groupe1": "une dinde", "groupe2": "un dindon" },
+      { "id": 9, "groupe1": "un renard", "groupe2": "une renarde" }
+    ]
+  }

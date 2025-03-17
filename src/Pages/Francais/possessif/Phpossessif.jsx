@@ -70,7 +70,7 @@ const Orthographeaa1 = () => {
     <Box
       sx={{
        
-        width: "95%",
+        width: "98%",
         backgroundColor: "white",
         padding: 3,
 

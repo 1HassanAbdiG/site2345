@@ -1,11 +1,42 @@
 [
-    { "word": "chat", "syllables": ["ch", "at"] },
-    { "word": "lapin", "syllables": ["la", "pin"] },
-    { "word": "maison", "syllables": ["mai", "son"] },
-    { "word": "ballon", "syllables": ["ba", "llon"] },
-    { "word": "école", "syllables": ["é", "co", "le"] },
-    { "word": "robot", "syllables": ["ro", "bot"] },
-    { "word": "banane", "syllables": ["ba", "na", "ne"] },
-    { "word": "soleil", "syllables": ["so", "leil"] }
-  ]
-  
+  {
+    "word": "chat",
+    "syllables": ["ch", "at"],
+    "image": "https://via.placeholder.com/150?text=Chat"
+  },
+  {
+    "word": "lapin",
+    "syllables": ["la", "pin"],
+    "image": "https://via.placeholder.com/150?text=Lapin"
+  },
+  {
+    "word": "maison",
+    "syllables": ["mai", "son"],
+    "image": "https://via.placeholder.com/150?text=Maison"
+  },
+  {
+    "word": "ballon",
+    "syllables": ["ba", "llon"],
+    "image": "https://via.placeholder.com/150?text=Ballon"
+  },
+  {
+    "word": "école",
+    "syllables": ["é", "co", "le"],
+    "image": "https://via.placeholder.com/150?text=École"
+  },
+  {
+    "word": "robot",
+    "syllables": ["ro", "bot"],
+    "image": "https://via.placeholder.com/150?text=Robot"
+  },
+  {
+    "word": "banane",
+    "syllables": ["ba", "na", "ne"],
+    "image": "https://via.placeholder.com/150?text=Banane"
+  },
+  {
+    "word": "soleil",
+    "syllables": ["so", "leil"],
+    "image": "https://via.placeholder.com/150?text=Soleil"
+  }
+]

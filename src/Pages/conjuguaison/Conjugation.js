@@ -1,14 +1,27 @@
 import React, { useState, useEffect } from "react";
-import {  Box, Typography, Container, List, ListItem, ListItemText, Paper ,Button, ButtonGroup,Card, CardContent} from '@mui/material';
-import { CheckCircle } from '@mui/icons-material';
+import {
+  Box,
+  Typography,
+  Container,
+  List,
+  ListItem,
+  ListItemText,
+  Paper,
+  Button,
+  ButtonGroup,
+  Card,
+  CardContent,
+} from "@mui/material";
+import { CheckCircle } from "@mui/icons-material";
 import styles from "./Conjugation.module.css";
+import ExerciceConj from "./ExerciceConj";
 
 // Object to store paths to the JSON files
 const jsonPaths = {
-  present: "./conjugaison1.json",
-  future: "./conjugaison2.json",
-  imperfect: "./conjugaison3.json",
-  past: "./conjugaison4.json",
+  Présent: "./conjugaison1.json",
+  Futur: "./conjugaison2.json",
+  Imparfait: "./conjugaison3.json",
+  Passe_composé: "./conjugaison4.json",
 };
 
 const Conjugation = () => {
@@ -22,7 +35,7 @@ const Conjugation = () => {
   const handleTenseChange = async (selectedTense) => {
     try {
       const data = await import(`${jsonPaths[selectedTense]}`);
-      setConjugationData(data.default || data); // Handle default export or named export
+      setConjugationData(data.default || data);
     } catch (error) {
       console.error("Error loading conjugation data:", error);
     }
@@ -37,7 +50,7 @@ const Conjugation = () => {
       });
     });
     setScores(initialScores);
-  }, [conjugationData]); // Ensure re-run when conjugationData changes
+  }, [conjugationData]);
 
   const handleGroupChange = (e) => {
     setSelectedGroup(e.target.value);
@@ -66,7 +79,8 @@ const Conjugation = () => {
         input.style.backgroundColor = "#f9e79f"; // Yellow for empty fields
       } else {
         const userAnswer = input.value.toLowerCase().trim();
-        const correctAnswer = conjugationData[selectedGroup].verbs[selectedVerb][parseInt(input.dataset.index)];
+        const correctAnswer =
+          conjugationData[selectedGroup].verbs[selectedVerb][parseInt(input.dataset.index)];
 
         if (userAnswer === correctAnswer) {
           input.style.backgroundColor = "#d5f5e3"; // Green for correct answer
@@ -93,7 +107,6 @@ const Conjugation = () => {
       }
 
       updatedScores[selectedVerb].best = Math.max(updatedScores[selectedVerb].best, correct);
-
       return updatedScores;
     });
   };
@@ -109,127 +122,67 @@ const Conjugation = () => {
 
   return (
     <div className={styles.container}>
-      < Container sx={{ mt: 4 }}>
-      <Typography variant="h3" align="center" gutterBottom>
-        Conjugaison
-      </Typography>
-
-      <Paper sx={{ p: 3, boxShadow: 3 }}>
-        <Typography variant="h5" gutterBottom>
-          Instructions :
-        </Typography>
-        <Typography variant="body1" paragraph>
-          Suivez les étapes ci-dessous pour pratiquer la conjugaison des verbes aux différents temps :
+      <Container sx={{ mt: 4 }}>
+        <Typography variant="h3" align="center" gutterBottom>
+          Conjugaison
         </Typography>
 
-        <List>
-          <ListItem>
-            <ListItemText 
-              primary="1. Choisissez un temps, puis le groupe et un verbe parmi ceux proposés."
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemText 
-              primary="2. Conjuguez le verbe choisi :"
-            />         
-           
-          </ListItem>
-          <ListItem>
-          <ListItemText 
-              primary="3. Vérifiez vos réponses à chaque étape."
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemText 
-              primary="4. Répétez l’exercice avec différents verbes pour mieux maîtriser chaque temps."
-            />
-          </ListItem>
-        </List>
-      </Paper>
-    </Container>
-      <ButtonGroup variant="contained" color="primary" aria-label="tense buttons" style={{ display: 'flex', justifyContent: 'space-around', marginTop: '20px', width: '100%' }}>
-        <Button
-          onClick={() => handleTenseChange("present")}
-          style={{
-            borderRadius: '12px',
-            fontSize: '1.2rem',
-            padding: '10px 20px',
-            textTransform: 'none',
-            transition: '0.3s ease',
-            margin: '0 10px',
-            backgroundColor: '#2196f3', // Default blue
-            color: 'white',
-            width: '20%',
-            '&:hover': {
-              backgroundColor: '#0288d1', // Darker blue on hover
-              transform: 'scale(1.05)', // Zoom effect on hover
-            },
-          }}
-        >
-          Présent
-        </Button>
-        <Button
-          onClick={() => handleTenseChange("future")}
-          style={{
-            borderRadius: '12px',
-            fontSize: '1.2rem',
-            padding: '10px 20px',
-            textTransform: 'none',
-            transition: '0.3s ease',
-            margin: '0 10px',
-            backgroundColor: '#2196f3', // Default blue
-            color: 'white',
-            width: '20%',
-            '&:hover': {
-              backgroundColor: '#0288d1', // Darker blue on hover
-              transform: 'scale(1.05)', // Zoom effect on hover
-            },
-          }}
-        >
-          Futur
-        </Button>
-        <Button
-          onClick={() => handleTenseChange("imperfect")}
-          style={{
-            borderRadius: '12px',
-            fontSize: '1.2rem',
-            padding: '10px 20px',
-            textTransform: 'none',
-            transition: '0.3s ease',
-            margin: '0 10px',
-            backgroundColor: '#2196f3', // Default blue
-            color: 'white',
-            width: '20%',
-            '&:hover': {
-              backgroundColor: '#0288d1', // Darker blue on hover
-              transform: 'scale(1.05)', // Zoom effect on hover
-            },
-          }}
-        >
-          Imparfait
-        </Button>
-        <Button
-          onClick={() => handleTenseChange("past")}
-          style={{
-            borderRadius: '12px',
-            fontSize: '1.2rem',
-            padding: '10px 20px',
-            textTransform: 'none',
-            transition: '0.3s ease',
-            margin: '0 10px',
-            backgroundColor: '#2196f3', // Default blue
-            color: 'white',
-            width: '20%',
-            '&:hover': {
-              backgroundColor: '#0288d1', // Darker blue on hover
-              transform: 'scale(1.05)', // Zoom effect on hover
-            },
-          }}
-        >
-          Passe composé
-        </Button>
+        <Paper sx={{ p: 3, boxShadow: 3 }}>
+          <Typography variant="h5" gutterBottom>
+            Instructions :
+          </Typography>
+          <Typography variant="body1" paragraph>
+            Suivez les étapes ci-dessous pour pratiquer la conjugaison des verbes aux différents temps :
+          </Typography>
+
+          <List>
+            <ListItem>
+              <ListItemText primary="1. Choisissez un temps, puis le groupe et un verbe parmi ceux proposés." />
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="2. Conjuguez le verbe choisi :" />
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="3. Vérifiez vos réponses à chaque étape." />
+            </ListItem>
+            <ListItem>
+              <ListItemText primary="4. Répétez l’exercice avec différents verbes pour mieux maîtriser chaque temps." />
+            </ListItem>
+          </List>
+        </Paper>
+      </Container>
+
+      <ButtonGroup
+        variant="contained"
+        color="primary"
+        aria-label="tense buttons"
+        style={{ display: "flex", justifyContent: "space-around", marginTop: "20px", width: "100%" }}
+      >
+        {["Présent", "Futur", "Imparfait", "Passe_composé"].map((tense) => (
+          <Button
+            key={tense}
+            onClick={() => handleTenseChange(tense)}
+            style={{
+              borderRadius: "12px",
+              fontSize: "1.2rem",
+              padding: "10px 20px",
+              textTransform: "none",
+              transition: "0.3s ease",
+              margin: "0 10px",
+              backgroundColor: "#2196f3",
+              color: "white",
+              width: "20%",
+              "&:hover": {
+                backgroundColor: "#0288d1",
+                transform: "scale(1.05)",
+              },
+            }}
+          >
+            {tense.charAt(0).toUpperCase() + tense.slice(1).replace("-", " ")}
+          </Button>
+        ))}
       </ButtonGroup>
-      <br></br>
+      <br />
 
       {/* Group selection */}
       <select className={styles.groupSelector} value={selectedGroup} onChange={handleGroupChange}>
@@ -241,76 +194,98 @@ const Conjugation = () => {
       </select>
 
       {/* Display the rule of the selected group */}
-      <Card sx={{ marginBottom: '30px', boxShadow: 3, borderRadius: '10px', backgroundColor: '#f4f6f9' }}>
-      <CardContent>
-        {/* Titre de la règle */}
-        <Typography 
-          variant="h4" 
-          sx={{
-            textAlign: 'center',
-            color: '#fff',
-            marginBottom: '20px',
-            padding: '15px',
-            backgroundColor: 'red',  // Bleu clair pour un titre moderne
-            borderRadius: '8px',
-            fontWeight: 'bold'
-          }}
-        >
-          {conjugationData[selectedGroup]?.rule?.title || 'Titre indisponible'}
-        </Typography>
+      <Card sx={{ marginBottom: "30px", boxShadow: 3, borderRadius: "10px", backgroundColor: "#f4f6f9" }}>
+        <CardContent>
+          {/* Règle du groupe sélectionné */}
+          <Typography
+            variant="h4"
+            sx={{
+              textAlign: "center",
+              color: "#fff",
+              marginBottom: "20px",
+              padding: "15px",
+              backgroundColor: "red",
+              borderRadius: "8px",
+              fontWeight: "bold",
+            }}
+          >
+            {conjugationData[selectedGroup]?.rule?.title || "Titre indisponible"}
+          </Typography>
 
-        <List>
-          {conjugationData[selectedGroup]?.rule?.content?.map((item, index) => (
-            <ListItem 
-              key={index} 
-              sx={{
-                paddingBottom: '20px',
-                backgroundColor: index % 2 === 0 ? '#111a23' : '#111a23',  // Alternance de couleurs pastel
-                borderRadius: '8px',
-                boxShadow: 2,
-                marginBottom: '10px'
-              }}
-            >
-              <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
-                
-                {/* Section Idée */}
-                <Typography 
-                  variant="h6" 
-                  sx={{
-                    fontWeight: 'bold',
-                    color: '#2c3e50',
-                    marginBottom: '10px',
-                    backgroundColor: '#ffc107',  // Jaune vif pour l'idée
-                    padding: '10px',
-                    borderRadius: '8px',
-                    display: 'flex', 
-                    alignItems: 'center'
-                  }}
-                >
-                  <CheckCircle sx={{ marginRight: '10px', color: '#28a745' }} /> {/* Icône pour l'idée */}
-                  {item?.idea || 'Idée non disponible'}
-                </Typography>
+          <List>
+            {conjugationData[selectedGroup]?.rule?.content?.map((item, index) => (
+              <ListItem
+                key={index}
+                sx={{
 
-                {/* Explication */}
-                <ListItemText
-                  primary={item?.text || 'Explication non disponible'}
-                  sx={{ 
-                    color: '#555', 
-                    fontSize: '1rem', 
-                    lineHeight: 1.6, 
-                    backgroundColor: '#fff',  // Fond blanc pour l'explication
-                    padding: '10px',
-                    borderRadius: '8px',
-                    boxShadow: 1,
-                    marginTop: '10px'
-                  }}
-                />
-              </Box>
-            </ListItem>
-          ))}
-        </List>
-      </CardContent>
-    </Card>
+                  paddingBottom: "20px",
+                  borderRadius: "8px",
+                  boxShadow: 2,
+                  marginBottom: "10px",
+                }}
+              >
+                <Box sx={{ display: "flex", flexDirection: "column", width: "100%" }}>
+                  {/* Section Idée avec la mise en forme HTML */}
+                  <Typography
+                    variant="h6"
+                    sx={{
+                      fontWeight: "bold",
+                      color: "#2c3e50",
+                      marginBottom: "10px",
+                      backgroundColor: "#ffc107",
+                      padding: "10px",
+                      borderRadius: "8px",
+                      display: "flex",
+                      alignItems: "center",
+                    }}
+                  >
+                    <CheckCircle sx={{ marginRight: "10px", color: "#28a745" }} />
+                    {item?.idea || "Idée non disponible"}
+                  </Typography>
+
+                  <ListItemText
+                    sx={{
+                      fontSize: "1.2rem", // Augmente la taille de la police du titre
+                      fontWeight: "400", // Simplifie le poids de la police
+                      lineHeight: 1.8, // Augmente l'espacement des lignes
+                      backgroundColor: "#f8f9fa", // Couleur de fond douce
+                      padding: "15px", // Ajoute un peu plus de remplissage
+                      borderRadius: "8px",
+                      boxShadow: 2, // Élève le niveau de l'ombre pour un effet de profondeur
+                      marginTop: "10px",
+                      transition: "background-color 0.3s ease", // Ajoute une transition douce
+                      "&:hover": {
+                        backgroundColor: "#e9ecef", // Change la couleur de fond au survol
+                      },
+                      "& span": {
+                        color: "#d32f2f", // Couleur du texte à l'intérieur des span
+                        fontWeight: "bold", // Texte en gras
+                        fontSize: "1.2rem", // Taille de la police des span
+                        textDecoration: "underline", // Surligner pour ajouter un effet
+                      },
+                    }}
+                    secondary={
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: item.text.replace(/{{(.*?)}}/g, (match, p1) => `<span>${p1}</span>`),
+                        }}
+                        style={{
+                          color: "#000000", // Couleur du texte noir
+                          fontSize: "1.2rem", // Augmente la taille de la police du texte principal
+                          lineHeight: 1.6, // Ajuste l'espacement des lignes pour le texte
+                        }}
+                      />
+                    }
+                  />
+
+
+                </Box>
+              </ListItem>
+            ))}
+          </List>
+        </CardContent>
+      </Card>
+
       {/* Verb selection */}
       {selectedGroup && (
         <select className={styles.verbSelector} value={selectedVerb} onChange={handleVerbChange}>
@@ -326,15 +301,21 @@ const Conjugation = () => {
       {/* Conjugation exercise */}
       {selectedVerb && (
         <div className={styles.exerciseBox}>
-          <h2>Conjuguez le verbe "<span>{selectedVerb}</span>" </h2>
+          <h2>
+            Conjuguez le verbe "<span>{selectedVerb}</span>"
+          </h2>
           {conjugationData[selectedGroup].verbs[selectedVerb]?.map((_, index) => (
             <div key={index}>
               <span className={styles.pronoun}>{["je", "tu", "il/elle", "nous", "vous", "ils/elles"][index]}</span>
               <input type="text" className={styles.verbInput} data-index={index} />
             </div>
           ))}
-          <button className={styles.checkBtn} onClick={checkAnswers}>Vérifier</button>
-          <button className={styles.resetBtn} onClick={resetExercise}>Réinitialiser</button>
+          <button className={styles.checkBtn} onClick={checkAnswers}>
+            Vérifier
+          </button>
+          <button className={styles.resetBtn} onClick={resetExercise}>
+            Réinitialiser
+          </button>
           {message && (
             <p className={`${styles.message} ${message.includes("correct") ? styles.success : styles.error}`}>
               {message}
@@ -368,6 +349,12 @@ const Conjugation = () => {
           </tbody>
         </table>
       )}
+     <Box className={styles.blackBox}>
+  
+    <ExerciceConj />
+</Box>
+
+     
     </div>
   );
 };

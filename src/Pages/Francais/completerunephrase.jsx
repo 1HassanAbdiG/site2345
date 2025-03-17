@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Button } from '@mui/material';
-import styles from '../Francais/lectrure/PhraseReconstruction.module.css';
+import { Box, Typography, Button, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Select, MenuItem, Card, Stack, Chip } from '@mui/material';
+import { blue, green, red } from '@mui/material/colors';
 
 const PhraseDeplacer = () => {
     const [phrases, setPhrases] = useState([]);
     const [selectedTextIndex, setSelectedTextIndex] = useState(null);
-    const [constructionAreaRefs, setConstructionAreaRefs] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [wordsBank, setWordsBank] = useState([]);
+    const [constructedSentences, setConstructedSentences] = useState([]);
+    const [scores, setScores] = useState([]);
+    const [totalScore, setTotalScore] = useState(0);
     const [startTime, setStartTime] = useState(null);
     const [totalTime, setTotalTime] = useState('');
 
@@ -16,122 +18,57 @@ const PhraseDeplacer = () => {
         const loadPhrases = () => {
             try {
                 const jsonFiles = requireJsonFiles.keys().map(requireJsonFiles);
-                const allPhrases = jsonFiles.map(json => ({
-                    title: json.text.title,
-                    sentences: json.text.sentences,
-                }));
-                setPhrases(allPhrases);
+                setPhrases(jsonFiles.map(json => ({ title: json.text.title, sentences: json.text.sentences })));
             } catch (error) {
                 console.error("Error loading JSON files:", error);
-            } finally {
-                setLoading(false);
             }
         };
-
         loadPhrases();
     }, [requireJsonFiles]);
 
-    const shuffleArray = (array) => {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    };
+        
+
+    const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
     const handleSelectText = (index) => {
-        const parsedIndex = parseInt(index, 10);
-
-        if (!phrases[parsedIndex]) {
-            console.error("Invalid text index selected");
-            return;
-        }
-
-        setSelectedTextIndex(parsedIndex);
-        const refs = phrases[parsedIndex]?.sentences?.map(() => React.createRef()) || [];
-        setConstructionAreaRefs(refs);
+        if (!phrases[index]) return;
+        setSelectedTextIndex(index);
         setStartTime(Date.now());
         setTotalTime('');
+        setScores(new Array(phrases[index].sentences.length).fill(0));
+        setTotalScore(0);
+        setWordsBank(phrases[index].sentences.map(sentence => shuffleArray([...sentence.words])));
+        setConstructedSentences(new Array(phrases[index].sentences.length).fill([]));
     };
 
-    const moveWord = (wordElement, targetArea) => {
-        if (!targetArea) return;
-
-        const parentClass = wordElement.parentElement.classList;
-
-        if (parentClass.contains(styles.wordBank)) {
-            targetArea.appendChild(wordElement);
-        } else {
-            wordElement.parentElement.previousElementSibling.appendChild(wordElement);
-        }
+    const moveWord = (word, sentenceIndex) => {
+        setWordsBank(prev => prev.map((words, idx) => idx === sentenceIndex ? words.filter(w => w !== word) : words));
+        setConstructedSentences(prev => prev.map((sent, idx) => idx === sentenceIndex ? [...sent, word] : sent));
     };
 
-    const checkPhrase = (correctOrder, constructionArea) => {
-        const constructedPhrase = Array.from(constructionArea.children)
-            .map(word => word.textContent)
-            .join(' ');
+    const removeWord = (word, sentenceIndex) => {
+        setConstructedSentences(prev => prev.map((sent, idx) => idx === sentenceIndex ? sent.filter(w => w !== word) : sent));
+        setWordsBank(prev => prev.map((words, idx) => idx === sentenceIndex ? [...words, word] : words));
+    };
 
-        const messageElement = constructionArea.nextElementSibling;
-        if (constructedPhrase === correctOrder.join(' ')) {
-            messageElement.textContent = "Correct !";
-            messageElement.style.color = 'green';
-        } else {
-            messageElement.textContent = "Essaie encore.";
-            messageElement.style.color = 'red';
-        }
+    const checkPhrase = (correctOrder, sentenceIndex) => {
+        const isCorrect = constructedSentences[sentenceIndex].join(' ') === correctOrder.join(' ');
+        setScores(prev => prev.map((score, idx) => idx === sentenceIndex ? (isCorrect ? 1 : 0) : score));
+        setTotalScore(scores.reduce((acc, curr) => acc + curr, 0));
     };
 
     const checkAllPhrases = () => {
-        if (selectedTextIndex === null || !phrases[selectedTextIndex]) return;
-
-        constructionAreaRefs.forEach((ref, idx) => {
-            const sentence = phrases[selectedTextIndex].sentences[idx];
-            checkPhrase(sentence.correctOrder, ref.current);
-        });
-
-        const endTime = Date.now();
-        const timeTaken = endTime - startTime;
-        const minutes = Math.floor(timeTaken / 60000);
-        const seconds = Math.floor((timeTaken % 60000) / 1000);
-        setTotalTime(`${minutes} minute(s) et ${seconds} seconde(s)`);
-    };
-
-    const createPhraseArea = (sentence, index) => {
-        const shuffledWords = [...sentence.words];
-        shuffleArray(shuffledWords);
-
-        return (
-            <div className={styles.phraseArea} key={index}>
-                <Typography variant="h6">Type de phrase: {sentence.type}</Typography>
-                <div className={styles.wordBank}>
-                    {shuffledWords.map((word, idx) => (
-                        <button
-                            key={idx}
-                            className={styles.word}
-                            onClick={(e) => moveWord(e.target, constructionAreaRefs[index]?.current)}
-                        >
-                            {word}
-                        </button>
-                    ))}
-                </div>
-                <div
-                    className={styles.constructionArea}
-                    ref={constructionAreaRefs[index]}
-                ></div>
-                <button
-                    className={styles.checkButton}
-                    onClick={() => checkPhrase(sentence.correctOrder, constructionAreaRefs[index]?.current)}
-                >
-                    Vérifier
-                </button>
-                <div className={styles.message}></div>
-            </div>
+        if (selectedTextIndex === null) return;
+        const newScores = phrases[selectedTextIndex].sentences.map((sentence, idx) =>
+            constructedSentences[idx].join(' ') === sentence.correctOrder.join(' ') ? 1 : 0
         );
+        setScores(newScores);
+        setTotalScore(newScores.reduce((acc, curr) => acc + curr, 0));
+        setTotalTime(`${Math.floor((Date.now() - startTime) / 60000)} min ${(Date.now() - startTime) % 60000 / 1000} sec`);
     };
-
-    if (loading) return <div>Chargement en cours...</div>;
 
     return (
-        <Box className={styles.gameContainer}>
+        <Box sx={{ p: 3, maxWidth: "lg", mx: 'auto', bgcolor: blue[50], borderRadius: 2 }}>
             <Typography variant="h4" sx={{
                 fontSize: "3rem", // Change la taille de la police
                 textAlign: "center",
@@ -149,52 +86,91 @@ const PhraseDeplacer = () => {
                     <li>Cliquez sur "Vérifier" pour vérifier votre réponse.</li>
                 </ol>
             </Typography>
+            <Typography variant="body1" mt={2}>Sélectionnez un texte :</Typography>
+            <Select fullWidth value={selectedTextIndex || ''} onChange={(e) => handleSelectText(e.target.value)}>
+                {phrases.map((text, index) => (
+                    <MenuItem key={index} value={index}>{text.title}</MenuItem>
+                ))}
+            </Select>
 
-            <div>
-                <select
-                    defaultValue=""
-                    onChange={(e) => handleSelectText(e.target.value)}
-                >
-                    <option value="" disabled>
-                        Sélectionner un texte
-                    </option>
-                    {phrases.map((text, index) => (
-                        <option key={index} value={index}>
-                            {text.title}
-                        </option>
-                    ))}
-                </select>
-            </div>
-
-            {selectedTextIndex !== null &&
-                phrases[selectedTextIndex]?.sentences?.map((sentence, index) =>
-                    createPhraseArea(sentence, index)
-                )}
-
-            <Box className={styles.buttonArea}>
-                <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={checkAllPhrases}
-                >
-                    Vérifier Tout
-                </Button>
-                <Button
-                    variant="outlined"
-                    color="secondary"
-                    onClick={() => handleSelectText(selectedTextIndex)}
-                >
-                    Recommencer
-                </Button>
-            </Box>
-
-            {totalTime && (
-                <Box className={styles.resultBox}>
-                    <Typography variant="h6">
-                        Temps écoulé : {totalTime}
+            {selectedTextIndex !== null && phrases[selectedTextIndex]?.sentences?.map((sentence, index) => (
+                <Card key={index} sx={{ mt: 3, p: 3, bgcolor: blue[100], width: "93%" }}>
+                    <Typography variant="h5" sx={{ mb: 2, fontWeight: 'bold' }}>
+                        Type: {sentence.type}
                     </Typography>
-                </Box>
+
+                    {/* Zone de construction */}
+                    <Stack
+                        direction="row"
+                        spacing={2}
+                        flexWrap="wrap"
+                        sx={{ p: 3, bgcolor: green[50], borderRadius: 2, width: "95%" }}
+                    >
+                        {constructedSentences[index].map((word, i) => (
+                            <Chip
+                                key={i}
+                                label={word}
+                                color="primary"
+                                sx={{ fontSize: "1.1rem", padding: "10px", minWidth: "50px", '&:hover': { bgcolor: blue[200] } }}
+                                onClick={() => removeWord(word, index)}
+                            />
+                        ))}
+                    </Stack>
+
+                    {/* Zone des mots à déplacer */}
+                    <Stack
+                        direction="row"
+                        spacing={2}
+                        flexWrap="wrap"
+                        sx={{ mt: 3, p: 3, bgcolor: red[50], borderRadius: 2, width: "95%" }}
+                    >
+                        {wordsBank[index].map((word, i) => (
+                            <Chip
+                                key={i}
+                                label={word}
+                                color="secondary"
+                                sx={{ fontSize: "1.1rem", padding: "10px", minWidth: "50px", '&:hover': { bgcolor: red[200] } }}
+                                onClick={() => moveWord(word, index)}
+                            />
+                        ))}
+                    </Stack>
+
+                    <Button
+                        variant="contained"
+                        color="success"
+                        sx={{ mt: 3, fontSize: "1.2rem", padding: "12px 20px" }}
+                        onClick={() => checkPhrase(sentence.correctOrder, index)}
+                    >
+                        Vérifier
+                    </Button>
+                </Card>
+            ))}
+
+
+            <Button variant="contained" color="primary" fullWidth sx={{ mt: 3 }} onClick={checkAllPhrases}>Vérifier Tout</Button>
+            {totalTime && <Typography variant="h6" textAlign="center" mt={2}>Temps écoulé: {totalTime}</Typography>}
+
+            {scores.length > 0 && (
+                <TableContainer component={Paper} sx={{ mt: 3 }}>
+                    <Table>
+                        <TableHead>
+                            <TableRow>
+                                <TableCell>Phrase</TableCell>
+                                <TableCell>Résultat</TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                            {scores.map((score, idx) => (
+                                <TableRow key={idx}>
+                                    <TableCell>Phrase {idx + 1}</TableCell>
+                                    <TableCell>{score === 1 ? '✅ Correct' : '❌ Incorrect'}</TableCell>
+                                </TableRow>
+                            ))}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
             )}
+            <Typography variant="h5" textAlign="center" mt={3} color={blue[900]}>Score Total: {totalScore} / {scores.length}</Typography>
         </Box>
     );
 };

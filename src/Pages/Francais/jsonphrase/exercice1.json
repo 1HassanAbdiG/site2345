@@ -13,7 +13,7 @@
         "correctOrder": ["Où", "est", "le", "chien", "?"]
       },
       {
-        "type": "impérative",
+        "type": "exclamatif",
         "words": ["Mange", "ta", "soupe", "!"],
         "correctOrder": ["Mange", "ta", "soupe", "!"]
       },
@@ -73,7 +73,7 @@
         "correctOrder": ["Qui", "vient", "à", "la", "fête", "?"]
       },
       {
-        "type": "impérative",
+        "type": "exclamatif",
         "words": ["Viens", "ici", "tout", "de", "suite", "!"],
         "correctOrder": ["Viens", "ici", "tout", "de", "suite", "!"]
       },

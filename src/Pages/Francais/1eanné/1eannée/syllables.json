@@ -1,0 +1,11 @@
+{
+  "syllables": ["mé", "de", "don", "li", "ner", "meau", "na", "cha", "dé", "ma", "mo", "de", "la", "re", "jeu", "din", "ma", "cin"],
+  "words": [
+    { "image": "médecin.png", "correct": "médecin", "article": "un", "audio": "médecin.mp3" },
+    { "image": "dindon.png", "correct": "dindon", "article": "un", "audio": "dindon.mp3" },
+    { "image": "déjeuner.png", "correct": "déjeuner", "article": "un", "audio": "déjeuner.mp3" },
+    { "image": "limonade.png", "correct": "limonade", "article": "une", "audio": "limonade.mp3" },
+    { "image": "chameau.png", "correct": "chameau", "article": "un", "audio": "chameau.mp3" },
+    { "image": "malade.png", "correct": "malade", "article": "un", "audio": "malade.mp3" }
+  ]
+}

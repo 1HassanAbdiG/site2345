@@ -85,30 +85,29 @@ const WordPlayer = () => {
 
   const verifyDictation = () => {
     if (answers.includes("")) {
-      handleSnackbar("Veuillez compléter tous les mots avant de vérifier.");
-      return;
+        handleSnackbar("Veuillez compléter tous les mots avant de vérifier.");
+        return;
     }
 
     let correctCount = 0;
     const errors = [];
 
     selectedDay.words.forEach((wordObj, index) => {
-      const userInput = answers[index];
-      const isCorrect = wordObj.word.toLowerCase() === userInput.toLowerCase();
+        const userInput = answers[index].trim(); // Trimmed user input
+        const isCorrect = wordObj.word.toLowerCase().trim() === userInput.toLowerCase().trim(); // Trimmed word comparison
 
-      if (isCorrect) {
-        correctCount++;
-      } else {
-        errors.push({ word: wordObj.word, userInput, isCorrect });
-      }
+        if (isCorrect) {
+            correctCount++;
+        } else {
+            errors.push({ word: wordObj.word, userInput, isCorrect });
+        }
     });
 
     const score = (correctCount / selectedDay.words.length) * 100;
 
     setResult({ score, errors });
     handleSnackbar("Dictée vérifiée, consultez vos résultats !");
-  };
-
+};
   return (
     <>
       {/* Top bar */}

@@ -1,315 +1,101 @@
-/* Conteneur principal */
+/* Conjugation.module.css */
 .container {
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 800px;
-  font-family: Arial, sans-serif;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #f9f9f9;
+  padding: 20px; /* ajoute du rembourrage autour de l'ensemble du composant */
+  background-color: #f8f9fa; /* couleur de fond douce */
+  border-radius: 12px; /* bords arrondis pour un look moderne */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ombre douce autour du conteneur */
+  margin: 20px; /* espace autour du conteneur principal */
 }
 
-/* Titres */
-h1 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-h2,
-h3 {
-  color: #2c3e50;
-  margin-bottom: 10px;
-}
-
-/* Selecteurs de groupe et de verbe */
 .groupSelector,
 .verbSelector {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: #fff;
+  width: 100%; /* occupe la largeur totale */
+  padding: 10px; /* espace interne */
+  margin: 15px 0; /* marge supérieure et inférieure pour espacer */
+  border-radius: 5px; /* bords arrondis */
+  border: 1px solid #ccc; /* bordure douce */
+  font-size: 1.1rem; /* taille de police légèrement augmentée */
 }
 
-/* Boîte de règles */
-.ruleBox {
-  margin-bottom: 20px;
-  padding: 10px;
-  background-color: #eaf2f8;
-  border-left: 4px solid #3498db;
-  border-radius: 4px;
-}
-
-.ruleBox p {
-  margin: 0;
-  font-size: 14px;
-  color: #555;
-}
-
-/* Exercice de conjugaison */
 .exerciseBox {
-  margin-bottom: 30px;
+  background-color: #ffffff; /* fond blanc pour le champ d'exercice */
+  padding: 20px; /* rembourrage autour du champ */
+  border-radius: 10px; /* bords arrondis */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* ombre douce */
+  margin: 20px 0; /* espace au-dessus et en dessous */
 }
 
 .verbInput {
-  width: calc(100% - 120px);
-  padding: 8px;
-  margin: 10px 0;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.pronoun {
-  display: inline-block;
-  width: 100px;
-  font-weight: bold;
-  color: #333;
+  width: calc(100% - 20px); /* occuper presque la totalité de la largeur */
+  padding: 10px; /* espace interne */
+  margin: 10px 0; /* marge supérieure et inférieure */
+  border: 1px solid #ddd; /* bordure douce */
+  border-radius: 5px; /* bords arrondis */
+  font-size: 1rem; /* taille de police standard */
 }
 
 .checkBtn,
-.resetBtn,
-.answerBtn {
-  padding: 10px 15px;
-  margin: 5px;
-  font-size: 14px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.resetBtn {
+  background-color: #4caf50; /* couleur de fond pour le bouton Vérifier */
+  color: white; /* couleur du texte */
+  padding: 10px 20px; /* rembourrage interne */
+  border: none; /* supprimer la bordure par défaut */
+  border-radius: 5px; /* bords arrondis */
+  cursor: pointer; /* changer le curseur sur survol */
+  font-size: 1rem; /* taille de police standard */
+  margin-top: 15px; /* marge au-dessus */
+  transition: background-color 0.3s; /* douceur sur le changement de couleur */
 }
 
-.checkBtn {
-  background-color: #27ae60;
-  color: white;
+.checkBtn:hover {
+  background-color: #45a049; /* couleur de fond au survol */
 }
 
 .resetBtn {
-  background-color: #e67e22;
-  color: white;
+  background-color: #f44336; /* couleur de fond pour le bouton Réinitialiser */
 }
 
-.answerBtn {
-  background-color: #3498db;
-  color: white;
+.resetBtn:hover {
+  background-color: #e53935; /* couleur de fond au survol */
 }
 
-button:hover {
-  opacity: 0.9;
-}
-
-/* Messages de feedback */
 .message {
-  margin-top: 15px;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 4px;
+  margin-top: 15px; /* marge au-dessus */
+  font-weight: bold; /* texte en gras */
+  padding: 15px; /* ajout d'espace autour */
 }
 
 .success {
-  color: #155724;
-  background-color: #d4edda;
-  border: 1px solid #c3e6cb;
+  color: #4caf50; /* couleur verte pour les messages de succès */
 }
 
 .error {
-  color: #721c24;
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
+  color: #f44336; /* couleur rouge pour les messages d'erreur */
 }
 
-/* Tableaux */
 .scoresTable {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+  width: 100%; /* occuper la largeur totale */
+  margin-top: 20px; /* espace supérieur */
+  border-collapse: collapse; /* fusionner les bordures des cellules */
 }
 
 .scoresTable th,
 .scoresTable td {
-  padding: 10px;
-  border: 1px solid #ddd;
-  text-align: center;
+  border: 1px solid #ddd; /* bordures douces */
+  text-align: center; /* centrer le texte dans les cellules */
+  padding: 12px; /* espace interne dans les cellules */
 }
 
 .scoresTable th {
-  background-color: #f4f6f6;
-  color: #333;
-}
-
-.scoresTable tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #f2f2f2; /* fond gris clair pour les en-têtes */
 }
 
 .scoresTable tr:hover {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1; /* effet de survol pour les lignes */
 }
-
-/* Boîte récapitulative */
-.recapBox {
-  margin-top: 30px;
+.blackBox {
+  background-color: black;
+  color: white;
   padding: 10px;
-  background-color: #f2f4f4;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.recapBox h3 {
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-
-
-
-/* Styles généraux pour la règle */
-.ruleBox {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  background-color: #0c7854;
-  transition: transform 0.3s ease; /* Animation au survol */
-}
-
-.ruleBox:hover {
-  transform: scale(1.05);  /* Effet de zoom au survol */
-}
-
-/* Titre de la règle */
-.title {
-  color: #333;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-/* Liste de contenu de la règle */
-.ruleList {
-  list-style: none;
-  padding-left: 0;
-}
-
-.ruleSection {
-  margin-bottom: 20px;
-}
-
-.ruleSection strong {
-  font-size: 1.2rem;
-  color: #2C3E50;
-  margin-bottom: 10px;
-  display: block;
-}
-
-/* Explication détaillée */
-.ruleSection p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #555;
-}
-
-/* Transition d'apparence */
-.ruleBox:hover {
-  transform: scale(1.05);  /* Effet de zoom au survol */
-  transition: transform 0.3s ease;
-}
-
-/* Media Query pour les petits écrans */
-@media (max-width: 768px) {
-  .ruleBox {
-    padding: 15px;
-  }
-
-  .ruleBox h3 {
-    font-size: 1.3em;
-  }
-
-  .ruleBox p,
-  .ruleBox ul li {
-    font-size: 1em;
-  }
-}
-
-/* Conteneur des règles */
-.ruleBox {
-  padding: 20px;
-  background-color: #eaf2f8;
-  border-radius: 8px;
-  border-left: 4px solid #3498db;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-  transition: transform 0.3s ease;
-}
-
-.ruleBox:hover {
-  transform: scale(1.05); /* Effet de zoom au survol */
-}
-
-/* Titre des règles */
-.title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #111a23;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-/* Liste des règles */
-.ruleList {
-  list-style-type: none;
-  padding: 0;
-}
-
-.ruleSection {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-}
-
-.ruleSection:last-child {
-  border-bottom: none;
-}
-
-/* Idée de la règle */
-.idea {
-  font-size: 1.2rem;
-  color: #3498db;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-/* Explication détaillée */
-.explanationList {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.explanationList li {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #555;
-  padding-left: 20px;
-}
-
-/* Media Query pour les petits écrans */
-@media (max-width: 768px) {
-  .ruleBox {
-    padding: 15px;
-  }
-
-  .title {
-    font-size: 1.3rem;
-  }
-
-  .ruleSection {
-    padding: 10px;
-  }
-
-  .idea {
-    font-size: 1.1rem;
-  }
-
-  .explanationList li {
-    font-size: 0.95rem;
-  }
+  border-radius: 5px;
 }

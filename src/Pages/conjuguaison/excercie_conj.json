@@ -1,0 +1,894 @@
+[
+  {
+    "exercice": 1,
+    "titre": "conjugaison_présent",
+    "rules": "Règle : Complète chaque phrase avec le verbe entre parenthèses conjugué au présent de l'indicatif.\n\n- Les verbes réguliers en -er, -ir, -re sont conjugués selon leurs terminaisons.\n- Les verbes irréguliers ont des formes particulières à mémoriser.",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Je (manger) ____ des fruits tous les jours.",
+        "reponses": ["mange"],
+        "options": ["mange", "manges", "mangent"]
+      },
+      {
+        "id": 2,
+        "phrase": "Tu (finir) ____ tes devoirs avant de sortir.",
+        "reponses": ["finis"],
+        "options": ["finis", "finit", "finissent"]
+      },
+      {
+        "id": 3,
+        "phrase": "Il (jouer) ____ au football avec ses amis.",
+        "reponses": ["joue"],
+        "options": ["joue", "joues", "jouent"]
+      },
+      {
+        "id": 4,
+        "phrase": "Nous (aller) ____ au parc cet après-midi.",
+        "reponses": ["allons"],
+        "options": ["allons", "allez", "va"]
+      },
+      {
+        "id": 5,
+        "phrase": "Vous (parler) ____ français très bien.",
+        "reponses": ["parlez"],
+        "options": ["parles", "parle", "parlez"]
+      },
+      {
+        "id": 6,
+        "phrase": "Elles (écouter) ____ de la musique classique.",
+        "reponses": ["écoutent"],
+        "options": ["écoute", "écoutes", "écoutent"]
+      },
+      {
+        "id": 7,
+        "phrase": "Je (prendre) ____ le bus tous les matins.",
+        "reponses": ["prends"],
+        "options": ["prends", "prend", "prenons"]
+      },
+      {
+        "id": 8,
+        "phrase": "Tu (être) ____ toujours à l'heure.",
+        "reponses": ["es"],
+        "options": ["es", "est", "sont"]
+      },
+      {
+        "id": 9,
+        "phrase": "Ils (faire) ____ souvent du vélo.",
+        "reponses": ["font"],
+        "options": ["fait", "fais", "font"]
+      },
+      {
+        "id": 10,
+        "phrase": "Elle (regarder) ____ la télévision le soir.",
+        "reponses": ["regarde"],
+        "options": ["regarde", "regardes", "regardent"]
+      },
+      {
+        "id": 11,
+        "phrase": "Nous (lire) ____ des livres intéressants.",
+        "reponses": ["lisons"],
+        "options": ["lisons", "lisez", "lit"]
+      },
+      {
+        "id": 12,
+        "phrase": "Vous (écrire) ____ une lettre à votre grand-mère.",
+        "reponses": ["écrivez"],
+        "options": ["écrivez", "écris", "écrit"]
+      },
+      {
+        "id": 13,
+        "phrase": "Je (choisir) ____ une robe pour la fête.",
+        "reponses": ["choisis"],
+        "options": ["choisis", "choisit", "choisissons"]
+      },
+      {
+        "id": 14,
+        "phrase": "Elles (attendre) ____ le bus à l'arrêt.",
+        "reponses": ["attendent"],
+        "options": ["attendent", "attends", "attend"]
+      },
+      {
+        "id": 15,
+        "phrase": "Tu (voir) ____ le nouveau film au cinéma.",
+        "reponses": ["vois"],
+        "options": ["vois", "voit", "voient"]
+      },
+      {
+        "id": 16,
+        "phrase": "Il (demander) ____ de l'aide à son professeur.",
+        "reponses": ["demande"],
+        "options": ["demande", "demandes", "demandent"]
+      },
+      {
+        "id": 17,
+        "phrase": "Nous (réussir) ____ à notre examen.",
+        "reponses": ["réussissons"],
+        "options": ["réussis", "réussit", "réussissons"]
+      },
+      {
+        "id": 18,
+        "phrase": "Vous (sortir) ____ ensemble ce week-end.",
+        "reponses": ["sortirez"],
+        "options": ["sortir", "sortis", "sortez"]
+      },
+      {
+        "id": 19,
+        "phrase": "Je (venir) ____ à la fête demain soir.",
+        "reponses": ["viens"],
+        "options": ["viens", "vient", "venons"]
+      },
+      {
+        "id": 20,
+        "phrase": "Ils (travailler) ____ sur un projet important.",
+        "reponses": ["travaillent"],
+        "options": ["travaillent", "travaille", "travailles"]
+      }
+    ]
+  },{
+    "exercice": 2,
+    "titre": "conjugaison_futur",
+    "rules": "Règle : Complète chaque phrase avec le verbe entre parenthèses conjugué au futur simple.\n\n- Pour les verbes réguliers, ajoutez les terminaisons appropriées : -ai, -as, -a, -ons, -ez, -ont au verbe à l'infinitif.\n- Certains verbes sont irréguliers et ont des formes particulières.",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Je (aller) ____ au cinéma demain soir.",
+        "reponses": ["irai"],
+        "options": ["irai", "iras", "ira"]
+      },
+      {
+        "id": 2,
+        "phrase": "Tu (manger) ____ des pâtes ce soir.",
+        "reponses": ["mangeras"],
+        "options": ["mangeras", "manges", "mangera"]
+      },
+      {
+        "id": 3,
+        "phrase": "Il (finir) ____ ses devoirs avant le dîner.",
+        "reponses": ["finira"],
+        "options": ["finira", "finis", "finir"]
+      },
+      {
+        "id": 4,
+        "phrase": "Nous (visiter) ____ le musée la semaine prochaine.",
+        "reponses": ["visiterons"],
+        "options": ["visiterons", "visitez", "visite"]
+      },
+      {
+        "id": 5,
+        "phrase": "Vous (faire) ____ du vélo ce week-end.",
+        "reponses": ["ferez"],
+        "options": ["ferez", "fera", "faites"]
+      },
+      {
+        "id": 6,
+        "phrase": "Elles (acheter) ____ de nouveaux vêtements.",
+        "reponses": ["achèteront"],
+        "options": ["achèteront", "achète", "achètes"]
+      },
+      {
+        "id": 7,
+        "phrase": "Je (devoir) ____ étudier pour l'examen.",
+        "reponses": ["devrai"],
+        "options": ["devrai", "devras", "devra"]
+      },
+      {
+        "id": 8,
+        "phrase": "Tu (être) ____ le meilleur de la classe.",
+        "reponses": ["seras"],
+        "options": ["seras", "sera", "sont"]
+      },
+      {
+        "id": 9,
+        "phrase": "Ils (prendre) ____ un taxi pour aller à la gare.",
+        "reponses": ["prendront"],
+        "options": ["prendra", "prendront", "prend"]
+      },
+      {
+        "id": 10,
+        "phrase": "Elle (faire) ____ un gâteau pour ton anniversaire.",
+        "reponses": ["fera"],
+        "options": ["fera", "fais", "fait"]
+      },
+      {
+        "id": 11,
+        "phrase": "Nous (voir) ____ nos amis demain.",
+        "reponses": ["verrons"],
+        "options": ["verrons", "vois", "voit"]
+      },
+      {
+        "id": 12,
+        "phrase": "Vous (pouvoir) ____ venir à la fête.",
+        "reponses": ["pourrez"],
+        "options": ["pourrez", "pourras", "pourra"]
+      },
+      {
+        "id": 13,
+        "phrase": "Je (partir) ____ en vacances cet été.",
+        "reponses": ["partirai"],
+        "options": ["partirai", "partiras", "partira"]
+      },
+      {
+        "id": 14,
+        "phrase": "Tu (trouver) ____ la solution à ce problème.",
+        "reponses": ["trouveras"],
+        "options": ["trouveras", "trouvais", "trouve"]
+      },
+      {
+        "id": 15,
+        "phrase": "Ils (jouer) ____ au football dans le parc.",
+        "reponses": ["joueront"],
+        "options": ["joueront", "joue", "joues"]
+      },
+      {
+        "id": 16,
+        "phrase": "Nous (commencer) ____ le projet la semaine prochaine.",
+        "reponses": ["commencerons"],
+        "options": ["commencerons", "commencez", "commence"]
+      },
+      {
+        "id": 17,
+        "phrase": "Vous (répondre) ____ à toutes les questions.",
+        "reponses": ["répondrez"],
+        "options": ["répondrez", "réponds", "répond"]
+      },
+      {
+        "id": 18,
+        "phrase": "Je (pouvoir) ____ t'aider si tu veux.",
+        "reponses": ["pourrai"],
+        "options": ["pourrai", "pourras", "pourra"]
+      },
+      {
+        "id": 19,
+        "phrase": "Elle (finir) ____ son livre ce soir.",
+        "reponses": ["finira"],
+        "options": ["finira", "finis", "finissage"]
+      },
+      {
+        "id": 20,
+        "phrase": "Ils (venir) ____ à ta fête d'anniversaire.",
+        "reponses": ["viendront"],
+        "options": ["viendront", "viendras", "viendra"]
+      }
+    ]
+  },{
+    "exercice": 3,
+    "titre": "conjugaison_imparfait",
+    "rules": "Règle : Complète chaque phrase avec le verbe entre parenthèses conjugué à l'imparfait.\n\n- Pour conjuguer les verbes à l'imparfait, prenez le radical de la première personne du pluriel du présent et ajoutez les terminaisons : -ais, -ais, -ait, -ions, -iez, -aient.",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Quand j'étais petit, je (jouer) ____ au parc avec mes amis.",
+        "reponses": ["jouais"],
+        "options": ["jouais", "jouait", "jouions"]
+      },
+      {
+        "id": 2,
+        "phrase": "Elle (regarder) ____ la télévision tous les soirs.",
+        "reponses": ["regardait"],
+        "options": ["regardait", "regardais", "regardons"]
+      },
+      {
+        "id": 3,
+        "phrase": "Nous (manger) ____ souvent au restaurant.",
+        "reponses": ["mangions"],
+        "options": ["mangeons", "mangions", "mangeait"]
+      },
+      {
+        "id": 4,
+        "phrase": "Ils (faire) ____ du vélo chaque samedi.",
+        "reponses": ["faisaient"],
+        "options": ["faisaient", "faisiez", "faisait"]
+      },
+      {
+        "id": 5,
+        "phrase": "Vous (parler) ____ beaucoup en classe.",
+        "reponses": ["parliez"],
+        "options": ["parliez", "parlais", "parlait"]
+      },
+      {
+        "id": 6,
+        "phrase": "Je (être) ____ très timide à l'école.",
+        "reponses": ["étais"],
+        "options": ["étais", "était", "étions"]
+      },
+      {
+        "id": 7,
+        "phrase": "Tu (voir) ____ souvent ta grand-mère.",
+        "reponses": ["voyais"],
+        "options": ["voyais", "voyait", "voyons"]
+      },
+      {
+        "id": 8,
+        "phrase": "Nous (faire) ____ des promenades au bord de la mer.",
+        "reponses": ["faisions"],
+        "options": ["faisions", "faisait", "faites"]
+      },
+      {
+        "id": 9,
+        "phrase": "Elle (écrire) ____ des lettres à son ami.",
+        "reponses": ["écrivait"],
+        "options": ["écrivait", "écrivais", "écrivons"]
+      },
+      {
+        "id": 10,
+        "phrase": "Ils (prendre) ____ le bus pour aller à l'école.",
+        "reponses": ["prenaient"],
+        "options": ["prenaient", "prenait", "prenez"]
+      },
+      {
+        "id": 11,
+        "phrase": "Vous (aller) ____ souvent à la piscine en été.",
+        "reponses": ["alliez"],
+        "options": ["alliez", "allait", "allaient"]
+      },
+      {
+        "id": 12,
+        "phrase": "Je (lire) ____ des livres avant de me coucher.",
+        "reponses": ["lisais"],
+        "options": ["lisais", "lisait", "lisez"]
+      },
+      {
+        "id": 13,
+        "phrase": "Tu (choisir) ____ toujours le même dessert.",
+        "reponses": ["choisissais"],
+        "options": ["choisissais", "choisissait", "choisissont"]
+      },
+      {
+        "id": 14,
+        "phrase": "Nous (attendre) ____ le bus tous les matins.",
+        "reponses": ["attendions"],
+        "options": ["attendions", "attendez", "attendait"]
+      },
+      {
+        "id": 15,
+        "phrase": "Vous (voir) ____ souvent des films ensemble.",
+        "reponses": ["voyiez"],
+        "options": ["voyiez", "voyait", "voient"]
+      },
+      {
+        "id": 16,
+        "phrase": "Il (travailler) ____ dur pour réussir.",
+        "reponses": ["travaillait"],
+        "options": ["travaillait", "trabalais", "travaillons"]
+      },
+      {
+        "id": 17,
+        "phrase": "Je (penser) ____ à mes vacances d'été.",
+        "reponses": ["pensais"],
+        "options": ["pensais", "pensait", "pensez"]
+      },
+      {
+        "id": 18,
+        "phrase": "Nous (écouter) ____ de la musique tous les jours.",
+        "reponses": ["écoutions"],
+        "options": ["écoutions", "écoutez", "écoutaient"]
+      },
+      {
+        "id": 19,
+        "phrase": "Elle (trouver) ____ toujours quelque chose à dire.",
+        "reponses": ["trouvait"],
+        "options": ["trouvait", "trouvais", "trouvons"]
+      },
+      {
+        "id": 20,
+        "phrase": "Ils (partir) ____ en vacances chaque été.",
+        "reponses": ["partaient"],
+        "options": ["partaient", "partait", "partons"]
+      }
+    ]
+  },{
+    "exercice": 4,
+    "titre": "_passecompose1",
+    "rules": "Règle : Complète chaque phrase avec le verbe entre parenthèses conjugué au passé composé.\n\n- Pour conjuguer les verbes au passé composé, vous avez besoin de l'auxiliaire (être ou avoir) conjugué au présent, suivi du participe passé du verbe à conjuguer.\n- Pour les verbes conjugués avec 'être', n'oubliez pas d'accorder le participe passé en genre et en nombre avec le sujet.\n- Exemple : J'ai mangé (avec avoir), Elle est allée (avec être).",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Hier, je (aller) ____ au cinéma.",
+        "reponses": ["suis allé(e)"],
+        "options": ["suis allé(e)", "ai allé(e)", "je suis allé(e)"]
+      },
+      {
+        "id": 2,
+        "phrase": "Tu (manger) ____ une pizza.",
+        "reponses": ["as mangé"],
+        "options": ["as mangé", "as mange", "as mangeé"]
+      },
+      {
+        "id": 3,
+        "phrase": "Elle (prendre) ____ le train ce matin.",
+        "reponses": ["a pris"],
+        "options": ["a pris", "est pris", "a prendre"]
+      },
+      {
+        "id": 4,
+        "phrase": "Nous (faire) ____ un grand ménage.",
+        "reponses": ["avons fait"],
+        "options": ["avons fait", "sommes faits", "nous avons fait"]
+      },
+      {
+        "id": 5,
+        "phrase": "Vous (venir) ____ à la fête.",
+        "reponses": ["êtes venu(e)(s)"],
+        "options": ["êtes venu(e)(s)", "avez venu(e)(s)", "êtes venait"]
+      },
+      {
+        "id": 6,
+        "phrase": "Ils (voir) ____ un beau film.",
+        "reponses": ["ont vu"],
+        "options": ["ont vu", "ont voir", "ont regardé"]
+      },
+      {
+        "id": 7,
+        "phrase": "Nous (partir) ____ en vacances l'année dernière.",
+        "reponses": ["sommes partis/parties"],
+        "options": ["sommes partis/parties", "avons partis", "sommes parti"]
+      },
+      {
+        "id": 8,
+        "phrase": "Tu (écrire) ____ une lettre à ton ami.",
+        "reponses": ["as écrit"],
+        "options": ["as écrit", "as écris", "es écrit"]
+      },
+      {
+        "id": 9,
+        "phrase": "Elle (finir) ____ son projet à temps.",
+        "reponses": ["a fini"],
+        "options": ["a fini", "elle a finie", "a finit"]
+      },
+      {
+        "id": 10,
+        "phrase": "Ils (choisir) ____ un film pour la soirée.",
+        "reponses": ["ont choisi"],
+        "options": ["ont choisi", "choisissent", "choisi"]
+      },
+      {
+        "id": 11,
+        "phrase": "Nous (voir) ____ nos amis hier.",
+        "reponses": ["avons vu"],
+        "options": ["avons vu", "sommes visto", "avez vu"]
+      },
+      {
+        "id": 12,
+        "phrase": "Je (entendre) ____ une belle chanson.",
+        "reponses": ["ai entendu"],
+        "options": ["ai entendu", "entends", "ai entendué"]
+      },
+      {
+        "id": 13,
+        "phrase": "Tu (rester) ____ chez toi tout le week-end.",
+        "reponses": ["es resté(e)"],
+        "options": ["es resté(e)", "as resté(e)", "es resté"]
+      },
+      {
+        "id": 14,
+        "phrase": "Elle (choisir) ____ une robe pour la fête.",
+        "reponses": ["a choisi"],
+        "options": ["a choisi", "est choisie", "a choisir"]
+      },
+      {
+        "id": 15,
+        "phrase": "Nous (découvrir) ____ une nouvelle café.",
+        "reponses": ["avons découvert"],
+        "options": ["avons découvert", "avons découverts", "sommes découvert"]
+      },
+      {
+        "id": 16,
+        "phrase": "Vous (répondre) ____ à la question.",
+        "reponses": ["avez répondu"],
+        "options": ["avez répondu", "êtes répondu", "répondez"]
+      },
+      {
+        "id": 17,
+        "phrase": "Il (jouer) ____ au football hier.",
+        "reponses": ["a joué"],
+        "options": ["a joué", "est joué", "joué"]
+      },
+      {
+        "id": 18,
+        "phrase": "Elles (étudier) ____ pour l'examen.",
+        "reponses": ["ont étudié"],
+        "options": ["ont étudié", "ont étudiéé", "ont étude"]
+      },
+      {
+        "id": 19,
+        "phrase": "Tu (penser) ____ à ton projet.",
+        "reponses": ["as pensé"],
+        "options": ["as pensé", "as pense", "as pensait"]
+      },
+      {
+        "id": 20,
+        "phrase": "Nous (rendre) ____ visite à nos grands-parents.",
+        "reponses": ["avons rendu"],
+        "options": ["avons rendu", "sommes rendu", "avez rendu"]
+      }
+    ]
+  },{
+    "exercice": 5,
+    "titre": "Exercice_passe_compose2",
+   "rules": "Règle : Complète chaque phrase avec le verbe entre parenthèses conjugué au passé composé.\n\n- Pour conjuguer les verbes au passé composé, vous avez besoin de l'auxiliaire (être ou avoir) conjugué au présent, suivi du participe passé du verbe à conjuguer.\n- Pour les verbes conjugués avec 'être', n'oubliez pas d'accorder le participe passé en genre et en nombre avec le sujet.\n- Exemple : J'ai mangé (avec avoir), Elle est allée (avec être).",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Cette nuit, nous (dormir) ____ très bien.",
+        "reponses": ["avons dormi"],
+        "options": ["avons dormi", "sommes dormis", "dormons"]
+      },
+      {
+        "id": 2,
+        "phrase": "Les enfants (jouer) ____ dans le jardin.",
+        "reponses": ["ont joué"],
+        "options": ["ont joué", "ont joue", "jouaient"]
+      },
+      {
+        "id": 3,
+        "phrase": "Je (voir) ____ mes cousins le week-end dernier.",
+        "reponses": ["ai vu"],
+        "options": ["ai vu", "suis vu", "ais vu"]
+      },
+      {
+        "id": 4,
+        "phrase": "Elle (réussir) ____ à son examen.",
+        "reponses": ["a réussi"],
+        "options": ["a réussi", "a réussit", "est réussie"]
+      },
+      {
+        "id": 5,
+        "phrase": "Nous (prendre) ____ le petit déjeuner ce matin.",
+        "reponses": ["avons pris"],
+        "options": ["avons pris", "sommes pris", "a pris"]
+      },
+      {
+        "id": 6,
+        "phrase": "Tu (chercher) ____ tes clés partout.",
+        "reponses": ["as cherché"],
+        "options": ["as cherché", "as cherche", "as cherchéé"]
+      },
+      {
+        "id": 7,
+        "phrase": "Ils (finir) ____ leurs devoirs à temps.",
+        "reponses": ["ont fini"],
+        "options": ["ont fini", "finissent", "est fini"]
+      },
+      {
+        "id": 8,
+        "phrase": "Vous (lire) ____ ce livre l'année dernière.",
+        "reponses": ["avez lu"],
+        "options": ["avez lu", "lisez", "avez lire"]
+      },
+      {
+        "id": 9,
+        "phrase": "Il (préparer) ____ le dîner pour ce soir.",
+        "reponses": ["a préparé"],
+        "options": ["a préparé", "est préparé", "prépare"]
+      },
+      {
+        "id": 10,
+        "phrase": "Elles (visiter) ____ le musée hier.",
+        "reponses": ["ont visité"],
+        "options": ["ont visité", "visite", "sont visitées"]
+      }
+    ]
+  },{
+    "exercice": 6,
+    "titre": "Exercice_passe_compose3",
+    "rules": "Complète chaque phrase avec le verbe entre parenthèses conjugué au passé composé.",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Aujourd'hui, je (recevoir) ____ un cadeau.",
+        "reponses": ["ai reçu"],
+        "options": ["ai reçu", "est reçu", "reçois"]
+      },
+      {
+        "id": 2,
+        "phrase": "Nous (travailler) ____ sur ce projet ensemble.",
+        "reponses": ["avons travaillé"],
+        "options": ["avons travaillé", "sommes travaillés", "travaillons"]
+      },
+      {
+        "id": 3,
+        "phrase": "Tu (oublier) ____ de m'appeler.",
+        "reponses": ["as oublié"],
+        "options": ["as oublié", "es oublié", "oublies"]
+      },
+      {
+        "id": 4,
+        "phrase": "Ils (commencer) ____ le cours à 9h.",
+        "reponses": ["ont commencé"],
+        "options": ["ont commencé", "commencent", "sont commencé"]
+      },
+      {
+        "id": 5,
+        "phrase": "Elle (répondre) ____ à toutes les questions.",
+        "reponses": ["a répondu"],
+        "options": ["a répondu", "répond", "est répondu"]
+      },
+      {
+        "id": 6,
+        "phrase": "Nous (rentrer) ____ tard hier soir.",
+        "reponses": ["sommes rentrés/rentrées"],
+        "options": ["sommes rentrés/rentrées", "avons rentré", "rentrons"]
+      },
+      {
+        "id": 7,
+        "phrase": "Vous (mettre) ____ la table pour le dîner.",
+        "reponses": ["avez mis"],
+        "options": ["avez mis", "mettez", "met"]
+      },
+      {
+        "id": 8,
+        "phrase": "Il (réussir) ____ à résoudre le problème.",
+        "reponses": ["a réussi"],
+        "options": ["a réussi", "réussit", "est réussi"]
+      },
+      {
+        "id": 9,
+        "phrase": "Elles (partir) ____ en voyage la semaine dernière.",
+        "reponses": ["sont parties"],
+        "options": ["sont parties", "sont parti", "ont parti"]
+      },
+      {
+        "id": 10,
+        "phrase": "Je (choisir) ____ un nouveau téléphone.",
+        "reponses": ["ai choisi"],
+        "options": ["ai choisi", "choisis", "choisit"]
+      }
+    ]
+  },{
+    "exercice": 7,
+    "titre": "Exercice_passe_compose4",
+   "rules": "Règle : Complète chaque phrase avec le verbe entre parenthèses conjugué au passé composé.\n\n- Pour conjuguer les verbes au passé composé, vous avez besoin de l'auxiliaire (être ou avoir) conjugué au présent, suivi du participe passé du verbe à conjuguer.\n- Pour les verbes conjugués avec 'être', n'oubliez pas d'accorder le participe passé en genre et en nombre avec le sujet.\n- Exemple : J'ai mangé (avec avoir), Elle est allée (avec être).",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Hier, nous (écouter) ____ de la musique.",
+        "reponses": ["avons écouté"],
+        "options": ["avons écouté", "sommes écoutés", "écoutons"]
+      },
+      {
+        "id": 2,
+        "phrase": "Je (trouver) ____ un livre intéressant.",
+        "reponses": ["ai trouvé"],
+        "options": ["ai trouvé", "suis trouvé", "trouve"]
+      },
+      {
+        "id": 3,
+        "phrase": "Ils (terminer) ____ leurs devoirs avant le dîner.",
+        "reponses": ["ont terminé"],
+        "options": ["ont terminé", "terminent", "sont terminés"]
+      },
+      {
+        "id": 4,
+        "phrase": "Elle (parler) ____ avec son ami au téléphone.",
+        "reponses": ["a parlé"],
+        "options": ["a parlé", "est parlée", "parle"]
+      },
+      {
+        "id": 5,
+        "phrase": "Tu (choisir) ____ une belle robe pour la soirée.",
+        "reponses": ["as choisi"],
+        "options": ["as choisi", "est choisi", "choisis"]
+      },
+      {
+        "id": 6,
+        "phrase": "Nous (vendre) ____ notre vieille voiture.",
+        "reponses": ["avons vendu"],
+        "options": ["avons vendu", "sommes vendus", "vendre"]
+      },
+      {
+        "id": 7,
+        "phrase": "Vous (réussir) ____ à l'examen de maths.",
+        "reponses": ["avez réussi"],
+        "options": ["avez réussi", "êtes réussi", "réussissez"]
+      },
+      {
+        "id": 8,
+        "phrase": "Il (attendre) ____ son ami pendant une heure.",
+        "reponses": ["a attendu"],
+        "options": ["a attendu", "attend", "est attendu"]
+      },
+      {
+        "id": 9,
+        "phrase": "Elles (danser) ____ toute la nuit.",
+        "reponses": ["ont dansé"],
+        "options": ["ont dansé", "dansent", "sont dansées"]
+      },
+      {
+        "id": 10,
+        "phrase": "Je (appeler) ____ ma mère hier.",
+        "reponses": ["ai appelé"],
+        "options": ["ai appelé", "appelle", "est appelé"]
+      },
+      {
+        "id": 11,
+        "phrase": "Nous (manger) ____ dans un restaurant italien.",
+        "reponses": ["avons mangé"],
+        "options": ["avons mangé", "sommes mangés", "mangeons"]
+      },
+      {
+        "id": 12,
+        "phrase": "Tu (jouer) ____ au tennis le dimanche.",
+        "reponses": ["as joué"],
+        "options": ["as joué", "joues", "est joué"]
+      },
+      {
+        "id": 13,
+        "phrase": "Ils (explorer) ____ une nouvelle ville.",
+        "reponses": ["ont exploré"],
+        "options": ["ont exploré", "explorent", "sont explorés"]
+      },
+      {
+        "id": 14,
+        "phrase": "Elle (acheter) ____ des fleurs pour la fête.",
+        "reponses": ["a acheté"],
+        "options": ["a acheté", "est acheté", "achète"]
+      },
+      {
+        "id": 15,
+        "phrase": "Je (répondre) ____ à votre question.",
+        "reponses": ["ai répondu"],
+        "options": ["ai répondu", "répond", "est répondu"]
+      },
+      {
+        "id": 16,
+        "phrase": "Nous (réparer) ____ la voiture ce matin.",
+        "reponses": ["avons réparé"],
+        "options": ["avons réparé", "sommes réparés", "réparons"]
+      },
+      {
+        "id": 17,
+        "phrase": "Vous (visiter) ____ le musée d'art.",
+        "reponses": ["avez visité"],
+        "options": ["avez visité", "visitez", "êtes visité"]
+      },
+      {
+        "id": 18,
+        "phrase": "Il (commencer) ____ un nouveau travail la semaine dernière.",
+        "reponses": ["a commencé"],
+        "options": ["a commencé", "commence", "est commencé"]
+      },
+      {
+        "id": 19,
+        "phrase": "Elles (découvrir) ____ un nouveau restaurant.",
+        "reponses": ["ont découvert"],
+        "options": ["ont découvert", "découvrent", "sont découvertes"]
+      },
+      {
+        "id": 20,
+        "phrase": "Je (écrire) ____ un message à mon ami.",
+        "reponses": ["ai écrit"],
+        "options": ["ai écrit", "écris", "est écrit"]
+      }
+    ]
+  },{
+    "exercice": 8,
+    "titre": "Exercice_passe_compose5",
+    "rules": "Complète chaque phrase avec le verbe entre parenthèses conjugué au passé composé.",
+    "phrases": [
+      {
+        "id": 1,
+        "phrase": "Nous (s'amuser) ____ au parc.",
+        "reponses": ["nous sommes amusés/amusement"],
+        "options": ["nous sommes amusés/amusement", "avons amusé", "nous amuse"]
+      },
+      {
+        "id": 2,
+        "phrase": "Tu (perdre) ____ ton livre.",
+        "reponses": ["as perdu"],
+        "options": ["as perdu", "es perdu", "perds"]
+      },
+      {
+        "id": 3,
+        "phrase": "Ils (écouter) ____ un nouvel album.",
+        "reponses": ["ont écouté"],
+        "options": ["ont écouté", "écoutent", "écouté"]
+      },
+      {
+        "id": 4,
+        "phrase": "Elle (se réveiller) ____ tard ce matin.",
+        "reponses": ["s'est réveillée"],
+        "options": ["s'est réveillée", "est réveillée", "s'est réveillé"]
+      },
+      {
+        "id": 5,
+        "phrase": "Je (battre) ____ mon record personnel.",
+        "reponses": ["ai battu"],
+        "options": ["ai battu", "suis battu", "bats"]
+      },
+      {
+        "id": 6,
+        "phrase": "Nous (partager) ____ notre repas avec des amis.",
+        "reponses": ["avons partagé"],
+        "options": ["avons partagé", "sommes partagés", "partageons"]
+      },
+      {
+        "id": 7,
+        "phrase": "Vous (décider) ____ de partir en voyage.",
+        "reponses": ["avez décidé"],
+        "options": ["avez décidé", "décidez", "êtes décidé"]
+      },
+      {
+        "id": 8,
+        "phrase": "Il (fermer) ____ la porte derrière lui.",
+        "reponses": ["a fermé"],
+        "options": ["a fermé", "ferme", "est fermé"]
+      },
+      {
+        "id": 9,
+        "phrase": "Elles (réunir) ____ tous leurs amis pour la fête.",
+        "reponses": ["ont réuni"],
+        "options": ["ont réuni", "sont réunies", "réunissent"]
+      },
+      {
+        "id": 10,
+        "phrase": "Je (révéler) ____ un secret.",
+        "reponses": ["ai révélé"],
+        "options": ["ai révélé", "révèle", "est révélé"]
+      },
+      {
+        "id": 11,
+        "phrase": "Nous (s'excuser) ____ d'être en retard.",
+        "reponses": ["nous sommes excusés"],
+        "options": ["nous sommes excusés", "avons excusé", "nous excusons"]
+      },
+      {
+        "id": 12,
+        "phrase": "Tu (réchauffer) ____ ton dîner.",
+        "reponses": ["as réchauffé"],
+        "options": ["as réchauffé", "es réchauffé", "réchauffes"]
+      },
+      {
+        "id": 13,
+        "phrase": "Ils (manger) ____ le gâteau au chocolat.",
+        "reponses": ["ont mangé"],
+        "options": ["ont mangé", "mangent", "sont mangés"]
+      },
+      {
+        "id": 14,
+        "phrase": "Elle (montrer) ____ sa nouvelle voiture.",
+        "reponses": ["a montré"],
+        "options": ["a montré", "est montrée", "montre"]
+      },
+      {
+        "id": 15,
+        "phrase": "Je (choisir) ____ un cadeau pour mon ami.",
+        "reponses": ["ai choisi"],
+        "options": ["ai choisi", "choisis", "est choisi"]
+      },
+      {
+        "id": 16,
+        "phrase": "Nous (savoir) ____ la vérité.",
+        "reponses": ["avons su"],
+        "options": ["avons su", "savons", "sommes su"]
+      },
+      {
+        "id": 17,
+        "phrase": "Vous (rester) ____ à la maison hier soir.",
+        "reponses": ["avez resté"],
+        "options": ["avez resté", "êtes resté(e)(s)", "restez"]
+      },
+      {
+        "id": 18,
+        "phrase": "Il (acheter) ____ des pommes au marché.",
+        "reponses": ["a acheté"],
+        "options": ["a acheté", "est acheté", "achète"]
+      },
+      {
+        "id": 19,
+        "phrase": "Elles (téléphoner) ____ à leurs parents.",
+        "reponses": ["ont téléphoné"],
+        "options": ["ont téléphoné", "téléphonent", "sont téléphonées"]
+      },
+      {
+        "id": 20,
+        "phrase": "Je (visiter) ____ Paris l'année dernière.",
+        "reponses": ["ai visité"],
+        "options": ["ai visité", "visite", "est visité"]
+      }
+    ]
+  }
+  ]
+  
+  
+

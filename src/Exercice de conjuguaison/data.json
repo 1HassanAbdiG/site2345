@@ -1,0 +1,66 @@
+{
+    "exercise1": [
+      {
+        "question": "Chaque matin, je (marcher) __________ ______________lentement vers l’école.",
+        "answer": "marchais"
+      },
+      {
+        "question": "Nous (finir) ____________________ nos devoirs avant le dîner.",
+        "answer": "finissions"
+      },
+      {
+        "question": "Tu (écouter) ___________________ attentivement les explications du professeur.",
+        "answer": "écoutais"
+      },
+      {
+        "question": "Il (choisir) ________________ _______toujours les livres les plus intéressants.",
+        "answer": "choisissait"
+      },
+      {
+        "question": "Vous (regarder) __________ __________souvent la télévision après le repas.",
+        "answer": "regardiez"
+      },
+      {
+        "question": "Les enfants (jouer) ___________________ dans le jardin en été.",
+        "answer": "jouaient"
+      },
+      {
+        "question": "On (réussir) __________ ______________à résoudre les problèmes mathématiques facilement.",
+        "answer": "réussissait"
+      },
+      {
+        "question": "Elle (chanter) __________ __________avec beaucoup d’émotion lors du spectacle.",
+        "answer": "chantait"
+      },
+      {
+        "question": "Nous (grandir) __________ _________rapidement durant cette période.",
+        "answer": "grandissions"
+      },
+      {
+        "question": "Ils (danser) __________ ___________joyeusement lors des fêtes de famille.",
+        "answer": "dansaient"
+      }
+    ],
+    "exercise2": [
+      {
+        "current": "Aujourd’hui, je mange une pomme.",
+        "past": "Hier, je mangeais une pomme."
+      },
+      {
+        "current": "Nous choisissons un film pour la soirée.",
+        "past": "Avant, nous choisissions un film pour la soirée."
+      },
+      {
+        "current": "Tu écoutes de la musique en faisant tes devoirs.",
+        "past": "Quand tu étais petit, tu écoutais de la musique en faisant tes devoirs."
+      },
+      {
+        "current": "Il finit son travail à 18 heures.",
+        "past": "Avant, il finissait son travail à 18 heures."
+      },
+      {
+        "current": "Vous marchez rapidement vers la gare.",
+        "past": "Avant, vous marchiez rapidement vers la gare."
+      }
+    ]
+  }

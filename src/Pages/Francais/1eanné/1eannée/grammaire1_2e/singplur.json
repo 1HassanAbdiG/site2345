@@ -1,0 +1,198 @@
+[
+    {
+      "exercice": 1,
+      "titre": "1",
+      "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un 's' au pluriel (ex. : un {{chat}} → des chats).\n- Les noms se terminant par 'eau' ou 'eu' prennent 'x' au pluriel (ex. : un {{bateau}} → des bateaux).\n- Les noms se terminant par 'al' deviennent souvent 'aux' au pluriel (ex. : un {{animal}} → des animaux).\n- Les noms se terminant par 's', 'x' ou 'z' restent identiques au pluriel (ex. : un {{nez}} → des nez).",
+      
+      "phrases": [
+        {
+          "id": 1,
+          "phrase": "Le chat.",
+          "reponses": ["Les chats"],
+          "options": ["Les chat", "Les chats", "Les chatx", "Les chataux"]
+        },
+        {
+          "id": 2,
+          "phrase": "Un bateau.",
+          "reponses": ["Des bateaux"],
+          "options": ["Des bateau", "Des bateaus", "Des bateaux", "Des bateaux"]
+        },
+        {
+          "id": 3,
+          "phrase": "Un cheval.",
+          "reponses": ["Des chevaux"],
+          "options": ["Des cheval", "Des chevals", "Des chevalx", "Des chevaux"]
+        },
+        {
+          "id": 4,
+          "phrase": "Un nez.",
+          "reponses": ["Des nez"],
+          "options": ["Des nez", "Des nezs", "Des nezx", "Des nezaux"]
+        },
+        {
+          "id": 5,
+          "phrase": "Un journal.",
+          "reponses": ["Des journaux"],
+          "options": ["Des journal", "Des journals", "Des journalx", "Des journaux"]
+        },
+        {
+          "id": 6,
+          "phrase": "Un jeu.",
+          "reponses": ["Des jeux"],
+          "options": ["Des jeu", "Des jeus", "Des jeux", "Des jeux"]
+        },
+        {
+          "id": 7,
+          "phrase": "Une fleur.",
+          "reponses": ["Des fleurs"],
+          "options": ["Des fleur", "Des fleurs", "Des fleurx", "Des fleuraux"]
+        },
+        {
+          "id": 8,
+          "phrase": "Un animal.",
+          "reponses": ["Des animaux"],
+          "options": ["Des animal", "Des animals", "Des animalx", "Des animaux"]
+        },
+        {
+          "id": 9,
+          "phrase": "Un bras.",
+          "reponses": ["Des bras"],
+          "options": ["Des bras", "Des brass", "Des brasx", "Des brasaux"]
+        },
+        {
+          "id": 10,
+          "phrase": "Un château.",
+          "reponses": ["Des châteaux"],
+          "options": ["Des château", "Des châteaus", "Des châtea", "Des châteaux"]
+        },
+        {
+          "id": 11,
+          "phrase": "Un oiseau.",
+          "reponses": ["Des oiseaux"],
+          "options": ["Des oiseau", "Des oiseaux", "Des oiseaus", "Des oiseauaux"]
+        },
+        {
+          "id": 12,
+          "phrase": "Un gâteau.",
+          "reponses": ["Des gâteaux"],
+          "options": ["Des gâteau", "Des gâteaus", "Des gâtea", "Des gâteaux"]
+        },
+        {
+          "id": 13,
+          "phrase": "Un feu.",
+          "reponses": ["Des feux"],
+          "options": ["Des feu", "Des feus", "Des feux", "Des feaux"]
+        },
+        {
+          "id": 14,
+          "phrase": "Un travail.",
+          "reponses": ["Des travaux"],
+          "options": ["Des travail", "Des travails", "Des travailx", "Des travaux"]
+        },
+        {
+          "id": 15,
+          "phrase": "Un genou.",
+          "reponses": ["Des genoux"],
+          "options": ["Des genou", "Des genous", "Des genoux", "Des genouaux"]
+        },
+        {
+          "id": 16,
+          "phrase": "Un chevalier.",
+          "reponses": ["Des chevaliers"],
+          "options": ["Des chevalier", "Des chevaliers", "Des chevalierx", "Des chevalieraux"]
+        },
+        {
+          "id": 17,
+          "phrase": "Un hôpital.",
+          "reponses": ["Des hôpitaux"],
+          "options": ["Des hôpital", "Des hôpitals", "Des hôpitalx", "Des hôpitaux"]
+        },
+        {
+          "id": 18,
+          "phrase": "Un bijou.",
+          "reponses": ["Des bijoux"],
+          "options": ["Des bijou", "Des bijous", "Des bijoux", "Des bijouaux"]
+        },
+        {
+          "id": 19,
+          "phrase": "Un chou.",
+          "reponses": ["Des choux"],
+          "options": ["Des chou", "Des chous", "Des choux", "Des chouaux"]
+        },
+        {
+          "id": 20,
+          "phrase": "Un caillou.",
+          "reponses": ["Des cailloux"],
+          "options": ["Des caillou", "Des caillous", "Des cailloux", "Des caillouaux"]
+        }
+      ]
+    },{
+        "exercice": 2,
+        "titre": "2",
+        "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un 's' au pluriel (ex. : un {{chat}} → des chats).\n- Les noms se terminant par 'eau' ou 'eu' prennent 'x' au pluriel (ex. : un {{bateau}} → des bateaux).\n- Les noms se terminant par 'al' deviennent souvent 'aux' au pluriel (ex. : un {{animal}} → des animaux).\n- Les noms se terminant par 's', 'x' ou 'z' restent identiques au pluriel (ex. : un {{nez}} → des nez).",
+      
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "Une date.",
+            "reponses": ["Des dates"],
+            "options": ["Des date", "Des dates", "Des datex", "Des dateaux"]
+          },
+          {
+            "id": 2,
+            "phrase": "Un dindon.",
+            "reponses": ["Des dindons"],
+            "options": ["Des dindon", "Des dindons", "Des dindonx", "Des dindonaux"]
+          },
+          {
+            "id": 3,
+            "phrase": "Une limonade.",
+            "reponses": ["Des limonades"],
+            "options": ["Des limonade", "Des limonades", "Des limonadex", "Des limonadeaux"]
+          },
+          {
+            "id": 4,
+            "phrase": "Un désert.",
+            "reponses": ["Des déserts"],
+            "options": ["Des désert", "Des déserts", "Des désertx", "Des désertaux"]
+          },
+          {
+            "id": 5,
+            "phrase": "Un déjeuner.",
+            "reponses": ["Des déjeuners"],
+            "options": ["Des déjeuner", "Des déjeuners", "Des déjeunerx", "Des déjeuneraux"]
+          },
+          {
+            "id": 6,
+            "phrase": "Une dent.",
+            "reponses": ["Des dents"],
+            "options": ["Des dent", "Des dents", "Des dentx", "Des dentaux"]
+          },
+          {
+            "id": 7,
+            "phrase": "Un dos.",
+            "reponses": ["Des dos"],
+            "options": ["Des dos", "Des doss", "Des dosx", "Des dosaux"]
+          },
+          {
+            "id": 8,
+            "phrase": "Une médecin.",
+            "reponses": ["Des médecins"],
+            "options": ["Des médecin", "Des médecins", "Des médecinx", "Des médecinaux"]
+          },
+          {
+            "id": 9,
+            "phrase": "Un dé.",
+            "reponses": ["Des dés"],
+            "options": ["Des dé", "Des dés", "Des déx", "Des déaux"]
+          },
+          {
+            "id": 10,
+            "phrase": "Une radio.",
+            "reponses": ["Des radios"],
+            "options": ["Des radio", "Des radios", "Des radiox", "Des radioaux"]
+          }
+        ]
+      }
+  ]
+  
