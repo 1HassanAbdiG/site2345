@@ -1,0 +1,243 @@
+{
+    "text": {
+        "title": "L'éclipse solaire",
+        "url": "/imag/eclipse.png",
+        "content": [
+            "<br />",
+            "Une éclipse solaire se produit lorsque la Lune passe entre la Terre et le Soleil, bloquant ainsi la lumière du Soleil. Il existe trois types d'éclipses solaires : totale, partielle et annulaire.",
+            "<br />",
+            "Lors d'une éclipse totale, la Lune couvre entièrement le Soleil, plongeant certaines régions dans l'obscurité pendant quelques minutes. Une éclipse partielle se produit lorsque seule une partie du Soleil est cachée. Enfin, une éclipse annulaire survient lorsque la Lune est trop éloignée pour couvrir complètement le Soleil, laissant un anneau lumineux visible autour de la Lune.",
+            "<br />",
+            "Les éclipses solaires sont rares et ne peuvent être observées que depuis certaines zones spécifiques sur Terre. Il est important de ne jamais regarder directement une éclipse sans protection spéciale, car cela peut endommager gravement les yeux."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Une éclipse solaire se produit lorsque la Terre passe entre la Lune et le Soleil.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Il existe trois types d'éclipses solaires.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Une éclipse annulaire cache complètement le Soleil.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Les éclipses solaires peuvent être observées depuis n'importe quel endroit sur Terre.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Regarder une éclipse sans protection spéciale peut être dangereux pour les yeux.",
+            "correctAnswer": true
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le phénomène qui provoque une éclipse solaire ?",
+            "choices": [
+                "La Lune passe entre la Terre et le Soleil.",
+                "Le Soleil se cache derrière un nuage.",
+                "La Terre bloque la lumière de la Lune.",
+                "Une tempête solaire éclate."
+            ],
+            "correctAnswer": "La Lune passe entre la Terre et le Soleil."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Qu'est-ce qu'une éclipse solaire ?",
+            "choices": [
+                "La Lune au cours de la journée.",
+                "L'ombre de la Terre sur la Lune.",
+                "L'ombre du Soleil sur la Lune.",
+                "L'ombre de la Lune sur la Terre."
+            ],
+            "correctAnswer": "L'ombre de la Lune sur la Terre."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Au cours d'une éclipse, le ciel devient sombre :",
+            "choices": [
+                "parce qu'il pleut toujours durant une éclipse.",
+                "parce que le jour devient la nuit.",
+                "parce que la Lune bloque la lumière du Soleil.",
+                "parce que nous pouvons voir la Lune seulement la nuit."
+            ],
+            "correctAnswer": "parce que la Lune bloque la lumière du Soleil."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Il faut être chanceux pour voir une éclipse :",
+            "choices": [
+                "parce qu'il faut être exactement au bon endroit.",
+                "parce que le Soleil cache l'éclipse de la Terre.",
+                "parce qu'on peut voir le Soleil pendant la journée.",
+                "parce que cela n'arrive que tous les 200 ans."
+            ],
+            "correctAnswer": "parce qu'il faut être exactement au bon endroit."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pour en apprendre davantage sur les éclipses, tu peux lire le livre :",
+            "choices": [
+                "Tout à propos de la planète sur laquelle on vit.",
+                "Le jour où la vache a sauté au-dessus de la lune.",
+                "Pourquoi la lune ne parle-t-elle jamais au soleil?",
+                "Tout à propos de la Lune et du Soleil."
+            ],
+            "correctAnswer": "Tout à propos de la Lune et du Soleil."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Habituellement, nous voyons la Lune :",
+            "choices": [
+                "la nuit.",
+                "au cours de la journée.",
+                "quand il fait froid.",
+                "le midi."
+            ],
+            "correctAnswer": "la nuit."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quelle est la principale caractéristique d'une éclipse totale ?",
+            "choices": [
+                "Le Soleil est partiellement caché.",
+                "La Lune couvre entièrement le Soleil.",
+                "Un anneau lumineux reste visible.",
+                "La Terre devient plus chaude."
+            ],
+            "correctAnswer": "La Lune couvre entièrement le Soleil."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Une éclipse solaire peut durer plusieurs heures.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Un filtre spécial est nécessaire pour observer une éclipse en toute sécurité.",
+            "correctAnswer": true
+        }
+    ],
+    
+        "vocabularyQCM": [
+            {
+                "type": "multipleChoice",
+                "question": "Que signifie 'éclipse' ?",
+                "choices": [
+                    "Un phénomène où un astre cache un autre.",
+                    "Un type de tempête solaire.",
+                    "Une étoile qui disparaît.",
+                    "Une lumière très intense."
+                ],
+                "correctAnswer": "Un phénomène où un astre cache un autre."
+            },
+            {
+                "type": "multipleChoice",
+                "question": "Que signifie 'ombre' dans le contexte des éclipses ?",
+                "choices": [
+                    "Une lumière forte.",
+                    "Une zone où la lumière est bloquée.",
+                    "Un nuage qui cache le Soleil.",
+                    "Une couleur sombre du ciel."
+                ],
+                "correctAnswer": "Une zone où la lumière est bloquée."
+            },
+            {
+                "type": "multipleChoice",
+                "question": "Que signifie 'phénomène astronomique' ?",
+                "choices": [
+                    "Un événement naturel dans l'espace.",
+                    "Un mouvement des nuages.",
+                    "Une explosion solaire.",
+                    "Un tremblement de terre."
+                ],
+                "correctAnswer": "Un événement naturel dans l'espace."
+            },
+            {
+                "type": "multipleChoice",
+                "question": "Que signifie 'alignement' dans une éclipse solaire ?",
+                "choices": [
+                    "Un déplacement des étoiles.",
+                    "Le Soleil, la Lune et la Terre en ligne droite.",
+                    "Une rotation de la Terre.",
+                    "Une variation de la lumière du Soleil."
+                ],
+                "correctAnswer": "Le Soleil, la Lune et la Terre en ligne droite."
+            },
+            {
+                "type": "multipleChoice",
+                "question": "Que signifie 'totalité' dans une éclipse solaire ?",
+                "choices": [
+                    "La durée complète d'une éclipse.",
+                    "Le moment où le Soleil est complètement caché.",
+                    "Une partie de l'ombre de la Lune.",
+                    "Un phénomène rare sur Terre."
+                ],
+                "correctAnswer": "Le moment où le Soleil est complètement caché."
+            }
+        ],
+        "vocabularyTrueFalse": [
+            {
+                "type": "trueFalse",
+                "question": "Une éclipse solaire se produit quand la Lune passe entre la Terre et le Soleil.",
+                "correctAnswer": true
+            },
+            {
+                "type": "trueFalse",
+                "question": "L'ombre de la Lune couvre toute la Terre lors d'une éclipse solaire totale.",
+                "correctAnswer": false
+            },
+            {
+                "type": "trueFalse",
+                "question": "Le terme 'phénomène astronomique' désigne un événement qui se produit dans l'espace.",
+                "correctAnswer": true
+            },
+            {
+                "type": "trueFalse",
+                "question": "L'alignement du Soleil, de la Lune et de la Terre est nécessaire pour qu'une éclipse solaire ait lieu.",
+                "correctAnswer": true
+            },
+            {
+                "type": "trueFalse",
+                "question": "La 'totalité' désigne la fin d'une éclipse solaire.",
+                "correctAnswer": false
+            }
+        ],
+    
+    "shortAnswer": [
+        {
+            "type": "shortAnswer",
+            "question": "À quel endroit la Lune passe-t-elle lors d'une éclipse solaire ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "La Lune projette-t-elle son ombre sur toute la Terre ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quelle est la largeur de l’ombre de la Lune ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Crois-tu qu’une éclipse solaire est un spectacle merveilleux ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Est-ce qu’une éclipse solaire est un phénomène qui arrive souvent ? Pourquoi ?",
+            "correctAnswer": ""
+        }
+    ]
+}

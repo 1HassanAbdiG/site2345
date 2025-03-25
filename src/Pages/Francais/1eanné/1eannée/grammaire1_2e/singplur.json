@@ -2,8 +2,8 @@
     {
       "exercice": 1,
       "titre": "1",
-      "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un 's' au pluriel (ex. : un {{chat}} → des chats).\n- Les noms se terminant par 'eau' ou 'eu' prennent 'x' au pluriel (ex. : un {{bateau}} → des bateaux).\n- Les noms se terminant par 'al' deviennent souvent 'aux' au pluriel (ex. : un {{animal}} → des animaux).\n- Les noms se terminant par 's', 'x' ou 'z' restent identiques au pluriel (ex. : un {{nez}} → des nez).",
-      
+      "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un '{{s}}' au pluriel (ex. : un {{chat}} → des {{chats}}).\n- Les noms se terminant par '{{eau}}' ou '{{eu}}' prennent '{{x}}' au pluriel (ex. : un {{bateau}} → des {{bateaux}}).\n- Les noms se terminant par '{{al}}' deviennent souvent '{{aux}}' au pluriel (ex. : un {{animal}} → des {{animaux}}).\n  - Cependant, il existe six exceptions où le pluriel prend '{{s}}' au lieu de '{{aux}}' :\n    - {{Bal}} → {{Bals}}\n    - {{Carnaval}} → {{Carnavals}}\n    - {{Chacal}} → {{Chacals}}\n    - {{Festival}} → {{Festivals}}\n    - {{Récital}} → {{Récitals}}\n    - {{Régal}} → {{Régals}}\n- Les noms se terminant par '{{s}}', '{{x}}' ou '{{z}}' restent identiques au pluriel (ex. : un {{nez}} → des {{nez}}).\n- Les noms se terminant par '{{ou}}' forment leur pluriel en '{{s}}' dans la majorité des cas (ex. : un {{clou}} → des {{clous}}, un {{trou}} → des {{trous}}).\n- Cependant, il y a sept exceptions notables où le pluriel est formé en ajoutant un '{{x}}' :\n  - {{Bijou}} → {{Bijoux}}\n  - {{Caillou}} → {{Cailloux}}\n  - {{Chou}} → {{Choux}}\n  - {{Genou}} → {{Genoux}}\n  - {{Hibou}} → {{Hiboux}}\n  - {{Joujou}} → {{Joujoux}}\n  - {{Pou}} → {{Poux}}",
+
       "phrases": [
         {
           "id": 1,
@@ -129,8 +129,8 @@
     },{
         "exercice": 2,
         "titre": "2",
-        "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un 's' au pluriel (ex. : un {{chat}} → des chats).\n- Les noms se terminant par 'eau' ou 'eu' prennent 'x' au pluriel (ex. : un {{bateau}} → des bateaux).\n- Les noms se terminant par 'al' deviennent souvent 'aux' au pluriel (ex. : un {{animal}} → des animaux).\n- Les noms se terminant par 's', 'x' ou 'z' restent identiques au pluriel (ex. : un {{nez}} → des nez).",
-      
+       "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un '{{s}}' au pluriel (ex. : un {{chat}} → des {{chats}}).\n- Les noms se terminant par '{{eau}}' ou '{{eu}}' prennent '{{x}}' au pluriel (ex. : un {{bateau}} → des {{bateaux}}).\n- Les noms se terminant par '{{al}}' deviennent souvent '{{aux}}' au pluriel (ex. : un {{animal}} → des {{animaux}}).\n  - Cependant, il existe six exceptions où le pluriel prend '{{s}}' au lieu de '{{aux}}' :\n    - {{Bal}} → {{Bals}}\n    - {{Carnaval}} → {{Carnavals}}\n    - {{Chacal}} → {{Chacals}}\n    - {{Festival}} → {{Festivals}}\n    - {{Récital}} → {{Récitals}}\n    - {{Régal}} → {{Régals}}\n- Les noms se terminant par '{{s}}', '{{x}}' ou '{{z}}' restent identiques au pluriel (ex. : un {{nez}} → des {{nez}}).\n- Les noms se terminant par '{{ou}}' forment leur pluriel en '{{s}}' dans la majorité des cas (ex. : un {{clou}} → des {{clous}}, un {{trou}} → des {{trous}}).\n- Cependant, il y a sept exceptions notables où le pluriel est formé en ajoutant un '{{x}}' :\n  - {{Bijou}} → {{Bijoux}}\n  - {{Caillou}} → {{Cailloux}}\n  - {{Chou}} → {{Choux}}\n  - {{Genou}} → {{Genoux}}\n  - {{Hibou}} → {{Hiboux}}\n  - {{Joujou}} → {{Joujoux}}\n  - {{Pou}} → {{Poux}}",
+
         "phrases": [
           {
             "id": 1,
@@ -193,6 +193,262 @@
             "options": ["Des radio", "Des radios", "Des radiox", "Des radioaux"]
           }
         ]
+      },{
+        "exercice": 3,
+        "titre": "3",
+       "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un '{{s}}' au pluriel (ex. : un {{chat}} → des {{chats}}).\n- Les noms se terminant par '{{eau}}' ou '{{eu}}' prennent '{{x}}' au pluriel (ex. : un {{bateau}} → des {{bateaux}}).\n- Les noms se terminant par '{{al}}' deviennent souvent '{{aux}}' au pluriel (ex. : un {{animal}} → des {{animaux}}).\n  - Cependant, il existe six exceptions où le pluriel prend '{{s}}' au lieu de '{{aux}}' :\n    - {{Bal}} → {{Bals}}\n    - {{Carnaval}} → {{Carnavals}}\n    - {{Chacal}} → {{Chacals}}\n    - {{Festival}} → {{Festivals}}\n    - {{Récital}} → {{Récitals}}\n    - {{Régal}} → {{Régals}}\n- Les noms se terminant par '{{s}}', '{{x}}' ou '{{z}}' restent identiques au pluriel (ex. : un {{nez}} → des {{nez}}).\n- Les noms se terminant par '{{ou}}' forment leur pluriel en '{{s}}' dans la majorité des cas (ex. : un {{clou}} → des {{clous}}, un {{trou}} → des {{trous}}).\n- Cependant, il y a sept exceptions notables où le pluriel est formé en ajoutant un '{{x}}' :\n  - {{Bijou}} → {{Bijoux}}\n  - {{Caillou}} → {{Cailloux}}\n  - {{Chou}} → {{Choux}}\n  - {{Genou}} → {{Genoux}}\n  - {{Hibou}} → {{Hiboux}}\n  - {{Joujou}} → {{Joujoux}}\n  - {{Pou}} → {{Poux}}",
+
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "Un arbre.",
+            "reponses": ["Des arbres"],
+            "options": ["Des arbres", "Des arbrs", "Des arbro", "Des arbreaux"]
+          },
+          {
+            "id": 2,
+            "phrase": "Un oiseau.",
+            "reponses": ["Des oiseaux"],
+            "options": ["Des oiseaux", "Des oiseaus", "Des oiseau", "Des oiseauaux"]
+          },
+          {
+            "id": 3,
+            "phrase": "Un couteau.",
+            "reponses": ["Des couteaux"],
+            "options": ["Des couteau", "Des couteaux", "Des coutaux", "Des couteauxs"]
+          },
+          {
+            "id": 4,
+            "phrase": "Un loup.",
+            "reponses": ["Des loups"],
+            "options": ["Des loups", "Des loup", "Des loupss", "Des loupaux"]
+          },
+          {
+            "id": 5,
+            "phrase": "Un cheval.",
+            "reponses": ["Des chevaux"],
+            "options": ["Des cheval", "Des chevaux", "Des chevals", "Des chevalx"]
+          },
+          {
+            "id": 6,
+            "phrase": "Un ballon.",
+            "reponses": ["Des ballons"],
+            "options": ["Des ballons", "Des ballonss", "Des ballonsx", "Des ballaux"]
+          },
+          {
+            "id": 7,
+            "phrase": "Un mot.",
+            "reponses": ["Des mots"],
+            "options": ["Des mots", "Des mot", "Des motsx", "Des motaux"]
+          },
+          {
+            "id": 8,
+            "phrase": "Un tableau.",
+            "reponses": ["Des tableaux"],
+            "options": ["Des tableau", "Des tableaus", "Des tableaux", "Des tableauxx"]
+          },
+          {
+            "id": 9,
+            "phrase": "Un poisson.",
+            "reponses": ["Des poissons"],
+            "options": ["Des poissons", "Des poissonss", "Des poisso", "Des poissonx"]
+          },
+          {
+            "id": 10,
+            "phrase": "Un château.",
+            "reponses": ["Des châteaux"],
+            "options": ["Des châteaux", "Des château", "Des châteaus", "Des chateaux"]
+          },
+          {
+            "id": 11,
+            "phrase": "Un livre.",
+            "reponses": ["Des livres"],
+            "options": ["Des livre", "Des livres", "Des livrs", "Des livreaux"]
+          },
+          {
+            "id": 12,
+            "phrase": "Un manteau.",
+            "reponses": ["Des manteaux"],
+            "options": ["Des manteau", "Des manteaux", "Des manteauxx", "Des manteauxs"]
+          },
+          {
+            "id": 13,
+            "phrase": "Un homme.",
+            "reponses": ["Des hommes"],
+            "options": ["Des homme", "Des hommes", "Des homs", "Des hommeaux"]
+          },
+          {
+            "id": 14,
+            "phrase": "Un vélo.",
+            "reponses": ["Des vélos"],
+            "options": ["Des vélo", "Des vélos", "Des vélaux", "Des vélosx"]
+          },
+          {
+            "id": 15,
+            "phrase": "Un restaurant.",
+            "reponses": ["Des restaurants"],
+            "options": ["Des restaurant", "Des restaurants", "Des restaurantx", "Des restaurantaux"]
+          },
+          {
+            "id": 16,
+            "phrase": "Un gâteau.",
+            "reponses": ["Des gâteaux"],
+            "options": ["Des gâteau", "Des gâteaux", "Des gâteaux", "Des gâteauxx"]
+          },
+          {
+            "id": 17,
+            "phrase": "Un drapeau.",
+            "reponses": ["Des drapeaux"],
+            "options": ["Des drapeaux", "Des drapeaus", "Des drapeauxs", "Des drapeau"]
+          },
+          {
+            "id": 18,
+            "phrase": "Un bijou.",
+            "reponses": ["Des bijoux"],
+            "options": ["Des bijoux", "Des bijous", "Des bijouxs", "Des bijouaux"]
+          },
+          {
+            "id": 19,
+            "phrase": "Un genou.",
+            "reponses": ["Des genoux"],
+            "options": ["Des genoux", "Des genou", "Des genous", "Des genouxx"]
+          },
+          {
+            "id": 20,
+            "phrase": "Un hibou.",
+            "reponses": ["Des hiboux"],
+            "options": ["Des hiboux", "Des hibous", "Des hibouxs", "Des hibouaux"]
+          }
+        ]
+      },{
+        "exercice": 4,
+        "titre": "4",
+       "rules": "Règle : La transformation du singulier au pluriel et vice versa.\n\n- La plupart des noms et adjectifs prennent un '{{s}}' au pluriel (ex. : un {{chat}} → des {{chats}}).\n- Les noms se terminant par '{{eau}}' ou '{{eu}}' prennent '{{x}}' au pluriel (ex. : un {{bateau}} → des {{bateaux}}).\n- Les noms se terminant par '{{al}}' deviennent souvent '{{aux}}' au pluriel (ex. : un {{animal}} → des {{animaux}}).\n  - Cependant, il existe six exceptions où le pluriel prend '{{s}}' au lieu de '{{aux}}' :\n    - {{Bal}} → {{Bals}}\n    - {{Carnaval}} → {{Carnavals}}\n    - {{Chacal}} → {{Chacals}}\n    - {{Festival}} → {{Festivals}}\n    - {{Récital}} → {{Récitals}}\n    - {{Régal}} → {{Régals}}\n- Les noms se terminant par '{{s}}', '{{x}}' ou '{{z}}' restent identiques au pluriel (ex. : un {{nez}} → des {{nez}}).\n- Les noms se terminant par '{{ou}}' forment leur pluriel en '{{s}}' dans la majorité des cas (ex. : un {{clou}} → des {{clous}}, un {{trou}} → des {{trous}}).\n- Cependant, il y a sept exceptions notables où le pluriel est formé en ajoutant un '{{x}}' :\n  - {{Bijou}} → {{Bijoux}}\n  - {{Caillou}} → {{Cailloux}}\n  - {{Chou}} → {{Choux}}\n  - {{Genou}} → {{Genoux}}\n  - {{Hibou}} → {{Hiboux}}\n  - {{Joujou}} → {{Joujoux}}\n  - {{Pou}} → {{Poux}}",
+
+        "phrases": [
+          {
+            "id": 1,
+            "phrase": "Un chou.",
+            "reponses": ["Des choux"],
+            "options": ["Des choux", "Des chous", "Des chouxx", "Des chouaux"]
+          },
+          {
+            "id": 2,
+            "phrase": "Un bijou.",
+            "reponses": ["Des bijoux"],
+            "options": ["Des bijoux", "Des bijous", "Des bijou", "Des bijouaux"]
+          },
+          {
+            "id": 3,
+            "phrase": "Un genou.",
+            "reponses": ["Des genoux"],
+            "options": ["Des genoux", "Des genous", "Des genou", "Des genouaux"]
+          },
+          {
+            "id": 4,
+            "phrase": "Un chou-fleur.",
+            "reponses": ["Des choux-fleurs"],
+            "options": ["Des choux-fleurs", "Des chou-fleurs", "Des chou-fleurss", "Des choux-fleursx"]
+          },
+          {
+            "id": 5,
+            "phrase": "Un fou.",
+            "reponses": ["Des fous"],
+            "options": ["Des fous", "Des fouss", "Des fou", "Des fousx"]
+          },
+          {
+            "id": 6,
+            "phrase": "Un cheval.",
+            "reponses": ["Des chevaux"],
+            "options": ["Des chevaux", "Des chevals", "Des chevalx", "Des chevalaux"]
+          },
+          {
+            "id": 7,
+            "phrase": "Un bal.",
+            "reponses": ["Des balaux"],
+            "options": ["Des bals", "Des balles", "Des balaux", "Des balls"]
+          },
+          {
+            "id": 8,
+            "phrase": "Un journal.",
+            "reponses": ["Des journaux"],
+            "options": ["Des journaux", "Des journalx", "Des journauxs", "Des journals"]
+          },
+          {
+            "id": 9,
+            "phrase": "Un animal.",
+            "reponses": ["Des animaux"],
+            "options": ["Des animaux", "Des animalx", "Des animaux", "Des animaus"]
+          },
+          {
+            "id": 10,
+            "phrase": "Un hôpital.",
+            "reponses": ["Des hôpitaux"],
+            "options": ["Des hôpitaux", "Des hôpitalx", "Des hôpitauxs", "Des hôpitalaux"]
+          },
+          {
+            "id": 11,
+            "phrase": "Un cristal.",
+            "reponses": ["Des cristaux"],
+            "options": ["Des cristaux", "Des cristalx", "Des cristauxs", "Des crystals"]
+          },
+          {
+            "id": 12,
+            "phrase": "Un mal.",
+            "reponses": ["Des maux"],
+            "options": ["Des maux", "Des malx", "Des mauvs", "Des mauxx"]
+          },
+          {
+            "id": 13,
+            "phrase": "Un voilier.",
+            "reponses": ["Des voiliers"],
+            "options": ["Des voiliers", "Des voiliersx", "Des voilierss", "Des voilieraux"]
+          },
+          {
+            "id": 14,
+            "phrase": "Un cheval.",
+            "reponses": ["Des chevaux"],
+            "options": ["Des chevaux", "Des chevals", "Des chevalx", "Des chevalaux"]
+          },
+          {
+            "id": 15,
+            "phrase": "Un festival.",
+            "reponses": ["Des festivaux"],
+            "options": ["Des festivals", "Des festivaux", "Des festivalsx", "Des festvals"]
+          },
+          {
+            "id": 16,
+            "phrase": "Un carnivore.",
+            "reponses": ["Des carnivores"],
+            "options": ["Des carnivores", "Des carnivoresx", "Des carnivoraux", "Des carnivor"]
+          },
+          {
+            "id": 17,
+            "phrase": "Un aéroport.",
+            "reponses": ["Des aéroports"],
+            "options": ["Des aéroports", "Des aérosports", "Des aéroportx", "Des aeroports"]
+          },
+          {
+            "id": 18,
+            "phrase": "Un bijou.",
+            "reponses": ["Des bijoux"],
+            "options": ["Des bijoux", "Des bijous", "Des bijou", "Des bijouaux"]
+          },
+          {
+            "id": 19,
+            "phrase": "Un serpent.",
+            "reponses": ["Des serpents"],
+            "options": ["Des serpents", "Des serpentes", "Des serpentx", "Des serpentin"]
+          },
+          {
+            "id": 20,
+            "phrase": "Un Noël.",
+            "reponses": ["Des Noëls"],
+            "options": ["Des Noëls", "Des Noëlsx", "Des Noëlaux", "Des Noëlses"]
+          }
+        ]
       }
+      
+      
   ]
   

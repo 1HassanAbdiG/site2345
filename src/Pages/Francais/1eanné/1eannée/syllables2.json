@@ -1,19 +1,20 @@
+
 {
   "exercices": [
     {
-      "id": 1,
-      "titre": "Relier les couples d'animaux",
-      "instructions": "Relie chaque animal à son partenaire.",
+      "id": 2,
+      "titre": "Associer les animaux à leurs petits",
+      "instructions": "Relie chaque animal à son petit.",
       "questions": [
-        { "id": 1, "groupe1": "une chèvre", "groupe2": "un bouc" },
-        { "id": 2, "groupe1": "un taureau", "groupe2": "une vache" },
-        { "id": 3, "groupe1": "un mouton", "groupe2": "une brebis" },
-        { "id": 4, "groupe1": "un tigre", "groupe2": "une tigresse" },
-        { "id": 5, "groupe1": "un éléphant", "groupe2": "une éléphante" },
-        { "id": 6, "groupe1": "une poule", "groupe2": "un coq" },
-        { "id": 7, "groupe1": "un lion", "groupe2": "une lionne" },
-        { "id": 8, "groupe1": "une dinde", "groupe2": "un dindon" },
-        { "id": 9, "groupe1": "un renard", "groupe2": "une renarde" }
+        { "id": 1, "groupe1": "une poule", "groupe2": "un poussin" },
+        { "id": 2, "groupe1": "une vache", "groupe2": "un veau" },
+        { "id": 3, "groupe1": "une brebis", "groupe2": "un agneau" },
+        { "id": 4, "groupe1": "une chienne", "groupe2": "un chiot" },
+        { "id": 5, "groupe1": "une chatte", "groupe2": "un chaton" },
+        { "id": 6, "groupe1": "une jument", "groupe2": "un poulain" },
+        { "id": 7, "groupe1": "une cane", "groupe2": "un caneton" },
+        { "id": 8, "groupe1": "une truie", "groupe2": "un porcelet" },
+        { "id": 9, "groupe1": "une lapine", "groupe2": "un lapereau" }
       ]
     }
   ]

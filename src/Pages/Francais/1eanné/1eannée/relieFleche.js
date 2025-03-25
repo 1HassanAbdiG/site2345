@@ -4,6 +4,7 @@ import { Grid, Paper, Typography, Button, Box } from "@mui/material";
 
 import exerciseData from "./exercice.json"; // Importer les données du JSON
 import ExerciseImage from "./lienImagMot";
+import Syllab from "./syll";
 
 
 const Exercise = () => {
@@ -229,6 +230,7 @@ const Exercise = () => {
             <Box sx={{ bgcolor: "rgba(106, 41, 246, 0.1)", padding: "1rem", borderRadius: "8px", color: "white" }}>
                 <ExerciseImage></ExerciseImage>
             </Box>
+            <Syllab></Syllab>
 
 
 

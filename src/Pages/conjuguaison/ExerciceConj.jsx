@@ -239,7 +239,7 @@ const Exercice_conj = () => {
                       }
                       displayEmpty
                       sx={{
-                        width: 120,
+                        width: 320,
                         color: "#000000", // Très noir
                         fontWeight: "bold",
                         fontFamily: "'Roboto', sans-serif",

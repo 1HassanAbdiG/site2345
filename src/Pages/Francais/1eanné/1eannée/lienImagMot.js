@@ -11,6 +11,7 @@ const ExerciseImage = () => {
       { id: 1, image: "chevre.png", word: "chèvre" },
       { id: 2, image: "chien.png", word: "chien" },
       { id: 3, image: "chat.png", word: "chat" }
+      
     ]
   };
 

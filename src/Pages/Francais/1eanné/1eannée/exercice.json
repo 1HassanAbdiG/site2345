@@ -1,15 +1,26 @@
 {
-    "titre": "Relier les couples d'animaux",
-    "instructions": "Cliquez sur un élément de la colonne de gauche puis sur l'élément correspondant dans la colonne de droite pour créer une association.",
-    "questions": [
-      { "id": 1, "groupe1": "une chèvre", "groupe2": "un bouc" },
-      { "id": 2, "groupe1": "un taureau", "groupe2": "une vache" },
-      { "id": 3, "groupe1": "un mouton", "groupe2": "une brebis" },
-      { "id": 4, "groupe1": "un tigre", "groupe2": "une tigresse" },
-      { "id": 5, "groupe1": "un éléphant", "groupe2": "une éléphante" },
-      { "id": 6, "groupe1": "une poule", "groupe2": "un coq" },
-      { "id": 7, "groupe1": "un lion", "groupe2": "une lionne" },
-      { "id": 8, "groupe1": "une dinde", "groupe2": "un dindon" },
-      { "id": 9, "groupe1": "un renard", "groupe2": "une renarde" }
-    ]
-  }
+  "titre": "Associer les animaux à leurs petits",
+  "instructions": "Cliquez sur un élément de la colonne de gauche puis sur l'élément correspondant dans la colonne de droite pour créer une association.",
+  "questions": [
+    { "id": 1, "groupe1": "un chat", "groupe2": "un chaton" },
+    { "id": 2, "groupe1": "un chien", "groupe2": "un chiot" },
+    { "id": 3, "groupe1": "une vache", "groupe2": "un veau" },
+    { "id": 4, "groupe1": "une poule", "groupe2": "un poussin" },
+    { "id": 5, "groupe1": "un cheval", "groupe2": "un poulain" },
+    { "id": 6, "groupe1": "un mouton", "groupe2": "un agneau" },
+    { "id": 7, "groupe1": "un canard", "groupe2": "un caneton" },
+    { "id": 8, "groupe1": "un cochon", "groupe2": "un porcelet" },
+    { "id": 9, "groupe1": "un lapin", "groupe2": "un lapereau" },
+    { "id": 10, "groupe1": "un lion", "groupe2": "un lionceau" },
+    { "id": 11, "groupe1": "un tigre", "groupe2": "un tigreau" },
+    { "id": 12, "groupe1": "un ours", "groupe2": "un ourson" },
+    { "id": 13, "groupe1": "un renard", "groupe2": "un renardeau" },
+    
+    { "id": 14, "groupe1": "un éléphant", "groupe2": "un éléphanteau" },
+    { "id": 15, "groupe1": "un dauphin", "groupe2": "un delphineau" },
+    { "id": 16, "groupe1": "un singe", "groupe2": "un bébé singe" },
+   
+  
+    { "id": 17, "groupe1": "une baleine", "groupe2": "un baleineau" }
+  ]
+}
