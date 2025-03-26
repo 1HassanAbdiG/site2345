@@ -3,7 +3,7 @@ import { Button, Box, Container, Grid, Typography } from "@mui/material";
 import ExerciseImage from "./syllabe1eanné";
 import Exercise from "./relieFleche";
 import Singplurie12 from "./grammaire1_2e/singpr";
-import Histoire12 from "./dromataire/tex3";
+import Histoire12 from "./Text1e/dromataire/tex3"
 
 
 
@@ -78,9 +78,9 @@ export default function Exercice1e2e() {
                     <CustomButton
                         onClick={() => handleButtonClick("ExerciceHis")}
                         label={
-                            visibleComponent === "ExerciceHis" 
-                                ? "Lecture" 
-                                : "Lecture" 
+                            visibleComponent === "ExerciceHis"
+                                ? "Lecture"
+                                : "Lecture"
                         }
                         color="success"
                     />
@@ -90,13 +90,13 @@ export default function Exercice1e2e() {
             {/* Rendu conditionnel des composants */}
             <Box mt={4} p={2} sx={{ border: "1px solid #ccc", borderRadius: "8px" }}>
                 {visibleComponent === "ExerciceI" && <ExerciseImage />}
-                {visibleComponent === "ExerciseF" && <Exercise  />}
-                {visibleComponent === "ExerciceSP" && <Singplurie12  />}
-                {visibleComponent === "ExerciceHis" && <Histoire12  />}
-                
-                
-               
-              
+                {visibleComponent === "ExerciseF" && <Exercise />}
+                {visibleComponent === "ExerciceSP" && <Singplurie12 />}
+                {visibleComponent === "ExerciceHis" && <Histoire12 />}
+
+
+
+
                 {!visibleComponent && (
                     <Typography variant="body1" align="center">
                         Sélectionnez un sujet pour commencer.
