@@ -1,0 +1,151 @@
+{
+  "title": "Le Tigre et les Deux Petits Chacals",
+  "sections": [
+    {
+      "title": "Raja, le roi de la jungle",
+      "text": "Dans une grande jungle verte, il y avait un tigre nommé Raja. \n\nRaja était très fort et puissant. Il était le roi de la jungle. \nQuand Raja rugissait, tous les animaux avaient peur. \nLes oiseaux volaient loin, les lapins se cachaient,\net même les éléphants avaient peur. \n\nRaja aimait chasser. Mais il mangeait tellement d’animaux qu’il n’en restait presque plus dans la jungle. \n\nSeuls deux petits chacals vivaient encore là.",
+      "questions": [
+        {
+          "question": "Qui est Raja ?",
+          "options": ["Un tigre", "Un lion", "Un éléphant"],
+          "correctAnswer": "Un tigre"
+        },
+        {
+          "question": "Quel était le rôle de Raja dans la jungle ?",
+          "options": ["Il était un prédateur", "Il était un herbivore", "Il était le roi de la jungle"],
+          "correctAnswer": "Il était le roi de la jungle"
+        },
+        {
+          "question": "Quels étaient les effets du rugissement de Raja sur les animaux ?",
+          "options": ["Ils étaient heureux", "Ils étaient peureux", "Ils étaient indifférents"],
+          "correctAnswer": "Ils étaient peureux"
+        },
+        {
+          "question": "Quel était l'effet de la chasse de Raja sur la jungle ?",
+          "options": ["Il y avait plus d'animaux", "Il y avait moins d'animaux", "Il n'y avait pas d'effet"],
+          "correctAnswer": "Il y avait moins d'animaux"
+        },
+        {
+          "question": "Qui vivaient encore dans la jungle après la chasse de Raja ?",
+          "options": ["Les oiseaux", "Les lapins", "Les deux petits chacals"],
+          "correctAnswer": "Les deux petits chacals"
+        }
+      ]
+    },
+    {
+      "title": "Papu et Nuna",
+      "text": "Les deux petits chacals s’appelaient Papu et Nuna. \nIls étaient frères et sœurs. \nPapu était malin et courageux. \nNuna était gentille et intelligente. \nMais ils avaient très faim. \n\nIls devaient se cacher de Raja tout le temps. \nIls étaient maigres et fatigués. \n\nUn jour, Raja trouva leur cachette ! \nNuna avait peur. \n\n— « Oh non, Papu ! » dit Nuna. \n« Raja va nous manger ! »\n\n— « Ne t’inquiète pas, Nuna, » dit Papu. \n« Fais tout ce que je te dis et tout ira bien. »",
+      "questions": [
+        {
+          "question": "Qui étaient Papu et Nuna ?",
+          "options": ["Des frères et sœurs", "Des amis", "Des ennemis"],
+          "correctAnswer": "Des frères et sœurs"
+        },
+        {
+          "question": "Quels étaient les traits de caractère de Papu ?",
+          "options": ["Il était gentil et intelligent", "Il était malin et courageux", "Il était peureux et faible"],
+          "correctAnswer": "Il était malin et courageux"
+        },
+        {
+          "question": "Quels étaient les traits de caractère de Nuna ?",
+          "options": ["Elle était gentille et intelligente", "Elle était peureuse et faible", "Elle était maline et courageuse"],
+          "correctAnswer": "Elle était gentille et intelligente"
+        },
+        {
+          "question": "Qu’est-ce que Papu a dit à Nuna pour la rassurer ?",
+          "options": ["« Ne t’inquiète pas, Nuna, fais tout ce que je te dis et tout ira bien. »",
+                     "\"Oh non, Papu, Raja va nous manger !\"",
+                     "\"Je suis trop faible pour nous protéger.\""],
+          "correctAnswer": "« Ne t’inquiète pas, Nuna, fais tout ce que je te dis et tout ira bien. »"
+        },
+        {
+          "question": "Pourquoi Nuna avait-elle peur ?",
+          "options": ["Parce que Raja allait la manger", 
+                     "\"Parce que Papu était trop faible pour la protéger\"",
+                     "\"Parce que Nuna avait faim\""],
+          "correctAnswer": "Parce que Raja allait la manger"
+        }
+      ]
+    },
+    {
+      "title": "La ruse de Papu",
+      "text": "Papu et Nuna marchèrent courageusement jusqu’à Raja. \n— « Ah ! C’est vous ! Je vais vous manger ! » rugit Raja.\n\nMais Papu sourit et dit :\n— « Votre Majesté, un autre tigre nous a retenus. »\n\n— « Un autre tigre ?! Je suis le seul tigre ici ! » rugit Raja.\n\n— « Mais il est aussi gros que vous !\nIl dit qu’il est le roi de la jungle ! » dit Papu.\n\n— « Montrez-moi ce tigre ! » cria Raja.\n« Je vais lui montrer qui est le vrai roi ici ! »",
+      "questions": [
+        {
+          "question": "Qu’est-ce que Papu a dit à Raja pour l’empêcher de les manger ?",
+          "options": ["« Votre Majesté, je suis trop faible pour vous résister. »",
+                     "Votre Majesté, je suis le vrai roi de la jungle",
+                     "Votre Majesté, un autre tigre nous a retenus."],
+          "correctAnswer": "Votre Majesté, un autre tigre nous a retenus."
+        },
+        {
+          "question": "Pourquoi Raja a-t-il cru que Papu disait vrai ?",
+          "options": ["Parce que Papu était trop faible pour mentir", 
+                     "Parce que Raja voulait prouver qu'il était le seul roi",
+                     "Parce que Nuna était trop intelligente pour être trompée"],
+          "correctAnswer": "Parce que Raja voulait prouver qu'il était le seul roi"
+        },
+        {
+          "question": "Qu’est-ce que Raja a promis de faire après avoir vu l’autre tigre ?",
+          "options": ["« Je vais vous manger tout de même ! »",
+                     "Je vais vous laisser tranquilles",
+                     "Je vais vous montrer qui est le vrai roi ici !"],
+          "correctAnswer": "Je vais vous montrer qui est le vrai roi ici !"
+        }
+      ]
+    },
+    {
+      "title": "Papu trompe Raja",
+      "text": "Papu guida Raja jusqu’à une rivière calme. \n— « Regardez, majesté ! Le gros tigre est là, il vous regarde ! » dit Papu.\n\nRaja regarda dans l’eau et vit son propre reflet.\nMais il pensait que c’était un autre tigre !\n\n— « Comment ose-t-il me défier ?! » rugit Raja.\n\nRaja sauta dans l’eau pour attaquer le « tigre ». \nMais il n’y avait personne !\nRaja tomba dans l’eau froide. Il avait très peur et s’enfuit loin, très loin de la jungle.",
+      "questions": [
+        {
+          "question": "Qu’est-ce que Papu a fait pour tromper Raja ?",
+          "options": ["Il a guidé Raja jusqu’à une rivière calme", 
+                     "Il a dit à Raja qu’un autre tigre existait",
+                     "Il a caché son propre reflet dans l’eau"],
+          "correctAnswer": "Il a guidé Raja jusqu’à une rivière calme"
+        },
+        {
+          "question": "Pourquoi Raja a-t-il sauté dans l’eau ?",
+          "options": ["Parce qu’il voulait se baigner", 
+                     "Parce qu’il voulait attaquer un autre tigre",
+                     "Parce qu’il voulait chercher du poisson"],
+          "correctAnswer": "Parce qu’il voulait attaquer un autre tigre"
+        },
+        {
+          "question": "Qu’est-ce qui est arrivé à Raja après qu’il a sauté dans l’eau ?",
+          "options": ["Il est sorti de l’eau en souriant", 
+                     "Il est tombé dans l’eau froide",
+                     "Il est resté dans l’eau toute la journée"],
+          "correctAnswer": "Il est tombé dans l’eau froide"
+        }
+      ]
+    },
+    {
+      "title": "La victoire de Papu et Nuna",
+      "text": "Papu et Nuna étaient enfin tranquilles. \nRaja était parti et ne reviendrait jamais. \n— « Tu es très courageux, Papu, » dit Nuna. \n— « Et toi, Nuna, tu es très intelligente, » dit Papu. \n\n« Nous avons réussi en restant calmes et malins ! » \n\nDepuis ce jour, Papu et Nuna vécurent en paix. \nIls avaient compris que l’intelligence et le courage étaient plus forts que la force.",
+      "questions": [
+        {
+          "question": "Qu'ont réalisé Papu et Nuna à la fin de l'histoire ?",
+          "options": ["Qu'ils doivent fuir tout le temps", "Qu'ils ont besoin d'amis", "Qu'ils doivent rester calmes et malins"],
+          "correctAnswer": "Qu'ils doivent rester calmes et malins"
+        },
+        {
+          "question": "Que ressentait Nuna après leur victoire ?",
+          "options": ["Elle était triste", "Elle était heureuse", "Elle avait peur"],
+          "correctAnswer": "Elle était heureuse"
+        },
+        {
+          "question": "Qui a exprimé son courage à la fin de l'histoire ?",
+          "options": ["Papu", "Nuna", "Raja"],
+          "correctAnswer": "Papu"
+        },
+        {
+          "question": "Quel est le message principal de l'histoire ?",
+          "options": ["La force est la plus importante", "Intelligence et courage sont plus puissants que la force", "La peur n'est jamais justifiée"],
+          "correctAnswer": "Intelligence et courage sont plus puissants que la force"
+        }
+      ]
+    }
+  ]
+}

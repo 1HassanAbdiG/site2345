@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import exercices from "./singplur.json"; // Import du JSON
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 import {
   Box,
   Typography,
@@ -17,6 +19,7 @@ import {
   MenuItem,
   LinearProgress,
 } from "@mui/material";
+import Game from "../../GAME/game";
 
 const Singplurie12 = () => {
   const [selectedExercice, setSelectedExercice] = useState(1);
@@ -59,7 +62,16 @@ const Singplurie12 = () => {
 
     setResults(newResults);
     setScore(totalScore);
+
+    
   };
+  const theme = createTheme({
+    palette: {
+      primary: { main: '#1976d2' },
+      secondary: { main: '#dc004e' },
+    },
+  });
+
 
   const exercice = exercices.find((ex) => ex.exercice === selectedExercice);
   const completedCount = Object.keys(answers).length;
@@ -316,6 +328,11 @@ const Singplurie12 = () => {
           </TableContainer>
         </Box>
       )}
+      <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Game /> {/* Affiche directement le composant tout-en-un */}
+    </ThemeProvider>
+    
     </Box>
   );
 };

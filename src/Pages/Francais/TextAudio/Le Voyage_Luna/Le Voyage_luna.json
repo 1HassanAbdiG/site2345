@@ -1,0 +1,41 @@
+{
+    "title": "Le Voyage de Luna",
+    "sections": [
+        {
+            "title": "Partie 1 : Luna et l'Étoile Filante",
+            "text": "Il était une fois une petite fille qui s'appelait Luna. Elle vivait dans un village calme, entouré de montagnes et de belles prairies. Luna aimait beaucoup regarder le ciel la nuit. Elle aimait voir les étoiles briller comme des diamants. Chaque soir, elle s'asseyait près de sa maison et regardait le ciel en rêvant.\n\nLuna imaginait des aventures magiques avec les étoiles. Elle pensait que les étoiles étaient des amis qui veillaient sur elle. Une nuit, alors que le ciel était très clair, Luna vit une étoile filante passer rapidement. L’étoile était brillante et belle. Elle la suivit des yeux jusqu'à ce qu'elle disparaisse derrière les montagnes lointaines.\n\nLuna était excitée. Elle n'avait jamais vu une étoile filante aussi belle. Elle pensa : « Je dois découvrir d'où vient cette étoile ! » Elle voulait connaître son secret. Elle se promit de partir à l'aventure pour trouver l'étoile.\n\nCette nuit-là, Luna avait du mal à dormir. Elle pensait à l'étoile filante et à son voyage. Elle se demandait si l’étoile venait d’un endroit spécial. Luna décida qu'elle partirait dès le lendemain matin. Elle voulait réaliser son rêve et découvrir l’origine de cette étoile merveilleuse.",
+           "image": "1",
+            "audio": "audio_part1"
+        },
+        {
+            "title": "Partie 2 : La Forêt Enchantée",
+            "text": "Le lendemain matin, Luna se réveilla tôt. Elle prépara un petit sac avec de la nourriture, de l’eau et une couverture chaude. Elle mit aussi une petite lampe pour voir dans le noir. Luna était prête pour son aventure.\n\nElle traversa les prairies pleines de fleurs colorées. Les oiseaux chantaient joyeusement et le soleil brillait. Luna marchait avec courage. Elle était excitée mais aussi un peu nerveuse. Après un long moment, elle arriva devant une grande forêt. C’était la Forêt Enchantée.\n\nLes arbres de la forêt étaient très grands. Leurs feuilles étaient vertes et brillantes. Des petites lumières dansaient entre les branches comme de minuscules étoiles. Luna était émerveillée par cette beauté. Elle se dit : « Cette forêt est magique ! »\n\nLuna entra doucement dans la forêt. Les feuilles faisaient un doux bruit quand elle marchait. Elle entendait aussi des bruits d’animaux cachés dans les buissons. Mais Luna n’avait pas peur. Elle savait qu'elle devait continuer son chemin pour trouver l'étoile filante.\n\nEn avançant, elle trouva des fruits délicieux sur les arbres. Elle en mangea pour reprendre des forces. Les lumières scintillantes semblaient lui montrer le chemin. Luna les suivit, en souriant. Elle se sentait heureuse et pleine d’espoir.",
+            "image": "2",
+            "audio": "audio_part2"
+        },
+        {
+            "title": "Partie 3 : Rencontre avec le Gardien",
+            "text": "En marchant plus loin dans la forêt, Luna arriva dans une clairière paisible. Là, elle rencontra un vieil homme assis sur un rocher. Il portait une longue robe bleue qui brillait comme le ciel nocturne. Sa barbe était blanche et douce, et ses yeux étaient gentils.\n\nLuna s'approcha doucement de lui. L'homme sourit et dit : « Bonjour petite fille. Que fais-tu seule dans cette forêt ? » Sa voix était douce comme une berceuse. Luna lui répondit poliment : « Je cherche une étoile filante. Je l'ai vue tomber derrière les montagnes et je veux savoir d'où elle vient. »\n\nLe vieil homme hocha la tête. « Ah, tu cherches donc l’étoile filante ! » dit-il. « Je suis le Gardien des Étoiles. Mon travail est de protéger les étoiles et de veiller sur elles. » Luna était surprise et heureuse de rencontrer quelqu'un d'aussi important.\n\nL'homme continua : « L'étoile que tu as vue est un fragment de la Comète des Souhaits. Cette comète est spéciale. Elle peut réaliser les vœux des cœurs purs, comme le tien. » Luna écoutait avec attention. Elle était fascinée par ce que disait le Gardien.\n\nLuna demanda : « Comment puis-je trouver cette comète ? » Le Gardien sourit et répondit : « Je vais t'aider. Je vais te donner une carte céleste et une boussole magique. Suis les étoiles et elles te guideront jusqu'à la comète. » Luna prit la carte et la boussole, pleine de gratitude.",
+          "image": "3",
+            "audio": "audio_part3"
+        },
+        {
+            "title": "Partie 4 : Le Voyage vers la Comète",
+            "text": "Luna suivit les instructions du Gardien. Elle regardait la carte céleste et utilisait la boussole magique pour trouver son chemin. Son voyage fut long et difficile, mais Luna n'abandonnait jamais.\n\nElle traversa un désert de sable doré, monta sur des montagnes de cristal, et vola au-dessus des nuages grâce à un grand oiseau. Elle rencontra aussi des créatures amicales qui l’aidaient en chemin.\n\nEnfin, elle arriva près de la Comète des Souhaits, qui brillait de mille feux.",
+           "image": "4",
+            "audio": "audio_part4"
+        },
+        {
+            "title": "Partie 5 : Le Vœu de Luna",
+            "text": "Luna fit un vœu pour que son village soit toujours protégé et heureux. La comète brilla encore plus fort, exauçant son souhait. Luna rentra chez elle et raconta son aventure.\n\nLes habitants du village l'accueillirent avec joie et organisèrent une grande fête en son honneur. Luna savait désormais que les rêves peuvent devenir réalité.",
+            "image": "5",
+            "audio": "audio_part5"
+        },
+        {
+            "title": "Moral de l'histoire",
+            "text": "Avec détermination et un cœur pur, même les rêves les plus grands peuvent devenir réalité.",
+            "image": "6",
+            "audio": "audio_part6"
+        }
+    ]
+}

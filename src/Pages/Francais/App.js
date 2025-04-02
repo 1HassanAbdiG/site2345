@@ -22,7 +22,7 @@ import Lecture from './Pages/Francais/francais/lecture';
 import Conjugation from './Pages/conjuguaison/Conjugation';
 import Grammaire from './Pages/grammaire/grammaire.jsx';
 import IntruderExercise from './Pages/Francais/intrus/IntruderExercise';
-//import Jeuhistoire from './Pages/OQRE/jeuHistoire.js';
+import Jeuhistoire from './Pages/OQRE/jeuHistoire.js';
 
 // Importation des exercices de mathématiques
 import FractionQuiz from './Pages/maths/FRACT/FractionQuiz.js';
@@ -56,8 +56,7 @@ import Exercice1e2e from './Pages/Francais/1eanné/1eannée/header.jsx';
 import InteractiveBookTigre from './Pages/Francais/TextAudio/le_tigre_chacals/textigre.js';
 import InteractiveBookBucheron from './Pages/Francais/TextAudio/le petit_bûcheron/bucheron.js';
 import InteractiveBookLuna from './Pages/Francais/TextAudio/Le Voyage_Luna/texLuna.js';
-//import Jeuhistoire2 from './Pages/Francais/jeuHistoire.js';
-import Jeuhistoire4 from './Pages/Francais/Conctruction/jeuHistoire.js';
+import Jeuhistoire2 from './Pages/Francais/jeuHistoire.js';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 
@@ -88,7 +87,7 @@ const App = () => {
           <Route path="/exerciseDecimaux" element={<DecimauxExercice />} />
           <Route path="/exerciseMultiplicationDivision" element={<DecimauxExercice1 />} />
           <Route path="/francais/intrus" element={<IntruderExercise />} />
-          <Route path="/francais/construction" element={<Jeuhistoire4 />} />
+          <Route path="/francais/construction" element={<Jeuhistoire2 />} />
 
           {/* Histoires interactives */}
           <Route path="/story/contes-africains" element={<TextReader />} />

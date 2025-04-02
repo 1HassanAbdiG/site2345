@@ -1,0 +1,169 @@
+{
+  "title": "Le Trésor de Pipo",
+  "sections": [
+    {
+      "title": "Pipo, le petit bûcheron courageux",
+      "text": "",
+      "questions": [
+        {
+          "question": "Où Pipo vivait-il avec sa grand-mère ?",
+          "options": ["Dans un château", "Dans une maisonnette de bois et de pierres", "Dans une grotte", "Dans une cabane dans les arbres"],
+          "correctAnswer": "Dans une maisonnette de bois et de pierres"
+        },
+        {
+          "question": "Que faisait Pipo chaque matin ?",
+          "options": ["Il allait à l'école", "Il jouait avec ses amis", "Il partait couper du bois", "Il pêchait dans la rivière"],
+          "correctAnswer": "Il partait couper du bois"
+        },
+        {
+          "question": "Quelle était la promesse de Pipo ?",
+          "options": ["De trouver un trésor", "De bâtir une grande maison pour sa grand-mère", "De devenir le plus fort du village", "De devenir un prince"],
+          "correctAnswer": "De bâtir une grande maison pour sa grand-mère"
+        },
+        {
+          "question": "Avec qui Pipo vivait-il ?",
+          "options": ["Ses parents", "Sa sœur", "Sa grand-mère", "Son oncle"],
+          "correctAnswer": "Sa grand-mère"
+        },
+        {
+          "question": "Pourquoi Pipo coupait-il du bois ?",
+          "options": ["Pour construire une maison", "Pour se faire un bateau", "Pour le vendre au marché", "Pour le brûler"],
+          "correctAnswer": "Pour le vendre au marché"
+        }
+      ]
+    },
+    {
+      "title": "La Rivière Arc-en-Ciel",
+      "text": "",
+      "questions": [
+        {
+          "question": "Pourquoi Pipo devait-il faire attention près de la rivière ?",
+          "options": ["Parce qu’il faisait nuit", "Parce que le sol était glissant", "Parce qu'il y avait des animaux sauvages", "Parce qu'il pleuvait"],
+          "correctAnswer": "Parce que le sol était glissant"
+        },
+        {
+          "question": "Comment la hache de Pipo est-elle tombée dans l’eau ?",
+          "options": ["Un oiseau l’a emportée", "Elle est tombée d’un arbre", "Elle a glissé sur une branche humide", "Pipo l’a jetée volontairement"],
+          "correctAnswer": "Elle a glissé sur une branche humide"
+        },
+        {
+          "question": "Comment Pipo réagit-il quand sa hache tombe dans l’eau ?",
+          "options": ["Il rit", "Il pleure", "Il danse", "Il se fâche"],
+          "correctAnswer": "Il pleure"
+        },
+        {
+          "question": "Quelle est la couleur de l'eau de la rivière ?",
+          "options": ["Bleue", "Verte", "Transparente", "Multicolore"],
+          "correctAnswer": "Multicolore"
+        },
+        {
+          "question": "Que faisait Pipo près de la rivière ?",
+          "options": ["Il pêchait", "Il coupait du bois", "Il nageait", "Il cueillait des fruits"],
+          "correctAnswer": "Il coupait du bois"
+        }
+      ]
+    },
+    {
+      "title": "L’apparition de l’elfe au chapeau doré",
+      "text": "",
+      "questions": [
+        {
+          "question": "Quelle était la couleur du chapeau de l’elfe ?",
+          "options": ["Rouge", "Doré", "Vert", "Bleu"],
+          "correctAnswer": "Doré"
+        },
+        {
+          "question": "Que tenait l’elfe lorsqu’il sortit de l’eau la première fois ?",
+          "options": ["Une fleur", "Une hache en cristal", "Une épée", "Un bâton"],
+          "correctAnswer": "Une hache en cristal"
+        },
+        {
+          "question": "Pourquoi l’elfe a-t-il voulu aider Pipo ?",
+          "options": ["Parce que Pipo était riche", "Parce que Pipo était honnête", "Parce que Pipo était un prince", "Parce que Pipo était un elfe"],
+          "correctAnswer": "Parce que Pipo était honnête"
+        },
+        {
+          "question": "Que fit Pipo lorsque l’elfe lui montra la hache en cristal ?",
+          "options": ["Il la prit", "Il mentit", "Il dit la vérité", "Il se mit en colère"],
+          "correctAnswer": "Il dit la vérité"
+        },
+        {
+          "question": "Comment l’elfe est-il apparu ?",
+          "options": ["En volant", "En marchant", "En nageant", "En sortant d'un brouillard bleuâtre"],
+          "correctAnswer": "En sortant d'un brouillard bleuâtre"
+        }
+      ]
+    },
+    {
+      "title": "Les haches merveilleuses",
+      "text": "",
+      "questions": [
+        {
+          "question": "Que fit Pipo avec la hache en cristal ?",
+          "options": ["Il l’a vendue", "Il a sculpté des jouets", "Il l’a perdue", "Il l’a jetée"],
+          "correctAnswer": "Il a sculpté des jouets"
+        },
+        {
+          "question": "Que fit Pipo avec la hache en or ?",
+          "options": ["Il construisit une maison pour sa grand-mère", "Il la donna à l’elfe", "Il l’a enterrée", "Il l’a vendue au marché"],
+          "correctAnswer": "Il construisit une maison pour sa grand-mère"
+        },
+        {
+          "question": "Quel était le trésor le plus précieux pour Pipo ?",
+          "options": ["La hache en or", "La hache en cristal", "Sa vieille hache", "Un coffre de pièces d’or"],
+          "correctAnswer": "Sa vieille hache"
+        },
+        {
+          "question": "Que faisait Pipo lorsqu’il passait près de la Rivière Arc-en-Ciel ?",
+          "options": ["Il ignorait l’endroit", "Il pêchait", "Il saluait l’elfe", "Il construisait une maison"],
+          "correctAnswer": "Il saluait l’elfe"
+        },
+        {
+          "question": "Quelle est la morale de l’histoire ?",
+          "options": ["Toujours garder ses trésors", "Mentir pour obtenir ce qu’on veut", "Être fort est plus important que tout", "Toujours dire la vérité"],
+          "correctAnswer": "Toujours dire la vérité"
+        }
+      ]
+    },{
+      "title": "Le bonheur de Pipo",
+      "text": "De retour chez lui, Pipo raconta son aventure à sa grand-mère qui resta bouche bée. Les haches en cristal et en or étaient si belles qu’elles semblaient sortir d’un rêve ! Avec la hache en cristal, Pipo sculpta de magnifiques jouets qu’il offrit aux enfants du village. Avec la hache en or, il bâtit une grande maison pour sa grand-mère, solide et belle comme un château. Mais ce que Pipo préférait par-dessus tout, c’était sa vieille hache en bois et en acier. Car c’était grâce à elle qu’il avait découvert ce que signifiait l’honnêteté et la bonté. Il continua à vivre simplement, généreusement, et chaque fois qu’il passait près de la Rivière Arc-en-Ciel, il saluait l’elfe au chapeau doré, espérant le revoir un jour.",
+      "questions": [
+        {
+          "question": "Que raconta Pipo à sa grand-mère ?",
+          "options": ["Ses aventures", "Ses rêves", "Des histoires de magie", "Des histoires de guerre"],
+          "correctAnswer": "Ses aventures"
+        },
+        {
+          "question": "Comment décrivait Pipo les haches en cristal et en or ?",
+          "options": ["Comme des jouets", "Comme des outils", "Comme des trésors de rêve", "Comme de vieilles haches"],
+          "correctAnswer": "Comme des trésors de rêve"
+        },
+        {
+          "question": "Que fit Pipo avec la hache en cristal ?",
+          "options": ["Il sculpta des jouets", "Il l'a vendue", "Il l'a perdue", "Il l'a jetée"],
+          "correctAnswer": "Il sculpta des jouets"
+        },
+        {
+          "question": "Que construisit Pipo avec la hache en or ?",
+          "options": ["Une petite cabane", "Une maison pour sa grand-mère", "Un pont", "Un château pour lui-même"],
+          "correctAnswer": "Une maison pour sa grand-mère"
+        },
+        {
+          "question": "Quel était le trésor le plus précieux pour Pipo ?",
+          "options": ["La hache en or", "La hache en cristal", "Sa vieille hache", "Un coffre de pièces d’or"],
+          "correctAnswer": "Sa vieille hache"
+        },
+        {
+          "question": "Que faisait Pipo chaque fois qu'il passait près de la Rivière Arc-en-Ciel ?",
+          "options": ["Il ignorait l’endroit", "Il saluait l’elfe", "Il pêchait", "Il construisait une maison"],
+          "correctAnswer": "Il saluait l’elfe"
+        },
+        {
+          "question": "Quelle leçon Pipo a-t-il appris grâce à sa vieille hache ?",
+          "options": ["L'importance de la force", "L'honnêteté et la bonté", "Comment devenir riche", "Comment devenir célèbre"],
+          "correctAnswer": "L'honnêteté et la bonté"
+        }
+      ]
+    }
+  ]
+}

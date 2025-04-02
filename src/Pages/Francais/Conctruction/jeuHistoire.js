@@ -13,7 +13,7 @@ const shuffleArray = (array) => {
     .map(({ value }) => value);
 };
 
-const Jeuhistoire = () => {
+const Jeuhistoire4 = () => {
   const [selectedStory, setSelectedStory] = useState(storiesData.stories[0].phrases);
   const [phrases, setPhrases] = useState([]);
   const [attempts, setAttempts] = useState(0);
@@ -75,13 +75,12 @@ const Jeuhistoire = () => {
         <p>Amuse-toi bien !</p>
       </div>);
       setMessageType('success');
-      setShowReadStoryButton(true);
+      setShowReadStoryButton(true); // Afficher le bouton pour lire l'histoire
     } else {
       setMessage(`Tu as ${correctCount} phrase${correctCount > 1 ? 's' : ''} bien placée${correctCount > 1 ? 's' : ''}. Corrige les autres phrases.`);
       setMessageType('error');
     }
   };
-
 
   const restartGame = () => {
     setAttempts(0);
@@ -113,11 +112,18 @@ const Jeuhistoire = () => {
     <div className="container">
       <h1>Choisis ton histoire</h1>
       <select onChange={handleStoryChange}>
-        <option value="0">La journée de Marie</option>
-        <option value="1">Une journée à la plage</option>
-        <option value="2">La fête d'anniversaire</option>
-        <option value="3">Une sortie au zoo</option>
+     {storiesData.stories.map((story, index) => (
+          <option key={index} value={index}>
+            {`Histoire ${index + 1} : ${story.title}`}
+          </option>
+        ))}
+      
       </select>
+
+
+
+
+      
 
       {showInstructions ? (
         <div className="instructions">
@@ -167,4 +173,4 @@ const Jeuhistoire = () => {
   );
 };
 
-export default Jeuhistoire;
+export default Jeuhistoire4;

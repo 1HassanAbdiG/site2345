@@ -1,0 +1,35 @@
+{
+    "title": "Le Tigre et les Deux Petits Chacals",
+    "sections": [
+      {
+        "title": "Raja, le roi de la jungle",
+        "text": "Dans une grande jungle verte, il y avait un tigre nommé Raja.\n\nRaja était très fort et puissant. Il était le roi de la jungle.\nQuand Raja rugissait, tous les animaux avaient peur.\nLes oiseaux volaient loin, les lapins se cachaient,\net même les éléphants avaient peur.\n\nRaja aimait chasser. Mais il mangeait tellement d’animaux qu’il n’en restait presque plus dans la jungle.\n\nSeuls deux petits chacals vivaient encore là.",
+        "images": ["11.jpg", "12.jpg"],
+        "audio": "audio_part1"
+      },
+      {
+        "title": "Papu et Nuna",
+        "text": "Les deux petits chacals s’appelaient Papu et Nuna.\nIls étaient frères et sœurs.\nPapu était malin et courageux.\nNuna était gentille et intelligente.\nMais ils avaient très faim.\n\nIls devaient se cacher de Raja tout le temps.\nIls étaient maigres et fatigués.\n\nUn jour, Raja trouva leur cachette !\nNuna avait peur.\n\n— « Oh non, Papu ! » dit Nuna.\n« Raja va nous manger ! »\n\n— « Ne t’inquiète pas, Nuna, » dit Papu.\n« Fais tout ce que je te dis et tout ira bien. »",
+        "images": ["21.jpg", "22.jpg"],
+        "audio": "audio_part2"
+      },
+      {
+        "title": "La ruse de Papu",
+        "text": "Papu et Nuna marchèrent courageusement jusqu’à Raja.\n— « Ah ! C’est vous ! Je vais vous manger ! » rugit Raja.\n\nMais Papu sourit et dit :\n— « Votre Majesté, un autre tigre nous a retenus. »\n\n— « Un autre tigre ?! Je suis le seul tigre ici ! » rugit Raja.\n\n— « Mais il est aussi gros que vous !\nIl dit qu’il est le roi de la jungle ! » dit Papu.\n\n— « Montrez-moi ce tigre ! » cria Raja.\n« Je vais lui montrer qui est le vrai roi ici ! »",
+        "images": ["31.jpg", "32.jpg"],
+        "audio": "audio_part3"
+      },
+      {
+        "title": "Le piège de Papu",
+        "text": "Papu guida Raja jusqu’à une rivière calme.\n— « Regardez, majesté ! Le gros tigre est là, il vous regarde ! » dit Papu.\n\nRaja regarda dans l’eau et vit son propre reflet.\nMais il pensait que c’était un autre tigre !\n\n— « Comment ose-t-il me défier ?! » rugit Raja.\n\nRaja sauta dans l’eau pour attaquer le “tigre”.\nMais il n’y avait personne !\nRaja tomba dans l’eau froide. Il avait très peur et s’enfuit loin, très loin de la jungle.",
+        "images": ["41.jpg", "42.jpg"],
+        "audio": "audio_part4"
+      },
+      {
+        "title": "La leçon",
+        "text": "Papu et Nuna étaient enfin tranquilles.\nRaja était parti et ne reviendrait jamais.\n— « Tu es très courageux, Papu, » dit Nuna.\n— « Et toi, Nuna, tu es très intelligente, » dit Papu.\n« Nous avons réussi en restant calmes et malins ! »\n\nDepuis ce jour, Papu et Nuna vécurent en paix.\nIls avaient compris que l’intelligence et le courage étaient plus forts que la force.",
+        "images": ["51.jpg", "52.jpg"],
+        "audio": "audio_part5"
+      }
+    ]
+}

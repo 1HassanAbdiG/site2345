@@ -51,6 +51,16 @@
           "titre": "Contes d'animaux",
           "image": "./papillon1.png",
           "link": "/story/contes-animaux"
+        }, 
+        {
+          "titre": "Le Tigre et les Deux Petits Chacals",
+          "image": "./titre_tigre.png",
+          "link": "/story/contes_tigre"
+        },
+        {
+          "titre": "Le Trésor de Pipo",
+          "image": "./bucheron.png",
+          "link": "/story/bucheron"
         }
       ]
     },
@@ -63,9 +73,9 @@
           "link": "/story/contes-princesses-princes"
         },
         {
-          "titre": "Contes du Japon",
-          "image": "./papillon4.png",
-          "link": "/story/contes-japon"
+          "titre": "Le Voyage de Luna",
+          "image": "./R.png",
+          "link": "/story/Luna"
         },
         {
           "titre": "Contes d'animaux",

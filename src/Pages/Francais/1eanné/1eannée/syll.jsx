@@ -1,49 +1,52 @@
-// src/App.js
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Container, Grid, Typography } from '@mui/material';
 import { VolumeUp } from '@mui/icons-material';
 
 const syllables = [
-  { fr: 'ba', en: 'ba' },
-  { fr: 'be', en: 'be' },
-  { fr: 'bi', en: 'bi' },
-  { fr: 'bo', en: 'bo' },
-  { fr: 'bu', en: 'bu' },
+  { fr: 'pra' },
+  { fr: 'pro' },
+  { fr: 'pré' },
+  { fr: 'pri', phoneme: '/priii/' }, // Phonème corrigé pour "pri"
+  { fr: 'pru' ,phoneme: '/pru/' } ,
+  { fr: 'pla' },
+  { fr: 'pli', phoneme: '/pli/' },
+  { fr: 'ple' },
+  { fr: 'plo' },
+  { fr: 'plé' },
 ];
 
-function  Syllab() {
-  const [language, setLanguage] = useState('fr'); // Langue par défaut : français
-
-  // Fonction pour lire une syllabe avec la synthèse vocale
+function Syllab() {
   const speakSentence = (syllable) => {
-    const utterance = new SpeechSynthesisUtterance(language === 'fr' ? syllable.fr : syllable.en);
-    utterance.lang = language === 'fr' ? 'fr-FR' : 'en-US';
-    window.speechSynthesis.speak(utterance); // Démarrer la synthèse vocale
+    let textToSpeak = syllable.fr;
+
+    // Use phoneme if available
+    if (syllable.phoneme) {
+      textToSpeak = syllable.phoneme;
+    }
+
+    // Create a SpeechSynthesisUtterance object with the correct text
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    utterance.lang = 'fr-FR'; // Set language to French
+
+    // Adjusting for the voice selection (if available)
+    utterance.voice = window.speechSynthesis.getVoices().find((voice) => voice.name === 'Thomas') || null;
+
+    // Debugging: Log which voice is being used
+    if (utterance.voice) {
+      console.log("Utilisation de la voix:", utterance.voice.name);
+    } else {
+      console.log("La voix 'Thomas' n'est pas disponible. Utilisation de la voix par défaut.");
+    }
+
+    // Start speaking the text
+    window.speechSynthesis.speak(utterance);
   };
 
   return (
     <Container style={{ textAlign: 'center', marginTop: '20px' }}>
       <Typography variant="h3" gutterBottom color="secondary">
-        🎵 Apprenez les Syllabes 🎵
+        Apprenez les Syllabes
       </Typography>
-
-      {/* Choix de langue */}
-      <Typography variant="h6" gutterBottom>
-        Choisissez la langue :
-      </Typography>
-      <Button
-        onClick={() => setLanguage('fr')}
-        variant={language === 'fr' ? 'contained' : 'outlined'}
-        style={{ marginRight: '10px' }}
-      >
-        Français
-      </Button>
-      <Button
-        onClick={() => setLanguage('en')}
-        variant={language === 'en' ? 'contained' : 'outlined'}
-      >
-        Anglais
-      </Button>
 
       <Grid container spacing={2} justifyContent="center" style={{ marginTop: '20px' }}>
         {syllables.map((syllable, index) => (
@@ -51,7 +54,7 @@ function  Syllab() {
             <Button
               variant="contained"
               color="primary"
-              onClick={() => speakSentence(syllable)} // Appeler la fonction de lecture de syllabe
+              onClick={() => speakSentence(syllable)}
               style={{
                 fontSize: '24px',
                 padding: '20px',
@@ -62,7 +65,7 @@ function  Syllab() {
               }}
               startIcon={<VolumeUp />}
             >
-              {syllable.fr} {/* Affiche la syllabe en français */}
+              {syllable.fr}
             </Button>
           </Grid>
         ))}
