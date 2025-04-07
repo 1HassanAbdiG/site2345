@@ -14,7 +14,8 @@ const Nav = () => {
   const navLinks = [
     { text: "Mathématiques", path: "/mathematiques" },
     { text: "Français", path: "/francais" },
-    { text: "Jeux Éducatifs", path: "/jeux" },
+    { text: "OQRE", path: "/jeux" },
+    { text: "Concours", path: "/Concours" },
   ];
 
   return (

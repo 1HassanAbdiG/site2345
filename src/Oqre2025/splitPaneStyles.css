@@ -1,0 +1,195 @@
+/* --- General Styles & Variables --- */
+:root {
+    --primary-color: #4a90e2; /* A nice blue */
+    --secondary-color: #f5a623; /* An accent orange */
+    --background-color: #f7f9fc;
+    --text-color: #333;
+    --border-color: #e0e0e0;
+    --pane-bg: #ffffff;
+    --header-height: 100px; /* Adjust as needed */
+    --section-spacing: 25px;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; /* Choose a nice font */
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .oqre-viewer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure it takes full viewport height */
+  }
+  
+  /* --- Header --- */
+  .oqre-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: var(--header-height);
+    box-sizing: border-box; /* Include padding in height */
+  }
+  
+  .oqre-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .grade-selector {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between "Choisis" and buttons */
+  }
+  
+  .grade-selector p {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  
+  .grade-button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px; /* Rounded buttons */
+    background-color: white;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-button:hover {
+    background-color: #e8f0fe; /* Lighter blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-button.active {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* --- Content Area --- */
+  .content-area {
+    flex-grow: 1; /* Takes remaining vertical space */
+    padding: var(--section-spacing);
+    overflow-y: auto; /* Allow scrolling if content overflows */
+  }
+  
+  .welcome-message {
+    text-align: center;
+    padding: 50px;
+    color: #777;
+  }
+  
+  .welcome-message h2 {
+   color: var(--primary-color);
+  }
+  
+  .grade-content > h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: var(--section-spacing);
+    font-size: 1.6em;
+  }
+  
+  /* --- Subject Section --- */
+  .subject-section {
+    background-color: var(--pane-bg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: var(--section-spacing);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    overflow: hidden; /* Important for containing the SplitPane */
+  }
+  
+  .subject-section h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-size: 1.4em;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 5px;
+    display: inline-block; /* So border only spans text */
+  }
+  
+  .subject-section h3 .icon { /* If you want specific icon styling */
+    margin-right: 8px;
+  }
+  
+  /* --- Split Pane Styling --- */
+  .split-view-wrapper {
+    /* CRITICAL: Define a specific height for the split pane container */
+    /* Adjust this value based on your needs - e.g., 60vh or a fixed pixel value */
+    height: 70vh;
+    /* Or use calc if header height is fixed: */
+    /* height: calc(100vh - var(--header-height) - (2 * var(--section-spacing)) - 100px); Adjust 100px for margins/paddings */
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    overflow: hidden; /* Clip iframe borders if they overflow */
+  }
+  
+  /* Style the SplitPane container itself */
+  .split-pane-custom {
+    position: relative !important; /* Needed for react-split-pane layout */
+  }
+  
+  /* Style the individual panes */
+  .pane {
+    height: 100%; /* Ensure panes fill the split-pane height */
+    overflow: hidden; /* Hide potential scrollbars from iframe unless needed */
+    background-color: var(--pane-bg); /* Ensure background consistency */
+    box-sizing: border-box;
+    padding: 5px; /* Add slight padding *around* the iframes */
+  }
+  
+  .pane iframe {
+    display: block; /* Remove potential extra space below iframe */
+    width: 100%;
+    height: 100%; /* Make iframe fill the pane */
+    border: none; /* Remove iframe default border */
+  }
+  
+  /* Style the splitter */
+  .Resizer {
+    background: #ccc;
+    opacity: 0.5;
+    z-index: 1;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .Resizer:hover {
+    opacity: 1;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .Resizer.vertical {
+    width: 11px;
+    margin: 0 -5px;
+    border-left: 5px solid rgba(255, 255, 255, 0);
+    border-right: 5px solid rgba(255, 255, 255, 0);
+    cursor: col-resize;
+  }
+  
+  .Resizer.vertical:hover {
+    border-left: 5px solid rgba(0, 0, 0, 0.2);
+    border-right: 5px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .Resizer.disabled {
+    cursor: not-allowed;
+  }
+  .Resizer.disabled:hover {
+    border-color: transparent;
+  }

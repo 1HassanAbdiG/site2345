@@ -1,0 +1,198 @@
+{
+    "config": {
+      "grades": ["3e", "6e"],
+      "subjects": ["Maths", "Français"],
+      "yearOptions": [2015]
+    },
+    "docConfig": {
+      "3e": {
+        "Français": {
+          "2015": {
+            "pdf": "./oqre/fr/F32015.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSe6ojinmm2JH_MGrPE74kjuEdL4m6xBzHK6QqrmzPG9mokcWA/viewform"
+          },
+          "2016": {
+            "pdf": "./oqre/fr/F32016.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2016/viewform"
+          },
+          "2017": {
+            "pdf": "./oqre/fr/F32017.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2017/viewform"
+          },
+          "2018": {
+            "pdf": "./oqre/fr/F32018.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2018/viewform"
+          },
+          "2019": {
+            "pdf": "./oqre/fr/F32019.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2019/viewform"
+          },
+          "2020": {
+            "pdf": "./oqre/fr/F32020.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2020/viewform"
+          },
+          "2021": {
+            "pdf": "./oqre/fr/F32021.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2021/viewform"
+          },
+          "2022": {
+            "pdf": "./oqre/fr/F32022.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2022/viewform"
+          },
+          "2023": {
+            "pdf": "./oqre/fr/F32023.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2023/viewform"
+          },
+          "2024": {
+            "pdf": "./oqre/fr/F32024.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2024/viewform"
+          },
+          "2025": {
+            "pdf": "./oqre/fr/F32025.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_3e_2025/viewform"
+          }
+        },
+        "Maths": {
+          "2015": {
+            "pdf": "./oqre/fr/M32015.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2015/viewform"
+          },
+          "2016": {
+            "pdf": "./oqre/fr/M32016.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2016/viewform"
+          },
+          "2017": {
+            "pdf": "./oqre/fr/M32017.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2017/viewform"
+          },
+          "2018": {
+            "pdf": "./oqre/fr/M32018.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2018/viewform"
+          },
+          "2019": {
+            "pdf": "./oqre/fr/M32019.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2019/viewform"
+          },
+          "2020": {
+            "pdf": "./oqre/fr/M32020.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2020/viewform"
+          },
+          "2021": {
+            "pdf": "./oqre/fr/M32021.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2021/viewform"
+          },
+          "2022": {
+            "pdf": "./oqre/fr/M32022.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2022/viewform"
+          },
+          "2023": {
+            "pdf": "./oqre/fr/M32023.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2023/viewform"
+          },
+          "2024": {
+            "pdf": "./oqre/fr/M32024.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2024/viewform"
+          },
+          "2025": {
+            "pdf": "./oqre/fr/M32025.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_3e_2025/viewform"
+          }
+        }
+      },
+      "6e": {
+        "Français": {
+          "2015": {
+            "pdf": "./oqre/fr/Fr62015.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdKfTEn_SxRaVjJ_7GqXVdycdR3_5jVjmwBB3mFERKXhxWM6A/viewform"
+          },
+          "2016": {
+            "pdf": "./oqre/fr/F62016.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2016/viewform"
+          },
+          "2017": {
+            "pdf": "./oqre/fr/F62017.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2017/viewform"
+          },
+          "2018": {
+            "pdf": "./oqre/fr/F62018.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2018/viewform"
+          },
+          "2019": {
+            "pdf": "./oqre/fr/F62019.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2019/viewform"
+          },
+          "2020": {
+            "pdf": "./oqre/fr/F62020.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2020/viewform"
+          },
+          "2021": {
+            "pdf": "./oqre/fr/F62021.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2021/viewform"
+          },
+          "2022": {
+            "pdf": "./oqre/fr/F62022.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2022/viewform"
+          },
+          "2023": {
+            "pdf": "./oqre/fr/F62023.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2023/viewform"
+          },
+          "2024": {
+            "pdf": "./oqre/fr/F62024.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2024/viewform"
+          },
+          "2025": {
+            "pdf": "./oqre/fr/F62025.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_french_6e_2025/viewform"
+          }
+        },
+        "Maths": {
+          "2015": {
+            "pdf": "./oqre/fr/M62015.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2015/viewform"
+          },
+          "2016": {
+            "pdf": "./oqre/fr/M62016.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2016/viewform"
+          },
+          "2017": {
+            "pdf": "./oqre/fr/M62017.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2017/viewform"
+          },
+          "2018": {
+            "pdf": "./oqre/fr/M62018.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2018/viewform"
+          },
+          "2019": {
+            "pdf": "./oqre/fr/M62019.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2019/viewform"
+          },
+          "2020": {
+            "pdf": "./oqre/fr/M62020.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2020/viewform"
+          },
+          "2021": {
+            "pdf": "./oqre/fr/M62021.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2021/viewform"
+          },
+          "2022": {
+            "pdf": "./oqre/fr/M62022.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2022/viewform"
+          },
+          "2023": {
+            "pdf": "./oqre/fr/M62023.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2023/viewform"
+          },
+          "2024": {
+            "pdf": "./oqre/fr/M62024.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2024/viewform"
+          },
+          "2025": {
+            "pdf": "./oqre/fr/M62025.pdf",
+            "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdprefillURL_maths_6e_2025/viewform"
+          }
+        }
+      }
+    }
+  }
+  

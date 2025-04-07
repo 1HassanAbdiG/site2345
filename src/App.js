@@ -13,7 +13,7 @@ import styles from './Pages/Accueil.module.css';
 import Accueil from './Pages/Accueil';
 import Francais from './Pages/Francais/Francais';
 import Mathematiques from './Pages/maths/Mathematiques';
-import JeuEdu from './Pages/Jeu/jeu.jsx';
+//import JeuEdu from './Pages/Jeu/jeu.jsx';
 
 // Importation des exercices et jeux
 //import Ex_conjuguaison from './Pages/Francais/conjuguaison/Ex_conjuguaison.jsx';
@@ -47,7 +47,7 @@ import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 // Importation des jeux éducatifs
 //import ConjugationGame from './Pages/Jeu/conjuguaison/ver.jsx';
 //import Conj from './Pages/Francais/conjuguaison/conj.jsx';
-import Multip from './Pages/maths/multip.jsx';
+//import Multip from './Pages/maths/multip.jsx';
 //import About from './Pages/About.jsx';
 //import ChatComponent from './ChatComponent.js';
 //import Exercicegram from './Exercice de conjuguaison/exercice.jsx';
@@ -58,6 +58,12 @@ import InteractiveBookBucheron from './Pages/Francais/TextAudio/le petit_bûcher
 import InteractiveBookLuna from './Pages/Francais/TextAudio/Le Voyage_Luna/texLuna.js';
 //import Jeuhistoire2 from './Pages/Francais/jeuHistoire.js';
 import Jeuhistoire4 from './Pages/Francais/Conctruction/jeuHistoire.js';
+//import FractionExercises from './Pages/maths/FRACT/FractionQuiz.js';
+import FractionsExercise222 from './Pages/OQRE/Maths/1e année/faction/faction.jsx';
+//import MathExercisesPage from './Pages/maths/Math2025/MathsADSOU.jsx';
+import AppDicte from './Pages/appdicte.jsx';
+//import PreparationOQRE from './Oqre2025/oqre.jsx';
+import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 
@@ -76,7 +82,8 @@ const App = () => {
           <Route path="/about" element={<Exercice1e2e />} />
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
-          <Route path="/jeux" element={<JeuEdu />} />
+          <Route path="/jeux" element={<PreparationOQRE1/>} />
+          <Route path="//Concours" element={<AppDicte />} />
 
           {/* Exercices et jeux */}
           <Route path="/francais/dictee" element={<WordPlayer />} />
@@ -116,7 +123,7 @@ const App = () => {
           <Route path="/exerciseSuite" element={<Suite />} />
 
           {/* Jeux éducatifs */}
-          <Route path="/jeu/jeu-conjugaison" element={<Multip />} />
+          <Route path="/jeu/jeu-conjugaison" element={<FractionsExercise222 />} />
           {/* <Route path="/jeu/jeu-grammaire" element={< DictationPage />} />*/}
 
         </Routes>

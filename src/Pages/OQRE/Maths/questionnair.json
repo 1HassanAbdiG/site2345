@@ -1,0 +1,47 @@
+{
+    "questions_table": [
+      {
+        "id": "q1",
+        "number": "1",
+        "type": "multiple-choice",
+        "text": "Carl entre le nombre 13 dans une machine-mystère. Le nombre 38 en sort.\n<br/> Quelle opération s'effectue dans la machine-mystère?"
+      },
+      {
+        "id": "q2",
+        "number": "2",
+        "type": "multiple-choice",
+        "text": "Une classe contient 30 chaises placées en rangées. Chaque rangée contient 5 chaises. Combien de rangées y a-t-il en tout dans la classe?"
+      },
+      {
+        "id": "q3",
+        "number": "3",
+        "type": "multiple-choice",
+        "text": "Observe la suite ci-dessous.\n<br/> 41, 45, ___, ___, 57, 61, 65, ___ \n<br/> Quel tableau représente la régularité et les nombres manquants de la suite?"
+      },
+      {
+        "id": "q4",
+        "number": "4",
+        "type": "multiple-choice",
+        "text": "La collection de timbres de Lucie contient 7 pages. Chaque page contient 25 timbres. Combien de timbres la collection de Lucie contient-elle en tout?"
+      },
+      {
+        "id": "q8",
+        "number": "8",
+        "type": "constructed-response",
+        "text": "Natalie a 5 boîtes.\nChaque boîte contient 6 livres.\nNatalie distribue tous les livres entre Liam, Thomas et Kelly de façon égale.\n<br/>Détermine le nombre de livres que Liam reçoit.\n<br/><strong>Montre ton travail.</strong>"
+      },
+      {
+        "id": "q9",
+        "number": "9",
+        "type": "constructed-response",
+        "text": "Le tableau ci-dessous représente les résultats d'un sondage. Représente les données de ce tableau dans le diagramme de Venn."
+      },
+      {
+        "id": "q17",
+        "number": "17",
+        "type": "multiple-choice",
+        "text": "Un nombre contient 8 dizaines, 7 unités et 5 centaines. Quel est ce nombre?"
+      }
+    ]
+  }
+  

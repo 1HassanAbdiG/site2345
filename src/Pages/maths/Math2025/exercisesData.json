@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "level": "3E",
+    "title": "Exercice 1 - Addition",
+    "type": "addition",
+    "questions": [
+      { "question": "5 + 3 = ?", "correctAnswer": "8", "type": "simple" },
+      { "question": "12 + 7 = ?", "correctAnswer": "19", "type": "simple" },
+      { "question": "15 + 25 = ?", "correctAnswer": "40", "type": "simple" },
+      { "question": "10 + 15 + 5 = ?", "correctAnswer": "30", "type": "multiple" },
+      { "question": "100 + 50 = ?", "correctAnswer": "150", "type": "simple" },
+      { "question": "20 + 30 + 50 = ?", "correctAnswer": "100", "type": "multiple" }
+    ]
+  },
+  {
+    "id": 2,
+    "level": "4E",
+    "title": "Exercice 2 - Soustraction avec retenue",
+    "type": "soustraction_emprunt",
+    "questions": [
+      { "question": "45 - 18 = ?", "correctAnswer": "27", "type": "simple" },
+      { "question": "62 - 29 = ?", "correctAnswer": "33", "type": "simple" },
+      { "question": "74 - 35 = ?", "correctAnswer": "39", "type": "simple" },
+      { "question": "90 - 56 = ?", "correctAnswer": "34", "type": "simple" },
+      { "question": "200 - 87 = ?", "correctAnswer": "113", "type": "simple" },
+      { "question": "150 - 75 - 30 = ?", "correctAnswer": "45", "type": "multiple" }
+    ]
+  },
+  {
+    "id": 3,
+    "level": "5E",
+    "title": "Exercice 3 - Addition et Soustraction Combinées",
+    "type": "mixed",
+    "questions": [
+      { "question": "10 + 5 - 3 = ?", "correctAnswer": "12", "type": "simple" },
+      { "question": "20 + 10 - 15 = ?", "correctAnswer": "15", "type": "simple" },
+      { "question": "50 - 20 + 10 = ?", "correctAnswer": "40", "type": "simple" },
+      { "question": "30 + 25 - 10 = ?", "correctAnswer": "45", "type": "multiple" },
+      { "question": "100 - 25 + 50 = ?", "correctAnswer": "125", "type": "simple" },
+      { "question": "60 + 30 - 40 = ?", "correctAnswer": "50", "type": "multiple" }
+    ]
+  },
+  {
+    "id": 4,
+    "level": "6E",
+    "title": "Exercice 4 - Multiplication",
+    "type": "multiplication",
+    "questions": [
+      { "question": "6 x 7 = ?", "correctAnswer": "42", "type": "simple" },
+      { "question": "8 x 5 = ?", "correctAnswer": "40", "type": "simple" },
+      { "question": "9 x 4 = ?", "correctAnswer": "36", "type": "simple" },
+      { "question": "12 x 3 = ?", "correctAnswer": "36", "type": "simple" },
+      { "question": "15 x 5 = ?", "correctAnswer": "75", "type": "simple" },
+      { "question": "20 x 2 = ?", "correctAnswer": "40", "type": "simple" }
+    ]
+  },
+  {
+    "id": 5,
+    "level": "6E",
+    "title": "Exercice 5 - Division",
+    "type": "division",
+    "questions": [
+      { "question": "45 ÷ 5 = ?", "correctAnswer": "9", "type": "simple" },
+      { "question": "72 ÷ 8 = ?", "correctAnswer": "9", "type": "simple" },
+      { "question": "90 ÷ 10 = ?", "correctAnswer": "9", "type": "simple" },
+      { "question": "56 ÷ 7 = ?", "correctAnswer": "8", "type": "simple" },
+      { "question": "100 ÷ 25 = ?", "correctAnswer": "4", "type": "simple" },
+      { "question": "80 ÷ 4 = ?", "correctAnswer": "20", "type": "simple" }
+    ]
+  }
+]
