@@ -12,7 +12,8 @@ export const config = {
       },
       "Maths": {
         "pdf": "/oqre/Math/MATHS32015.pdf", // Path relative to public folder
-        "googleForm": ""
+        "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSc1qKBuG7gYvMvsl21AN-LemXyTgqja2iCOdH5uSID16gVa8Q/viewform?usp=header"
+        
       }
     },
     "6e": {
