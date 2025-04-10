@@ -1,0 +1,128 @@
+{
+  "title": "Gigi la girafe",
+  "sections": [
+    {
+      "title": "Gigi a mal au genou",
+      "text": "Gigi la girafe a mal à un genou. \nElle bouge comme une girouette. \nSon genou la gêne beaucoup.",
+      "questions": [
+        {
+          "question": "Où Gigi a-t-elle mal ?",
+          "options": ["Au genou", "Au cou", "Au pied"],
+          "correctAnswer": "Au genou"
+        },
+        {
+          "question": "Comment bouge Gigi ?",
+          "options": ["Comme une girouette", "Comme un cheval", "Comme une grenouille"],
+          "correctAnswer": "Comme une girouette"
+        },
+        {
+          "question": "Pourquoi Gigi bouge-t-elle ainsi ?",
+          "options": ["Parce que son genou la gêne", "Parce qu’elle joue", "Parce qu’elle court"],
+          "correctAnswer": "Parce que son genou la gêne"
+        },
+        {
+          "question": "Quel est le problème de Gigi ?",
+          "options": ["Elle a mal au genou", "Elle est fatiguée", "Elle a faim"],
+          "correctAnswer": "Elle a mal au genou"
+        },
+        {
+          "question": "Qui est Gigi ?",
+          "options": ["Une girafe", "Un singe", "Un zèbre"],
+          "correctAnswer": "Une girafe"
+        }
+      ]
+    },
+    {
+      "title": "Gino soigne Gigi",
+      "text": "Gino le singe, en bon chirurgien, \nsoulage le genou de Gigi comme un vrai magicien.",
+      "questions": [
+        {
+          "question": "Qui est Gino ?",
+          "options": ["Un singe", "Un lion", "Un chien"],
+          "correctAnswer": "Un singe"
+        },
+        {
+          "question": "Quel est le métier de Gino ?",
+          "options": ["Chirurgien", "Magicien", "Vétérinaire"],
+          "correctAnswer": "Chirurgien"
+        },
+        {
+          "question": "Que fait Gino pour Gigi ?",
+          "options": ["Il soigne son genou", "Il lui donne à manger", "Il l’emmène en voyage"],
+          "correctAnswer": "Il soigne son genou"
+        },
+        {
+          "question": "Comment Gino soigne-t-il Gigi ?",
+          "options": ["Comme un magicien", "Comme un professeur", "Comme un fermier"],
+          "correctAnswer": "Comme un magicien"
+        },
+        {
+          "question": "Quel est le lien entre Gino et Gigi ?",
+          "options": ["Gino aide Gigi", "Gino est le frère de Gigi", "Gino joue avec Gigi"],
+          "correctAnswer": "Gino aide Gigi"
+        }
+      ]
+    },
+    {
+      "title": "Gigi va mieux",
+      "text": "Gigi la girafe n’a plus mal au genou. \nLa tête dans les nuages, \nelle est sage comme une image.",
+      "questions": [
+        {
+          "question": "Comment va Gigi maintenant ?",
+          "options": ["Elle va mieux", "Elle est encore malade", "Elle est triste"],
+          "correctAnswer": "Elle va mieux"
+        },
+        {
+          "question": "Gigi a-t-elle encore mal ?",
+          "options": ["Non", "Oui", "Un peu"],
+          "correctAnswer": "Non"
+        },
+        {
+          "question": "Où est la tête de Gigi ?",
+          "options": ["Dans les nuages", "Dans le sable", "Dans un arbre"],
+          "correctAnswer": "Dans les nuages"
+        },
+        {
+          "question": "Comment est Gigi après avoir été soignée ?",
+          "options": ["Sage comme une image", "Rapide comme l’éclair", "Forte comme un lion"],
+          "correctAnswer": "Sage comme une image"
+        },
+        {
+          "question": "Pourquoi Gigi est-elle heureuse ?",
+          "options": ["Elle n’a plus mal", "Elle a reçu un cadeau", "Elle a gagné une course"],
+          "correctAnswer": "Elle n’a plus mal"
+        }
+      ]
+    }
+  ],
+  "finalQuiz": {
+    "title": "QCM Final",
+    "questions": [
+      {
+        "question": "Qui est Gigi ?",
+        "options": ["Une girafe", "Un singe", "Une souris"],
+        "correctAnswer": "Une girafe"
+      },
+      {
+        "question": "Quel est le problème de Gigi ?",
+        "options": ["Elle a mal au genou", "Elle a faim", "Elle est triste"],
+        "correctAnswer": "Elle a mal au genou"
+      },
+      {
+        "question": "Qui soigne Gigi ?",
+        "options": ["Gino", "Léo", "Nino"],
+        "correctAnswer": "Gino"
+      },
+      {
+        "question": "Quel métier exerce Gino ?",
+        "options": ["Chirurgien", "Cuisinier", "Magicien"],
+        "correctAnswer": "Chirurgien"
+      },
+      {
+        "question": "Comment se sent Gigi à la fin ?",
+        "options": ["Sage comme une image", "Fatiguée", "Toujours malade"],
+        "correctAnswer": "Sage comme une image"
+      }
+    ]
+  }
+}

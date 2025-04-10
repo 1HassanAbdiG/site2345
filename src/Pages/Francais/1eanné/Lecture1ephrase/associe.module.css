@@ -1,0 +1,151 @@
+/* Container for the entire game */
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #8cbeab, #dcedc1);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  /* Style for the phrase or sentence */
+  .phrase {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Container for the images */
+  .imageContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for each image option */
+  .imageOption {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover effect for images */
+  .imageOption:hover {
+    transform: scale(1.1);
+    border-color: #4caf50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Feedback for correct answer */
+  .correctFeedback {
+    font-size: 1.5rem;
+    color: #09420b;
+    margin: 15px;
+    text-align: center;
+    animation: fadeIn 0.5s;
+  }
+  
+  /* Feedback for incorrect answer */
+  .incorrectFeedback {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin: 15px;
+    text-align: center;
+    animation: fadeIn 0.5s;
+  }
+  
+  /* Score display */
+  .score, .errors {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Errors display */
+  .errors {
+    color: #e74c3c;
+  }
+  
+  /* Button for next question or finish */
+  .nextButton, .restartButton {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .nextButton:hover, .restartButton:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  /* Table for summary results */
+  .summaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+  }
+  
+  .summaryTable {
+    width: 100%;
+    max-width: 450px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .summaryTable th, .summaryTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .summaryTable th {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .summaryTable td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for the restart button inside the summary */
+  .restartButton {
+    margin-top: 20px;
+  }
+  
+  /* Animation for feedback messages */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

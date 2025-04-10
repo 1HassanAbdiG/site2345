@@ -83,7 +83,7 @@ const App = () => {
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
           <Route path="/jeux" element={<PreparationOQRE1/>} />
-          <Route path="//Concours" element={<AppDicte />} />
+          <Route path="/Concours" element={<AppDicte />} />
 
           {/* Exercices et jeux */}
           <Route path="/francais/dictee" element={<WordPlayer />} />

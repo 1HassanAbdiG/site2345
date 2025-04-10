@@ -1,0 +1,115 @@
+{
+    "sets": [
+      {
+        "title": "Set 1",
+        "questions": [
+          {
+            "phrase": "Riki passe derrière la plante.",
+            "correctImage": "./image/11AP.png",
+            "images": ["./image/11AP.png", "./image/12AP.png", "./image/13AP.png", "./image/14AP.png", "./image/15AP.png"]
+          },
+          {
+            "phrase": "Picolo arrive à l'école.",
+            "correctImage": "./image/13AP.png",
+            "images": ["./image/11AP.png", "./image/12AP.png", "./image/13AP.png", "./image/14AP.png", "./image/15AP.png"]
+          },
+          {
+            "phrase": "Rémi dessine un oiseau.",
+            "correctImage": "./image/12AP.png",
+            "images": ["./image/11AP.png", "./image/12AP.png", "./image/13AP.png", "./image/14AP.png", "./image/15AP.png"]
+          },
+          {
+            "phrase": "René a un petit chien dans son sac.",
+            "correctImage": "./image/15AP.png",
+            "images": ["./image/11AP.png", "./image/12AP.png", "./image/13AP.png", "./image/14AP.png", "./image/15AP.png"]
+          },
+          {
+            "phrase": "Le chien de Julie est en peluche, elle le lave à la machine.",
+            "correctImage": "./image/14AP.png",
+            "images": ["./image/11AP.png", "./image/12AP.png", "./image/13AP.png", "./image/14AP.png", "./image/15AP.png"]
+          }
+        ]
+      },
+      {
+        "title": "Set 2",
+        "questions": [
+          {
+            "phrase": "Lina va à cheval.",
+            "correctImage": "./image/22AP.png",
+            "images": ["./image/21AP.png", "./image/22AP.png", "./image/23AP.png", "./image/24AP.png"]
+          },
+          {
+            "phrase": "Amélie a une jupe avec des pois noirs.",
+            "correctImage": "./image/21AP.png",
+            "images": ["./image/22AP.png", "./image/21AP.png", "./image/21AP.png", "./image/26AP.png"]
+          },
+          {
+            "phrase": "Picolo arrive, il est devant la porte de l'école.",
+            "correctImage": "./image/25AP.png",
+            "images": ["./image/23AP.png", "./image/25AP.png", "./image/24AP.png", "./image/26AP.png"]
+          },
+          {
+            "phrase": "La tortue de Benoît est dans un bocal.",
+            "correctImage": "./image/26AP.png",
+            "images": ["./image/24AP.png", "./image/23AP.png", "./image/27AP.png", "./image/26AP.png"]
+          },
+          {
+            "phrase": "Rémi fume la pipe.",
+            "correctImage": "./image/27AP.png",
+            "images": ["./image/26AP.png", "./image/25AP.png", "./image/27AP.png", "./image/22AP.png"]
+          },
+          {
+            "phrase": "La jupe de Julie a une poche.",
+            "correctImage": "./image/23AP.png",
+            "images": ["./image/25AP.png", "./image/23AP.png", "./image/21AP.png", "./image/26AP.png"]
+          },
+          {
+            "phrase": "Charles boit du jus d'orange.",
+            "correctImage": "./image/24AP.png",
+            "images": ["./image/27AP.png", "./image/24AP.png", "./image/22AP.png", "./image/26AP.png"]
+          }
+        ]
+      },{
+        "title": "Set 3",
+        "questions": [
+          {
+            "phrase": "Julie passe dans la rue avec son chien.",
+            "correctImage": "./image/38AP.png",
+            "images": ["./image/38AP.png", "./image/32AP.png", "./image/33AP.png", "./image/34AP.png"]
+          },
+          {
+            "phrase": "Ali joue au ballon.",
+            "correctImage": "./image/35AP.png",
+            "images": ["./image/35AP.png", "./image/31AP.png", "./image/33AP.png", "./image/34AP.png"]
+          },
+          {
+            "phrase": "Gabriel parle à papa.",
+            "correctImage": "./image/34AP.png",
+            "images": ["./image/34AP.png", "./image/38AP.png", "./image/31AP.png", "./image/32AP.png"]
+          },
+          {
+            "phrase": "Jérémie fête sa fête avec ses amis.",
+            "correctImage": "./image/31AP.png",
+            "images": ["./image/34AP.png", "./image/31AP.png", "./image/32AP.png", "./image/37AP.png"]
+          },
+          {
+            "phrase": "Rémi tire une petite voiture.",
+            "correctImage": "./image/33AP.png",
+            "images": ["./image/35AP.png", "./image/33AP.png", "./image/36AP.png", "./image/33AP.png"]
+          },
+          {
+            "phrase": "Picolo arrive à l'école avec son sac.",
+            "correctImage": "./image/37AP.png",
+            "images": ["./image/36AP.png", "./image/37AP.png", "./image/32AP.png", "./image/33AP.png"]
+          },
+          {
+            "phrase": "Papa lit un livre, maman le regarde.",
+            "correctImage": "./image/32AP.png",
+            "images": ["./image/37AP.png", "./image/31AP.png", "./image/32AP.png", "./image/33AP.png"]
+          }
+        ]
+      }
+      
+    ]
+  }
+  

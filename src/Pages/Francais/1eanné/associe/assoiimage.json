@@ -1,0 +1,166 @@
+{
+    "title": "Associer Mots et Images",
+    "questions": [
+      {
+        "phrase": "une bougie",
+        "correctImage": "./images/bougie.png",
+        "images": [
+          "./images/bougie.png",
+          "./images/cage.png",
+          "./images/fromage.png"
+        ],
+        "tip": "Une bougie donne de la lumière quand on brûle sa mèche."
+      },
+      {
+        "phrase": "une cage",
+        "correctImage": "./images/cage.png",
+        "images": [
+          "./images/cage.png",
+          "./images/girafe.png",
+          "./images/nuage.png"
+        ],
+        "tip": "On met souvent les oiseaux dans une cage."
+      },
+      {
+        "phrase": "un fromage",
+        "correctImage": "./images/fromage.png",
+        "images": [
+          "./images/fromage.png",
+          "./images/luge.png",
+          "./images/potage.png"
+        ],
+        "tip": "Le fromage est fait avec du lait."
+      },
+      {
+        "phrase": "un genou",
+        "correctImage": "./images/genou.png",
+        "images": [
+          "./images/genou.png",
+          "./images/visage.png",
+          "./images/singe.png"
+        ],
+        "tip": "Le genou est l'articulation au milieu de la jambe."
+      },
+      {
+        "phrase": "une girafe",
+        "correctImage": "./images/girafe.png",
+        "images": [
+          "./images/girafe.png",
+          "./images/magicien.png",
+          "./images/tige.png"
+        ],
+        "tip": "La girafe a un très long cou."
+      },
+      {
+        "phrase": "une image",
+        "correctImage": "./images/image.png",
+        "images": [
+          "./images/image.png",
+          "./images/bougie.png",
+          "./images/orage.png"
+        ],
+        "tip": "Une image est une représentation visuelle, comme dans un livre."
+      },
+      {
+        "phrase": "une luge",
+        "correctImage": "./images/luge.png",
+        "images": [
+          "./images/luge.png",
+          "./images/page.png",
+          "./images/manege.png"
+        ],
+        "tip": "On utilise une luge pour glisser sur la neige."
+      },
+      {
+        "phrase": "un magicien",
+        "correctImage": "./images/magicien.png",
+        "images": [
+          "./images/magicien.png",
+          "./images/genou.png",
+          "./images/cage.png"
+        ],
+        "tip": "Un magicien fait des tours de magie."
+      },
+      {
+        "phrase": "un manège",
+        "correctImage": "./images/manege.png",
+        "images": [
+          "./images/manege.png",
+          "./images/fromage.png",
+          "./images/visage.png"
+        ],
+        "tip": "Un manège est une attraction de fête foraine qui tourne."
+      },
+      {
+        "phrase": "un nuage",
+        "correctImage": "./images/nuage.png",
+        "images": [
+          "./images/nuage.png",
+          "./images/potage.png",
+          "./images/girafe.png"
+        ],
+        "tip": "Les nuages flottent dans le ciel et sont faits de gouttelettes d'eau."
+      },
+      {
+        "phrase": "un orage",
+        "correctImage": "./images/orage.png",
+        "images": [
+          "./images/orage.png",
+          "./images/luge.png",
+          "./images/singe.png"
+        ],
+        "tip": "Un orage apporte souvent de la pluie, du tonnerre et des éclairs."
+      },
+      {
+        "phrase": "une page",
+        "correctImage": "./images/page.png",
+        "images": [
+          "./images/page.png",
+          "./images/tige.png",
+          "./images/bougie.png"
+        ],
+        "tip": "Un livre est composé de plusieurs pages."
+      },
+      {
+        "phrase": "un potage",
+        "correctImage": "./images/potage.png",
+        "images": [
+          "./images/potage.png",
+          "./images/cage.png",
+          "./images/manege.png"
+        ],
+        "tip": "Le potage est une soupe épaisse, souvent à base de légumes."
+      },
+      {
+        "phrase": "un singe",
+        "correctImage": "./images/singe.png",
+        "images": [
+          "./images/singe.png",
+          "./images/genou.png",
+          "./images/nuage.png"
+        ],
+        "tip": "Les singes aiment grimper aux arbres."
+      },
+      {
+        "phrase": "une tige",
+        "correctImage": "./images/tige.png",
+        "images": [
+          "./images/tige.png",
+          "./images/magicien.png",
+          "./images/fromage.png"
+        ],
+        "tip": "La tige supporte les feuilles et les fleurs d'une plante."
+      },
+      {
+        "phrase": "un visage",
+        "correctImage": "./images/visage.png",
+        "images": [
+          "./images/visage.png",
+          "./images/orage.png",
+          "./images/image.png"
+        ],
+        "tip": "Le visage est la partie avant de la tête, avec les yeux, le nez et la bouche."
+      }
+    ]
+  }
+  

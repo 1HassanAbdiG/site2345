@@ -1,0 +1,52 @@
+{
+    "title": "Remets la phrase dans l'ordre",
+    "level": "2e Année",
+    "exercises": [
+      {
+        "name": "Exercice 1: Animaux et Maison",
+        "sentences": [
+          "Le petit chat dort sur le tapis.",
+          "Maman prépare un bon gâteau.",
+          "Le chien joue avec la balle rouge.",
+          "Papa lit une histoire le soir.",
+          "La souris mange du fromage.",
+          "Le canari chante dans sa cage.",
+          "Mon lit est très confortable.",
+          "La table est mise pour le dîner.",
+          "Le lapin aime les carottes.",
+          "J'aide à ranger ma chambre." 
+        ]
+      },
+      {
+        "name": "Exercice 2: École et Dehors",
+        "sentences": [
+          "La fleur pousse dans le jardin.",
+          "Mon frère aime beaucoup les frites.",
+          "Il fait beau aujourd'hui.",
+          "La maîtresse écrit au tableau.",
+          "Nous allons à la piscine mercredi.",
+          "J'ai perdu ma dent de lait.",
+          "Le vélo roule sur la route.",
+          "L'oiseau construit son nid.",
+          "Je dessine un joli soleil.",
+          "L'école commence bientôt." 
+        ]
+      },
+      {
+          "name": "Exercice 3: Actions et Objets",
+          "sentences": [
+              "Le bébé pleure un peu.",
+              "Le train arrive à la gare.",
+              "Je porte un manteau bleu.",
+              "Le poisson nage dans l'eau.",
+              "Elle ouvre la grande porte.",
+              "Il ferme vite la fenêtre.",
+              "Le livre est sur l'étagère.",
+              "Le ballon vole dans les airs.",
+              "Nous mangeons des pommes.",
+              "Tu regardes la télévision." 
+          ]
+      }
+     
+    ]
+  }

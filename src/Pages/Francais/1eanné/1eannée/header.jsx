@@ -3,7 +3,9 @@ import { Button, Box, Container, Grid, Typography } from "@mui/material";
 import ExerciseImage from "./syllabe1eanné";
 import Exercise from "./relieFleche";
 import Singplurie12 from "./grammaire1_2e/singpr";
-import Histoire12 from "./Text1e/dromataire/tex3"
+//import Histoire12 from "./Text1e/dromataire/tex3"
+import Histoire12g from "./Text1e/Girafe/tex3";
+import Gamelecture1e from "../Lecture1ephrase/lecture";
 
 
 
@@ -84,6 +86,18 @@ export default function Exercice1e2e() {
                         }
                         color="success"
                     />
+                    
+                </Grid>
+                <Grid item>
+                    <CustomButton
+                        onClick={() => handleButtonClick("Atoidejouer")}
+                        label={
+                            visibleComponent === "Atoidejouer"
+                                ? "Atoidejouer"
+                                : "Atoidejouer"
+                        }
+                        color="primary"
+                    />
                 </Grid>
             </Grid>
 
@@ -92,7 +106,8 @@ export default function Exercice1e2e() {
                 {visibleComponent === "ExerciceI" && <ExerciseImage />}
                 {visibleComponent === "ExerciseF" && <Exercise />}
                 {visibleComponent === "ExerciceSP" && <Singplurie12 />}
-                {visibleComponent === "ExerciceHis" && <Histoire12 />}
+                {visibleComponent === "ExerciceHis" && <Histoire12g />}
+                {visibleComponent === "Atoidejouer" && <Gamelecture1e />}
 
 
 

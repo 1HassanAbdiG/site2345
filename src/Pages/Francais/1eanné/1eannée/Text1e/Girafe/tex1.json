@@ -1,0 +1,24 @@
+{
+    "title": "Gigi la girafe",
+    "sections": [
+      {
+        "title": "Gigi a mal",
+        "text": "Gigi la girafe \nA mal à un genou. \n_Elle bouge comme une girouette. \nSon genou la gêne beaucoup.",
+        "image": "girafe1",
+        "audio": "1"
+      },
+      {
+        "title": "Gino le singe soigne Gigi",
+        "text": "Gino le singe, \nEn bon chirurgien, \n_Soulage le genou de Gigi, \nComme un vrai magicien.",
+        "image": "girafe2",
+        "audio": "2"
+      },
+      {
+        "title": "Gigi va mieux",
+        "text": "Gigi la girafe \nN'a plus mal au genou. \n_La tête dans les nuages, \nElle est sage comme une image.",
+        "image": "girafe3",
+        "audio": "3"
+      }
+    ]
+  }
+  
