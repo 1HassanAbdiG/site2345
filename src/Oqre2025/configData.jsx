@@ -7,12 +7,12 @@ export const config = {
   export const docConfig = {
     "3e": {
       "Français": {
-        "pdf": "/oqre/fr/F32015.pdf", // Path relative to public folder
-        "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSe6ojinmm2JH_MGrPE74kjuEdL4m6xBzHK6QqrmzPG9mokcWA/viewform?embedded=true"
+        "pdf": "/oqre/fr/Jacob.pdf", // Path relative to public folder
+        "googleForm": "https://forms.gle/DmQPchHp1odb8PVF8"
       },
       "Maths": {
         "pdf": "/oqre/Math/MATHS32015.pdf", // Path relative to public folder
-        "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSc1qKBuG7gYvMvsl21AN-LemXyTgqja2iCOdH5uSID16gVa8Q/viewform?usp=header"
+        "googleForm": "https://forms.gle/h5GEUDZJupD8rq7D9"
         
       }
     },
@@ -24,7 +24,7 @@ export const config = {
         },
         "Maths": {
           "pdf": "/oqre/Math/MATHS62015.pdf", // Replace with actual 6e Maths PDF path
-          "googleForm": ""
+          "googleForm": "https://forms.gle/KMjidtq39CVezqtS7"
         }
     }
   };
