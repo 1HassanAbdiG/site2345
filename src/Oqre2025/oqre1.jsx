@@ -14,6 +14,7 @@ import LastPageIcon from '@mui/icons-material/LastPage';
 import VerticalSplitIcon from '@mui/icons-material/VerticalSplit';
 
 import { config, docConfig } from './configData';
+import TextEditorSelectionModify from './tex';
 
 // --- Theme ---
 const theme = createTheme({
@@ -167,6 +168,7 @@ function OqreMuiViewer() {
                   icon={getSubjectIcon('Français')}
                 />
               )}
+              <TextEditorSelectionModify></TextEditorSelectionModify>
 
               {gradeData['Maths'] && (
                 <SubjectSection

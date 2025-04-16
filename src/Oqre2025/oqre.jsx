@@ -30,6 +30,7 @@ import { styled, alpha } from '@mui/material/styles'; // For custom styling
 // Assurez-vous que data.json est dans le bon chemin (par exemple, src/data.json)
 // et que votre bundler (comme celui de Create React App) le gère.
 import data from './data.json';
+import TextEditorMui from './texediteur';
 const { config, docConfig } = data;
 
 // Styled components (Optional, but can keep sx props cleaner)
@@ -280,6 +281,8 @@ const PreparationOQRE = () => {
             </PanelPaper>
           </Grid>
         </Grid>
+        <Texediteur/>
+
       </Container>
     </>
   );

@@ -19,8 +19,9 @@ export const config = {
     "6e": {
       // --- Add configuration for 6e here ---
       "Français": {
-          "pdf": "/oqre/fr/Fr62015.pdf", // Replace with actual 6e French PDF path
-          "googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdKfTEn_SxRaVjJ_7GqXVdycdR3_5jVjmwBB3mFERKXhxWM6A/viewform"
+          "pdf": "/oqre/fr/PromenadeInoubliable3.pdf", // Replace with actual 6e French PDF path
+          //"googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdKfTEn_SxRaVjJ_7GqXVdycdR3_5jVjmwBB3mFERKXhxWM6A/viewform"
+          "googleForm": "https://forms.gle/VqHr6SCqRJpGTVqF9"
         },
         "Maths": {
           "pdf": "/oqre/Math/MATHS62015.pdf", // Replace with actual 6e Maths PDF path
