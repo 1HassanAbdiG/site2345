@@ -15,6 +15,7 @@ import image1 from "./girafe1.jpg";
 import image2 from "./girafe2.jpg";
 import image3 from "./girafe3.jpg";
 import QuizComponent from "./QuizComponent";
+//import Aliment from "../Alimentation1/aliment";
 
 
 //import { Height } from "@mui/icons-material";
@@ -201,6 +202,8 @@ const Histoire1_2g = () => {
         </Button>
       </Box>
       <QuizComponent></QuizComponent>
+
+      
     </Box>
   );
 };

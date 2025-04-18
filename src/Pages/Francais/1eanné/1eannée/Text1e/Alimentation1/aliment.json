@@ -1,0 +1,29 @@
+{
+    "title": "Les Aliments Magiques pour Grandir Fort",
+    "sections": [
+      {
+        "title": "Les Légumes et Fruits 🍏🥦",
+        "text": "Les légumes et les fruits sont des super-héros pour notre corps ! Ils nous donnent des vitamines et minéraux pour être en forme. Pensez aux carottes, épinards et pommes. Ils nous donnent de l'énergie pour jouer !",
+        "image": "1",
+        "audio": "1"
+      },
+      {
+        "title": "Les Grains Entiers 🍞",
+        "text": "Les grains entiers sont comme des machines à énergie. Ils nous aident à rester actifs. Pensez au pain complet et au riz brun. Ils nous donnent l'énergie pour courir et jouer !",
+        "image": "21",
+        "audio": "21"
+      },
+      {
+        "title": "Les Aliments Protéinés 🍗",
+        "text": "Les protéines sont les bâtisseurs de notre corps. Elles nous aident à grandir. Pensez au poulet et aux œufs. Elles aident nos muscles à se développer !",
+        "image": "3",
+        "audio": "3"
+      },
+      {
+        "title": "Conclusion 🌟",
+        "text": "À table, pensez à remplir votre assiette comme un puzzle : moitié légumes et fruits, un quart grains entiers, un quart protéines. Bien manger fait de vous des champions de la santé !",
+        "image": "4",
+        "audio": "4"
+      }
+    ]
+  }

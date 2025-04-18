@@ -1,0 +1,119 @@
+{
+    "title": "Les Aliments Magiques pour Grandir Fort",
+    "sections": [
+      {
+        "title": "Les Légumes et Fruits",
+        "text": "Les légumes et les fruits sont comme des super-héros pour notre corps ! 🍏🥦 Ils sont pleins de vitamines et minéraux qui nous aident à être en forme. Pensez aux carottes, épinards et pommes. Ils nous donnent de l'énergie pour jouer et apprendre.",
+        "questions": [
+          {
+            "question": "Pourquoi les légumes et fruits sont-ils importants ?",
+            "options": ["Ils sont sucrés", "Ils sont pleins de vitamines", "Ils sont colorés"],
+            "correctAnswer": "Ils sont pleins de vitamines"
+          },
+          {
+            "question": "Quels fruits sont mentionnés ?",
+            "options": ["Bananes et oranges", "Pommes et pêches", "Fruits de la passion et mangues"],
+            "correctAnswer": "Pommes et pêches"
+          },
+          {
+            "question": "Que nous donnent les légumes et fruits ?",
+            "options": ["Des vitamines", "Des bonbons", "Des jouets"],
+            "correctAnswer": "Des vitamines"
+          }
+        ]
+      },
+      {
+        "title": "Les Grains Entiers",
+        "text": "Les grains entiers sont comme des petites machines à énergie. 🍞 Ils nous aident à être actifs tous les jours. Pensez au pain complet, au riz brun et aux flocons d’avoine.",
+        "questions": [
+          {
+            "question": "Quel est un exemple de grain entier ?",
+            "options": ["Pain blanc", "Pain complet", "Biscuits"],
+            "correctAnswer": "Pain complet"
+          },
+          {
+            "question": "Que nous apportent les grains entiers ?",
+            "options": ["Énergie", "Sodium", "Cholestérol"],
+            "correctAnswer": "Énergie"
+          },
+          {
+            "question": "Pourquoi les grains entiers sont-ils bons ?",
+            "options": ["Ils sont savoureux", "Ils nous rendent gros", "Ils nous aident à rester actifs"],
+            "correctAnswer": "Ils nous aident à rester actifs"
+          }
+        ]
+      },
+      {
+        "title": "Les Aliments Protéinés",
+        "text": "Les aliments protéinés sont les bâtisseurs de notre corps. 🍗 Ils nous aident à grandir et à être forts ! Pensez au poulet, aux œufs et aux haricots.",
+        "questions": [
+          {
+            "question": "Quels aliments font partie des protéines ?",
+            "options": ["Pommes et bananes", "Poulet et œufs", "Pâtes et riz"],
+            "correctAnswer": "Poulet et œufs"
+          },
+          {
+            "question": "Pourquoi les protéines sont-elles importantes ?",
+            "options": ["Pour grandir", "Pour dormir", "Pour jouer"],
+            "correctAnswer": "Pour grandir"
+          },
+          {
+            "question": "Que construisent les protéines dans notre corps ?",
+            "options": ["Des murs", "Des muscles", "Des voitures"],
+            "correctAnswer": "Des muscles"
+          }
+        ]
+      },
+      {
+        "title": "Conclusion",
+        "text": "À table, pensez à remplir votre assiette comme un puzzle : moitié légumes et fruits, un quart grains entiers, un quart protéines. Bien manger fait de vous des champions de la santé !",
+        "questions": [
+          {
+            "question": "Comment devrions-nous remplir notre assiette ?",
+            "options": ["Tout avec des fruits", "Moitié légumes et fruits, un quart grains, un quart protéines", "Tout avec des protéines"],
+            "correctAnswer": "Moitié légumes et fruits, un quart grains, un quart protéines"
+          },
+          {
+            "question": "Quel est l’objectif de bien manger ?",
+            "options": ["Être malade", "Être un champion de la santé", "Jouer toute la journée"],
+            "correctAnswer": "Être un champion de la santé"
+          },
+          {
+            "question": "Que représentent les super-héros dans notre alimentation ?",
+            "options": ["Les légumes et les fruits", "Les bonbons", "Les boissons gazeuses"],
+            "correctAnswer": "Les légumes et les fruits"
+          }
+        ]
+      }
+    ],
+    "finalQuiz": {
+      "title": "QCM Final",
+      "questions": [
+        {
+          "question": "Quels aliments sont comme des super-héros ?",
+          "options": ["Chocolats", "Légumes et fruits", "Sucres"],
+          "correctAnswer": "Légumes et fruits"
+        },
+        {
+          "question": "Quel aliment donne de l'énergie ?",
+          "options": ["Grains entiers", "Bonbons", "Fritures"],
+          "correctAnswer": "Grains entiers"
+        },
+        {
+          "question": "Quel aliment aide à construire des muscles ?",
+          "options": ["Protéines", "Fruits", "Légumes"],
+          "correctAnswer": "Protéines"
+        },
+        {
+          "question": "Comment nous devrions remplir notre assiette ?",
+          "options": ["Avec des sucreries", "Avec un bon équilibre d'aliments", "Avec de l'eau"],
+          "correctAnswer": "Avec un bon équilibre d'aliments"
+        },
+        {
+          "question": "Quel est le but de bien manger ?",
+          "options": ["Être fatigué", "Devenir un champion de la santé", "Ne pas manger"],
+          "correctAnswer": "Devenir un champion de la santé"
+        }
+      ]
+    }
+  }

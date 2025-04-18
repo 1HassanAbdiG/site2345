@@ -1,0 +1,205 @@
+{
+    "title": "Guide Alimentaire Canadien - Activités pour la 2e Année",
+    "description": "Activités amusantes et faciles pour apprendre à bien manger selon le Guide alimentaire canadien, conçues pour les élèves de 2e année.",
+    "activities": [
+      {
+        "id": "activite_1_assiette",
+        "type": "drawing_writing",
+        "title": "Mon Assiette Santé Magique!",
+        "instruction": "Imagine ton repas parfait et santé! Dans chaque partie de l'assiette magique, dessine ou écris un aliment délicieux que tu aimes et qui est bon pour toi. N'oublie pas les bonnes portions!",
+        "image_placeholder": true,
+        "food_groups": [
+          {
+            "name": "Légumes et fruits",
+            "proportion": "La moitié (½) de l'assiette",
+            "color_hint": "Plein de couleurs!",
+            "instruction_area": "Dessine/écris ici tes légumes et fruits préférés (Ex: pommes, carottes, bananes, brocoli)"
+          },
+          {
+            "name": "Grains entiers",
+            "proportion": "Un quart (¼) de l'assiette",
+            "color_hint": "Souvent bruns!",
+            "instruction_area": "Dessine/écris ici tes grains entiers favoris (Ex: pain brun, riz brun, pâtes de blé entier, avoine)"
+          },
+          {
+            "name": "Aliments protéinés",
+            "proportion": "Un quart (¼) de l'assiette",
+            "color_hint": "Pour être fort!",
+            "instruction_area": "Dessine/écris ici tes aliments protéinés aimés (Ex: poulet, poisson, œufs, tofu, lentilles, haricots)"
+          }
+        ]
+      },
+      {
+        "id": "activite_2_boisson",
+        "type": "multiple_choice",
+        "title": "Quelle boisson choisir?",
+        "instruction": "Quand tu as soif ou pendant ton repas, quelle est la meilleure boisson pour ton corps?",
+        "options": [
+          {"id": "a", "text": "Jus de fruits sucré"},
+          {"id": "b", "text": "Boisson gazeuse pétillante"},
+          {"id": "c", "text": "Eau fraîche et pure"},
+          {"id": "d", "text": "Lait au chocolat"}
+        ],
+        "correct_answer_id": "c",
+        "feedback": "Bravo! L'eau est le meilleur choix pour bien hydrater ton corps sans ajouter de sucre."
+      },
+      {
+        "id": "activite_3_pourquoi_manger_sante",
+        "type": "checkbox",
+        "title": "Pourquoi manger santé, c'est super?",
+        "instruction": "Coche toutes les bonnes raisons pour lesquelles manger des aliments sains est important pour toi:",
+        "options": [
+          {"id": "a", "text": "Pour avoir de l'énergie pour jouer et apprendre"},
+          {"id": "b", "text": "Pour que mon corps grandisse bien et fort"},
+          {"id": "c", "text": "Pour manger des bonbons toute la journée"},
+          {"id": "d", "text": "Pour aider mon ventre à bien digérer"},
+          {"id": "e", "text": "Pour regarder la télé plus longtemps"}
+        ],
+        "correct_answer_ids": ["a", "b", "d"],
+        "feedback": "Excellent! Manger santé te donne de l'énergie, t'aide à grandir et à bien digérer!"
+      },
+      {
+        "id": "activite_4_collation_energie",
+        "type": "scenario_choice",
+        "title": "Mission Énergie pour l'école!",
+        "instruction": "C'est bientôt le cours d'éducation physique! Tu as besoin d'une collation qui te donnera plein d'énergie pour courir vite. Que choisis-tu?",
+        "options": [
+          {"id": "a", "text": "Un sac de croustilles salées"},
+          {"id": "b", "text": "Une pomme croquante"},
+          {"id": "c", "text": "Quelques bonbons"}
+        ],
+        "correct_answer_id": "b",
+        "justification_prompt": "Super choix! Peux-tu dire pourquoi une pomme est un bon choix pour avoir de l'énergie?"
+      },
+      {
+        "id": "activite_5_epicerie",
+        "type": "scenario_choice",
+        "title": "Détective Santé à l'Épicerie!",
+        "instruction": "Avec tes parents à l'épicerie, tu peux choisir une collation. Laquelle est le choix le plus malin pour ta santé?",
+        "options": [
+          {"id": "a", "text": "Des biscuits au chocolat"},
+          {"id": "b", "text": "Des craquelins de blé entier avec du fromage"},
+          {"id": "c", "text": "Une barre de chocolat"}
+        ],
+        "correct_answer_id": "b",
+        "justification_prompt": "Bien joué! Pourquoi les craquelins de blé entier avec du fromage sont-ils un bon choix de collation?"
+      },
+      {
+        "id": "activite_6_identifier_groupe",
+        "type": "matching_or_classification",
+        "title": "Qui suis-je? Le jeu des aliments!",
+        "instruction": "Aide ces aliments à retrouver leur famille! Place chaque aliment dans le bon groupe.",
+        "items_to_classify": [
+          {"id": "item1", "text": "Banane"},
+          {"id": "item2", "text": "Pain de blé entier"},
+          {"id": "item3", "text": "Œuf"},
+          {"id": "item4", "text": "Brocoli"},
+          {"id": "item5", "text": "Yogourt nature"},
+          {"id": "item6", "text": "Riz brun"}
+        ],
+        "categories": [
+          {"id": "cat1", "name": "Légumes et Fruits"},
+          {"id": "cat2", "name": "Grains Entiers"},
+          {"id": "cat3", "name": "Aliments Protéinés"}
+        ],
+        "correct_mapping": {
+          "item1": "cat1",
+          "item2": "cat2",
+          "item3": "cat3",
+          "item4": "cat1",
+          "item5": "cat3",
+          "item6": "cat2"
+        }
+      },
+      {
+        "id": "activite_7_histoire_ahmed",
+        "type": "story_with_questions",
+        "title": "L'Aventure d'Ahmed et son Déjeuner Énergie!",
+        "instruction": "Lis l'histoire d'Ahmed, puis réponds aux questions pour voir si tu as bien compris!",
+        "story": "Ahmed adore jouer au soccer avec ses amis. Aujourd'hui, c'est le grand match! Pour avoir beaucoup d'énergie, Ahmed prépare son déjeuner. Maman lui rappelle l'assiette santé. Dans sa boîte à lunch, Ahmed met : des carottes croquantes et une pomme rouge (la moitié de sa boîte!), du pain de blé entier pour un sandwich au poulet (un quart de la boîte!), et le sandwich au poulet lui-même (l'autre quart!). Il n'oublie pas sa gourde remplie d'eau fraîche. Il sait que l'eau est la meilleure boisson. Il ne prend pas de jus sucré aujourd'hui. Avec ce super déjeuner, Ahmed est sûr d'être rapide sur le terrain!",
+        "true_false_questions": [
+          { "id": "tf1", "text": "Ahmed n'aime pas jouer au soccer.", "answer": false },
+          { "id": "tf2", "text": "Ahmed met des bonbons dans sa boîte à lunch pour avoir de l'énergie.", "answer": false },
+          { "id": "tf3", "text": "Les carottes et la pomme remplissent environ la moitié de sa boîte.", "answer": true },
+          { "id": "tf4", "text": "Ahmed choisit de boire du jus sucré pendant le match.", "answer": false },
+          { "id": "tf5", "text": "Préparer un bon déjeuner aide Ahmed à avoir de l'énergie.", "answer": true }
+        ],
+        "multiple_choice_questions": [
+          {
+            "id": "qcm1",
+            "question_text": "Pourquoi Ahmed prépare-t-il un bon déjeuner?",
+            "options": [
+              {"id": "qcm1a", "text": "Pour faire une sieste"},
+              {"id": "qcm1b", "text": "Pour avoir de l'énergie pour jouer"},
+              {"id": "qcm1c", "text": "Pour regarder la télévision"}
+            ],
+            "correct_answer_id": "qcm1b"
+          },
+          {
+            "id": "qcm2",
+            "question_text": "Quelle boisson Ahmed prend-il?",
+            "options": [
+              {"id": "qcm2a", "text": "Du lait"},
+              {"id": "qcm2b", "text": "De l'eau"},
+              {"id": "qcm2c", "text": "Du jus de pomme"}
+            ],
+            "correct_answer_id": "qcm2b"
+          },
+          {
+             "id": "qcm3",
+             "question_text": "Qu'est-ce qu'il y a dans le sandwich d'Ahmed?",
+             "options": [
+               {"id": "qcm3a", "text": "Du fromage"},
+               {"id": "qcm3b", "text": "Du jambon"},
+               {"id": "qcm3c", "text": "Du poulet"}
+             ],
+             "correct_answer_id": "qcm3c"
+           },
+           {
+             "id": "qcm4",
+             "question_text": "Les fruits et légumes prennent quelle place dans sa boîte?",
+             "options": [
+               {"id": "qcm4a", "text": "Un petit coin"},
+               {"id": "qcm4b", "text": "Environ la moitié"},
+               {"id": "qcm4c", "text": "Juste un quart"}
+             ],
+             "correct_answer_id": "qcm4b"
+           },
+           {
+             "id": "qcm5",
+             "question_text": "Quel aliment n'est PAS dans le déjeuner d'Ahmed?",
+             "options": [
+               {"id": "qcm5a", "text": "Des carottes"},
+               {"id": "qcm5b", "text": "Des biscuits"},
+               {"id": "qcm5c", "text": "Du pain"}
+             ],
+             "correct_answer_id": "qcm5b"
+           }
+        ]
+      },
+      {
+          "id": "activite_8_assiette_ahmed",
+          "type": "drag_drop_plate",
+          "title": "Remplis l'assiette d'Ahmed!",
+          "instruction": "Ahmed veut organiser son assiette santé pour le dîner! Fais glisser les aliments de son déjeuner dans la bonne partie de l'assiette.",
+          "draggable_items": [
+            {"id": "ahmed_item1", "text": "Carottes croquantes"},
+            {"id": "ahmed_item2", "text": "Pomme rouge"},
+            {"id": "ahmed_item3", "text": "Pain de blé entier"},
+            {"id": "ahmed_item4", "text": "Poulet"}
+          ],
+          "plate_zones": [
+            {"id": "zone1", "name": "Légumes et Fruits (moitié ½)", "target_group": "legumes_fruits"},
+            {"id": "zone2", "name": "Grains Entiers (quart ¼)", "target_group": "grains_entiers"},
+            {"id": "zone3", "name": "Aliments Protéinés (quart ¼)", "target_group": "proteines"}
+          ],
+          "correct_mapping": {
+            "ahmed_item1": "zone1", 
+            "ahmed_item2": "zone1", 
+            "ahmed_item3": "zone2", 
+            "ahmed_item4": "zone3"  
+          },
+          "feedback": "Super! Tu as bien placé les aliments d'Ahmed selon l'assiette santé!"
+        }
+    ]
+  }
