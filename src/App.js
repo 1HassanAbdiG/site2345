@@ -64,6 +64,8 @@ import FractionsExercise222 from './Pages/OQRE/Maths/1e année/faction/faction.j
 import AppDicte from './Pages/appdicte.jsx';
 //import PreparationOQRE from './Oqre2025/oqre.jsx';
 import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
+//import MathExerciseComponent from './Pages/OQRE/Maths/3eannée/exoqre.jsx';
+//import MedalQuiz from './Test/exerciceH.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 
@@ -83,7 +85,10 @@ const App = () => {
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
           <Route path="/jeux" element={<PreparationOQRE1/>} />
-          <Route path="/Concours" element={<AppDicte />} />
+
+          {/*<Route path="/Concours" element={<MathExerciseComponent/>} />*/}
+
+          <Route path="/Concours" element={<AppDicte/>} />
 
           {/* Exercices et jeux */}
           <Route path="/francais/dictee" element={<WordPlayer />} />

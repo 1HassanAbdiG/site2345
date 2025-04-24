@@ -1,0 +1,257 @@
+{
+    "grade": "3rd",
+    "curriculum": "B1-F1",
+    "sections": [
+      {
+        "sectionCode": "B",
+        "sectionName": "Operations",
+        "parts": [
+          {
+            "partCode": "B1",
+            "partName": "Whole Numbers & Fractions",
+            "topics": [
+              {
+                "topicCode": "B1.1-B1.5",
+                "topicName": "Whole Numbers",
+                "lessons": [
+                  {
+                    "lessonName": "Skip-counting Sequences",
+                    "exercises": [
+                      {
+                        "exerciseType": "fill-in-the-blank",
+                        "question": "Complete the skip-counting sequence by 5s: 5, 10, ___, ___, 25.",
+                        "answers": ["15", "20"],
+                        "points": 2,
+                        "feedback": {
+                          "correct": "Excellent! Skip-counting by 5s adds 5 each time.",
+                          "incorrect": "Try adding 5 to the last number to get the next number in the sequence."
+                        }
+                      },
+                      {
+                        "exerciseType": "multiple-choice",
+                        "question": "Which sequence skip-counts by 10s?",
+                        "options": [
+                          "a) 10, 15, 20, 25",
+                          "b) 5, 15, 25, 35",
+                          "c) 10, 20, 30, 40",
+                          "d) 2, 4, 6, 8"
+                        ],
+                        "correctAnswer": "c",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! Sequence 'c' increases by 10 each time.",
+                          "incorrect": "Skip-counting by 10s means each number is 10 more than the previous one."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "lessonName": "Comparing Numbers up to 1000",
+                    "exercises": [
+                      {
+                        "exerciseType": "drag-and-drop",
+                        "question": "Drag the correct symbol (<, >, =) to compare the numbers:",
+                        "numberPairs": [
+                          {"num1": 345, "num2": 287, "symbolOptions": ["<", ">", "="], "correctSymbol": ">"},
+                          {"num1": 562, "num2": 562, "symbolOptions": ["<", ">", "="], "correctSymbol": "="},
+                          {"num1": 199, "num2": 401, "symbolOptions": ["<", ">", "="], "correctSymbol": "<"}
+                        ],
+                        "points": 3,
+                        "feedback": {
+                          "correct": "Well done! You correctly compared all the number pairs.",
+                          "incorrect": "Remember to compare the hundreds, then tens, then ones place to determine which number is greater."
+                        }
+                      },
+                      {
+                        "exerciseType": "true-false",
+                        "question": "True or False: 789 is less than 654.",
+                        "answer": "false",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! 789 is greater than 654.",
+                          "incorrect": "False. 789 is actually greater than 654."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "lessonName": "Convert to/from a Number: up to hundreds",
+                    "exercises": [
+                      {
+                        "exerciseType": "fill-in-the-blank",
+                        "question": "Write the number in words: 237",
+                        "answers": ["two hundred thirty-seven", "two hundred and thirty-seven"],
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Exactly! 237 is written as two hundred thirty-seven.",
+                          "incorrect": "Think about each digit's place value: hundreds, tens, and ones."
+                        }
+                      },
+                      {
+                        "exerciseType": "text-input",
+                        "question": "Write the number for 'one hundred fifty-two'",
+                        "answer": "152",
+                        "inputType": "number",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Perfect! One hundred fifty-two is 152.",
+                          "incorrect": "Break down the words: 'one hundred' is 100, 'fifty' is 50, and 'two' is 2."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "lessonName": "Convert from Expanded Form: up to hundreds",
+                    "exercises": [
+                      {
+                        "exerciseType": "text-input",
+                        "question": "Convert from expanded form to standard form: 300 + 40 + 9",
+                        "answer": "349",
+                        "inputType": "number",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Yes! 300 + 40 + 9 equals 349.",
+                          "incorrect": "Add the values together based on their place value."
+                        }
+                      },
+                      {
+                        "exerciseType": "multiple-choice",
+                        "question": "Which number is equal to 500 + 2?",
+                        "options": ["a) 520", "b) 502", "c) 52", "d) 700"],
+                        "correctAnswer": "b",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! 500 + 2 is 502.",
+                          "incorrect": "Make sure to place the digits in the correct place value positions."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "lessonName": "Round to the Nearest 10 or 100",
+                    "exercises": [
+                      {
+                        "exerciseType": "text-input",
+                        "question": "Round 67 to the nearest 10.",
+                        "answer": "70",
+                        "inputType": "number",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! 67 rounded to the nearest 10 is 70.",
+                          "incorrect": "Look at the ones digit. If it's 5 or more, round up. If it's less than 5, round down."
+                        }
+                      },
+                      {
+                        "exerciseType": "multiple-choice",
+                        "question": "Round 342 to the nearest 100.",
+                        "options": ["a) 300", "b) 350", "c) 400", "d) 340"],
+                        "correctAnswer": "a",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Great job! 342 rounded to the nearest 100 is 300.",
+                          "incorrect": "Look at the tens digit. If it's 5 or more, round up to the next hundred. If it's less than 5, round down to the current hundred."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "topicCode": "B1.6-B1.7",
+                "topicName": "Fractions",
+                "lessons": [
+                  {
+                    "lessonName": "Show Fractions: Area Models",
+                    "exercises": [
+                      {
+                        "exerciseType": "image-select",
+                        "question": "Click on the area model that shows 1/4.",
+                        "imageOptions": [
+                          "fraction_1_4_image1.png",
+                          "fraction_1_4_image2.png",
+                          "fraction_1_2_image1.png",
+                          "fraction_3_4_image1.png"
+                        ],
+                        "correctImageIndex": 0,
+                        "points": 1,
+                        "feedback": {
+                          "correct": "That's right! This area model is divided into 4 equal parts, and 1 part is shaded, representing 1/4.",
+                          "incorrect": "Remember, the denominator (bottom number) tells you how many total equal parts the whole is divided into, and the numerator (top number) tells you how many parts are being considered."
+                        }
+                      },
+                      {
+                        "exerciseType": "fill-in-the-blank",
+                        "question": "What fraction of the shape below is shaded? (Assume an image of a shape divided and shaded is provided)",
+                        "image": "shaded_shape_image.png",
+                        "answers": ["3/8", "3 over 8"],
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct!  The shape is divided into 8 parts, and 3 are shaded, representing 3/8.",
+                          "incorrect": "Count the total number of parts and the number of shaded parts to write the fraction."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "lessonName": "Fractions of a Group: Word Problems",
+                    "exercises": [
+                      {
+                        "exerciseType": "text-input",
+                        "question": "There are 10 apples. 1/2 of them are red. How many apples are red?",
+                        "answer": "5",
+                        "inputType": "number",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! Half of 10 apples is 5 apples.",
+                          "incorrect": "To find 1/2 of a number, divide it by 2."
+                        }
+                      },
+                      {
+                        "exerciseType": "multiple-choice",
+                        "question": "Sarah has 6 cookies. She eats 1/3 of them. How many cookies did she eat?",
+                        "options": ["a) 1", "b) 2", "c) 3", "d) 4"],
+                        "correctAnswer": "b",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! Sarah ate 2 cookies (1/3 of 6).",
+                          "incorrect": "To find 1/3 of a number, divide it by 3."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "lessonName": "Find Equivalent Fractions using Area Models: one model",
+                    "exercises": [
+                      {
+                        "exerciseType": "fill-in-the-blank",
+                        "question": "1/2 = ___/4 (Assume area model images will be used visually in the component)",
+                        "answers": ["2"],
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Correct! 1/2 is equivalent to 2/4.",
+                          "incorrect": "Think about dividing each half into two parts to get fourths. How many fourths would be shaded if you started with 1/2 shaded?"
+                        }
+                      },
+                      {
+                        "exerciseType": "multiple-choice",
+                        "question": "Which fraction is equivalent to 2/3? (Assume area model images will be used visually)",
+                        "options": ["a) 1/2", "b) 4/6", "c) 3/4", "d) 2/6"],
+                        "correctAnswer": "b",
+                        "points": 1,
+                        "feedback": {
+                          "correct": "Yes! 2/3 is equivalent to 4/6.",
+                          "incorrect": "Equivalent fractions represent the same amount, just divided into different numbers of parts."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+
+        ]
+      }
+
+    ]
+  }

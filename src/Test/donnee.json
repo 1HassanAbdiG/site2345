@@ -1,0 +1,38 @@
+[
+    {
+      "questionText": "In 1996, how many more medals did Sweden win than Finland?",
+      "tableData": [
+        { "country": "Finland", "year1996": 4, "year2000": 4 },
+        { "country": "Italy", "year1996": 35, "year2000": 34 },
+        { "country": "Sweden", "year1996": 8, "year2000": 12 }
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "questionText": "In 2000, what is the total number of medals won by Italy and Finland combined?",
+      "tableData": [
+        { "country": "Finland", "year1996": 4, "year2000": 4 },
+        { "country": "Italy", "year1996": 35, "year2000": 34 },
+        { "country": "Sweden", "year1996": 8, "year2000": 12 }
+      ],
+      "correctAnswer": 38
+    },
+    {
+      "questionText": "Between 1996 and 2000, by how many medals did Sweden's medal count increase?",
+      "tableData": [
+        { "country": "Finland", "year1996": 4, "year2000": 4 },
+        { "country": "Italy", "year1996": 35, "year2000": 34 },
+        { "country": "Sweden", "year1996": 8, "year2000": 12 }
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "questionText": "In 1996, which country won the most medals among Finland, Italy, and Sweden?",
+      "tableData": [
+        { "country": "Finland", "year1996": 4, "year2000": 4 },
+        { "country": "Italy", "year1996": 35, "year2000": 34 },
+        { "country": "Sweden", "year1996": 8, "year2000": 12 }
+      ],
+      "correctAnswer": "Italy"
+    }
+  ]
