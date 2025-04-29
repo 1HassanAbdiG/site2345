@@ -8,6 +8,7 @@ import HistoireGirafe from "./Text1e/Girafe/tex3";
 import JeuLecture from "../Lecture1ephrase/lecture";
 //import Alimentation from "./Text1e/Alimentation1/aliment";
 import FoodGuideActivities from "./Text1e/Alimentation/alimentation";
+import SensesGamesContainer from "./corps/jeuorgane";
 
 
 
@@ -95,6 +96,14 @@ export default function Exercice1e2e() {
                         disabled={visibleComponent === "jeuLecture"}
                     />
                 </Grid>
+                <Grid item>
+                    <CustomButton
+                        onClick={() => handleButtonClick("organes")}
+                        label="Organes des sens"
+                        color="warning"
+                        disabled={visibleComponent === "organes"}
+                    />
+                </Grid>
             </Grid>
 
             {/* Affichage conditionnel des exercices */}
@@ -105,6 +114,8 @@ export default function Exercice1e2e() {
                 {visibleComponent === "lectureGirafe" && <HistoireGirafe />}
                 {visibleComponent === "alimentation" && <FoodGuideActivities />}
                 {visibleComponent === "jeuLecture" && <JeuLecture />}
+                {visibleComponent === "organes" && <SensesGamesContainer />}
+
 
                 {!visibleComponent && (
                     <Typography variant="body1" align="center">

@@ -1,0 +1,253 @@
+{
+    "testTitle": "Français 1 - 3e année - Printemps 2012 (Diffusé)",
+    "sections": [
+      {
+        "id": "A_Lecture_Attente",
+        "title": "Partie A: Lecture - L'attente",
+        "questions": [
+          {
+            "id": "A1",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Pourquoi l’expression « l’attente pour la tante » est-elle amusante? (3ᵉ paragraphe)",
+            "options": [
+              "Les mots sont courts.",
+              "Les mots sont identiques.",
+              "Les mots ont le même son.",
+              "Les mots ont le même sens."
+            ],
+            "correctAnswer": "c",
+            "verification": "L'amusement vient de la proximité sonore entre 'attente' et 'tante', une forme de jeu de mots basé sur le son, et non sur le sens identique ou la longueur des mots."
+          },
+          {
+            "id": "A2",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "À quel mot se rapporte « géant » au 3ᵉ paragraphe?",
+            "options": [
+              "voiture",
+              "écran",
+              "affiche",
+              "avions"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le texte (paragraphe 3) mentionne un « écran géant » à l'aéroport qui affiche les informations de vol. L'adjectif 'géant' qualifie donc le nom 'écran'."
+          },
+          {
+            "id": "A3",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "À quoi sert le 3ᵉ paragraphe de ce texte?",
+            "options": [
+              "à présenter tous les personnages",
+              "à indiquer où se déroule l’histoire",
+              "à indiquer quand se déroule l’histoire",
+              "à présenter le problème des personnages"
+            ],
+            "correctAnswer": "d",
+            "verification": "Le paragraphe 3 décrit l'arrivée à l'aéroport et la découverte du 'RETARD 60 MINUTES', qui est le problème principal auquel le père et Kym sont confrontés."
+          },
+          {
+            "id": "A4",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Que signifie « se précipite » au 4ᵉ paragraphe?",
+            "options": [
+              "se perd",
+              "se sauve",
+              "se dépêche",
+              "se retourne"
+            ],
+            "correctAnswer": "c",
+            "verification": "Dans la phrase « cette dame élégante qui se précipite vers eux » (paragraphe 4), 'se précipiter' signifie se diriger rapidement vers quelque chose ou quelqu'un, c'est-à-dire 'se dépêcher' ou 'courir'."
+          },
+          {
+            "id": "A5",
+            "type": "openEnded",
+            "pageReference": 6,
+            "questionText": "Selon toi, pourquoi le père de Kym est-il déçu en arrivant à l’aéroport?",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que le père est déçu parce que l'avion de sa sœur (la tante de Kym) a du retard. Le texte (paragraphe 3) l'indique clairement : « Ah! Non! soupire le père de Kym en voyant les mots “RETARD 60 MINUTES” ».",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle établit le lien de cause à effet entre le retard annoncé sur l'écran et la déception du père, en se référant au texte."
+          },
+          {
+            "id": "A6",
+            "type": "openEnded",
+            "pageReference": 6,
+            "questionText": "Selon toi, pourquoi Kym gardera-t-elle un bon souvenir de la rencontre avec sa tante Anh?",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que Kym gardera un bon souvenir parce que c'était une première rencontre très attendue avec une tante qu'elle ne connaissait qu'en photo et par téléphone (paragraphe 1). Le texte (paragraphe 5) décrit les marques d'affection mutuelles : elles se jettent dans les bras l'une de l'autre, Kym serre fort la main de sa tante, et le texte conclut que « Cette première rencontre restera pour toujours dans le cœur de la petite fille ». La forte émotion des retrouvailles ('Quelques larmes d'émotion') contribue également à un souvenir marquant.",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les raisons de l'attente, les marques d'affection ou l'émotion décrites dans le texte (paragraphes 1, 4, 5) et qu'elle explique pourquoi cela rend le souvenir positif."
+          }
+        ]
+      },
+      {
+        "id": "A_Lecture_GrandPic",
+        "title": "Partie A: Lecture - Le grand pic",
+        "questions": [
+          {
+            "id": "A7",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Dans un texte de ce genre, il y a…",
+            "options": [
+              "des étapes à suivre.",
+              "des phrases avec indices.",
+              "des informations en paragraphes.",
+              "des dialogues entre des personnages."
+            ],
+            "correctAnswer": "c",
+            "verification": "Ce texte est principalement informatif et descriptif. Il fournit de nombreuses informations sur le grand pic (ses caractéristiques physiques, ce qu'il mange, où il vit, comment il se reproduit) et ces informations sont organisées en paragraphes (paragraphes 1 à 5)."
+          },
+          {
+            "id": "A8",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Quel mot indique une comparaison dans la phrase : « Un pic, c’est comme un outil électrique avec des plumes »? (1ᵉʳ paragraphe)",
+            "options": [
+              "c’est",
+              "comme",
+              "un",
+              "avec"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le mot 'comme' est utilisé pour établir une comparaison entre le grand pic et un outil électrique, en soulignant une similarité (probablement dans sa façon de percer le bois)."
+          },
+          {
+            "id": "A9",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Quelle est l’idée importante du 1ᵉʳ paragraphe?",
+            "options": [
+              "Le cerveau du grand pic est bien protégé.",
+              "Le grand pic grimpe sur les troncs d’arbres.",
+              "Le corps du grand pic lui permet de trouer les arbres.",
+              "Le grand pic produit des bruits réguliers avec son bec."
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 1 décrit plusieurs caractéristiques physiques du grand pic, mais il met un accent particulier sur les adaptations qui protègent son cerveau des chocs intenses lorsqu'il creuse le bois, notamment le crâne épais et le coussin d'air. La protection du cerveau est une information clé dans ce paragraphe."
+          },
+          {
+            "id": "A10",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Quel mot a le même sens que « compagne » au 3ᵉ paragraphe?",
+            "options": [
+              "bec",
+              "tronc",
+              "demeure",
+              "femelle"
+            ],
+            "correctAnswer": "d",
+            "verification": "Au paragraphe 3, il est question du « pic et sa compagne » qui choisissent un arbre pour faire leur nid. Dans ce contexte, 'compagne' désigne la partenaire du mâle, c'est-à-dire la 'femelle'."
+          },
+          {
+            "id": "A11",
+            "type": "openEnded",
+            "pageReference": 9,
+            "questionText": "Explique pourquoi le bec du grand pic lui est utile. Utilise des informations du texte pour appuyer ta réponse.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que le bec du grand pic lui est utile principalement pour creuser des trous dans les troncs d'arbres afin de trouver des insectes pour se nourrir (paragraphes 1 et 2) et pour construire le nid (paragraphe 3). Il peut aussi mentionner son utilité pour marquer le territoire, attirer une compagne, communiquer ou défendre le nid contre les prédateurs (paragraparhes 2 et 4).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite les fonctions du bec du grand pic telles que décrites dans le texte."
+          },
+          {
+            "id": "A12",
+            "type": "openEnded",
+            "pageReference": 9,
+            "questionText": "Explique pourquoi on peut dire que le mâle et la femelle grands pics travaillent bien en équipe.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que le mâle et la femelle travaillent en équipe pour construire le nid (le mâle creuse le trou - paragraphe 3), pour couver les œufs (ils se remplacent pendant la journée et le mâle couve la nuit - paragraphe 3), et pour défendre le nid contre les prédateurs (ils donnent des coups de bec - paragraphe 4).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les tâches partagées ou coordonnées par le couple de pics pour le nid et les œufs, en se référant aux paragraphes 3 et 4."
+          }
+        ]
+      },
+      {
+        "id": "A_Ecriture",
+        "title": "Partie A: Écriture",
+        "questions": [
+          {
+            "id": "A13",
+            "type": "openEnded",
+            "pageReference": 10,
+            "questionText": "Choisis le jour de la semaine que tu préfères et écris un court texte pour expliquer ton choix.",
+            "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : la clarté de l'idée principale (le jour préféré et la justification du choix), l'organisation du texte, l'utilisation d'un vocabulaire pertinent, la variété des phrases et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+            "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture. Le texte doit présenter un choix et expliquer les raisons de ce choix."
+          }
+        ]
+      },
+      {
+        "id": "B_Lecture_Antarctique",
+        "title": "Partie B: Lecture - L'Antarctique",
+        "questions": [
+          {
+            "id": "B1",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Pourquoi a-t-on écrit ce texte?",
+            "options": [
+              "pour nous décrire les différents continents",
+              "pour nous informer au sujet de l’Antarctique",
+              "pour nous encourager à devenir des scientifiques",
+              "pour nous convaincre de voyager en Antarctique"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le texte est un document informatif qui présente des faits et des renseignements sur l'Antarctique (sa localisation, son climat, sa géographie, sa faune, les personnes qui s'y rendent). Son but principal est d'informer le lecteur sur ce continent."
+          },
+          {
+            "id": "B2",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Que signifie le mot « falaises » au 2ᵉ paragraphe?",
+            "options": [
+              "murs",
+              "rivières",
+              "étendues",
+              "sculptures"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 2 décrit les 'falaises de glace' qui « se dressent très haut sur les côtes du continent ». Les falaises sont des parois rocheuses ou glacées très abruptes, semblables à des 'murs'."
+          },
+          {
+            "id": "B3",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Que signifie le mot « icebergs » au 4ᵉ paragraphe?",
+            "options": [
+              "rivières de glace",
+              "côtes du continent",
+              "morceaux de glace flottante",
+              "montagnes couvertes de neige"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le paragraphe 4 explique que « De gros morceaux de glace se détachent, tombent dans l’océan et flottent à la dérive. Ces morceaux de glace flottante sont appelés icebergs. » L'explication est donnée directement dans le texte."
+          },
+          {
+            "id": "B4",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Quel sous-titre pourrait-on donner au 5ᵉ paragraphe?",
+            "options": [
+              "Les manchots",
+              "Les êtres vivants",
+              "La migration des baleines",
+              "La croissance des plantes"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le paragraphe 5 décrit les formes de vie présentes en Antarctique : les plantes (mousse), les animaux (manchots, baleines, oiseaux, insectes). Le sous-titre 'Les êtres vivants' englobe toutes ces formes de vie décrites."
+          },
+          {
+            "id": "B5",
+            "type": "openEnded",
+            "pageReference": 16,
+            "questionText": "Décris l’été en Antarctique à l’aide de renseignements du texte.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait décrire l'été en Antarctique en se basant sur les informations du texte : pendant l'été, le soleil ne se couche pratiquement pas, il ne fait donc pas très noir la nuit (paragraphe 3). De grands groupes de manchots envahissent les côtes (paragraphe 5).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite correctement les caractéristiques de l'été en Antarctique mentionnées dans le texte (lumière et présence de manchots)."
+          },
+          {
+            "id": "B6",
+            "type": "openEnded",
+            "pageReference": 16,
+            "questionText": "Explique pourquoi ce texte te donne le goût ou non de visiter l’Antarctique.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève doit exprimer clairement si le texte lui donne envie (ou non) de visiter l'Antarctique et justifier sa réponse en se basant sur les informations du texte (froid extrême, isolé, présence de glace, animaux uniques, scientifiques) et ses propres idées ou préférences (aimer le froid/l'aventure, être intéressé par la science/la nature, avoir peur du froid/de l'isolement). La justification est essentielle.",
+            "verification": "L'évaluation requiert une analyse de l'argumentation de l'élève, en vérifiant que sa réponse est justifiée de manière cohérente en s'appuyant sur des éléments du texte et potentiellement sur ses préférences personnelles."
+          }
+        ]
+      }
+    ]
+  }

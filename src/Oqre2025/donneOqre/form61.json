@@ -1,0 +1,385 @@
+{
+    "testTitle": "Français 2 - 6e année - Printemps 2011 (Diffusé)",
+    "sections": [
+      {
+        "id": "C_Lecture",
+        "title": "Partie C: Lecture - Le code disparu",
+        "questions": [
+          {
+            "id": "C1",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "À quelle expression le pronom « celui-ci » se réfère-t-il au 2e paragraphe?",
+            "options": [
+              "à Luc",
+              "au code",
+              "au groupe",
+              "à l'endroit"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le paragraphe 2 dit : 'C'est dans cette tanière que nous avions créé notre code secret. Celui-ci contenait les règlements...'. 'Celui-ci' remplace clairement 'notre code secret'."
+          },
+          {
+            "id": "C2",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Qui a le droit d'entrer dans la cabane?",
+            "options": [
+              "Ella et son frère",
+              "Claude et ses amis",
+              "Claude et sa famille",
+              "Le Groupe des Cinq"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le paragraphe 2 indique que Luc, quelques amis et le narrateur (Claude) formaient le groupe qui utilisait la cabane. Le paragraphe 4 exclut explicitement 'Le Groupe des Cinq'."
+          },
+          {
+            "id": "C3",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Quel mot la 1re illustration nous aide-t-elle à comprendre?",
+            "options": [
+              "tanière",
+              "cachette",
+              "demeure",
+              "document"
+            ],
+            "correctAnswer": "a",
+            "verification": "L'illustration montre une cabane dans un arbre, qui correspond à la description de ce que les enfants appellent leur 'tanière' au paragraphe 2."
+          },
+          {
+              "id": "C4",
+              "type": "multipleChoice",
+              "pageReference": 5,
+              "questionText": "Quelle est la raison du conflit entre la bande de Luc et le Groupe des Cinq?",
+              "options": [
+                  "Le code secret a disparu.",
+                  "Il y a un mystère entourant le code.",
+                  "Les filles jouent des tours aux garçons.",
+                  "Il y a un désaccord par rapport au code."
+              ],
+              "correctAnswer": "d",
+              "verification": "Le paragraphe 4 explique que le conflit a commencé lorsque les filles ont voulu rejoindre le groupe mais ont été refusées à cause de la règle 'PAS DE FILLES!' dans le code secret. C'est donc un désaccord sur le contenu/règles du code."
+          },
+          {
+              "id": "C5",
+              "type": "multipleChoice",
+              "pageReference": 5,
+              "questionText": "Que signifie l'expression « conclusion hâtive »? (4e paragraphe)",
+              "options": [
+                  "conclusion fausse",
+                  "conclusion trop rapide",
+                  "conclusion insignifiante",
+                  "conclusion peu probable"
+              ],
+              "correctAnswer": "b",
+              "verification": "Dans le contexte du paragraphe 4, Claude conseille à Luc de ne pas accuser les filles trop vite, sans preuve. 'Hâtive' signifie précipitée, donc 'conclusion trop rapide'."
+          },
+          {
+              "id": "C6",
+              "type": "multipleChoice",
+              "pageReference": 6,
+              "questionText": "Quel est le premier endroit où les garçons cherchent leur code?",
+              "options": [
+                  "dans la cabane",
+                  "près de l'échelle",
+                  "au pied de l'arbre",
+                  "dans les branches"
+              ],
+              "correctAnswer": "c",
+              "verification": "Le paragraphe 5 dit : 'Nous sommes retournés près de la tanière et avons examiné le sol autour du tronc de l'arbre...'. Ils cherchent donc d'abord au pied de l'arbre."
+          },
+          {
+              "id": "C7",
+              "type": "multipleChoice",
+              "pageReference": 6,
+              "questionText": "Où Luc cache-t-il le code habituellement?",
+              "options": [
+                  "sous les buissons",
+                  "derrière la maison",
+                  "sur le bord de la fenêtre",
+                  "dans une boîte de carton"
+              ],
+              "correctAnswer": "d",
+              "verification": "Au paragraphe 6, Luc révèle à Claude que la cachette est 'dans la boîte en carton'."
+          },
+          {
+              "id": "C8",
+              "type": "multipleChoice",
+              "pageReference": 6,
+              "questionText": "Quel premier indice aide les garçons à retrouver le code secret?",
+              "options": [
+                  "la boîte de carton",
+                  "la trace de poussière",
+                  "le sol autour de l'arbre",
+                  "le bruit dans les branches"
+              ],
+              "correctAnswer": "d",
+              "verification": "Le paragraphe 7 mentionne que c'est le 'bruit dans les branches' qui attire leur attention sur l'écureuil, menant finalement à la découverte du code."
+          },
+          {
+              "id": "C9",
+              "type": "multipleChoice",
+              "pageReference": 6,
+              "questionText": "Quelle expression se rapproche le plus du mot « déchiqueté »? (8e paragraphe)",
+              "options": [
+                  "en papier",
+                  "en miettes",
+                  "en feuilles",
+                  "en poussière"
+              ],
+              "correctAnswer": "b",
+              "verification": "'Déchiqueté' signifie mis en pièces, en lambeaux. L'écureuil en a fait un tapis/lit. 'En miettes' ou en petits morceaux est le sens le plus proche."
+          },
+          {
+              "id": "C10",
+              "type": "multipleChoice",
+              "pageReference": 6,
+              "questionText": "Quelle est l'idée importante du 8e paragraphe?",
+              "options": [
+                  "L'écureuil fait preuve d'agilité.",
+                  "Claude et Luc montent dans l'arbre.",
+                  "L'écureuil fabrique un lit confortable.",
+                  "Claude et Luc découvrent le coupable."
+              ],
+              "correctAnswer": "d",
+              "verification": "Le paragraphe 8 décrit comment les garçons suivent l'écureuil et trouvent le code détruit dans son nid, identifiant ainsi le coupable de la disparition."
+          },
+          {
+            "id": "C11",
+            "type": "openEnded",
+            "pageReference": 7,
+            "questionText": "Explique pourquoi Luc soupçonne les filles de la disparition du code secret. Utilise des renseignements du texte pour appuyer ta réponse.",
+            "correctAnswer": "Luc soupçonne les filles (Le Groupe des Cinq) à cause d'un conflit antérieur. Le texte (paragraphe 4) indique que les filles voulaient faire partie du groupe des garçons mais ont été refusées à cause de la règle 'PAS DE FILLES!' dans le code. Suite à cela, des tensions ('désaccords', 'silences', 'disputes') sont apparues. Luc pense donc qu'elles ont volé le code pour se venger ou les 'taquiner'.",
+            "verification": "La réponse doit mentionner le refus d'admission basé sur la règle du code et les tensions qui en ont résulté, comme expliqué au paragraphe 4."
+          },
+          {
+            "id": "C12",
+            "type": "openEnded",
+            "pageReference": 7,
+            "questionText": "Explique pourquoi c'est une bonne idée ou non qu'un seul membre du groupe connaisse la cachette du code secret. Utilise des renseignements du texte et tes propres idées pour appuyer ta réponse.",
+            "correctAnswer": "Ce n'est probablement pas une bonne idée. Le texte montre que Luc a hésité à révéler la cachette même à Claude (paragraphe 6), ce qui aurait pu poser problème. Si Luc avait été absent ou avait oublié, personne n'aurait su où chercher. L'information est vulnérable si une seule personne la détient (oubli, maladie, départ). Avoir au moins une deuxième personne au courant offrirait une sécurité.",
+            "verification": "La réponse doit évaluer les risques. Elle peut utiliser l'hésitation de Luc (texte) et des arguments logiques sur la perte potentielle d'information (propres idées)."
+          }
+        ]
+      },
+      {
+        "id": "C_Ecriture",
+        "title": "Partie C: Écriture",
+        "questions": [
+          {
+            "id": "C13",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Choisis la meilleure phrase d'introduction pour ce paragraphe. [Paragraphe: Nous sommes à la fois heureux et nerveux... Qui remportera la médaille d'or?]",
+            "options": [
+              "Aujourd'hui, nous nous préparons pour le match final.",
+              "Aujourd'hui, nous nous exerçons dans notre gymnase.",
+              "Aujourd'hui, nous rencontrons notre nouvel entraîneur.",
+              "Aujourd'hui, nous rencontrons les membres de l'équipe."
+            ],
+            "correctAnswer": "a",
+            "verification": "Le contenu du paragraphe (nervosité, équipe adverse, match précédent perdu, médaille d'or) correspond parfaitement au contexte d'un 'match final'."
+          },
+          {
+            "id": "C14",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Choisis la phrase qui est écrite correctement.",
+            "options": [
+              "Notre entraîneur aimerait que nous marchons jusqu'à l'aréna.",
+              "Notre entraîneur aimerait que nous marchions jusqu'à l'aréna.",
+              "Notre entraîneur aimerait que nous marcherons jusqu'à l'aréna.",
+              "Notre entraîneur aimerait que nous marcherions jusqu'à l'aréna."
+            ],
+            "correctAnswer": "b",
+            "verification": "La conjonction 'que' après un verbe exprimant un souhait ou une volonté ('aimerait') requiert le subjonctif. La forme correcte du subjonctif présent de 'marcher' à la 1re personne du pluriel est 'marchions'."
+          },
+          {
+              "id": "C15",
+              "type": "multipleChoice",
+              "pageReference": 8,
+              "questionText": "Quelle phrase nʼappartient pas à ce paragraphe? (1) Les élèves visitent le musée. (2) Ils se dirigent vers leurs expositions préférées : les mammifères et les plantes. (3) Ces expositions offrent des ateliers interactifs et des visites guidées. (4) Les mammifères aiment manger des plantes. (5) Les élèves rencontrent des scientifiques et discutent avec eux.",
+              "options": [
+                  "phrase 2",
+                  "phrase 3",
+                  "phrase 4",
+                  "phrase 5"
+              ],
+              "correctAnswer": "c",
+              "verification": "Les phrases 1, 2, 3 et 5 décrivent la visite des élèves au musée. La phrase 4 est une information générale sur les mammifères qui rompt la cohérence du paragraphe sur la visite."
+          },
+          {
+              "id": "C16",
+              "type": "multipleChoice",
+              "pageReference": 8,
+              "questionText": "Quelle phrase combine le mieux les deux énoncés en caractères gras? [J'aimerais faire partie du club de musique. Je pourrais participer au concert.]",
+              "options": [
+                  "J'aimerais faire partie du club de musique, pourtant je pourrais participer au concert.",
+                  "J'aimerais faire partie du club de musique, puisque je pourrais participer au concert.",
+                  "J'aimerais faire partie du club de musique, sauf que je pourrais participer au concert.",
+                  "J'aimerais faire partie du club de musique, cependant je pourrais participer au concert."
+              ],
+              "correctAnswer": "b",
+              "verification": "La participation au concert est la raison ou la conséquence souhaitée de faire partie du club. 'Puisque' établit correctement ce lien logique de cause/conséquence."
+          },
+          {
+              "id": "C17",
+              "type": "openEnded",
+              "pageReference": 9,
+              "questionText": "Écris un court texte dans lequel tu expliques aux adultes pourquoi il est important ou non de prendre le temps de jouer.",
+              "correctAnswer": "Exemple (si 'important'): 'Chers adultes, prendre le temps de jouer est essentiel pour les enfants, et même pour vous! Jouer permet de développer la créativité, d'apprendre à résoudre des problèmes et à interagir avec les autres. C'est aussi un excellent moyen de se détendre, de réduire le stress et de simplement s'amuser. Le jeu favorise le bien-être physique et mental, et aide à construire des souvenirs heureux. Ce n'est pas du temps perdu, c'est un investissement dans le développement et le bonheur.'",
+              "verification": "Le texte doit être argumentatif, s'adresser aux adultes, et présenter des raisons claires sur l'importance (ou non) du jeu (développement social, cognitif, émotionnel, physique, apprentissage, plaisir, anti-stress)."
+          }
+        ]
+      },
+      {
+        "id": "D_Lecture",
+        "title": "Partie D: Lecture - La fourmilière",
+        "questions": [
+          {
+            "id": "D18",
+            "type": "multipleChoice",
+            "pageReference": 13,
+            "questionText": "Que font les fourmis de la galerie numéro 1?",
+            "options": [
+                "Elles défendent la colonie.",
+                "Elles identifient les fourmis.",
+                "Elles frappent leur abdomen.",
+                "Elles négocient avec les ennemis."
+            ],
+            "correctAnswer": "a",
+            "verification": "Le texte associé à la galerie 1 ('Défense anti-aérienne') indique que les fourmis projettent un jet d'acide sur les ennemis, ce qui est une action de défense."
+          },
+          {
+              "id": "D19",
+              "type": "multipleChoice",
+              "pageReference": 13,
+              "questionText": "À quel mot « elles » se réfère-t-il? (encadré de la galerie numéro 5)",
+              "options": [
+                  "fourmis",
+                  "graines",
+                  "minuscules",
+                  "boulettes"
+              ],
+              "correctAnswer": "a",
+              "verification": "L'encadré de la galerie 5 commence par 'Les fourmis meunières moulent les graines avec lesquelles elles forment...'. 'Elles' reprend 'Les fourmis meunières'."
+          },
+          {
+              "id": "D20",
+              "type": "multipleChoice",
+              "pageReference": 13,
+              "questionText": "Quelle fourmi pourrait-on comparer à une infirmière?",
+              "options": [
+                  "la reine",
+                  "la larve",
+                  "la fourmi nourrice",
+                  "la fourmi meunière"
+              ],
+              "correctAnswer": "c",
+              "verification": "L'encadré de la galerie 6 décrit les 'fourmis nourrices' qui lèchent les larves avec une salive antibiotique pour les protéger des maladies, ce qui s'apparente aux soins d'une infirmière."
+          },
+          {
+              "id": "D21",
+              "type": "multipleChoice",
+              "pageReference": 13,
+              "questionText": "Pourquoi la galerie numéro 8 est-elle la plus grande?",
+              "options": [
+                  "Elle est située au milieu de la fourmilière.",
+                  "Elle doit être nettoyée par toutes les fourmis.",
+                  "Elle est liée à plusieurs tunnels de la fourmilière.",
+                  "Elle doit abriter toutes les fourmis par temps froid."
+              ],
+              "correctAnswer": "d",
+              "verification": "La galerie 8 est la 'Salle d'hibernation'. L'encadré précise que les fourmis y vivent au ralenti par temps froid. Pour accueillir potentiellement toute la colonie pendant l'hiver, elle doit être grande."
+          },
+          {
+              "id": "D22",
+              "type": "openEnded",
+              "pageReference": 14,
+              "questionText": "Explique comment les fourmis dépendent les unes des autres. Utilise les renseignements du texte pour appuyer ta réponse.",
+              "correctAnswer": "Les fourmis sont interdépendantes car elles ont des rôles spécialisés : la reine pond (galerie 10) mais a besoin des servantes ; les nourrices (galerie 6) soignent les jeunes ; les meunières (galerie 5) préparent la nourriture ; les soldats (galerie 1) défendent ; certaines s'occupent du stockage (galeries 4, 5) ou de l'entretien (chauffage - galerie 7, isolation). Chaque groupe dépend du travail des autres pour la survie de la colonie.",
+              "verification": "La réponse doit citer plusieurs rôles spécialisés (reine, nourrice, meunière, soldat, etc.) décrits dans le texte et expliquer comment ces rôles se complètent pour le bien commun."
+          },
+          {
+              "id": "D23",
+              "type": "openEnded",
+              "pageReference": 14,
+              "questionText": "À l'aide de l'illustration de ce texte, explique comment la fourmilière ressemble à une maison. Utilise des renseignements du texte et tes propres idées pour appuyer ta réponse.",
+              "correctAnswer": "La fourmilière ressemble à une maison : elle a plusieurs 'pièces' (galeries) avec des fonctions spécifiques comme une 'chambre royale' (galerie 10), une 'crèche' (galerie 6), des 'greniers' (4, 5), une 'salle d'hibernation' (8). Elle possède des systèmes comme un 'chauffage' (compost - 7), un 'solarium' (2), une 'entrée', une 'défense' (1), de l''isolation', et même un 'dépotoir'. C'est une structure organisée pour vivre.",
+              "verification": "La réponse doit comparer les galeries numérotées et leurs fonctions (texte/illustration) à des éléments d'une maison (pièces, systèmes utilitaires, stockage, etc.) en utilisant le vocabulaire approprié."
+          }
+        ]
+      },
+      {
+        "id": "D_Ecriture",
+        "title": "Partie D: Écriture",
+        "questions": [
+           {
+              "id": "D24",
+              "type": "openEnded",
+              "pageReference": 15,
+              "questionText": "Tu reçois une enveloppe contenant un message mystérieux et une clé. Rédige un récit dans lequel tu racontes ce qui se passe ensuite.",
+              "correctAnswer": "Exemple de début: 'Le cœur battant, j'ai ouvert l'enveloppe jaunie. À l'intérieur, un papier plié et une petite clé en fer forgé. Le message disait simplement : 'Sous le vieux chêne, où l'ombre est la plus longue à midi.' Intrigué et un peu effrayé, j'ai glissé la clé dans ma poche et je me suis dirigé vers le parc...' Le récit doit ensuite développer l'action (trouver l'endroit, utiliser la clé) et avoir une suite logique.",
+              "verification": "Le récit doit être narratif, commencer par la découverte de l'enveloppe/clé/message, décrire les actions et pensées du narrateur, et développer une intrigue (mystère, aventure, découverte) avec une structure début-milieu-fin."
+          },
+          {
+              "id": "D25",
+              "type": "multipleChoice",
+              "pageReference": 18,
+              "questionText": "Choisis la phrase qui a la bonne ponctuation.",
+              "options": [
+                  "Il faut faire vite avant qu'il ne soit trop tard; l'avion décolle bientôt.",
+                  "Il faut faire vite; avant qu'il ne soit trop tard l'avion décolle bientôt.",
+                  "Il faut faire vite avant; qu'il ne soit trop tard l'avion décolle bientôt.",
+                  "Il faut faire vite avant qu'il ne soit trop tard l'avion; décolle bientôt."
+              ],
+              "correctAnswer": "a",
+              "verification": "La phrase contient deux propositions indépendantes reliées par une relation de cause/conséquence implicite. Le point-virgule sépare correctement ces deux propositions. La subordonnée 'avant qu'il ne soit trop tard' est correctement intégrée à la première proposition."
+          },
+          {
+              "id": "D26",
+              "type": "multipleChoice",
+              "pageReference": 18,
+              "questionText": "Choisis la meilleure phrase de conclusion pour ce paragraphe. [Paragraphe sur Tristan, nageur assidu et compétitif]",
+              "options": [
+                  "Quel sport exigeant!",
+                  "Quel nageur persévérant!",
+                  "Tristan est un jeune nageur.",
+                  "Tristan aime ce sport individuel."
+              ],
+              "correctAnswer": "b",
+              "verification": "Le paragraphe insiste sur l'entraînement quotidien, les compétitions et l'effort constant ('essaie toujours de se surpasser'). Une exclamation soulignant sa 'persévérance' capture le mieux l'essence du texte."
+          },
+          {
+              "id": "D27",
+              "type": "multipleChoice",
+              "pageReference": 18,
+              "questionText": "Choisis la bonne réponse. [Il est préférable de nous préparer dès maintenant, ______ le train arrivera bientôt.]",
+              "options": [
+                  "car",
+                  "puis",
+                  "ainsi",
+                  "enfin"
+              ],
+              "correctAnswer": "a",
+              "verification": "La deuxième partie de la phrase explique la raison pour laquelle il faut se préparer. La conjonction de coordination 'car' introduit une cause/explication."
+          },
+          {
+              "id": "D28",
+              "type": "multipleChoice",
+              "pageReference": 18,
+              "questionText": "Quel mot n'appartient pas à la même famille que le mot « soleil »?",
+              "options": [
+                  "solaire",
+                  "solarium",
+                  "ensommeillé",
+                  "ensoleillement"
+              ],
+              "correctAnswer": "c",
+              "verification": "'Solaire', 'solarium', 'ensoleillement' dérivent de 'soleil'. 'Ensommeillé' dérive de 'sommeil'."
+          }
+        ]
+      }
+    ]
+  }

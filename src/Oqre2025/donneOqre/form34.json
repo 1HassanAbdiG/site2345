@@ -1,0 +1,337 @@
+{
+    "testTitle": "Français 1 - 3e année - Printemps 2014 (Diffusé)",
+    "sections": [
+      {
+        "id": "C1_Lecture_VosMarques",
+        "title": "Partie C1: Lecture - À vos marques!",
+        "questions": [
+          {
+            "id": "C1",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Que trouve-t-on dans un texte de ce genre?",
+            "options": [
+              "des indices",
+              "des dialogues",
+              "des étapes à suivre",
+              "des couplets et un refrain"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le texte comprend plusieurs répliques introduites par un tiret, ce qui représente des échanges entre les personnages, c'est-à-dire des dialogues (paragraphes 2, 3, 5)."
+          },
+          {
+            "id": "C2",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "À quoi sert la 1ʳᵉ illustration du texte?",
+            "options": [
+              "à montrer un objet important dans l'histoire",
+              "à indiquer à quel moment se déroule l'histoire",
+              "à annoncer la solution au problème dans l'histoire",
+              "à présenter les personnages principaux de l'histoire"
+            ],
+            "correctAnswer": "d",
+            "verification": "La première illustration (page 2) met en scène les personnages animaux (araignée, tortue, escargots) qui sont au centre de l'histoire racontée, servant ainsi à les présenter."
+          },
+          {
+            "id": "C3",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Quel est le sujet dans la phrase : « Tous les animaux approuvent et se promettent de recommencer cette compétition l'année prochaine »?",
+            "options": [
+              "Tous les animaux",
+              "se promettent",
+              "cette compétition",
+              "l'année prochaine"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le groupe nominal 'Tous les animaux' est le sujet des verbes 'approuvent' et 'se promettent' dans cette phrase."
+          },
+          {
+            "id": "C4",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Que signifie le mot « devancer » au 3ᵉ paragraphe?",
+            "options": [
+              "déplacer",
+              "dépasser",
+              "déranger",
+              "dépêcher"
+            ],
+            "correctAnswer": "b",
+            "verification": "Dans le contexte d'une course, 'devancer' quelqu'un (la tortue ne veut pas se laisser devancer par les escargots) signifie aller plus vite que lui et le laisser derrière soi, c'est-à-dire le 'dépasser'."
+          },
+          {
+            "id": "C5",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Que signifie l'expression « se mesurer » au 4ᵉ paragraphe?",
+            "options": [
+              "s'estimer",
+              "s'agrandir",
+              "se comparer",
+              "se rencontrer"
+            ],
+            "correctAnswer": "c",
+            "verification": "Dans un contexte de compétition ('se mesurer à la sauterelle'), l'expression signifie évaluer ses capacités par rapport à celles de l'autre, donc 'se comparer'."
+          },
+          {
+            "id": "C6",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "À quel mot se rapporte « rouge » dans la phrase : « Je porterai un maillot rouge à pois noirs, comme mes ailes »?",
+            "options": [
+              "un",
+              "maillot",
+              "pois",
+              "ailes"
+            ],
+            "correctAnswer": "b",
+            "verification": "L'adjectif de couleur 'rouge' s'accorde avec le nom qu'il qualifie, ici 'maillot'."
+          },
+          {
+            "id": "C7",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Au 5ᵉ paragraphe, quel signe de ponctuation indique une question?",
+            "options": [
+              "le tiret",
+              "la virgule",
+              "le point d'exclamation",
+              "le point d'interrogation"
+            ],
+            "correctAnswer": "d",
+            "verification": "Le point d'interrogation (?) est le signe de ponctuation qui termine une phrase interrogative (ex: « Peut-on tout simplement transporter le poids sur une certaine distance? » au paragraphe 5)."
+          },
+          {
+            "id": "C8",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quelle est l'idée importante du 6ᵉ paragraphe?",
+            "options": [
+              "Les athlètes lancent des objets.",
+              "Les animaux de l'étang s'envolent.",
+              "Les deux compétitions ont lieu en même temps.",
+              "Les athlètes des deux compétitions gagnent des médailles."
+            ],
+            "correctAnswer": "c",
+            "verification": "Le paragraphe 6 décrit que les animaux de l'étang « participent aux divers sauts, courses et lancers » en même temps que « les élèves sur la piste d'athlétisme », indiquant que les deux compétitions se déroulent simultanément."
+          },
+          {
+            "id": "C9",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quel est le sens du mot « déserte » au 7ᵉ paragraphe?",
+            "options": [
+              "vide",
+              "sèche",
+              "éloignée",
+              "nettoyée"
+            ],
+            "correctAnswer": "a",
+            "verification": "Dans le contexte du texte ('la piste d'athlétisme maintenant déserte'), 'déserte' signifie qu'il n'y a plus personne, qu'elle est vide."
+          },
+          {
+            "id": "C10",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quelle discipline sportive la grenouille choisit-elle?",
+            "options": [
+              "le saut en hauteur",
+              "le lancer du poids",
+              "le saut en longueur",
+              "la course de cent mètres"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 4 indique clairement que la grenouille « reconnaît ses habiletés pour le saut en hauteur »."
+          },
+          {
+            "id": "C11",
+            "type": "openEnded",
+            "pageReference": 5,
+            "questionText": "Décris les ressemblances entre la compétition des animaux de l'étang et celle des élèves sur la piste d'athlétisme.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait identifier des points communs tels que : la participation d'athlètes des deux groupes (élèves et animaux), la pratique de disciplines athlétiques (sauts, courses, lancers), le fait que les deux compétitions ont lieu au même moment ou dans le même environnement (près de l'étang/piste), et l'idée de chercher à accomplir quelque chose et d'être fier de ses efforts/gagner une forme de récompense.",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle identifie et décrit des similitudes pertinentes basées sur le texte (paragraphes 1, 6, 7)."
+          },
+          {
+            "id": "C12",
+            "type": "openEnded",
+            "pageReference": 5,
+            "questionText": "Explique pourquoi on peut dire que l'araignée est un personnage important dans ce texte.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer l'importance de l'araignée en soulignant son rôle central dans le déroulement de l'histoire : elle a l'idée originale de la compétition (paragraphe 2), elle persuade les autres animaux de participer (paragraphe 3), elle trouve des solutions aux difficultés (paragraphe 5), et elle célèbre la fin de la compétition (paragraphe 7). Elle est l'instigatrice et la meneuse.",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des actions ou des initiatives de l'araignée qui démontrent son rôle crucial dans l'histoire."
+          }
+        ]
+      },
+      {
+        "id": "A_Lecture_Loups",
+        "title": "Partie A: Lecture - Les loups",
+        "questions": [
+          {
+            "id": "A7",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Que trouve-t-on dans un texte de ce genre?",
+            "options": [
+              "des étapes à suivre",
+              "des phrases avec des indices",
+              "des dialogues entre des personnages",
+              "des paragraphes contenant des informations"
+            ],
+            "correctAnswer": "d",
+            "verification": "Ce texte est de type informatif et descriptif, fournissant des renseignements sur les loups, leur comportement, leur habitat et leur organisation sociale, structurés en paragraphes (paragraphes 1 à 5)."
+          },
+          {
+            "id": "A8",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Quel mot a le même sens que « consomment » au 3ᵉ paragraphe?",
+            "options": [
+              "capturent",
+              "préfèrent",
+              "mangent",
+              "cherchent"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le paragraphe 3 décrit ce que les loups mangent : « ils mangent aussi des petits rongeurs, des oiseaux aquatiques et des poissons. L'été, ils cherchent aussi des petits fruits qu'ils consomment. » 'Consomment' signifie manger."
+          },
+          {
+            "id": "A9",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Que signifie le mot « hurler » au 5ᵉ paragraphe?",
+            "options": [
+              "pousser des cris",
+              "remuer la queue",
+              "dresser les oreilles",
+              "aller très vite"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 5 décrit que les loups 'hurlent' pour différentes raisons et explique qu'« Après qu'un loup commence à hurler, les autres se joignent à lui à l'unisson. ». Hurler est une forme de vocalisation forte chez les loups, ce qui correspond à 'pousser des cris'."
+          },
+          {
+            "id": "A10",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Quel paragraphe présente l'habitat du loup?",
+            "options": [
+              "le 2ᵉ paragraphe",
+              "le 3ᵉ paragraphe",
+              "le 4ᵉ paragraphe",
+              "le 5ᵉ paragraphe"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 2 décrit où l'on trouve les loups (« dans les grandes forêts canadiennes ») et où ils vivent (« La tanière où ils vivent est habituellement un trou creusé dans le sol »), décrivant ainsi leur habitat."
+          },
+          {
+            "id": "A11",
+            "type": "openEnded",
+            "pageReference": 10,
+            "questionText": "À l'aide du texte, explique pourquoi la forêt est nécessaire au loup.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que la forêt est l'habitat du loup (« On trouve des loups un peu partout dans les grandes forêts canadiennes » - paragraphe 2) et qu'elle lui permet de trouver un endroit pour vivre tranquille (la tanière est creusée dans le sol) et de chasser les proies qui s'y trouvent (paragraphe 3).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les informations textuelles concernant l'habitat et les ressources trouvées en forêt."
+          },
+          {
+            "id": "A12",
+            "type": "openEnded",
+            "pageReference": 10,
+            "questionText": "Explique les avantages de la vie en meute pour les loups.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que la vie en meute présente des avantages mentionnés dans le texte : le partage de la chasse (paragraphe 4), l'éducation des jeunes (leur apprendre à chasser, reconnaître les proies et le territoire) (paragraphe 4), la protection des jeunes si les parents sont absents (paragraphe 4), et la protection et la communication par le hurlement qui renforce l'esprit de bande (paragraphe 5).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des bénéfices de la vie de groupe (meute) basés sur les informations des paragraphes 4 et 5."
+          }
+        ]
+      },
+      {
+        "id": "A_Ecriture",
+        "title": "Partie A: Écriture",
+        "questions": [
+          {
+            "id": "A13",
+            "type": "openEnded",
+            "pageReference": 11,
+            "questionText": "Pense à un endroit que tu aimerais visiter. Écris un court texte dans lequel tu expliques pourquoi tu voudrais visiter cet endroit.",
+            "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : la clarté de l'idée principale (l'endroit et les raisons de la visite souhaitée), l'organisation du texte, l'utilisation d'un vocabulaire descriptif et explicatif, la variété des phrases et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+            "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture. Le texte doit être un court texte explicatif décrivant un lieu et justifiant le désir de le visiter."
+          }
+        ]
+      },
+      {
+        "id": "B_Lecture_Planchettes",
+        "title": "Partie B: Lecture - La planche à roulettes",
+        "questions": [
+          {
+            "id": "B1",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Quels éléments d'organisation t'aident à prédire le sujet du texte?",
+            "options": [
+              "les guillemets",
+              "les illustrations",
+              "les caractères gras",
+              "les numéros des paragraphes"
+            ],
+            "correctAnswer": "b",
+            "verification": "Bien que le texte complet ne soit pas inclus, le titre et les illustrations (qui seraient présentes dans le livret de lecture) sont les éléments visuels qui aident le plus à anticiper le sujet d'un texte. L'illustration sur la page 14 montre une planche à roulettes et son nom dans le titre, ce qui indique clairement le sujet."
+          },
+          {
+            "id": "B2",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Pourquoi utilise-t-on des virgules au 2ᵉ paragraphe?",
+            "options": [
+              "pour indiquer une énumération",
+              "pour indiquer des mots importants",
+              "pour indiquer que la phrase se termine",
+              "pour indiquer que les personnages parlent"
+            ],
+            "correctAnswer": "a",
+            "verification": "Sans le texte du 2e paragraphe, cette question est difficile à vérifier précisément. Cependant, l'utilisation la plus courante des virgules au 2e paragraphe dans ce type de texte descriptif serait probablement pour séparer des éléments dans une liste ou une série, indiquant ainsi une énumération."
+          },
+          {
+            "id": "B3",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Quel mot a le même sens que « saute » au 4ᵉ paragraphe?",
+            "options": [
+              "coller",
+              "s'accroupir",
+              "bondir",
+              "pivoter"
+            ],
+            "correctAnswer": "c",
+            "verification": "Sans le texte du 4e paragraphe, difficile à vérifier précisément. Cependant, dans le contexte d'un mouvement rapide vers le haut, 'saute' est le plus souvent synonyme de 'bondir'."
+          },
+          {
+            "id": "B4",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Qu'est-ce qu'un Ollie?",
+            "options": [
+              "une technique utilisée par les planchistes",
+              "une marque populaire de planches à roulettes",
+              "une usine de fabrication de planches à roulettes",
+              "une partie de l'équipement porté par les planchistes"
+            ],
+            "correctAnswer": "a",
+            "verification": "Sans le texte du 4e paragraphe, difficile à vérifier précisément. Cependant, un 'Ollie' est une figure fondamentale du skateboard, une technique de saut sans utiliser les mains, confirmant que c'est 'une technique utilisée par les planchistes'."
+          },
+          {
+            "id": "B5",
+            "type": "openEnded",
+            "pageReference": 16,
+            "questionText": "À l'aide du texte, explique comment le sport de la planche à roulettes a changé depuis son invention.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer les changements dans le sport de la planche à roulettes en se basant sur les informations fournies dans le texte (qui n'est pas inclus ici, mais qui décrirait probablement son évolution, par exemple, du simple déplacement à la réalisation de figures).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur des informations textuelles décrivant l'évolution du sport depuis ses débuts."
+          },
+          {
+            "id": "B6",
+            "type": "openEnded",
+            "pageReference": 16,
+            "questionText": "Explique pourquoi la planche à roulettes pourrait être un sport dangereux. Utilise des idées du texte et tes propres idées pour appuyer ta réponse.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer les dangers potentiels en se basant sur le texte (qui pourrait mentionner les chutes, les blessures, la vitesse) et sur ses propres connaissances ou déductions (risques de fractures, entorses, collisions, nécessité d'équipement de protection comme un casque ou des genouillères).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des raisons de dangerosité basées sur le texte (si disponible) ou des connaissances générales pertinentes, et qu'elle peut intégrer des idées personnelles."
+          }
+        ]
+      }
+    ]
+  }

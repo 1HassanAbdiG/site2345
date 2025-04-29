@@ -1,0 +1,329 @@
+{
+    "testTitle": "Français 2 - 3e année - Printemps 2015 (Diffusé)",
+    "sections": [
+      {
+        "id": "C_Lecture",
+        "title": "Partie C: Lecture - À vos marques!",
+        "questions": [
+          {
+            "id": "C1",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Que trouve-t-on dans un texte de ce genre?",
+            "options": [
+              "des indices",
+              "des dialogues",
+              "des étapes à suivre",
+              "des couplets et un refrain"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le texte contient des répliques directes introduites par un tiret, qui représentent des dialogues entre les personnages (ex: « Organisons, nous aussi... » au paragraphe 2, « - Nous n'avons pas... » au paragraphe 3, etc.)."
+          },
+          {
+            "id": "C2",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "À quoi sert la 1ʳᵉ illustration du texte?",
+            "options": [
+              "à montrer un objet important dans l'histoire",
+              "à indiquer à quel moment se déroule l'histoire",
+              "à annoncer la solution au problème dans l'histoire",
+              "à présenter les personnages principaux de l'histoire"
+            ],
+            "correctAnswer": "d",
+            "verification": "La première illustration met en scène l'araignée, la tortue et les escargots, qui sont les animaux participant à la compétition et les personnages principaux de cette partie du récit."
+          },
+          {
+            "id": "C3",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Quel est le sujet dans la phrase : « Tous les animaux approuvent et se promettent de recommencer cette compétition l'année prochaine »?",
+            "options": [
+              "Tous les animaux",
+              "se promettent",
+              "cette compétition",
+              "l'année prochaine"
+            ],
+            "correctAnswer": "a",
+            "verification": "Dans la phrase donnée, le groupe nominal 'Tous les animaux' est le sujet des verbes 'approuvent' et 'se promettent'."
+          },
+          {
+            "id": "C4",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Que signifie le mot « devancer » au 3ᵉ paragraphe?",
+            "options": [
+              "déplacer",
+              "dépasser",
+              "déranger",
+              "dépêcher"
+            ],
+            "correctAnswer": "b",
+            "verification": "Dans le contexte de la course ('la tortue qui ne veut surtout pas se laisser devancer par des escargots'), 'devancer' signifie aller plus vite que quelqu'un d'autre et passer devant lui, c'est-à-dire le 'dépasser'."
+          },
+          {
+            "id": "C5",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Que signifie l'expression « se mesurer » au 4ᵉ paragraphe?",
+            "options": [
+              "s'estimer",
+              "s'agrandir",
+              "se comparer",
+              "se rencontrer"
+            ],
+            "correctAnswer": "c",
+            "verification": "Dans un contexte de compétition ('la grenouille... voit une occasion de plus de se mesurer à la sauterelle'), 'se mesurer à quelqu'un' signifie comparer ses capacités ou performances avec celles de l'autre personne."
+          },
+          {
+            "id": "C6",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "À quel mot se rapporte « rouge » dans la phrase : « Je porterai un maillot rouge à pois noirs, comme mes ailes »?",
+            "options": [
+              "un",
+              "maillot",
+              "pois",
+              "ailes"
+            ],
+            "correctAnswer": "b",
+            "verification": "L'adjectif de couleur 'rouge' qualifie le nom 'maillot'."
+          },
+          {
+            "id": "C7",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Au 5ᵉ paragraphe, quel signe de ponctuation indique une question?",
+            "options": [
+              "le tiret",
+              "la virgule",
+              "le point d'exclamation",
+              "le point d'interrogation"
+            ],
+            "correctAnswer": "d",
+            "verification": "Le point d'interrogation (?) est le signe de ponctuation utilisé pour marquer une question à la fin d'une phrase ('Peut-on tout simplement transporter le poids sur une certaine distance?')."
+          },
+          {
+            "id": "C8",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quelle est l'idée importante du 6ᵉ paragraphe?",
+            "options": [
+              "Les athlètes lancent des objets.",
+              "Les animaux de l'étang s'envolent.",
+              "Les deux compétitions ont lieu en même temps.",
+              "Les athlètes des deux compétitions gagnent des médailles."
+            ],
+            "correctAnswer": "c",
+            "verification": "Le paragraphe 6 décrit l'organisation de la compétition des animaux « Ainsi, les élèves sur la piste d'athlétisme et les animaux près de l'étang participent aux divers sauts, courses et lancers », indiquant que les deux événements se déroulent simultanément."
+          },
+          {
+            "id": "C9",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quel est le sens du mot « déserte » au 7ᵉ paragraphe?",
+            "options": [
+              "vide",
+              "sèche",
+              "éloignée",
+              "nettoyée"
+            ],
+            "correctAnswer": "a",
+            "verification": "Dans le contexte ('la piste d'athlétisme maintenant déserte... Les élèves sont repartis chez eux'), 'déserte' signifie abandonnée, où il n'y a plus personne. 'Vide' est le synonyme le plus approprié."
+          },
+          {
+            "id": "C10",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quelle discipline sportive la grenouille choisit-elle?",
+            "options": [
+              "le saut en hauteur",
+              "le lancer du poids",
+              "le saut en longueur",
+              "la course de cent mètres"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 4 indique clairement : « Quant à elle, la grenouille reconnaît ses habiletés pour le saut en hauteur. »"
+          },
+          {
+            "id": "C11",
+            "type": "openEnded",
+            "pageReference": 5,
+            "questionText": "Décris les ressemblances entre la compétition des animaux de l'étang et celle des élèves sur la piste d'athlétisme.",
+            "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait identifier des points communs entre les deux compétitions, tels que : la participation d'athlètes, la pratique de disciplines similaires (sauts, courses, lancers), le fait qu'elles se déroulent au même moment, ou le sentiment de fierté/récompense (médailles réelles pour les élèves, médailles symboliques – or, argent, bronze de la nature – pour les animaux).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle identifie au moins un ou plusieurs points de ressemblance pertinents basés sur le texte (paragraphes 6 et 7)."
+          },
+          {
+            "id": "C12",
+            "type": "openEnded",
+            "pageReference": 5,
+            "questionText": "Explique pourquoi on peut dire que l'araignée est un personnage important dans ce texte.",
+            "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait expliquer l'importance de l'araignée en mentionnant son rôle moteur dans l'histoire : c'est elle qui a l'idée de la compétition des animaux et la lance (paragraphe 2), elle convainc les escargots d'y participer (paragraphe 3), et elle adapte les règlements pour les fourmis (paragraphe 5). Elle est également celle qui célèbre les « athlètes » à la fin (paragraphe 7).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur le rôle actif et central de l'araignée dans le déroulement du récit, en citant des exemples d'actions ou d'initiatives qu'elle prend."
+          }
+        ]
+      },
+      {
+        "id": "C_Ecriture",
+        "title": "Partie C: Écriture",
+        "questions": [
+          {
+            "id": "C13",
+            "type": "openEnded",
+            "pageReference": 6,
+            "questionText": "Dans un court texte, décris ton repas préféré et explique pourquoi tu l'aimes.",
+            "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : la clarté et le développement de l'idée principale (la description du repas préféré et les raisons de cette préférence), l'organisation du texte, le choix des mots, la variété des phrases et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+            "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture. Le texte doit être un court texte descriptif et explicatif."
+          },
+          {
+            "id": "C14",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Quelle phrase est correcte?",
+            "options": [
+              "Les baleines bleues nagent vite dans l'océan.",
+              "Nagent vite dans l'océan les baleines bleues.",
+              "Dans l'océan nagent vite les baleines bleues.",
+              "Nagent vite les baleines bleues dans l'océan."
+            ],
+            "correctAnswer": "a",
+            "verification": "Dans une phrase déclarative simple en français, l'ordre sujet-verbe-complément est le plus courant et grammaticalement correct. L'option A suit cette structure avec 'Les baleines bleues' (sujet), 'nagent' (verbe) et 'vite dans l'océan' (compléments). Les autres options présentent des inversions du sujet et du verbe moins courantes ou incorrectes."
+          },
+          {
+            "id": "C15",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Ta classe invite des élèves à une activité. Choisis le message qui informe le mieux les invités.",
+            "options": [
+              "Nous vous invitons dans la salle 201 la semaine prochaine.",
+              "Pour vous montrer nos projets, nous vous invitons dans la salle 201 à 10 h.",
+              "Les élèves de 3ᵉ année vous invitent à l'exposition de leurs œuvres d'art, le 6 mai à 10 h dans la salle 201.",
+              "Les élèves de la classe de 3ᵉ année ont réalisé des œuvres d'art. Ils veulent vous présenter leur projet. Les élèves ont travaillé fort."
+            ],
+            "correctAnswer": "c",
+            "verification": "Un message d'invitation efficace doit fournir toutes les informations nécessaires : qui invite ('Les élèves de 3ᵉ année'), qui est invité ('vous'), à quoi ('à l'exposition de leurs œuvres d'art'), quand ('le 6 mai à 10 h'), et où ('dans la salle 201'). Seule l'option C est complète et claire."
+          },
+          {
+            "id": "C16",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Choisis la bonne réponse. ______ je serai adulte, je veux devenir vétérinaire, ______ j'aime les animaux.",
+            "options": [
+              "Si, et",
+              "Quand, ou",
+              "Donc, mais",
+              "Lorsque, car"
+            ],
+            "correctAnswer": "d",
+            "verification": "La première conjonction introduit la proposition subordonnée de temps (moment) : 'Lorsque' ou 'Quand' convient. La deuxième conjonction introduit la cause ou la raison du désir de devenir vétérinaire : 'car' ou 'parce que' convient. Seule l'option D ('Lorsque, car') propose la combinaison logique et grammaticalement correcte."
+          },
+          {
+            "id": "C17",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Lequel des choix ci-dessous est une phrase complète?",
+            "options": [
+              "La girafe au long cou et aux cornes sur sa tête.",
+              "Ces magnifiques girafes dorment toujours debout.",
+              "Plusieurs grosses taches brunes sur le corps de la girafe.",
+              "Boire au bord de la rivière tout près du troupeau de girafes."
+            ],
+            "correctAnswer": "b",
+            "verification": "Une phrase complète doit contenir un sujet et un verbe conjugué. L'option B est la seule qui présente cette structure : 'Ces magnifiques girafes' est le sujet et 'dorment' est le verbe conjugué."
+          }
+        ]
+      },
+      {
+        "id": "D_Lecture",
+        "title": "Partie D: Lecture - Construire un igloo",
+        "questions": [
+          {
+            "id": "D18",
+            "type": "multipleChoice",
+            "pageReference": 10,
+            "questionText": "À quoi sert le paragraphe sous le titre « Construire un igloo »?",
+            "options": [
+              "à décrire le lieu",
+              "à introduire le sujet",
+              "à donner des consignes",
+              "à présenter le problème"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le premier paragraphe sous le titre (page 5) donne des informations générales sur les igloos (ce que c'est, pourquoi c'est bien, ce qu'il faut) avant de commencer les étapes de construction. Il sert donc à introduire le sujet de la construction d'un igloo."
+          },
+          {
+            "id": "D19",
+            "type": "multipleChoice",
+            "pageReference": 10,
+            "questionText": "Pourquoi les blocs doivent-ils être légèrement inclinés vers l'intérieur? (étape 2)",
+            "options": [
+              "pour créer la forme du dôme",
+              "pour rendre l'igloo plus large",
+              "pour créer des trous d'aération",
+              "pour rendre les murs plus épais"
+            ],
+            "correctAnswer": "a",
+            "verification": "L'étape 2 (page 5) et l'illustration associée montrent que l'inclinaison des blocs vers l'intérieur est la technique utilisée pour commencer à former la courbe nécessaire à la construction du dôme (la forme arrondie du toit)."
+          },
+          {
+            "id": "D20",
+            "type": "multipleChoice",
+            "pageReference": 10,
+            "questionText": "Pourquoi doit-on utiliser de la neige compacte pour construire un igloo?",
+            "options": [
+              "pour alléger les blocs",
+              "pour conserver la chaleur",
+              "pour rendre les murs lisses",
+              "pour former des blocs solides"
+            ],
+            "correctAnswer": "d",
+            "verification": "Le paragraphe d'introduction (page 5) précise qu'il faut de la neige « dure et compacte » et explique comment la rendre ainsi ('piétine-la pour la compresser, puis laisse-la geler'). Cette compacité est nécessaire pour pouvoir découper des « grands blocs » (étape 1) qui seront assez solides pour construire les murs sans s'effriter."
+          },
+          {
+            "id": "D21",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "À l'étape 6, que signifie le mot « Tapisse »?",
+            "options": [
+              "Forme",
+              "Monte",
+              "Décore",
+              "Recouvre"
+            ],
+            "correctAnswer": "d",
+            "verification": "À l'étape 6 (page 6), on dit de « Tapisse cette surface de couvertures ou de vêtements chauds. ». 'Tapisser' dans ce contexte signifie couvrir une surface avec quelque chose. 'Recouvre' est le synonyme le plus approprié."
+          },
+          {
+            "id": "D22",
+            "type": "openEnded",
+            "pageReference": 11,
+            "questionText": "Explique comment les illustrations pourraient être utiles pour construire un igloo.",
+            "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait expliquer que les illustrations (pages 5 et 6) visualisent les différentes étapes de construction décrites dans le texte, ce qui rend les instructions plus faciles à comprendre et à suivre. Elles montrent concrètement les actions à réaliser, la forme des blocs, leur positionnement, etc.",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle explique le rôle de l'aide visuelle fournie par les illustrations pour la compréhension des étapes du processus et la réalisation pratique de la construction."
+          },
+          {
+            "id": "D23",
+            "type": "openEnded",
+            "pageReference": 11,
+            "questionText": "Explique pourquoi il est important de demander l'aide d'un adulte pour construire un igloo. Utilise des renseignements du texte pour appuyer ta réponse.",
+            "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait mentionner l'avertissement explicite donné dans le texte (page 5 : « Pour ta sécurité, demande à un adulte de t'aider. »). Elle pourrait aussi s'appuyer sur des éléments implicites comme l'utilisation d'une scie (étape 3) ou la manipulation de grands blocs (étape 1), qui peuvent présenter des risques ou nécessiter de la force, justifiant la supervision ou l'aide d'un adulte pour la sécurité.",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite l'avertissement du texte ou déduit des raisons pertinentes basées sur la tâche et les outils mentionnés."
+          }
+        ]
+      },
+      {
+        "id": "D_Ecriture",
+        "title": "Partie D: Écriture",
+        "questions": [
+          {
+            "id": "D24",
+            "type": "openEnded",
+            "pageReference": 12,
+            "questionText": "Avec les élèves de ta classe, tu présentes un spectacle. Au moment où tu dois entrer en scène, tu te rends compte que... Écris un récit pour raconter ce qui se passe.",
+            "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité du récit : le développement de l'intrigue (ce qui arrive au moment d'entrer en scène et la suite des événements), la présence de personnages, l'établissement d'un cadre (temps et lieu), l'utilisation d'un vocabulaire approprié, l'organisation du texte (début, milieu, fin) et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+            "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève, basée sur la structure narrative et la qualité de la langue pour raconter une histoire à partir de la situation donnée."
+          }
+        ]
+      }
+    ]
+  }

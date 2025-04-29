@@ -1,0 +1,318 @@
+{
+
+  "testTitle": "Français - 3e année - 2016 (Diffusé)",
+ 
+  "pdfPath": "./F3-2011.pdf",
+  "sections": [
+    {
+      "id": "A1_Lecture_Concert",
+      "title": "Partie A1: Lecture - Le premier concert de Jacob",
+      "questions": [
+        {
+          "id": "A1",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "À quoi sert un amplificateur? (2ᵉ paragraphe)",
+          "options": [
+            "à contrôler le son",
+            "à gratter les cordes",
+            "à donner un concert",
+            "à guider le musicien"
+          ],
+          "correctAnswer": "a",
+          "verification": "Le paragraphe 2 mentionne que Jacob branche sa guitare sur l'amplificateur et qu'il 'règle le volume à la puissance maximale'. L'amplificateur sert donc à ajuster et augmenter le volume du son."
+        },
+        {
+          "id": "A2",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Pourquoi les mots « PUISSANT » et « HORRIBLE » sont-ils écrits en lettres majuscules? (2ᵉ paragraphe)",
+          "options": [
+            "pour montrer que Jacob crie fort",
+            "pour indiquer le poids de la guitare",
+            "pour indiquer que le père de Jacob a peur",
+            "pour démontrer la force du bruit de la guitare"
+          ],
+          "correctAnswer": "d",
+          "verification": "L'utilisation des majuscules pour 'PUISSANT' et 'HORRIBLE' (paragraphe 2) sert à mettre l'accent sur ces mots et à exprimer l'intensité très élevée du son produit par la guitare amplifiée, montrant ainsi la force du bruit."
+        },
+        {
+          "id": "A3",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Quel mot « premières » décrit-il au 3ᵉ paragraphe?",
+          "options": [
+            "leçons",
+            "bases",
+            "guitare",
+            "musique"
+          ],
+          "correctAnswer": "a",
+          "verification": "La phrase commence par « Au cours de ses premières leçons... » (paragraphe 3). L'adjectif 'premières' détermine le nom 'leçons'."
+        },
+        {
+          "id": "A4",
+          "type": "multipleChoice",
+          "pageReference": 11,
+          "questionText": "La dernière phrase du texte indique que…",
+          "options": [
+            "Jacob baisse le volume.",
+            "Jacob joue mieux de la guitare.",
+            "le père de Jacob a mal aux oreilles.",
+            "le père de Jacob aime la musique rock."
+          ],
+          "correctAnswer": "b",
+          "verification": "La dernière phrase (paragraphe 5) mentionne que le père n'a plus besoin de se boucher les oreilles en écoutant Jacob jouer. Cela implique que le jeu de Jacob est devenu plus agréable à écouter, donc qu'il joue mieux."
+        },
+        {
+          "id": "A5",
+          "type": "openEnded",
+          "pageReference": 11,
+          "questionText": "Explique comment le père de Jacob a joué un rôle important dans ce texte.",
+          "correctAnswer": "Critères d'évaluation requis - L'élève devrait identifier des actions du père qui montrent son importance : il offre la guitare à Jacob (paragraphe 1), il l'encourage à persévérer (paragraphes 3 et 4), et il assiste à son premier concert (paragraphe 5), démontrant ainsi son soutien et sa présence.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des exemples précis tirés du texte qui illustrent le rôle significatif du père dans le parcours de Jacob."
+        },
+        {
+          "id": "A6",
+          "type": "openEnded",
+          "pageReference": 11,
+          "questionText": "Explique comment Jacob a changé sa façon de jouer de la guitare tout au long du texte.",
+          "correctAnswer": "Critères d'évaluation requis - L'élève devrait décrire l'évolution du jeu de Jacob : au début, le son est 'PUISSANT et HORRIBLE' (paragraphe 2). Avec la pratique, ses doigts s'endurcissent et il progresse 'de façon remarquable' (paragraphe 4). Finalement, il peut jouer un morceau simple ('Frère Jacques') qui n'oblige plus son père à se boucher les oreilles (paragraphe 5).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle décrit les différentes étapes de l'apprentissage de Jacob et la progression de la qualité de son jeu, en se basant sur les informations fournies dans le texte."
+        }
+      ]
+    },
+    {
+      "id": "A2_Lecture_Epaulard",
+      "title": "Partie A2: Lecture - L'épaulard, un dauphin géant",
+      "questions": [
+        {
+          "id": "A7",
+          "type": "multipleChoice",
+          "pageReference": 12,
+          "questionText": "Ce texte est écrit pour les personnes qui...",
+          "options": [
+            "souhaitent inviter un ami à un événement.",
+            "apprécient lire des courts récits d’aventure.",
+            "aiment réaliser des expériences scientifiques.",
+            "veulent acquérir de nouvelles connaissances."
+          ],
+          "correctAnswer": "d",
+          "verification": "Le texte présente des informations factuelles sur l'épaulard. Il est conçu pour informer le lecteur et lui permettre d'en apprendre davantage sur cet animal, donc d'acquérir de nouvelles connaissances."
+        },
+        {
+          "id": "A8",
+          "type": "multipleChoice",
+          "pageReference": 12,
+          "questionText": "À quoi compare-t-on la taille de l’épaulard adulte dans ce texte?",
+          "options": [
+            "à un oiseau de mer",
+            "à la moitié d’un autobus",
+            "à celle d’une baleine bleue",
+            "à celle d’une planche de surf"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le paragraphe 5 indique explicitement que l'épaulard « est aussi long que la moitié d’un autobus ». C'est la comparaison utilisée pour donner une idée de sa taille."
+        },
+        {
+          "id": "A9",
+          "type": "multipleChoice",
+          "pageReference": 12,
+          "questionText": "Comment définit-on le mot « mammifère » dans ce texte? (4ᵉ paragraphe)",
+          "options": [
+            "La mère allaite le bébé.",
+            "La mère apporte des poissons.",
+            "Le petit apprend à chasser avec sa mère.",
+            "Le petit reste avec sa mère pendant deux ans."
+          ],
+          "correctAnswer": "a",
+          "verification": "Le paragraphe 4 explique que les épaulards sont des mammifères 'Parce que les épaulards sont des mammifères, la mère allaite le bébé'. Dans ce contexte, le fait d'allaiter le bébé est la caractéristique donnée pour identifier un mammifère."
+        },
+        {
+          "id": "A10",
+          "type": "multipleChoice",
+          "pageReference": 13,
+          "questionText": "Pourquoi les épaulards se regroupent-ils?",
+          "options": [
+            "pour s’occuper des bébés",
+            "pour démontrer leur amitié",
+            "pour trouver leur nourriture",
+            "pour se protéger des dangers"
+          ],
+          "correctAnswer": "c",
+          "verification": "Le paragraphe 3 indique que les épaulards 'chassent souvent en groupe, surtout pour capturer une grosse proie comme une baleine bleue'. Se regrouper les aide donc directement à trouver leur nourriture."
+        },
+        {
+          "id": "A11",
+          "type": "openEnded",
+          "pageReference": 13,
+          "questionText": "À l’aide du texte, compare l’épaulard au dauphin.",
+          "correctAnswer": "Critères d'évaluation requis - L'élève devrait identifier les ressemblances mentionnées dans le texte : l'épaulard fait partie de la même famille que les dauphins (paragraphe 1). Comme les dauphins, il peut surfer sur les vagues et bondir hors de l'eau (paragraphe 5). Le texte note aussi que le comportement de frottement/léchage entre épaulards est observé chez les dauphins (paragraphe 3). L'épaulard est aussi le plus grand des dauphins (paragraphe 5).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des points de comparaison spécifiques entre l'épaulard et le dauphin mentionnés dans le texte."
+        },
+        {
+          "id": "A12",
+          "type": "openEnded",
+          "pageReference": 13,
+          "questionText": "Pourquoi peut-on dire que les épaulards ont besoin les uns des autres?",
+          "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que les épaulards ont besoin des autres membres du groupe pour plusieurs raisons mentionnées ou impliquées dans le texte : ils chassent souvent en groupe pour capturer de grosses proies (paragraphe 3), ils font preuve de douceur entre eux (se frottent, se lèchent) ce qui suggère un besoin social (paragraphe 3), la mère allaite le bébé et lui apporte des poissons (paragraphe 4), le petit apprend à chasser en imitant sa mère (paragraphe 4). Ces éléments montrent une interdépendance pour la survie (nourriture), l'apprentissage et le lien social.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les comportements des épaulards décrits dans le texte qui démontrent leur interdépendance pour la survie, l'apprentissage et le bien-être du groupe."
+        }
+      ]
+    },
+    {
+      "id": "A_Ecriture_1",
+      "title": "Partie A3: Écriture",
+      "questions": [
+        {
+          "id": "A13",
+          "type": "openEnded",
+          "pageReference": 14,
+          "questionText": "Quels jeux t’intéressent davantage : les jeux de société ou les jeux électroniques? Écris un court texte pour expliquer ton choix.",
+          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : la clarté de l'idée principale (le type de jeu préféré et la justification du choix), l'organisation du texte, l'utilisation d'un vocabulaire pertinent, la variété des phrases et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture. Le texte doit présenter un choix argumenté entre les deux options de jeux."
+        }
+      ]
+    },
+    {
+      "id": "A_Ecriture_2",
+      "title": "Partie A4: Questions à choix multiple en écriture",
+      "questions": [
+        {
+          "id": "A14",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Quelle phrase est correcte?",
+          "options": [
+            "Jamil hier a mangé un morceau de melon d’eau.",
+            "Jamil un morceau de melon d’eau a mangé hier.",
+            "Hier, un morceau de melon d’eau Jamil a mangé.",
+            "Hier, Jamil a mangé un morceau de melon d’eau."
+          ],
+          "correctAnswer": "d",
+          "verification": "La structure de phrase la plus standard en français place généralement le complément de temps ('Hier') en début ou fin de phrase, suivi du sujet ('Jamil'), du verbe ('a mangé') et du complément d'objet direct ('un morceau de melon d’eau'). L'option D respecte cette structure conventionnelle."
+        },
+        {
+          "id": "A15",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Place les phrases ci-dessous dans l’ordre pour créer un paragraphe. (1) Patins en main, j’invite mon ami à m’accompagner. (2) J’en emprunte une paire à mon voisin. (3) Après l’activité, nous nous reposons en buvant un grand verre de limonade. (4) Aujourd’hui, je veux patiner mais je n’ai pas de patins.",
+          "options": [
+            "3, 4, 1, 2",
+            "4, 2, 1, 3",
+            "1, 2, 3, 4",
+            "4, 1, 2, 3"
+          ],
+          "correctAnswer": "b",
+          "verification": "L'ordre logique des actions est : d'abord vouloir patiner mais constater le manque de patins (4), ensuite trouver une solution pour avoir des patins (2), puis inviter un ami et présumément patiner (1), et enfin se reposer après l'activité (3). L'option B (4, 2, 1, 3) suit cette séquence."
+        },
+        {
+          "id": "A16",
+          "type": "multipleChoice",
+          "pageReference": 17,
+          "questionText": "Quelle phrase combine le mieux les trois énoncés ci-dessous? L’éléphant se baigne dans la mare. Il s’arrose avec sa trompe. Il fait chaud.",
+          "options": [
+            "L’éléphant se baigne dans la mare et il s’arrose avec sa trompe, car il fait chaud.",
+            "L’éléphant se baigne dans la mare, car il s’arrose avec sa trompe et il fait chaud.",
+            "L’éléphant se baigne dans la mare, mais il s’arrose avec sa trompe ou il fait chaud.",
+            "L’éléphant se baigne dans la mare quand il s’arrose avec sa trompe, mais il fait chaud."
+          ],
+          "correctAnswer": "a",
+          "verification": "La phrase correcte doit lier les trois idées de manière logique et grammaticale. L'éléphant se baigne ET s'arrose (deux actions liées par 'et'). La raison pour laquelle il fait ces actions est qu'il fait chaud ('car'). L'option A combine correctement ces éléments, indiquant que les deux actions (se baigner et s'arroser) sont une conséquence de la chaleur."
+        },
+        {
+          "id": "A17",
+          "type": "multipleChoice",
+          "pageReference": 17,
+          "questionText": "Choisis le mot qui a le même sens que « bon » dans la phrase suivante. Le macaroni au fromage que mon père a préparé est bon.",
+          "options": [
+            "mou",
+            "collant",
+            "brûlant",
+            "délicieux"
+          ],
+          "correctAnswer": "d",
+          "verification": "Dans le contexte culinaire, l'adjectif 'bon' qualifie positivement le goût d'un aliment. 'Délicieux' est un synonyme qui exprime un goût très agréable."
+        }
+      ]
+    },
+    {
+      "id": "B1_Lecture_BandeAutoAgrippante",
+      "title": "Partie B1: Lecture - La bande auto-agrippante",
+      "questions": [
+        {
+          "id": "B1",
+          "type": "multipleChoice",
+          "pageReference": 18,
+          "questionText": "Qu’est-ce qui t’aide à comprendre ce qu’est une fleur de bardane?",
+          "options": [
+            "le titre",
+            "la 1ʳᵉ photo",
+            "les mots entre guillemets",
+            "le sous-titre du 2ᵉ paragraphe"
+          ],
+          "correctAnswer": "b",
+          "verification": "La première photo sur la page 6 (référencée par la question sur la page 18) montre une vue rapprochée d'une fleur de bardane, permettant au lecteur de visualiser à quoi ressemble cette fleur."
+        },
+        {
+          "id": "B2",
+          "type": "multipleChoice",
+          "pageReference": 18,
+          "questionText": "Le « VELCRO »® est...",
+          "options": [
+            "un vêtement.",
+            "un ingénieur.",
+            "une fleur de bardane.",
+            "une bande auto-agrippante."
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe 1 explique que la bande auto-agrippante est produite sous la marque « VELCRO® ». Le VELCRO est donc la marque de la bande auto-agrippante."
+        },
+        {
+          "id": "B3",
+          "type": "multipleChoice",
+          "pageReference": 18,
+          "questionText": "Quel sous-titre pourrait-on donner au 3ᵉ paragraphe?",
+          "options": [
+            "La texture des poils d’animaux",
+            "Le fonctionnement d’un microscope",
+            "L’inspiration de Georges de Mestral",
+            "Les promenades de Georges de Mestral"
+          ],
+          "correctAnswer": "c",
+          "verification": "Le paragraphe 3 décrit comment Georges de Mestral a examiné les fleurs de bardane au microscope, compris pourquoi elles collaient (grâce aux crochets), et comment cela lui a donné l'idée de son invention. Le paragraphe explique donc la source de son inspiration."
+        },
+        {
+          "id": "B4",
+          "type": "multipleChoice",
+          "pageReference": 19,
+          "questionText": "Dans le groupe de mots : « leurs combinaisons spatiales et leurs casques », le mot « leurs » est...",
+          "options": [
+            "un nom.",
+            "un verbe.",
+            "un adjectif.",
+            "un déterminant."
+          ],
+          "correctAnswer": "d",
+          "verification": "'Leurs' est un mot placé avant un nom ('combinaisons', 'casques') pour indiquer l'appartenance et déterminer ce nom. C'est un déterminant possessif au pluriel."
+        },
+        {
+          "id": "B5",
+          "type": "openEnded",
+          "pageReference": 19,
+          "questionText": "Explique comment fonctionne la bande auto-agrippante.",
+          "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que la bande auto-agrippante se compose de deux surfaces différentes : une avec des petites boucles (côté « velours ») et l'autre avec des petits crochets (côté « crochet »). Le texte (paragraphes 4 et 5) décrit comment les crochets s'agrippent aux boucles lorsque les deux surfaces sont pressées l'une contre l'autre, et comment elles se séparent lorsqu'on tire dessus.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle décrit correctement les deux parties de la bande (boucles et crochets) et le mécanisme d'accrochage/désaccrochage en se basant sur les informations des paragraphes 4 et 5."
+        },
+        {
+          "id": "B6",
+          "type": "openEnded",
+          "pageReference": 19,
+          "questionText": "Crois-tu que la bande auto-agrippante rend la vie des gens plus facile? Explique ta réponse à l’aide du texte et de tes idées.",
+          "correctAnswer": "Critères d'évaluation requis - L'élève doit exprimer son opinion (oui ou non) et la justifier. Une réponse positive devrait s'appuyer sur les utilisations mentionnées dans le texte (chaussures, vêtements, autres objets du quotidien, même par les astronautes - paragraphe 6) pour montrer la facilité d'utilisation (implicite par rapport à d'autres systèmes comme les lacets, boutons, fermetures éclair) et la réutilisabilité (paragraphe 5). L'élève peut ajouter des exemples personnels (facilité pour les enfants, rapidité). Une réponse négative (moins probable) devrait être justifiée par des inconvénients perçus (ex: bruit en s'ouvrant, usure, accumulation de saletés, aspect moins esthétique).",
+          "verification": "L'évaluation requiert une analyse de l'argumentation de l'élève, en vérifiant que sa réponse est justifiée de manière cohérente par des éléments du texte (utilisations variées, réutilisabilité) et/ou des idées personnelles pertinentes."
+        }
+      ]
+    }
+  ]
+}

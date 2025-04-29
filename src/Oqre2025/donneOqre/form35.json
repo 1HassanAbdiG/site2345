@@ -1,0 +1,385 @@
+{
+    "testTitle": "Français 1 - 3e année - Printemps 2014 (Diffusé)",
+    "sections": [
+      {
+        "id": "C_Lecture_CasseNoisette",
+        "title": "Partie C: Lecture - Un gros casse-noisette",
+        "questions": [
+          {
+            "id": "C1",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Pourquoi a-t-on écrit ce texte?",
+            "options": [
+              "pour décrire ce que mangent les oiseaux",
+              "pour nous raconter l'aventure des deux amis",
+              "pour expliquer comment casser des noisettes",
+              "pour nous convaincre d'observer les corbeaux"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le texte raconte une histoire où Joshua et Tristan sont les personnages principaux et vivent une petite aventure impliquant un corbeau et un gland. Le but est de narrer cet événement."
+          },
+          {
+            "id": "C2",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Que signifie le mot « ton » au 2ᵉ paragraphe?",
+            "options": [
+              "un bruit",
+              "un regard",
+              "une attitude",
+              "une chanson"
+            ],
+            "correctAnswer": "c",
+            "verification": "La phrase « Le garçon trouve que son cri a un ton légèrement plaintif » (paragraphe 2) utilise 'ton' dans le sens de la manière dont quelque chose est dit ou fait, ici la qualité du cri. Cela réfère à une 'attitude' ou une manière."
+          },
+          {
+            "id": "C3",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Pourquoi utilise-t-on des tirets dans ce texte?",
+            "options": [
+              "pour énumérer une liste d'objets",
+              "pour séparer les différents paragraphes",
+              "pour montrer que les personnages parlent",
+              "pour indiquer que c'est le début d'une phrase"
+            ],
+            "correctAnswer": "c",
+            "verification": "Les tirets sont utilisés pour introduire les répliques de Joshua et Tristan dans le dialogue (« - Aïe! », « - C'est le grand corbeau », etc.), indiquant ainsi que des personnages parlent."
+          },
+          {
+            "id": "C4",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "À quel mot se rapporte « dure » dans la phrase : « Ma tête n'était pas assez dure pour casser le gland »? (2ᵉ paragraphe)",
+            "options": [
+              "Ma",
+              "tête",
+              "casser",
+              "gland"
+            ],
+            "correctAnswer": "b",
+            "verification": "L'adjectif 'dure' qualifie le nom 'tête', indiquant sa qualité ou sa caractéristique."
+          },
+          {
+            "id": "C5",
+            "type": "multipleChoice",
+            "pageReference": 6,
+            "questionText": "Que signifie l'expression « sans tarder » au 4ᵉ paragraphe?",
+            "options": [
+              "lentement",
+              "facilement",
+              "bruyamment",
+              "immédiatement"
+            ],
+            "correctAnswer": "d",
+            "verification": "L'expression « démarre sans tarder » (paragraphe 4) signifie que la personne démarre tout de suite, sans attendre, c'est-à-dire 'immédiatement'."
+          },
+          {
+            "id": "C6",
+            "type": "multipleChoice",
+            "pageReference": 6,
+            "questionText": "Quelle est l'idée importante du 4ᵉ paragraphe?",
+            "options": [
+              "La roue écrase le gland.",
+              "L'homme monte dans sa voiture.",
+              "Joshua ne termine pas sa question.",
+              "Joshua et Tristan observent le corbeau."
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 4 décrit l'arrivée de l'homme, son départ rapide en voiture, et l'événement marquant qui en résulte : « La roue avant du côté du chauffeur écrase le gland. Crac! » C'est l'action qui crée la nouvelle situation pour le corbeau."
+          },
+          {
+            "id": "C7",
+            "type": "multipleChoice",
+            "pageReference": 6,
+            "questionText": "Par quel mot peut-on remplacer « picorer » au 5ᵉ paragraphe?",
+            "options": [
+              "jeter",
+              "choisir",
+              "écraser",
+              "grignoter"
+            ],
+            "correctAnswer": "d",
+            "verification": "Dans la phrase « Il se met à picorer les morceaux du gland écrasé » (paragraphe 5), 'picorer' signifie prendre de petits morceaux de nourriture avec le bec. 'Grignoter' est le mot qui décrit le mieux l'action de manger de petits morceaux."
+          },
+          {
+            "id": "C8",
+            "type": "multipleChoice",
+            "pageReference": 6,
+            "questionText": "Quel est l'élément déclencheur du texte?",
+            "options": [
+              "Le corbeau invente un outil.",
+              "Un groupe de corbeaux croasse.",
+              "Le corbeau fait tomber un gland.",
+              "Un corbeau se pose sur une branche."
+            ],
+            "correctAnswer": "c",
+            "verification": "L'histoire commence réellement lorsque le corbeau se pose sur la branche et que ce mouvement « fait vibrer la branche. Un gland se détache et tombe au sol. » (paragraphe 1). C'est la chute du gland qui initie l'interaction et le déroulement de l'histoire."
+          },
+          {
+            "id": "C9",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "Au 5ᵉ paragraphe, pourquoi le corbeau vole-t-il vers l'endroit où l'automobile était stationnée?",
+            "options": [
+              "pour picorer le gland",
+              "pour surprendre Joshua",
+              "pour faire rire les garçons",
+              "pour laisser tomber un gland"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le paragraphe 5 explique clairement que le corbeau se dirige vers l'endroit où la voiture était stationnée afin de « picorer les morceaux du gland écrasé », car c'est maintenant « son repas délicieux »."
+          },
+          {
+            "id": "C10",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "À quel mot se rapporte « géant » dans la phrase : « Les corbeaux ont inventé des casse-noisettes, et en format géant en plus »? (6ᵉ paragraphe)",
+            "options": [
+              "corbeaux",
+              "inventé",
+              "format",
+              "plus"
+            ],
+            "correctAnswer": "c",
+            "verification": "Dans l'expression « en format géant », l'adjectif 'géant' décrit le 'format' ou la taille du casse-noisette inventé par les corbeaux (l'automobile qui écrase le gland)."
+          },
+          {
+            "id": "C11",
+            "type": "openEnded",
+            "pageReference": 8,
+            "questionText": "À l'aide du texte, explique comment le corbeau démontre qu'il est intelligent.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que le corbeau démontre son intelligence en utilisant un outil (l'automobile) pour casser le gland, au lieu d'essayer de le faire lui-même directement. Il a trouvé une solution ingénieuse à son problème de nourriture en profitant d'une situation imprévue (le passage de la voiture).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle identifie l'utilisation de l'automobile comme un outil pour casser le gland et explique en quoi cette action témoigne d'une forme d'intelligence ou de ruse, en se référant aux paragraphes 4, 5 et 6."
+          },
+          {
+            "id": "C12",
+            "type": "openEnded",
+            "pageReference": 8,
+            "questionText": "Crois-tu que les événements de ce texte pourraient arriver dans la vraie vie? Explique ta réponse.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève peut répondre oui ou non, ou partiellement. La justification est essentielle. Une réponse positive pourrait se baser sur le fait que les corbeaux sont connus pour être intelligents et utiliser des outils. Une réponse négative pourrait souligner que l'utilisation spécifique d'une voiture pour casser un gland est improbable, ou que les dialogues et pensées attribués aux animaux relèvent de la fiction. La réponse doit être argumentée.",
+            "verification": "L'évaluation requiert une analyse de l'argumentation de l'élève, en vérifiant que sa réponse est justifiée par des arguments logiques, basés ou non sur le texte, et qu'elle exprime clairement son opinion et les raisons qui la sous-tendent."
+          }
+        ]
+      },
+      {
+        "id": "C_Ecriture",
+        "title": "Partie C: Écriture",
+        "questions": [
+          {
+            "id": "C13",
+            "type": "openEnded",
+            "pageReference": 9,
+            "questionText": "Aimerais-tu mieux vivre à la campagne ou en ville? Écris un court texte pour expliquer ton choix.",
+            "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : la clarté de l'idée principale (la préférence pour la campagne ou la ville et les raisons), l'organisation du texte (introduction, développement des raisons, conclusion), l'utilisation d'un vocabulaire approprié (descriptif, justificatif), la variété des phrases et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+            "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture. Le texte doit présenter un choix et le justifier de manière cohérente."
+          },
+          {
+            "id": "C14",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "Choisis la meilleure phrase de conclusion pour ce paragraphe. [Ce soir, c'est mon dernier cours de natation. Mon entraîneur m'invite à monter sur le plus haut plongeoir. Je réussis mon plongeon pour la première fois.]",
+            "options": [
+              "J'ai peur de l'eau.",
+              "Je suis fier de moi.",
+              "J'attends mon tour pour plonger.",
+              "Je monte les escaliers du plongeoir."
+            ],
+            "correctAnswer": "b",
+            "verification": "Le paragraphe décrit un accomplissement ('Je réussis mon plongeon pour la première fois') après une invitation à relever un défi. La phrase 'Je suis fier de moi' exprime le sentiment logique de satisfaction lié à cette réussite."
+          },
+          {
+            "id": "C15",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "Quelle phrase est correcte?",
+            "options": [
+              "J'aime mieux la musique que les arts plastiques.",
+              "J'aime meilleur la musique que les arts plastiques.",
+              "J'aime beaucoup la musique que les arts plastiques.",
+              "J'aime plus mieux la musique que les arts plastiques."
+            ],
+            "correctAnswer": "a",
+            "verification": "L'expression correcte pour marquer une préférence est 'aimer mieux'. L'option A est la seule qui utilise cette expression grammaticalement correcte. Les autres options contiennent des erreurs ('meilleur' au lieu de 'mieux', 'beaucoup que' au lieu de 'mieux', 'plus mieux' qui est incorrect)."
+          },
+          {
+            "id": "C16",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "Choisis la bonne réponse. Gabriel aime beaucoup ses leçons de piano. Il écoute ______ les instructions de son enseignante.",
+            "options": [
+              "rarement",
+              "lentement",
+              "énormément",
+              "attentivement"
+            ],
+            "correctAnswer": "d",
+            "verification": "Pour apprendre correctement le piano, il est nécessaire d'écouter les instructions de l'enseignante avec attention. L'adverbe 'attentivement' décrit cette action."
+          },
+          {
+            "id": "C17",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "Choisis la bonne réponse. Je joue au hockey ______ au soccer, ______ j'aime les sports.",
+            "options": [
+              "et, car",
+              "et, mais",
+              "mais, car",
+              "ou, quand"
+            ],
+            "correctAnswer": "a",
+            "verification": "La première conjonction relie deux sports pratiqués : 'et'. La deuxième conjonction introduit la raison pour laquelle ces sports sont pratiqués : 'car'. La combinaison 'et, car' établit la relation logique correcte : 'Je joue au hockey et au soccer, car j'aime les sports'."
+          }
+        ]
+      },
+      {
+        "id": "D_Lecture",
+        "title": "Partie D: Lecture - Le lémur",
+        "questions": [
+          {
+            "id": "D1",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "À quoi sert la carte dans ce texte?",
+            "options": [
+              "à situer le continent de l'Afrique",
+              "à situer le continent de l'Amérique du Nord",
+              "à indiquer la distance entre l'Ontario et Madagascar",
+              "à indiquer la grandeur de l'Ontario et de Madagascar"
+            ],
+            "correctAnswer": "c",
+            "verification": "La carte (page 13) montre le Canada/Ontario, l'Afrique et Madagascar. La ligne droite et la distance de 14 328 km sont dessinées entre l'Ontario et Madagascar, illustrant la distance qui les sépare."
+          },
+          {
+            "id": "D2",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Par quel mot peut-on remplacer « connu » au 1ᵉʳ paragraphe?",
+            "options": [
+              "célèbre",
+              "sérieux",
+              "énergique",
+              "intelligent"
+            ],
+            "correctAnswer": "a",
+            "verification": "Dans le contexte « Il est plus connu depuis quelques années », 'connu' signifie que beaucoup de gens en ont entendu parler ou le reconnaissent, surtout en relation avec un film d'animation populaire mentionné. 'Célèbre' est le synonyme le plus proche."
+          },
+          {
+            "id": "D3",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "À quoi sert la queue du lémur?",
+            "options": [
+              "à dégager une odeur",
+              "à indiquer sa position",
+              "à chercher sa nourriture",
+              "à voyager d'un arbre à l'autre"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le schéma légendé (page 13) indique clairement : « Quand il marche, il dresse sa queue pour laisser savoir au groupe où il se trouve. » La queue sert donc 'à indiquer sa position'."
+          },
+          {
+            "id": "D4",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Quel sous-titre peut-on donner au dernier paragraphe du texte?",
+            "options": [
+              "Habitat",
+              "Apparence",
+              "Comportement",
+              "Communication"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le dernier paragraphe du texte (page 14) décrit comment les lémurs vivent en groupe, se lavent les uns les autres, s'occupent des bébés, se serrent pour se réchauffer et hurlent pour se rassembler/protéger/communiquer. Toutes ces actions décrivent leur manière d'être et d'interagir, c'est-à-dire leur 'Comportement'."
+          },
+          {
+            "id": "D5",
+            "type": "openEnded",
+            "pageReference": 16,
+            "questionText": "À l'aide du texte, explique comment les lémurs se protègent.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que les lémurs se protègent de différentes manières mentionnées dans le texte : en se cachant dans les arbres lorsqu'ils se sentent en danger (page 14), en dégageant une odeur forte avec une glande pour chasser l'ennemi (schéma page 13), en vivant en groupe pour assurer leur sécurité (page 14), en hurlant pour se protéger et renforcer l'esprit de bande (page 14).",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des moyens de protection des lémurs basés sur le texte (pages 13 et 14)."
+          },
+          {
+            "id": "D6",
+            "type": "openEnded",
+            "pageReference": 16,
+            "questionText": "Explique comment les illustrations t'aident à comprendre les renseignements au sujet des lémurs.",
+            "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que les illustrations (schéma légendé du lémur et photo d'un groupe) visualisent les informations données dans le texte, rendant la description de l'animal et de son comportement plus concrète. Par exemple, le schéma montre les caractéristiques physiques et leur fonction, et la photo montre comment ils vivent en groupe.",
+            "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle explique le rôle de l'aide visuelle pour comprendre les informations (apparence, caractéristiques, comportement social) et qu'elle peut lier des illustrations spécifiques à des renseignements précis du texte."
+          }
+        ]
+      },
+      {
+        "id": "D_Ecriture",
+        "title": "Partie D: Écriture",
+        "questions": [
+          {
+            "id": "D7",
+            "type": "openEnded",
+            "pageReference": 17,
+            "questionText": "Un matin d'été, tu découvres une montagne de jouets au bout de ta rue. Écris un récit pour raconter ce qui se passe après cette découverte.",
+            "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité du récit : le développement de l'intrigue (la suite des événements après la découverte), la présence de personnages, l'établissement d'un cadre (temps et lieu), l'utilisation d'un vocabulaire approprié, l'organisation du texte (début, milieu, fin) et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+            "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève, basée sur la structure narrative et la qualité de la langue pour développer une histoire à partir de la situation initiale donnée."
+          },
+          {
+            "id": "D8",
+            "type": "multipleChoice",
+            "pageReference": 20,
+            "questionText": "Choisis la meilleure phrase d'introduction pour ce paragraphe.",
+            "options": [
+              "Soudain, une des voitures quitte la piste et perd une roue. Un mécanicien remplace celle-ci.",
+              "La piste de course est de forme ovale.",
+              "La course automobile est commencée.",
+              "Les spectateurs félicitent le vainqueur."
+            ],
+            "correctAnswer": "c",
+            "verification": "Un paragraphe doit commencer par introduire le sujet. L'option C annonce le début de l'événement principal, la course automobile, ce qui est une introduction logique à un récit ou une description de course. Les autres options décrivent des événements spécifiques ou des faits secondaires qui conviendraient mieux plus loin dans le texte."
+          },
+          {
+            "id": "D9",
+            "type": "multipleChoice",
+            "pageReference": 20,
+            "questionText": "Quelle est la forme négative de la phrase ci-dessous? Maxime veut manger son dessert.",
+            "options": [
+              "Maxime veut ne manger son dessert.",
+              "Maxime ne veut pas manger son dessert.",
+              "Maxime veut pas manger son dessert.",
+              "Maxime ne veut pas manger son dessert."
+            ],
+            "correctAnswer": "b",
+            "verification": "La forme négative correcte en français utilise 'ne... pas' autour du verbe conjugué ('veut'). L'option B et D sont identiques et grammaticalement correctes."
+          },
+          {
+            "id": "D10",
+            "type": "multipleChoice",
+            "pageReference": 20,
+            "questionText": "Quel groupe de mots est écrit correctement?",
+            "options": [
+              "les beau chats noir",
+              "les beau chats noirs",
+              "les beaux chats noirs",
+              "les beaux chats noires"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le déterminant 'les' indique que le groupe nominal est au pluriel. Le nom 'chats' est masculin et au pluriel. Les adjectifs 'beaux' (forme plurielle de 'beau') et 'noirs' (accordé en genre et nombre avec 'chats') doivent s'accorder. 'Les beaux chats noirs' est l'accord correct. Les options C et D sont identiques."
+          },
+          {
+            "id": "D11",
+            "type": "multipleChoice",
+            "pageReference": 20,
+            "questionText": "Quelle phrase n'appartient pas à ce paragraphe? (1) Joël aime beaucoup lire pour se détendre. (2) Jouer du piano est son passe-temps préféré. (3) Il aimerait bien avoir la nouvelle bande dessinée de son auteur favori. (4) Elle sera disponible à la bibliothèque mercredi prochain.",
+            "options": [
+              "phrase 1",
+              "phrase 2",
+              "phrase 3",
+              "phrase 4"
+            ],
+            "correctAnswer": "b",
+            "verification": "Les phrases 1, 3 et 4 parlent de l'intérêt de Joël pour la lecture et les bandes dessinées. La phrase 2 introduit un autre passe-temps (le piano) qui n'est pas lié au thème de la lecture dans ce paragraphe."
+          }
+        ]
+      }
+    ]
+  }
