@@ -16,10 +16,10 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 // --- Configuration Spécifique au Jeu des 5 Sens (AVEC IMAGES) ---
 const sensesGameConfig = [
-    { columnId: 'vue', headerImage: '/5sensorgane/yeux.png', correctAnswers: { sens: 'la vue', organe: 'l\'oeil / les yeux', action: 'voir / regarder' }, targetIds: { sens: 'sens-vue', organe: 'organe-vue', action: 'action-vue' } },
-    { columnId: 'gout', headerImage: '/5sensorgane/langue.png', correctAnswers: { sens: 'le goût', organe: 'la langue', action: 'goûter / déguster' }, targetIds: { sens: 'sens-gout', organe: 'organe-gout', action: 'action-gout' } },
+    { columnId: 'vue', headerImage: '/5sensorgane/yeux.png', correctAnswers: { sens: 'la vue', organe: 'les yeux', action: 'regarder' }, targetIds: { sens: 'sens-vue', organe: 'organe-vue', action: 'action-vue' } },
+    { columnId: 'gout', headerImage: '/5sensorgane/langue.png', correctAnswers: { sens: 'le goût', organe: 'la langue', action: 'goûter' }, targetIds: { sens: 'sens-gout', organe: 'organe-gout', action: 'action-gout' } },
     { columnId: 'toucher', headerImage: '/5sensorgane/toucher.png', correctAnswers: { sens: 'le toucher', organe: 'la peau', action: 'toucher' }, targetIds: { sens: 'sens-toucher', organe: 'organe-toucher', action: 'action-toucher' } },
-    { columnId: 'ouie', headerImage: '/5sensorgane/oreille.png', correctAnswers: { sens: 'l\'ouïe', organe: 'l\'oreille', action: 'entendre / écouter' }, targetIds: { sens: 'sens-ouie', organe: 'organe-ouie', action: 'action-ouie' } },
+    { columnId: 'ouie', headerImage: '/5sensorgane/oreille.png', correctAnswers: { sens: 'l\'ouïe', organe: 'l\'oreille', action: 'écouter' }, targetIds: { sens: 'sens-ouie', organe: 'organe-ouie', action: 'action-ouie' } },
     { columnId: 'odorat', headerImage: '/5sensorgane/nez.png', correctAnswers: { sens: 'l\'odorat', organe: 'le nez', action: 'sentir' }, targetIds: { sens: 'sens-odorat', organe: 'organe-odorat', action: 'action-odorat' } },
 ];
 
