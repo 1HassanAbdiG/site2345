@@ -24,7 +24,7 @@ const sensesGameConfig = [
 ];
 
 // Liste de toutes les étiquettes uniques
-const allLabelsList = ['la vue', 'le goût', 'le toucher', 'l\'ouïe', 'l\'odorat', 'l\'oeil / les yeux', 'la langue', 'la peau', 'l\'oreille', 'le nez', 'voir / regarder', 'goûter / déguster', 'toucher', 'entendre / écouter', 'sentir'];
+const allLabelsList = ['la vue', 'le goût', 'le toucher', 'l\'ouïe', 'l\'odorat', 'l\'oeil / les yeux', 'la langue', 'la peau', 'l\'oreille', 'le nez', 'regarder', 'goûter', 'toucher', 'écouter', 'sentir'];
 const CATEGORY_ROWS = [{ id: 'sens', label: 'Le sens' }, { id: 'organe', label: 'L\'organe' }, { id: 'action', label: 'L\'action' }];
 const MAX_SCORE = sensesGameConfig.length * CATEGORY_ROWS.length;
 
