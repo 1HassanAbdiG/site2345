@@ -4,11 +4,12 @@ import { Button, Box, Container, Grid, Typography } from "@mui/material";
 import ExerciseImage from "./syllabe1eanné";
 import RelieFleche from "./relieFleche";
 import SingPluriel from "./grammaire1_2e/singpr";
-import HistoireGirafe from "./Text1e/Girafe/tex3";
+//import HistoireGirafe from "./Text1e/Girafe/tex3";
 import JeuLecture from "../Lecture1ephrase/lecture";
 //import Alimentation from "./Text1e/Alimentation1/aliment";
 import FoodGuideActivities from "./Text1e/Alimentation/alimentation";
 import SensesGamesContainer from "./corps/jeuorgane";
+import Organedesens from "./corps/texteCorps/tex3";
 
 
 
@@ -73,10 +74,10 @@ export default function Exercice1e2e() {
                 </Grid>
                 <Grid item>
                     <CustomButton
-                        onClick={() => handleButtonClick("lectureGirafe")}
-                        label="Lecture : Girafe"
+                        onClick={() => handleButtonClick("Organesens")}
+                        label="Lecture : Les 5 sens"
                         color="success"
-                        disabled={visibleComponent === "lectureGirafe"}
+                        disabled={visibleComponent === "Organesens"}
                     />
                 </Grid>
                 <Grid item>
@@ -111,7 +112,7 @@ export default function Exercice1e2e() {
                 {visibleComponent === "syllabes" && <ExerciseImage />}
                 {visibleComponent === "relieFleche" && <RelieFleche />}
                 {visibleComponent === "singPluriel" && <SingPluriel />}
-                {visibleComponent === "lectureGirafe" && <HistoireGirafe />}
+                {visibleComponent === "Organesens" && <Organedesens />}
                 {visibleComponent === "alimentation" && <FoodGuideActivities />}
                 {visibleComponent === "jeuLecture" && <JeuLecture />}
                 {visibleComponent === "organes" && <SensesGamesContainer />}

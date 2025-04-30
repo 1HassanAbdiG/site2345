@@ -1,0 +1,36 @@
+{
+    "title": "Les 5 sens",
+    "sections": [
+      {
+        "title": "La vue",
+        "text": "L’organe de la vue est l’œil. \nGrâce à lui, nous pouvons voir les couleurs, les formes et les tailles des objets.",
+        "image": "1",
+        "audio": "1"
+      },
+      {
+        "title": "L’ouïe",
+        "text": "Les organes de l’ouïe sont les oreilles. \nElles nous permettent d’entendre les sons : un bruit peut être aigu ou grave, fort ou faible, court ou long, ou encore répété.",
+        "image": "1",
+        "audio": "2"
+      },
+      {
+        "title": "L’odorat",
+        "text": "L’organe de l’odorat est le nez. \nIl nous permet de sentir les odeurs. Certaines sont agréables, d’autres sont désagréables.",
+        "image": "1",
+        "audio": "3"
+      },
+      {
+        "title": "Le goût",
+        "text": "L’organe du goût est la langue. \nGrâce à elle, nous pouvons goûter les aliments. Un aliment peut être sucré, salé, acide ou amer.",
+        "image": "1",
+        "audio": "4"
+      },
+      {
+        "title": "Le toucher",
+        "text": "L’organe du toucher est la peau. \nElle nous permet de sentir si un objet est dur ou mou, doux, piquant, lisse ou rugueux, froid, chaud, brûlant ou tiède.",
+        "image": "1",
+        "audio": "5"
+      }
+    ]
+  }
+  

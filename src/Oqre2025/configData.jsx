@@ -7,8 +7,8 @@ export const config = {
   export const docConfig = {
     "3e": {
       "Français": {
-        "pdf": "/oqre/fr/dauphin.pdf", // Path relative to public folder
-        "googleForm": "https://forms.gle/Kds4H5SioHjG6z9P9"
+        "pdf": "/oqre/fr/OQRE3_Oiseau.pdf", // Path relative to public folder
+        "googleForm": "https://forms.gle/DBA9Fe56Z7c8GJSF6"
       },
       "Maths": {
         "pdf": "/oqre/Math/MATHS32015.pdf", // Path relative to public folder

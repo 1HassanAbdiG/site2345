@@ -1,0 +1,116 @@
+{
+    "title": "Les 5 sens",
+    "sections": [
+      {
+        "title": "La vue",
+        "text": "L’organe de la vue est l’œil. \nGrâce à lui, nous pouvons voir les couleurs, les formes et les tailles des objets.",
+        "questions": [
+          {
+            "question": "Quel est l’organe de la vue ?",
+            "options": ["L’œil", "Le nez", "La peau"],
+            "correctAnswer": "L’œil"
+          },
+          {
+            "question": "Que peut-on voir avec les yeux ?",
+            "options": ["Les formes et les couleurs", "Les sons", "Les goûts"],
+            "correctAnswer": "Les formes et les couleurs"
+          }
+        ]
+      },
+      {
+        "title": "L’ouïe",
+        "text": "Les organes de l’ouïe sont les oreilles. \nElles nous permettent d’entendre les sons : un bruit peut être aigu ou grave, fort ou faible, court ou long, ou encore répété.",
+        "questions": [
+          {
+            "question": "Quels sont les organes de l’ouïe ?",
+            "options": ["Les oreilles", "Les yeux", "La langue"],
+            "correctAnswer": "Les oreilles"
+          },
+          {
+            "question": "Qu’est-ce qu’un bruit peut être ?",
+            "options": ["Aigu ou grave", "Sucré ou salé", "Dur ou mou"],
+            "correctAnswer": "Aigu ou grave"
+          }
+        ]
+      },
+      {
+        "title": "L’odorat",
+        "text": "L’organe de l’odorat est le nez. \nIl nous permet de sentir les odeurs. Certaines sont agréables, d’autres sont désagréables.",
+        "questions": [
+          {
+            "question": "Quel est l’organe de l’odorat ?",
+            "options": ["Le nez", "La peau", "La langue"],
+            "correctAnswer": "Le nez"
+          },
+          {
+            "question": "Comment peuvent être les odeurs ?",
+            "options": ["Agréables ou désagréables", "Froides ou chaudes", "Graves ou aigües"],
+            "correctAnswer": "Agréables ou désagréables"
+          }
+        ]
+      },
+      {
+        "title": "Le goût",
+        "text": "L’organe du goût est la langue. \nGrâce à elle, nous pouvons goûter les aliments. Un aliment peut être sucré, salé, acide ou amer.",
+        "questions": [
+          {
+            "question": "Quel est l’organe du goût ?",
+            "options": ["La langue", "Le nez", "Les oreilles"],
+            "correctAnswer": "La langue"
+          },
+          {
+            "question": "Quels goûts peut avoir un aliment ?",
+            "options": ["Sucré, salé, acide ou amer", "Doux, dur ou mou", "Fort ou faible"],
+            "correctAnswer": "Sucré, salé, acide ou amer"
+          }
+        ]
+      },
+      {
+        "title": "Le toucher",
+        "text": "L’organe du toucher est la peau. \nElle nous permet de sentir si un objet est dur ou mou, doux, piquant, lisse ou rugueux, froid, chaud, brûlant ou tiède.",
+        "questions": [
+          {
+            "question": "Quel est l’organe du toucher ?",
+            "options": ["La peau", "La langue", "Le nez"],
+            "correctAnswer": "La peau"
+          },
+          {
+            "question": "Qu’est-ce que la peau peut sentir ?",
+            "options": ["La température et la texture", "Les sons", "Les couleurs"],
+            "correctAnswer": "La température et la texture"
+          }
+        ]
+      }
+    ],
+    "finalQuiz": {
+      "title": "QCM Final",
+      "questions": [
+        {
+          "question": "Combien de sens avons-nous ?",
+          "options": ["5", "4", "6"],
+          "correctAnswer": "5"
+        },
+        {
+          "question": "Quel sens nous permet de sentir les odeurs ?",
+          "options": ["L’odorat", "Le goût", "Le toucher"],
+          "correctAnswer": "L’odorat"
+        },
+        {
+          "question": "Quel organe nous permet d'entendre ?",
+          "options": ["Les oreilles", "Les yeux", "La peau"],
+          "correctAnswer": "Les oreilles"
+        },
+        {
+          "question": "Quel organe est utilisé pour goûter ?",
+          "options": ["La langue", "Le nez", "La main"],
+          "correctAnswer": "La langue"
+        },
+        {
+          "question": "Quel organe est associé au toucher ?",
+          "options": ["La peau", "La bouche", "Les yeux"],
+          "correctAnswer": "La peau"
+        }
+      ]
+    }
+  }
+  
