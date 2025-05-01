@@ -80,7 +80,7 @@ const QuizComponent = () => {
   return (
     <Container maxWidth="lg" sx={{ paddingTop: 4, backgroundColor: "#fff5ee", borderRadius: "10px", paddingBottom: 4 }}>
       <Typography variant="h4" gutterBottom sx={{ color: orange[600], fontWeight: "bold", fontSize: "2rem", textAlign: "center" }}>
-        🌟 Quiz Amusant: Dodo le Dromadaire 🌟
+        🌟 Quiz Amusant: Les 5 sens 🌟
       </Typography>
       {shuffledQuizData.sections.map((section) => (
         <Accordion key={section.title} sx={{ marginBottom: 2, backgroundColor: lightGreen[50] }}>

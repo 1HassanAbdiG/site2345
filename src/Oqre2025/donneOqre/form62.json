@@ -1,0 +1,335 @@
+{
+  "testTitle": "Questions de test diffusées, Français, 6e année, 2015 - Réponses",
+  "sections": [
+    {
+      "id": "C1",
+      "title": "Partie C1 Lecture - La précieuse casquette",
+      "questions": [
+        {
+          "id": "C1_1",
+          "type": "multipleChoice",
+          "pageReference": 2,
+          "questionText": "Pourquoi les trois amis marchent-ils << d'un pas rapide >>?",
+          "options": [
+            "Ils veulent faire de l'exercice.",
+            "Ils veulent discuter de hockey.",
+            "Ils veulent éviter d'être en retard.",
+            "Ils veulent profiter du beau temps."
+          ],
+          "correctAnswer": "c",
+          "verification": "Le contexte est celui d'aller à l'école (par. 1). Marcher 'd'un pas rapide' suggère une urgence relative. Plus loin (par. 7), Kyle mentionne que le directeur n'aime pas les retards, renforçant l'idée qu'ils se dépêchent pour ne pas être en retard."
+        },
+        {
+          "id": "C1_2",
+          "type": "multipleChoice",
+          "pageReference": 2,
+          "questionText": "À quoi servent les points de suspension à la fin du 2e paragraphe?",
+          "options": [
+            "à suggérer une idée",
+            "à terminer une phrase",
+            "à indiquer une interruption",
+            "à terminer une énumération"
+          ],
+          "correctAnswer": "c",
+          "verification": "Nathan est en train de parler ('...j'ai du talent en menuiserie et...') lorsque le paragraphe suivant commence par 'Tout à coup, un vent très fort se lève...'. Les points de suspension marquent l'interruption de sa phrase par cet événement soudain."
+        },
+        {
+          "id": "C1_3",
+          "type": "multipleChoice",
+          "pageReference": 2,
+          "questionText": "Que compare-t-on à une feuille d'érable en automne? (3e paragraphe)",
+          "options": [
+            "la casquette",
+            "une branche",
+            "le sommet d'un érable",
+            "un coup de vent violent"
+          ],
+          "correctAnswer": "a",
+          "verification": "Le paragraphe 3 dit : '...emporte sa précieuse casquette des Maple Leafs qui tourbillonne dans les airs, comme une feuille d'érable en automne.' La comparaison porte explicitement sur la casquette."
+        },
+        {
+          "id": "C1_4",
+          "type": "multipleChoice",
+          "pageReference": 2,
+          "questionText": "La casquette de Nathan a été achetée...",
+          "options": [
+            "à l'école du trio.",
+            "au camp de hockey.",
+            "dans l'autobus scolaire.",
+            "au Temple de la renommée."
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe 4 indique : 'Il tient beaucoup à cette casquette achetée lors d'une visite au Temple de la renommée du hockey à Toronto.'"
+        },
+        {
+          "id": "C1_5",
+          "type": "multipleChoice",
+          "pageReference": 3,
+          "questionText": "À quoi sert le 3e paragraphe?",
+          "options": [
+            "à décrire le lieu de l'histoire",
+            "à présenter le problème de l'histoire",
+            "à décrire quand se déroule l'histoire",
+            "à présenter les personnages de l'histoire"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le paragraphe 3 décrit l'événement déclencheur : le vent emporte la casquette de Nathan et celle-ci se coince dans un arbre. C'est le problème central que Nathan devra résoudre."
+        },
+        {
+          "id": "C1_6",
+          "type": "multipleChoice",
+          "pageReference": 3,
+          "questionText": "Que signifie le mot « périlleuse »? (4e paragraphe)",
+          "options": [
+            "haute",
+            "risquée",
+            "captivante",
+            "essoufflante"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le contexte de l'escalade (par. 4) mentionne des branches qui cassent et le risque de chute ('une chute pourrait survenir'). Une escalade 'périlleuse' est donc une escalade dangereuse, risquée."
+        },
+        {
+          "id": "C1_7",
+          "type": "multipleChoice",
+          "pageReference": 3,
+          "questionText": "Où se trouve l'échelle lorsque Nathan l'aperçoit?",
+          "options": [
+            "contre l'érable",
+            "au pied de l'arbre",
+            "dans les branches",
+            "au bord du chemin"
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe 6 dit : 'C'est alors qu'il aperçoit au bord du chemin une longue échelle abandonnée.'"
+        },
+        {
+          "id": "C1_8",
+          "type": "multipleChoice",
+          "pageReference": 3,
+          "questionText": "Quelle est l'idée principale du 5e paragraphe?",
+          "options": [
+            "Nathan a de bons amis.",
+            "Nathan évalue la situation.",
+            "Nathan casse des branches.",
+            "Nathan récupère sa casquette."
+          ],
+          "correctAnswer": "b",
+          "verification": "Le paragraphe 5 décrit la difficulté de la descente ('encore plus de risques'), le fait que Nathan se sente 'piégé' et 'commence à regretter sa décision impulsive'. Il est donc en train d'évaluer la situation difficile dans laquelle il se trouve."
+        },
+        {
+          "id": "C1_9",
+          "type": "multipleChoice",
+          "pageReference": 3,
+          "questionText": "Pourquoi Nathan dit-il : « Ouf! Merci beaucoup! »? (6e paragraphe)",
+          "options": [
+            "Il est surpris.",
+            "Il est soulagé.",
+            "Il est moqueur.",
+            "Il est généreux."
+          ],
+          "correctAnswer": "b",
+          "verification": "Nathan prononce ces mots juste après être descendu de l'arbre sain et sauf grâce à l'aide de ses amis et de l'échelle (fin du par. 6). L'interjection 'Ouf!' exprime typiquement le soulagement après un effort ou une situation tendue."
+        },
+        {
+          "id": "C1_10",
+          "type": "multipleChoice",
+          "pageReference": 3,
+          "questionText": "Quel personnage du texte préfère les Canadiens de Montréal?",
+          "options": [
+            "Kyle",
+            "Nathan",
+            "Mélodie",
+            "le directeur"
+          ],
+          "correctAnswer": "c",
+          "verification": "Le paragraphe 1 mentionne trois casquettes : Sénateurs, Maple Leafs, Canadiens, portées par les trois amis. Le paragraphe 3 identifie celle de Nathan comme celle des Maple Leafs. Le paragraphe 7 suggère que Kyle aime les Sénateurs (comme le directeur). Par élimination, Mélodie doit être celle qui porte la casquette des Canadiens."
+        },
+        {
+          "id": "C1_11",
+          "type": "openEnded",
+          "pageReference": 4,
+          "questionText": "Comment sait-on que Nathan tient à sa casquette?",
+          "correctAnswer": "Plusieurs éléments le montrent : le texte la qualifie de 'précieuse' (par. 3); il est précisé qu'il y 'tient beaucoup' et qu'elle vient d'un lieu spécial (Temple de la renommée, par. 4); surtout, il entreprend une 'périlleuse' et 'nécessaire' escalade (par. 4) pour la récupérer malgré les risques évidents et les avertissements de ses amis (par. 3); enfin, son soulagement ('Ouf! Merci beaucoup!', par. 6) après l'avoir récupérée témoigne de son attachement.",
+          "verification": "La réponse doit s'appuyer sur des preuves textuelles: adjectif utilisé, mention explicite de son attachement, lieu d'achat symbolique, action risquée entreprise pour la récupérer, réaction émotionnelle à sa récupération."
+        },
+        {
+          "id": "C1_12",
+          "type": "openEnded",
+          "pageReference": 4,
+          "questionText": "Comment sait-on que Nathan, Kyle et Mélodie sont de bons amis? Justifie ta réponse à l'aide des renseignements du texte et de tes propres idées.",
+          "correctAnswer": "Le texte montre leur amitié : ils choisissent de passer du temps ensemble (marcher vers l'école, par. 1). Face au danger (Nathan voulant grimper), ils expriment d'abord leur inquiétude (par. 3). Puis, voyant sa détermination, ils décident de l'aider activement ('décident de l'aider', 'l'encouragent', par. 4). Ils collaborent pour trouver une solution (l'échelle) et assurer sa sécurité lors de la descente (par. 6). Ils partagent ensuite un moment de soulagement et de plaisanterie (par. 7). Selon mes propres idées, de bons amis se soutiennent dans les moments difficiles, se montrent concernés par la sécurité de l'autre et collaborent pour surmonter les obstacles, ce qui correspond exactement à ce que Kyle et Mélodie font pour Nathan.",
+          "verification": "La réponse doit combiner des actions spécifiques tirées du texte (marcher ensemble, exprimer de l'inquiétude, aider activement, encourager, chercher une solution, plaisanter) avec une compréhension personnelle de ce qui caractérise une bonne amitié (soutien, collaboration, préoccupation mutuelle)."
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "title": "Partie C2 Écriture",
+      "questions": [
+        {
+          "id": "C2_13",
+          "type": "openEnded",
+          "pageReference": 5,
+          "questionText": "D'après toi, est-il important que les gens apprennent à cuisiner? Dans un court texte, justifie ton opinion.",
+          "correctAnswer": "(Réponse de l'élève) Le texte doit présenter une opinion (oui ou non) et la justifier avec des arguments (exemples pour 'oui': meilleure santé, économies, autonomie, plaisir, compétence utile; exemples pour 'non': perte de temps, nourriture accessible autrement, autres priorités).",
+          "verification": "Évaluation basée sur la clarté de l'opinion, la pertinence et la qualité des justifications, l'organisation du texte et le respect des conventions linguistiques."
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "title": "Partie C3 Questions à choix multiple en écriture",
+      "questions": [
+        {
+          "id": "C3_14",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Choisis la meilleure phrase pour compléter ce paragraphe. [Paragraphe décrivant Max et Jordan, passionnés de vélo de montagne qui s'entraînent pour un championnat]",
+          "options": [
+            "Max et Jordan sont passionnés de cyclisme.",
+            "Max et Jordan collectionnent des affiches de vélo.",
+            "Max et Jordan regardent souvent des courses de vélo.",
+            "Max et Jordan rencontrent des cyclistes professionnels."
+          ],
+          "correctAnswer": "a",
+          "verification": "Le paragraphe décrit leur pratique fréquente et intense du vélo ('souvent du vélo', 'préfèrent le vélo de montagne', 'dévalent les sentiers', 'découvrent de nouveaux endroits', 's'entraîne régulièrement pour participer au championnat'). La phrase 'sont passionnés de cyclisme' résume le mieux cette description de leur engagement et de leur intérêt."
+        },
+        {
+          "id": "C3_15",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Choisis le mot à insérer pour compléter correctement la phrase ci-dessous. [Arjan s'est couché tard pour regarder les Jeux olympiques, ____ sa fatigue après une longue journée à l'école.]",
+          "options": [
+            "alors",
+            "malgré",
+            "par conséquent",
+            "pendant ce temps"
+          ],
+          "correctAnswer": "b",
+          "verification": "La phrase exprime une opposition : Arjan s'est couché tard *bien qu'il soit* fatigué. Le mot 'malgré' introduit cette concession ou opposition."
+        },
+        {
+          "id": "C3_16",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "De quelle autre façon peut-on écrire la phrase ci-dessous? [Laura avoue à son amie : « J'aime bien m'amuser avec toi. »]",
+          "options": [
+            "Laura avoue à son amie que j'aime bien m'amuser avec toi.",
+            "Laura avoue à son amie qu'elle aime bien s'amuser avec toi.",
+            "Laura avoue à son amie que j'aime bien m'amuser avec elle.",
+            "Laura avoue à son amie qu'elle aime bien s'amuser avec elle."
+          ],
+          "correctAnswer": "d",
+          "verification": "Pour passer au discours indirect : le verbe introducteur est 'avoue que'. Le pronom sujet 'J'' (Laura) devient 'elle'. Le pronom complément 'toi' (l'amie) devient 'elle'. Le temps du verbe ('aime') reste au présent car le verbe introducteur ('avoue') est au présent. Cela donne : 'Laura avoue à son amie qu'elle aime bien s'amuser avec elle.'"
+        },
+        {
+          "id": "C3_17",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Choisis la meilleure phrase d'introduction pour ce paragraphe. [____ Il est possible d'y voir différents animaux dans leur habitat naturel. Un guide nous conduit sur les pistes d'observation. Nous utilisons les lunettes d'approche mises à notre disposition. Quelle expérience mémorable!]",
+          "options": [
+            "Les visiteurs sont nombreux.",
+            "Nous visitons un parc provincial.",
+            "Nous pouvons nourrir les animaux.",
+            "Le guide nous donne des instructions."
+          ],
+          "correctAnswer": "b",
+          "verification": "Le paragraphe décrit des activités typiques d'une visite dans un espace naturel protégé : observation d'animaux, guide, pistes d'observation, équipement. 'Nous visitons un parc provincial' établit le contexte général approprié pour ces activités."
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "title": "Partie D1 Lecture - Une machine volante surprenante",
+      "questions": [
+        {
+          "id": "D1_1",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "À quel insecte peut-on comparer l'hélicoptère?",
+          "options": [
+            "à une fourmi",
+            "à une abeille",
+            "à une libellule",
+            "à une sauterelle"
+          ],
+          "correctAnswer": "c",
+          "verification": "Bien que le texte ne fasse pas explicitement cette comparaison, la capacité de l'hélicoptère à voler stationnairement, avancer, reculer et se déplacer latéralement (décrite sous le schéma) est souvent comparée, dans la culture générale et scientifique, au vol de la libellule ('libellule'). Le mot 'pteron' (aile) dans l'étymologie renforce l'idée d'un parallèle avec un être volant."
+        },
+        {
+          "id": "D1_2",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Les mots helix et pteron sont en italique parce qu'il s'agit de mots... (1er paragraphe)",
+          "options": [
+            "inventés.",
+            "ordonnés.",
+            "d'une langue étrangère.",
+            "d'une personne importante."
+          ],
+          "correctAnswer": "c",
+          "verification": "Le premier paragraphe précise que le mot hélicoptère vient 'du grec *helix*, hélice, et *pteron*, aile'. Le grec est une langue étrangère, et l'italique est utilisé conventionnellement pour indiquer des mots d'origine étrangère."
+        },
+        {
+          "id": "D1_3",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Quel autre sous-titre pourrait-on donner au « Schéma de l'hélicoptère »?",
+          "options": [
+            "L'utilité de l'hélicoptère",
+            "Les parties de l'hélicoptère",
+            "L'importance de l'hélicoptère",
+            "Le fonctionnement de l'hélicoptère"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le schéma identifie et localise visuellement les composants principaux de l'appareil (hélice, pales, rotor, cabine, patins, rotor de queue) et donne une brève description de leur rôle. Il présente donc 'Les parties de l'hélicoptère'."
+        },
+        {
+          "id": "D1_4",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Dans la phrase : « L'hélicoptère transporte moins de passagers qu'un avion, mais il peut décoller et atterrir sans piste », le mot « mais » sert à introduire... (sous « Schéma de l'hélicoptère »)",
+          "options": [
+            "une opposition.",
+            "une description.",
+            "une conséquence.",
+            "une idée semblable."
+          ],
+          "correctAnswer": "a",
+          "verification": "La conjonction 'mais' marque un contraste ou une opposition entre la première partie de la phrase (un inconvénient : moins de passagers) et la seconde partie (un avantage : décollage/atterrissage sans piste)."
+        },
+        {
+          "id": "D1_5",
+          "type": "openEnded",
+          "pageReference": 10,
+          "questionText": "À l'aide des renseignements du texte, explique pourquoi l'hélicoptère est utile.",
+          "correctAnswer": "L'hélicoptère est utile car il peut accéder à des endroits difficiles d'accès pour d'autres véhicules. Il peut 'décoller et atterrir sans piste', se poser 'à flanc de montagne, dans une clairière, dans une forêt ou sur le toit d'un édifice' (sous le schéma). Cela le rend précieux pour le 'Sauvetage' de personnes presque partout, y compris en mer; pour la 'Lutte contre les incendies' dans des zones sans piste d'atterrissage; et pour le 'Transport et montage' d'équipements lourds ou de sections de bâtiments dans des lieux isolés.",
+          "verification": "La réponse doit synthétiser les informations provenant du texte sous le schéma et des trois sections descriptives ('Sauvetage', 'Lutte contre les incendies', 'Transport et montage') de la page 5 du Livret de Lecture, en mettant l'accent sur sa capacité d'accès unique et ses applications variées."
+        },
+        {
+          "id": "D1_6",
+          "type": "openEnded",
+          "pageReference": 10,
+          "questionText": "Choisis des éléments graphiques du texte et explique comment ils t’aident à mieux comprendre les renseignements.",
+          "correctAnswer": "Par exemple, le 'Schéma de l'hélicoptère' aide à comprendre la structure de l'appareil en montrant et nommant les parties importantes comme le rotor principal et le rotor de queue, et explique leur fonction de base. Les photos illustrant le 'Sauvetage', la 'Lutte contre les incendies' et le 'Transport et montage' rendent les usages de l'hélicoptère très concrets : on voit un sauveteur descendre, un hélicoptère larguer de l'eau, et un autre transporter une structure, ce qui aide à visualiser les descriptions textuelles. La 'Histoire de l'évolution de l'hélicoptère' (timeline) permet de suivre les étapes clés du développement de cette machine dans le temps.",
+          "verification": "La réponse doit identifier au moins un élément graphique (schéma, photo(s), timeline) et expliquer spécifiquement comment cet élément facilite la compréhension (visualisation des parties, illustration des usages, organisation temporelle de l'information)."
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "Partie D2 Écriture",
+      "questions": [
+        {
+          "id": "D2_7",
+          "type": "openEnded",
+          "pageReference": 11,
+          "questionText": "Durant les vacances, ta famille et toi découvrez une île déserte. Rédige un récit pour raconter vos aventures.",
+          "correctAnswer": "(Réponse de l'élève) Le récit doit être une narration à la première personne ('je' ou 'nous'), se dérouler sur une île déserte découverte pendant les vacances, et raconter des aventures (exploration, découvertes, défis, émotions). Il doit avoir une structure narrative (début, milieu, fin).",
+          "verification": "Évaluation basée sur la créativité, la cohérence narrative, le développement des idées, l'organisation du récit, l'utilisation d'un vocabulaire approprié et le respect des conventions linguistiques."
+        }
+      ]
+    }
+  ]
+}

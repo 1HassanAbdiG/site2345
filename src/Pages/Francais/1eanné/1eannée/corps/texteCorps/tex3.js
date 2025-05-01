@@ -13,11 +13,11 @@ import audioParagraph4 from "./4.mp3";
 import audioParagraph5 from "./5.mp3";
 
 
-import image1 from "./1.png";
-import image2 from "./1.png";
-import image3 from "./1.png";
-import image4 from "./1.png";
-import image5 from "./1.png";
+import image1 from "./9.png";
+import image2 from "./2.png";
+import image3 from "./3.png";
+import image4 from "./4.png";
+import image5 from "./5.png";
 
 import QuizComponent from "./QuizComponent";
 
@@ -214,5 +214,5 @@ const Organedesens = () => {
   );
 };
 
-export default Organedesens ;
+export default Organedesens;
 

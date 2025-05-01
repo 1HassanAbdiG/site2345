@@ -1,70 +1,62 @@
 [
   {
-    "definition": "Je porte et soutiens la tête, permettant la rotation du cou.",
-    "mot": "Le cou"
+    "definition": "Je suis la partie de ton corps où il y a les yeux, le nez et la bouche.",
+    "mot": "Le visage"
   },
   {
-    "definition": "Je protège et soutiens la tête, servant de base pour le visage.",
-    "mot": "La tête"
+    "definition": "Je suis dans ta bouche. Je t’aide à parler et à goûter les aliments.",
+    "mot": "La langue"
   },
   {
-    "definition": "Je te permets de voir ce qui se trouve autour de toi.",
-    "mot": "Les yeux"
-  },
-  {
-    "definition": "Je te permets de sentir les saveurs des aliments.",
-    "mot": "La bouche"
-  },
-  {
-    "definition": "Je te permets d’entendre des sons autour de toi.",
-    "mot": "Les oreilles"
-  },
-  {
-    "definition": "Je te permets de respirer et de sentir les odeurs.",
+    "definition": "Je suis sur ton visage. Je t’aide à sentir les odeurs.",
     "mot": "Le nez"
   },
   {
-    "definition": "Je te permets de mastiquer les aliments et d’exprimer des émotions.",
+    "definition": "Je suis sur ton visage. Je t’aide à manger et à parler.",
+    "mot": "La bouche"
+  },
+  {
+    "definition": "Je suis dans ta bouche. Je sers à croquer et mâcher les aliments.",
     "mot": "Les dents"
   },
   {
-    "definition": "Je couvre ta tête et protège le crâne contre les éléments.",
-    "mot": "Les cheveux"
+    "definition": "Je suis de chaque côté de ta tête. Je t’aide à entendre les sons.",
+    "mot": "Les oreilles"
   },
   {
-    "definition": "Je soutiens et maintiens la posture du corps.",
+    "definition": "Je suis sur ton visage. Je t’aide à voir ce qui est autour de toi.",
+    "mot": "Les yeux"
+  },
+  {
+    "definition": "Je suis derrière toi. Je t’aide à rester droit quand tu es debout.",
     "mot": "Le dos"
   },
   {
-    "definition": "Je relie la tête au torse et soutiens les muscles du haut du corps.",
-    "mot": "Le cou"
+    "definition": "Je te permets de marcher et de courir. Je suis longue et en bas de ton corps.",
+    "mot": "La jambe"
   },
   {
-    "definition": "Je relie la main au bras, permettant la flexion et l'extension.",
-    "mot": "Le coude"
+    "definition": "Je suis tout en bas de ta jambe. Tu me poses par terre pour marcher.",
+    "mot": "Le pied"
   },
   {
-    "definition": "Je relie la main à l’avant-bras, permettant les mouvements de rotation.",
-    "mot": "Le poignet"
+    "definition": "Je suis au bout de ta main. J’aide à attraper et toucher des choses.",
+    "mot": "Le doigt"
   },
   {
-    "definition": "Je te permets de saisir, tenir et manipuler des objets.",
-    "mot": "Les mains"
-  },
-  {
-    "definition": "Je relie les pieds au torse, permettant les mouvements de marche.",
-    "mot": "Les jambes"
-  },
-  {
-    "definition": "Je permets de plier les jambes et de bouger facilement.",
+    "definition": "Je suis au milieu de ta jambe. Je t’aide à plier ta jambe.",
     "mot": "Le genou"
   },
   {
-    "definition": "Je relie la jambe au pied et je permet la flexion et l'extension.",
-    "mot": "La cheville"
+    "definition": "Je t’aide à attraper, toucher et tenir les choses.",
+    "mot": "La main"
   },
   {
-    "definition": "Je te permets de marcher, courir et te déplacer.",
-    "mot": "Les pieds"
+    "definition": "Je suis sur ta tête. Je te protège du soleil et du froid.",
+    "mot": "Les cheveux"
+  },
+  {
+    "definition": "Je suis en haut de ton corps. J’ai les yeux, le nez et la bouche.",
+    "mot": "La tête"
   }
 ]
