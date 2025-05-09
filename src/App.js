@@ -64,6 +64,9 @@ import FractionsExercise222 from './Pages/OQRE/Maths/1e année/faction/faction.j
 import AppDicte from './Pages/appdicte.jsx';
 //import PreparationOQRE from './Oqre2025/oqre.jsx';
 import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
+//import LectureApp from './Pages/Francais/1eanné/1eannée/corps/texteCorps/lecture/lectureapp.jsx';
+//import Lecture2App from './Pages/Francais/1eanné/1eannée/corps/texteCorps/lecture/Lexture2App.jsx';
+//import InteractiveLearningGame from './Pages/Francais/1eanné/1eannée/corps/texteCorps/lecture/lecture2e.jsx';
 //import MathExerciseComponent from './Pages/OQRE/Maths/3eannée/exoqre.jsx';
 //import MedalQuiz from './Test/exerciceH.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';

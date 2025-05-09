@@ -46,6 +46,40 @@
               "Nous mangeons des pommes.",
               "Tu regardes la télévision." 
           ]
+      },
+      {
+        "name": "Phrases Simples",
+        "sentences": [
+          "Le chat dort sur le tapis.",
+          "Le soleil brille dans le ciel.",
+          "Le chien joue avec la balle.",
+          "La fille mange une pomme.",
+          "Le garçon lit un livre.",
+          "Les oiseaux chantent dans les arbres.",
+          "La voiture rouge est rapide.",
+          "J'aime jouer au football.",
+          "Maman prépare le dîner.",
+          "Papa regarde la télévision.",
+          "Mon école est grande.",
+          "Il fait beau aujourd'hui."
+        ]
+      },
+      {
+        "name": "Phrases Complexes",
+        "sentences": [
+          "Le petit chat noir dort paisiblement sur le tapis moelleux.",
+          "Malgré la pluie, les enfants jouent joyeusement dans le jardin.",
+          "L'avion décolle de l'aéroport international pour un long voyage.",
+          "Si tu étudies sérieusement, tu réussiras tes examens.",
+          "La bibliothèque municipale contient de nombreux livres intéressants.",
+          "Le gâteau au chocolat que tu as préparé était absolument délicieux.",
+          "Pendant les vacances, nous visiterons des monuments historiques.",
+          "Il est important de boire beaucoup d'eau quand il fait chaud.",
+          "Le scientifique observe attentivement les étoiles avec son télescope.",
+          "La musique classique me détend après une longue journée de travail.",
+          "Bien qu'il soit fatigué, il continue de travailler sur son projet.",
+          "Les montagnes enneigées offrent un paysage magnifique en hiver."
+        ]
       }
      
     ]

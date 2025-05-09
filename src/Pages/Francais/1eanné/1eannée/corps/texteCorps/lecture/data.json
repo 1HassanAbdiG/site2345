@@ -1,0 +1,102 @@
+{
+    "debutant": {
+      "id": "debutant",
+      "label": "Débutant",
+      "title": "Débutants: Le corps et les sens",
+      "text": "Notre corps a la tête, les bras, les jambes et le tronc.\nAvec les yeux, on voit.\nAvec le nez, on sent.\nAvec les oreilles, on entend.\nAvec la bouche, on goûte.\nAvec les mains, on touche.",
+      "audioSrc": "/audio/debutant_corps_sens.mp3",
+      "questions": [
+        "Quelles sont les 4 parties principales du corps citées au début ?",
+        "Avec quelle partie du corps voit-on ?",
+        "Que fait-on avec le nez ?",
+        "Que fait-on avec les mains ?"
+      ],
+      "syllableWords": [
+        {
+          "id": "syl-tete",
+          "word": "tête",
+          "syllables": ["Tê", "te"],
+          "imageUrl": "/images/tete.png",
+          "syllableCount": 2
+        },
+        {
+          "id": "syl-nez",
+          "word": "nez",
+          "syllables": ["Nez"],
+          "imageUrl": "/images/nez.png",
+          "syllableCount": 1
+        },
+        {
+          "id": "syl-mains",
+          "word": "mains",
+          "syllables": ["Mains"],
+          "imageUrl": "/images/mains.png",
+          "syllableCount": 1
+        },
+        {
+          "id": "syl-bouche",
+          "word": "bouche",
+          "syllables": ["Bou", "che"],
+          "imageUrl": "/images/bouche.png",
+          "syllableCount": 2
+        }
+      ]
+    },
+    "intermediaire": {
+      "id": "intermediaire",
+      "label": "Intermédiaire",
+      "title": "Intermédiaires: Les parties du corps et nos sens",
+      "text": "Le corps est composé de la tête, du tronc, des bras et des jambes.\nSur la tête, il y a : les yeux pour voir, le nez pour sentir, les oreilles pour entendre, la bouche pour goûter.\nAvec nos mains, nous pouvons toucher les objets.",
+      "audioSrc": "/audio/intermediaire_corps_sens.mp3",
+      "questions": [
+        "De quelles parties le corps est-il composé ?",
+        "Cite trois organes situés sur la tête et leur fonction.",
+        "Que peut-on faire avec les mains selon le texte ?"
+      ],
+      "syllableWords": [
+         {
+          "id": "syl-oreilles",
+          "word": "oreilles",
+          "syllables": ["O", "reil", "les"],
+          "imageUrl": "/images/oreilles.png",
+          "syllableCount": 3
+        },
+        {
+          "id": "syl-jambes",
+          "word": "jambes",
+          "syllables": ["Jam", "bes"],
+          "imageUrl": "/images/jambes.png",
+          "syllableCount": 2
+        },
+        {
+          "id": "syl-objets",
+          "word": "objets",
+          "syllables": ["Ob", "jets"],
+          "imageUrl": "/images/objets.png",
+          "syllableCount": 2
+        },
+        {
+          "id": "syl-corps",
+          "word": "corps",
+          "syllables": ["Corps"],
+          "imageUrl": "/images/corps.png",
+          "syllableCount": 1
+        }
+      ]
+    },
+    "avance": {
+      "id": "avance",
+      "label": "Avancé",
+      "title": "Avancés: Le corps humain et ses cinq sens",
+      "text": "Notre corps est divisé en plusieurs parties : la tête, le tronc, les bras et les jambes.\nLa tête porte les yeux, qui nous permettent de voir.\nLe nez sert à sentir les odeurs.\nLes oreilles nous aident à entendre les sons.\nLa bouche est utilisée pour goûter les aliments avec la langue.\nGrâce aux mains, nous pouvons toucher et sentir les formes et les textures.",
+      "audioSrc": null,
+      "questions": [
+        "Quelles sont les divisions principales du corps mentionnées ?",
+        "Quelle est la fonction des yeux d'après ce texte ?",
+        "À quoi servent les oreilles selon le texte ?",
+        "Quelle partie spécifique de la bouche est mentionnée pour le goût ?",
+        "Quelles actions peut-on réaliser avec les mains ?"
+      ],
+      "syllableWords": null
+    }
+  }

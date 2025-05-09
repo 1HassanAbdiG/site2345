@@ -1,0 +1,223 @@
+{
+    "text": {
+        "title": "Le saumon",
+        "url": "/imag/saumon.jpg",
+        "content": [
+            "Le saumon est un poisson. Il nait dans des cours d'eau douce.",
+            "<br />",
+            "Quand il est assez vieux, il nage dans les rivières jusqu'à l'océan. Il passe des années dans l'océan. Après, il retourne à l'endroit où il est né. Là, il pond ses œufs pour que naissent de nouveaux saumons.",
+            "<br />",
+            "C'est facile pour le saumon d'aller dans l'ocean. C'est facile parce que les rivières coulent vers l'océan. Le contraire est beaucoup plus difficile. Pour revenir, le saumon doit nager contre le courant. Il doit parfois sauter des rapides et des cascades. Très peu de saumons réussissent à retourner là où ils sont nés."
+        ]
+    },
+    "questions": [
+        {
+            "type": "trueFalse",
+            "question": "Le saumon naît dans l'océan.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le saumon passe plusieurs années dans l'océan.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le voyage de retour vers le lieu de naissance est facile pour le saumon.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Tous les saumons réussissent à retourner à leur lieu de naissance pour pondre.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Les saumons pondent leurs œufs dans l'océan.",
+            "correctAnswer": false
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Où naît le saumon ?",
+            "choices": [
+                "Dans des cours d'eau douce.",
+                "Dans l'océan.",
+                "Sur la plage.",
+                "Dans les lacs salés."
+            ],
+            "correctAnswer": "Dans des cours d'eau douce."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Où le saumon passe-t-il une grande partie de sa vie adulte ?",
+            "choices": [
+                "Dans les rivières.",
+                "Dans l'océan.",
+                "Dans les estuaires.",
+                "Près des cascades."
+            ],
+            "correctAnswer": "Dans l'océan."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Pourquoi le voyage vers l'océan est-il relativement facile pour le saumon ?",
+            "choices": [
+                "Parce qu'il est aidé par d'autres poissons.",
+                "Parce que les rivières coulent vers l'océan.",
+                "Parce qu'il n'y a pas de prédateurs.",
+                "Parce que l'eau est toujours calme."
+            ],
+            "correctAnswer": "Parce que les rivières coulent vers l'océan."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Quel est le principal défi pour le saumon lors de son voyage de retour ?",
+            "choices": [
+                "Trouver de la nourriture.",
+                "Éviter le soleil.",
+                "Nager contre le courant et franchir des obstacles.",
+                "Se protéger du froid."
+            ],
+            "correctAnswer": "Nager contre le courant et franchir des obstacles."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que fait le saumon une fois retourné à son lieu de naissance ?",
+            "choices": [
+                "Il hiberne.",
+                "Il cherche un nouveau territoire.",
+                "Il pond ses œufs.",
+                "Il repart immédiatement vers l'océan."
+            ],
+            "correctAnswer": "Il pond ses œufs."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "Un 'cours d'eau douce' contient de l'eau salée.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Quand un saumon 'pond ses œufs', cela signifie qu'il les mange.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Les 'rapides' sont des sections d'une rivière où l'eau coule lentement.",
+            "correctAnswer": false
+        }
+    ],
+    "vocabularyQCM": [
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie l'expression 'cours d'eau douce' ?",
+            "choices": [
+                "Une partie de l'océan.",
+                "Une rivière ou un fleuve où l'eau n'est pas salée.",
+                "Un lac très profond.",
+                "Une source d'eau chaude."
+            ],
+            "correctAnswer": "Une rivière ou un fleuve où l'eau n'est pas salée."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'pondre ses œufs' pour un poisson ?",
+            "choices": [
+                "Cacher ses œufs.",
+                "Déposer ses œufs pour la reproduction.",
+                "Manger ses œufs.",
+                "Protéger les œufs des autres."
+            ],
+            "correctAnswer": "Déposer ses œufs pour la reproduction."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Qu'est-ce que le 'courant' dans une rivière ?",
+            "choices": [
+                "Un type de poisson.",
+                "Le mouvement de l'eau.",
+                "Une plante aquatique.",
+                "Le bord de la rivière."
+            ],
+            "correctAnswer": "Le mouvement de l'eau."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que sont des 'cascades' ?",
+            "choices": [
+                "Des poissons qui sautent.",
+                "Des chutes d'eau.",
+                "Des virages serrés dans une rivière.",
+                "Des zones où l'eau est stagnante."
+            ],
+            "correctAnswer": "Des chutes d'eau."
+        },
+        {
+            "type": "multipleChoice",
+            "question": "Que signifie 'nager contre le courant' ?",
+            "choices": [
+                "Nager dans la même direction que le flux de l'eau.",
+                "Nager en cercles.",
+                "Nager dans la direction opposée au flux de l'eau.",
+                "Rester immobile dans l'eau."
+            ],
+            "correctAnswer": "Nager dans la direction opposée au flux de l'eau."
+        }
+    ],
+    "vocabularyTrueFalse": [
+        {
+            "type": "trueFalse",
+            "question": "L'océan est un exemple de 'cours d'eau douce'.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Nager 'contre le courant' demande moins d'effort que de nager avec le courant.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Une 'cascade' est un obstacle que le saumon peut rencontrer.",
+            "correctAnswer": true
+        },
+        {
+            "type": "trueFalse",
+            "question": "Le 'lieu de naissance' du saumon est l'océan.",
+            "correctAnswer": false
+        },
+        {
+            "type": "trueFalse",
+            "question": "Si un saumon 'réussit à retourner', cela signifie qu'il a échoué.",
+            "correctAnswer": false
+        }
+    ],
+    "shortAnswer": [
+        {
+            "type": "shortAnswer",
+            "question": "Dans quel type d'eau le saumon naît-il ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Pourquoi le voyage du saumon vers l'océan est-il plus facile que son retour ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Citez deux types d'obstacles que le saumon doit franchir pour retourner à son lieu de naissance.",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Quel est le but principal du retour du saumon à l'endroit où il est né ?",
+            "correctAnswer": ""
+        },
+        {
+            "type": "shortAnswer",
+            "question": "Le texte dit que 'très peu de saumons réussissent à retourner là où ils sont nés'. Pourquoi penses-tu que c'est si difficile ?",
+            "correctAnswer": ""
+        }
+    ]
+}

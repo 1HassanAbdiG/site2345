@@ -17,6 +17,8 @@ import {
 
 // --- Data Import ---
 import gameData from './phrse.json'; // Adjust path if needed
+import RetrouvePhrase2 from './phraseconstrction2';
+import ImageAssociator from './motimage';
 
 // --- Custom Hook for Window Size ---
 const useWindowSize = () => {
@@ -276,6 +278,8 @@ const RetrouvePhrase = () => {
                      </Button>
                  </Stack>
              </Container>
+             <RetrouvePhrase2></RetrouvePhrase2>
+             <ImageAssociator></ImageAssociator>
         </Box>
     );
 };
