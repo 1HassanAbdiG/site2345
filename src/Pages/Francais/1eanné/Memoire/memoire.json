@@ -1,0 +1,22 @@
+
+{
+    "cards": [
+      { "name": "Cheval", "imageUrl": "cheval.png" },
+      { "name": "Chien", "imageUrl": "chien.png" },
+      { "name": "Chat", "imageUrl": "chat.png" },
+      { "name": "Oiseau", "imageUrl": "oiseau.png" },
+      { "name": "Poisson", "imageUrl": "poisson.png" },
+      { "name": "Lapin", "imageUrl": "lapin.png" },
+      { "name": "Souris", "imageUrl": "souris.png" },
+      { "name": "Serpent", "imageUrl": "serpent.png" },
+      { "name": "Lion", "imageUrl": "lion.png" },
+      { "name": "Tigre", "imageUrl": "tigre.png" },
+      { "name": "Éléphant", "imageUrl": "elephant.png" },
+      { "name": "Girafe", "imageUrl": "girafe.png" }
+    ],
+    "questions": [
+      { "id": 1, "text": "Qu'est-ce que vous avez appris sur les membres de votre équipe récemment ?" },
+      { "id": 2, "text": "Partagez une qualité que vous admirez chez un collègue." },
+      { "id": 3, "text": "Décrivez un moment où l'équipe a bien collaboré." }
+    ]
+  }

@@ -1,0 +1,65 @@
+{
+    "title": "Les Plantes et ce qu'il leur faut pour grandir",
+    "sections": [
+      {
+        "title": "La Fleur",
+        "text": "La fleur est jolie avec ses couleurs. Elle sent bon. Les abeilles aiment les fleurs. La fleur aide la plante à faire des bébés plantes, avec des fruits et des graines.",
+        "image": "plante_fleur",
+        "audio": "plante_fleur_audio"
+      },
+      {
+        "title": "La Feuille",
+        "text": "La feuille est souvent verte. C'est comme la cuisine de la plante. Avec le soleil, l'air et l'eau, la feuille fabrique à manger pour la plante. La feuille aide aussi la plante à respirer.",
+        "image": "plante_feuille",
+        "audio": "plante_feuille_audio"
+      },
+      {
+        "title": "Le Fruit",
+        "text": "Le fruit pousse après la fleur. Dedans, il y a des graines. Les animaux et nous, on aime manger les fruits. Quand on mange un fruit et qu'on jette les graines, une nouvelle plante peut pousser.",
+        "image": "plante_fruit",
+        "audio": "plante_fruit_audio"
+      },
+      {
+        "title": "La Tige",
+        "text": "La tige est comme le corps de la plante. Elle tient les feuilles, les fleurs et les fruits bien droits vers le soleil. Elle fait monter l'eau des racines jusqu'en haut.",
+        "image": "plante_tige",
+        "audio": "plante_tige_audio"
+      },
+      {
+        "title": "Les Racines",
+        "text": "Les racines sont cachées sous la terre. Elles attrapent bien la terre pour que la plante ne tombe pas. Les racines boivent l'eau et mangent les bonnes choses du sol pour la plante.",
+        "image": "plante_racines",
+        "audio": "plante_racines_audio"
+      },
+      {
+        "title": "Le Sol",
+        "text": "Le sol, c'est la terre où la plante habite. C'est là que les racines trouvent de l'eau et à manger. Le sol aide la plante à bien tenir debout.",
+        "image": "plante_sol",
+        "audio": "plante_sol_audio"
+      },
+      {
+        "title": "Il faut de l'Eau",
+        "text": "Les plantes ont très soif ! L'eau aide la nourriture à monter dans la plante. Elle aide la plante à fabriquer à manger. Sans eau, la plante devient toute molle et triste.",
+        "image": "plante_besoin_eau",
+        "audio": "plante_besoin_eau_audio"
+      },
+      {
+        "title": "Il faut de l'Air",
+        "text": "Les plantes respirent l'air, comme nous. Elles ont besoin d'un gaz spécial dans l'air pour faire leur nourriture. Et elles nous donnent de l'air bon à respirer !",
+        "image": "plante_besoin_air",
+        "audio": "plante_besoin_air_audio"
+      },
+      {
+        "title": "Il faut du Soleil",
+        "text": "Le soleil donne de la lumière et de la chaleur aux plantes. La lumière du soleil, c'est comme la force qui aide les feuilles à fabriquer la nourriture. Sans soleil, la plante ne peut pas bien manger ni grandir.",
+        "image": "plante_besoin_soleil",
+        "audio": "plante_besoin_soleil_audio"
+      },
+      {
+        "title": "Il faut une bonne Chaleur",
+        "text": "Les plantes aiment bien quand il ne fait ni trop froid, ni trop chaud. S'il fait trop froid, elles peuvent avoir des glaçons sur elles. S'il fait trop chaud, elles peuvent avoir soif très vite. Une bonne chaleur les aide à être en forme.",
+        "image": "plante_besoin_temperature",
+        "audio": "plante_besoin_temperature_audio"
+      }
+    ]
+  }

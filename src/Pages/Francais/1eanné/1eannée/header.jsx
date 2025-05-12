@@ -10,6 +10,8 @@ import JeuLecture from "../Lecture1ephrase/lecture";
 import FoodGuideActivities from "./Text1e/Alimentation/alimentation";
 import SensesGamesContainer from "./corps/jeuorgane";
 import Organedesens from "./corps/texteCorps/tex3";
+import PlantGamesContainer from "./plante/planteExer";
+import PlantLesson from "./plante/PlantLesson";
 
 
 
@@ -44,7 +46,7 @@ export default function Exercice1e2e() {
                 Exercices 1re et 2e Année
             </Typography>
 
-           
+
 
             {/* Boutons */}
             <Grid container justifyContent="center" spacing={2}>
@@ -88,7 +90,7 @@ export default function Exercice1e2e() {
                         disabled={visibleComponent === "alimentation"}
                     />
                 </Grid>
-                
+
                 <Grid item>
                     <CustomButton
                         onClick={() => handleButtonClick("jeuLecture")}
@@ -105,6 +107,23 @@ export default function Exercice1e2e() {
                         disabled={visibleComponent === "organes"}
                     />
                 </Grid>
+                <Grid item>
+                    <CustomButton
+                        onClick={() => handleButtonClick("plantLesson")}
+                        label="Leçon : Parties de la plante"
+                        color="info"
+                        disabled={visibleComponent === "plantLesson"}
+                    />
+                </Grid>
+                <Grid item>
+                    <CustomButton
+                        onClick={() => handleButtonClick("plantGames")}
+                        label="Jeux : Plante"
+                        color="secondary"
+                        disabled={visibleComponent === "plantGames"}
+                    />
+                </Grid>
+
             </Grid>
 
             {/* Affichage conditionnel des exercices */}
@@ -116,16 +135,16 @@ export default function Exercice1e2e() {
                 {visibleComponent === "alimentation" && <FoodGuideActivities />}
                 {visibleComponent === "jeuLecture" && <JeuLecture />}
                 {visibleComponent === "organes" && <SensesGamesContainer />}
-
+                {visibleComponent === "plantLesson" && <PlantLesson />}
+                {visibleComponent === "plantGames" && <PlantGamesContainer />}
 
                 {!visibleComponent && (
                     <Typography variant="body1" align="center">
                         Sélectionnez un exercice pour commencer.
                     </Typography>
                 )}
-                 
             </Box>
-           
+
         </Container>
     );
 }

@@ -64,6 +64,11 @@ import FractionsExercise222 from './Pages/OQRE/Maths/1e année/faction/faction.j
 import AppDicte from './Pages/appdicte.jsx';
 //import PreparationOQRE from './Oqre2025/oqre.jsx';
 import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
+//import EmojiMemoryGame from './Pages/Francais/1eanné/Memoire/EmojiMemoryGame.jsx';
+import MemoryGame from './Pages/Francais/1eanné/Memoire/MemoryGame.jsx';
+//import PlantGamesContainer from './Pages/Francais/1eanné/1eannée/plante/planteExer.jsx';
+//import PlantLesson from './Pages/Francais/1eanné/1eannée/plante/PlantLesson.jsx';
+//import MathExercisesApp from './Oqre2025/Revision/MathExercises.jsx';
 //import LectureApp from './Pages/Francais/1eanné/1eannée/corps/texteCorps/lecture/lectureapp.jsx';
 //import Lecture2App from './Pages/Francais/1eanné/1eannée/corps/texteCorps/lecture/Lexture2App.jsx';
 //import InteractiveLearningGame from './Pages/Francais/1eanné/1eannée/corps/texteCorps/lecture/lecture2e.jsx';
@@ -87,15 +92,18 @@ const App = () => {
           <Route path="/about" element={<Exercice1e2e />} />
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
-          <Route path="/jeux" element={<PreparationOQRE1/>} />
+          <Route path="/jeux" element={<PreparationOQRE1 />} />
 
           {/*<Route path="/Concours" element={<MathExerciseComponent/>} />*/}
 
-          <Route path="/Concours" element={<AppDicte/>} />
+          <Route path="/Concours" element={<AppDicte />} />
+          {/*<Route path="/revision" element={<MathExercisesApp/>} />*/}
+          <Route path="/revision" element={<MemoryGame />} />
+
 
           {/* Exercices et jeux */}
           <Route path="/francais/dictee" element={<WordPlayer />} />
-          
+
           <Route path="/francais/comprehension" element={<Lecture />} />
           <Route path="/francais/conjugaison" element={<Conjugation />} />
           <Route path="/francais/grammaire" element={<Grammaire />} />
@@ -116,9 +124,9 @@ const App = () => {
           <Route path="/story/bucheron" element={<InteractiveBookBucheron />} />
           <Route path="/story/Luna" element={<InteractiveBookLuna />} />
 
-         
-         
-          
+
+
+
 
           <Route path="/story/Bons_Amis" element={<InteractiveBook7 />} />
           <Route path="/story/aventure_leo" element={<InteractiveBook11 />} />

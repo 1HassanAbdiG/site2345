@@ -1,0 +1,220 @@
+{
+    "title": "Les Plantes et ce qu'il leur faut pour grandir",
+    "sections": [
+      {
+        "title": "La Fleur",
+        "text": "La fleur est jolie avec ses couleurs. Elle sent bon. Les abeilles aiment les fleurs. La fleur aide la plante à faire des bébés plantes, avec des fruits et des graines.",
+        "image": "plante_fleur",
+        "audio": "plante_fleur_audio",
+        "questions": [
+          {
+            "question": "Quelle partie de la plante aide à faire des bébés plantes ?",
+            "options": ["La feuille", "La fleur", "La racine"],
+            "correctAnswer": "La fleur"
+          },
+          {
+            "question": "Qu'est-ce que la fleur aide à faire après la fleur ?",
+            "options": ["La tige", "Les racines", "Des fruits et des graines"],
+            "correctAnswer": "Des fruits et des graines"
+          }
+        ]
+      },
+      {
+        "title": "La Feuille",
+        "text": "La feuille est souvent verte. C'est comme la cuisine de la plante. Avec le soleil, l'air et l'eau, la feuille fabrique à manger pour la plante. La feuille aide aussi la plante à respirer.",
+        "image": "plante_feuille",
+        "audio": "plante_feuille_audio",
+        "questions": [
+          {
+            "question": "Quelle partie de la plante est comme sa cuisine ?",
+            "options": ["La tige", "Le fruit", "La feuille"],
+            "correctAnswer": "La feuille"
+          },
+          {
+            "question": "Qu'est-ce que la feuille utilise pour fabriquer à manger ?",
+            "options": ["La terre, la lune et le vent", "Le soleil, l'air et l'eau", "Les cailloux et le froid"],
+            "correctAnswer": "Le soleil, l'air et l'eau"
+          }
+        ]
+      },
+      {
+        "title": "Le Fruit",
+        "text": "Le fruit pousse après la fleur. Dedans, il y a des graines. Les animaux et nous, on aime manger les fruits. Quand on mange un fruit et qu'on jette les graines, une nouvelle plante peut pousser.",
+        "image": "plante_fruit",
+        "audio": "plante_fruit_audio",
+        "questions": [
+          {
+            "question": "Qu'y a-t-il souvent à l'intérieur d'un fruit ?",
+            "options": ["Des cailloux", "Des graines", "De l'eau salée"],
+            "correctAnswer": "Des graines"
+          },
+          {
+            "question": "Quand on jette les graines d'un fruit, que peut-il arriver ?",
+            "options": ["La plante meurt", "Une nouvelle plante peut pousser", "Il pleut"],
+            "correctAnswer": "Une nouvelle plante peut pousser"
+          }
+        ]
+      },
+      {
+        "title": "La Tige",
+        "text": "La tige est comme le corps de la plante. Elle tient les feuilles, les fleurs et les fruits bien droits vers le soleil. Elle fait monter l'eau des racines jusqu'en haut.",
+        "image": "plante_tige",
+        "audio": "plante_tige_audio",
+        "questions": [
+          {
+            "question": "À quoi sert la tige ?",
+            "options": ["À attraper les insectes", "À tenir les feuilles et les fleurs", "À sentir les odeurs"],
+            "correctAnswer": "À tenir les feuilles et les fleurs"
+          },
+          {
+            "question": "Qu'est-ce qui monte dans la tige ?",
+            "options": ["Le soleil", "La terre", "L'eau des racines"],
+            "correctAnswer": "L'eau des racines"
+          }
+        ]
+      },
+      {
+        "title": "Les Racines",
+        "text": "Les racines sont cachées sous la terre. Elles attrapent bien la terre pour que la plante ne tombe pas. Les racines boivent l'eau et mangent les bonnes choses du sol pour la plante.",
+        "image": "plante_racines",
+        "audio": "plante_racines_audio",
+        "questions": [
+          {
+            "question": "Où se trouvent les racines ?",
+            "options": ["Sur les feuilles", "Sous la terre", "Dans les fruits"],
+            "correctAnswer": "Sous la terre"
+          },
+          {
+            "question": "Que font les racines ?",
+            "options": ["Elles boivent l'eau du sol", "Elles font de l'ombre", "Elles volent les graines"],
+            "correctAnswer": "Elles boivent l'eau du sol"
+          }
+        ]
+      },
+      {
+        "title": "Le Sol",
+        "text": "Le sol, c'est la terre où la plante habite. C'est là que les racines trouvent de l'eau et à manger. Le sol aide la plante à bien tenir debout.",
+        "image": "plante_sol",
+        "audio": "plante_sol_audio",
+        "questions": [
+          {
+            "question": "Comment appelle-t-on la terre où vit la plante ?",
+            "options": ["Le ciel", "Le sol", "L'eau"],
+            "correctAnswer": "Le sol"
+          },
+          {
+            "question": "Qu'est-ce que les racines trouvent dans le sol ?",
+            "options": ["Des jouets", "De l'eau et à manger", "Des oiseaux"],
+            "correctAnswer": "De l'eau et à manger"
+          }
+        ]
+      },
+      {
+        "title": "Il faut de l'Eau",
+        "text": "Les plantes ont très soif ! L'eau aide la nourriture à monter dans la plante. Elle aide la plante à fabriquer à manger. Sans eau, la plante devient toute molle et triste.",
+        "image": "plante_besoin_eau",
+        "audio": "plante_besoin_eau_audio",
+        "questions": [
+          {
+            "question": "Est-ce que les plantes ont besoin d'eau ?",
+            "options": ["Oui, beaucoup", "Non, jamais", "Un tout petit peu"],
+            "correctAnswer": "Oui, beaucoup"
+          },
+          {
+            "question": "Que devient une plante sans eau ?",
+            "options": ["Elle chante", "Elle grandit plus vite", "Elle devient toute molle et triste"],
+            "correctAnswer": "Elle devient toute molle et triste"
+          }
+        ]
+      },
+      {
+        "title": "Il faut de l'Air",
+        "text": "Les plantes respirent l'air, comme nous. Elles ont besoin d'un gaz spécial dans l'air pour faire leur nourriture. Et elles nous donnent de l'air bon à respirer !",
+        "image": "plante_besoin_air",
+        "audio": "plante_besoin_air_audio",
+        "questions": [
+          {
+            "question": "Est-ce que les plantes respirent ?",
+            "options": ["Oui", "Non", "Seulement la nuit"],
+            "correctAnswer": "Oui"
+          },
+          {
+            "question": "Les plantes nous donnent...",
+            "options": ["De l'eau salée", "De l'air bon à respirer", "Des bonbons"],
+            "correctAnswer": "De l'air bon à respirer"
+          }
+        ]
+      },
+      {
+        "title": "Il faut du Soleil",
+        "text": "Le soleil donne de la lumière et de la chaleur aux plantes. La lumière du soleil, c'est comme la force qui aide les feuilles à fabriquer la nourriture. Sans soleil, la plante ne peut pas bien manger ni grandir.",
+        "image": "plante_besoin_soleil",
+        "audio": "plante_besoin_soleil_audio",
+        "questions": [
+          {
+            "question": "Pourquoi la plante a-t-elle besoin du soleil ?",
+            "options": ["Pour dormir", "Pour fabriquer sa nourriture", "Pour jouer au ballon"],
+            "correctAnswer": "Pour fabriquer sa nourriture"
+          },
+          {
+            "question": "Que donne le soleil à la plante ?",
+            "options": ["De l'ombre", "De la lumière et de la chaleur", "De la pluie"],
+            "correctAnswer": "De la lumière et de la chaleur"
+          }
+        ]
+      },
+      {
+        "title": "Il faut une bonne Chaleur",
+        "text": "Les plantes aiment bien quand il ne fait ni trop froid, ni trop chaud. S'il fait trop froid, elles peuvent avoir des glaçons sur elles. S'il fait trop chaud, elles peuvent avoir soif très vite. Une bonne chaleur les aide à être en forme.",
+        "image": "plante_besoin_temperature",
+        "audio": "plante_besoin_temperature_audio",
+        "questions": [
+          {
+            "question": "Les plantes préfèrent quelle température ?",
+            "options": ["Très froide", "Ni trop froide ni trop chaude", "Très chaude"],
+            "correctAnswer": "Ni trop froide ni trop chaude"
+          },
+          {
+            "question": "Que peut-il arriver s'il fait trop froid ?",
+            "options": ["La plante devient toute molle", "La plante peut geler", "La plante grandit beaucoup"],
+            "correctAnswer": "La plante peut geler"
+          }
+        ]
+      }
+    ],
+    "finalQuiz": {
+      "title": "Le Quiz Final sur les Plantes !",
+      "questions": [
+        {
+          "question": "Quelle partie de la plante est sous la terre ?",
+          "options": ["La fleur", "La feuille", "Les racines"],
+          "correctAnswer": "Les racines"
+        },
+        {
+          "question": "Quelle partie de la plante est souvent colorée et sent bon ?",
+          "options": ["La tige", "La feuille", "La fleur"],
+          "correctAnswer": "La fleur"
+        },
+        {
+          "question": "Que fabriquent les feuilles avec le soleil, l'eau et l'air ?",
+          "options": ["Des pierres", "À manger pour la plante", "De l'eau salée"],
+          "correctAnswer": "À manger pour la plante"
+        },
+        {
+          "question": "Quel besoin aide la plante à ne pas être toute molle ?",
+          "options": ["Le vent", "L'eau", "Le bruit"],
+          "correctAnswer": "L'eau"
+        },
+         {
+          "question": "Quel besoin donne l'énergie à la plante pour fabriquer sa nourriture ?",
+          "options": ["La nuit", "Le froid", "La lumière du soleil"],
+          "correctAnswer": "La lumière du soleil"
+        },
+        {
+          "question": "Que trouve la plante dans le sol avec ses racines ?",
+          "options": ["Des jouets", "De l'eau et à manger", "Des oiseaux"],
+          "correctAnswer": "De l'eau et à manger"
+        }
+      ]
+    }
+  }
