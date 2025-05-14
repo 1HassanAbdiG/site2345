@@ -1,0 +1,186 @@
+[
+    {
+      "id": "ex1",
+      "type": "fill_in_blanks_qcm",
+      "title": "Exercice 1 : Complète les phrases à trous avec les options (image).",
+      "description": "Regarde l'image et choisis le bon mot pour chaque trou.",
+      "questions": [
+        {
+          "id": "ex1_q1",
+          "image": "/1eexercie/images/chien.png",
+          "templateParts": ["Le ", "", " joue à la ", "", "."],
+          "blanks": [
+            {
+              "options": ["garçon", "fille", "chien"],
+              "correctAnswer": "chien"
+            },
+            {
+              "options": ["corde", "balle", "voiture"],
+              "correctAnswer": "balle"
+            }
+          ]
+        },
+        {
+          "id": "ex1_q2",
+          "image": "/1eexercie/images/grenouile.png",
+          "templateParts": ["La ", "", " joue avec un ", "", "."],
+          "blanks": [
+            {
+              "options": ["femme", "grenouille", "garçon"],
+              "correctAnswer": "grenouille"
+            },
+            {
+                "options": ["livre", "papillon", "ballon"],
+                "correctAnswer": "papillon"
+              }
+          ]
+        },
+        {
+          "id": "ex1_q3",
+          "image": "/1eexercie/images/garcon.png",
+          "templateParts": ["Les enfants nagent dans la ", "", "."],
+          "blanks": [
+            {
+              "options": ["mer", "rivière", "piscine"],
+              "correctAnswer": "piscine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "sentence_construction",
+      "title": "Exercice 2 : Construis les phrases (glisser-déposer).",
+      "description": "Glisse les mots pour construire la phrase correcte. Clique sur l'oreille pour écouter.",
+      "questions": [
+        {
+          "id": "ex2_q1",
+          "words": ["mange", "Le chat", "une souris."],
+          "correctSentence": "Le chat mange une souris."
+        },
+        {
+          "id": "ex2_q2",
+          "words": ["court", "Le chien", "dans le jardin."],
+          "correctSentence": "Le chien court dans le jardin."
+        },
+        {
+          "id": "ex2_q3",
+          "words": ["la table.", "est", "sur", "Le livre"],
+          "correctSentence": "Le livre est sur la table."
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "qcm",
+      "title": "Exercice 3 : Choisis la bonne réponse (QCM).",
+      "description": "Sélectionne l'option correcte pour chaque question.",
+      "questions": [
+        {
+          "id": "ex3_q1",
+          "questionText": "Comment appelle-t-on le repas du matin ?",
+          "options": ["Le déjeuner", "Le dîner", "Le petit-déjeuner"],
+          "correctAnswer": "Le petit-déjeuner"
+        },
+        {
+          "id": "ex3_q2",
+          "questionText": "Quelle est la couleur du ciel un jour ensoleillé ?",
+          "options": ["Vert", "Bleu", "Rouge"],
+          "correctAnswer": "Bleu"
+        },
+        {
+          "id": "ex3_q3",
+          "questionText": "Combien de jours y a-t-il dans une semaine ?",
+          "options": ["Cinq", "Six", "Sept"],
+          "correctAnswer": "Sept"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "type": "image_question",
+      "title": "Exercice 4 : Regarde l’image et complète les phrases avec les options.",
+      "description": "Observe l'image et choisis le bon mot pour chaque trou.",
+      "questions": [
+        {
+          "id": "ex4_q1",
+          "image": "/1eexercie/images/chatdort.png",
+          "templateParts": ["Le chat ", "", "."],
+          "blanks": [
+            {
+              "options": ["mange", "dort", "joue"],
+              "correctAnswer": "dort"
+            }
+          ]
+        },
+        {
+          "id": "ex4_q2",
+          "image": "/1eexercie/images/garconmange.png",
+          "templateParts": ["Le garçon ", "", "."],
+          "blanks": [
+            {
+              "options": ["lit", "court", "mange"],
+              "correctAnswer": "mange"
+            }
+          ]
+        },
+        {
+          "id": "ex4_q3",
+          "image": "/1eexercie/images/oiseaux.png",
+          "templateParts": ["L'oiseau est ", "", " la branche."],
+          "blanks": [
+            {
+              "options": ["sous", "sur", "dans"],
+              "correctAnswer": "sur"
+            }
+          ]
+        },{
+            "id": "ex1_q4",
+            "image": "/1eexercie/images/enfant.png",
+            "templateParts": ["Les enfants ", "", " au foot."],
+            "blanks": [
+              {
+                "options": ["fait", "sautent", "jouent", "marche"],
+                "correctAnswer": "jouent"
+              }
+            ]
+          },
+          {
+            "id": "ex1_q5",
+            "image": "/1eexercie/images/pierre.png",
+            "templateParts": ["Pierre ", "", " dans la montagne."],
+            "blanks": [
+              {
+                "options": ["fait", "sautent", "jouent", "marche"],
+                "correctAnswer": "marche"
+              }
+            ]
+          },
+          {
+            "id": "ex1_q6",
+            "image": "/1eexercie/images/saute.png",
+            "templateParts": ["Sam, Djemila et Sophie ", "", " partout."],
+            "blanks": [
+              {
+                "options": ["fait", "sautent", "jouent", "marche"],
+                "correctAnswer": "sautent"
+              }
+            ]
+          },
+          {
+            "id": "ex1_q7",
+            "image": "/1eexercie/images/dessin.png",
+            "templateParts": ["Le petit garçon ", "", " un dessin pour sa maman."],
+            "blanks": [
+              {
+                "options": ["fait", "sautent", "jouent", "marche"],
+                "correctAnswer": "fait"
+              }
+            ]
+          }
+          
+      ]
+    }
+  ]
+  
