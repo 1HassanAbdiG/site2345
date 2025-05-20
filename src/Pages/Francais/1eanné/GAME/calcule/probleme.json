@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "type": "addition",
+      "question": "Il y a 4 pommes dans un panier. Un ami en ajoute 3. Combien y a-t-il de pommes maintenant ?",
+      "emoji": "🍎",
+      "emojiModifie": "➕",
+      "total": 4,
+      "modification": 3,
+      "theme": "panier"
+    },
+    {
+      "id": 2,
+      "type": "addition",
+      "question": "Il y a 5 ballons dans le jardin. Un ami en ajoute 2. Combien y a-t-il de ballons maintenant ?",
+      "emoji": "🎈",
+      "emojiModifie": "🎉",
+      "total": 5,
+      "modification": 2,
+      "theme": "jardin"
+    },
+    {
+      "id": 3,
+      "type": "addition",
+      "question": "Il y a 3 étoiles dans le ciel. On en ajoute 5. Combien y a-t-il d'étoiles maintenant ?",
+      "emoji": "⭐",
+      "emojiModifie": "✨",
+      "total": 3,
+      "modification": 5,
+      "theme": "ciel"
+    },
+    {
+      "id": 4,
+      "type": "addition",
+      "question": "Il y a 6 bonbons dans une boîte. On en reçoit 2 de plus. Combien y a-t-il de bonbons maintenant ?",
+      "emoji": "🍬",
+      "emojiModifie": "🎁",
+      "total": 6,
+      "modification": 2,
+      "theme": "boîte"
+    },
+    {
+      "id": 5,
+      "type": "addition",
+      "question": "Il y a 7 crayons dans une trousse. On en trouve 3 de plus. Combien y a-t-il de crayons maintenant ?",
+      "emoji": "✏️",
+      "emojiModifie": "🔍",
+      "total": 7,
+      "modification": 3,
+      "theme": "trousse"
+    },
+    {
+      "id": 6,
+      "type": "addition",
+      "question": "Il y a 4 poissons dans un aquarium. On en ajoute 4. Combien y a-t-il de poissons maintenant ?",
+      "emoji": "🐟",
+      "emojiModifie": "🐠",
+      "total": 4,
+      "modification": 4,
+      "theme": "aquarium"
+    },
+    {
+      "id": 7,
+      "type": "addition",
+      "question": "Il y a 3 fleurs dans le jardin. On en plante 6 de plus. Combien y a-t-il de fleurs maintenant ?",
+      "emoji": "🌸",
+      "emojiModifie": "🌱",
+      "total": 3,
+      "modification": 6,
+      "theme": "jardin"
+    },
+    {
+      "id": 8,
+      "type": "addition",
+      "question": "Il y a 2 cadeaux sur la table. Après un anniversaire, on en ajoute 7. Combien y a-t-il de cadeaux maintenant ?",
+      "emoji": "🎁",
+      "emojiModifie": "🎂",
+      "total": 2,
+      "modification": 7,
+      "theme": "table"
+    },
+    {
+      "id": 9,
+      "type": "addition",
+      "question": "Il y a 5 abeilles dans la ruche. On en voit 2 de plus. Combien y a-t-il d'abeilles maintenant ?",
+      "emoji": "🐝",
+      "emojiModifie": "🔭",
+      "total": 5,
+      "modification": 2,
+      "theme": "ruche"
+    },
+    {
+      "id": 10,
+      "type": "addition",
+      "question": "Il y a 1 soleil en papier sur le mur. On en dessine 8 de plus. Combien y a-t-il de soleils en papier maintenant ?",
+      "emoji": "☀️",
+      "emojiModifie": "🖍️",
+      "total": 1,
+      "modification": 8,
+      "theme": "mur"
+    },
+    {
+      "id": 11,
+      "type": "soustraction",
+      "question": "Il y a 6 gâteaux sur une assiette. Le chat en mange 2. Combien de gâteaux restent-ils ?",
+      "emoji": "🧁",
+      "emojiModifie": "🐱",
+      "total": 6,
+      "modification": 2,
+      "theme": "assiette"
+    },
+    {
+      "id": 12,
+      "type": "soustraction",
+      "question": "Il y a 7 glaces sur la table. On en mange 3. Combien de glaces restent-elles ?",
+      "emoji": "🍦",
+      "emojiModifie": "👅",
+      "total": 7,
+      "modification": 3,
+      "theme": "table"
+    },
+    {
+      "id": 13,
+      "type": "soustraction",
+      "question": "Il y a 9 livres sur une étagère. On en range 4. Combien de livres restent-ils ?",
+      "emoji": "📚",
+      "emojiModifie": "📦",
+      "total": 9,
+      "modification": 4,
+      "theme": "étagère"
+    },
+    {
+      "id": 14,
+      "type": "soustraction",
+      "question": "Il y a 8 chaussettes dans un panier. On en perd 5. Combien de chaussettes restent-elles ?",
+      "emoji": "🧦",
+      "emojiModifie": "❓",
+      "total": 8,
+      "modification": 5,
+      "theme": "panier"
+    },
+    {
+      "id": 15,
+      "type": "soustraction",
+      "question": "Il y a 10 billes dans une poche. On en donne 4. Combien de billes restent-elles ?",
+      "emoji": "🔵",
+      "emojiModifie": "🤲",
+      "total": 10,
+      "modification": 4,
+      "theme": "poche"
+    },
+    {
+      "id": 16,
+      "type": "soustraction",
+      "question": "Il y a 5 biscuits dans une boîte. Après le goûter, il en reste 3. Combien de biscuits ont été mangés ?",
+      "emoji": "🍪",
+      "emojiModifie": "🧒",
+      "total": 5,
+      "modification": 3,
+      "theme": "boîte"
+    },
+    {
+      "id": 17,
+      "type": "soustraction",
+      "question": "Il y a 6 feuilles sur un arbre. Le vent en emporte 2. Combien de feuilles restent-elles ?",
+      "emoji": "🍂",
+      "emojiModifie": "💨",
+      "total": 6,
+      "modification": 2,
+      "theme": "arbre"
+    },
+    {
+      "id": 18,
+      "type": "soustraction",
+      "question": "Il y a 9 cubes sur un tapis. On en utilise 6 pour construire. Combien de cubes restent-ils ?",
+      "emoji": "🧊",
+      "emojiModifie": "🏗️",
+      "total": 9,
+      "modification": 6,
+      "theme": "tapis"
+    },
+    {
+      "id": 19,
+      "type": "soustraction",
+      "question": "Il y a 7 fraises dans un bol. On en mange 3. Combien de fraises restent-elles ?",
+      "emoji": "🍓",
+      "emojiModifie": "🍴",
+      "total": 7,
+      "modification": 3,
+      "theme": "bol"
+    },
+    {
+      "id": 20,
+      "type": "soustraction",
+      "question": "Il y a 10 pièces dans un porte-monnaie. On en utilise 5 pour payer. Combien de pièces restent-elles ?",
+      "emoji": "🪙",
+      "emojiModifie": "💰",
+      "total": 10,
+      "modification": 5,
+      "theme": "porte-monnaie"
+    }
+  ]
+  

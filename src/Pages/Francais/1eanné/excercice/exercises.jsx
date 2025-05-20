@@ -8,7 +8,6 @@ import {
   Grid,
   Card,
   CardMedia,
-  // CardContent, // Removed - not used
   Table,
   TableBody,
   TableCell,
@@ -21,7 +20,6 @@ import {
   Radio,
   IconButton,
   Chip,
-  // Stack, // Removed - not used
   Select,
   MenuItem,
   FormControl,
@@ -38,7 +36,7 @@ import { CSS } from '@dnd-kit/utilities';
 // Import the JSON data
 import exercisesData from './Data.json';
 
-// Custom styled components for better appearance (keep these)
+// Custom styled components for better appearance
 const StyledPaper = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(3),
   marginBottom: theme.spacing(4),
@@ -46,7 +44,7 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
   borderRadius: theme.shape.borderRadius,
 }));
 
-// Styled Box for drag and drop areas - Uses dnd-kit state for styling (keep this)
+// Styled Box for drag and drop areas - Uses dnd-kit state for styling
 const DndArea = styled(Box)(({ theme, isOver, isEmpty }) => ({
   minHeight: '50px',
   padding: theme.spacing(1),
@@ -59,7 +57,7 @@ const DndArea = styled(Box)(({ theme, isOver, isEmpty }) => ({
   alignItems: 'center',
 }));
 
-// Draggable/Sortable Item Component for dnd-kit (used IN SortableContext) (keep this)
+// Draggable/Sortable Item Component for dnd-kit (used IN SortableContext)
 const SortableChip = ({ id, label, color, data, ...props }) => {
     const {
         attributes,
@@ -91,7 +89,7 @@ const SortableChip = ({ id, label, color, data, ...props }) => {
     );
 };
 
-// Helper component for Droppable in dnd-kit (keep this)
+// Helper component for Droppable in dnd-kit
 const Droppable = ({ children, id, style, ...props }) => {
     const { setNodeRef, isOver } = useDroppable({ id });
 
@@ -102,7 +100,7 @@ const Droppable = ({ children, id, style, ...props }) => {
     );
 };
 
-// Helper component for Draggable in dnd-kit (used in Source area - NOT Sortable) (keep this)
+// Helper component for Draggable in dnd-kit (used in Source area - NOT Sortable)
 const Draggable = ({ children, id, data, style, ...props }) => {
      const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useDraggable({ id, data });
      const itemStyle = {
@@ -120,13 +118,12 @@ const Draggable = ({ children, id, data, style, ...props }) => {
      );
 };
 
-
 function FrenchExercises22() {
   const [userAnswers, setUserAnswers] = useState({});
   const [showSummary, setShowSummary] = useState(false);
   const [activeItem, setActiveItem] = useState(null); // For DragOverlay
 
-  // Sensors for dnd-kit (keep this)
+  // Sensors for dnd-kit
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
@@ -171,8 +168,7 @@ function FrenchExercises22() {
     });
   };
 
-
-  // --- Drag and Drop Handlers (@dnd-kit) --- (Keep this logic)
+  // --- Drag and Drop Handlers (@dnd-kit) ---
    const handleDragStart = (event) => {
      const activeData = event.active.data.current;
      if (activeData?.label) {
@@ -181,7 +177,6 @@ function FrenchExercises22() {
          setActiveItem(null);
      }
   };
-
 
   const handleDragEnd = (event) => {
     setActiveItem(null);
@@ -195,7 +190,6 @@ function FrenchExercises22() {
     const activeContainerId = activeData?.containerId;
     const overContainerId = overData?.containerId || over.id;
 
-
     const questionId = activeContainerId?.split('-')[1] || overContainerId?.split('-')[1];
     if (!questionId) return;
 
@@ -207,7 +201,6 @@ function FrenchExercises22() {
         const isOverSourceArea = overContainerId?.startsWith('source-');
         const isOverTargetArea = overContainerId?.startsWith('target-');
 
-
         // Scenario 1: Dragging FROM source TO target container
         if (isDraggingFromSource && isOverTargetArea) {
             const wordToAdd = activeData?.label;
@@ -215,7 +208,6 @@ function FrenchExercises22() {
 
              // Only add if not already present (basic check)
              if (currentTargetWords.includes(wordToAdd)) {
-                 // console.warn("Attempted to add duplicate word:", wordToAdd); // Optional warning
                  return prevAnswers; // Prevent duplicates
              }
 
@@ -279,7 +271,6 @@ function FrenchExercises22() {
   };
   // --- End Drag and Drop Handlers ---
 
-
   // Function to compare answers (case-insensitive, trim whitespace) - UPDATED for image_question
   const areAnswersEqual = (userAnswer, correctAnswer, type, question) => {
     // Check both fill_in_blanks_qcm AND image_question using the blanks structure
@@ -330,7 +321,7 @@ function FrenchExercises22() {
     return ''; // No answer given or invalid format
  };
 
-  // Function to reconstruct the sentence for display (e.g., in summary or during fill-in-blanks) (Keep this logic)
+  // Function to reconstruct the sentence for display (e.g., in summary or during fill-in-blanks)
   const reconstructSentence = (templateParts, answers) => {
      let sentenceParts = [];
      let blankIndex = 0;
@@ -347,8 +338,7 @@ function FrenchExercises22() {
      return sentenceParts.join('');
   };
 
-
-  // --- Text-to-Speech Function --- (Keep this logic)
+  // --- Text-to-Speech Function ---
   const speakSentence = (sentence) => {
      if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel(); // Stop any current speech
@@ -363,7 +353,7 @@ function FrenchExercises22() {
      }
   };
 
-  // Render function for Exercise 1 (Fill in the Blanks with QCM options) (Keep this logic)
+  // Render function for Exercise 1 (Fill in the Blanks with QCM options)
   const renderFillInBlanksQCM = (exercise) => (
     <Box key={exercise.id}>
       <Typography variant="h5" gutterBottom>{exercise.title}</Typography>
@@ -440,8 +430,7 @@ function FrenchExercises22() {
     </Box>
   );
 
-
-  // Render function for Exercise 2 (Sentence Construction with Drag & Drop) (Keep this logic)
+  // Render function for Exercise 2 (Sentence Construction with Drag & Drop)
    const renderSentenceConstruction = (exercise) => {
        return (
           <Box key={exercise.id}>
@@ -585,8 +574,7 @@ function FrenchExercises22() {
        );
    };
 
-
-  // Render function for Exercise 3 (Standard QCM) (Keep this logic)
+  // Render function for Exercise 3 (Standard QCM)
    const renderQCM = (exercise) => (
       <Box key={exercise.id}>
          <Typography variant="h5" gutterBottom>{exercise.title}</Typography>
@@ -691,8 +679,7 @@ function FrenchExercises22() {
      </Box>
   );
 
-
-  // Render the correct exercise type based on its type property (Keep this logic)
+  // Render the correct exercise type based on its type property
   const renderExercise = (exercise) => {
     switch (exercise.type) {
       case 'fill_in_blanks_qcm':
@@ -708,14 +695,59 @@ function FrenchExercises22() {
     }
   };
 
-  // Handle button click to show/hide summary (Keep this logic)
+  // Function to check if all questions are answered
+  const areAllQuestionsAnswered = () => {
+    for (const exercise of exercisesData) {
+      for (const question of exercise.questions) {
+        const answer = userAnswers[question.id];
+        if (exercise.type === 'fill_in_blanks_qcm' || exercise.type === 'image_question') {
+          if (answer.some(ans => ans === '')) {
+            return false;
+          }
+        } else if (exercise.type === 'sentence_construction') {
+          if (answer.length === 0) {
+            return false;
+          }
+        } else if (exercise.type === 'qcm') {
+          if (answer === '') {
+            return false;
+          }
+        }
+      }
+    }
+    return true;
+  };
+
+  // Function to reset user answers
+  const resetAnswers = () => {
+    const initialAnswers = {};
+    exercisesData.forEach(exercise => {
+      exercise.questions.forEach(question => {
+        if (exercise.type === 'fill_in_blanks_qcm' || exercise.type === 'image_question') {
+          initialAnswers[question.id] = Array(question.blanks.length).fill('');
+        } else if (exercise.type === 'sentence_construction') {
+          initialAnswers[question.id] = [];
+        } else {
+          initialAnswers[question.id] = '';
+        }
+      });
+    });
+    setUserAnswers(initialAnswers);
+    setShowSummary(false);
+  };
+
+  // Handle button click to show/hide summary
   const handleSubmit = () => {
+    if (!areAllQuestionsAnswered()) {
+      alert('Please answer all questions before submitting.');
+      return;
+    }
     setShowSummary(true);
-     // Scroll to the summary table
-     const summaryElement = document.getElementById('summary-table');
-     if (summaryElement) {
-       summaryElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-     }
+    // Scroll to the summary table
+    const summaryElement = document.getElementById('summary-table');
+    if (summaryElement) {
+      summaryElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   return (
@@ -731,15 +763,24 @@ function FrenchExercises22() {
         </StyledPaper>
       ))}
 
-      {/* Submit Button */}
+      {/* Submit and Reset Buttons */}
       <Box sx={{ textAlign: 'center', mb: 4 }}>
         <Button
           variant="contained"
           color="primary"
           size="large"
           onClick={handleSubmit}
+          sx={{ mr: 2 }}
         >
           Afficher les résultats
+        </Button>
+        <Button
+          variant="outlined"
+          color="secondary"
+          size="large"
+          onClick={resetAnswers}
+        >
+          Réinitialiser
         </Button>
       </Box>
 
@@ -773,7 +814,6 @@ function FrenchExercises22() {
 
                    const isCorrect = areAnswersEqual(userAnswers[question.id], correctComparisonValue, exercise.type, question); // Pass question object for blanks check
 
-
                    let questionSummaryText;
                    // For both fill_in_blanks_qcm and image_question, use templateParts for summary
                    if (exercise.type === 'fill_in_blanks_qcm' || exercise.type === 'image_question') {
@@ -787,7 +827,6 @@ function FrenchExercises22() {
                    } else {
                        questionSummaryText = "Question non reconnue"; // Handle unknown types gracefully
                    }
-
 
                   return (
                     <TableRow
@@ -822,10 +861,8 @@ function FrenchExercises22() {
           </Table>
         </TableContainer>
       )}
-
     </Container>
   );
 }
-
 
 export default FrenchExercises22;

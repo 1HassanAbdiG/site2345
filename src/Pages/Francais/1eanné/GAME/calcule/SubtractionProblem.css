@@ -1,0 +1,97 @@
+/* components/SubtractionProblem.css */
+.container {
+    border: solid 15px;
+    border-radius:30px;
+    background-color: #eaf4ee10;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .scenes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .scene, .modified, .added {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-align: center;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .item {
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item.placed {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .item.modified {
+    color: #ff6b6b;
+  }
+  
+  .available-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for Bilan component */
+  .bilan {
+    margin-top: 20px;
+  }
+  
+  .bilan h5 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .bilan-paper {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .bilan-paper h6 {
+    margin-top: 0;
+    color: #444;
+  }
+  

@@ -16,7 +16,7 @@ const Nav = () => {
     { text: "Français", path: "/francais" },
     { text: "OQRE", path: "/jeux" },
     { text: "Concours", path: "/Concours" },
-    { text: "Jeu de mémoire", path: "/Revision" },
+    { text: "1e et 2e année", path: "/Revision" },
   ];
 
   return (

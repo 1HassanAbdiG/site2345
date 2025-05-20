@@ -1,0 +1,22 @@
+[
+  {
+    "id": "story1",
+    "title": "L'histoire de la chenille",
+    "images": [
+      { "id": "img1a", "src": "chenille1.png", "correctOrder": 1 },
+      { "id": "img1b", "src": "chenille2.png", "correctOrder": 2 },
+      { "id": "img1c", "src": "chenille3.png", "correctOrder": 3 },
+      { "id": "img1d", "src": "chenille4.png", "correctOrder": 4 }
+    ]
+  },
+  {
+    "id": "story2",
+    "title": "La pomme et l'oiseau",
+    "images": [
+      { "id": "img2a", "src": "corbeau1.png", "correctOrder": 1 },
+      { "id": "img2b", "src": "corbeau2.png", "correctOrder": 2 },
+      { "id": "img2c", "src": "corbeau3.png", "correctOrder": 3 },
+      { "id": "img2d", "src": "corbeau4.png", "correctOrder": 4 }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+{
+    "animaux": {
+      "titre": "Associez l'image à son mot",
+      "instructions": "Cliquez sur une image puis sur le mot correspondant pour créer une association.",
+      "questions": [
+        { "id": 1, "image": "cheval.png", "word": "cheval" },
+        { "id": 2, "image": "tigre.png", "word": "tigre" },
+        { "id": 3, "image": "lion.png", "word": "lion" },
+        { "id": 4, "image": "zebre.png", "word": "zèbre" },
+        { "id": 5, "image": "pingouin.png", "word": "pingouin" },
+        { "id": 6, "image": "singe.png", "word": "singe" },
+        { "id": 7, "image": "ours.png", "word": "ours" }
+      ]
+    },
+    "fruits": {
+      "titre": "Associez l'image à son mot",
+      "instructions": "Cliquez sur une image puis sur le mot correspondant pour créer une association.",
+      "questions": [
+        { "id": 1, "image": "radis.png", "word": "radis" },
+        { "id": 2, "image": "pomme.png", "word": "pomme" },
+        { "id": 3, "image": "poire.png", "word": "poire" },
+        { "id": 4, "image": "raisin.png", "word": "raisin" },
+        { "id": 5, "image": "mangue.png", "word": "mangue" },
+        { "id": 6, "image": "fraise.png", "word": "fraise" },
+        { "id": 7, "image": "pastèque.png", "word": "pastèque" }
+      ]
+    },
+    "fournitures": {
+      "titre": "Associez l'image à son mot",
+      "instructions": "Cliquez sur une image puis sur le mot correspondant pour créer une association.",
+      "questions": [
+        { "id": 1, "image": "crayon.png", "word": "crayon" },
+        { "id": 2, "image": "gomme.png", "word": "gomme" },
+        { "id": 3, "image": "règle.png", "word": "règle" },
+        { "id": 4, "image": "trousse.png", "word": "trousse" },
+        { "id": 5, "image": "stylo.png", "word": "stylo" },
+        { "id": 6, "image": "table.png", "word": "table" },
+        { "id": 7, "image": "chaise.png", "word": "chaise" },
+        { "id": 8, "image": "livre.png", "word": "livre" },
+        { "id": 9, "image": "carton.png", "word": "carton" }
+      ]
+    }
+  }
+  

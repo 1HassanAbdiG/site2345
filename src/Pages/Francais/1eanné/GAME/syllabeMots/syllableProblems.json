@@ -1,0 +1,146 @@
+{
+    "animaux": [
+      {
+        "id": 2,
+        "syllables": ["che", "val"],
+        "correctWord": "cheval",
+        "imageUrl": "cheval.png"
+      },
+      {
+        "id": 3,
+        "syllables": ["ti", "gre"],
+        "correctWord": "tigre",
+        "imageUrl": "tigre.png"
+      },
+      {
+        "id": 4,
+        "syllables": ["li", "on"],
+        "correctWord": "lion",
+        "imageUrl": "lion.png"
+      },
+      {
+        "id": 5,
+        "syllables": ["zè", "bre"],
+        "correctWord": "zèbre",
+        "imageUrl": "zebre.png"
+      },
+      {
+        "id": 6,
+        "syllables": ["pin", "gouin"],
+        "correctWord": "pingouin",
+        "imageUrl": "pingouin.jpg"
+      },
+      {
+        "id": 8,
+        "syllables": ["sin", "ge"],
+        "correctWord": "singe",
+        "imageUrl": "singe.png"
+      },
+      {
+        "id": 9,
+        "syllables": ["ours"],
+        "correctWord": "ours",
+        "imageUrl": "ours.png"
+      }
+    ],
+    "fruits": [
+      {
+        "id": 1,
+        "syllables": ["ra", "dis"],
+        "correctWord": "radis",
+        "imageUrl": "radis.png"
+      },
+      {
+        "id": 3,
+        "syllables": ["pom", "me"],
+        "correctWord": "pomme",
+        "imageUrl": "pomme.png"
+      },
+      {
+        "id": 4,
+        "syllables": ["poi", "re"],
+        "correctWord": "poire",
+        "imageUrl": "poire.png"
+      },
+      {
+        "id": 5,
+        "syllables": ["rai", "sin"],
+        "correctWord": "raisin",
+        "imageUrl": "raisin.png"
+      },
+      {
+        "id": 7,
+        "syllables": ["man", "gue"],
+        "correctWord": "mangue",
+        "imageUrl": "mangue.png"
+      },
+      {
+        "id": 9,
+        "syllables": ["frai", "se"],
+        "correctWord": "fraise",
+        "imageUrl": "fraise.png"
+      },
+      {
+        "id": 10,
+        "syllables": ["pas", "tèque"],
+        "correctWord": "pastèque",
+        "imageUrl": "pastèque.png"
+      }
+    ],
+    "objets": [
+      {
+        "id": 2,
+        "syllables": ["cra", "yon"],
+        "correctWord": "crayon",
+        "imageUrl": "crayon.png"
+      },
+      {
+        "id": 3,
+        "syllables": ["gom", "me"],
+        "correctWord": "gomme",
+        "imageUrl": "gomme.png"
+      },
+      {
+        "id": 4,
+        "syllables": ["rè", "gle"],
+        "correctWord": "règle",
+        "imageUrl": "règle.png"
+      },
+      {
+        "id": 5,
+        "syllables": ["trous", "se"],
+        "correctWord": "trousse",
+        "imageUrl": "trousse.png"
+      },
+      {
+        "id": 6,
+        "syllables": ["sty", "lo"],
+        "correctWord": "stylo",
+        "imageUrl": "stylo.png"
+      },
+      {
+        "id": 7,
+        "syllables": ["ta", "ble"],
+        "correctWord": "table",
+        "imageUrl": "table.png"
+      },
+      {
+        "id": 8,
+        "syllables": ["chai", "se"],
+        "correctWord": "chaise",
+        "imageUrl": "chaise.png"
+      },
+      {
+        "id": 9,
+        "syllables": ["li", "vre"],
+        "correctWord": "livre",
+        "imageUrl": "livre.png"
+      },
+      {
+        "id": 10,
+        "syllables": ["car", "ton"],
+        "correctWord": "carton",
+        "imageUrl": "carton.png"
+      }
+    ]
+  }

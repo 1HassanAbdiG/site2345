@@ -1,0 +1,45 @@
+[
+  {
+    "id": "subtraction",
+    "title": "Addition et Soustraction",
+    "description": "Résous des problèmes d'addition et de soustraction",
+    "emoji": "➕➖",
+    "component": "SubtractionProblem"
+  },
+  {
+    "id": "storyOrder",
+    "title": "Ordre de l'histoire",
+    "description": "Replace l'histoire dans le bon ordre",
+    "emoji": "📖➡️",
+    "component": "StoryOrderGame"
+  },{
+    "id": "memoryGame",
+    "title": "Jeu de mémoire",
+    "description": "Retrouve les paires d'animaux identiques",
+    "emoji": "🧠🎴",
+    "component": "MemoryGame"
+  },
+  {
+    "id": "syllableGame",
+    "title": "Jeu des syllabes",
+    "description": "Reconstitue les mots avec les bonnes syllabes",
+    "emoji": "🔤🧩",
+    "component": "SyllableReorderGame"
+  },
+  {
+    "id": "Syllable1",
+    "title": "Choisis les bonnes syllabes",
+    "description": "Reconstitue les mots avec les bonnes syllabes",
+    "emoji": "🧠📚",
+    "component": "Syllable1"
+  },
+  
+ 
+  {
+    "id": "associationGame",
+    "title": "Association Image-Mot",
+    "description": "Associe chaque image à son mot en traçant une ligne",
+    "emoji": "🎯📷📝",
+    "component": "AssociationGame"
+  }
+]

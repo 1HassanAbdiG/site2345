@@ -65,7 +65,7 @@ import AppDicte from './Pages/appdicte.jsx';
 //import PreparationOQRE from './Oqre2025/oqre.jsx';
 import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
 //import EmojiMemoryGame from './Pages/Francais/1eanné/Memoire/EmojiMemoryGame.jsx';
-import MemoryGame from './Pages/Francais/1eanné/Memoire/MemoryGame.jsx';
+//import MemoryGame from './Pages/Francais/1eanné/Memoire/MemoryGame.jsx';
 //import PlantGamesContainer from './Pages/Francais/1eanné/1eannée/plante/planteExer.jsx';
 //import PlantLesson from './Pages/Francais/1eanné/1eannée/plante/PlantLesson.jsx';
 //import MathExercisesApp from './Oqre2025/Revision/MathExercises.jsx';
@@ -76,6 +76,7 @@ import MemoryGame from './Pages/Francais/1eanné/Memoire/MemoryGame.jsx';
 //import MedalQuiz from './Test/exerciceH.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
+import ComponentLoade from"./Pages/Francais/1eanné/GAME/Exercice1eannée/ComponentLoader.jsx"
 
 const App = () => {
   return (
@@ -98,7 +99,7 @@ const App = () => {
 
           <Route path="/Concours" element={<AppDicte />} />
           {/*<Route path="/revision" element={<MathExercisesApp/>} />*/}
-          <Route path="/revision" element={<MemoryGame />} />
+          <Route path="/revision" element={<ComponentLoade />} />
 
 
           {/* Exercices et jeux */}

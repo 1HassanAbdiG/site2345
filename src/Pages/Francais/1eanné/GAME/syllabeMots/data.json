@@ -1,0 +1,41 @@
+{
+    "animaux": {
+      "syllabes": ["che", "val", "ti", "gre", "li", "on", "zè", "bre", "pin", "gouin", "sin", "ge", "ours"],
+      "words": [
+        { "image": "cheval.png", "correct": "cheval", "article": "un", "audio": "cheval.mp3" },
+        { "image": "tigre.png", "correct": "tigre", "article": "un", "audio": "tigre.mp3" },
+        { "image": "lion.png", "correct": "lion", "article": "un", "audio": "lion.mp3" },
+        { "image": "zebre.png", "correct": "zèbre", "article": "un", "audio": "zebre.mp3" },
+        { "image": "pingouin.png", "correct": "pingouin", "article": "un", "audio": "pingouin.mp3" },
+        { "image": "singe.png", "correct": "singe", "article": "un", "audio": "singe.mp3" },
+        { "image": "ours.png", "correct": "ours", "article": "un", "audio": "ours.mp3" }
+      ]
+    },
+    "fruits": {
+      "syllabes": ["ra", "dis", "pom", "me", "poi", "re", "rai", "sin", "man", "gue", "frai", "se", "pas", "tèque"],
+      "words": [
+        { "image": "radis.png", "correct": "radis", "article": "un", "audio": "radis.mp3" },
+        { "image": "pomme.png", "correct": "pomme", "article": "une", "audio": "pomme.mp3" },
+        { "image": "poire.png", "correct": "poire", "article": "une", "audio": "poire.mp3" },
+        { "image": "raisin.png", "correct": "raisin", "article": "un", "audio": "raisin.mp3" },
+        { "image": "mangue.png", "correct": "mangue", "article": "une", "audio": "mangue.mp3" },
+        { "image": "fraise.png", "correct": "fraise", "article": "une", "audio": "fraise.mp3" },
+        { "image": "pastèque.png", "correct": "pastèque", "article": "une", "audio": "pasteque.mp3" }
+      ]
+    },
+    "fournitures": {
+      "syllabes": ["cra", "yon", "gom", "me", "rè", "gle", "trous", "se", "sty", "lo", "ta", "ble", "chai", "se", "li", "vre", "car", "ton"],
+      "words": [
+        { "image": "crayon.png", "correct": "crayon", "article": "un", "audio": "crayon.mp3" },
+        { "image": "gomme.png", "correct": "gomme", "article": "une", "audio": "gomme.mp3" },
+        { "image": "règle.png", "correct": "règle", "article": "une", "audio": "regle.mp3" },
+        { "image": "trousse.png", "correct": "trousse", "article": "une", "audio": "trousse.mp3" },
+        { "image": "stylo.png", "correct": "stylo", "article": "un", "audio": "stylo.mp3" },
+        { "image": "table.png", "correct": "table", "article": "une", "audio": "table.mp3" },
+        { "image": "chaise.png", "correct": "chaise", "article": "une", "audio": "chaise.mp3" },
+        { "image": "livre.png", "correct": "livre", "article": "un", "audio": "livre.mp3" },
+        { "image": "carton.png", "correct": "carton", "article": "un", "audio": "carton.mp3" }
+      ]
+    }
+  }
+  
