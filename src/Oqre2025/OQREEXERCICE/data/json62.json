@@ -1,0 +1,136 @@
+{
+  "pdfPath": "./neva_project.pdf",
+  "qcmComprehension": [
+    {
+      "question": "De quoi parle le travail de recherche de Neva ?",
+      "options": [
+        "Les nouveaux magasins",
+        "Comment protéger la nature fragile",
+        "Comment cultiver des légumes en ville",
+        "L'histoire des vieilles fermes"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Pourquoi Neva veut-elle vraiment protéger la ferme Bouchard ?",
+      "options": [
+        "Elle veut y construire une piscine",
+        "Elle y a de très bons souvenirs d'été",
+        "Ses amis y habitent",
+        "Elle n'aime pas les centres commerciaux"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Qui Neva, sa classe et monsieur Lam voient-ils quand ils arrivent à la ferme ?",
+      "options": [
+        "Le maire",
+        "Des fermiers qui travaillent",
+        "Des hommes qui montrent des plans pour construire",
+        "D'autres enfants de l'école"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Comment Neva se sent-elle quand elle parle à la réunion municipale ?",
+      "options": [
+        "Très contente et pas du tout stressée",
+        "Elle s'ennuie",
+        "Un peu stressée ou timide",
+        "Elle est fâchée"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Que dit le grand panneau sur la ferme Bouchard à la fin de l'histoire ?",
+      "options": [
+        "Ici, futur centre commercial",
+        "Ici, nouveau quartier de maisons",
+        "Ici, futur lieu pour se promener dans la nature",
+        "Ici, fermé pour toujours"
+      ],
+      "correctAnswerIndex": 2
+    }
+  ],
+  "shortAnswerComprehension": [
+    {
+      "question": "Qui est madame Harris dans l'histoire ?",
+      "answer": "Madame Harris est la directrice de l'école de Neva.",
+      "reference": "Bloc 1, Bloc 2"
+    },
+    {
+      "question": "Quel est le problème qui pourrait arriver à la ferme Bouchard ?",
+      "answer": "Des personnes veulent construire un centre commercial sur le terrain de la ferme.",
+      "reference": "Bloc 1"
+    },
+    {
+      "question": "Quel est le nom de l'enseignant de Neva ?",
+      "answer": "L'enseignant de Neva s'appelle monsieur Lam.",
+      "reference": "Bloc 2"
+    },
+    {
+      "question": "Qu'est-ce que Neva explique aux hommes qu'ils rencontrent à la ferme ?",
+      "answer": "Neva leur explique ses idées pour protéger cette vieille ferme.",
+      "reference": "Bloc 5"
+    },
+    {
+      "question": "Pourquoi la directrice dit-elle 'Félicitations, Neva, tu as réussi!' à la fin ?",
+      "answer": "Elle la félicite parce que la ferme Bouchard va être transformée en un endroit pour se promener dans la nature, grâce aux idées de Neva.",
+      "reference": "Bloc 7, Bloc 9"
+    }
+  ],
+  "qcmVocabulary": [
+    {
+      "question": "Dans \"les écosystèmes **fragiles**\", que signifie \"fragiles\" ?",
+      "options": ["Très solides", "Faciles à casser ou à abîmer", "Très grands", "Qui n'existent pas"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Dans \"Elles perdront leur **habitat**\", que signifie \"habitat\" ?",
+      "options": ["Leur nourriture", "L'endroit où elles aiment vivre", "Leur famille", "Leurs plumes"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Dans \"Neva a toujours **fait preuve** de respect\", que signifie \"fait preuve de\" ?",
+      "options": ["N'a jamais montré de", "A montré du", "N'a pas du tout aimé", "A oublié de"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Les \"bernaches du Canada\" dont on parle dans le texte sont des :",
+      "options": ["Sortes d'arbres", "Sortes de fleurs", "Sortes d'oiseaux", "Sortes de poissons"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans \"une riche **biodiversité**\", cela signifie qu'il y a :",
+      "options": ["Beaucoup de gens riches", "Beaucoup de maisons", "Beaucoup de plantes et d'animaux différents", "Beaucoup d'eau propre"],
+      "correctAnswerIndex": 2
+    }
+  ],
+  "qcmGrammar": [
+    {
+      "question": "Dans \"les constructeurs **bâtiront** un centre commercial\", est-ce que l'action se passe :",
+      "options": ["Maintenant", "Hier", "Demain", "Quand ils avaient 5 ans"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans \"Où **vivront** toutes ces espèces?\", qui est-ce qui va vivre ?",
+      "options": ["Où", "le centre commercial", "toutes ces espèces", "les constructeurs"],
+      "correctAnswerIndex": 2
+    },
+     {
+      "question": "Dans la phrase 'Neva a toujours fait preuve de respect pour la nature...', quel mot est un **nom commun** ?",
+      "options": ["Neva", "toujours", "respect", "pour"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans 'la **jeune** fille se lève, un peu **nerveuse**, les joues légèrement **chaudes**', quels mots décrivent la fille ou les joues ?",
+      "options": ["se lève, joues", "jeune, nerveuse, chaudes", "un peu, légèrement", "fille, joues"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Dans \"pour **partager** tes idées\", le verbe \"partager\" est :",
+      "options": ["Conjugué avec 'il' ou 'elle'", "Sa forme de base (l'infinitif)", "Un mot qui décrit quelque chose", "Un mot qui relie des idées"],
+      "correctAnswerIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "pdfPath": "./detective_text.pdf",
+  "titre": "Jouer aux détectives",
+  "qcmComprehension": [
+    {
+      "question": "Quelle était l'activité prévue par Mala et Yusef cet après-midi-là ?",
+      "options": ["Aller au cinéma", "Jouer au baseball avec l'oncle Jake", "Rendre visite à Tony", "Étudier pour une évaluation"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Pourquoi Mala a-t-elle tiré Yusef en arrière devant la maison de Tony ?",
+      "options": ["Pour lui montrer quelque chose", "Pour qu'il soit silencieux", "Parce qu'elle a vu Tony pleurer", "Parce qu'elle a entendu un bruit étrange"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Quelles sont les premières hypothèses de Mala et Yusef pour expliquer pourquoi Tony pleurait ?",
+      "options": ["Il s'est blessé en jouant", "Sa famille déménageait", "Il n'a pas pu aller au cinéma ou il a eu une mauvaise note", "Il était fâché contre ses amis"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Comment Mala et Yusef ont-ils finalement parlé à Tony ?",
+      "options": ["Ils sont entrés chez lui", "Ils lui ont envoyé un message", "Ils l'ont appelé au téléphone", "Ils ont parlé à sa mère"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Quelle était la vraie raison des larmes de Tony qu'il a expliquée à la fin ?",
+      "options": ["Il a raté son évaluation", "Il était triste de ne pas pouvoir jouer au baseball", "Il coupait des oignons pour le dîner", "Il a vu un film très triste"],
+      "correctAnswerIndex": 2
+    }
+  ],
+  "shortAnswerComprehension": [
+    {
+      "question": "Qui est l'oncle de Mala et quel est son rôle dans l'histoire ?",
+      "answer": "L'oncle de Mala est Jake. Il est entraîneur de baseball et invite les enfants à jouer avec lui.",
+      "reference": "Bloc 1"
+    },
+    {
+      "question": "Que suggère Mala de faire avant de se diriger vers la maison de Tony ?",
+      "answer": "Mala suggère d'inviter Tony à jouer au baseball avec eux.",
+      "reference": "Bloc 1"
+    },
+    {
+      "question": "Pourquoi Mala chuchote-t-elle à Yusef pendant leur conversation téléphonique avec Tony ?",
+      "answer": "Elle chuchote 'Ne l'interroge pas trop' car elle pense qu'il y a quelque chose qui ne va pas (basé sur ce qu'elle a vu) et ne veut pas mettre Tony mal à l'aise ou le forcer à parler.",
+      "reference": "Bloc 6"
+    },
+    {
+      "question": "Que propose Tony à Mala et Yusef à la fin de l'appel téléphonique ?",
+      "answer": "Tony propose qu'ils viennent tous les deux dîner chez lui après la partie de baseball.",
+      "reference": "Bloc 7"
+    },
+    {
+      "question": "Que signifie la dernière phrase de Yusef : \"On dirait qu'on se débrouille mieux au baseball qu'à jouer aux détectives\" ?",
+      "answer": "Cela signifie qu'ils étaient excellents au baseball (selon l'oncle Jake) mais qu'ils n'ont pas réussi à découvrir la vraie raison des larmes de Tony par eux-mêmes (ils pensaient à la note ou au cinéma, mais c'était les oignons). Ils n'étaient pas de bons 'détectives'.",
+      "reference": "Bloc 9"
+    }
+  ],
+  "qcmVocabulary": [
+    {
+      "question": "Dans \"demande Yusef avec **enthousiasme**\", que signifie \"enthousiasme\" ?",
+      "options": ["Tristesse", "Excitation joyeuse", "Indifférence", "Peur"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Dans \"C'est quoi tout ça? **chuchote** Yusef\", que signifie \"chuchote\" ?",
+      "options": ["Crie très fort", "Parle très doucement", "Chante une chanson", "Rigole bruyamment"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Dans \"J'ai **entrevu** Tony par la fenêtre\", que signifie \"entrevu\" ?",
+      "options": ["Vu très clairement", "Parlé avec", "Aperçu rapidement", "Écouté attentivement"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans \"Je sais que ça l'a **contrarié**\", que signifie \"contrarié\" ?",
+      "options": ["Rendu très heureux", "Rendu confus", "Rendu fâché ou déçu", "Rendu surpris"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans \"Il est **habile** pour lancer et attraper la balle\", que signifie \"habile\" ?",
+      "options": ["Lent et hésitant", "Maladroit", "Doué et compétent", "Paresseux"],
+      "correctAnswerIndex": 2
+    }
+  ],
+  "qcmGrammar": [
+    {
+      "question": "Dans la phrase \"Ils **passent** devant la fenêtre...\", à quel temps est conjugué le verbe \"passent\" ?",
+      "options": ["Imparfait", "Passé Composé", "Présent de l'indicatif", "Futur Simple"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans la phrase \"ça **l'** a contrarié\", à qui ou à quoi fait référence le pronom \"l'\" (élidé pour \"le\" ou \"la\") ?",
+      "options": ["À Mala", "À Yusef", "À Tony", "À l'oncle Jake"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans la phrase \"la personne **idéale**\", pourquoi l'adjectif \"idéale\" prend-il un 'e' à la fin ?",
+      "options": ["Parce qu'il s'accorde avec \"entraîneur\" (masculin)", "Parce qu'il s'accorde avec \"personne\" (féminin)", "C'est sa forme de base invariable", "Parce qu'il est placé après le nom"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Dans la phrase \"Il **n'** a **pas** pu aller\", quels mots forment la négation ?",
+      "options": ["Il n'a", "a pas pu", "n'a pas", "pas pu"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Dans la phrase \"je **serais** ravi de venir\", à quel temps ou mode est conjugué le verbe \"serais\" ?",
+      "options": ["Présent de l'indicatif", "Futur simple", "Conditionnel présent", "Imparfait de l'indicatif"],
+      "correctAnswerIndex": 2
+    }
+  ],
+  "writingQuestion": {
+    "question": "6.Que peut⁠-⁠on dire au sujet de la personnalité de Tony? Explique ta réponse en utilisant les renseignements du texte. ",
+    "instruction": "Écrivez un texte d'environ 75 mots.",
+    "minWords": 75
+  }
+}

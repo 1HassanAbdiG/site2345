@@ -1,0 +1,143 @@
+{
+    "pdfPath": "./neva_project.pdf",
+    "qcmComprehension": [
+      {
+        "question": "Quel est le sujet principal du travail de recherche de Neva ?",
+        "options": [
+          "L'architecture moderne",
+          "La protection des écosystèmes fragiles",
+          "L'agriculture urbaine",
+          "L'histoire de la ferme Bouchard"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Pourquoi Neva est-elle déterminée à protéger la ferme Bouchard ?",
+        "options": [
+          "Elle veut y construire sa maison",
+          "Elle y a passé de nombreux jours d'été heureux",
+          "Sa famille y travaille",
+          "C'est l'endroit le plus proche de l'école"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Qui rencontre le groupe (Neva, sa classe et M. Lam) en arrivant à la ferme ?",
+        "options": [
+          "Le propriétaire de la ferme",
+          "Des agriculteurs",
+          "Des constructeurs et des conseillers municipaux",
+          "D'autres élèves d'une école voisine"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Comment Neva se sent-elle lorsqu'elle prend la parole à la réunion municipale ?",
+        "options": [
+          "Très confiante et à l'aise",
+          "Indifférente",
+          "Un peu nerveuse",
+          "En colère"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Quel est le sort final de la ferme Bouchard selon le panneau ?",
+        "options": [
+          "Elle est transformée en centre commercial",
+          "Elle devient un nouveau quartier résidentiel",
+          "Elle devient un parc et site de balade nature",
+          "Elle est laissée à l'abandon"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ],
+    "shortAnswerComprehension": [
+      {
+        "question": "Qui est madame Harris dans l'histoire ?",
+        "answer": "Madame Harris est la directrice de l'école de Neva.",
+        "reference": "Bloc 1, Bloc 2"
+      },
+      {
+        "question": "Quel est le danger qui menace la ferme Bouchard ?",
+        "answer": "Des constructeurs veulent bâtir un centre commercial sur le terrain de la ferme.",
+        "reference": "Bloc 1"
+      },
+      {
+        "question": "Quel est le nom de l'enseignant de Neva ?",
+        "answer": "L'enseignant de Neva se nomme monsieur Lam.",
+        "reference": "Bloc 2"
+      },
+      {
+        "question": "Qu'est-ce que Neva explique aux hommes rencontrés à la ferme ?",
+        "answer": "Neva leur explique ses idées au sujet de cette vieille ferme, probablement pour la préserver.",
+        "reference": "Bloc 5"
+      },
+      {
+        "question": "Pourquoi la directrice dit-elle à Neva 'Félicitations, Neva, tu as réussi!' ?",
+        "answer": "Elle la félicite car la ferme Bouchard est devenue un site de balade nature, grâce aux idées de Neva qui ont ému les conseillers.",
+        "reference": "Bloc 7, Bloc 9"
+      }
+    ],
+    "qcmVocabulary": [
+      {
+        "question": "Dans \"la protection des écosystèmes **fragiles**\", que signifie \"fragiles\" ?",
+        "options": ["Solides et résistants", "Faciles à endommager ou perturber", "Grands et étendus", "Peu importants"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Dans \"Elles perdront leur **habitat**\", que signifie \"habitat\" ?",
+        "options": ["Leur nourriture", "Leur capacité à voler", "Le lieu où elles vivent naturellement", "Leurs amis"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dans \"Neva a toujours **fait preuve** de respect\", que signifie \"fait preuve de\" ?",
+        "options": ["Manqué de", "Ignoré", "Montré ou démontré", "Parlé contre"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Les \"bernaches du Canada\" mentionnées dans le texte sont des :",
+        "options": ["Insectes", "Plantes rares", "Types d'oiseaux", "Poissons"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dans \"une riche **biodiversité**\", que signifie \"biodiversité\" ?",
+        "options": ["La variété des bâtiments", "La diversité des formes de vie (plantes, animaux, etc.)", "La quantité d'eau", "La richesse des habitants"],
+        "correctAnswerIndex": 1
+      }
+    ],
+    "qcmGrammar": [
+      {
+        "question": "Dans la phrase \"les constructeurs **bâtiront** un centre commercial\", à quel temps est conjugué le verbe \"bâtiront\" ?",
+        "options": ["Présent de l'indicatif", "Imparfait", "Futur simple", "Passé composé"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dans la phrase \"Où **vivront** toutes ces espèces?\", quel est le sujet du verbe \"vivront\" ?",
+        "options": ["Où", "toutes", "ces espèces", "les constructeurs"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dans la phrase \"Elle **y** a passé de nombreux jours d'été\", à quoi fait référence le pronom \"y\" ?",
+        "options": ["À l'école", "À la salle de classe", "À la ferme", "Au centre commercial"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dans la phrase \"la jeune fille se lève, un peu **nerveuse**, les joues légèrement **chaudes**\", identifiez les adjectifs qualificatifs.",
+        "options": ["jeune, légèrement", "fille, joues", "nerveuse, chaudes", "se lève, ont"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Dans la phrase \"pour **partager** tes idées\", le verbe \"partager\" est à l'...",
+        "options": ["Indicatif présent", "Participe passé", "Infinitif", "Subjonctif présent"],
+        "correctAnswerIndex": 2
+      }
+    
+  ],
+  "writingQuestion": {
+    "question": "6.Que peut⁠-⁠on dire au sujet de la personnalité de Tony? Explique ta réponse en utilisant les renseignements du texte. ",
+    "instruction": "Écrivez un texte d'environ 75 mots.",
+    "minWords": 75
+  }
+}
+  
