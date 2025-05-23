@@ -65,6 +65,7 @@ const DetectiveTextComponent = ({ questionsData }) => {
   ];
 
   const totalQcms = allQcms.length;
+  const maxPossibleScore = 15; // Score maximum fixé à 15
 
   const handleQcmChange = (globalIndex, optionIndex) => {
     if (!submitted) {
@@ -95,6 +96,13 @@ const DetectiveTextComponent = ({ questionsData }) => {
         score++;
       }
     });
+    
+    // Si toutes les réponses sont correctes, donner le score maximum (15)
+    if (score === totalQcms) {
+      return maxPossibleScore;
+    }
+    
+    // Sinon, retourner le nombre de bonnes réponses
     return score;
   };
 
@@ -145,7 +153,7 @@ const DetectiveTextComponent = ({ questionsData }) => {
   const maxScore = totalAttempts > 0 ? Math.max(...attemptHistory) : 0;
   const minScore = totalAttempts > 0 ? Math.min(...attemptHistory) : 0;
   const firstScore = totalAttempts > 0 ? attemptHistory[0] : 0;
-  const percentageScore = Math.round((currentScore / totalQcms) * 100);
+  const percentageScore = Math.round((currentScore / maxPossibleScore) * 100);
 
   const renderQcmSection = (title, questions, startGlobalIndex, icon) => (
     <>
@@ -498,7 +506,7 @@ const DetectiveTextComponent = ({ questionsData }) => {
             <Box display="flex" alignItems="center" mb={2}>
               <Box flexGrow={1}>
                 <Typography variant="h3" component="div" sx={{ fontWeight: 700 }}>
-                  {currentScore}/{totalQcms}
+                  {currentScore}/{maxPossibleScore}
                 </Typography>
                 <Typography variant="subtitle1">
                   {percentageScore >= 80 ? "Excellent travail !" : 
@@ -532,7 +540,7 @@ const DetectiveTextComponent = ({ questionsData }) => {
                   <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center' }}>
                     <EmojiEventsIcon sx={{ mr: 1 }} />
                     <Typography variant="body1">
-                      <strong>Meilleur score :</strong> {maxScore}/{totalQcms}
+                      <strong>Meilleur score :</strong> {maxScore}/{maxPossibleScore}
                     </Typography>
                   </Grid>
                   <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center' }}>
@@ -554,7 +562,7 @@ const DetectiveTextComponent = ({ questionsData }) => {
                   {attemptHistory.map((score, index) => (
                     <Chip
                       key={index}
-                      label={`Tentative ${index + 1}: ${score}/${totalQcms}`}
+                      label={`Tentative ${index + 1}: ${score}/${maxPossibleScore}`}
                       sx={{ mr: 1, mb: 1 }}
                       color={index === attemptHistory.length - 1 ? 'primary' : 'default'}
                       variant={index === attemptHistory.length - 1 ? 'filled' : 'outlined'}

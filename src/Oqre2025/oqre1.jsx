@@ -16,6 +16,7 @@ import VerticalSplitIcon from '@mui/icons-material/VerticalSplit';
 import { config, docConfig } from './configData';
 import TextEditorSelectionModify from './tex';
 import JsonViewer from './OQREEXERCICE/JsonViewer';
+import Oqrerevision1 from './OQRERESIVION/Oqrerevision2';
 //import DetectiveTextComponent from './OQREEXERCICE/DetectiveTextComponent';
 
 // --- Theme ---
@@ -127,9 +128,10 @@ function OqreMuiViewer() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      < Oqrerevision1></Oqrerevision1>
 
       <JsonViewer></JsonViewer>
-      
+
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <AppBar position="static" elevation={1}>
           <Toolbar>

@@ -1,0 +1,378 @@
+{
+    "testTitle": "Questions diffusées OQRE - Mathématiques 3e année - Janvier 2025",
+    "sections": [
+      {
+        "id": "B_Nombres",
+        "title": "B. NOMBRES",
+        "questions": [
+          {
+            "id": "1",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Monsieur Chan a 57 crayons dans sa classe.\nQuel nombre représente 57 arrondi à la dizaine\nprès?",
+            "options": ["50", "55", "60", "70"],
+            "correctAnswer": "c",
+            "verification": "Pour arrondir 57 à la dizaine près, on regarde le chiffre des unités (7). Puisque 7 est égal ou supérieur à 5, on arrondit à la dizaine supérieure, qui est 60."
+          },
+          {
+            "id": "2",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Quel ensemble de nombres représente des\nbonds de 25?",
+            "options": ["300, 325, 335, 345", "325, 330, 335, 340", "300, 325, 375, 400", "325, 350, 375, 400"],
+            "correctAnswer": "d",
+            "verification": "Dans l'option D, chaque nombre est obtenu en ajoutant 25 au nombre précédent (325 + 25 = 350, 350 + 25 = 375, 375 + 25 = 400)."
+          }
+        ]
+      },
+       {
+        "id": "B2_Sens_des_operations",
+        "title": "B2. Sens des opérations",
+        "questions": [
+          {
+            "id": "3",
+            "type": "multipleChoice",
+            "pageReference": 6,
+            "questionText": "Combien de groupes de 5 y a-t-il dans 35?",
+            "options": [
+              "30 groupes",
+              "8 groupes",
+              "7 groupes",
+              "6 groupes"
+            ],
+            "correctAnswer": "c",
+            "verification": "Pour trouver le nombre de groupes de 5 dans 35, on effectue la division 35 ÷ 5. 35 ÷ 5 = 7."
+          },
+          {
+            "id": "4",
+            "type": "multipleChoice",
+            "pageReference": 6,
+            "questionText": "Il y a 42 personnes qui jouent au soccer.\nPuis, 14 personnes arrêtent de jouer au soccer.\nCombien de personnes jouent encore au\nsoccer?",
+            "options": [
+              "56 personnes",
+              "38 personnes",
+              "32 personnes",
+              "28 personnes"
+            ],
+            "correctAnswer": "d",
+            "verification": "Pour trouver le nombre de personnes qui jouent encore, on soustrait le nombre de personnes qui ont arrêté du nombre initial de joueurs : 42 - 14 = 28."
+          },
+          {
+            "id": "5",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "Quelle fraction représente l'aire du cercle qui\ndevrait être rouge dans la réponse?",
+            "imageSrc": "/images/maths3/Q5_fractions.png",
+            "imageAlt": "Addition de trois quarts de cercle rouges",
+            "options": [
+              "1/4",
+              "1/3",
+              "3/3",
+              "3/4"
+            ],
+            "correctAnswer": "d",
+            "verification": "L'addition des fractions représente 1/4 + 1/4 + 1/4 = 3/4. Le cercle réponse devrait montrer 3/4 de son aire en rouge."
+          },
+          {
+            "id": "6",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "Il y a 3 bicyclettes et 4 tricycles.\nCombien de pneus y a-t-il en tout?",
+            "imageSrc": "/images/maths3/Q6_bikes.png",
+            "imageAlt": "Images d'une bicyclette et d'un tricycle",
+            "options": [
+              "7 pneus",
+              "12 pneus",
+              "14 pneus",
+              "18 pneus"
+            ],
+            "correctAnswer": "d",
+            "verification": "3 bicyclettes avec 2 pneus chacune font 3 * 2 = 6 pneus. 4 tricycles avec 3 pneus chacun font 4 * 3 = 12 pneus. Le nombre total de pneus est 6 + 12 = 18 pneus."
+          }
+        ]
+      },
+       {
+        "id": "C_Algebre",
+        "title": "C. ALGÈBRE",
+        "questions": [
+          {
+            "id": "7",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Les jours encerclés sur ce calendrier\nreprésentent les jours où Kelly nage.\nÀ quelle fréquence Kelly nage-t-elle?",
+            "imageSrc": "/images/maths3/Q7_calendar.png",
+            "imageAlt": "Calendrier de 31 jours avec certains jours encerclés (14, 16, 18, 20, 22, 24, 26, 28, 30)",
+            "options": [
+              "Kelly nage tous les 2 jours.",
+              "Kelly nage tous les 3 jours.",
+              "Kelly nage tous les 4 jours.",
+              "Kelly nage tous les 6 jours."
+            ],
+            "correctAnswer": "a",
+            "verification": "En examinant les jours encerclés (14, 16, 18, 20, ...), on constate que Kelly nage tous les deux jours."
+          },
+          {
+            "id": "8",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Tal crée une suite numérique. Il commence\nà 7 et compte par bonds de 2.\nVijay crée une suite numérique. Il commence\nà 6 et compte par bonds de 5.\nQuels deux nombres font partie des suites\nnumériques de Tal et de Vijay?",
+            "options": [
+              "11 et 16",
+              "11 et 21",
+              "21 et 25",
+              "21 et 26"
+            ],
+            "correctAnswer": "b",
+            "verification": "Suite de Tal (bonds de 2 à partir de 7): 7, 9, 11, 13, 15, 17, 19, 21, 23, ... Suite de Vijay (bonds de 5 à partir de 6): 6, 11, 16, 21, 26, ... Les nombres communs aux deux suites sont 11 et 21."
+          }
+        ]
+      },
+       {
+        "id": "C2_Equations_et_inegalites",
+        "title": "C2. Équations et inégalités",
+        "questions": [
+          {
+            "id": "9",
+            "type": "multipleChoice",
+            "pageReference": 9,
+            "questionText": "Quelle expression est égale à 400?",
+            "options": [
+              "600 - 300",
+              "300 + 100",
+              "200 + 300",
+              "500 - 200"
+            ],
+            "correctAnswer": "b",
+            "verification": "Calculons la valeur de chaque expression : 600 - 300 = 300; 300 + 100 = 400; 200 + 300 = 500; 500 - 200 = 300. L'expression égale à 400 est 300 + 100."
+          },
+          {
+            "id": "10",
+            "type": "classification",
+            "pageReference": 9,
+            "questionText": "Classe chaque paire d'expressions comme « équivalent » ou « non équivalent ».",
+            "imageSrc": "/images/maths3/Q10_equivalent.png", 
+            "imageAlt": "Paires d'expressions à classer comme équivalentes ou non",
+            "itemsToClassify": [ 
+              { "expressions": ["6 + 9", "21 - 5"], "correctCategory": "non équivalent" },
+              { "expressions": ["36 ÷ 4", "3 x 3"], "correctCategory": "équivalent" },
+              { "expressions": ["8 + 4", "6 x 2"], "correctCategory": "équivalent" }
+            ],
+            "categories": ["équivalent", "non équivalent"], 
+            "verification": "6+9=15, 21-5=16 (non équivalent).\n36÷4=9, 3x3=9 (équivalent).\n8+4=12, 6x2=12 (équivalent)."
+          }
+        ]
+      },
+       {
+        "id": "C3_Codage",
+        "title": "C3. Codage",
+        "questions": [
+          {
+            "id": "11",
+            "type": "multipleChoice",
+            "pageReference": 10,
+            "questionText": "Quelle ligne de code crée une boucle dans\nun programme?",
+            "options": [
+              "attendre 5 secondes",
+              "entrer nombre",
+              "répéter 3 fois",
+              "avancer de 1 case"
+            ],
+            "correctAnswer": "c",
+            "verification": "Dans la plupart des langages de programmation visuels pour débutants, une commande comme \"répéter [nombre] fois\" est utilisée pour créer une boucle qui exécute une instruction ou un ensemble d'instructions plusieurs fois."
+          }
+        ]
+      },
+      {
+        "id": "D_Donnees",
+        "title": "D. DONNÉES",
+        "questions": [
+          {
+            "id": "12",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "Ce diagramme représente la taille des souliers\ndes élèves.\nCombien d'élèves portent des souliers de\ntaille 12?",
+            "imageSrc": "/images/maths3/Q12_bar_chart.png",
+            "imageAlt": "Graphique à barres montrant le nombre d'élèves par taille de souliers",
+            "options": [
+              "4 élèves",
+              "6 élèves",
+              "7 élèves",
+              "8 élèves"
+            ],
+            "correctAnswer": "c",
+            "verification": "En lisant le graphique à barres, la barre pour la taille 12 des souliers atteint le niveau 7 sur l'axe du nombre d'élèves."
+          },
+          {
+            "id": "13",
+            "type": "multipleChoice",
+            "pageReference": 11,
+            "questionText": "Ce diagramme à pictogrammes représente les\nréponses de 21 élèves à un sondage sur leur\nactivité préférée. La légende est incomplète.\nQuelle est la bonne légende pour ce\ndiagramme à pictogrammes?",
+            "imageSrc": "/images/maths3/Q13_pictogram.png",
+            "imageAlt": "Diagramme à pictogrammes des activités préférées des élèves",
+            "options": [
+              "Chaque \ud83d\ude0a représente 1 élève.",
+              "Chaque \ud83d\ude0a représente 2 élèves.",
+              "Chaque \ud83d\ude0a représente 3 élèves.",
+              "Chaque \ud83d\ude0a représente 4 élèves."
+            ],
+            "correctAnswer": "a",
+            "verification": "Le diagramme montre un total de 21 smileys, et le sondage a été mené auprès de 21 élèves. Par conséquent, chaque smiley représente 1 élève."
+          }
+        ]
+      },
+      {
+        "id": "D2_Probabilite",
+        "title": "D2. Probabilité",
+        "questions": [
+          {
+            "id": "14",
+            "type": "multipleChoice",
+            "pageReference": 12,
+            "questionText": "Alma pige une carte d'un sac sans regarder.\nQuel sac représente une probabilité équiprobable\nde piger une carte avec un nombre pair et une\ncarte avec un nombre impair?",
+            "imageSrc": "/images/maths3/Q14_bags.png",
+            "imageAlt": "Quatre sacs contenant différentes cartes numérotées",
+            "options": [
+              "Sac A (2, 6, 7, 3, 5)",
+              "Sac B (3, 1, 4, 7)",
+              "Sac C (2, 4, 6, 5)",
+              "Sac D (4, 5, 4, 9, 6)"
+            ],
+            "correctAnswer": "d",
+            "verification": "Selon les données provinciales, la réponse D est la bonne réponse. (Note : Les nombres dans le sac D ne donnent pas une probabilité équiprobable de piger un pair ou un impair, il peut y avoir une subtilité ou une erreur dans la question/illustration originale de l'OQRE)."
+          }
+        ]
+      },
+      {
+        "id": "E_Sens_de_l_espace",
+        "title": "E. SENS DE L'ESPACE",
+        "questions": [
+          {
+            "id": "15",
+            "type": "multipleChoice",
+            "pageReference": 13,
+            "questionText": "Quelle option nomme toutes les faces de ce\nsolide?",
+            "imageSrc": "/images/maths3/Q15_prism.png",
+            "imageAlt": "Dessin d'un prisme triangulaire",
+            "options": [
+              "2 triangles et 2 rectangles",
+              "2 triangles et 3 rectangles",
+              "3 triangles et 2 rectangles",
+              "3 triangles et 3 rectangles"
+            ],
+            "correctAnswer": "b",
+            "verification": "Un prisme triangulaire a deux bases triangulaires et trois faces latérales rectangulaires. Il a donc 2 faces triangulaires et 3 faces rectangulaires."
+          },
+          {
+            "id": "16",
+            "type": "multipleChoice", 
+            "pageReference": 13,
+            "questionText": "Choisis les DEUX solides qui ont chacun\n6 faces, 12 arêtes et 8 sommets.",
+            "imageSrc": "/images/maths3/Q16_solids.png",
+            "imageAlt": "Images de cinq solides géométriques (Cube, Cylindre, Prisme rectangulaire, Pyramide à base carrée, Cône)",
+            "options": [ 
+              "Solide A (Cube)",
+              "Solide B (Cylindre)",
+              "Solide C (Prisme rectangulaire)",
+              "Solide D (Pyramide à base carrée)",
+              "Solide E (Cône)"
+            ],
+            "correctAnswer": ["a", "c"], 
+            "verification": "Les solides ayant 6 faces, 12 arêtes et 8 sommets sont le cube (A) et le prisme rectangulaire (C). Ces solides ont 6 faces, 12 arêtes et 8 sommets."
+          }
+        ]
+      },
+      {
+        "id": "E1_Raisonnement_geometrique_et_spatial_suite",
+        "title": "E1. Raisonnement géométrique et spatial (suite)",
+        "questions": [
+          {
+            "id": "17",
+            "type": "multipleChoice",
+            "pageReference": 14,
+            "questionText": "Quel solide a un total de 8 sommets et une\nbase rectangulaire?",
+            "options": [
+              "une pyramide à base carrée",
+              "une pyramide à base octogonale",
+              "un prisme à base rectangulaire",
+              "un prisme à base octogonale"
+            ],
+            "correctAnswer": "c",
+            "verification": "Une base rectangulaire a 4 sommets. Un prisme a deux bases et les sommets de ces bases sont aussi les sommets du solide. Un prisme à base rectangulaire a donc 4 sommets sur une base + 4 sommets sur l'autre base = 8 sommets au total."
+          }
+        ]
+      },
+      {
+        "id": "E2_Sens_de_la_mesure",
+        "title": "E2. Sens de la mesure",
+        "questions": [
+          {
+            "id": "18",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Cette balance à plateaux n'est pas en équilibre.\nQuel énoncé est vrai?",
+            "imageSrc": "/images/maths3/Q18_balance.png",
+            "imageAlt": "Balance à plateaux avec un ananas plus bas que la banane",
+            "options": [
+              "La masse de l'ananas est égale à la\nmasse de la banane.",
+              "La masse de l'ananas est plus petite\nque la masse de la banane.",
+              "La masse de la banane est plus grande\nque la masse de l'ananas.",
+              "La masse de la banane est plus petite\nque la masse de l'ananas."
+            ],
+            "correctAnswer": "d",
+            "verification": "Sur une balance à plateaux, le côté le plus lourd descend. Le plateau avec l'ananas est plus bas, donc l'ananas est plus lourd que la banane. Cela signifie que la masse de la banane est plus petite que celle de l'ananas."
+          },
+          {
+            "id": "19",
+            "type": "multipleChoice",
+            "pageReference": 15,
+            "questionText": "Quelle est l'aire de cette figure?",
+            "imageSrc": "/images/maths3/Q19_area.png",
+            "imageAlt": "Figure composée de 17 carrés unitaires sur une grille",
+            "options": [
+              "14 cm²",
+              "16 cm²",
+              "17 cm²",
+              "20 cm²"
+            ],
+            "correctAnswer": "c",
+            "verification": "En comptant les carrés unitaires (1 cm²) qui composent la figure, on trouve un total de 17 carrés. L'aire de la figure est donc de 17 cm²."
+          }
+        ]
+      },
+      {
+        "id": "F_Litteratie_financiere",
+        "title": "F. LITTÉRATIE FINANCIÈRE",
+        "questions": [
+          {
+            "id": "20",
+            "type": "multipleChoice",
+            "pageReference": 16,
+            "questionText": "Un élève achète un livre à 14 $. Il paye avec\nun billet de 20 $.\nChoisis le billet qui représente la meilleure\nestimation de l'argent qu'il va recevoir en retour.",
+            "imageSrc": "/images/maths3/Q20_bills.png",
+            "imageAlt": "Images de billets de banque canadiens de 5$, 10$ et 20$",
+            "options": [
+              "Billet de 5 $",
+              "Billet de 10 $",
+              "Billet de 20 $"
+            ],
+            "correctAnswer": "a",
+            "verification": "Le montant rendu est de 20 $ - 14 $ = 6 $. Le billet qui représente la meilleure estimation de 6 $ est le billet de 5 $."
+          },
+          {
+            "id": "21",
+            "type": "multipleChoice",
+            "pageReference": 16,
+            "questionText": "Un article coûte 75 cents et un élève paie\n80 cents.\nQuelle est la monnaie rendue à l'élève?",
+            "options": [
+              "5 cents",
+              "10 cents",
+              "15 cents",
+              "25 cents"
+            ],
+            "correctAnswer": "a",
+            "verification": "La monnaie rendue est calculée en soustrayant le coût de l'article du montant payé : 80 cents - 75 cents = 5 cents."
+          }
+        ]
+      }
+    ]
+  }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,  } from 'react';
 import {
   Container,
   Typography,
@@ -25,19 +25,7 @@ import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 const textContent = `
-Le projet de Neva
 
-1
-Eh bien, Neva, j'aime beaucoup tes idées, dit la directrice en examinant le
-travail de recherche qu'elle a entre les mains au sujet de la protection des
-écosystèmes fragiles.
-Merci, madame Harris, répond Neva. Si on ne les arrête pas, les
-constructeurs bâtiront un centre commercial. Où vivront toutes ces espèces?
-Elles perdront leur habitat.
-J'ai une idée! Donne-moi quelques minutes, dit madame Harris en
-quittant la salle de classe.
-
-[... reste du texte ...]
 `;
 
 const TextDisplay = ({ text }) => {
