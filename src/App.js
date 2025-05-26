@@ -12,7 +12,7 @@ import styles from './Pages/Accueil.module.css';
 // Importation des pages principales
 import Accueil from './Pages/Accueil';
 import Francais from './Pages/Francais/Francais';
-import Mathematiques from './Pages/maths/Mathematiques';
+//import Mathematiques from './Pages/maths/Mathematiques';
 //import JeuEdu from './Pages/Jeu/jeu.jsx';
 
 // Importation des exercices et jeux
@@ -93,7 +93,7 @@ const App = () => {
           <Route path="/" element={<Accueil />} />
           <Route path="/about" element={<Accueil/>} />
           <Route path="/francais" element={<Francais />} />
-          <Route path="/mathematiques" element={<Mathematiques />} />
+         {/* <Route path="/mathematiques" element={<Mathematiques />} />*/}
           <Route path="/jeux" element={< SelectionTest />} />
 
           {/*<Route path="/Concours" element={<MathExerciseComponent/>} />*/}
