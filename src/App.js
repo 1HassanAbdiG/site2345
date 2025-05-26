@@ -52,7 +52,7 @@ import InteractiveBook11 from './Pages/Francais/TextAudio/loe/tex4.js';
 //import ChatComponent from './ChatComponent.js';
 //import Exercicegram from './Exercice de conjuguaison/exercice.jsx';
 //import SyllableGame from './Pages/Francais/1eanné/SyllableGame.js';
-import Exercice1e2e from './Pages/Francais/1eanné/1eannée/header.jsx';
+//import Exercice1e2e from './Pages/Francais/1eanné/1eannée/header.jsx';
 import InteractiveBookTigre from './Pages/Francais/TextAudio/le_tigre_chacals/textigre.js';
 import InteractiveBookBucheron from './Pages/Francais/TextAudio/le petit_bûcheron/bucheron.js';
 import InteractiveBookLuna from './Pages/Francais/TextAudio/Le Voyage_Luna/texLuna.js';
@@ -91,7 +91,7 @@ const App = () => {
         <Routes>
           {/* Routes principales */}
           <Route path="/" element={<Accueil />} />
-          <Route path="/about" element={<Exercice1e2e />} />
+          <Route path="/about" element={<Accueil/>} />
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
           <Route path="/jeux" element={< SelectionTest />} />
