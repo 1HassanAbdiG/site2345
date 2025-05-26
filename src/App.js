@@ -93,10 +93,10 @@ const App = () => {
           <Route path="/" element={<Accueil />} />
           <Route path="/about" element={<Accueil/>} />
           <Route path="/francais" element={<Francais />} />
-         {/* <Route path="/mathematiques" element={<Mathematiques />} />*/}
+        
           <Route path="/jeux" element={< SelectionTest />} />
 
-          {/*<Route path="/Concours" element={<MathExerciseComponent/>} />*/}
+       
 
           <Route path="/Concours" element={<AppDicte />} />
           {/*<Route path="/revision" element={<MathExercisesApp/>} />*/}
