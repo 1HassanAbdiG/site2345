@@ -99,7 +99,7 @@ const App = () => {
        
 
           <Route path="/Concours" element={<AppDicte />} />
-          {/*<Route path="/revision" element={<MathExercisesApp/>} />*/}
+          
           <Route path="/revision" element={<ComponentLoade />} />
 
 
