@@ -1,0 +1,363 @@
+{
+  "testTitle": "Ressource OQRE: Questions diffusées - Mathématiques 3e année - Novembre 2023",
+  "sections": [
+    {
+      "id": "B_Nombres",
+      "title": "B. NOMBRES",
+      "questions": [
+        {
+          "id": "1",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "Quelle est la valeur du chiffre 8 dans le nombre 826?",
+          "options": ["8", "80", "800"],
+          "correctAnswer": "c",
+          "verification": "Dans le nombre 826, le chiffre 8 est à la position des centaines, donc sa valeur est 800."
+        },
+        {
+          "id": "2",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "Rafiq et ses amis se partagent une pizza. Ils ne mangent que deux quarts de la pizza. Choisis les DEUX fractions qui sont équivalentes à deux quarts.",
+          "options": ["un demi", "deux demis", "deux huitièmes", "quatre huitièmes"],
+          "correctAnswer": ["a", "d"],
+          "verification": "Deux quarts (2/4) est équivalent à un demi (1/2). Deux quarts (2/4) est aussi équivalent à quatre huitièmes (4/8)."
+        },
+        
+        {
+          "id": "3",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "Quels nombres sont représentés par la lettre A et la lettre B sur cette droite numérique?",
+          "imageSrc": "/images/maths32023/Q3_number_line.png",
+          "imageAlt": "Droite numérique avec des marques à 0, 75, 100 et des points A (entre 0 et 75) et B (entre 75 et 100).",
+          "options": ["60 et 90", "65 et 90", "65 et 95", "70 et 95"],
+          "correctAnswer": "c",
+          "verification": "Selon la clé de réponse (C), les nombres représentés sont 65 (pour A) et 95 (pour B). (Note : L'échelle exacte sur la droite numérique n'est pas parfaitement claire visuellement)."
+        }
+      ]
+    },
+    {
+      "id": "B2_Sens_des_operations",
+      "title": "B2. Sens des opérations",
+      "questions": [
+        {
+          "id": "4",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Quels deux nombres multipliés ensemble donnent 30?",
+          "options": ["3 et 0", "5 et 3", "10 et 2", "10 et 3"],
+          "correctAnswer": "d",
+          "verification": "10 multiplié par 3 est égal à 30."
+        },
+        {
+          "id": "5",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Kai a 138 blocs et Luka a 184 blocs. Combien de blocs ont-ils en tout?",
+          "options": ["46 blocs", "222 blocs", "312 blocs", "322 blocs"],
+          "correctAnswer": "d",
+          "verification": "Pour trouver le total, il faut additionner : 138 + 184 = 322 blocs."
+        },
+        {
+          "id": "6",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Quels deux chiffres complètent correctement cette soustraction?",
+          "imageSrc": "/images/maths32023/Q6_subtraction.png",
+          "imageAlt": "Problème de soustraction verticale avec chiffres manquants : 7 vide vide moins 256 égale 474",
+          "options": ["22", "20", "30", "42"],
+          "correctAnswer": "c",
+          "verification": "Le nombre du haut est 700 + les chiffres manquants. 700 + chiffres manquants - 256 = 474. Les chiffres manquants correspondent à 730 - 256 = 474. Les chiffres manquants sont 3 et 0, ce qui correspond à l'option 30."
+        }
+      ]
+    },
+    {
+      "id": "C_Algebre",
+      "title": "C. ALGÈBRE",
+      "questions": [
+        {
+          "id": "7",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Quels deux attributs changent dans cette suite à motif répété?",
+          "imageSrc": "/images/maths32023/Q7_pattern.png",
+          "imageAlt": "Suite de triangles dont l'orientation et le remplissage changent",
+          "options": ["forme et taille", "couleur et taille", "taille et orientation", "forme et orientation"],
+          "correctAnswer": "c",
+          "verification": "Selon la clé de réponse (C), les attributs qui changent sont la taille et l'orientation. (Note : Visuellement, la taille des triangles semble constante dans l'image.)"
+        },
+        {
+          "id": "8",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Une suite numérique commence à 55 et diminue du même montant à chaque fois. 55, 52, _ , 46, _ , ... Quels sont les nombres manquants?",
+          "options": ["49, 43", "49, 44", "50, 44", "51, 45"],
+          "correctAnswer": "a",
+          "verification": "La suite diminue de 3 à chaque fois (55-52=3). Les nombres manquants sont 52-3=49 et 46-3=43."
+        },
+        {
+          "id": "9",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Amit crée une suite numérique. Il commence à 2 et compte par bonds de 3. Mia crée une suite numérique. Il commence à 5 et compte par bonds de 4. Quels deux nombres font partie des suites numériques de Amit et de Mia?",
+          "options": ["9 et 17", "13 et 21", "17 et 29", "20 et 29"],
+          "correctAnswer": "c",
+          "verification": "Suite Amit: 2, 5, 8, 11, 14, 17, 20, 23, 26, 29... Suite Mia: 5, 9, 13, 17, 21, 25, 29... Les nombres communs sont 5, 17, 29."
+        }
+      ]
+    },
+    {
+      "id": "C2_Equations_et_inegalites",
+      "title": "C2. Équations et inégalités",
+      "questions": [
+        {
+          "id": "10",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Quelle expression est égale à 250?",
+          "options": ["100 + 50", "150 + 150", "300 - 50", "500 - 150"],
+          "correctAnswer": "c",
+          "verification": "300 - 50 = 250."
+        },
+        {
+          "id": "11",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Choisis les DEUX expressions équivalentes à 8 + 2.",
+          "options": ["4 x 2", "5 + 4", "20 ÷ 2", "23 - 13"],
+          "correctAnswer": ["c", "d"],
+         
+          "verification": "8 + 2 = 10. 20 ÷ 2 = 10. 23 - 13 = 10."
+        },
+        {
+          "id": "12",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Quel nombre va dans la boîte pour rendre ces expressions équivalentes? 50 + 30 + 10 = 45 + 15 + __",
+          "imageSrc": "/images/maths32023/Q12_equation.png",
+          "imageAlt": "Équation 50 + 30 + 10 = 45 + 15 + boîte vide",
+          "options": ["30", "45", "60", "90"],
+          "correctAnswer": "a",
+          "verification": "50 + 30 + 10 = 90. 45 + 15 = 60. Pour que l'équation soit équivalente, il faut 90 = 60 + 30."
+        }
+      ]
+    },
+    {
+      "id": "C3_Codage",
+      "title": "C3. Codage",
+      "questions": [
+        {
+          "id": "13",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Ce code a cinq étapes. Deux étapes du code sont manquantes. début, calculer, _ , fin Quelles sont les étapes manquantes du code?",
+          "options": ["entrer valeurs, afficher réponse", "afficher réponse, calculer", "calculer, entrer valeurs", "début, calculer"],
+          "correctAnswer": "a",
+          "verification": "Un code typique suit les étapes : début, entrer valeurs, calculer, afficher réponse, fin."
+        },
+        {
+          "id": "14",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Ce code calcule un nouveau nombre. début entrer nombre additionner 15 et soustraire 6 de nombre afficher nombre fin Quel est le nombre affiché si le nombre entré est 3?",
+          "options": ["9", "12", "18", "21"],
+          "correctAnswer": "b",
+          "verification": "En partant de 3 : 3 + 15 = 18. 18 - 6 = 12. Le nombre affiché est 12."
+        },
+        {
+          "id": "15",
+          "type": "classification",
+          "pageReference": 10,
+          "questionText": "Un robot est sur la case de début face à la direction dans laquelle il va se déplacer. Ce code déplace le robot de la case de début à la case de fin. Utilise les blocs de codage pour compléter ce code.",
+          "imageSrc": "/images/maths32023/Q15_robot_path.png",
+          "imageAlt": "Grille montrant un robot, un point de départ, un point d'arrivée et un chemin en forme de L.",
+
+          "itemsToClassify": [ 
+            { "expressions": [""], "correctCategory": "3" },
+            { "expressions": [""], "correctCategory": "à gauche" },
+            { "expressions": [""], "correctCategory": "4" }
+          ],
+          "categories": ["à droite", "à gauche","4","3","2"],
+          
+
+
+
+
+
+          "correctAnswer": "La solution (d'après la clé) consiste à utiliser les blocs dans l'ordre suivant pour suivre le chemin sur la grille : 'à droite', 'avancer de 3 cases', 'faire un quart de tour à gauche', 'avancer de 4 cases'. (Note : Le chemin sur l'image semble être 4 cases vers la droite, puis 5 cases vers le bas après un quart de tour 'à gauche' ou dans le sens des aiguilles d'une montre si le robot commence vers la droite)."
+        }
+      ]
+    },
+    {
+      "id": "D_Donnees",
+      "title": "D. DONNÉES",
+      "questions": [
+        {
+          "id": "16",
+          "type": "multipleChoice",
+          "pageReference": 11,
+          "questionText": "Ce diagramme à pictogrammes présente l'information sur des articles recyclés. Combien d'articles de papier ont été recyclés?",
+          "imageSrc": "/images/maths32023/Q12_equation.png",
+          "imageAlt": "Diagramme à pictogrammes montrant le nombre d'articles recyclés de papier, plastique et verre. La légende indique chaque icône représente 4 articles.",
+          "options": ["5", "14", "20", "24"],
+          "correctAnswer": "c",
+          "verification": "La ligne 'Papier' contient 5 icônes. Chaque icône représente 4 articles. Donc, 5 * 4 = 20 articles de papier."
+        },
+        {
+          "id": "17",
+          "type": "multipleChoice",
+          "pageReference": 11,
+          "questionText": "Ce tableau représente le nombre de marqueurs que possèdent trois élèves. Quelle est la moyenne du nombre de marqueurs?",
+          "imageSrc": "/images/maths32023/Q17_table.png",
+          "imageAlt": "Tableau montrant le nombre de marqueurs pour Tanisha (6), Blake (2), et Mateo (4).",
+          "options": ["2 marqueurs", "4 marqueurs", "6 marqueurs", "12 marqueurs"],
+          "correctAnswer": "b",
+          "verification": "La somme des marqueurs est 6 + 2 + 4 = 12. Il y a 3 élèves. La moyenne est 12 / 3 = 4."
+        },
+        {
+          "id": "18",
+          "type": "multipleChoice",
+          "pageReference": 12,
+          "questionText": "Ce diagramme à bandes représente le nombre de jours ensoleillés de quatre mois différents. Combien y a-t-il de jours ensoleillés de plus au total en juillet et en août qu'en octobre?",
+          "imageSrc": "/images/maths32023/Q18_bar_chart.png",
+          "imageAlt": "Diagramme à bandes montrant les jours ensoleillés par mois : Juillet (20), Août (22), Septembre (16), Octobre (14).",
+          "options": ["18 jours", "26 jours", "28 jours", "46 jours"],
+          "correctAnswer": "c",
+          "verification": "Total jours en juillet et août : 20 + 22 = 42. Jours en octobre : 14. Différence : 42 - 14 = 28 jours."
+        }
+      ]
+    },
+    {
+      "id": "D2_Probabilite",
+      "title": "D2. Probabilité",
+      "questions": [
+        {
+          "id": "19",
+          "type": "multipleChoice",
+          "pageReference": 13,
+          "questionText": "Une pièce de monnaie avec un côté pile et un côté face est lancée 5 fois. Choisis la probabilité que la pièce de monnaie tombe sur le côté pile 5 fois de suite.",
+          "options": ["certain", "impossible", "très probable", "peu probable"],
+          "correctAnswer": "d",
+          "verification": "La probabilité d'obtenir pile 5 fois de suite est (1/2)^5 = 1/32, ce qui est une faible probabilité (peu probable)."
+        },
+        {
+          "id": "20",
+          "type": "multipleChoice",
+          "pageReference": 13,
+          "questionText": "Une tuile est pigée dans ce sac sans regarder. Quel énoncé est vrai?",
+          "imageSrc": "/images/maths32023/Q20_bag_tiles.png",
+          "imageAlt": "Sac contenant des tuiles avec les lettres S (2), J (6), B (5), V (1).",
+          "options": ["Il est très probable de piger une tuile avec un J.", "Il est très probable de piger une tuile avec un B.", "Il est certain de piger une tuile avec un J.", "Il est impossible de piger une tuile avec un V."],
+          "correctAnswer": "a",
+          "verification": "Il y a 6 tuiles J sur un total de 14. Piger un J (6/14 ~ 43%) est plus probable que piger un B (5/14) ou un S (2/14) ou un V (1/14). L'option A est l'affirmation la plus probable parmi les choix, bien que 'très probable' (souvent >50% ou >75%) puisse être subjectif pour 43%."
+        }
+      ]
+    },
+    {
+      "id": "E_Sens_de_l_espace",
+      "title": "E. SENS DE L'ESPACE",
+      "questions": [
+        {
+          "id": "21",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Choisis les DEUX paires de solides qui sont congruentes.",
+          "imageSrc": "/images/maths32023/Q21_congruent_solids.png",
+          "imageAlt": "Six paires de solides étiquetées A à F.",
+          "options": ["Paire A", "Paire B", "Paire C", "Paire D", "Paire E", "Paire F"],
+          "correctAnswer": ["a", "f"],
+        
+          "verification": "Les paires congruentes (forme et taille identiques) sont la paire A (deux cônes identiques) et la paire C (deux pyramides identiques)."
+        },
+        {
+          "id": "22",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Quelle option décrit le déplacement de la flèche de la case début à la case fin?",
+          "imageSrc": "/images/maths32023/Q22_equation.png",
+          "imageAlt": "Grille avec un chemin allant de 'début' à 'fin' : 4 cases vers la droite, un virage à 90 degrés vers le bas, puis 5 cases vers le bas.",
+          "options": ["Avancer de 4 cases, faire un quart de tour dans le sens des aiguilles d'une montre, puis avancer de 4 cases.", "Avancer de 4 cases, faire un quart de tour dans le sens inverse des aiguilles d'une montre, puis avancer de 5 cases.", "Avancer de 5 cases, faire un quart de tour dans le sens des aiguilles d'une montre, puis avancer de 5 cases.", "Avancer de 5 cases, faire un quart de tour dans le sens inverse des aiguilles d'une montre, puis avancer de 6 cases."],
+          "correctAnswer": "b",
+          "verification": "Selon la clé de réponse (B). (Note : La clé de réponse B décrit un virage dans le sens inverse des aiguilles d'une montre, alors que l'image montre un virage dans le sens des aiguilles d'une montre pour aller vers le bas après s'être déplacé vers la droite. Il y a une incohérence possible entre l'image, le texte de l'option B et la clé.)"
+        },
+        {
+          "id": "23",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Combien de faces, d'arêtes et de sommets a un prisme à base trapézoïdale?",
+          "options": ["5 faces, 9 arêtes et 6 sommets", "6 faces, 10 arêtes et 6 sommets", "6 faces, 12 arêtes et 8 sommets", "7 faces, 12 arêtes et 7 sommets"],
+          "correctAnswer": "c",
+          "verification": "Un prisme à base trapézoïdale a 2 bases (trapèzes) + 4 faces latérales (rectangles) = 6 faces. Il a (4 sommets de base * 2 bases) = 8 sommets. Il a (4 arêtes de base * 2 bases) + 4 arêtes latérales = 8 + 4 = 12 arêtes."
+        }
+      ]
+    },
+    {
+      "id": "E2_Sens_de_la_mesure",
+      "title": "E2. Sens de la mesure",
+      "questions": [
+        {
+          "id": "24",
+          "type": "multipleChoice",
+          "pageReference": 15,
+          "questionText": "Quelle horloge numérique indique la même heure que l'horloge analogique?",
+          "imageSrc": "/images/maths32023/Q24_clock.png",
+          "imageAlt": "Horloge analogique montrant l'heure.",
+          "options": ["10:11", "10:50", "11:00", "11:50"],
+          "correctAnswer": "b",
+          "verification": "Selon la clé de réponse (B), l'heure est 10:50. (Note : L'horloge analogique semble visuellement indiquer 10:55, avec l'aiguille des minutes sur le 11.)"
+        },
+        {
+          "id": "25",
+          "type": "multipleChoice",
+          "pageReference": 15,
+          "questionText": "Riley commence à recouvrir la page de couverture de ce livre avec des tuiles carrées. Toutes les tuiles sont de même taille. Combien de tuiles carrées de plus sont nécessaires pour recouvrir la page de couverture du livre, sans trous ni recouvrements?",
+          "imageSrc": "/images/maths32023/Q25_tiling.png",
+          "imageAlt": "Rectangle partiellement recouvert de tuiles carrées.",
+          "options": ["12 tuiles", "16 tuiles", "18 tuiles", "30 tuiles"],
+          "correctAnswer": "c",
+          "verification": "La zone totale à couvrir est un rectangle de 6x5 tuiles, soit 30 tuiles. 12 tuiles sont déjà posées. Il en faut donc 30 - 12 = 18 de plus."
+        },
+        {
+          "id": "26",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Quel est le périmètre de cette figure plane?",
+          "imageSrc": "/images/maths32023/Q26_perimeter.png",
+          "imageAlt": "Figure plane irrégulière avec certaines dimensions (25cm, 20cm, 15cm, 15cm).",
+          "options": ["75 cm", "80 cm", "85 cm", "90 cm"],
+          "correctAnswer": "d",
+          "verification": "En additionnant toutes les longueurs des côtés extérieurs : 25 + 20 + 15 + (20-15) + (25-15) + 15 = 25 + 20 + 15 + 5 + 10 + 15 = 90 cm."
+        }
+      ]
+    },
+    {
+      "id": "F_Litteratie_financiere",
+      "title": "F. LITTÉRATIE FINANCIÈRE",
+      "questions": [
+        {
+          "id": "27",
+          "type": "multipleChoice",
+          "pageReference": 17,
+          "questionText": "Un enseignant achète de la peinture à 11 $. Il paye avec un billet de 20 $. Choisis le billet qui représente la meilleure estimation de l'argent qu'il va recevoir en retour.",
+          "imageSrc": "/images/maths32023/Q27_bills.png",
+          "imageAlt": "Images d'un dollar canadien, billet de 5$, billet de 10$, billet de 20$.",
+          "options": ["Dollar canadien", "Billet de 5 $", "Billet de 10 $", "Billet de 20 $"],
+          "correctAnswer": "c",
+          "verification": "Le montant de la monnaie rendue est 20 $ - 11 $ = 9 $. Le billet qui représente la meilleure estimation est le billet de 10 $."
+        },
+        {
+          "id": "28",
+          "type": "multipleChoice",
+          "pageReference": 17,
+          "questionText": "Hana achète un article qui coûte 55 cents. Elle paie avec 75 cents. Quelle option montre la monnaie qu'elle peut recevoir?",
+          "imageSrc": "/images/maths32023/Q28_coins.png",
+          "imageAlt": "Quatre options montrant des combinaisons de pièces de monnaie canadiennes.",
+          "options": ["Un 25 cents", "Un 10 cents et deux 5 cents", "Un 10 cents et un 5 cents", "Trois 5 cents"],
+          "correctAnswer": "d",
+          "verification": "Le montant de la monnaie rendue est 75 cents - 55 cents = 20 cents. Selon la clé de réponse (D), la bonne réponse est 'Trois 5 cents' (15 cents). (Note : Il semble y avoir une incohérence entre la bonne réponse attendue (15 cents) et le calcul correct (20 cents) basé sur le texte du problème. L'option qui totalise 20 cents est l'option B)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "testTitle": "Questions diffusées OQRE - Mathématiques - Cycle moyen - Novembre 2023",
+  "pdfPath": null,
+  "sections": [
+    {
+      "id": "B1_Sens_du_nombre",
+      "title": "B1. Sens du nombre",
+      "questions": [
+        {
+          "id": "1",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Quel nombre représente quatre-vingt-douze\nmille cinq cent quatre?",
+          "imageSrc": "/images/maths62025/1.png",
+          "options": [
+            "92 054",
+            "92 504",
+            "920 504",
+            "920 054"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le nombre 'quatre-vingt-douze mille cinq cent quatre' s'écrit 92 504."
+        },
+        {
+          "id": "2",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Quelle fraction est équivalente à 6/5?",
+          "imageSrc": "/images/maths62025/2.png",
+         
+          "options": [
+            "5/4",
+            "5/6",
+            "1 1/5",
+            "1 5/6"
+          ],
+          "correctAnswer": "c",
+          "verification": "La fraction 6/5 est une fraction impropre. Pour la convertir en nombre fractionnaire, on divise 6 par 5. 6 ÷ 5 = 1 avec un reste de 1. Donc 6/5 est équivalent à 1 et 1/5, soit 1 1/5."
+        }
+      ]
+    },
+    {
+      "id": "B2_Sens_des_operations",
+      "title": "B2. Sens des opérations",
+      "questions": [
+        {
+          "id": "3",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Que font 5,2 ÷ 4?",
+          "imageSrc": "/images/maths62025/3.png",
+          "options": [
+            "0,77",
+            "1,3",
+            "9,2",
+            "13"
+          ],
+          "correctAnswer": "b",
+          "verification": "Effectuons la division décimale : 5,2 ÷ 4. 5 divisé par 4 donne 1 avec un reste de 1. On place la virgule après le 1. On abaisse le 2, ce qui donne 12. 12 divisé par 4 donne 3. Le résultat est 1,3."
+        },
+        {
+          "id": "4",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Le coût d'un sachet de graines est de 0,50 $.\nQuel est le coût de 100 sachets de graines?",
+          "imageSrc": "/images/maths62025/4.png",
+          "options": [
+            "5 $",
+            "50 $",
+            "500 $",
+            "5 000 $"
+          ],
+          "correctAnswer": "b",
+          "verification": "Pour trouver le coût de 100 sachets, on multiplie le coût d'un sachet par 100 : 0,50 $ × 100. Multiplier par 100 décale la virgule de deux positions vers la droite. 0,50 $ × 100 = 50,00 $ ou 50 $."
+        },
+        {
+          "id": "5",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Dans un champ, il y a du blé, de l'avoine et\ndu maïs.\n• Le blé représente 5/9 du champ.\n• L'avoine représente 7/36 du champ.\nQuelle fraction du champ représente le maïs?",
+       
+          "options": [
+            "27/36",
+            "12/45",
+            "2/27",
+            "1/4"
+          ],
+          "correctAnswer": "d",
+          "verification": "La fraction totale du champ est 1. La fraction occupée par le blé et l'avoine est la somme de leurs fractions : 5/9 + 7/36. Pour additionner ces fractions, trouvons un dénominateur commun, qui est 36. 5/9 = (5×4)/(9×4) = 20/36. La somme est 20/36 + 7/36 = 27/36. La fraction représentant le maïs est 1 moins la fraction occupée par le blé et l'avoine : 1 - 27/36. 1 peut s'écrire 36/36. Donc, 36/36 - 27/36 = 9/36. La fraction 9/36 peut être simplifiée en divisant le numérateur et le dénominateur par leur plus grand commun diviseur, qui est 9. 9 ÷ 9 = 1, 36 ÷ 9 = 4. La fraction simplifiée est 1/4."
+        }
+      ]
+    },
+    {
+      "id": "C1_Suites_et_relations",
+      "title": "C1. Suites et relations",
+      "questions": [
+        {
+          "id": "6",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Une suite est construite à l'aide de carreaux. Les informations sur la suite sont présentées dans cette\ntable de valeurs.\nQuelle graphique représente les données de cette table de valeurs?",
+          "imageSrc": "/images/maths62025/6.png",
+          "imageAlt": "Table de valeurs montrant les rangs de figure (1, 2, 3) et les nombres de carreaux correspondants (4, 8, 12), suivie de quatre graphiques avec Nombre de carreaux en fonction du Rang de la figure.",
+          "options": [
+            "Graphique A (points à (1,4), (2,8), (3,12))",
+            "Graphique B (points à (1,2), (2,4), (3,6))",
+            "Graphique C (points à (1,5), (2,10), (3,15))",
+            "Graphique D (points à (1,2), (2,6), (3,10))"
+          ],
+          "correctAnswer": "c",
+          "verification": "La table de valeurs fournit les paires (Rang, Nombre de carreaux) : (1, 4), (2, 8), (3, 12). Le graphique qui représente ces points est le graphique A."
+        },
+        {
+          "id": "7",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Cette table de valeurs représente une suite numérique croissante.\nLa suite numérique continue d'augmenter avec la même règle de régularité.\nQuel sera le rang du terme 23?",
+          "imageSrc": "/images/maths62025/7.png",
+          "imageAlt": "Table de valeurs montrant le Rang (1, 2, 3, 4) et le Terme correspondant (3, 7, 11, 15).",
+          "options": [
+            "7",
+            "6",
+            "5",
+            "4"
+          ],
+          "correctAnswer": "b",
+          "verification": "La suite est 3, 7, 11, 15, ... On observe que la suite augmente de 4 à chaque rang (7-3=4, 11-7=4, 15-11=4). C'est une suite arithmétique avec un terme initial de 3 et une différence de 4. Le terme au rang n peut être représenté par 3 + (n-1) * 4. Nous cherchons le rang n pour lequel le terme est 23. 3 + (n-1) * 4 = 23 => (n-1) * 4 = 20 => n-1 = 5 => n = 6. Le terme 23 sera au 6ème rang. On peut aussi lister les termes : Rang 1: 3, Rang 2: 7, Rang 3: 11, Rang 4: 15, Rang 5: 15+4=19, Rang 6: 19+4=23."
+        },
+        {
+          "id": "8",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Des cure-dents sont utilisés pour faire cette\nsuite croissante.\nCombien de cure-dents faut-il pour faire la\nfigure au rang 25?",
+          "imageSrc": "/images/maths62025/8.png",
+          "imageAlt": "Suite de figures faites de cure-dents. Figure 1: 3 cure-dents (triangle). Figure 2: 5 cure-dents (deux triangles connectés). Figure 3: 7 cure-dents. Figure 4: 9 cure-dents. Figure 5: 11 cure-dents.",
+          "options": [
+            "13 cure-dents",
+            "50 cure-dents",
+            "51 cure-dents",
+            "75 cure-dents"
+          ],
+          "correctAnswer": "c",
+          "verification": "Observons le nombre de cure-dents dans chaque figure : Rang 1: 3, Rang 2: 5, Rang 3: 7, Rang 4: 9, Rang 5: 11. La suite du nombre de cure-dents est 3, 5, 7, 9, 11, ... C'est une suite arithmétique où on ajoute 2 à chaque rang. Le terme au rang n peut être représenté par 3 + (n-1) * 2. Nous cherchons le nombre de cure-dents pour le rang 25 (n=25). Nombre de cure-dents = 3 + (25-1) * 2 = 3 + 24 * 2 = 3 + 48 = 51. Il faut 51 cure-dents pour faire la figure au rang 25."
+        }
+      ]
+    },
+    {
+      "id": "C2_Equations_et_inegalites",
+      "title": "C2. Équations et inégalités",
+      "questions": [
+        {
+          "id": "9",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Quelle valeur de k rend cette équation vraie?\nk - 9 = 4",
+          "imageSrc": "/images/maths62025/9.png",
+          "options": [
+            "2",
+            "5",
+            "13",
+            "36"
+          ],
+          "correctAnswer": "c",
+          "verification": "L'équation est k - 9 = 4. Pour trouver la valeur de k, on ajoute 9 des deux côtés de l'équation : k = 4 + 9 => k = 13."
+        },
+        {
+          "id": "10",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Quel énoncé est vrai lorsque x = 4?\n5x - 8 = 24",
+          "imageSrc": "/images/maths62025/10.png",
+          "options": [
+            "5x - 8 = 24",
+            "5x - 8 > 24",
+            "5x - 8 < 24"
+          ],
+          "correctAnswer": "c",
+          "verification": "Remplaçons x par 4 dans l'expression 5x - 8 : 5(4) - 8 = 20 - 8 = 12. Comparons 12 à 24. 12 est plus petit que 24 (12 < 24). Donc, l'énoncé vrai est 5x - 8 < 24."
+        }
+      ]
+    },
+    {
+      "id": "C3_Codage",
+      "title": "C3. Codage",
+      "questions": [
+        {
+          "id": "11",
+          "type": "classification",
+          "pageReference": 11,
+          "questionText": "Un magasin écrit un code pour appliquer un rabais de 15% sur tous les articles d'une valeur de plus de 20,00 $.\nIl manque trois lignes de code.\nFais glisser les trois lignes de code pour compléter correctement le code.",
+          "imageSrc": "/images/maths62025/11.png",
+          "imageAlt": "Diagramme de flux de code avec des lignes manquantes à glisser.",
+          "options": [
+            "alors, multiplier prix par 0,85",
+            "si prix < 20,00 $",
+            "sinon, pas de changement de prix",
+            "si prix > 20,00 $",
+            "alors, multiplier prix par 0,15"
+          ],
+
+
+          "itemsToClassify": [ 
+            { "expressions": [""], "correctCategory": "si prix > 20,00 $" },
+            { "expressions": [""], "correctCategory": "alors, multiplier prix par 0,85" },
+            { "expressions": [""], "correctCategory": "sinon, pas de changement de prix" }
+          ],
+          "categories": ["alors, multiplier prix par 0,85","si prix < 20,00 $","sinon, pas de changement de prix","si prix > 20,00 $","alors, multiplier prix par 0,15"],
+
+
+
+          "verification": "Le code doit d'abord vérifier si le prix est supérieur à 20,00 $. Si c'est le cas, il applique un rabais de 15%, ce qui signifie que le nouveau prix est 85% de l'ancien (multiplier par 0,85). Sinon (si le prix n'est PAS supérieur à 20,00 $), il n'y a pas de changement de prix. L'ordre correct des lignes manquantes est donc 'si prix > 20,00 $', 'alors, multiplier prix par 0,85', 'sinon, pas de changement de prix'. (L'option 'alors, multiplier prix par 0,15' est incorrecte, car multiplier par 0,15 donnerait le montant du rabais, pas le nouveau prix)."
+        }
+      ]
+    },
+    {
+      "id": "D1_Litteratie_statistique",
+      "title": "D1. Littératie statistique",
+      "questions": [
+        {
+          "id": "12",
+          "type": "multipleChoice",
+          "pageReference": 12,
+          "questionText": "Un enseignant commande de nouveaux\nmagazines chaque année. Il sonde un\néchantillon d'élèves dans l'école pour trouver\nleurs préférences.\nQuel échantillon représente le mieux tous les\nélèves de l'école pour ce sondage?",
+          "imageSrc": "/images/maths62025/12.png",
+          "options": [
+            "10 élèves de chaque classe",
+            "10 élèves d'une même classe",
+            "10 élèves de 5e année",
+            "10 élèves de l'équipe de soccer"
+          ],
+          "correctAnswer": "a",
+          "verification": "Pour qu'un échantillon soit représentatif de tous les élèves de l'école, il doit inclure des élèves de toutes les classes ou de tous les niveaux. Sondage 10 élèves de chaque classe permet d'avoir une représentation plus large de l'ensemble des élèves de l'école, comparativement aux autres options qui ciblent des groupes plus restreints (une seule classe, une seule année, une seule équipe)."
+        },
+        {
+          "id": "13",
+          "type": "multipleChoice",
+          "pageReference": 12,
+          "questionText": "Ce tableau représente le nombre de pages lues\npar des élèves pendant une semaine.\nQuelle est la médiane du nombre de pages lues?",
+          "imageSrc": "/images/maths62025/13.png",
+          "imageAlt": "Tableau avec deux colonnes, Nom et Nombre de pages lues, pour 6 élèves : Zacharie (75), Jacob (82), Imane (98), Florence (82), Shannon (63), Antoine (80).",
+          "options": [
+            "90 pages",
+            "82 pages",
+            "81 pages",
+            "80 pages"
+          ],
+          "correctAnswer": "c",
+          "verification": "Pour trouver la médiane, il faut d'abord classer les données par ordre croissant : 63, 75, 80, 82, 82, 98. Il y a 6 données (un nombre pair). La médiane est la moyenne des deux valeurs du milieu. Les deux valeurs du milieu sont 80 et 82. La moyenne est (80 + 82) / 2 = 162 / 2 = 81. La médiane est 81 pages."
+        },
+        {
+          "id": "14",
+          "type": "multipleChoice",
+          "pageReference": 13,
+          "questionText": "Quel énoncé à propos de ce diagramme\nest vrai?",
+          "imageSrc": "/images/maths62025/14.png",
+          "imageAlt": "Diagramme à barres groupées montrant le nombre d'élèves de 5e année (barres foncées) et de 6e année (barres claires) préférant les couleurs bleu, rouge et jaune.",
+          "options": [
+            "Il y a 16 élèves en 6º année qui\nrépondent au sondage.",
+            "Le bleu est la couleur la plus choisie\npar les élèves qui répondent au\nsondage.",
+            "Le jaune est la couleur la moins choisie\npar les élèves qui répondent au\nsondage.",
+            "Il y a plus d'élèves en 5º année qu'en\n6º année qui répondent au sondage."
+          ],
+          "correctAnswer": "c",
+          "verification": "Analysons le graphique : Nombre total d'élèves en 5e année = 6 (bleu) + 8 (rouge) + 4 (jaune) = 18. Nombre total d'élèves en 6e année = 4 (bleu) + 6 (rouge) + 2 (jaune) = 12. Total élèves sondés = 18 + 12 = 30. Option A : Il y a 12 élèves en 6e année qui répondent au sondage (faux). Option B : Total bleu = 6+4=10. Total rouge = 8+6=14. Total jaune = 4+2=6. La couleur la plus choisie est le rouge (14), suivi du bleu (10), puis du jaune (6). Donc, 'Le bleu est la couleur la plus choisie' est faux. Option C : Le jaune est la couleur la moins choisie par les élèves (6). Ceci est vrai. Option D : Il y a 18 élèves en 5e année et 12 en 6e année. Il y a bien plus d'élèves en 5e année qu'en 6e année (18 > 12). Ceci est vrai. La clé de réponse indique B. Il semble y avoir une erreur dans la clé de réponse fournie dans le document original, car l'énoncé C et l'énoncé D sont vrais selon le graphique. En supposant que la question cherche *le* meilleur énoncé vrai ou qu'il y a une typo dans la clé, vérifions l'interprétation du graphique et des options. Re-calculant les totaux : Bleu 5e=6, 6e=4 (Total 10). Rouge 5e=8, 6e=6 (Total 14). Jaune 5e=4, 6e=2 (Total 6). Total 5e=18. Total 6e=12. Total Général=30. La couleur la plus choisie est bien le rouge (14). La couleur la moins choisie est le jaune (6). Il y a plus de 5e (18) que de 6e (12). L'option B 'Le bleu est la couleur la plus choisie...' est FAUSSE. L'option C 'Le jaune est la couleur la moins choisie...' est VRAIE. L'option D 'Il y a plus d'élèves en 5e année...' est VRAIE. Il est possible que l'énoncé B fasse référence à la couleur la plus choisie PARMI LES CHOIX RESTANTS après élimination ou selon une autre interprétation, mais basée strictement sur les données, C et D sont vrais et B est faux. En me basant sur la clé de réponse B donnée dans le document original (pages 34 et 40), il y a une contradiction. Si je dois suivre la clé, alors l'énoncé B est considéré comme vrai pour une raison non évidente à partir du graphique simple. Cependant, l'exemple de question 16 sur la page 14 utilise un graphique similaire, et l'analyse des options se fait directement sur les valeurs lues. Si on regarde l'option B à nouveau 'Le bleu est la couleur la plus choisie par les élèves qui répondent au sondage.', le total pour le bleu est 10. Le total pour le rouge est 14. Le total pour le jaune est 6. Rouge est la plus choisie. Bleu n'est pas la plus choisie. Il se pourrait que 'par les élèves qui répondent au sondage' se réfère à l'ensemble des élèves des deux années confondues. L'énoncé B est définitivement faux selon les données du graphique. Je ne peux pas justifier la clé B. L'option C est correcte. L'option D est correcte. Je vais laisser la clé de réponse basée sur le document original malgré l'incohérence apparente. Assuming there's a specific interpretation intended that isn't clear, or an error in my understanding or the document's key. Let's proceed based on the provided key for now, noting the issue. REVISED VERIFICATION: Based on the provided key (B), there seems to be an error in the document's solution. According to the graph, the most chosen color is Red (14 total), then Blue (10 total), then Yellow (6 total). Statement B is false. Statement C is true. Statement D is true. I will proceed with the provided key but mark this as potentially problematic."
+        }
+      ]
+    },
+    {
+      "id": "D2_Probabilite",
+      "title": "D2. Probabilité",
+      "questions": [
+        {
+          "id": "15",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Lors d'une expérience, Roger lance une pièce\nde monnaie dix fois et note dans un tableau\nle résultat, pile ou face.\nIl détermine que la probabilité expérimentale\ncorrespond à la probabilité théorique.\nSélectionne le tableau qui représente les\nrésultats de l'expérience de Roger.",
+          "imageSrc": "/images/maths62025/15.png",
+          "imageAlt": "Quatre tableaux de dénombrement montrant les résultats Pile et Face d'une expérience de lancer de pièce.",
+          "options": [
+            "Tableau A (Pile: 6, Face: 4)",
+            "Tableau B (Pile: 5, Face: 5)",
+            "Tableau C (Pile: 2, Face: 8)",
+            "Tableau D (Pile: 8, Face: 2)"
+          ],
+          "correctAnswer": "b",
+          "verification": "La probabilité théorique d'obtenir Pile lors d'un lancer de pièce juste est de 1/2 (ou 50%). La probabilité théorique d'obtenir Face est également de 1/2 (ou 50%). Pour que la probabilité expérimentale (résultats observés) corresponde à la probabilité théorique après 10 lancers, les résultats devraient être le plus près possible de 5 Pile et 5 Face. Le tableau B montre exactement 5 Pile et 5 Face, ce qui correspond parfaitement à la probabilité théorique."
+        },
+        {
+          "id": "16",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Remi a 8 jetons rouges et 2 jetons mauves\ndans un sac.\nIl pige un jeton du sac sans regarder.\nQuelle est la probabilité que Remi pige un jeton\nrouge du sac?",
+          "imageSrc": "/images/maths62025/16.png",
+          "options": [
+            "0,02",
+            "0,08",
+            "0,2",
+            "0,8"
+          ],
+          "correctAnswer": "d",
+          "verification": "Le nombre total de jetons dans le sac est 8 (rouges) + 2 (mauves) = 10 jetons. Le nombre de jetons rouges est 8. La probabilité de piger un jeton rouge est le nombre de jetons rouges divisé par le nombre total de jetons : 8/10. Convertie en décimale, 8/10 = 0,8."
+        }
+      ]
+    },
+    {
+      "id": "E1_Raisonnement_geometrique_et_spatial",
+      "title": "E1. Raisonnement géométrique et spatial",
+      "questions": [
+        {
+          "id": "17",
+          "type": "multipleChoice",
+          "pageReference": 15,
+          "questionText": "Quelles sont les coordonnées des sommets\nE et F?",
+          "imageSrc": "/images/maths62025/17.png",
+          "imageAlt": "Grille de coordonnées avec un quadrilatère tracé, dont deux sommets sont étiquetés E et F.",
+          "options": [
+            "E (4, 8) et F (8, 12)",
+            "E (4, 8) et F (12, 8)",
+            "E (8, 4) et F (8, 12)",
+            "E (8, 4) et F (12, 8)"
+          ],
+          "correctAnswer": "a",
+          "verification": "Le point E est situé à l'abscisse 4 (sur l'axe horizontal X) et à l'ordonnée 8 (sur l'axe vertical Y). Ses coordonnées sont donc (4, 8). Le point F est situé à l'abscisse 8 (sur l'axe horizontal X) et à l'ordonnée 12 (sur l'axe vertical Y). Ses coordonnées sont donc (8, 12)."
+        },
+        {
+          "id": "18",
+          "type": "multipleChoice",
+          "pageReference": 15,
+          "questionText": "Quel quadrilatère a une symétrie de rotation\nde l'ordre de 2?",
+          "imageSrc": "/images/maths62025/18.png",
+          "options": [
+            "un cerf-volant",
+            "un carré",
+            "un deltoïde",
+            "un rectangle"
+          ],
+          "correctAnswer": "d",
+          "verification": "Un quadrilatère a une symétrie de rotation d'ordre 2 s'il peut être tourné de 180° autour de son centre pour coïncider avec lui-même. Un rectangle (qui n'est pas un carré) possède cette propriété. Un carré a un ordre de rotation de 4. Un cerf-volant et un deltoïde (non carré) n'ont pas de symétrie de rotation d'ordre 2 autour de leur centre."
+        }
+      ]
+    },
+    {
+      "id": "E2_Sens_de_la_mesure",
+      "title": "E2. Sens de la mesure",
+      "questions": [
+        {
+          "id": "19",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Combien de grammes sont égaux à 7,2 kg?",
+          "imageSrc": "/images/maths62025/19.png",
+          "options": [
+            "72 000 g",
+            "7 200 g",
+            "720 g",
+            "72 g"
+          ],
+          "correctAnswer": "b",
+          "verification": "Il y a 1000 grammes dans 1 kilogramme. Pour convertir des kilogrammes en grammes, on multiplie par 1000. 7,2 kg × 1000 g/kg = 7200 g."
+        },
+        {
+          "id": "20",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Quelle est la valeur de k?",
+          "imageSrc": "/images/maths62025/20.png",
+          "imageAlt": "Dessin de deux droites sécantes formant quatre angles. Un angle mesure 25°. L'angle verticalement opposé mesure k.",
+          "options": [
+            "50°",
+            "65°",
+            "80°",
+            "130°"
+          ],
+          "correctAnswer": "c",
+          "verification": "L'image montre deux angles adjacents sur une droite, formant un angle plat de 180°. Un angle mesure 25° et l'autre est une partie d'un triangle. L'angle marqué k fait partie d'un triangle dont un angle est de 25°. Un autre angle de ce triangle est un angle verticalement opposé à un angle qui, avec 25°, forme un angle droit (indiqué par le petit carré), soit 90-25=65°. L'angle verticalement opposé est donc 65°. Cet angle (65°), l'angle de 25° et l'angle k sont les trois angles intérieurs d'un triangle. La somme des angles intérieurs d'un triangle est 180°. Donc, 25° + 65° + k = 180°. 90° + k = 180°. k = 180° - 90° = 90°. Ah, le dessin est trompeur si je ne regarde pas attentivement. Le triangle montré n'a pas d'angle droit explicite. Regardons les angles sur la droite horizontale : il y a un angle de 25° et un angle dont la somme avec 25° et l'angle adjacent (dans le triangle) fait 180°. L'angle k et l'angle de 25° sont des angles alternes-internes formés par la droite transversale coupant deux droites parallèles. Les deux lignes horizontales sont parallèles (indiqué par les flèches). Donc, l'angle k et l'angle de 25° sont des angles alternes-internes. Quand deux droites parallèles sont coupées par une transversale, les angles alternes-internes sont égaux. Par conséquent, k = 25°. Attendez, il y a un autre triangle. Regardons le triangle de gauche. Il y a un angle k, et un autre angle marqué de deux arcs (signifiant qu'il est égal à un autre angle marqué de deux arcs). Il y a aussi un angle marqué de deux traits sur les côtés qui se rencontrent au sommet supérieur, indiquant que c'est un triangle isocèle. Dans le triangle de droite, il y a un angle de 25°. L'angle à côté de 25° sur la droite horizontale est 180-25=155°. Dans le triangle de droite, il y a un angle de 25°, et l'angle au sommet est marqué d'un trait (comme l'angle au sommet de gauche). Les deux angles du bas du triangle de droite sont égaux (car le triangle est isocèle - les deux côtés marqués d'un trait sont égaux). La somme des angles d'un triangle est 180°. Les deux angles du bas sont (180 - angle du sommet) / 2. Regardons le triangle de gauche. Il y a l'angle k, et deux angles égaux (marqués de deux arcs). L'angle au sommet (marqué d'un trait) est partagé par les deux triangles. Si l'angle au sommet (commun) est A, alors dans le triangle de gauche, 2 * (angle marqué deux arcs) + A = 180°. Dans le triangle de droite, 2 * (angle marqué un trait) + A = 180°. Donc, les angles marqués d'un trait sont égaux aux angles marqués de deux arcs. Tous les angles à la base des deux triangles sont égaux. De plus, les deux triangles sont isocèles avec le même angle au sommet. Ils sont donc congruents. Dans le triangle de droite, les deux angles de base sont égaux à 25°. L'angle au sommet est 180 - (25 + 25) = 180 - 50 = 130°. Dans le triangle de gauche, l'angle au sommet est aussi 130°. Les angles de base sont égaux et valent (180 - 130) / 2 = 50 / 2 = 25°. L'angle k est un des angles de base du triangle de gauche. Donc k = 25°. Là encore, ma réponse calculée (25°) ne correspond à aucune option (50°, 65°, 80°, 130°). Re-examining the diagram... Ah, the diagram shows *two* separate triangles next to each other, sharing the top vertex. There's a horizontal line intersecting both triangles. In the right triangle, the angle at the bottom right is 25°. The triangle is marked as isosceles by the tick marks, meaning the two sides meeting at the top vertex are equal. This implies the two base angles are equal. So the bottom angles of the right triangle are both 25°. The top angle of the right triangle is 180 - 25 - 25 = 130°. The left triangle is also isosceles with the same top angle (vertical angles are equal) or based on the tick marks. Assuming the tick marks indicate the same two sides are equal in both triangles, the left triangle is congruent to the right triangle. The angle k is one of the base angles of the left triangle. So k must be equal to the base angles of the right triangle, which are 25°. Still no matching option. Let's reconsider the setup. The line with the arrows implies it's a straight line, possibly parallel to another line. But there's only one marked straight line. Let's assume the diagram intends for the horizontal line at the bottom to be parallel to the line segment forming the bases of the triangles. In that case, the angle k and the angle 25° would be alternate interior angles... but the bases are not necessarily parallel. Let's assume the angles marked with arcs are equal, and the angles marked with ticks on the sides mean those sides are equal. The tick marks are on the slanting sides. So the two triangles are isosceles triangles sharing a common vertex. The angle at the bottom right is 25°. In the right triangle, the base angles are equal, so the angle at the bottom left of the right triangle is also 25°. The angle at the top vertex for the right triangle is 180 - (25+25) = 130°. For the left triangle, the angle at the top vertex is vertically opposite to the 130° angle, so it is also 130°. The left triangle is also isosceles with the same type of tick marks, so its base angles are equal. k is one of these base angles. The sum of angles in the left triangle is 180°. k + k + 130 = 180 => 2k = 50 => k = 25°. Still 25°. Let's look at the provided answer key which is C (80°). How can k be 80°? If k=80°, and it's an isosceles triangle, the other base angle is 80°. Top angle is 180 - 80 - 80 = 20°. So the shared vertex angle is 20°. In the right triangle, the shared vertex angle is 20°. The base angles are equal, say 'b'. 2b + 20 = 180 => 2b = 160 => b = 80°. So the base angles of the right triangle would be 80°. But one is marked as 25°. This contradicts the diagram. There must be a different interpretation or an error in the question/options/key. Let's re-read the definition of k and 25. The line passes through the triangle. The angle marked 25 degrees is outside the triangle, formed by the extension of the base line and the slanted side. This is an exterior angle. If the line passing through is parallel to the top base? No, that doesn't seem correct either based on the drawing. Let's assume the horizontal line is a straight line. The angle 25 is formed by this line and the extension of the side of the right triangle. This is an exterior angle to the right triangle. The exterior angle of a triangle is equal to the sum of the two opposite interior angles. Let's call the interior angle adjacent to 25° as 'a'. Then a + 25° = 180° (straight angle). So a = 155°. The diagram contradicts this; 25 looks acute. Let's assume 25 is an interior angle of the right triangle at the bottom right vertex. As discussed, if the triangle is isosceles with base angles 25°, the top angle is 130°. If the top angle is common (130°), the base angles of the left triangle are 25°. So k=25°. Let's assume the tick marks indicate that the *top* angle of the left triangle is equal to the *top* angle of the right triangle. And the double arcs mean the base angles of the left triangle are equal. And the single angle mark means the base angles of the right triangle are equal (to each other). So the right triangle has base angles 25°. Top angle 180-50=130°. Left triangle has top angle 130°. Base angles k and k. 2k+130=180 => 2k=50 => k=25°. Still 25°. Let's assume the tick marks mean the slanting sides are equal in the left triangle, and the slanting sides are equal in the right triangle. The angle 25 is clearly marked as one of the base angles of the right triangle. So the other base angle is also 25°. The top angle of the right triangle is 130°. Now look at the left triangle. It is isosceles with base angles k. So its top angle is 180-2k. The two triangles share the vertex at the top. So the sum of the angles on the horizontal line at the top is 180°. The angle of the right triangle at the top is 130°. So the angle of the left triangle at the top is 180 - 130 = 50° (assuming the horizontal line connects the two slant sides and is a straight line passing through the top vertex). If the top angle of the left triangle is 50°, and it's isosceles with base angles k, then 2k + 50 = 180 => 2k = 130 => k = 65°. This is option B. Let's check if this makes sense with the diagram. If k=65°, the base angles are 65°. Top angle is 180-130=50°. Right triangle has base angles 25°, top angle 130°. This fits the visual representation better, where the top angles seem to add up to 180 degrees. So the horizontal line segment shown as the top base must actually be a straight line. Therefore, the angle at the top of the left triangle + the angle at the top of the right triangle = 180. Angle at top right = 180 - (25+25) = 130°. So Angle at top left = 180 - 130 = 50°. Since the left triangle is isosceles with base angles k, 2k + 50 = 180 => 2k = 130 => k = 65°. This matches option B. But the provided key is C (80°). Let's check if 80° makes sense. If k=80°, base angles are 80°. Top angle left = 180 - 160 = 20°. Shared vertex angle is 20°. Right triangle top angle is also 20°. Base angles right = (180-20)/2 = 160/2 = 80°. But the diagram says 25°. The key C (80°) seems incorrect based on the diagram and standard geometry rules. The most plausible interpretation from the diagram and options seems to lead to k=65° (Option B). However, given I must adhere to the provided key (C), I cannot verify it geometrically. There is a significant discrepancy here. I will proceed by stating the key and noting the discrepancy with standard geometric interpretation."
+        }
+      ]
+    },
+    {
+      "id": "E2_Sens_de_la_mesure",
+      "title": "E2. Sens de la mesure",
+      "questions": [
+        {
+          "id": "21",
+          "type": "multipleChoice",
+          "pageReference": 17,
+          "questionText": "Quelle est l'aire totale de ce prisme à base\ntriangulaire?",
+          "imageSrc": "/images/maths62025/21.png",
+          "imageAlt": "Schéma d'un prisme à base triangulaire. La base triangulaire est un triangle rectangle avec une base de 3m et une hauteur de 2m. La longueur du prisme (profondeur) est de 3m. L'hypoténuse de la base triangulaire est de 2.5m.",
+          "options": [
+            "10,5 m²",
+            "21 m²",
+            "30 m²",
+            "36 m²"
+          ],
+          "correctAnswer": "c",
+          "verification": "L'aire totale d'un prisme est la somme de l'aire des deux bases et de l'aire latérale. La base est un triangle rectangle avec côtés 2m et 3m, et hypoténuse 2,5m. L'aire d'une base triangulaire est (base × hauteur) / 2 = (3m × 2m) / 2 = 6 m² / 2 = 3 m². Il y a deux bases, donc l'aire des deux bases est 2 × 3 m² = 6 m². L'aire latérale est la somme des aires des trois faces rectangulaires. Les dimensions des rectangles sont : (2m × 3m), (3m × 3m), et (2,5m × 3m). Aire latérale = (2 × 3) + (3 × 3) + (2,5 × 3) = 6 + 9 + 7,5 = 22,5 m². L'aire totale = Aire des bases + Aire latérale = 6 m² + 22,5 m² = 28,5 m². Mon calcul (28.5 m²) ne correspond à aucune option. Let's re-read the question and diagram. Base triangle is 3m by 2m right angle. The prism length is 3m. Hypotenuse is 2.5m. Area of base triangle = (3*2)/2 = 3 m^2. Area of two bases = 2 * 3 = 6 m^2. Lateral faces are rectangles with heights equal to the prism length (3m) and widths equal to the sides of the base triangle (2m, 3m, 2.5m). Areas of lateral faces: 2*3 = 6 m^2, 3*3 = 9 m^2, 2.5*3 = 7.5 m^2. Total lateral area = 6 + 9 + 7.5 = 22.5 m^2. Total surface area = 6 + 22.5 = 28.5 m^2. Still 28.5. Checking the provided key (C, 30 m²). If the total area is 30 m², and the base area is 6 m², the lateral area would be 30 - 6 = 24 m². This doesn't match 22.5 m². Let's check if one of the lateral faces is used as the base in the diagram's perspective. No, the triangle is clearly indicated as the base. Could the dimensions be interpreted differently? No, they are clearly marked. Let's check if the question means surface area of the triangular faces + area of the bottom rectangle + area of the top two slanting rectangles. This is the same calculation. Could the 'base' refer only to one base? No, total area implies all surfaces. Let's look at the options again. 10.5, 21, 30, 36. My calculated area is 28.5, closest to 30. Let's assume there's a rounding issue or a slight simplification in the intended problem, making 30 the closest correct answer. However, based on exact geometry, 28.5 is correct. Following the provided key C (30 m²), there might be an approximation or error in the source material or the options provided relative to the diagram's dimensions."
+        }
+      ]
+    },
+    {
+      "id": "F1_Argent_et_finances",
+      "title": "F1. Argent et finances",
+      "questions": [
+        {
+          "id": "22",
+          "type": "multipleChoice",
+          "pageReference": 18,
+          "questionText": "Sélectionne les DEUX facteurs qui pourraient\nempêcher une personne d'atteindre ses\nobjectifs financiers.",
+          "imageSrc": "/images/maths62025/22.png",
+          "options": [
+            "augmentation du revenu",
+            "diminution du revenu",
+            "augmentation des dépenses",
+            "diminution des dépenses"
+          ],
+          "correctAnswer": ["b", "c"],
+          "verification": "Atteindre des objectifs financiers (comme épargner, investir, etc.) dépend de la capacité à avoir de l'argent disponible. Une diminution du revenu réduit l'argent disponible. Une augmentation des dépenses augmente la quantité d'argent qui sort. Ces deux facteurs rendent plus difficile d'atteindre des objectifs financiers."
+        },
+        {
+          "id": "23",
+          "type": "classification",
+          "pageReference": 19,
+          "questionText": "Fais glisser chaque description dans la case avec le bon terme.",
+          "imageSrc": "/images/maths62025/23.png",
+          "imageAlt": "Trois descriptions de transactions financières à associer à trois termes : Emprunter, Faire un don, Prêter.",
+          "options": [
+            "Fournir des biens ou\ndes services\ndans l'espoir\nqu'ils seront\nremboursés.",
+            "Recevoir de\nl'argent avec\nun accord de\nremboursement\nà une date\nultérieure,\nsouvent avec\nintérêt.",
+            "Donner\nde l'argent,\ndes services,\nou des\nmarchandises,\nen cadeau."
+          ],
+
+          "itemsToClassify": [ 
+            { "expressions": ["Fournir des biens ou des services dans l'espoir qu'ils serontremboursés."], "correctCategory": "Prêter" },
+            { "expressions": ["Recevoir de l'argent avec un accord de remboursement à une date ultérieure,souvent avec intérêt."], "correctCategory": "Emprunter" },
+            { "expressions": ["Donner de l'argent, des services, ou des marchandises, en cadeau."], "correctCategory": "Faire un don" }
+          ],
+          "categories": ["Emprunter","Faire un don","Prêter"],
+
+         
+          "verification": "Description 1 ('Fournir des biens ou des services dans l'espoir qu'ils seront remboursés') correspond à 'Prêter'. Description 2 ('Recevoir de l'argent avec un accord de remboursement...') correspond à 'Emprunter'. Description 3 ('Donner de l'argent... en cadeau') correspond à 'Faire un don'."
+        }
+      ]
+    }
+  ]
+}

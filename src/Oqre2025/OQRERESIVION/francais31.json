@@ -1,0 +1,400 @@
+{
+  "testTitle": "Français 2 - 3e année - Printemps 2011 (Diffusé)",
+  "pdfPath": "/oqre/fr/F3-2011.pdf",
+  "sections": [
+    {
+      "id": "C_Lecture_Kilometre",
+      "title": "Partie C: Lecture - Le dernier kilomètre",
+      "questions": [
+        {
+          "id": "C1",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "Où Tania a-t-elle placé ses bottes?",
+          "options": [
+            "près du feu",
+            "sous le banc",
+            "sous un pont",
+            "dans le chalet"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le texte (paragraphe 2) dit qu'elle a « soigneusement rangé ses bottes sous le banc »."
+        },
+        {
+          "id": "C2",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "Les jambes de Tania la font souffrir parce qu'elle patine...",
+          "options": [
+            "en rond.",
+            "à reculons.",
+            "depuis plusieurs jours.",
+            "depuis plusieurs heures."
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe 5 décrit la douleur qui survient « Chaque pas en avant, chaque coup de patin », indiquant que la douleur est liée au patinage en cours, après avoir déjà parcouru une longue distance, ce qui correspond à « depuis plusieurs heures »."
+        },
+        {
+          "id": "C3",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "Dans quel but a-t-on écrit ce texte?",
+          "options": [
+            "pour raconter la réussite de Tania",
+            "pour décrire le canal Rideau en hiver",
+            "pour nous encourager à faire du patinage",
+            "pour nous donner des conseils sur le patinage"
+          ],
+          "correctAnswer": "a",
+          "verification": "Le texte suit l'histoire de Tania, ses efforts et sa détermination pour terminer le trajet du canal, culminant avec sa déclaration de victoire au paragraphe 9, ce qui fait de la réussite de Tania le sujet principal."
+        },
+        {
+          "id": "C4",
+          "type": "multipleChoice",
+          "pageReference": 6,
+          "questionText": "On utilise des virgules dans la dernière phrase du 2ᵉ paragraphe pour indiquer...",
+          "options": [
+            "le lieu.",
+            "le temps.",
+            "un dialogue.",
+            "une énumération."
+          ],
+          "correctAnswer": "d",
+          "verification": "La dernière phrase du paragraphe 2 liste une série d'actions faites par Tania (« Elle a soigneusement rangé ses bottes sous le banc, elle a ajusté son chapeau de laine, elle a mis ses mitaines, puis elle a patiné... »), séparées par des virgules, ce qui indique une énumération."
+        },
+        {
+          "id": "C5",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Que signifie l'expression « à vive allure » au 4ᵉ paragraphe?",
+          "options": [
+            "poliment",
+            "rapidement",
+            "silencieusement",
+            "dangereusement"
+          ],
+          "correctAnswer": "b",
+          "verification": "L'expression « à vive allure » (paragraphe 4) décrit la façon dont certains patineurs se déplacent. Le texte ajoute qu'ils « dépassent tout le monde », ce qui implique qu'ils vont vite, donc 'rapidement'."
+        },
+        {
+          "id": "C6",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Que signifie le mot « croise » au 4ᵉ paragraphe?",
+          "options": [
+            "aider",
+            "saluer",
+            "arrêter",
+            "rencontrer"
+          ],
+          "correctAnswer": "d",
+          "verification": "Dans le contexte de patiner sur un canal, « Elle croise des patineurs » (paragraphe 4) signifie qu'elle voit d'autres personnes en chemin, qu'elle les 'rencontre' ou qu'ils passent à côté d'elle."
+        },
+        {
+          "id": "C7",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Au 5ᵉ paragraphe, on utilise le tiret pour indiquer que...",
+          "options": [
+            "Luka est très surpris.",
+            "Luka écoute sa sœur.",
+            "Luka parle à sa sœur.",
+            "Luka pose une question."
+          ],
+          "correctAnswer": "c",
+          "verification": "Le tiret devant la phrase « - Tu es capable, Tania, n'abandonne pas » (paragraphe 5) indique le début d'une réplique dans un dialogue. Comme c'est Luka qui parle, cela indique que « Luka parle à sa sœur »."
+        },
+        {
+          "id": "C8",
+          "type": "multipleChoice",
+          "pageReference": 7,
+          "questionText": "Quel mot peut remplacer « mord » dans la phrase : « Toujours cette douleur et toujours ce vent du nord qui lui mord le nez et les joues »? (7ᵉ paragraphe)",
+          "options": [
+            "pince",
+            "gratte",
+            "frotte",
+            "caresse"
+          ],
+          "correctAnswer": "a",
+          "verification": "Quand le vent froid « mord » la peau (paragraphe 7), cela décrit une sensation de piqûre ou d'irritation douloureuse due au froid. 'Pince' est le synonyme qui correspond le mieux à cette sensation."
+        },
+        {
+          "id": "C9",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Dans quel paragraphe apprend-on que Tania termine son trajet?",
+          "options": [
+            "dans le 6ᵉ paragraphe",
+            "dans le 7ᵉ paragraphe",
+            "dans le 8ᵉ paragraphe",
+            "dans le 9ᵉ paragraphe"
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe 9 commence par l'exclamation « Ça y est! C'est gagné! » et décrit Tania arrivant au banc où elle avait commencé, indiquant qu'elle a terminé son parcours."
+        },
+        {
+          "id": "C10",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "À quel mot « proche » se rapporte-t-il au 8ᵉ paragraphe?",
+          "options": [
+            "chalet",
+            "château",
+            "arche",
+            "pont"
+          ],
+          "correctAnswer": "b",
+          "verification": "Dans la phrase « Le château est de plus en plus proche » (paragraphe 8), l'adjectif 'proche' qualifie le nom 'château'."
+        },
+        {
+          "id": "C11",
+          "type": "openEnded",
+          "pageReference": 9,
+          "questionText": "Explique pourquoi Luka a raison de dire à Tania qu'elle est très courageuse. Utilise des exemples du texte pour expliquer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que Tania fait preuve de courage en persévérant malgré la fatigue, la douleur (jambes, épaules), le vent froid qui lui fait mal au visage, et le doute qui s'installe. Le texte mentionne ces difficultés (paragraphes 5 et 7).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des éléments du texte (fatigue, douleur, vent, doute) que Tania surmonte, justifiant ainsi le qualificatif 'courageuse'."
+        },
+        {
+          "id": "C12",
+          "type": "openEnded",
+          "pageReference": 9,
+          "questionText": "Explique pourquoi tu as le goût ou non de parcourir le canal Rideau en patins comme l'a fait Tania. Utilise des idées du texte et tes propres idées pour appuyer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève doit exprimer clairement son opinion (avoir le goût ou non) et la justifier en utilisant des détails du texte (ex: longue distance, froid, fatigue, douleur VS beauté du lieu, ambiance, présence d'autres patineurs, feux pour se réchauffer, satisfaction de l'accomplissement) ainsi que ses propres idées (ex: j'aime patiner, je n'aime pas le froid, ça semble difficile mais stimulant).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle justifie l'opinion exprimée par des références au texte et des idées personnelles cohérentes."
+        }
+      ]
+    },
+    {
+      "id": "C_Ecriture",
+      "title": "Partie C: Écriture",
+      "questions": [
+        {
+          "id": "E13",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Quelle phrase n'appartient pas à ce paragraphe? (1) Le matin, la ville se réveille. (2) Les automobiles roulent dans les rues. (3) Il fait de plus en plus noir. (4) Les piétons se rendent au travail.",
+          "options": [
+            "phrase 1",
+            "phrase 2",
+            "phrase 3",
+            "phrase 4"
+          ],
+          "correctAnswer": "c",
+          "verification": "Les phrases 1, 2 et 4 décrivent l'activité typique d'une ville qui se réveille le matin. La phrase 3, « Il fait de plus en plus noir », décrit une condition qui est l'opposé de l'aube et n'est pas cohérente avec le reste du paragraphe."
+        },
+        {
+          "id": "E14",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Choisis la bonne réponse. Josianne doit apprendre à patiner ______ elle veut jouer au hockey.",
+          "options": [
+            "si",
+            "ou",
+            "mais",
+            "alors"
+          ],
+          "correctAnswer": "d",
+          "verification": "La phrase exprime une relation de cause à conséquence. Parce qu'elle veut jouer au hockey, alors (donc) elle doit apprendre à patiner. 'Alors' introduit la conséquence logique ici."
+        },
+        {
+          "id": "E15",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Quelle phrase est écrite correctement? Le coiffeur utilise une petite...",
+          "options": [
+            "brosses blanche.",
+            "brosse blanche.",
+            "brosse blanches.",
+            "brosses blanches."
+          ],
+          "correctAnswer": "b",
+          "verification": "Le déterminant 'une' indique que le nom 'brosse' est au singulier. L'adjectif 'petite' et l'adjectif de couleur 'blanche' doivent s'accorder en genre et en nombre avec 'brosse' (féminin singulier). 'petite brosse blanche' est l'accord correct."
+        },
+        {
+          "id": "E16",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Choisis la meilleure phrase de conclusion pour ce paragraphe. [Paragraphe sur Tristan, nageur assidu et compétitif]",
+          "options": [
+            "Quel sport exigeant!",
+            "Quel nageur persévérant!",
+            "Tristan est un jeune nageur.",
+            "Tristan aime ce sport individuel."
+          ],
+          "correctAnswer": "b",
+          "verification": "En se basant sur le thème suggéré du paragraphe (nageur assidu et compétitif), une phrase soulignant sa persévérance résume le mieux les qualités requises et démontrées par un tel athlète."
+        },
+        {
+          "id": "E17",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Choisis la bonne réponse. Nous avons reçu en cadeau un robot géant. Il tranche le pain et coupe les légumes. Il essuie aussi le comptoir et nettoie le plancher. De plus, il met la table et place toujours la vaisselle au bon endroit. ______",
+          "options": [
+            "Ce robot est très utile.",
+            "Ce robot est en métal.",
+            "Ce robot est en forme.",
+            "Ce robot est très sérieux."
+          ],
+          "correctAnswer": "a",
+          "verification": "Le paragraphe énumère de nombreuses tâches ménagères que le robot est capable d'accomplir (trancher, couper, essuyer, nettoyer, mettre la table, placer la vaisselle). L'ensemble de ces fonctions démontre que ce robot est très utile."
+        },
+        {
+          "id": "E18",
+          "type": "openEnded",
+          "pageReference": 11,
+          "questionText": "Imagine un nouveau moyen de transport. Écris un court texte dans lequel tu décris ce moyen de transport.",
+          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la capacité de l'élève à imaginer un nouveau moyen de transport et à le décrire dans un court texte. Les critères incluent la clarté de la description, l'originalité, l'organisation du texte, le vocabulaire utilisé et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève basée sur la créativité, la description et la qualité de la langue."
+        }
+      ]
+    },
+    {
+      "id": "D_Lecture_Soccer",
+      "title": "Partie D: Lecture - Tout un jeu",
+      "questions": [
+        {
+          "id": "D18",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Pourquoi utilise-t-on une ligne du temps au bas de la page 14?",
+          "options": [
+            "pour décrire les règles du jeu",
+            "pour illustrer le ballon de soccer",
+            "pour comparer le soccer au football",
+            "pour présenter des dates importantes"
+          ],
+          "correctAnswer": "d",
+          "verification": "La ligne du temps présente des années spécifiques (1904, 1930, 1986, 1990, 2007) associées à des événements marquants de l'histoire du soccer, son rôle est donc de présenter des dates importantes."
+        },
+        {
+          "id": "D19",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Pourquoi dit-on que le soccer est un sport mondial?",
+          "options": [
+            "On y joue avec un ballon.",
+            "On y joue tous les quatre ans.",
+            "On y joue dans beaucoup de pays.",
+            "On y joue contre une équipe adverse."
+          ],
+          "correctAnswer": "c",
+          "verification": "Le texte d'introduction (page 14) affirme explicitement : « On joue au soccer presque partout dans le monde. » Cela signifie qu'on y joue dans beaucoup de pays."
+        },
+        {
+          "id": "D20",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Que signifie le mot « distingue » dans la phrase : « Cela le distingue de l'autre sport qui s'appelle \"football\" »? (partie intitulée « Quelques faits... »)",
+          "options": [
+            "illustre",
+            "montre",
+            "annonce",
+            "différencie"
+          ],
+          "correctAnswer": "d",
+          "verification": "Dire que le nom 'soccer' le 'distingue' de l'autre 'football' signifie que ce nom crée une différence, qu'il le 'différencie' de l'autre sport."
+        },
+        {
+          "id": "D21",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Pourquoi les joueurs de soccer portent-ils des souliers à crampons?",
+          "options": [
+            "pour ne pas tomber",
+            "pour frapper le ballon",
+            "pour protéger le terrain",
+            "pour ne pas recevoir de coups"
+          ],
+          "correctAnswer": "a",
+          "verification": "Dans la section « Les accessoires » (page 15), le texte explique à propos des chaussures à crampons : « Ces chaussures empêchent également de glisser. » Ne pas glisser permet aux joueurs de mieux se tenir sur le terrain et donc de ne pas tomber."
+        },
+        {
+          "id": "D22",
+          "type": "openEnded",
+          "pageReference": 17,
+          "questionText": "Explique pourquoi on dit dans ce texte que le soccer est un sport populaire. Utilise des exemples du texte pour expliquer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait citer des preuves de la popularité du soccer mentionnées dans le texte : il est joué 'presque partout dans le monde' (page 14), il est le '2e sport le plus populaire au Canada' (page 15), 'Les filles aiment jouer au soccer autant que les garçons' (page 15), et 'De plus en plus de tournois sont organisés entre les écoles' (page 15).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur des faits cités dans le texte qui démontrent la grande pratique ou l'engouement pour ce sport."
+        },
+        {
+          "id": "D23",
+          "type": "openEnded",
+          "pageReference": 17,
+          "questionText": "Explique comment les illustrations dans ce texte t'aident à comprendre le jeu de soccer. Utilise des idées du texte et tes propres idées pour appuyer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait expliquer comment les illustrations (schéma du terrain, chaussures à crampons, protège-tibias, ballon, joueurs) visualisent des aspects du jeu décrits dans le texte (équipement, surface de jeu, action), rendant les informations plus concrètes et plus faciles à comprendre ou à imaginer. L'élève peut lier des illustrations spécifiques à des informations textuelles.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle explique le rôle des illustrations dans la compréhension, en faisant référence à des exemples d'illustrations et aux informations correspondantes du texte ou à ses propres connaissances."
+        }
+      ]
+    },
+    {
+      "id": "D_Ecriture",
+      "title": "Partie D: Écriture",
+      "questions": [
+        {
+          "id": "E24",
+          "type": "openEnded",
+          "pageReference": 18,
+          "questionText": "Des animaux s'échappent du zoo. Écris un récit dans lequel tu racontes ce qui se passe.",
+          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité du récit : développement de l'intrigue (ce qui se passe après l'évasion), présence de personnages (animaux, humains), cadre spatio-temporel, utilisation de vocabulaire varié, organisation du texte (début, milieu, fin), et maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève, basée sur la structure narrative et la qualité de la langue."
+        },
+        {
+          "id": "E25",
+          "type": "multipleChoice",
+          "pageReference": 20,
+          "questionText": "Quelle phrase combine le mieux les deux énoncés en caractères gras? [Patrick est heureux. Il a gagné la médaille d'or.]",
+          "options": [
+            "et il a gagné la médaille d'or.",
+            "ou il a gagné la médaille d'or.",
+            "car il a gagné la médaille d'or.",
+            "mais il a gagné la médaille d'or."
+          ],
+          "correctAnswer": "c",
+          "verification": "La deuxième phrase explique la raison pour laquelle Patrick est heureux. La conjonction de coordination 'car' introduit la cause. 'Patrick est heureux, car il a gagné la médaille d'or' signifie 'Patrick est heureux parce qu'il a gagné la médaille d'or'."
+        },
+        {
+          "id": "E26",
+          "type": "multipleChoice",
+          "pageReference": 20,
+          "questionText": "Quelle phrase n'appartient pas à ce paragraphe? (1) Un beau matin ensoleillé, Luc et Julie marchent pour se rendre à l'école. (2) À la maison, ils dégustent une collation. (3) Tout à coup, ils aperçoivent Paul au coin de la rue. (4) Ensemble, ils continuent leur route vers l'école.",
+          "options": [
+            "phrase 1",
+            "phrase 2",
+            "phrase 3",
+            "phrase 4"
+          ],
+          "correctAnswer": "b",
+          "verification": "Les phrases 1, 3 et 4 décrivent des actions qui se déroulent pendant le trajet de Luc et Julie vers l'école. La phrase 2 décrit une action qui se passe à la maison et ne fait pas partie de ce récit de trajet."
+        },
+        {
+          "id": "E27",
+          "type": "multipleChoice",
+          "pageReference": 20,
+          "questionText": "Choisis la bonne réponse. Monique a vu le papillon ______.",
+          "options": [
+            "bleu",
+            "bleus",
+            "bleue",
+            "bleues"
+          ],
+          "correctAnswer": "a",
+          "verification": "Le nom 'papillon' est masculin singulier. L'adjectif de couleur 'bleu' doit s'accorder en genre et en nombre avec 'papillon', il reste donc au masculin singulier 'bleu'."
+        },
+        {
+          "id": "E28",
+          "type": "multipleChoice",
+          "pageReference": 20,
+          "questionText": "Quelle phrase a la bonne ponctuation? Félicitations, tu es devenu champion en gymnastique...",
+          "options": [
+            "Félicitations, tu es devenu champion en gymnastique,",
+            "Félicitations, tu es devenu champion en gymnastique!",
+            "Félicitations, tu es devenu champion en gymnastique :",
+            "Félicitations, tu es devenu champion en gymnastique?"
+          ],
+          "correctAnswer": "b",
+          "verification": "La phrase exprime une vive félicitation, une exclamation. La ponctuation appropriée pour exprimer un tel sentiment est le point d'exclamation (!)."
+        }
+      ]
+    }
+  ]
+}

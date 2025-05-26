@@ -11,7 +11,6 @@
           "type": "multipleChoice",
           "pageReference": 8,
           "questionText": "Quel nombre a le chiffre 4 à la position\ndes dixièmes?",
-          "imageSrc": "/images/maths62023/1.png",
           "options": [
             "92,174",
             "85,043",
@@ -23,18 +22,9 @@
         },
         {
           "id": "2",
-          "type": "classification",
+          "type": "multipleChoice",
           "pageReference": 8,
           "questionText": "Classe les températures de la plus chaude\nà la plus froide.",
-          "imageSrc": "/images/maths62023/2.png",
-          "itemsToClassify": [ 
-            { "expressions": ["température la plus chauds"], "correctCategory": "6" },
-            { "expressions": [""], "correctCategory": "3" },
-            { "expressions": [""], "correctCategory": "0" },
-            { "expressions": [""], "correctCategory": "-2" },
-            { "expressions": ["Température les plus froide"], "correctCategory": "-6" }
-          ],
-          "categories": ["0", "6","-6", "-2","3"], 
           "options": [
             "0 °C",
             "-6 °C",
@@ -42,7 +32,7 @@
             "-2 °C",
             "3 °C"
           ],
-        
+          "correctAnswer": null,
           "verification": "La clé de réponse (page 21) indique que la bonne réponse correspond à l'ordre suivant de la plus chaude à la plus froide : 6 °C, 3 °C, 0 °C, -2 °C, -6 °C."
         },
         {
@@ -50,7 +40,6 @@
           "type": "multipleChoice",
           "pageReference": 8,
           "questionText": "Sélectionne DEUX nombres qui sont plus\ngrands que 5/2.",
-          "imageSrc": "/images/maths62023/3.png",
           "options": [
             "2 1/3",
             "2 3/5",
@@ -72,7 +61,6 @@
           "type": "multipleChoice",
           "pageReference": 9,
           "questionText": "Sélectionne le nombre qui est un facteur\npremier de 20.",
-        
           "options": [
             "4",
             "5",
@@ -87,7 +75,6 @@
           "type": "multipleChoice",
           "pageReference": 9,
           "questionText": "Une recette de muffins nécessite 2/3 de tasse\nde lait.\nCombien de tasses de lait sont nécessaires\npour doubler la recette?",
-          "imageSrc": "/images/maths62023/5.png",
           "options": [
             "2/6",
             "3/4",
@@ -102,7 +89,6 @@
           "type": "multipleChoice",
           "pageReference": 9,
           "questionText": "Un magasin reçoit 12 caisses de tomates.\nChaque caisse contient 14 tomates.\nToutes les tomates sont mises dans des sacs.\nChaque sac peut contenir 6 tomates.\nCombien de sacs de tomates le magasin\naura-t-il?",
-        
           "options": [
             "2 sacs",
             "7 sacs",
@@ -123,7 +109,6 @@
           "type": "multipleChoice",
           "pageReference": 10,
           "questionText": "Une suite est créée à l'aide de carreaux. Les informations sur la suite sont\nprésentées sur ce graphique.\nQuelle table de valeurs représente les données sur ce graphique?",
-          "imageSrc": "/images/maths62023/7.png",
           "imageAlt": "Graphique linéaire montrant le nombre de carreaux en fonction du rang de la figure, avec des points aux coordonnées (1, 2), (2, 6), (3, 10).",
           "options": [
             "Rang de la figure (r): 1, 2, 3; Nombre de carreaux (b): 2, 6, 10",
@@ -139,10 +124,12 @@
           "type": "multipleChoice",
           "pageReference": 11,
           "questionText": "Une suite linéaire est créée à l'aide de l'équation\ny = 2x + 3.\nQuelle option représente les trois premiers rangs\nde la suite?",
-          "imageSrc": "/images/maths62023/8.png",
           "imageAlt": "Quatre options montrant des figures composées de carrés roses et de points bleus, représentant les trois premiers rangs d'une suite.",
-          "options": ["A","B","C","D","E"
-            
+          "options": [
+            "Figure 1: 2 carrés, 3 points (Total 5); Figure 2: 3 carrés, 4 points (Total 7); Figure 3: 4 carrés, 5 points (Total 9)",
+            "Figure 1: 3 carrés, 2 points (Total 5); Figure 2: 4 carrés, 3 points (Total 7); Figure 3: 5 carrés, 4 points (Total 9)",
+            "Figure 1: 5 carrés (Total 5); Figure 2: 7 carrés (Total 7); Figure 3: 9 carrés (Total 9)",
+            "Figure 1: 5 points (Total 5); Figure 2: 7 points (Total 7); Figure 3: 9 points (Total 9)"
           ],
           "correctAnswer": "d",
           "verification": "L'équation y = 2x + 3 donne le nombre total d'éléments (y) pour chaque rang (x). Pour le rang 1 (x=1), y = 2(1) + 3 = 5. Pour le rang 2 (x=2), y = 2(2) + 3 = 7. Pour le rang 3 (x=3), y = 2(3) + 3 = 9. Toutes les options montrent des figures avec 5, 7 et 9 éléments. Selon la clé de réponse, l'option D, qui représente les totaux d'éléments sous forme de points, est correcte."
@@ -152,7 +139,6 @@
           "type": "multipleChoice",
           "pageReference": 11,
           "questionText": "Voici deux suites numériques.\nSuite numérique A\n4, 12, 36, 108, ...\nLa suite numérique continue d'augmenter\nde la même façon.\nSuite numérique B\n21, 49, 77, 105, ...\nLa suite numérique continue d'augmenter\nde la même façon.\nDe combien la valeur du terme au 6e rang\nde la suite numérique A est-elle plus grande\nque la valeur du terme au 6e rang de la suite\nnumérique B?",
-        
           "options": [
             "191",
             "648",
@@ -173,7 +159,6 @@
           "type": "multipleChoice",
           "pageReference": 12,
           "questionText": "Que font 7p + 4p?",
-        
           "options": [
             "11p",
             "11",
@@ -188,7 +173,6 @@
           "type": "multipleChoice",
           "pageReference": 12,
           "questionText": "Sélectionne la valeur de x qui rend cette\ninégalité vraie.\n3x - 6 > 30",
-        
           "options": [
             "x = 6",
             "x = 10",
@@ -203,7 +187,6 @@
           "type": "multipleChoice",
           "pageReference": 12,
           "questionText": "Quelle valeur de n rend cette égalité vraie?\n7n - 3n = 20 + 12",
-       
           "options": [
             "5",
             "8",
@@ -224,7 +207,6 @@
           "type": "multipleChoice",
           "pageReference": 13,
           "questionText": "Un code est écrit pour calculer l'aire, A, d'un\ntrapèze.\n[Image d'un trapèze avec bases a et b, et hauteur h.]\nUne partie du code est manquante.\nQuel est la partie manquante du code?\n(Code : début, entrer a, entrer b, entrer h, calculer [MANQUANT], afficher A, fin)",
-          "imageSrc": "/images/maths62023/13.png",
           "imageAlt": "Schéma d'un trapèze avec les bases 'a' et 'b' et la hauteur 'h'.",
           "options": [
             "A = b * h",
@@ -240,7 +222,6 @@
           "type": "multipleChoice",
           "pageReference": 13,
           "questionText": "Ce code arrondit un nombre décimal entre\n0 et 1 au nombre entier près. Deux lignes\nde code sont manquantes.\nQuel choix de réponse doit être placé dans\nla case pour compléter le code?\n(Code : début, entrer nombre, [MANQUANT], afficher réponse, fin)",
-          "imageSrc": "/images/maths62023/14.png",
           "options": [
             "si nombre < 0,5 alors réponse = 0 sinon réponse = 1",
             "si nombre < 0,05 alors réponse = 0 sinon réponse = 1",
@@ -261,7 +242,6 @@
           "type": "multipleChoice",
           "pageReference": 14,
           "questionText": "Quel est le meilleur moyen de représenter\nle changement des précipitations mensuelles\nsur une période de 6 mois?",
-         
           "options": [
             "histogramme",
             "ligne de dénombrement",
@@ -276,7 +256,6 @@
           "type": "multipleChoice",
           "pageReference": 14,
           "questionText": "Ce diagramme représente le nombre de buts\nmarqués par l'équipe A et l'équipe B pendant\n3 mois.\n[Diagramme à barres montrant les buts des équipes A et B pour octobre, novembre et décembre.]\nCombien de buts l'équipe A a-t-elle marqués\nde plus que l'équipe B en octobre et\nnovembre?",
-          "imageSrc": "/images/maths62023/16.png",
           "imageAlt": "Diagramme à barres verticales comparant les buts de l'équipe A (barres foncées) et de l'équipe B (barres claires) pour les mois d'octobre, novembre et décembre.",
           "options": [
             "5 buts",
@@ -298,7 +277,6 @@
           "type": "multipleChoice",
           "pageReference": 15,
           "questionText": "Sélectionne l'ensemble de nombres qui a une\nmoyenne et une étendue de 11.",
-          "imageSrc": "/images/maths62023/17.png",
           "options": [
             "3, 18, 21, 5, 14, 11, 5",
             "9, 8, 16, 11, 8, 18, 7",
@@ -313,7 +291,6 @@
           "type": "multipleChoice",
           "pageReference": 16,
           "questionText": "Un carreau est sélectionné sans regarder.\n[Image d'un sac contenant 2 carreaux marqués 'X' et 6 carreaux non marqués.]\nQuelle est la probabilité de choisir un carreau\navec un X?",
-          "imageSrc": "/images/maths62023/18.png",
           "imageAlt": "Dessin d'un sac opaque contenant 2 carreaux marqués d'un X et 6 carreaux sans marque.",
           "options": [
             "2/8",
@@ -329,7 +306,6 @@
           "type": "multipleChoice",
           "pageReference": 16,
           "questionText": "Cette roulette est divisée en 5 sections égales.\n[Image d'une roulette divisée en 5 sections égales, numérotées 1, 2, 3, 4, 5.]\nLa flèche sur la roulette est tournée.\nQuelle est la probabilité que la flèche s'arrête\nsur un nombre pair sur la roulette?",
-          "imageSrc": "/images/maths62023/19.png",
           "imageAlt": "Roulette divisée en cinq sections égales, numérotées 1, 2, 3, 4, 5.",
           "options": [
             "1/5",
@@ -345,7 +321,6 @@
           "type": "multipleChoice",
           "pageReference": 17,
           "questionText": "Un enseignant a des pots de peinture\nde différentes couleurs.\n• 0,11 sont bleus.\n• 2/8 sont rouges.\n• 4% sont jaunes.\n• 1/5 sont violets.\n• Les autres sont verts.\nL'enseignant choisit un pot de peinture\nau hasard.\nQuelle est la probabilité que l'enseignant\nchoisisse un pot de peinture vert?",
-          "imageSrc": "/images/maths62023/20.png",
           "options": [
             "18%",
             "40%",
@@ -366,7 +341,6 @@
           "type": "multipleChoice",
           "pageReference": 18,
           "questionText": "Quelles sont les coordonnées du point A?\n[Image d'une grille de coordonnées avec le point A tracé.]",
-          "imageSrc": "/images/maths62023/21.png",
           "imageAlt": "Grille de coordonnées cartésiennes avec le point A situé à 2 unités sur l'axe des x positifs et à 6 unités sur l'axe des y négatifs.",
           "options": [
             "(2,-6)",
@@ -382,7 +356,6 @@
           "type": "multipleChoice",
           "pageReference": 18,
           "questionText": "Quel quadrilatère possède deux diagonales\nqui se coupent en leur milieu et possède une\nsymétrie de rotation de l'ordre de 4?",
-       
           "options": [
             "rectangle",
             "carré",
@@ -397,7 +370,6 @@
           "type": "multipleChoice",
           "pageReference": 18,
           "questionText": "Une figure initiale ABC et son image sont\nreprésentées sur cette grille.\n[Image d'un triangle ABC et son image A'B'C' sur une grille, avec une ligne pointillée verticale.]\nQuelle option décrit les deux transformations\nqui déplacent la figure initiale vers son image?",
-          "imageSrc": "/images/maths62023/23.png",
           "imageAlt": "Grille avec un triangle ABC et son image A'B'C'. Une ligne pointillée verticale est visible entre les deux triangles.",
           "options": [
             "une réflexion de la figure initiale par\nrapport à la ligne pointillée, puis une\ntranslation de 3 unités vers le bas",
@@ -419,7 +391,6 @@
           "type": "multipleChoice",
           "pageReference": 19,
           "questionText": "Quelle est la somme des angles intérieurs d'un\nrectangle?",
-        
           "options": [
             "90°",
             "180°",
@@ -434,7 +405,6 @@
           "type": "multipleChoice",
           "pageReference": 19,
           "questionText": "Quelle est l'aire de ce trapèze?\n[Image d'un trapèze avec petite base 3 cm, grande base 9 cm, hauteur 5 cm.]",
-          "imageSrc": "/images/maths62023/25.png",
           "imageAlt": "Schéma d'un trapèze isocèle avec la petite base de 3 cm, la grande base de 9 cm, et la hauteur de 5 cm indiquée par une ligne pointillée perpendiculaire aux bases.",
           "options": [
             "15 cm²",
@@ -450,7 +420,6 @@
           "type": "multipleChoice",
           "pageReference": 19,
           "questionText": "Un groupe de 6 élèves se partage 3 L d'eau\négalement.\nCombien de millilitres d'eau chaque élève\nreçoit-il?",
-         
           "options": [
             "50 ml",
             "500 ml",
@@ -471,7 +440,6 @@
           "type": "multipleChoice",
           "pageReference": 20,
           "questionText": "Diego veut placer 10 $ chaque mois dans un\ncompte bancaire qui ne rapporte aucun intérêt.\nSélectionne l'option qui décrit ce type d'objectif\nfinancier.",
-         
           "options": [
             "faire un don",
             "épargner",
@@ -486,7 +454,6 @@
           "type": "multipleChoice",
           "pageReference": 20,
           "questionText": "Quelle option n'est pas un type de prêt?",
-     
           "options": [
             "frais d'utilisation des guichets\nautomatiques",
             "ligne de crédit",

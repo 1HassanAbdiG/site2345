@@ -62,7 +62,7 @@
             "type": "multipleChoice",
             "pageReference": 7,
             "questionText": "Quelle fraction représente l'aire du cercle qui\ndevrait être rouge dans la réponse?",
-            "imageSrc": "/images/maths3/Q5_fractions.png",
+            "imageSrc": "/images/maths32025/Q5_fractions.png",
             "imageAlt": "Addition de trois quarts de cercle rouges",
             "options": [
               "1/4",
@@ -78,7 +78,7 @@
             "type": "multipleChoice",
             "pageReference": 7,
             "questionText": "Il y a 3 bicyclettes et 4 tricycles.\nCombien de pneus y a-t-il en tout?",
-            "imageSrc": "/images/maths3/Q6_bikes.png",
+            "imageSrc": "/images/maths32025/Q6_bikes.png",
             "imageAlt": "Images d'une bicyclette et d'un tricycle",
             "options": [
               "7 pneus",
@@ -100,7 +100,7 @@
             "type": "multipleChoice",
             "pageReference": 8,
             "questionText": "Les jours encerclés sur ce calendrier\nreprésentent les jours où Kelly nage.\nÀ quelle fréquence Kelly nage-t-elle?",
-            "imageSrc": "/images/maths3/Q7_calendar.png",
+            "imageSrc": "/images/maths32025/Q7_calendar.png",
             "imageAlt": "Calendrier de 31 jours avec certains jours encerclés (14, 16, 18, 20, 22, 24, 26, 28, 30)",
             "options": [
               "Kelly nage tous les 2 jours.",
@@ -108,8 +108,8 @@
               "Kelly nage tous les 4 jours.",
               "Kelly nage tous les 6 jours."
             ],
-            "correctAnswer": "a",
-            "verification": "En examinant les jours encerclés (14, 16, 18, 20, ...), on constate que Kelly nage tous les deux jours."
+            "correctAnswer": "b",
+            "verification": "En examinant les jours encerclés (11, 14, 17, 20, ...), on constate que Kelly nage tous les trois jours===\n(11+3)=14,(14+3)=17 ."
           },
           {
             "id": "8",
@@ -150,7 +150,7 @@
             "type": "classification",
             "pageReference": 9,
             "questionText": "Classe chaque paire d'expressions comme « équivalent » ou « non équivalent ».",
-            "imageSrc": "/images/maths3/Q10_equivalent.png", 
+            "imageSrc": "/images/maths32025/Q10_equivalent.png", 
             "imageAlt": "Paires d'expressions à classer comme équivalentes ou non",
             "itemsToClassify": [ 
               { "expressions": ["6 + 9", "21 - 5"], "correctCategory": "non équivalent" },
@@ -191,7 +191,7 @@
             "type": "multipleChoice",
             "pageReference": 11,
             "questionText": "Ce diagramme représente la taille des souliers\ndes élèves.\nCombien d'élèves portent des souliers de\ntaille 12?",
-            "imageSrc": "/images/maths3/Q12_bar_chart.png",
+            "imageSrc": "/images/maths32025/Q12_bar_chart.png",
             "imageAlt": "Graphique à barres montrant le nombre d'élèves par taille de souliers",
             "options": [
               "4 élèves",
@@ -207,7 +207,7 @@
             "type": "multipleChoice",
             "pageReference": 11,
             "questionText": "Ce diagramme à pictogrammes représente les\nréponses de 21 élèves à un sondage sur leur\nactivité préférée. La légende est incomplète.\nQuelle est la bonne légende pour ce\ndiagramme à pictogrammes?",
-            "imageSrc": "/images/maths3/Q13_pictogram.png",
+            "imageSrc": "/images/maths32025/Q13_pictogram.png",
             "imageAlt": "Diagramme à pictogrammes des activités préférées des élèves",
             "options": [
               "Chaque \ud83d\ude0a représente 1 élève.",
@@ -215,8 +215,8 @@
               "Chaque \ud83d\ude0a représente 3 élèves.",
               "Chaque \ud83d\ude0a représente 4 élèves."
             ],
-            "correctAnswer": "a",
-            "verification": "Le diagramme montre un total de 21 smileys, et le sondage a été mené auprès de 21 élèves. Par conséquent, chaque smiley représente 1 élève."
+            "correctAnswer": "b",
+            "verification": "Le diagramme montre un total de 21 smileys, et le sondage a été mené auprès de 21 élèves. Par conséquent, chaque smiley représente 2 élève."
           }
         ]
       },
@@ -229,16 +229,16 @@
             "type": "multipleChoice",
             "pageReference": 12,
             "questionText": "Alma pige une carte d'un sac sans regarder.\nQuel sac représente une probabilité équiprobable\nde piger une carte avec un nombre pair et une\ncarte avec un nombre impair?",
-            "imageSrc": "/images/maths3/Q14_bags.png",
+            "imageSrc": "/images/maths32025/Q14_bags.png",
             "imageAlt": "Quatre sacs contenant différentes cartes numérotées",
             "options": [
-              "Sac A (2, 6, 7, 3, 5)",
+              "Sac A (2, 6, 7, 3, 5,6)",
               "Sac B (3, 1, 4, 7)",
               "Sac C (2, 4, 6, 5)",
-              "Sac D (4, 5, 4, 9, 6)"
+              "Sac D (4, 5, 4, 9,4, 6)"
             ],
-            "correctAnswer": "d",
-            "verification": "Selon les données provinciales, la réponse D est la bonne réponse. (Note : Les nombres dans le sac D ne donnent pas une probabilité équiprobable de piger un pair ou un impair, il peut y avoir une subtilité ou une erreur dans la question/illustration originale de l'OQRE)."
+            "correctAnswer": "a",
+            "verification": "Selon les données provinciales, la réponse A est la bonne réponse. "
           }
         ]
       },
@@ -251,7 +251,7 @@
             "type": "multipleChoice",
             "pageReference": 13,
             "questionText": "Quelle option nomme toutes les faces de ce\nsolide?",
-            "imageSrc": "/images/maths3/Q15_prism.png",
+            "imageSrc": "/images/maths32025/Q15_prism.png",
             "imageAlt": "Dessin d'un prisme triangulaire",
             "options": [
               "2 triangles et 2 rectangles",
@@ -267,7 +267,7 @@
             "type": "multipleChoice", 
             "pageReference": 13,
             "questionText": "Choisis les DEUX solides qui ont chacun\n6 faces, 12 arêtes et 8 sommets.",
-            "imageSrc": "/images/maths3/Q16_solids.png",
+            "imageSrc": "/images/maths32025/Q16_solids.png",
             "imageAlt": "Images de cinq solides géométriques (Cube, Cylindre, Prisme rectangulaire, Pyramide à base carrée, Cône)",
             "options": [ 
               "Solide A (Cube)",
@@ -310,7 +310,7 @@
             "type": "multipleChoice",
             "pageReference": 15,
             "questionText": "Cette balance à plateaux n'est pas en équilibre.\nQuel énoncé est vrai?",
-            "imageSrc": "/images/maths3/Q18_balance.png",
+            "imageSrc": "/images/maths32025/Q18_balance.png",
             "imageAlt": "Balance à plateaux avec un ananas plus bas que la banane",
             "options": [
               "La masse de l'ananas est égale à la\nmasse de la banane.",
@@ -326,7 +326,7 @@
             "type": "multipleChoice",
             "pageReference": 15,
             "questionText": "Quelle est l'aire de cette figure?",
-            "imageSrc": "/images/maths3/Q19_area.png",
+            "imageSrc": "/images/maths32025/Q19_area.png",
             "imageAlt": "Figure composée de 17 carrés unitaires sur une grille",
             "options": [
               "14 cm²",
@@ -348,7 +348,7 @@
             "type": "multipleChoice",
             "pageReference": 16,
             "questionText": "Un élève achète un livre à 14 $. Il paye avec\nun billet de 20 $.\nChoisis le billet qui représente la meilleure\nestimation de l'argent qu'il va recevoir en retour.",
-            "imageSrc": "/images/maths3/Q20_bills.png",
+            "imageSrc": "/images/maths32025/Q20_bills.png",
             "imageAlt": "Images de billets de banque canadiens de 5$, 10$ et 20$",
             "options": [
               "Billet de 5 $",

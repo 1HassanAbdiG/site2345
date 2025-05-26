@@ -63,7 +63,7 @@ import FractionsExercise222 from './Pages/OQRE/Maths/1e année/faction/faction.j
 //import MathExercisesPage from './Pages/maths/Math2025/MathsADSOU.jsx';
 import AppDicte from './Pages/appdicte.jsx';
 //import PreparationOQRE from './Oqre2025/oqre.jsx';
-import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
+//import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
 //import EmojiMemoryGame from './Pages/Francais/1eanné/Memoire/EmojiMemoryGame.jsx';
 //import MemoryGame from './Pages/Francais/1eanné/Memoire/MemoryGame.jsx';
 //import PlantGamesContainer from './Pages/Francais/1eanné/1eannée/plante/planteExer.jsx';
@@ -77,6 +77,7 @@ import PreparationOQRE1 from './Oqre2025/oqre1.jsx';
 //import GrammarGame from './Pages/Jeu/gramm/gram.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 import ComponentLoade from"./Pages/Francais/1eanné/GAME/Exercice1eannée/ComponentLoader.jsx"
+import SelectionTest from './Oqre2025/OQRERESIVION/SelectionTest.jsx';
 
 const App = () => {
   return (
@@ -93,7 +94,7 @@ const App = () => {
           <Route path="/about" element={<Exercice1e2e />} />
           <Route path="/francais" element={<Francais />} />
           <Route path="/mathematiques" element={<Mathematiques />} />
-          <Route path="/jeux" element={<PreparationOQRE1 />} />
+          <Route path="/jeux" element={< SelectionTest />} />
 
           {/*<Route path="/Concours" element={<MathExerciseComponent/>} />*/}
 
