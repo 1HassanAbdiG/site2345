@@ -1,0 +1,253 @@
+{
+  "testTitle": "Français 1 - 3e année - Printemps 2010 (Diffusé)",
+  "sections": [
+    {
+      "id": "A_Lecture_Decouverte",
+      "title": "Partie A: Lecture - L'heureuse découverte",
+      "questions": [
+        {
+          "id": "A1",
+          "type": "multipleChoice",
+          "pageReference": 5,
+          "questionText": "Au 5ᵉ paragraphe, on utilise le point d'exclamation pour indiquer que Stéphane est très...",
+          "options": [
+            "fâché.",
+            "inquiet.",
+            "curieux.",
+            "soulagé."
+          ],
+          "correctAnswer": "d",
+          "verification": "Le point d'exclamation dans l'exclamation de Stéphane : « Mélina, enfin, je t'ai trouvée! » (paragraphe 5) suggère son soulagement ou sa joie d'avoir terminé sa recherche."
+        },
+        {
+          "id": "A2",
+          "type": "multipleChoice",
+          "pageReference": 5,
+          "questionText": "Que signifie le mot « perçant » au 9ᵉ paragraphe?",
+          "options": [
+            "aigu",
+            "doux",
+            "étrange",
+            "agréable"
+          ],
+          "correctAnswer": "a",
+          "verification": "Dans le contexte d'un cri ('le cri perçant de la maman oiseau' - paragraphe 9), 'perçant' signifie aigu ou strident. 'Aigu' est le synonyme le plus proche parmi les options."
+        },
+        {
+          "id": "A3",
+          "type": "multipleChoice",
+          "pageReference": 5,
+          "questionText": "Pourquoi la maman oiseau lance-t-elle un grand cri?",
+          "options": [
+            "Elle a peur des étrangers.",
+            "Elle a besoin de nourriture.",
+            "Elle veut protéger ses petits.",
+            "Elle veut amuser les enfants."
+          ],
+          "correctAnswer": "c",
+          "verification": "Le cri de la maman oiseau (paragraphe 9) survient lorsque les enfants s'approchent du nid et y remettent l'oisillon. C'est une réaction naturelle d'un animal pour défendre ou protéger sa progéniture."
+        },
+        {
+          "id": "A4",
+          "type": "multipleChoice",
+          "pageReference": 5,
+          "questionText": "Que nous apprend l'illustration à la fin de ce texte?",
+          "options": [
+            "La maman oiseau chante bien.",
+            "La maman oiseau nettoie le nid.",
+            "L'oisillon vole au-dessus du nid.",
+            "L'oisillon est retourné dans son nid."
+          ],
+          "correctAnswer": "d",
+          "verification": "L'illustration (page 4), qui est présentée après le paragraphe 9 décrivant le retour de l'oisillon au nid, montre l'oisillon de nouveau avec ses frères et la maman dans le nid, confirmant qu'il y est bien retourné."
+        },
+        {
+          "id": "A5",
+          "type": "openEnded",
+          "pageReference": 6,
+          "questionText": "Explique pourquoi Mélina s'inquiète quand elle entend un bruit au début de ce texte.\nUtilise des idées du texte et tes expériences personnelles pour expliquer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur les détails du texte (paragraphe 3 : « un froissement de feuilles accompagné de petits cris ») et expliquer pourquoi ces bruits sont source d'inquiétude (bruit inattendu, inconnu, potentiellement dangereux) en faisant appel à son expérience ou à son imagination.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle fait référence aux indices du texte (type de bruit) et qu'elle offre une explication plausible de l'inquiétude, potentiellement liée à des expériences personnelles."
+        },
+        {
+          "id": "A6",
+          "type": "openEnded",
+          "pageReference": 6,
+          "questionText": "Explique pourquoi les enfants sont heureux après leur expérience avec l'oisillon.\nUtilise des idées du texte et tes propres idées pour expliquer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur le texte (paragraphe 9 : ils sont « Soulagés et contents » que l'oisillon soit de retour en sécurité dans le nid) et potentiellement sur des idées personnelles liées à la satisfaction d'aider un animal, à l'excitation de la découverte, ou au fait que l'oisillon est sauvé.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle fait référence au soulagement et au contentement mentionnés dans le texte et qu'elle propose des raisons pertinentes, textuelles ou personnelles, expliquant ce bonheur."
+        }
+      ]
+    },
+    {
+      "id": "A_Lecture_ArbrePapier",
+      "title": "Partie A: Lecture - De l'arbre au papier",
+      "questions": [
+        {
+          "id": "A7",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Pourquoi a-t-on écrit ce texte?",
+          "options": [
+            "pour décrire le transport d'un arbre",
+            "pour expliquer la fabrication du papier",
+            "pour nous raconter l'histoire d'un arbre",
+            "pour nous encourager à utiliser le papier"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le texte décrit en détail les étapes par lesquelles le bois est transformé en papier (trempage, transformation en pâte, séchage, aplatissement) (paragraphes 2 et 3), expliquant ainsi le processus de sa 'fabrication'."
+        },
+        {
+          "id": "A8",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Que signifie l'expression « de jeunes pousses » au 3ᵉ paragraphe?",
+          "options": [
+            "Ce sont de petits sacs.",
+            "Ce sont de petits arbres.",
+            "Ce sont des fibres de bois.",
+            "Ce sont des feuilles de papier."
+          ],
+          "correctAnswer": "b",
+          "verification": "Le texte indique (paragraphe 3) que pour remplacer les arbres coupés, « on replante de jeunes pousses ». Une jeune pousse est une jeune plante, dans ce contexte, un petit arbre qui grandira."
+        },
+        {
+          "id": "A9",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Que signifie l'expression « En assemblant »? (4ᵉ paragraphe)",
+          "options": [
+            "ranger",
+            "colorer",
+            "dérouler",
+            "regrouper"
+          ],
+          "correctAnswer": "d",
+          "verification": "Dans la phrase « En assemblant plusieurs feuilles de papier, on peut fabriquer du carton » (paragraphe 4), 'assembler' signifie mettre ensemble plusieurs éléments pour former un tout. 'Regrouper' est le synonyme le plus approprié pour cette action."
+        },
+        {
+          "id": "A10",
+          "type": "multipleChoice",
+          "pageReference": 9,
+          "questionText": "Quel sous-titre peut-on donner au 4ᵉ paragraphe?",
+          "options": [
+            "L'utilisation du papier",
+            "Le recyclage du papier",
+            "La publication d'un livre",
+            "La fabrication d'une boîte"
+          ],
+          "correctAnswer": "a",
+          "verification": "Le paragraphe 4 énumère les différentes applications du papier (cahiers, livres, journaux, sacs, papier bristol, carton pour boîtes, lecture, bricolage, écriture de lettres). Il décrit donc les diverses 'utilisations du papier'."
+        },
+        {
+          "id": "A11",
+          "type": "openEnded",
+          "pageReference": 10,
+          "questionText": "Explique pourquoi produire du papier prend beaucoup de temps.\nUtilise des exemples du texte pour appuyer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait expliquer que le processus de fabrication du papier implique plusieurs étapes qui prennent du temps (tremper le bois, le transformer en pâte, sécher, aplatir) (paragraphes 2 et 3). Elle pourrait aussi mentionner qu'il faut attendre plusieurs années pour que les jeunes arbres replantés deviennent assez grands (paragraphe 3).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite correctement les étapes ou le temps de pousse mentionnés dans le texte comme raisons expliquant la durée du processus."
+        },
+        {
+          "id": "A12",
+          "type": "openEnded",
+          "pageReference": 10,
+          "questionText": "Explique pourquoi on a raison de dire, à la fin de ce texte, que « les arbres sont utiles dans la vie de tous les jours ».\nUtilise des idées du texte et tes expériences personnelles pour expliquer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur le texte qui explique que les arbres fournissent le bois utilisé pour de nombreux objets (maisons, meubles, jouets) (paragraphe 1) et surtout pour fabriquer le papier, essentiel pour la lecture, l'écriture, le bricolage, etc. (paragraphe 4). Elle devrait intégrer l'idée que ces utilisations sont quotidiennes.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les utilisations du bois/papier mentionnées dans le texte et qu'elle relie ces utilisations à la vie de tous les jours, potentiellement avec des exemples personnels."
+        }
+      ]
+    },
+    {
+      "id": "A_Ecriture",
+      "title": "Partie A: Écriture",
+      "questions": [
+        {
+          "id": "A13",
+          "type": "openEnded",
+          "pageReference": 11,
+          "questionText": "Écris un court texte au sujet de ton activité préférée.\nExplique pourquoi tu préfères cette activité.",
+          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : clarté de l'idée principale (activité préférée et raison), organisation du texte, choix des mots, variété des phrases, maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture."
+        }
+      ]
+    },
+    {
+      "id": "B_Lecture_Batisseur",
+      "title": "Partie B: Lecture - Bâtisseur des terres humides",
+      "questions": [
+        {
+          "id": "B14",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Quel élément aide à comprendre ce texte?",
+          "options": [
+            "les paragraphes numérotés",
+            "les caractères gras dans le titre",
+            "les illustrations au sujet du castor",
+            "les différentes grosseurs de lettres"
+          ],
+          "correctAnswer": "c",
+          "verification": "Les illustrations (barrage, arbre coupé, hutte, castor nageant) qui accompagnent le texte (pages 14 et 15) correspondent aux descriptions et aident visuellement le lecteur à comprendre le sujet."
+        },
+        {
+          "id": "B15",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Qu'est-ce qu'on apprend au sujet des castors au 3ᵉ paragraphe?",
+          "options": [
+            "où les castors se déplacent",
+            "où les castors construisent les barrages",
+            "comment les castors vivent dans la nature",
+            "comment les castors bâtissent leurs habitats"
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe 3 décrit comment les castors construisent leurs maisons ('huttes') en utilisant leurs dents pour couper des arbres et en assemblant des branches, des brindilles, de l'herbe et de la boue. Cela explique comment ils 'bâtissent leurs habitats'."
+        },
+        {
+          "id": "B16",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "Que signifie le mot « huttes » au 3ᵉ paragraphe?",
+          "options": [
+            "arbres",
+            "maisons",
+            "barrages",
+            "brindilles"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le paragraphe 3 indique explicitement : « ils construisent leurs maisons, qu'on appelle des huttes ». Le mot 'huttes' est donc utilisé pour désigner leurs 'maisons'."
+        },
+        {
+          "id": "B17",
+          "type": "multipleChoice",
+          "pageReference": 16,
+          "questionText": "À quel mot se rapporte « sèche » au 4ᵉ paragraphe?",
+          "options": [
+            "hutte",
+            "pile",
+            "pièce",
+            "famille"
+          ],
+          "correctAnswer": "c",
+          "verification": "Dans la phrase « l'intérieur renferme une pièce confortable et sèche » (paragraphe 4), l'adjectif 'sèche' décrit l'état de la 'pièce' à l'intérieur de la hutte."
+        },
+        {
+          "id": "B18",
+          "type": "openEnded",
+          "pageReference": 17,
+          "questionText": "Explique pourquoi on dit dans ce texte que les castors sont « de bons bâtisseurs ».\nUtilise des exemples du texte pour appuyer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait citer des exemples tirés du texte qui montrent les capacités de construction des castors : ils construisent des barrages qui retiennent l'eau et créent des étangs (paragraphe 2), ils construisent leurs maisons (huttes) de manière solide avec divers matériaux (branches, boue, herbe) (paragraphe 3), ils utilisent leurs dents pour abattre des arbres (paragraphe 3).",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite correctement au moins un ou deux exemples de constructions ou techniques de construction des castors mentionnés dans les paragraphes 2, 3 et 4."
+        },
+        {
+          "id": "B19",
+          "type": "openEnded",
+          "pageReference": 17,
+          "questionText": "Explique pourquoi l'eau est importante pour les castors.\nUtilise des idées du texte et tes propres idées pour expliquer ta réponse.",
+          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur le texte pour expliquer que l'eau est essentielle car elle est retenue par le barrage pour créer l'étang profond où la hutte est construite (paragraphe 2), et que les entrées de la hutte sont cachées sous l'eau pour la sécurité (paragraphe 4). L'élève peut aussi ajouter, sur la base d'idées personnelles ou du titre, qu'ils vivent dans les 'terres humides'.",
+          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les fonctions de l'eau pour le castor telles que décrites dans le texte (habitat, sécurité) et qu'elle peut intégrer des connaissances générales ou déduites du texte."
+        }
+      ]
+    }
+  ]
+}

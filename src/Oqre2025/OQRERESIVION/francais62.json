@@ -1,166 +1,166 @@
 {
-  "testTitle": "Français 2 - 3e année - Printemps 2011 (Diffusé)",
-  "pdfPath": "/oqre/fr/F3-2011.pdf",
+  "testTitle": "Français 2 - 6e année - Printemps 2012 (Diffusés)",
+  "pdfPath": "/oqre/fr/Fr6-2-2012.pdf",
   "sections": [
     {
-      "id": "C_Lecture_Kilometre",
-      "title": "Partie C: Lecture - Le dernier kilomètre",
+      "id": "C_Lecture_ProjetLunaire",
+      "title": "Partie C: Lecture - Projet lunaire",
       "questions": [
         {
           "id": "C1",
           "type": "multipleChoice",
-          "pageReference": 6,
-          "questionText": "Où Tania a-t-elle placé ses bottes?",
+          "pageReference": 5,
+          "questionText": "Quel sous-titre pourrait-on donner au 1ᵉʳ paragraphe?",
           "options": [
-            "près du feu",
-            "sous le banc",
-            "sous un pont",
-            "dans le chalet"
+            "La fin des classes",
+            "L'annonce du projet",
+            "Le cours de sciences",
+            "La formation des équipes"
           ],
           "correctAnswer": "b",
-          "verification": "Le texte (paragraphe 2) dit qu'elle a « soigneusement rangé ses bottes sous le banc »."
+          "verification": "Le premier paragraphe décrit l'arrivée de Monsieur Lavoie et l'annonce d'un dernier projet pour l'année, incluant sa durée et la méthode de formation des équipes. L'annonce du projet est l'élément déclencheur et central du paragraphe."
         },
         {
           "id": "C2",
           "type": "multipleChoice",
-          "pageReference": 6,
-          "questionText": "Les jambes de Tania la font souffrir parce qu'elle patine...",
+          "pageReference": 5,
+          "questionText": "Combien de temps les élèves ont-ils pour faire leur projet?",
           "options": [
-            "en rond.",
-            "à reculons.",
-            "depuis plusieurs jours.",
-            "depuis plusieurs heures."
+            "2 jours",
+            "3 jours",
+            "7 jours",
+            "14 jours"
           ],
-          "correctAnswer": "d",
-          "verification": "Le paragraphe 5 décrit la douleur qui survient « Chaque pas en avant, chaque coup de patin », indiquant que la douleur est liée au patinage en cours, après avoir déjà parcouru une longue distance, ce qui correspond à « depuis plusieurs heures »."
+          "correctAnswer": "c",
+          "verification": "Au 1ᵉʳ paragraphe, Monsieur Lavoie dit : « Vous aurez une semaine pour le préparer. » Une semaine équivaut à 7 jours."
         },
         {
           "id": "C3",
           "type": "multipleChoice",
-          "pageReference": 6,
-          "questionText": "Dans quel but a-t-on écrit ce texte?",
+          "pageReference": 5,
+          "questionText": "Pourquoi le mot « quoi » est-il écrit en lettres majuscules? (1ᵉʳ paragraphe)",
           "options": [
-            "pour raconter la réussite de Tania",
-            "pour décrire le canal Rideau en hiver",
-            "pour nous encourager à faire du patinage",
-            "pour nous donner des conseils sur le patinage"
+            "Il indique une parole.",
+            "Il indique un sous-titre.",
+            "Il annonce une question.",
+            "Il démontre l'étonnement."
           ],
-          "correctAnswer": "a",
-          "verification": "Le texte suit l'histoire de Tania, ses efforts et sa détermination pour terminer le trajet du canal, culminant avec sa déclaration de victoire au paragraphe 9, ce qui fait de la réussite de Tania le sujet principal."
+          "correctAnswer": "d",
+          "verification": "Dans le texte, « QUOI! » est une interjection qui exprime la surprise ou l'étonnement des élèves à l'annonce du projet, car ils pensaient avoir terminé leurs travaux."
         },
         {
           "id": "C4",
           "type": "multipleChoice",
-          "pageReference": 6,
-          "questionText": "On utilise des virgules dans la dernière phrase du 2ᵉ paragraphe pour indiquer...",
+          "pageReference": 5,
+          "questionText": "Pourquoi Mathias reste-t-il « bouche bée »? (2ᵉ paragraphe)",
           "options": [
-            "le lieu.",
-            "le temps.",
-            "un dialogue.",
-            "une énumération."
+            "Il est étonné d'avoir un projet à faire.",
+            "Il est nerveux à l'idée de choisir son thème.",
+            "Il est surpris de la composition de son équipe.",
+            "Il est pressé de choisir un des sujets au tableau."
           ],
-          "correctAnswer": "d",
-          "verification": "La dernière phrase du paragraphe 2 liste une série d'actions faites par Tania (« Elle a soigneusement rangé ses bottes sous le banc, elle a ajusté son chapeau de laine, elle a mis ses mitaines, puis elle a patiné... »), séparées par des virgules, ce qui indique une énumération."
+          "correctAnswer": "c",
+          "verification": "Au 2ᵉ paragraphe, Mathias dit qu'il entend son nom et qu'il a été placé avec deux filles qu'il ne connaît pas bien, qu'il décrit par leurs compétences. Il ajoute : « Je n'en crois pas mes oreilles! Je demeure bouche bée ». Il est donc surpris par qui est dans son équipe."
         },
         {
           "id": "C5",
           "type": "multipleChoice",
-          "pageReference": 7,
-          "questionText": "Que signifie l'expression « à vive allure » au 4ᵉ paragraphe?",
+          "pageReference": 5,
+          "questionText": "Par quels mots peut-on remplacer « Évidemment » dans la phrase : « Évidemment, c'est deux contre un »? (3ᵉ paragraphe)",
           "options": [
-            "poliment",
-            "rapidement",
-            "silencieusement",
-            "dangereusement"
+            "En fait",
+            "Bien sûr",
+            "Par contre",
+            "Malgré tout"
           ],
           "correctAnswer": "b",
-          "verification": "L'expression « à vive allure » (paragraphe 4) décrit la façon dont certains patineurs se déplacent. Le texte ajoute qu'ils « dépassent tout le monde », ce qui implique qu'ils vont vite, donc 'rapidement'."
+          "verification": "Dans le contexte de la conversation sur le choix du sujet, la phrase « Évidemment, c'est deux contre un » signifie qu'il est clair ou certain que le vote sera de deux personnes pour le choix d'Alexia (soutenue par Gina) contre une (Mathias). 'Bien sûr' exprime cette certitude ou cette évidence."
         },
         {
           "id": "C6",
           "type": "multipleChoice",
-          "pageReference": 7,
-          "questionText": "Que signifie le mot « croise » au 4ᵉ paragraphe?",
+          "pageReference": 6,
+          "questionText": "Que signifie l'expression « je m'éclipse »? (4ᵉ paragraphe)",
           "options": [
-            "aider",
-            "saluer",
-            "arrêter",
-            "rencontrer"
+            "Je me retire.",
+            "Je me fâche.",
+            "Je me calme.",
+            "Je me décide."
           ],
-          "correctAnswer": "d",
-          "verification": "Dans le contexte de patiner sur un canal, « Elle croise des patineurs » (paragraphe 4) signifie qu'elle voit d'autres personnes en chemin, qu'elle les 'rencontre' ou qu'ils passent à côté d'elle."
+          "correctAnswer": "a",
+          "verification": "Au 4ᵉ paragraphe, Mathias dit : « Tandis que les deux filles discutent, je m'éclipse dans le but de convaincre monsieur Lavoie de me changer d'équipe... ». S'éclipser signifie partir discrètement, se retirer sans attirer l'attention."
         },
         {
           "id": "C7",
           "type": "multipleChoice",
-          "pageReference": 7,
-          "questionText": "Au 5ᵉ paragraphe, on utilise le tiret pour indiquer que...",
+          "pageReference": 6,
+          "questionText": "Pourquoi Mathias choisit-il de faire un projet à propos du télescope Hubble?",
           "options": [
-            "Luka est très surpris.",
-            "Luka écoute sa sœur.",
-            "Luka parle à sa sœur.",
-            "Luka pose une question."
+            "C'est son sujet préféré.",
+            "C'est le meilleur choix qui reste.",
+            "Il veut surprendre ses coéquipières.",
+            "Il veut se dépêcher de faire un choix."
           ],
-          "correctAnswer": "c",
-          "verification": "Le tiret devant la phrase « - Tu es capable, Tania, n'abandonne pas » (paragraphe 5) indique le début d'une réplique dans un dialogue. Comme c'est Luka qui parle, cela indique que « Luka parle à sa sœur »."
+          "correctAnswer": "b",
+          "verification": "Au 3ᵉ paragraphe, Mathias se précipite au tableau et constate que ses sujets préférés ont été sélectionnés. Il ne reste que trois choix, et il considère que le télescope Hubble est 'tout de même fascinant'. Il le choisit donc parce que c'est le meilleur choix parmi les options restantes pour lui."
         },
         {
           "id": "C8",
           "type": "multipleChoice",
-          "pageReference": 7,
-          "questionText": "Quel mot peut remplacer « mord » dans la phrase : « Toujours cette douleur et toujours ce vent du nord qui lui mord le nez et les joues »? (7ᵉ paragraphe)",
+          "pageReference": 6,
+          "questionText": "Au 5ᵉ paragraphe, pourquoi Mathias sort-il de sa coquille?",
           "options": [
-            "pince",
-            "gratte",
-            "frotte",
-            "caresse"
+            "Il est à l'aise avec son groupe.",
+            "Il est prêt à travailler avec son groupe.",
+            "Il a confiance en ses habiletés artistiques.",
+            "Il a confiance en ses connaissances scientifiques."
           ],
-          "correctAnswer": "a",
-          "verification": "Quand le vent froid « mord » la peau (paragraphe 7), cela décrit une sensation de piqûre ou d'irritation douloureuse due au froid. 'Pince' est le synonyme qui correspond le mieux à cette sensation."
+          "correctAnswer": "c",
+          "verification": "Au 5ᵉ paragraphe, Mathias est silencieux lorsque Gina parle du sujet (science). Il dit : « Ce n'est que lorsqu'on aborde le sujet de la présentation que je sors de ma coquille. Des idées fantastiques émergent alors de ma tête d'artiste. » Il s'exprime lorsqu'il s'agit de son domaine de compétence, l'art."
         },
         {
           "id": "C9",
           "type": "multipleChoice",
-          "pageReference": 8,
-          "questionText": "Dans quel paragraphe apprend-on que Tania termine son trajet?",
+          "pageReference": 6,
+          "questionText": "Quelle est l'idée principale du 7ᵉ paragraphe?",
           "options": [
-            "dans le 6ᵉ paragraphe",
-            "dans le 7ᵉ paragraphe",
-            "dans le 8ᵉ paragraphe",
-            "dans le 9ᵉ paragraphe"
+            "Le projet est enfin terminé.",
+            "Monsieur Lavoie est fier de sa classe.",
+            "Mathias se rend compte qu'il a une bonne équipe.",
+            "Mathias se rend compte qu'il aime les projets sur la Lune."
           ],
-          "correctAnswer": "d",
-          "verification": "Le paragraphe 9 commence par l'exclamation « Ça y est! C'est gagné! » et décrit Tania arrivant au banc où elle avait commencé, indiquant qu'elle a terminé son parcours."
+          "correctAnswer": "c",
+          "verification": "Le 7ᵉ paragraphe décrit la présentation réussie du projet, les félicitations de Monsieur Lavoie, et la réalisation finale de Mathias : « je me rends compte que notre équipe n'était peut-être pas aussi mal assortie que je l'avais cru! Les qualités complémentaires de chaque membre ont fait la force de notre équipe ». L'idée principale est que Mathias reconnaît la valeur et la réussite de son équipe initialement inattendue."
         },
         {
           "id": "C10",
           "type": "multipleChoice",
-          "pageReference": 8,
-          "questionText": "À quel mot « proche » se rapporte-t-il au 8ᵉ paragraphe?",
+          "pageReference": 6,
+          "questionText": "Pourquoi Mathias et ses coéquipières ont-ils si bien réussi leur projet?",
           "options": [
-            "chalet",
-            "château",
-            "arche",
-            "pont"
+            "Ils ont choisi un bon sujet.",
+            "Ils ont exploité leurs talents.",
+            "Ils ont bien suivi les directives.",
+            "Ils ont fait plusieurs recherches."
           ],
           "correctAnswer": "b",
-          "verification": "Dans la phrase « Le château est de plus en plus proche » (paragraphe 8), l'adjectif 'proche' qualifie le nom 'château'."
+          "verification": "Le 7ᵉ paragraphe explique : « Les qualités complémentaires de chaque membre ont fait la force de notre équipe et nous ont permis de réussir notre projet avec brio! ». Gina a fait les recherches (sciences), Alexia a rédigé et présenté (français), et Mathias a créé la maquette (arts). Ils ont utilisé leurs talents respectifs."
         },
         {
           "id": "C11",
           "type": "openEnded",
-          "pageReference": 9,
-          "questionText": "Explique pourquoi Luka a raison de dire à Tania qu'elle est très courageuse. Utilise des exemples du texte pour expliquer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - L'élève devrait expliquer que Tania fait preuve de courage en persévérant malgré la fatigue, la douleur (jambes, épaules), le vent froid qui lui fait mal au visage, et le doute qui s'installe. Le texte mentionne ces difficultés (paragraphes 5 et 7).",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite des éléments du texte (fatigue, douleur, vent, doute) que Tania surmonte, justifiant ainsi le qualificatif 'courageuse'."
+          "pageReference": 7,
+          "questionText": "Explique comment l'attitude de Mathias envers ses coéquipières a changé au fil de l'histoire.",
+          "correctAnswer": "Au début de l'histoire, Mathias est surpris et déçu d'être avec Alexia et Gina car il ne les connaît pas bien et ne pense pas qu'ils formeront une bonne équipe, essayant même de changer de groupe. Au milieu de l'histoire, il est surpris par leur enthousiasme au travail à la bibliothèque et reste silencieux au début, ne contribuant que lorsqu'il s'agit de la partie artistique. À la fin, après la présentation réussie du projet, il est impressionné par la qualité de leur travail et se rend compte que l'équipe était forte grâce à leurs talents complémentaires. Son attitude est passée de la déception et du scepticisme à la reconnaissance, l'appréciation et même l'amitié (les appelant 'mes deux nouvelles copines').",
+          "verification": "L'évaluation vérifiera si l'élève décrit l'évolution de l'attitude de Mathias (de la déception/surprise initiale à la reconnaissance/appréciation finale), en s'appuyant sur des événements clés du texte (annonce des équipes, travail en équipe, présentation)."
         },
         {
           "id": "C12",
           "type": "openEnded",
-          "pageReference": 9,
-          "questionText": "Explique pourquoi tu as le goût ou non de parcourir le canal Rideau en patins comme l'a fait Tania. Utilise des idées du texte et tes propres idées pour appuyer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève doit exprimer clairement son opinion (avoir le goût ou non) et la justifier en utilisant des détails du texte (ex: longue distance, froid, fatigue, douleur VS beauté du lieu, ambiance, présence d'autres patineurs, feux pour se réchauffer, satisfaction de l'accomplissement) ainsi que ses propres idées (ex: j'aime patiner, je n'aime pas le froid, ça semble difficile mais stimulant).",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle justifie l'opinion exprimée par des références au texte et des idées personnelles cohérentes."
+          "pageReference": 7,
+          "questionText": "Pourquoi était-ce une bonne idée que monsieur Lavoie forme les équipes pour le projet? Utilise les renseignements du texte et tes propres idées pour expliquer ta réponse.",
+          "correctAnswer": "Selon le texte, Monsieur Lavoie explique (paragraphe 4) qu'il est important d'apprendre à travailler avec des personnes différentes car elles ont souvent des idées intéressantes, et que trois têtes valent mieux qu'une. Le succès de l'équipe de Mathias (paragraphe 7) prouve que c'était une bonne idée, car leurs qualités complémentaires ont rendu le projet 'avec brio'. De plus, travailler avec des personnes différentes aide à sortir de sa zone de confort, à découvrir de nouvelles façons de penser et à développer des compétences sociales importantes pour l'avenir.",
+          "verification": "L'évaluation vérifiera si l'élève explique les bénéfices de la formation d'équipes par l'enseignant, en utilisant des arguments du texte (importance de travailler avec des personnes différentes, synergie des compétences) et/ou des idées personnelles (apprentissage de la collaboration, découverte de l'autre, développement de compétences sociales)."
         }
       ]
     },
@@ -169,160 +169,146 @@
       "title": "Partie C: Écriture",
       "questions": [
         {
-          "id": "E13",
-          "type": "multipleChoice",
-          "pageReference": 10,
-          "questionText": "Quelle phrase n'appartient pas à ce paragraphe? (1) Le matin, la ville se réveille. (2) Les automobiles roulent dans les rues. (3) Il fait de plus en plus noir. (4) Les piétons se rendent au travail.",
-          "options": [
-            "phrase 1",
-            "phrase 2",
-            "phrase 3",
-            "phrase 4"
-          ],
-          "correctAnswer": "c",
-          "verification": "Les phrases 1, 2 et 4 décrivent l'activité typique d'une ville qui se réveille le matin. La phrase 3, « Il fait de plus en plus noir », décrit une condition qui est l'opposé de l'aube et n'est pas cohérente avec le reste du paragraphe."
+          "id": "C13",
+          "type": "openEnded",
+          "pageReference": 8,
+          "questionText": "Rédige un court texte dans lequel tu expliques pourquoi il est important pour les jeunes de faire de l'activité physique régulièrement.",
+          "correctAnswer": "Cette question demande à l'élève de rédiger un court texte argumentatif expliquant les bienfaits de l'activité physique régulière pour les jeunes. L'évaluation portera sur la pertinence des arguments, l'organisation du texte, le vocabulaire et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+          "verification": "L'évaluation vérifiera la capacité de l'élève à produire un texte structuré (introduction, développement d'arguments, conclusion potentielle) avec des raisons valables (santé, énergie, concentration, bien-être, etc.) et à respecter les règles de la langue écrite."
         },
         {
-          "id": "E14",
+          "id": "C14",
           "type": "multipleChoice",
           "pageReference": 10,
-          "questionText": "Choisis la bonne réponse. Josianne doit apprendre à patiner ______ elle veut jouer au hockey.",
+          "questionText": "Choisis la meilleure phrase d'introduction pour ce paragraphe.\nDurant ses temps libres,\nelle aime observer et photographier le paysage\nau bord du lac. Elle s'en inspire pour peindre\nses œuvres d'art. Tatiana profite de toutes les\noccasions pour lire les biographies des grands\npeintres et visiter les musées d'art. Les parents\nde Tatiana sont fiers des tableaux qu'elle a\npeints.",
           "options": [
-            "si",
-            "ou",
-            "mais",
-            "alors"
-          ],
-          "correctAnswer": "d",
-          "verification": "La phrase exprime une relation de cause à conséquence. Parce qu'elle veut jouer au hockey, alors (donc) elle doit apprendre à patiner. 'Alors' introduit la conséquence logique ici."
-        },
-        {
-          "id": "E15",
-          "type": "multipleChoice",
-          "pageReference": 10,
-          "questionText": "Quelle phrase est écrite correctement? Le coiffeur utilise une petite...",
-          "options": [
-            "brosses blanche.",
-            "brosse blanche.",
-            "brosse blanches.",
-            "brosses blanches."
-          ],
-          "correctAnswer": "b",
-          "verification": "Le déterminant 'une' indique que le nom 'brosse' est au singulier. L'adjectif 'petite' et l'adjectif de couleur 'blanche' doivent s'accorder en genre et en nombre avec 'brosse' (féminin singulier). 'petite brosse blanche' est l'accord correct."
-        },
-        {
-          "id": "E16",
-          "type": "multipleChoice",
-          "pageReference": 10,
-          "questionText": "Choisis la meilleure phrase de conclusion pour ce paragraphe. [Paragraphe sur Tristan, nageur assidu et compétitif]",
-          "options": [
-            "Quel sport exigeant!",
-            "Quel nageur persévérant!",
-            "Tristan est un jeune nageur.",
-            "Tristan aime ce sport individuel."
-          ],
-          "correctAnswer": "b",
-          "verification": "En se basant sur le thème suggéré du paragraphe (nageur assidu et compétitif), une phrase soulignant sa persévérance résume le mieux les qualités requises et démontrées par un tel athlète."
-        },
-        {
-          "id": "E17",
-          "type": "multipleChoice",
-          "pageReference": 10,
-          "questionText": "Choisis la bonne réponse. Nous avons reçu en cadeau un robot géant. Il tranche le pain et coupe les légumes. Il essuie aussi le comptoir et nettoie le plancher. De plus, il met la table et place toujours la vaisselle au bon endroit. ______",
-          "options": [
-            "Ce robot est très utile.",
-            "Ce robot est en métal.",
-            "Ce robot est en forme.",
-            "Ce robot est très sérieux."
+            "Tatiana rêve de devenir artiste.",
+            "Tatiana rêve de devenir écrivaine.",
+            "Tatiana rêve de devenir photographe.",
+            "Tatiana rêve de devenir collectionneuse."
           ],
           "correctAnswer": "a",
-          "verification": "Le paragraphe énumère de nombreuses tâches ménagères que le robot est capable d'accomplir (trancher, couper, essuyer, nettoyer, mettre la table, placer la vaisselle). L'ensemble de ces fonctions démontre que ce robot est très utile."
+          "verification": "Le paragraphe décrit les activités de Tatiana qui sont toutes liées à l'art (peinture, inspiration par le paysage, biographies de peintres, musées). La phrase « Tatiana rêve de devenir artiste » introduit ce thème central de sa passion pour l'art et son aspiration."
         },
         {
-          "id": "E18",
-          "type": "openEnded",
-          "pageReference": 11,
-          "questionText": "Imagine un nouveau moyen de transport. Écris un court texte dans lequel tu décris ce moyen de transport.",
-          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la capacité de l'élève à imaginer un nouveau moyen de transport et à le décrire dans un court texte. Les critères incluent la clarté de la description, l'originalité, l'organisation du texte, le vocabulaire utilisé et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
-          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève basée sur la créativité, la description et la qualité de la langue."
+          "id": "C15",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Choisis la bonne réponse.\nLidija aimerait aller au cinéma avec ses amies,\n______ ses parents s'y opposent.",
+          "options": [
+            "ainsi",
+            "aussi",
+            "toutefois",
+            "notamment"
+          ],
+          "correctAnswer": "c",
+          "verification": "La deuxième partie de la phrase exprime une opposition ou une restriction par rapport à la première. 'Toutefois' est un adverbe qui signifie 'cependant', 'néanmoins', et introduit une contradiction ou une opposition."
+        },
+        {
+          "id": "C16",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Choisis la meilleure phrase de conclusion pour ce paragraphe.\nJ'aime beaucoup les bandes dessinées.\nJ'en lis depuis très longtemps. Il y en a des\ncentaines à la bibliothèque de notre école.\nJe les ai presque toutes lues. Les personnages\nsont tellement bien dessinés qu'on peut les\nprendre souvent pour des êtres réels.",
+          "options": [
+            "J'admire l'exposition des œuvres populaires.",
+            "J'aimerais un jour travailler à\nla bibliothèque.",
+            "J'aimerais un jour vendre des bandes\ndessinées.",
+            "J'admire le talent des auteurs de\nbandes dessinées."
+          ],
+          "correctAnswer": "d",
+          "verification": "Le paragraphe insiste sur la qualité des dessins et la profondeur des personnages, qui rendent les bandes dessinées si appréciées par le narrateur. La phrase « J'admire le talent des auteurs de bandes dessinées » conclut en mettant en valeur la source de cette qualité : les créateurs eux-mêmes."
+        },
+        {
+          "id": "C17",
+          "type": "multipleChoice",
+          "pageReference": 10,
+          "questionText": "Choisis la bonne réponse.\nMa tante et mon cousin ______ nous chercher à l'aéroport.",
+          "options": [
+            "était venu",
+            "était venue",
+            "étaient venus",
+            "étaient venues"
+          ],
+          "correctAnswer": "c",
+          "verification": "Le sujet est « Ma tante et mon cousin ». Il s'agit d'un sujet composé de deux personnes différentes en genre. L'accord du participe passé 'venu' avec l'auxiliaire 'être' se fait au pluriel. Comme il y a au moins un nom masculin ('mon cousin'), l'accord au pluriel est masculin pluriel : 'venus'."
         }
       ]
     },
     {
-      "id": "D_Lecture_Soccer",
-      "title": "Partie D: Lecture - Tout un jeu",
+      "id": "D_Lecture_LesDents",
+      "title": "Partie D: Lecture - Les dents",
       "questions": [
         {
-          "id": "D18",
+          "id": "D1",
           "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Pourquoi utilise-t-on une ligne du temps au bas de la page 14?",
+          "pageReference": 14,
+          "questionText": "Que représente la fiche 1?",
           "options": [
-            "pour décrire les règles du jeu",
-            "pour illustrer le ballon de soccer",
-            "pour comparer le soccer au football",
-            "pour présenter des dates importantes"
-          ],
-          "correctAnswer": "d",
-          "verification": "La ligne du temps présente des années spécifiques (1904, 1930, 1986, 1990, 2007) associées à des événements marquants de l'histoire du soccer, son rôle est donc de présenter des dates importantes."
-        },
-        {
-          "id": "D19",
-          "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Pourquoi dit-on que le soccer est un sport mondial?",
-          "options": [
-            "On y joue avec un ballon.",
-            "On y joue tous les quatre ans.",
-            "On y joue dans beaucoup de pays.",
-            "On y joue contre une équipe adverse."
-          ],
-          "correctAnswer": "c",
-          "verification": "Le texte d'introduction (page 14) affirme explicitement : « On joue au soccer presque partout dans le monde. » Cela signifie qu'on y joue dans beaucoup de pays."
-        },
-        {
-          "id": "D20",
-          "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Que signifie le mot « distingue » dans la phrase : « Cela le distingue de l'autre sport qui s'appelle \"football\" »? (partie intitulée « Quelques faits... »)",
-          "options": [
-            "illustre",
-            "montre",
-            "annonce",
-            "différencie"
-          ],
-          "correctAnswer": "d",
-          "verification": "Dire que le nom 'soccer' le 'distingue' de l'autre 'football' signifie que ce nom crée une différence, qu'il le 'différencie' de l'autre sport."
-        },
-        {
-          "id": "D21",
-          "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Pourquoi les joueurs de soccer portent-ils des souliers à crampons?",
-          "options": [
-            "pour ne pas tomber",
-            "pour frapper le ballon",
-            "pour protéger le terrain",
-            "pour ne pas recevoir de coups"
+            "les parties de la dent",
+            "la propreté de la dent",
+            "l'importance de la dent",
+            "les fonctions de la dent"
           ],
           "correctAnswer": "a",
-          "verification": "Dans la section « Les accessoires » (page 15), le texte explique à propos des chaussures à crampons : « Ces chaussures empêchent également de glisser. » Ne pas glisser permet aux joueurs de mieux se tenir sur le terrain et donc de ne pas tomber."
+          "verification": "La Fiche 1 (page 12) est un schéma annoté qui montre les différentes composantes anatomiques d'une dent (couronne, collet, racine, gencive, etc.). Elle représente donc les parties de la dent."
         },
         {
-          "id": "D22",
-          "type": "openEnded",
-          "pageReference": 17,
-          "questionText": "Explique pourquoi on dit dans ce texte que le soccer est un sport populaire. Utilise des exemples du texte pour expliquer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait citer des preuves de la popularité du soccer mentionnées dans le texte : il est joué 'presque partout dans le monde' (page 14), il est le '2e sport le plus populaire au Canada' (page 15), 'Les filles aiment jouer au soccer autant que les garçons' (page 15), et 'De plus en plus de tournois sont organisés entre les écoles' (page 15).",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur des faits cités dans le texte qui démontrent la grande pratique ou l'engouement pour ce sport."
+          "id": "D2",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Quels mots « Elle » remplace-t-il dans la phrase : « Elle est recouverte d'émail, la substance la plus dure du corps » (fiche 1, section A)?",
+          "options": [
+            "la couronne",
+            "la partie",
+            "la dent",
+            "la substance"
+          ],
+          "correctAnswer": "a",
+          "verification": "Dans la Fiche 1, section A, la phrase complète est « La COURONNE est la partie visible de la dent. Elle est recouverte d'émail... ». Le pronom 'Elle' renvoie au nom 'La COURONNE' mentionné juste avant."
         },
         {
-          "id": "D23",
+          "id": "D3",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Quel type de dents se compare à un couteau?",
+          "options": [
+            "les canines",
+            "les molaires",
+            "les incisives",
+            "les prémolaires"
+          ],
+          "correctAnswer": "c",
+          "verification": "Selon la Fiche 2 (page 13), les incisives « ont une arête tranchante qui permet de couper les aliments ». Une arête tranchante est similaire au fil d'une lame de couteau."
+        },
+        {
+          "id": "D4",
+          "type": "multipleChoice",
+          "pageReference": 14,
+          "questionText": "Quel titre peut-on donner à la fiche 2?",
+          "options": [
+            "Le rôle des dents",
+            "Les parties des dents",
+            "La séparation des dents",
+            "La bonne santé des dents"
+          ],
+          "correctAnswer": "b",
+          "verification": "La Fiche 2 (page 13) décrit et illustre les différents types de dents présentes dans la bouche (incisives, canines, prémolaires, molaires). Ces différents types de dents peuvent être considérés comme les 'parties' de la dentition dans son ensemble, ou comme les différentes catégories de dents. 'Les parties des dents' est l'option la plus appropriée parmi les choix, même si 'Les types de dents' serait plus précis."
+        },
+        {
+          "id": "D5",
           "type": "openEnded",
-          "pageReference": 17,
-          "questionText": "Explique comment les illustrations dans ce texte t'aident à comprendre le jeu de soccer. Utilise des idées du texte et tes propres idées pour appuyer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait expliquer comment les illustrations (schéma du terrain, chaussures à crampons, protège-tibias, ballon, joueurs) visualisent des aspects du jeu décrits dans le texte (équipement, surface de jeu, action), rendant les informations plus concrètes et plus faciles à comprendre ou à imaginer. L'élève peut lier des illustrations spécifiques à des informations textuelles.",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle explique le rôle des illustrations dans la compréhension, en faisant référence à des exemples d'illustrations et aux informations correspondantes du texte ou à ses propres connaissances."
+          "pageReference": 15,
+          "questionText": "Explique comment les dents aident le système digestif. Utilise des renseignements du texte pour appuyer ta réponse.",
+          "correctAnswer": "Selon le texte (page 12), les dents participent à la digestion en « préparant les aliments pour leur long voyage dans le système digestif ». La Fiche 2 (page 13) explique comment les différents types de dents réalisent cette préparation : les incisives coupent les aliments, les canines déchirent la nourriture, et les prémolaires et molaires broient et mastiquent les aliments. Ainsi, les dents réduisent les aliments en plus petits morceaux, ce qui les rend plus faciles à avaler et à digérer par la suite.",
+          "verification": "L'évaluation vérifiera si l'élève mentionne que les dents préparent les aliments pour la digestion et s'appuie sur le texte pour décrire les actions spécifiques (couper, déchirer, broyer/mastiquer) effectuées par les différents types de dents."
+        },
+        {
+          "id": "D6",
+          "type": "openEnded",
+          "pageReference": 15,
+          "questionText": "Explique pourquoi les fiches nous aident à bien comprendre le texte. Utilise des idées du texte et tes propres idées pour appuyer ta réponse.",
+          "correctAnswer": "Les fiches aident à comprendre le texte en fournissant des illustrations qui rendent les informations visuellement accessibles. Par exemple, la Fiche 1 montre un schéma détaillé des parties internes et externes d'une dent, ce qui clarifie les descriptions comme la couronne ou la racine. La Fiche 2 illustre les différentes formes de dents et leur placement dans la bouche, ce qui permet de mieux visualiser comment elles coupent, déchirent ou broient les aliments, actions décrites dans le texte. Les images complètent les mots et rendent les concepts plus concrets et plus faciles à retenir.",
+          "verification": "L'évaluation vérifiera si l'élève explique que les fiches aident à comprendre grâce aux illustrations et s'appuie sur des exemples précis tirés des fiches (schémas des parties, formes des différents types de dents) en lien avec les informations du texte, ou en utilisant l'idée générale que les images facilitent la compréhension et la visualisation."
         }
       ]
     },
@@ -331,68 +317,68 @@
       "title": "Partie D: Écriture",
       "questions": [
         {
-          "id": "E24",
+          "id": "D7",
           "type": "openEnded",
-          "pageReference": 18,
-          "questionText": "Des animaux s'échappent du zoo. Écris un récit dans lequel tu racontes ce qui se passe.",
-          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité du récit : développement de l'intrigue (ce qui se passe après l'évasion), présence de personnages (animaux, humains), cadre spatio-temporel, utilisation de vocabulaire varié, organisation du texte (début, milieu, fin), et maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
-          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève, basée sur la structure narrative et la qualité de la langue."
+          "pageReference": 16,
+          "questionText": "Durant un pique-nique avec ta famille, vous êtes surpris par des visiteurs étranges. Écris un récit pour raconter votre aventure.",
+          "correctAnswer": "Cette question demande à l'élève d'écrire un récit imaginant ce qui se passe lors d'une rencontre inattendue avec des visiteurs étranges pendant un pique-nique familial. L'évaluation portera sur la structure narrative (début, milieu, fin), le développement de l'intrigue, la présence de personnages (les visiteurs étranges, les membres de la famille), le cadre (où se déroule l'aventure, réactions), le vocabulaire, et la maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
+          "verification": "L'évaluation vérifiera la créativité du récit, sa cohérence, son organisation narrative et la qualité de la langue écrite."
         },
         {
-          "id": "E25",
+          "id": "D8",
           "type": "multipleChoice",
-          "pageReference": 20,
-          "questionText": "Quelle phrase combine le mieux les deux énoncés en caractères gras? [Patrick est heureux. Il a gagné la médaille d'or.]",
+          "pageReference": 19,
+          "questionText": "Choisis la bonne réponse.\nToi et moi ______ des bandes dessinées depuis deux ans.",
           "options": [
-            "et il a gagné la médaille d'or.",
-            "ou il a gagné la médaille d'or.",
-            "car il a gagné la médaille d'or.",
-            "mais il a gagné la médaille d'or."
+            "collectionnes",
+            "collectionnez",
+            "collectionnent",
+            "collectionnons"
           ],
-          "correctAnswer": "c",
-          "verification": "La deuxième phrase explique la raison pour laquelle Patrick est heureux. La conjonction de coordination 'car' introduit la cause. 'Patrick est heureux, car il a gagné la médaille d'or' signifie 'Patrick est heureux parce qu'il a gagné la médaille d'or'."
+          "correctAnswer": "d",
+          "verification": "Le sujet « Toi et moi » est équivalent au pronom personnel « nous ». Le verbe 'collectionner' conjugué au présent de l'indicatif avec 'nous' est 'collectionnons'."
         },
         {
-          "id": "E26",
+          "id": "D9",
           "type": "multipleChoice",
-          "pageReference": 20,
-          "questionText": "Quelle phrase n'appartient pas à ce paragraphe? (1) Un beau matin ensoleillé, Luc et Julie marchent pour se rendre à l'école. (2) À la maison, ils dégustent une collation. (3) Tout à coup, ils aperçoivent Paul au coin de la rue. (4) Ensemble, ils continuent leur route vers l'école.",
+          "pageReference": 19,
+          "questionText": "Quelle phrase n'appartient pas à ce paragraphe?\n(1) Un matin, Kadhi rapporte son projet à\nl'école. (2) Il aime se promener sous la pluie\navec ses camarades. (3) La veille, une pluie\ntorrentielle est tombée. (4) Un coup de vent\na fait voler le projet dans une flaque d'eau.\n(5) Heureusement, Kadhi l'a récupéré avant\nqu'il soit trop mouillé.",
           "options": [
-            "phrase 1",
             "phrase 2",
             "phrase 3",
-            "phrase 4"
-          ],
-          "correctAnswer": "b",
-          "verification": "Les phrases 1, 3 et 4 décrivent des actions qui se déroulent pendant le trajet de Luc et Julie vers l'école. La phrase 2 décrit une action qui se passe à la maison et ne fait pas partie de ce récit de trajet."
-        },
-        {
-          "id": "E27",
-          "type": "multipleChoice",
-          "pageReference": 20,
-          "questionText": "Choisis la bonne réponse. Monique a vu le papillon ______.",
-          "options": [
-            "bleu",
-            "bleus",
-            "bleue",
-            "bleues"
+            "phrase 4",
+            "phrase 5"
           ],
           "correctAnswer": "a",
-          "verification": "Le nom 'papillon' est masculin singulier. L'adjectif de couleur 'bleu' doit s'accorder en genre et en nombre avec 'papillon', il reste donc au masculin singulier 'bleu'."
+          "verification": "Les phrases (1), (3), (4) et (5) racontent une anecdote spécifique sur le projet de Kadhi qui a été endommagé par la pluie et le vent. La phrase (2) décrit une préférence générale de Kadhi qui n'est pas liée à cet événement particulier."
         },
         {
-          "id": "E28",
+          "id": "D10",
           "type": "multipleChoice",
-          "pageReference": 20,
-          "questionText": "Quelle phrase a la bonne ponctuation? Félicitations, tu es devenu champion en gymnastique...",
+          "pageReference": 19,
+          "questionText": "Choisis la bonne réponse pour compléter\nla phrase.\nLes athlètes ont fourni beaucoup d'efforts\ndurant la course, ______ ils sont fiers de leur\nperformance.",
           "options": [
-            "Félicitations, tu es devenu champion en gymnastique,",
-            "Félicitations, tu es devenu champion en gymnastique!",
-            "Félicitations, tu es devenu champion en gymnastique :",
-            "Félicitations, tu es devenu champion en gymnastique?"
+            "comme",
+            "tandis qu'",
+            "c'est pourquoi",
+            "c'est-à-dire qu'"
           ],
-          "correctAnswer": "b",
-          "verification": "La phrase exprime une vive félicitation, une exclamation. La ponctuation appropriée pour exprimer un tel sentiment est le point d'exclamation (!)."
+          "correctAnswer": "c",
+          "verification": "La deuxième partie de la phrase « ils sont fiers de leur performance » est la conséquence du fait qu'ils ont fourni « beaucoup d'efforts ». L'expression 'c'est pourquoi' introduit une conséquence ou une raison (pourquoi ils sont fiers)."
+        },
+        {
+          "id": "D11",
+          "type": "multipleChoice",
+          "pageReference": 19,
+          "questionText": "Choisis la bonne réponse.\nSue s'avance ______ la table avec son ______\nde jus à la main.",
+          "options": [
+            "ver, vert",
+            "vers, vert",
+            "ver, verre",
+            "vers, verre"
+          ],
+          "correctAnswer": "d",
+          "verification": "Le premier blanc nécessite la préposition 'vers' qui indique la direction ('vers la table'). Le second blanc nécessite le nom 'verre' qui désigne le contenant pour le liquide ('son verre de jus'). 'Ver' est un animal, 'vert' est une couleur."
         }
       ]
     }
