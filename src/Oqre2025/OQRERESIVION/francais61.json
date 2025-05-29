@@ -1,159 +1,161 @@
 {
-  "testTitle": "Français 1 - 3e année - Printemps 2010 (Diffusé)",
+  "testTitle": "Français 1 - 6e année - Printemps 2012",
+
+  "pdfPath": "/oqre/fr/Fr6-2012.pdf",
   "sections": [
     {
-      "id": "A_Lecture_Decouverte",
-      "title": "Partie A: Lecture - L'heureuse découverte",
+      "id": "A_Lecture_GrandMamanMarathon",
+      "title": "Partie A: Lecture - Grand-maman-marathon",
       "questions": [
         {
           "id": "A1",
           "type": "multipleChoice",
           "pageReference": 5,
-          "questionText": "Au 5ᵉ paragraphe, on utilise le point d'exclamation pour indiquer que Stéphane est très...",
+          "questionText": "Pourquoi le garçon appelle-t-il sa grand-mère « grand-maman-marathon »?",
           "options": [
-            "fâché.",
-            "inquiet.",
-            "curieux.",
-            "soulagé."
+            "Elle est en forme.",
+            "Elle court un marathon.",
+            "Elle aime courir en groupe.",
+            "Elle désire participer à une course."
           ],
           "correctAnswer": "d",
-          "verification": "Le point d'exclamation dans l'exclamation de Stéphane : « Mélina, enfin, je t'ai trouvée! » (paragraphe 5) suggère son soulagement ou sa joie d'avoir terminé sa recherche."
+          "verification": "Le garçon appelle sa grand-mère « grand-maman-marathon » parce qu'elle exprime le désir de participer à une course de cinq kilomètres, montrant ainsi son enthousiasme pour relever des défis."
         },
         {
           "id": "A2",
           "type": "multipleChoice",
           "pageReference": 5,
-          "questionText": "Que signifie le mot « perçant » au 9ᵉ paragraphe?",
+          "questionText": "Selon quel point de vue raconte-t-on cette histoire?",
           "options": [
-            "aigu",
-            "doux",
-            "étrange",
-            "agréable"
+            "celui de l'enfant",
+            "celui d'un témoin",
+            "celui d'un journaliste",
+            "celui de la grand-mère"
           ],
           "correctAnswer": "a",
-          "verification": "Dans le contexte d'un cri ('le cri perçant de la maman oiseau' - paragraphe 9), 'perçant' signifie aigu ou strident. 'Aigu' est le synonyme le plus proche parmi les options."
+          "verification": "L'histoire est racontée du point de vue de l'enfant, car c'est lui qui décrit ses interactions et ses pensées concernant sa grand-mère."
         },
         {
           "id": "A3",
           "type": "multipleChoice",
           "pageReference": 5,
-          "questionText": "Pourquoi la maman oiseau lance-t-elle un grand cri?",
+          "questionText": "Le mot « contretemps » signifie un événement...",
           "options": [
-            "Elle a peur des étrangers.",
-            "Elle a besoin de nourriture.",
-            "Elle veut protéger ses petits.",
-            "Elle veut amuser les enfants."
+            "drôle.",
+            "difficile.",
+            "imprévu.",
+            "surprenant."
           ],
           "correctAnswer": "c",
-          "verification": "Le cri de la maman oiseau (paragraphe 9) survient lorsque les enfants s'approchent du nid et y remettent l'oisillon. C'est une réaction naturelle d'un animal pour défendre ou protéger sa progéniture."
+          "verification": "Dans le contexte, « contretemps » signifie un événement imprévu, car la grand-mère s'arrête pour renouer ses lacets pendant la course."
         },
         {
           "id": "A4",
           "type": "multipleChoice",
           "pageReference": 5,
-          "questionText": "Que nous apprend l'illustration à la fin de ce texte?",
+          "questionText": "Que signifie l'expression « le souffle saccadé »?",
           "options": [
-            "La maman oiseau chante bien.",
-            "La maman oiseau nettoie le nid.",
-            "L'oisillon vole au-dessus du nid.",
-            "L'oisillon est retourné dans son nid."
+            "la respiration lente",
+            "la respiration calme",
+            "la respiration douce",
+            "la respiration irrégulière"
           ],
           "correctAnswer": "d",
-          "verification": "L'illustration (page 4), qui est présentée après le paragraphe 9 décrivant le retour de l'oisillon au nid, montre l'oisillon de nouveau avec ses frères et la maman dans le nid, confirmant qu'il y est bien retourné."
+          "verification": "L'expression « le souffle saccadé » signifie une respiration irrégulière, ce qui est typique après un effort physique intense comme une course."
         },
         {
           "id": "A5",
           "type": "openEnded",
-          "pageReference": 6,
-          "questionText": "Explique pourquoi Mélina s'inquiète quand elle entend un bruit au début de ce texte.\nUtilise des idées du texte et tes expériences personnelles pour expliquer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur les détails du texte (paragraphe 3 : « un froissement de feuilles accompagné de petits cris ») et expliquer pourquoi ces bruits sont source d'inquiétude (bruit inattendu, inconnu, potentiellement dangereux) en faisant appel à son expérience ou à son imagination.",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle fait référence aux indices du texte (type de bruit) et qu'elle offre une explication plausible de l'inquiétude, potentiellement liée à des expériences personnelles."
+          "pageReference": 5,
+          "questionText": "Explique comment on sait que la grand-mère aime relever des défis. Utilise des renseignements du texte pour appuyer ta réponse.",
+          "correctAnswer": "La grand-mère aime relever des défis car elle décide de participer à une course de cinq kilomètres malgré son âge et son manque d'entraînement apparent. De plus, elle exprime son intention de courir dix kilomètres l'année suivante et, éventuellement, un marathon, montrant ainsi sa détermination et son ambition.",
+          "verification": "L'évaluation vérifiera si l'élève utilise des exemples du texte pour démontrer que la grand-mère aime les défis, comme sa participation à la course et ses projets futurs de courses plus longues."
         },
         {
           "id": "A6",
           "type": "openEnded",
-          "pageReference": 6,
-          "questionText": "Explique pourquoi les enfants sont heureux après leur expérience avec l'oisillon.\nUtilise des idées du texte et tes propres idées pour expliquer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur le texte (paragraphe 9 : ils sont « Soulagés et contents » que l'oisillon soit de retour en sécurité dans le nid) et potentiellement sur des idées personnelles liées à la satisfaction d'aider un animal, à l'excitation de la découverte, ou au fait que l'oisillon est sauvé.",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle fait référence au soulagement et au contentement mentionnés dans le texte et qu'elle propose des raisons pertinentes, textuelles ou personnelles, expliquant ce bonheur."
+          "pageReference": 5,
+          "questionText": "Selon toi, pourquoi la grand-mère a-t-elle bien fait d'accompagner son petit-fils à la course?",
+          "correctAnswer": "La grand-mère a bien fait d'accompagner son petit-fils à la course car cela lui a permis de partager un moment spécial avec lui, de lui montrer l'importance de relever des défis et de persévérer. De plus, cela a renforcé leur lien familial et a été une source de motivation pour tous les deux.",
+          "verification": "L'évaluation vérifiera si l'élève donne une opinion personnelle tout en utilisant des éléments du texte pour justifier pourquoi la présence de la grand-mère était bénéfique."
         }
       ]
     },
     {
-      "id": "A_Lecture_ArbrePapier",
-      "title": "Partie A: Lecture - De l'arbre au papier",
+      "id": "A_Lecture_AuxQuatreCoins",
+      "title": "Partie A: Lecture - Aux quatre coins de la province",
       "questions": [
         {
           "id": "A7",
           "type": "multipleChoice",
-          "pageReference": 9,
-          "questionText": "Pourquoi a-t-on écrit ce texte?",
+          "pageReference": 6,
+          "questionText": "On compare les diamants à un poing pour...",
           "options": [
-            "pour décrire le transport d'un arbre",
-            "pour expliquer la fabrication du papier",
-            "pour nous raconter l'histoire d'un arbre",
-            "pour nous encourager à utiliser le papier"
+            "ajouter de l'humour.",
+            "exagérer leur grosseur.",
+            "ajouter de l'expression.",
+            "expliquer leur signification."
           ],
           "correctAnswer": "b",
-          "verification": "Le texte décrit en détail les étapes par lesquelles le bois est transformé en papier (trempage, transformation en pâte, séchage, aplatissement) (paragraphes 2 et 3), expliquant ainsi le processus de sa 'fabrication'."
+          "verification": "La comparaison des diamants à un poing sert à exagérer leur grosseur, en utilisant une image visuelle pour souligner leur taille impressionnante."
         },
         {
           "id": "A8",
           "type": "multipleChoice",
-          "pageReference": 9,
-          "questionText": "Que signifie l'expression « de jeunes pousses » au 3ᵉ paragraphe?",
+          "pageReference": 6,
+          "questionText": "Dans ce texte, quel animal est associé aux histoires pour enfants?",
           "options": [
-            "Ce sont de petits sacs.",
-            "Ce sont de petits arbres.",
-            "Ce sont des fibres de bois.",
-            "Ce sont des feuilles de papier."
+            "l'ours",
+            "le loup",
+            "le lynx",
+            "l'orignal"
           ],
           "correctAnswer": "b",
-          "verification": "Le texte indique (paragraphe 3) que pour remplacer les arbres coupés, « on replante de jeunes pousses ». Une jeune pousse est une jeune plante, dans ce contexte, un petit arbre qui grandira."
+          "verification": "Le loup est associé aux histoires pour enfants, car le texte mentionne 'le loup, plus beau que celui de tes contes d'enfant'."
         },
         {
           "id": "A9",
           "type": "multipleChoice",
-          "pageReference": 9,
-          "questionText": "Que signifie l'expression « En assemblant »? (4ᵉ paragraphe)",
+          "pageReference": 6,
+          "questionText": "Pourquoi certaines rues de villes et de villages portent-elles le nom de leurs bâtisseurs?",
           "options": [
-            "ranger",
-            "colorer",
-            "dérouler",
-            "regrouper"
+            "pour indiquer la langue parlée",
+            "pour orienter les gens dans la ville",
+            "pour rappeler aux gens leur contribution",
+            "pour faire ressortir les endroits importants"
           ],
-          "correctAnswer": "d",
-          "verification": "Dans la phrase « En assemblant plusieurs feuilles de papier, on peut fabriquer du carton » (paragraphe 4), 'assembler' signifie mettre ensemble plusieurs éléments pour former un tout. 'Regrouper' est le synonyme le plus approprié pour cette action."
+          "correctAnswer": "c",
+          "verification": "Les rues portent le nom de leurs bâtisseurs pour rappeler aux gens leur contribution à la construction et au développement de la ville ou du village."
         },
         {
           "id": "A10",
           "type": "multipleChoice",
-          "pageReference": 9,
-          "questionText": "Quel sous-titre peut-on donner au 4ᵉ paragraphe?",
+          "pageReference": 6,
+          "questionText": "À quoi servent les lignes 44 à 46 dans ce poème?",
           "options": [
-            "L'utilisation du papier",
-            "Le recyclage du papier",
-            "La publication d'un livre",
-            "La fabrication d'une boîte"
+            "à reprendre les thèmes du poème",
+            "à énumérer les secrets de l'auteur",
+            "à mettre l'accent sur le mot « secret »",
+            "à ajouter un élément mystérieux à la fin du poème"
           ],
           "correctAnswer": "a",
-          "verification": "Le paragraphe 4 énumère les différentes applications du papier (cahiers, livres, journaux, sacs, papier bristol, carton pour boîtes, lecture, bricolage, écriture de lettres). Il décrit donc les diverses 'utilisations du papier'."
+          "verification": "Les lignes 44 à 46 servent à reprendre les thèmes du poème en résumant les différents 'secrets' évoqués tout au long du texte."
         },
         {
           "id": "A11",
           "type": "openEnded",
-          "pageReference": 10,
-          "questionText": "Explique pourquoi produire du papier prend beaucoup de temps.\nUtilise des exemples du texte pour appuyer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait expliquer que le processus de fabrication du papier implique plusieurs étapes qui prennent du temps (tremper le bois, le transformer en pâte, sécher, aplatir) (paragraphes 2 et 3). Elle pourrait aussi mentionner qu'il faut attendre plusieurs années pour que les jeunes arbres replantés deviennent assez grands (paragraphe 3).",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite correctement les étapes ou le temps de pousse mentionnés dans le texte comme raisons expliquant la durée du processus."
+          "pageReference": 6,
+          "questionText": "Comment sait-on que l'auteur connaît bien sa province?",
+          "correctAnswer": "On sait que l'auteur connaît bien sa province car il décrit avec précision et affection les grands espaces, les villes et villages, ainsi que les activités et les souvenirs qui s'y rattachent. Il mentionne des détails spécifiques comme les noms des villes, les animaux, les ressources naturelles et les activités quotidiennes, ce qui montre une connaissance approfondie et personnelle de la province.",
+          "verification": "L'évaluation vérifiera si l'élève utilise des détails du texte pour montrer que l'auteur a une connaissance approfondie de sa province."
         },
         {
           "id": "A12",
           "type": "openEnded",
-          "pageReference": 10,
-          "questionText": "Explique pourquoi on a raison de dire, à la fin de ce texte, que « les arbres sont utiles dans la vie de tous les jours ».\nUtilise des idées du texte et tes expériences personnelles pour expliquer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur le texte qui explique que les arbres fournissent le bois utilisé pour de nombreux objets (maisons, meubles, jouets) (paragraphe 1) et surtout pour fabriquer le papier, essentiel pour la lecture, l'écriture, le bricolage, etc. (paragraphe 4). Elle devrait intégrer l'idée que ces utilisations sont quotidiennes.",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les utilisations du bois/papier mentionnées dans le texte et qu'elle relie ces utilisations à la vie de tous les jours, potentiellement avec des exemples personnels."
+          "pageReference": 6,
+          "questionText": "Parmi les thèmes exploités dans ce poème, lequel préfères-tu? Utilise des renseignements du texte et tes propres idées pour appuyer ta réponse.",
+          "correctAnswer": "Réponse personnelle. Par exemple, un élève pourrait préférer le thème de la nature et des grands espaces car il apprécie la description des paysages et des animaux, et cela lui rappelle ses propres expériences en plein air.",
+          "verification": "L'évaluation vérifiera si l'élève exprime une préférence personnelle et utilise des éléments du texte pour justifier son choix."
         }
       ]
     },
@@ -164,88 +166,88 @@
         {
           "id": "A13",
           "type": "openEnded",
-          "pageReference": 11,
-          "questionText": "Écris un court texte au sujet de ton activité préférée.\nExplique pourquoi tu préfères cette activité.",
-          "correctAnswer": "Critères d'évaluation requis - L'évaluation porte sur la qualité de l'écriture : clarté de l'idée principale (activité préférée et raison), organisation du texte, choix des mots, variété des phrases, maîtrise des conventions linguistiques (orthographe, grammaire, ponctuation, accords).",
-          "verification": "L'évaluation requiert une analyse globale de la production écrite de l'élève selon les critères d'évaluation de l'écriture."
+          "pageReference": 7,
+          "questionText": "Rédige un court texte dans lequel tu expliques pourquoi il est important pour les jeunes d'avoir des responsabilités à la maison.",
+          "correctAnswer": "Il est important pour les jeunes d'avoir des responsabilités à la maison car cela leur apprend à être autonomes, à gérer leur temps et à contribuer au bien-être de la famille. Les responsabilités aident aussi à développer un sens des devoirs et de la discipline, qui sont essentiels pour réussir dans la vie. De plus, cela renforce les liens familiaux en montrant que chacun a un rôle à jouer.",
+          "verification": "L'évaluation vérifiera la structure du texte, la pertinence des arguments, l'utilisation d'exemples et la qualité de la langue écrite."
         }
       ]
     },
     {
-      "id": "B_Lecture_Batisseur",
-      "title": "Partie B: Lecture - Bâtisseur des terres humides",
+      "id": "B_Lecture_LaVieEnGroupe",
+      "title": "Partie B: Lecture - La vie en groupe",
       "questions": [
         {
-          "id": "B14",
+          "id": "B1",
           "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Quel élément aide à comprendre ce texte?",
+          "pageReference": 8,
+          "questionText": "Quel sous-titre peut-on donner au 1er paragraphe?",
           "options": [
-            "les paragraphes numérotés",
-            "les caractères gras dans le titre",
-            "les illustrations au sujet du castor",
-            "les différentes grosseurs de lettres"
-          ],
-          "correctAnswer": "c",
-          "verification": "Les illustrations (barrage, arbre coupé, hutte, castor nageant) qui accompagnent le texte (pages 14 et 15) correspondent aux descriptions et aident visuellement le lecteur à comprendre le sujet."
-        },
-        {
-          "id": "B15",
-          "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Qu'est-ce qu'on apprend au sujet des castors au 3ᵉ paragraphe?",
-          "options": [
-            "où les castors se déplacent",
-            "où les castors construisent les barrages",
-            "comment les castors vivent dans la nature",
-            "comment les castors bâtissent leurs habitats"
-          ],
-          "correctAnswer": "d",
-          "verification": "Le paragraphe 3 décrit comment les castors construisent leurs maisons ('huttes') en utilisant leurs dents pour couper des arbres et en assemblant des branches, des brindilles, de l'herbe et de la boue. Cela explique comment ils 'bâtissent leurs habitats'."
-        },
-        {
-          "id": "B16",
-          "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "Que signifie le mot « huttes » au 3ᵉ paragraphe?",
-          "options": [
-            "arbres",
-            "maisons",
-            "barrages",
-            "brindilles"
+            "L'âge des éléphants",
+            "La composition du troupeau",
+            "Le déplacement du troupeau",
+            "Les caractéristiques des femelles"
           ],
           "correctAnswer": "b",
-          "verification": "Le paragraphe 3 indique explicitement : « ils construisent leurs maisons, qu'on appelle des huttes ». Le mot 'huttes' est donc utilisé pour désigner leurs 'maisons'."
+          "verification": "Le sous-titre approprié pour le 1er paragraphe est 'La composition du troupeau' car il décrit les membres qui composent le groupe familial des éléphants."
         },
         {
-          "id": "B17",
+          "id": "B2",
           "type": "multipleChoice",
-          "pageReference": 16,
-          "questionText": "À quel mot se rapporte « sèche » au 4ᵉ paragraphe?",
+          "pageReference": 8,
+          "questionText": "Au 1er paragraphe, que signifie le mot « importants »?",
           "options": [
-            "hutte",
-            "pile",
-            "pièce",
-            "famille"
+            "grands",
+            "sérieux",
+            "spéciaux",
+            "intéressants"
           ],
-          "correctAnswer": "c",
-          "verification": "Dans la phrase « l'intérieur renferme une pièce confortable et sèche » (paragraphe 4), l'adjectif 'sèche' décrit l'état de la 'pièce' à l'intérieur de la hutte."
+          "correctAnswer": "a",
+          "verification": "Dans le contexte du 1er paragraphe, le mot 'importants' signifie 'grands', car il fait référence à la taille des troupeaux d'éléphants."
         },
         {
-          "id": "B18",
-          "type": "openEnded",
-          "pageReference": 17,
-          "questionText": "Explique pourquoi on dit dans ce texte que les castors sont « de bons bâtisseurs ».\nUtilise des exemples du texte pour appuyer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait citer des exemples tirés du texte qui montrent les capacités de construction des castors : ils construisent des barrages qui retiennent l'eau et créent des étangs (paragraphe 2), ils construisent leurs maisons (huttes) de manière solide avec divers matériaux (branches, boue, herbe) (paragraphe 3), ils utilisent leurs dents pour abattre des arbres (paragraphe 3).",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle cite correctement au moins un ou deux exemples de constructions ou techniques de construction des castors mentionnés dans les paragraphes 2, 3 et 4."
+          "id": "B3",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Quel groupe est rejeté par le troupeau?",
+          "options": [
+            "les tantes",
+            "les mâles",
+            "les femelles",
+            "les éléphanteaux"
+          ],
+          "correctAnswer": "b",
+          "verification": "Le groupe rejeté par le troupeau est celui des mâles, car le texte mentionne que les mâles sont chassés du troupeau vers l'âge de 10-12 ans."
         },
         {
-          "id": "B19",
+          "id": "B4",
+          "type": "multipleChoice",
+          "pageReference": 8,
+          "questionText": "Les illustrations de ce texte servent à montrer comment les éléphants...",
+          "options": [
+            "s'aiment.",
+            "s'entraident.",
+            "se déplacent.",
+            "se ressemblent."
+          ],
+          "correctAnswer": "b",
+          "verification": "Les illustrations de ce texte servent à montrer comment les éléphants s'entraident, en mettant en évidence les comportements de collaboration et de soutien au sein du troupeau."
+        },
+        {
+          "id": "B5",
           "type": "openEnded",
-          "pageReference": 17,
-          "questionText": "Explique pourquoi l'eau est importante pour les castors.\nUtilise des idées du texte et tes propres idées pour expliquer ta réponse.",
-          "correctAnswer": "Critères d'évaluation requis - La réponse de l'élève devrait se baser sur le texte pour expliquer que l'eau est essentielle car elle est retenue par le barrage pour créer l'étang profond où la hutte est construite (paragraphe 2), et que les entrées de la hutte sont cachées sous l'eau pour la sécurité (paragraphe 4). L'élève peut aussi ajouter, sur la base d'idées personnelles ou du titre, qu'ils vivent dans les 'terres humides'.",
-          "verification": "L'évaluation requiert une analyse de la réponse de l'élève, en vérifiant qu'elle s'appuie sur les fonctions de l'eau pour le castor telles que décrites dans le texte (habitat, sécurité) et qu'elle peut intégrer des connaissances générales ou déduites du texte."
+          "pageReference": 8,
+          "questionText": "Pourquoi la matriarche est-elle importante pour le troupeau? Utilise des renseignements du texte pour appuyer ta réponse.",
+          "correctAnswer": "La matriarche est importante pour le troupeau car elle guide les autres éléphants vers les ressources nécessaires à leur survie, comme les points d'eau et les pâturages. Grâce à sa mémoire et à son expérience, elle sait où trouver de la nourriture et de l'eau, même en période de sécheresse. De plus, elle protège le troupeau contre les dangers et prend des décisions cruciales pour la sécurité du groupe.",
+          "verification": "L'évaluation vérifiera si l'élève utilise des exemples du texte pour expliquer l'importance de la matriarche, comme sa capacité à guider et à protéger le troupeau."
+        },
+        {
+          "id": "B6",
+          "type": "openEnded",
+          "pageReference": 8,
+          "questionText": "Pour les éléphants, quels sont les avantages de vivre en groupe?",
+          "correctAnswer": "Pour les éléphants, vivre en groupe offre plusieurs avantages, comme une meilleure protection contre les prédateurs, une collaboration pour trouver de la nourriture et de l'eau, et un soutien mutuel en cas de danger ou de maladie. De plus, vivre en groupe permet aux éléphants de socialiser et de renforcer les liens familiaux, ce qui est essentiel pour leur bien-être émotionnel.",
+          "verification": "L'évaluation vérifiera si l'élève mentionne des avantages spécifiques de vivre en groupe pour les éléphants, comme la protection, la collaboration et le soutien mutuel."
         }
       ]
     }

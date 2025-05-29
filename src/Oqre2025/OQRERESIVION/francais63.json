@@ -1,0 +1,331 @@
+{
+    "testTitle": "Français 2 - 6e année - Printemps 2013",
+    "pdfPath": "/oqre/fr/Fr6-2013.pdf",
+    "sections": [
+      {
+        "id": "C_Lecture_Aviron",
+        "title": "Partie C: Lecture - C'est l'aviron qui nous mène...",
+        "questions": [
+          {
+            "id": "C1",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Qui propose de faire une course?",
+            "options": [
+              "Caleb",
+              "Moustafa",
+              "les canoteurs",
+              "les moniteurs"
+            ],
+            "correctAnswer": "a",
+            "verification": "Caleb propose de faire une course, comme indiqué dans le texte où il s'adresse à Abigail pour suggérer une course."
+          },
+          {
+            "id": "C2",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Que peut-on constater au sujet des moniteurs du camp?",
+            "options": [
+              "Ils sont des experts en canotage.",
+              "Ils ont plusieurs stratégies de course.",
+              "Ils acceptent les suggestions des enfants.",
+              "Ils maintiennent la discipline auprès des enfants."
+            ],
+            "correctAnswer": "c",
+            "verification": "Les moniteurs acceptent les suggestions des enfants, comme le montre leur acceptation de la proposition de Caleb de faire une course."
+          },
+          {
+            "id": "C3",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Quel est l'idée principale du 4ᵉ paragraphe?",
+            "options": [
+              "Caleb veut gagner la course.",
+              "Moustafa veut participer à la course.",
+              "Les enfants et les moniteurs aiment faire la course.",
+              "Les enfants et les moniteurs acceptent de faire la course."
+            ],
+            "correctAnswer": "d",
+            "verification": "L'idée principale du 4ᵉ paragraphe est que les enfants et les moniteurs acceptent de faire la course, comme indiqué par leur participation active et l'organisation de la course."
+          },
+          {
+            "id": "C4",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Que signifie le mot « pagaie»?",
+            "options": [
+              "un canot",
+              "une rame",
+              "une main",
+              "un rameur"
+            ],
+            "correctAnswer": "b",
+            "verification": "Le mot 'pagaie' signifie une rame, qui est l'outil utilisé pour propulser le canot."
+          },
+          {
+            "id": "C5",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Dans la phrase : «Pour l'instant, il a l'air d'être très, très loin», le pronom «il» remplace...",
+            "options": [
+              "Caleb.",
+              "l'instant.",
+              "au bout du lac.",
+              "le grand rocher."
+            ],
+            "correctAnswer": "d",
+            "verification": "Dans la phrase, le pronom 'il' remplace 'le grand rocher', qui est l'objet de la description de la distance."
+          },
+          {
+            "id": "C6",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Que signifie le mot «poursuivent»?",
+            "options": [
+              "pagayer",
+              "accélérer",
+              "continuer",
+              "accompagner"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le mot 'poursuivent' signifie continuer, indiquant que les canots continuent leur course."
+          },
+          {
+            "id": "C7",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Quel mot décrit le mieux comment les enfants se sentent au 9ᵉ paragraphe?",
+            "options": [
+              "déçus",
+              "calmes",
+              "épuisés",
+              "compétitifs"
+            ],
+            "correctAnswer": "c",
+            "verification": "Les enfants se sentent épuisés au 9ᵉ paragraphe, comme indiqué par leur état après la course intense."
+          },
+          {
+            "id": "C8",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "L'illustration au 9ᵉ paragraphe sert à montrer comment...",
+            "options": [
+              "le lac est grand.",
+              "la course est serrée.",
+              "les enfants chantent.",
+              "les enfants coopèrent."
+            ],
+            "correctAnswer": "b",
+            "verification": "L'illustration montre que la course est serrée, avec les deux canots très proches l'un de l'autre."
+          },
+          {
+            "id": "C9",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Les moniteurs arrêtent la course, car les enfants ont besoin...",
+            "options": [
+              "d'un match nul.",
+              "d'atteindre le rocher du lac.",
+              "de traverser le lac Winnipeg.",
+              "d'énergie pour rentrer au camp."
+            ],
+            "correctAnswer": "d",
+            "verification": "Les moniteurs arrêtent la course car les enfants ont besoin d'énergie pour rentrer au camp, comme expliqué dans le texte."
+          },
+          {
+            "id": "C10",
+            "type": "multipleChoice",
+            "pageReference": 5,
+            "questionText": "Quelle leçon Caleb tire-t-il de cette expérience?",
+            "options": [
+              "Il faut faire de son mieux.",
+              "Il faut conserver son énergie.",
+              "Il faut collaborer pour gagner.",
+              "Il faut réfléchir avant de parler."
+            ],
+            "correctAnswer": "d",
+            "verification": "Caleb tire la leçon qu'il faut réfléchir avant de parler, comme il le mentionne à la fin du texte."
+          },
+          {
+            "id": "C11",
+            "type": "openEnded",
+            "pageReference": 5,
+            "questionText": "Selon le texte, pourquoi Caleb fait-il des comparaisons avec les Voyageurs pendant la course?",
+            "correctAnswer": "Caleb fait des comparaisons avec les Voyageurs pendant la course car il se souvient de l'histoire des courses de canots des Voyageurs, qui est similaire à leur propre expérience de course intense et prolongée.",
+            "verification": "L'évaluation vérifiera si l'élève utilise des exemples du texte pour expliquer pourquoi Caleb compare leur course à celle des Voyageurs."
+          },
+          {
+            "id": "C12",
+            "type": "openEnded",
+            "pageReference": 5,
+            "questionText": "Aimerais-tu participer à une course comme celle de Caleb? Justifie ta réponse à l'aide des renseignements du texte et de tes propres idées.",
+            "correctAnswer": "Réponse personnelle. Par exemple, un élève pourrait dire qu'il aimerait participer à une course comme celle de Caleb car cela semble être une expérience excitante et collaborative, tout en reconnaissant que cela demande beaucoup d'efforts physiques.",
+            "verification": "L'évaluation vérifiera si l'élève exprime une opinion personnelle et utilise des éléments du texte pour justifier sa réponse."
+          }
+        ]
+      },
+      {
+        "id": "C_Ecriture",
+        "title": "Partie C: Écriture",
+        "questions": [
+          {
+            "id": "C13",
+            "type": "openEnded",
+            "pageReference": 6,
+            "questionText": "Devrait-on remplacer les manuels scolaires par des ordinateurs portables? Écris un court texte à la direction de ton école pour exprimer ton opinion.",
+            "correctAnswer": "Réponse personnelle. Par exemple, un élève pourrait écrire qu'il pense que les ordinateurs portables devraient remplacer les manuels scolaires car ils offrent un accès à une multitude de ressources en ligne et permettent des mises à jour instantanées, tout en reconnaissant que cela pourrait poser des défis pour certains élèves.",
+            "verification": "L'évaluation vérifiera la structure du texte, la pertinence des arguments, l'utilisation d'exemples et la qualité de la langue écrite."
+          }
+        ]
+      },
+      {
+        "id": "D_Lecture_ActivitesPhysiques",
+        "title": "Partie D: Lecture - À toi de choisir!",
+        "questions": [
+          {
+            "id": "D1",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "D'après les tableaux, quel est le meilleur sport pour le corps au complet?",
+            "options": [
+              "la danse",
+              "la natation",
+              "le ski alpin",
+              "le ballon chasseur"
+            ],
+            "correctAnswer": "b",
+            "verification": "La natation est le meilleur sport pour le corps au complet, car elle implique une dépense énergétique élevée et un entraînement à la fois musculaire et cardiovasculaire."
+          },
+          {
+            "id": "D2",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "Que remplace le mot « il » dans la phrase : «Il en brûle évidemment beaucoup plus lorsqu'il bouge »?",
+            "options": [
+              "énergie",
+              "repos",
+              "corps",
+              "narrateur"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le mot 'il' remplace 'corps', car c'est le corps qui brûle de l'énergie."
+          },
+          {
+            "id": "D3",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "Parmi les sports énumérés dans les bulles au paragraphe «Dépense énergétique ou intensité », lequel est excellent pour les muscles et pour la souplesse?",
+            "options": [
+              "le volleyball",
+              "les acrobaties",
+              "la musculation",
+              "les contorsions"
+            ],
+            "correctAnswer": "b",
+            "verification": "Les acrobaties sont excellentes pour les muscles et pour la souplesse, car elles impliquent des mouvements variés et flexibles."
+          },
+          {
+            "id": "D4",
+            "type": "multipleChoice",
+            "pageReference": 7,
+            "questionText": "Les sous-titres dans les bulles réfèrent...",
+            "options": [
+              "à l'intensité.",
+              "au type d'entraînement.",
+              "à la dépense énergétique.",
+              "aux activités quotidiennes."
+            ],
+            "correctAnswer": "b",
+            "verification": "Les sous-titres dans les bulles réfèrent au type d'entraînement, comme indiqué par les catégories d'activités mentionnées."
+          },
+          {
+            "id": "D5",
+            "type": "openEnded",
+            "pageReference": 7,
+            "questionText": "Explique pourquoi l'intensité requise pour le ballon chasseur et le patinage est différente alors que la dépense énergétique est la même? Utilise les renseignements du texte pour expliquer ta réponse.",
+            "correctAnswer": "L'intensité requise pour le ballon chasseur et le patinage est différente car le ballon chasseur est une activité d'intensité élevée avec des pauses fréquentes, tandis que le patinage est une activité d'intensité modérée à élevée avec des pauses moins fréquentes. La dépense énergétique est la même car les deux activités brûlent la même quantité d'énergie, mais la manière dont cette énergie est dépensée diffère.",
+            "verification": "L'évaluation vérifiera si l'élève utilise des exemples du texte pour expliquer la différence d'intensité entre le ballon chasseur et le patinage."
+          },
+          {
+            "id": "D6",
+            "type": "openEnded",
+            "pageReference": 7,
+            "questionText": "Explique pourquoi les tableaux et les bulles de ce texte pourraient t'aider à choisir des activités pour rester en forme.",
+            "correctAnswer": "Les tableaux et les bulles de ce texte pourraient aider à choisir des activités pour rester en forme car ils fournissent des informations sur l'intensité, la dépense énergétique et le type d'entraînement de chaque activité, permettant de faire des choix éclairés en fonction de ses préférences et de ses besoins physiques.",
+            "verification": "L'évaluation vérifiera si l'élève explique comment les tableaux et les bulles aident à choisir des activités en fonction des informations fournies."
+          },
+          {
+            "id": "D7",
+            "type": "openEnded",
+            "pageReference": 7,
+            "questionText": "En t'inspirant de l'illustration, écris un récit pour raconter ce qui s'est passé dans la grotte que tes camarades et toi avez découverte.",
+            "correctAnswer": "Réponse personnelle. Par exemple, un élève pourrait écrire un récit sur la découverte d'une grotte mystérieuse où ils trouvent des artefacts anciens et vivent une aventure excitante.",
+            "verification": "L'évaluation vérifiera la structure narrative, la créativité, l'organisation du texte et la qualité de la langue écrite."
+          }
+        ]
+      },
+      {
+        "id": "D_Ecriture",
+        "title": "Partie D: Écriture",
+        "questions": [
+          {
+            "id": "D8",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Choisis la meilleure phrase de conclusion pour ce paragraphe. Marie-Ève se rend chez sa dentiste. Cette dernière lui examine les dents et les nettoie à l'aide de différents appareils. La dentiste lui explique comment prévenir les caries.",
+            "options": [
+              "Elle ouvre son bureau à dix heures.",
+              "Son frère la conduit chez la dentiste.",
+              "Elle lui remet des produits dentaires.",
+              "Marie-Ève oublie souvent de se brosser les dents."
+            ],
+            "correctAnswer": "c",
+            "verification": "La meilleure phrase de conclusion est 'Elle lui remet des produits dentaires', car cela suit logiquement l'explication sur la prévention des caries."
+          },
+          {
+            "id": "D9",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Quelle phrase combine le mieux les deux énoncés ci-dessous? Joey prépare le repas. Il veut faire une surprise à sa famille.",
+            "options": [
+              "Joey prépare le repas, mais il veut faire une surprise à sa famille.",
+              "Joey prépare le repas puisqu'il veut faire une surprise à sa famille.",
+              "Joey prépare le repas, de plus il veut faire une surprise à sa famille.",
+              "Joey prépare le repas pourtant il veut faire une surprise à sa famille."
+            ],
+            "correctAnswer": "b",
+            "verification": "La phrase 'Joey prépare le repas puisqu'il veut faire une surprise à sa famille' combine le mieux les deux énoncés, car elle exprime une relation de cause à effet."
+          },
+          {
+            "id": "D10",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Choisis la bonne réponse. Pour remercier Alex de sa générosité, ses amis lui disent qu'il a...",
+            "options": [
+              "le cour net",
+              "le cour gros",
+              "un cour léger",
+              "un grand cour"
+            ],
+            "correctAnswer": "d",
+            "verification": "La bonne réponse est 'un grand cour', car cela exprime la générosité d'Alex."
+          },
+          {
+            "id": "D11",
+            "type": "multipleChoice",
+            "pageReference": 8,
+            "questionText": "Choisis le meilleur endroit pour insérer la phrase ci-dessous. Cuire la crêpe des deux côtés.",
+            "options": [
+              "après la phrase 2",
+              "après la phrase 3",
+              "après la phrase 4",
+              "après la phrase 5"
+            ],
+            "correctAnswer": "c",
+            "verification": "La phrase 'Cuire la crêpe des deux côtés' devrait être insérée après la phrase 4, car cela suit logiquement l'étape de verser la pâte dans la poêle chaude."
+          }
+        ]
+      }
+    ]
+  }
+  

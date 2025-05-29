@@ -23,6 +23,7 @@ function SelectionTest() {
 
                 <Tabs
                     value={selectedTab}
+                    
                     onChange={handleChange}
                     centered
                     variant="fullWidth"
