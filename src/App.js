@@ -78,6 +78,7 @@ import AppDicte from './Pages/appdicte.jsx';
 //import DictationPage from './Pages/VIDEO/video_dictée.jsx';
 import ComponentLoade from"./Pages/Francais/1eanné/GAME/Exercice1eannée/ComponentLoader.jsx"
 import SelectionTest from './Oqre2025/OQRERESIVION/SelectionTest.jsx';
+//import Quiz from './Test/ToutType/Quiz.jsx';
 
 const App = () => {
   return (

@@ -1,0 +1,323 @@
+{
+    "titre": "Evaluation en santé et vie saine - Juin 2025",
+    "sections": [
+      {
+        "sectionOrder": 1,
+        "sectionTitle": "Partie I: L'importance de l'alimentation, indices de la faim et de la soif.",
+        "exercices": [
+          {
+            "exerciseOrder": 1,
+            "exerciseTitle": "Exercice 1: Vrai ou faux?",
+            "type": "vrai_faux",
+            "questions": [
+              {
+                "question": "Manger des fruits et des légumes aide mon corps à grandir en santé.",
+                "answer": "vrai"
+              },
+              {
+                "question": "Manger seulement des fruits peut donner à mon corps tout ce dont il a besoin.",
+                "answer": "faux"
+              },
+              {
+                "question": "Je peux sauter le petit déjeuner tous les jours si je ne suis pas trop fatigué.",
+                "answer": "faux"
+              },
+              {
+                "question": "Manger trop souvent des aliments sucrés peut rendre mes dents moins fortes.",
+                "answer": "vrai"
+              },
+              {
+                "question": "Mon cerveau a besoin de bonne nourriture pour bien apprendre.",
+                "answer": "vrai"
+              },
+              {
+                "question": "Le chocolat est la seule chose que je dois manger pour rester en bonne santé.",
+                "answer": "faux"
+              },
+              {
+                "question": "Les aliments sains aident mes os, mes dents et ma peau à rester forts.",
+                "answer": "vrai"
+              },
+              {
+                "question": "Un repas équilibré contient des aliments de différents groupes.",
+                "answer": "vrai"
+              },
+              {
+                "question": "Si un aliment a un bon goût, ça veut dire qu'il est bon pour la santé.",
+                "answer": "faux"
+              },
+              {
+                "question": "Une bonne alimentation aide aussi à mieux dormir et à se sentir calme.",
+                "answer": "vrai"
+              }
+            ]
+          },
+          {
+            "exerciseOrder": 2,
+            "exerciseTitle": "Exercice 2: Lis chaque phrase et entoure si c'est un signe de faim, de soif, ou de rassasiement.",
+            "type": "choix_unique",
+            "questions": [
+              {
+                "question": "Ma bouche est très sèche et j'ai mal à la tête.",
+                "options": ["Faim", "Soif", "Rassasiement"],
+                "answer": "Soif"
+              },
+              {
+                "question": "J'ai mangé et maintenant j'ai plus d'énergie pour jouer.",
+                "options": ["Faim", "Soif", "Rassasiement"],
+                "answer": "Rassasiement"
+              },
+              {
+                "question": "Mon ventre gargouille et j'ai du mal à me concentrer.",
+                "options": ["Faim", "Soif", "Rassasiement"],
+                "answer": "Faim"
+              },
+              {
+                "question": "Je me sens fatigué et je deviens grognon.",
+                "options": ["Faim", "Soif", "Rassasiement"],
+                "answer": "Faim"
+              },
+              {
+                "question": "Je n'ai plus faim et mon ventre est bien rempli.",
+                "options": ["Faim", "Soif", "Rassasiement"],
+                "answer": "Rassasiement"
+              },
+              {
+                "question": "J'ai la bouche sèche après avoir couru dehors.",
+                "options": ["Faim", "Soif", "Rassasiement"],
+                "answer": "Soif"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionOrder": 2,
+        "sectionTitle": "Partie II: Le guide alimentaire canadien",
+        "exercices": [
+          {
+            "exerciseOrder": 1,
+            "exerciseTitle": "Exercice 1: Entoure les images qui font partie d'une alimentation saine.",
+            "type": "choix_multiple",
+            "questions": [
+              {
+                "question": "Quels éléments font partie d'une alimentation saine ?",
+                "options": [
+                  "Eau",
+                  "Jus gazeux",
+                  "Légumes (brocolis, carottes...)",
+                  "Frites",
+                  "Fruits (banane, pomme...)",
+                  "Lait au chocolat",
+                  "Pain de blé entier",
+                  "Bonbons",
+                  "Poisson",
+                  "Boisson énergisante"
+                ],
+                "answer": [
+                  "Eau",
+                  "Légumes (brocolis, carottes...)",
+                  "Fruits (banane, pomme...)",
+                  "Pain de blé entier",
+                  "Poisson"
+                ]
+              }
+            ]
+          },
+          {
+            "exerciseOrder": 21,
+            "exerciseTitle": "Exercice 2: Classe les aliments (Partie 1/5)",
+            "type": "association",
+            "questions": [
+              {
+                "question": "Associe chaque aliment au bon groupe alimentaire (Partie 1/5).",
+                "pairs": [
+                  { "left": "Pomme", "right": "Légumes et fruits" },
+                  { "left": "riz", "right": "Grains entiers" },
+                  { "left": "oeuf", "right": "Protéines" }
+                ]
+              }
+            ]
+          },
+           {
+            "exerciseOrder": 22,
+            "exerciseTitle": "Exercice 2: Classe les aliments (Partie 2/5)",
+            "type": "association",
+            "questions": [
+              {
+                "question": "Associe chaque aliment au bon groupe alimentaire (Partie 2/5).",
+                "pairs": [
+                  { "left": "carotte", "right": "Légumes et fruits" },
+                  { "left": "pain", "right": "Grains entiers" },
+                  { "left": "lentilles", "right": "Protéines" }
+                ]
+              }
+            ]
+          },
+           {
+            "exerciseOrder": 23,
+            "exerciseTitle": "Exercice 2: Classe les aliments (Partie 3/5)",
+            "type": "association",
+            "questions": [
+              {
+                "question": "Associe chaque aliment au bon groupe alimentaire (Partie 3/5).",
+                "pairs": [
+                  { "left": "fraise", "right": "Légumes et fruits" },
+                  { "left": "poisson", "right": "Protéines" },
+                  { "left": "brocoli", "right": "Légumes et fruits" }
+                ]
+              }
+            ]
+          },
+           {
+            "exerciseOrder": 24,
+            "exerciseTitle": "Exercice 2: Classe les aliments (Partie 4/5)",
+            "type": "association",
+            "questions": [
+              {
+                "question": "Associe chaque aliment au bon groupe alimentaire (Partie 4/5).",
+                "pairs": [
+                  { "left": "haricots noirs", "right": "Protéines" },
+                  { "left": "pâtes", "right": "Grains entiers" },
+                  { "left": "poulet", "right": "Protéines" }
+                ]
+              }
+            ]
+          },
+           {
+            "exerciseOrder": 25,
+            "exerciseTitle": "Exercice 2: Classe les aliments (Partie 5/5)",
+            "type": "association",
+            "questions": [
+              {
+                "question": "Associe chaque aliment au bon groupe alimentaire (Partie 5/5).",
+                "pairs": [
+                  { "left": "poivron", "right": "Légumes et fruits" },
+                  { "left": "avoine", "right": "Grains entiers" }
+                ]
+              }
+            ]
+          },
+          {
+            "exerciseOrder": 30,
+            "exerciseTitle": "Exercice 3: Dessine ton repas santé préféré...",
+            "type": "drawing",
+             "questions": [
+                 {
+                     "question": "Dessine ton repas santé préféré selon le Guide alimentaire canadien."
+                 }
+             ]
+          },
+          {
+            "exerciseOrder": 40,
+            "exerciseTitle": "Exercice 4: Entoure si les aliments suivants conviennent mieux pour un repas ou une collation.",
+            "type": "choix_unique",
+            "questions": [
+              {
+                "question": "Un petit bol de yogourt avec fruits (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Collation"
+              },
+              {
+                "question": "Un sandwich au poulet, légumes et pain complet (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Repas"
+              },
+              {
+                "question": "Une pomme et quelques noix (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Collation"
+              },
+              {
+                "question": "Une tranche de pizza aux légumes avec salade (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Repas"
+              },
+              {
+                "question": "Un bol de soupe aux lentilles avec du pain (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Repas"
+              },
+              {
+                "question": "Une banane et quelques bâtonnets de fromage (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Collation"
+              },
+              {
+                "question": "Céréales avec lait et tranches de banane (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Repas"
+              },
+              {
+                "question": "Un œuf dur avec des crudités (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Collation"
+              },
+              {
+                "question": "Du riz, du poulet et des haricots verts (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Repas"
+              },
+              {
+                "question": "Un petit muffin maison aux carottes (Repas ou Collation ?)",
+                "options": ["Repas", "Collation"],
+                "answer": "Collation"
+              }
+            ]
+          },
+          {
+            "exerciseOrder": 50,
+            "exerciseTitle": "Exercice 5: Lis chaque situation et choisis l'option adaptée.",
+            "type": "choix_unique",
+            "questions": [
+              {
+                 "question": "Sami est allergique aux noix. Quelle collation serait un bon choix pour lui?",
+                 "options": ["Barre aux noix", "Compote de pommes", "Amandes"],
+                 "answer": "Compote de pommes"
+              },
+              {
+                 "question": "Amina mange halal. Quel aliment pourrait-elle choisir au restaurant?",
+                 "options": ["Sandwich au jambon", "Poulet grillé végétarien", "Bœuf non halal"],
+                 "answer": "Poulet grillé végétarien"
+              },
+              {
+                 "question": "Clara est diabétique et ne peut pas manger trop de sucre. Quelle collation est un bon choix?",
+                 "options": ["Jus de raisin sucré", "Carottes et houmous", "Bonbons"],
+                 "answer": "Carottes et houmous"
+              },
+              {
+                 "question": "Mathéo a besoin d'énergie pour jouer au soccer après l'école. Que devrait-il manger?",
+                 "options": ["Croustilles", "Pain complet avec fromage et fruit", "Rien"],
+                 "answer": "Pain complet avec fromage et fruit"
+              },
+              {
+                 "question": "Julien doit déjeuner avant d'aller à l'école. Il a besoin d'énergie pour bien apprendre.",
+                 "options": ["Céréales sucrées avec bonbons", "Pain complet avec œuf et fruit", "Chips au fromage"],
+                 "answer": "Pain complet avec œuf et fruit"
+              },
+              {
+                 "question": "Malik est allergique aux produits laitiers. Quelle collation peut-il choisir?",
+                 "options": ["Yogourt aux fraises", "Lait de soya et fruits", "Fromage et craquelins"],
+                 "answer": "Lait de soya et fruits"
+              },
+              {
+                 "question": "À l'école, Clara n'a pas de réfrigérateur. Que peut-elle apporter pour le dîner?",
+                 "options": ["Salade froide avec œuf et craquelins", "Lait et viande cru", "Glace à la crème"],
+                 "answer": "Salade froide avec œuf et craquelins"
+              },
+              {
+                 "question": "Zoe va au restaurant avec sa famille. Elle veut faire un bon choix pour sa santé.",
+                 "options": ["Légumes sautés avec riz brun", "Frites et boisson gazeuse", "Croquettes et crème glacée"],
+                 "answer": "Légumes sautés avec riz brun"
+              },
+              {
+                 "question": "Louis mange végétarien. Il veut une collation riche en protéines.",
+                 "options": ["Amandes et pomme", "Jambon et fromage", "Chips"],
+                 "answer": "Amandes et pomme"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

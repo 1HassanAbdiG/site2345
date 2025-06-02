@@ -3,6 +3,7 @@ import { Box, Tabs, Tab, Typography, Paper } from '@mui/material';
 import TestEnLigne from './Ressources';
 import Oqrerevision from './Oqrerevision2';
 import TextEditorSelectionModify from "../tex"
+import OqreMuiViewer from '../oqre1';
 
 function SelectionTest() {
     const [selectedTab, setSelectedTab] = useState(0);
@@ -40,6 +41,7 @@ function SelectionTest() {
                     {selectedTab === 1 && <Oqrerevision />}
                 
                 </Box>
+                <OqreMuiViewer></OqreMuiViewer>
                 <TextEditorSelectionModify></TextEditorSelectionModify>
             </Paper>
         </Box>

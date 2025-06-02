@@ -7,8 +7,8 @@ export const config = {
   export const docConfig = {
     "3e": {
       "Français": {
-        "pdf": "/oqre/fr/OQRE3_Oiseau.pdf", // Path relative to public folder
-        "googleForm": "https://forms.gle/DBA9Fe56Z7c8GJSF6"
+        "pdf": "/oqre/fr/chaise3e.pdf", // Path relative to public folder
+        "googleForm": "https://forms.gle/ofisQL3XSsrNEm568"
       },
       "Maths": {
         "pdf": "/oqre/Math/MATHS32015.pdf", // Path relative to public folder
@@ -19,13 +19,13 @@ export const config = {
     "6e": {
       // --- Add configuration for 6e here ---
       "Français": {
-          "pdf": "/oqre/fr/6oqre.pdf", // Replace with actual 6e French PDF path
+          "pdf": "/oqre/fr/pieuvre.pdf", // Replace with actual 6e French PDF path
           //"googleForm": "https://docs.google.com/forms/d/e/1FAIpQLSdKfTEn_SxRaVjJ_7GqXVdycdR3_5jVjmwBB3mFERKXhxWM6A/viewform"
-          "googleForm": "https://forms.gle/DU2hK6vQiPdNaZMm6"
+          "googleForm": "https://forms.gle/gQ6nnuLpeqq4trjK6"
         },
         "Maths": {
-          "pdf": "/oqre/Math/MATHS62015.pdf", // Replace with actual 6e Maths PDF path
-          "googleForm": "https://forms.gle/KMjidtq39CVezqtS7"
+          "pdf": "", // Replace with actual 6e Maths PDF path
+          "googleForm": "https://forms.gle/rttkHeyygVtz4AZ98"
         }
     }
   };
