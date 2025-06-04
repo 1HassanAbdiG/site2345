@@ -1,0 +1,247 @@
+{
+  "text": {
+    "title": "CHOISIR UN BON LIVRE",
+    "url": "/imag/livre.jpg",
+    "content": [
+      "Il existe plusieurs sortes de livres dans le monde. Ils se divisent en deux catégories. Il y a les récits de fiction et les récits non fictifs. Les deux genres deviennent parfois des films ou des jeux, s'ils sont très populaires.",
+      "<br />",
+      "Les récits de fiction s'inspirent de l'imaginaire des auteurs. Les personnages et les évènements ne sont pas réels. On trouve les récits de fiction en abondance dans les librairies et les bibliothèques. On peut même les trouver sur les tablettes des magasins de jeux ou de bandes dessinées. Souvent, la science-fiction est un mélange de deux ou trois genres littéraires, comme la science, le fantastique et les grands classiques. Le genre littéraire le plus populaire chez les jeunes est probablement le fantastique. Tout ce qui traite de magie et de sorcellerie, d'engins spatiaux et d'extraterrestres, ou de superhéros et de voyage dans le temps fait partie de cette catégorie.",
+      "<br />",
+      "Plusieurs différentes sortes de récits non fictifs sont vendus sur le marché. Ils parlent de faits vécus, de personnages réels, d'évènements réels et de lieux réels. La plupart du temps, ces histoires vraies sont écrites par des personnes qui ont vécu ou qui ont été témoins d'un évènement. Les histoires qui racontent des faits vécus sont aussi écrites par des auteurs et sont publiées dans les livres et les journaux.",
+      "<br />",
+      "Plus il y a de livres écrits et publiés à travers le monde, plus il est difficile de faire un choix parmi la sélection offerte. Même si lire est une excellente habitude, choisir le bon livre est aussi un geste important. En tant que lecteur, nous avons la responsabilité d'apprendre à bien choisir nos livres."
+    ]
+  },
+  "questions": [
+    {
+      "type": "trueFalse",
+      "question": "Il n'existe qu'une seule catégorie de livres.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les récits de fiction racontent des histoires vraies.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Le genre fantastique est souvent apprécié des jeunes lecteurs.",
+      "correctAnswer": true
+    },
+    {
+      "type": "trueFalse",
+      "question": "Les récits non fictifs sont basés sur l'imagination des auteurs.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Choisir un livre est toujours facile selon le texte.",
+      "correctAnswer": false
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quelles sont les deux principales catégories de livres mentionnées dans le texte ?",
+      "choices": [
+        "Romans et Poèmes",
+        "Récits de fiction et récits non fictifs",
+        "Science-fiction et Fantastique",
+        "Biographies et Documentaires"
+      ],
+      "correctAnswer": "Récits de fiction et récits non fictifs"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "De quoi s'inspirent les récits de fiction ?",
+      "choices": [
+        "De faits historiques précis",
+        "De l'imaginaire des auteurs",
+        "D'articles de journaux uniquement",
+        "Des lois scientifiques"
+      ],
+      "correctAnswer": "De l'imaginaire des auteurs"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quel genre littéraire est décrit comme un mélange de science, de fantastique et de grands classiques ?",
+      "choices": [
+        "Le roman policier",
+        "La biographie",
+        "La science-fiction",
+        "L'autobiographie"
+      ],
+      "correctAnswer": "La science-fiction"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qui écrit le plus souvent les récits non fictifs basés sur des faits vécus ?",
+      "choices": [
+        "Des auteurs de science-fiction",
+        "Des personnes qui ont vécu ou été témoins de l'évènement",
+        "Des critiques littéraires",
+        "Des historiens spécialisés dans la fiction"
+      ],
+      "correctAnswer": "Des personnes qui ont vécu ou été témoins de l'évènement"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Quelle est la responsabilité du lecteur mentionnée à la fin du texte ?",
+      "choices": [
+        "Lire tous les livres publiés",
+        "Écrire des critiques de livres",
+        "Apprendre à bien choisir ses livres",
+        "Acheter des livres uniquement en librairie"
+      ],
+      "correctAnswer": "Apprendre à bien choisir ses livres"
+    },
+    {
+      "type": "inference",
+      "question": "Pourquoi pensez-vous que les récits de fiction sont souvent adaptés en films ou en jeux ?",
+      "correctAnswer": "Les récits de fiction sont souvent adaptés en films ou en jeux parce qu'ils captivent l'imaginaire avec des personnages et des événements qui peuvent être visuellement et émotionnellement engageants, ce qui les rend attrayants pour d'autres formes de médias."
+    },
+    {
+      "type": "reaction",
+      "question": "Si vous deviez recommander un livre à un ami qui aime les récits de science-fiction, que lui diriez-vous pour justifier votre choix ?",
+      "correctAnswer": "Je lui dirais que ce livre est captivant car il mélange habilement des éléments de science, de fantastique et des grands classiques, ce qui en fait une lecture riche et variée qui stimule l'imagination et offre une évasion dans des mondes extraordinaires."
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Un 'récit' est toujours court et comique.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'L'imaginaire' fait référence à des choses qui existent réellement.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Le mot 'abondance' signifie qu'il y en a très peu.",
+      "correctAnswer": false
+    }
+  ],
+  "vocabularyQCM": [
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie l'expression 'faits vécus' ?",
+      "choices": [
+        "Des événements imaginaires",
+        "Des expériences réelles",
+        "Des théories scientifiques",
+        "Des rêves"
+      ],
+      "correctAnswer": "Des expériences réelles"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Dans le texte, que veut dire 'un genre littéraire' ?",
+      "choices": [
+        "Le style d'écriture d'un auteur",
+        "La couverture d'un livre",
+        "Une catégorie de livres partageant des caractéristiques communes",
+        "Le nombre de pages d'un livre"
+      ],
+      "correctAnswer": "Une catégorie de livres partageant des caractéristiques communes"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qu'une 'librairie' ?",
+      "choices": [
+        "Un endroit où on emprunte des livres gratuitement",
+        "Un magasin où on achète des livres",
+        "Une collection privée de livres",
+        "Un éditeur de livres"
+      ],
+      "correctAnswer": "Un magasin où on achète des livres"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'être témoin' d'un événement ?",
+      "choices": [
+        "Avoir lu l'événement dans un journal",
+        "Avoir vu ou entendu l'événement se produire",
+        "Avoir imaginé l'événement",
+        "Avoir écrit sur l'événement sans le connaître"
+      ],
+      "correctAnswer": "Avoir vu ou entendu l'événement se produire"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Que signifie 'la sélection offerte' ?",
+      "choices": [
+        "Les livres gratuits",
+        "L'ensemble des choix disponibles",
+        "Les livres les moins chers",
+        "Seulement les nouveautés"
+      ],
+      "correctAnswer": "L'ensemble des choix disponibles"
+    }
+  ],
+  "vocabularyTrueFalse": [
+    {
+      "type": "trueFalse",
+      "question": "Si quelque chose est 'populaire', cela signifie que peu de gens l'apprécient.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "'Les personnages' d'un récit de fiction sont toujours des personnes réelles.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Une 'habitude' est quelque chose que l'on fait rarement.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Le mot 'sorcellerie' se rapporte à la science.",
+      "correctAnswer": false
+    },
+    {
+      "type": "trueFalse",
+      "question": "Un 'auteur' est une personne qui écrit des livres.",
+      "correctAnswer": true
+    }
+  ],
+  "shortAnswer": [
+    {
+      "type": "shortAnswer",
+      "question": "Quelles sont les deux grandes catégories de livres décrites dans le texte ?",
+      "correctAnswer": "Les deux grandes catégories de livres décrites dans le texte sont les récits de fiction et les récits non fictifs."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Nommez deux exemples de thèmes que l'on peut trouver dans le genre fantastique.",
+      "correctAnswer": "Deux exemples de thèmes que l'on peut trouver dans le genre fantastique sont la magie et les sorciers, et les voyages dans le temps."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Qu'est-ce qui caractérise un récit non fictif ?",
+      "correctAnswer": "Un récit non fictif est caractérisé par le fait qu'il parle de faits vécus, de personnages réels, d'événements réels et de lieux réels."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Pourquoi est-il devenu difficile de choisir un livre ?",
+      "correctAnswer": "Il est devenu difficile de choisir un livre parce qu'il y a de plus en plus de livres écrits et publiés à travers le monde, ce qui offre une très grande sélection."
+    },
+    {
+      "type": "shortAnswer",
+      "question": "Quelle est l'importance de bien choisir ses livres, selon le texte ?",
+      "correctAnswer": "Bien choisir ses livres est important car cela fait partie de la responsabilité du lecteur d'apprendre à sélectionner des livres qui lui conviennent et qui enrichissent son expérience de lecture."
+    }
+  ],
+  "plan": {
+    "inference": [
+      "Lire attentivement le texte pour comprendre les caractéristiques des récits de fiction.",
+      "Réfléchir aux raisons pour lesquelles ces caractéristiques pourraient être attrayantes pour d'autres formes de médias.",
+      "Formuler une réponse qui explique comment les éléments des récits de fiction peuvent être adaptés visuellement et émotionnellement."
+    ],
+    "reaction": [
+      "Identifier les éléments clés qui rendent un livre de science-fiction attrayant.",
+      "Penser aux préférences de votre ami et à ce qui pourrait lui plaire dans ce genre.",
+      "Formuler une recommandation qui met en avant les points forts du livre et explique pourquoi il serait un bon choix pour votre ami."
+    ]
+  }
+}

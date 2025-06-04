@@ -1,0 +1,170 @@
+{
+    "text": {
+      "title": "Les requins",
+      "content": [
+        "Un requin a beaucoup plus de dents que toi. Certains requins ont des centaines de dents. Ils perdent aussi plus de dents que toi. En fait, les requins perdent leurs dents tout le temps. Touche tes dents. Elles sont bien fixées à ta mâchoire. Quand une chose est fixée fermement, elle ne bouge pas. Elle est fixe. Les dents du requin ne sont pas fixées fermement.",
+        "Perdre une dent ne dérange pas le requin. Pourquoi ? Les requins ont beaucoup de nouvelles dents. Les nouvelles dents sont dans les mâchoires. Les nouvelles dents sortent rapidement. À quelle vitesse ? Certaines dents ne prennent que 24 heures à pousser. Un requin peut avoir des nouvelles dents en un seul jour !",
+        "Dès leur naissance, la plupart des requins sont prêts à chasser. Le requin dormeur a de 20 à 30 bébés à la fois. À leur naissance, les bébés des requins dormeurs mesurent environ 30 centimètres. Les bébés du grand requin blanc sont plus gros. Certains mesurent 137 centimètres !",
+        "D'autres requins naissent à partir d'œufs. Les œufs ne sont pas durs. Ces œufs sont épais et caoutchouteux. Les œufs épais et caoutchouteux protègent les bébés à l'intérieur. La plupart des œufs ont des cordes. Les cordes s'accrochent à des algues ou à du corail. Ils empêchent les œufs de partir à la dérive."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Les requins perdent leurs dents régulièrement.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les dents du requin sont solidement fixées à sa mâchoire.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un requin peut avoir une nouvelle dent en une journée.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Tous les requins pondent des œufs.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les bébés du grand requin blanc sont plus petits que ceux du requin dormeur.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Cette histoire parle surtout :",
+        "choices": ["d’œufs.", "de chiots.", "de dents.", "de requins."],
+        "correctAnswer": "de requins."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi les œufs de requins sont-ils épais et caoutchouteux ?",
+        "choices": [
+          "Pour coller aux algues.",
+          "Pour avoir des cordes.",
+          "Pour protéger les bébés à l’intérieur."
+        ],
+        "correctAnswer": "Pour protéger les bébés à l’intérieur."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pense à la relation qui existe entre les mots « bébé » et « bébés ». Quels mots ont cette même relation ?",
+        "choices": [
+          "« Dents » et « dent ».",
+          "« Requin » et « requins ».",
+          "« Œufs » et « cordes ».",
+          "« Algues » et « corail »."
+        ],
+        "correctAnswer": "« Requin » et « requins »."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "À partir de l’histoire, tu peux dire :",
+        "choices": [
+          "que tous les requins naissent vivants.",
+          "que les bébés requins naissent un à la fois.",
+          "qu’il y a plus d’une sorte de requins."
+        ],
+        "correctAnswer": "qu’il y a plus d’une sorte de requins."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quand une chose est fixée, elle :",
+        "choices": [
+          "ne bouge pas.",
+          "est épaisse et caoutchouteuse.",
+          "repousse en 24 heures."
+        ],
+        "correctAnswer": "ne bouge pas."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Les requins ont des dents qui repoussent rapidement.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les dents humaines repoussent en 24 heures.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les œufs de requins sont fins et fragiles.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Les bébés requins sont prêts à chasser dès leur naissance.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Tous les requins pondent des œufs.",
+        "correctAnswer": false
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'mâchoire' ?",
+        "choices": [
+          "Un os de la jambe.",
+          "La partie de la bouche qui tient les dents.",
+          "Une nageoire.",
+          "Une dent pointue."
+        ],
+        "correctAnswer": "La partie de la bouche qui tient les dents."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'fixée fermement' ?",
+        "choices": [
+          "Qui bouge tout le temps.",
+          "Qui tient bien en place.",
+          "Qui tombe facilement.",
+          "Qui est douce et lisse."
+        ],
+        "correctAnswer": "Qui tient bien en place."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'caoutchouteux' ?",
+        "choices": [
+          "Dur et pointu.",
+          "Fait de bois.",
+          "Souple comme du caoutchouc.",
+          "Très froid."
+        ],
+        "correctAnswer": "Souple comme du caoutchouc."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'à la dérive' ?",
+        "choices": [
+          "Attaché solidement.",
+          "Qui flotte sans contrôle.",
+          "Qui est très rapide.",
+          "Qui tombe au fond."
+        ],
+        "correctAnswer": "Qui flotte sans contrôle."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'espèce' dans ce texte ?",
+        "choices": [
+          "Une sorte ou un type d’animal.",
+          "Un lieu pour les bébés.",
+          "Un aliment pour les requins.",
+          "Une couleur de dents."
+        ],
+        "correctAnswer": "Une sorte ou un type d’animal."
+      }
+    ]
+  }
+  
