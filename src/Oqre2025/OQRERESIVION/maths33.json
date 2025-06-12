@@ -1,0 +1,222 @@
+{
+    "testTitle": "Questions de test diffusées, 2017 Cycle primaire",
+    "sections": [
+      {
+        "id": "Mathématiques",
+        "title": "Test en lecture, écriture et mathématiques",
+        "questions": [
+          {
+            "id": "1",
+            "type": "multipleChoice",
+            "pageReference": 1,
+            "questionText": "Sophie a 46 bracelets. Elle donne 2 bracelets à chacun de ses 8 amis. Combien de bracelets reste-t-il à Sophie?",
+            "options": [
+              "44 bracelets",
+              "36 bracelets",
+              "32 bracelets",
+              "30 bracelets"
+            ],
+            "correctAnswer": "c",
+            "verification": "Sophie donne 2 bracelets à chacun de ses 8 amis, donc elle donne 2 * 8 = 16 bracelets. Elle avait initialement 46 bracelets, donc il lui reste 46 - 16 = 30 bracelets."
+          },
+          {
+            "id": "2",
+            "type": "multipleChoice",
+            "pageReference": 1,
+            "questionText": "Quelle est la valeur du triangle dans cette équation? 20 + 12 = triangle + 22",
+            "options": [
+              "10",
+              "12",
+              "32",
+              "54"
+            ],
+            "correctAnswer": "a",
+            "verification": "20 + 12 = 32. Donc, 32 = triangle + 22. Par conséquent, triangle = 32 - 22 = 10."
+          },
+          {
+            "id": "3",
+            "type": "multipleChoice",
+            "pageReference": 1,
+            "questionText": "Les suites numériques A et B commencent par le nombre 1. Le nombre 7 est présent dans les deux suites. Quelle est la régularité de chacune des deux suites?",
+            "options": [
+              "Suite A: +1, Suite B: +7",
+              "Suite A: +2, Suite B: +3",
+              "Suite A: +3, Suite B: +4",
+              "Suite A: +4, Suite B: +1"
+            ],
+            "correctAnswer": "a",
+            "verification": "Pour que le nombre 7 soit présent dans les deux suites commençant par 1, la suite A doit ajouter 1 six fois (1 + 1 + 1 + 1 + 1 + 1 + 1 = 7) et la suite B doit ajouter 7 une fois (1 + 7 = 8)."
+          },
+          {
+            "id": "4",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Quel parcours Karima doit-elle suivre pour aller de sa maison à la maison de Mélissa?",
+            "options": [
+              "4 cases vers le bas et 5 cases vers la droite",
+              "5 cases vers le bas et 4 cases vers la droite",
+              "3 cases vers le bas et 6 cases vers la droite",
+              "6 cases vers le bas et 3 cases vers la droite"
+            ],
+            "correctAnswer": "a",
+            "verification": "En suivant le parcours décrit, Karima se déplace de 4 cases vers le bas et 5 cases vers la droite pour atteindre la maison de Mélissa."
+          },
+          {
+            "id": "5",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Selon les données du diagramme de Carroll, quel énoncé est vrai?",
+            "options": [
+              "Plus d'élèves aiment les poires que les pommes.",
+              "Le même nombre d'élèves aiment les poires vertes et les pommes vertes.",
+              "Le même nombre d'élèves aiment les poires et les pommes.",
+              "Plus d'élèves aiment les fruits jaunes que les fruits verts."
+            ],
+            "correctAnswer": "b",
+            "verification": "Selon le diagramme de Carroll, le nombre d'élèves qui aiment les poires vertes est égal au nombre d'élèves qui aiment les pommes vertes."
+          },
+          {
+            "id": "6",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Dans quelle illustration le tiers des pommes est-il encerclé?",
+            "options": [
+              "Illustration A",
+              "Illustration B",
+              "Illustration C",
+              "Illustration D"
+            ],
+            "correctAnswer": "b",
+            "verification": "Dans l'illustration B, un tiers des pommes est encerclé."
+          },
+          {
+            "id": "7",
+            "type": "multipleChoice",
+            "pageReference": 2,
+            "questionText": "Quel solide est composé de ces faces?",
+            "options": [
+              "Prisme à base carrée",
+              "Pyramide à base carrée",
+              "Prisme à base triangulaire",
+              "Pyramide à base triangulaire"
+            ],
+            "correctAnswer": "a",
+            "verification": "Un prisme à base carrée est composé de deux bases carrées et de quatre faces rectangulaires."
+          },
+          {
+            "id": "8",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Monsieur Claude achète 575 crayons pour son école. Il donne 232 crayons aux élèves du cycle primaire et 159 crayons aux élèves du cycle moyen. Détermine combien de crayons il reste à monsieur Claude.",
+            "options": [
+              "184 crayons",
+              "200 crayons",
+              "214 crayons",
+              "224 crayons"
+            ],
+            "correctAnswer": "a",
+            "verification": "Monsieur Claude donne 232 + 159 = 391 crayons. Il lui reste donc 575 - 391 = 184 crayons."
+          },
+          {
+            "id": "9",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Lyse trouve 30 coquillages. Lyse en garde 10 pour elle. Elle partage également le reste des coquillages entre France, Marianne, Rita, Bibianne et Lucie. Combien de coquillages chacune de ses amies reçoit-elle?",
+            "options": [
+              "4 coquillages",
+              "6 coquillages",
+              "20 coquillages",
+              "40 coquillages"
+            ],
+            "correctAnswer": "a",
+            "verification": "Lyse garde 10 coquillages pour elle, donc il reste 30 - 10 = 20 coquillages. Elle partage ces 20 coquillages entre 5 amies, donc chacune reçoit 20 / 5 = 4 coquillages."
+          },
+          {
+            "id": "10",
+            "type": "multipleChoice",
+            "pageReference": 3,
+            "questionText": "Quelles figures ont le même périmètre selon la légende donnée?",
+            "options": [
+              "A et C",
+              "A et D",
+              "B et C",
+              "B et D"
+            ],
+            "correctAnswer": "a",
+            "verification": "Les figures A et C ont le même périmètre selon la légende donnée."
+          },
+          {
+            "id": "11",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Dans quelle suite le motif est-il bien encadré?",
+            "options": [
+              "Suite A",
+              "Suite B",
+              "Suite C",
+              "Suite D"
+            ],
+            "correctAnswer": "b",
+            "verification": "La suite B montre le motif bien encadré."
+          },
+          {
+            "id": "12",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Quel nombre le carré représente-t-il?",
+            "options": [
+              "62",
+              "63",
+              "65",
+              "67"
+            ],
+            "correctAnswer": "c",
+            "verification": "Le carré représente le nombre 65."
+          },
+          {
+            "id": "13",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Rémi débute et termine son cours aux heures indiquées sur les horloges. Quelle est la durée du cours de Rémi?",
+            "options": [
+              "1 h 25 min",
+              "1 h 30 min",
+              "2 h 30 min",
+              "2 h 40 min"
+            ],
+            "correctAnswer": "b",
+            "verification": "La durée du cours de Rémi est de 1 heure et 30 minutes."
+          },
+          {
+            "id": "14",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Dans un sac, il y a 35 billes rouges, 10 billes bleues et 5 billes vertes. Quelle est la probabilité de piger une bille rouge?",
+            "options": [
+              "Très vraisemblable",
+              "Peu vraisemblable",
+              "Impossible",
+              "Certain"
+            ],
+            "correctAnswer": "a",
+            "verification": "La probabilité de piger une bille rouge est très vraisemblable car il y a 35 billes rouges sur un total de 50 billes."
+          },
+          {
+            "id": "15",
+            "type": "multipleChoice",
+            "pageReference": 4,
+            "questionText": "Combien de carrés faut-il pour recouvrir cette figure?",
+            "options": [
+              "13 carrés",
+              "14 carrés",
+              "15 carrés",
+              "16 carrés"
+            ],
+            "correctAnswer": "c",
+            "verification": "Il faut 15 carrés pour recouvrir cette figure."
+          }
+        ]
+      }
+    ]
+  }
+  

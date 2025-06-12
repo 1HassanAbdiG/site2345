@@ -39,6 +39,22 @@
         { "id": 8, "image": "livre.png", "word": "livre" },
         { "id": 9, "image": "carton.png", "word": "carton" }
       ]
-    }
+    },"metiers": {
+  "titre": "Associez l'image au métier",
+  "instructions": "Cliquez sur une image puis sur le mot correspondant pour créer une association.",
+  "questions": [
+    { "id": 1, "image": "enseignant.png", "word": "enseignant" },
+    { "id": 2, "image": "Policier.png", "word": "Policier" },
+    { "id": 3, "image": "pompier.png", "word": "pompier" },
+    { "id": 4, "image": "medecin.png", "word": "médecin" },
+    { "id": 5, "image": "agriculteur.png", "word": "agriculteur" },
+    { "id": 6, "image": "cuisinier.png", "word": "cuisinier" },
+    { "id": 7, "image": "facteur.png", "word": "facteur" },
+    { "id": 8, "image": "mecanicien.png", "word": "mécanicien" },
+    { "id": 9, "image": "pharmacien.png", "word": "pharmacien" },
+    { "id": 10, "image": "informaticien.png", "word": "informaticien" }
+  ]
+}
+
   }
   

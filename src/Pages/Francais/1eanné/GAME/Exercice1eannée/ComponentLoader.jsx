@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import data from "./componentsList.json";
+import MetierGame1 from "../Exercice/metierGame2";
 import  SubtractionProblem  from "../calcule/SubtractionProblem";
 import StoryOrderGame from "../Jeu deplacement/StoryOrderGame";
 import  SyllableReorderGame from "../syllabeMots/SyllableReorderGame";
@@ -7,7 +8,11 @@ import  Syllable1 from "../syllabeMots/Syllable1";
 import  MemoryGame from "../../Memoire/MemoryGame";
 import  AssociationGame from "../associe/AssociationGame";
 
+
+
 import "./styles.css"; // pour les animations et styles attractifs
+
+
 
 const componentsMap = {
   SubtractionProblem,
@@ -15,7 +20,8 @@ const componentsMap = {
   SyllableReorderGame,
   Syllable1,
   MemoryGame,
-  AssociationGame
+  AssociationGame,
+  MetierGame1
 
 };
 
@@ -45,6 +51,8 @@ export default function ComponentLoader() {
         <div className="component-container">
           <button onClick={() => setSelectedComponent(null)}>⬅ Retour</button>
           <SelectedComponent />
+        
+        
         </div>
       )}
     </div>

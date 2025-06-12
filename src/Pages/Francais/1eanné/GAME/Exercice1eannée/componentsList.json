@@ -12,7 +12,8 @@
     "description": "Replace l'histoire dans le bon ordre",
     "emoji": "📖➡️",
     "component": "StoryOrderGame"
-  },{
+  },
+  {
     "id": "memoryGame",
     "title": "Jeu de mémoire",
     "description": "Retrouve les paires d'animaux identiques",
@@ -33,13 +34,18 @@
     "emoji": "🧠📚",
     "component": "Syllable1"
   },
-  
- 
   {
     "id": "associationGame",
     "title": "Association Image-Mot",
     "description": "Associe chaque image à son mot en traçant une ligne",
     "emoji": "🎯📷📝",
     "component": "AssociationGame"
+  },
+  {
+    "id": "metier",
+    "title": "Découverte des métiers",
+    "description": "Lis le texte et réponds aux questions sur les métiers",
+    "emoji": "👨‍🏫👮‍♂️🧑‍🍳",
+    "component": "MetierGame1"
   }
 ]

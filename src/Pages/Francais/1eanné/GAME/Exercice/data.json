@@ -1,0 +1,211 @@
+[
+  {
+    "id": "metier_ex1",
+    "type": "fill_in_blanks_qcm",
+    "title": "Exercice 1 : Complète les phrases à trous avec les options (image).",
+    "description": "Regarde l'image et choisis le bon mot pour chaque trou.",
+    "questions": [
+      {
+        "id": "metier_ex1_q1",
+        "image": "/metiers/images/medecin.png",
+        "templateParts": ["Le ", "", " soigne les malades."],
+        "blanks": [
+          {
+            "options": ["pharmacien", "pompier", "médecin"],
+            "correctAnswer": "médecin"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex1_q2",
+        "image": "/metiers/images/cuisinier.png",
+        "templateParts": ["Le ", "", " prépare les repas."],
+        "blanks": [
+          {
+            "options": ["facteur", "cuisinier", "informaticien"],
+            "correctAnswer": "cuisinier"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex1_q3",
+        "image": "/metiers/images/facteur.png",
+        "templateParts": ["Le ", "", " apporte une ", "", "."],
+        "blanks": [
+          {
+            "options": ["facteur", "enseignant", "pharmacien"],
+            "correctAnswer": "facteur"
+          },
+          {
+            "options": ["lettre", "tablette", "assiette"],
+            "correctAnswer": "lettre"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex1_q4",
+        "image": "/metiers/images/informaticien.png",
+        "templateParts": ["L' ", "", " travaille sur un ", "", "."],
+        "blanks": [
+          {
+            "options": ["enseignant", "informaticien", "pompier"],
+            "correctAnswer": "informaticien"
+          },
+          {
+            "options": ["ordinateur", "stéthoscope", "camion"],
+            "correctAnswer": "ordinateur"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex1_q5",
+        "image": "/metiers/images/pharmacien.png",
+        "templateParts": ["Le ", "", " vend des médicaments à la ", "", "."],
+        "blanks": [
+          {
+            "options": ["pharmacien", "cuisinier", "facteur"],
+            "correctAnswer": "pharmacien"
+          },
+          {
+            "options": ["pharmacie", "cuisine", "école"],
+            "correctAnswer": "pharmacie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "metier_ex2",
+    "type": "sentence_construction",
+    "title": "Exercice 2 : Construis les phrases (glisser-déposer).",
+    "description": "Glisse les mots pour construire la phrase correcte.",
+    "questions": [
+      {
+        "id": "metier_ex2_q1",
+        "words": ["soigne", "Le médecin", "les malades."],
+        "correctSentence": "Le médecin soigne les malades."
+      },
+      {
+        "id": "metier_ex2_q2",
+        "words": ["Le facteur", "une lettre.", "apporte"],
+        "correctSentence": "Le facteur apporte une lettre."
+      },
+      {
+        "id": "metier_ex2_q3",
+        "words": ["Le pompier", "le feu.", "éteint"],
+        "correctSentence": "Le pompier éteint le feu."
+      },
+      {
+        "id": "metier_ex2_q4",
+        "words": ["sur", "L'informaticien", "travaille", "un ordinateur."],
+        "correctSentence": "L'informaticien travaille sur un ordinateur."
+      },
+      {
+        "id": "metier_ex2_q5",
+        "words": ["prépare", "Le cuisinier", "les repas."],
+        "correctSentence": "Le cuisinier prépare les repas."
+      }
+    ]
+  },
+  {
+    "id": "metier_ex3",
+    "type": "qcm",
+    "title": "Exercice 3 : Choisis la bonne réponse (QCM).",
+    "description": "Sélectionne l'option correcte pour chaque question.",
+    "questions": [
+      {
+        "id": "metier_ex3_q1",
+        "questionText": "Qui soigne les gens malades ?",
+        "options": ["Médecin", "Cuisinier", "Facteur"],
+        "correctAnswer": "Médecin"
+      },
+      {
+        "id": "metier_ex3_q2",
+        "questionText": "Qui prépare les repas ?",
+        "options": ["Cuisinier", "Pompier", "Policier"],
+        "correctAnswer": "Cuisinier"
+      },
+      {
+        "id": "metier_ex3_q3",
+        "questionText": "Qui travaille avec un ordinateur ?",
+        "options": ["Médecin", "Informaticien", "Pharmacien"],
+        "correctAnswer": "Informaticien"
+      },
+      {
+        "id": "metier_ex3_q4",
+        "questionText": "Où travaille le pharmacien ?",
+        "options": ["À la pharmacie", "À l’école", "À la cuisine"],
+        "correctAnswer": "À la pharmacie"
+      },
+      {
+        "id": "metier_ex3_q5",
+        "questionText": "Qui utilise un tableau ?",
+        "options": ["Enseignant", "Mécanicien", "Cuisinier"],
+        "correctAnswer": "Enseignant"
+      }
+    ]
+  },
+  {
+    "id": "metier_ex4",
+    "type": "image_question",
+    "title": "Exercice 4 : Regarde l’image et complète les phrases avec les options.",
+    "description": "Observe l'image et choisis le bon mot pour chaque trou.",
+    "questions": [
+      {
+        "id": "metier_ex4_q1",
+        "image": "/metiers/images/Policier.png",
+        "templateParts": ["Le policier conduit une ", "", "."],
+        "blanks": [
+          {
+            "options": ["voiture", "ambulance", "camion"],
+            "correctAnswer": "voiture"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex4_q2",
+        "image": "/metiers/images/mecanicien.png",
+        "templateParts": ["Le mécanicien fait une ", "", "."],
+        "blanks": [
+          {
+            "options": ["réparation", "cuisine", "leçon"],
+            "correctAnswer": "réparation"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex4_q3",
+        "image": "/metiers/images/pharmacien.png",
+        "templateParts": ["Le pharmacien travaille à la ", "", "."],
+        "blanks": [
+          {
+            "options": ["pharmacie", "poste", "gare"],
+            "correctAnswer": "pharmacie"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex4_q4",
+        "image": "/metiers/images/enseignant.png",
+        "templateParts": ["L’enseignant écrit sur le ", "", "."],
+        "blanks": [
+          {
+            "options": ["tableau", "mur", "lit"],
+            "correctAnswer": "tableau"
+          }
+        ]
+      },
+      {
+        "id": "metier_ex4_q5",
+        "image": "/metiers/images/pompier.png",
+        "templateParts": ["Le pompier utilise un tuyau pour ", "", "."],
+        "blanks": [
+          {
+            "options": ["éteindre le feu", "préparer un repas", "conduire une voiture"],
+            "correctAnswer": "éteindre le feu"
+          }
+        ]
+      }
+    ]
+  }
+]

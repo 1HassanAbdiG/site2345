@@ -102,10 +102,10 @@
           "imageSrc": "/images/maths62025/6.png",
           "imageAlt": "Table de valeurs montrant les rangs de figure (1, 2, 3) et les nombres de carreaux correspondants (4, 8, 12), suivie de quatre graphiques avec Nombre de carreaux en fonction du Rang de la figure.",
           "options": [
-            "Graphique A (points à (1,4), (2,8), (3,12))",
-            "Graphique B (points à (1,2), (2,4), (3,6))",
-            "Graphique C (points à (1,5), (2,10), (3,15))",
-            "Graphique D (points à (1,2), (2,6), (3,10))"
+            "Graphique A (points à (1,4), (2,3), (3,2))",
+            "Graphique B (points à (1,2), (2,6), (3,10))",
+            "Graphique C (points à (1,4), (2,8), (3,12))",
+            "Graphique D (points à (1,14), (2,10), (3,6))"
           ],
           "correctAnswer": "c",
           "verification": "La table de valeurs fournit les paires (Rang, Nombre de carreaux) : (1, 4), (2, 8), (3, 12). Le graphique qui représente ces points est le graphique A."
@@ -431,7 +431,7 @@
           ],
 
           "itemsToClassify": [ 
-            { "expressions": ["Fournir des biens ou des services dans l'espoir qu'ils serontremboursés."], "correctCategory": "Prêter" },
+            { "expressions": ["Fournir des biens ou des services dans l'espoir qu'ils seront remboursés."], "correctCategory": "Prêter" },
             { "expressions": ["Recevoir de l'argent avec un accord de remboursement à une date ultérieure,souvent avec intérêt."], "correctCategory": "Emprunter" },
             { "expressions": ["Donner de l'argent, des services, ou des marchandises, en cadeau."], "correctCategory": "Faire un don" }
           ],

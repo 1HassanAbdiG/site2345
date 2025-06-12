@@ -1,0 +1,178 @@
+{
+    "text": {
+      "title": "À l’école",
+      "url": "/imag/ecole1.png",
+      "content": [
+        "Lucas va à l’école tous les jours de la semaine. Il a plusieurs matières chaque jour : l’anglais, les arts, les sciences, les mathématiques, l’éducation physique et l’histoire. Sa mère lui prépare un gros sac à dos rempli de livres et de son déjeuner.",
+        "Son premier cours est l’anglais, et il aime beaucoup cette enseignante. Sa professeure d’anglais dit qu’il est un bon élève, ce qui, Lucas le sait, signifie qu’elle pense qu’il est un bon étudiant.",
+        "Son cours suivant est les arts. Il dessine sur du papier avec des crayons de couleur et des crayons à papier, et utilise parfois une règle. Lucas aime les arts. C’est sa matière préférée parce qu’il peut y laisser parler sa créativité.",
+        "Son troisième cours est les sciences. Cette matière est parfois difficile pour Lucas, mais il aime observer, poser des questions et faire des expériences. Il travaille souvent en équipe avec ses camarades. Son ami, Kyle, travaille avec lui en sciences, et ils apprennent en s’amusant.",
+        "Ensuite, Lucas a sa pause pour le déjeuner. Il s’assoit avec Kyle pendant qu’il mange. Le directeur, ou le proviseur comme certains l’appellent, aime marcher parmi les élèves et leur parler pendant le déjeuner pour vérifier que tout le monde se comporte bien.",
+        "Le cours suivant est les mathématiques, que la plupart des élèves appellent simplement “maths”. Lucas aime résoudre des problèmes et comprendre comment les choses fonctionnent. Kyle a parfois du mal à suivre, mais le professeur est très gentil et prend le temps d’aider chacun.",
+        "Son quatrième cours est l’éducation physique. C’est le moment de bouger, de courir et de s’amuser tout en gardant la forme. Lucas se sent plein d’énergie après ce cours.",
+        "L’histoire est son dernier cours de la journée. Même s’il est un peu fatigué, Lucas reste attentif, car il aime découvrir comment vivaient les gens autrefois. Il trouve passionnant d’apprendre des faits sur le passé, les voyages, les inventions et les grands personnages. Cela l’aide à mieux comprendre le monde d’aujourd’hui. Chaque matière lui apprend quelque chose d’utile, et Lucas aime apprendre un peu plus chaque jour."
+      ]
+    },
+    "questions": [
+      {
+        "type": "trueFalse",
+        "question": "Lucas va à l’école uniquement trois jours par semaine.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lucas aime sa professeure d’anglais.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lucas trouve la science toujours facile.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lucas se sent plein d’énergie après le cours d’éducation physique.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Lucas n’aime pas apprendre des choses sur le passé.",
+        "correctAnswer": false
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quelle est la matière préférée de Lucas ?",
+        "choices": ["Les sciences", "L’anglais", "Les arts", "L’histoire"],
+        "correctAnswer": "Les arts"
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que fait Lucas pendant les cours de sciences ?",
+        "choices": [
+          "Il écrit des poèmes.",
+          "Il observe, pose des questions et fait des expériences.",
+          "Il lit des livres anciens.",
+          "Il joue à des jeux vidéo."
+        ],
+        "correctAnswer": "Il observe, pose des questions et fait des expériences."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Pourquoi Lucas aime-t-il les arts ?",
+        "choices": [
+          "Parce qu’il adore les calculs.",
+          "Parce qu’il peut être créatif.",
+          "Parce que c’est la matière la plus courte.",
+          "Parce qu’il est avec Kyle."
+        ],
+        "correctAnswer": "Parce qu’il peut être créatif."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Quel est le rôle du directeur pendant le déjeuner ?",
+        "choices": [
+          "Préparer le repas.",
+          "Donner des devoirs.",
+          "Vérifier le comportement des élèves.",
+          "Faire des expériences."
+        ],
+        "correctAnswer": "Vérifier le comportement des élèves."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que découvre Lucas en histoire ?",
+        "choices": [
+          "Des règles de mathématiques.",
+          "Des récits sur le passé.",
+          "Des recettes de cuisine.",
+          "Des mots en anglais."
+        ],
+        "correctAnswer": "Des récits sur le passé."
+      }
+    ],
+    "vocabularyTrueFalse": [
+      {
+        "type": "trueFalse",
+        "question": "Un camarade est un ami de classe.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Un proviseur est un professeur de sport.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Résoudre un problème signifie trouver une solution.",
+        "correctAnswer": true
+      },
+      {
+        "type": "trueFalse",
+        "question": "Créativité veut dire faire toujours la même chose.",
+        "correctAnswer": false
+      },
+      {
+        "type": "trueFalse",
+        "question": "Observer veut dire regarder attentivement.",
+        "correctAnswer": true
+      }
+    ],
+    "vocabularyQCM": [
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'matière' dans le texte ?",
+        "choices": [
+          "Une substance liquide.",
+          "Un objet dans le sac à dos.",
+          "Un sujet étudié à l’école.",
+          "Un exercice physique."
+        ],
+        "correctAnswer": "Un sujet étudié à l’école."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'expérience' dans ce texte ?",
+        "choices": [
+          "Un souvenir d’enfance.",
+          "Un test scientifique ou une observation.",
+          "Un voyage scolaire.",
+          "Un exposé oral."
+        ],
+        "correctAnswer": "Un test scientifique ou une observation."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'comporter' dans ce texte ?",
+        "choices": [
+          "Porter un objet.",
+          "Avoir un comportement ou bien se tenir.",
+          "Cacher ses affaires.",
+          "Se mettre en rang."
+        ],
+        "correctAnswer": "Avoir un comportement ou bien se tenir."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que signifie 'résoudre' ?",
+        "choices": [
+          "Écrire un mot.",
+          "Colorier un dessin.",
+          "Trouver une réponse à un problème.",
+          "Effacer une erreur."
+        ],
+        "correctAnswer": "Trouver une réponse à un problème."
+      },
+      {
+        "type": "multipleChoice",
+        "question": "Que veut dire 'créativité' ?",
+        "choices": [
+          "Capacité à inventer et imaginer.",
+          "Travail en silence.",
+          "Lecture à voix haute.",
+          "Respect des règles."
+        ],
+        "correctAnswer": "Capacité à inventer et imaginer."
+      }
+    ]
+  }
+  

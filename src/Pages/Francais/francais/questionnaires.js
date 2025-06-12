@@ -46,7 +46,7 @@ const Questionnaire = () => {
   const [score, setScore] = useState(null);
   const [results, setResults] = useState([]);
   const [summary, setSummary] = useState([]);
-  const [validationCount, setValidationCount] = useState(0); // Ajout du compteur de validations
+  const [validationCount, setValidationCount] = useState(0);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -59,14 +59,26 @@ const Questionnaire = () => {
           loadedTitles[fileName] = jsonData.text.title;
         });
         setTitles(loadedTitles);
-
-
       } catch (err) {
         setError("Error loading titles.");
       }
     };
     loadTitles();
   }, [difficulty]);
+
+  useEffect(() => {
+    const storedResults = JSON.parse(localStorage.getItem('studentResults') || '[]');
+    if (storedResults.length > 0) {
+      const latestResult = storedResults[storedResults.length - 1];
+      setScore(latestResult.score);
+      setResults(latestResult.results);
+      setSummary((prev) => [...prev, {
+        title: latestResult.title,
+        score: latestResult.score,
+        validationDate: latestResult.validationDate,
+      }]);
+    }
+  }, []);
 
   // Chargez les données du fichier et mélangez les choix
   useEffect(() => {
@@ -95,8 +107,15 @@ const Questionnaire = () => {
     setAnswers((prev) => ({ ...prev, [question]: value }));
     setSelectedFile("");
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleReset();
+    }
+  };
+
+  const submitForm = () => {
     let totalScore = 0;
     let resultDetails = [];
 
@@ -130,19 +149,30 @@ const Questionnaire = () => {
     setResults(resultDetails);
     setValidationCount((prevCount) => prevCount + 1);
 
-    // Get the current date and time
     const validationDate = new Date().toLocaleString();
 
-    // Update the summary with the title and score
     const currentSummary = {
       title: data.text.title,
       score: totalScore,
       validationDate: validationDate,
     };
     setSummary((prev) => [...prev, currentSummary]);
+
+    // Stocker les résultats dans le stockage local
+    const storedResults = JSON.parse(localStorage.getItem('studentResults') || '[]');
+    storedResults.push({
+      title: data.text.title,
+      score: totalScore,
+      validationDate: validationDate,
+      results: resultDetails,
+    });
+    localStorage.setItem('studentResults', JSON.stringify(storedResults));
   };
 
-
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    submitForm();
+  };
 
   const handleReset = () => {
     setAnswers({});
@@ -150,13 +180,13 @@ const Questionnaire = () => {
     setResults([]);
     setSelectedFile("");
     setData(null);
-
+    localStorage.removeItem('studentResults');
   };
+
   const handleReset_resutat = () => {
     setAnswers({});
     setScore(null);
     setResults([]);
-
   };
 
   const renderQuestionsByType = (type) => {
@@ -182,7 +212,6 @@ const Questionnaire = () => {
       vocabularyQCM: 'Vocabulaire QCM',
       conjugationQCM: 'Conjugaison QCM',
       shortAnswer: 'Réponse Courte',
-
     };
 
     if (!data[type] || data[type].length === 0) {
@@ -314,7 +343,7 @@ const Questionnaire = () => {
             color="primary"
             onClick={() => {
               setDifficulty("easy");
-              handleReset(); // Reset relevant states
+              handleReset();
             }}
           >
             Niveau Facile
@@ -324,7 +353,7 @@ const Questionnaire = () => {
             color="primary"
             onClick={() => {
               setDifficulty("medium");
-              handleReset(); // Reset relevant states
+              handleReset();
             }}
           >
             Niveau Intermédiaire
@@ -334,9 +363,8 @@ const Questionnaire = () => {
             color="primary"
             onClick={() => {
               setDifficulty("hard");
-              handleReset(); // Reset relevant states
+              handleReset();
             }}
-
           >
             Niveau Avancé
           </Button>
@@ -349,12 +377,12 @@ const Questionnaire = () => {
             value={selectedFile}
             onChange={(e) => {
               setSelectedFile(e.target.value);
-              handleReset_resutat(); // Reset answers when changing the selected file
+              handleReset_resutat();
             }}
           >
             <MenuItem value="" disabled>
               Sélectionnez un texte
-            </MenuItem >
+            </MenuItem>
             {Object.keys(titles).map((file) => (
               <MenuItem key={file} value={file} style={{ color: "red" }}>
                 {titles[file]}
@@ -372,7 +400,6 @@ const Questionnaire = () => {
             {data.text.title}
           </Typography>
 
-          {/* Vérification de l'image */}
           {data.text.url && (
             <img
               src={data.text.url}
@@ -395,12 +422,11 @@ const Questionnaire = () => {
         </Box>
       )}
 
-      {/* Questionnaire */}
       {data && (
         <Paper elevation={3} style={{ padding: '20px' }}>
           <Typography variant="h5" gutterBottom>Questionnaire</Typography>
 
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} onKeyDown={handleKeyDown}>
             {renderQuestionsByType('trueFalse')}
             {renderQuestionsByType('multipleChoice')}
             {renderQuestionsByType('shortAnswer')}
@@ -417,14 +443,11 @@ const Questionnaire = () => {
                 Réinitialiser
               </Button>
             </Box>
-
           </form>
 
-          {/* Display results */}
           {score !== null && (
             <Box mt={4}>
-              <Typography variant="h6">Votre score : {score} sur {results.length} (Validé {validationCount} fois)
-              </Typography>
+              <Typography variant="h6">Votre score : {score} sur {results.length} (Validé {validationCount} fois)</Typography>
               <Typography variant="subtitle1" color="red">
                 La partie que tu as rédigée, l'enseignant doit vérifier si c'est correct.
               </Typography>
@@ -451,8 +474,6 @@ const Questionnaire = () => {
                 </Table>
               </TableContainer>
 
-           
-              {/* Summary Table */}
               <Typography variant="h5" gutterBottom style={{ marginTop: '20px' }}>
                 Récapitulatif des études
               </Typography>
@@ -470,7 +491,7 @@ const Questionnaire = () => {
                       <TableRow key={index}>
                         <TableCell>{item.title}</TableCell>
                         <TableCell>{item.score}</TableCell>
-                        <TableCell>{item.validationDate}</TableCell> {/* Updated to show validation date */}
+                        <TableCell>{item.validationDate}</TableCell>
                       </TableRow>
                     ))}
                   </TableBody>
