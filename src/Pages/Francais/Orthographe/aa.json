@@ -651,8 +651,8 @@
       },{
         "exercice": 6,
         "titre": "un - une",
-        "rules": "Règle : La distinction entre {{un}} et {{une}}.\n\n- {{un}} : un article masculin défini.\n- {{une}} : un article féminin défini.",
-        "phrases": [
+  "rules": "Règle : La distinction entre {{un}} et {{une}}.\n\n- {{un}} : un article {{indéfini masculin}} (ex. : un livre, un chien).\n- {{une}} : un article {{indéfini féminin}}  (ex. : une maison, une pomme).",
+ "phrases": [
           {
             "id": 1,
             "phrase": "C'est ________________ beau cadeau que j'ai jamais reçu.",
@@ -774,8 +774,133 @@
             "options": ["un", "une"]
           }
         ]
-      }
-      
+      },{
+    "exercice": 7,
+    "titre": "Rappels : quel, quels, quelle, quelles, qu'elle ou qu'elles  ",
+    "rules": "Règle : Lorsque, dans une phrase, {{[kɛl]}} peut être transformé en {{[kil]}}, en « que lui » ou en « qu'eux », il s'écrit en deux mots : {{qu'elle}} ou {{qu'elles}}. (« {{qu'elle}} » est équivalent à « que elle », « {{qu'elles}} » est équivalent à « que elles »). Sinon, il s'agit d'un déterminant qui s'accorde avec le nom qu'il accompagne (ou d'un pronom qui s'accorde avec le nom qu'il remplace).\n\nExemple :\n- Je voulais voir Sylvie ; {{quel}} dommage {{qu'elle}} soit partie !\n- Je voulais voir Yann ; {{quelle}} déception qu'il soit parti !\n- Je suis plus grand que lui. -> Je suis plus grand {{qu'elle}}. \n- Je suis plus grand {{qu'eux}}. -> Je suis plus grand {{qu'elles}}.",
+    "phrases": [
+        {
+            "id": 1,
+            "phrase": "J'ai lavé ma robe, j'attends ________________ sèche.",
+            "reponses": ["qu'elle"],
+            "options": ["quel", "qu'elle"]
+        },
+        {
+            "id": 2,
+            "phrase": "________________ est la couleur du ciel aujourd'hui ?",
+            "reponses": ["Quelle"],
+            "options": ["Quel", "Quelle"]
+        },
+        {
+            "id": 3,
+            "phrase": "________________ ceinture avec-vous choisie ?",
+            "reponses": ["quelle"],
+            "options": ["Quel", "Quelle"]
+        },
+        {
+            "id": 4,
+            "phrase": "Je ne sais pas ________________ bus prendre.",
+            "reponses": ["Quel"],
+            "options": ["quel", "qu'elle"]
+        },
+        {
+            "id": 5,
+            "phrase": "Mes amis m'ont téléphoné ________________ auront un peu de retard.",
+            "reponses": ["qu'elleS"],
+            "options": ["quel", "qu'elle","qu'elleS"]
+        },
+        {
+            "id": 6,
+            "phrase": "J'ignore ________________ est ton projet.",
+            "reponses": ["quel"],
+            "options": ["quel", "qu'elle","qu'elleS"]
+        },
+        {
+            "id": 7,
+            "phrase": "J'ai hâte de revoir Olivia mais c'est dans six mois ________________ rentrera des U.S.A.",
+            "reponses": ["qu'elle"],
+            "options": ["quel", "qu'elle"]
+        },
+        {
+            "id": 8,
+            "phrase": "À ________________ moment prévois-tu de rentrer ?",
+            "reponses": ["quel"],
+            "options": ["quel", "qu'elle"]
+        },
+        {
+            "id": 9,
+            "phrase": "Il faudrait que Patricia me précise à ____  étage elle habite mais je sais ____ ne le fera pas.",
+            "reponses": ["quel", "qu'elle"],
+            "options": ["quel", "qu'elle"]
+        },
+        {
+            "id": 10,
+            "phrase": "Il est plus fort ________________ au tennis.",
+            "reponses": ["qu'elle"],
+            "options": ["quel", "qu'elle"]
+        },
+        {
+            "id": 11,
+            "phrase": "N'importe ____ arbitre peut se tromper mais ____ erreur a commis celui-ci !",
+            "reponses": ["quel", "quelle"],
+            "options": ["quel", "qu'elle", "quelle"]
+        },
+        {
+            "id": 12,
+            "phrase": "Madame Angèle, ________________ bonnes nouvelles m'apportez-vous ?",
+            "reponses": ["quelles"],
+            "options": ["quel", "qu'elle", "quelles"]
+        },
+        {
+            "id": 13,
+            "phrase": "_____ belle église ! Je crois _____ est de style gothique.",
+            "reponses": ["Quelle", "qu'elle"],
+            "options": ["Quel", "Quelle", "qu'elle"]
+        },
+        {
+            "id": 14,
+            "phrase": "________________ est la couleur de son cheval ?",
+            "reponses": ["Quelle"],
+            "options": ["Quel", "Quelle", "qu'elle"]
+        },
+        {
+            "id": 15,
+            "phrase": "Avez-vous remarqué ____ était l'écharpe ____ a choisie ?",
+            "reponses": ["quelle", "qu'elle"],
+            "options": ["quel", "quelle", "qu'elle"]
+        },
+        {
+            "id": 16,
+            "phrase": "________________ jour sommes-nous ?",
+            "reponses": ["Quel"],
+            "options": ["Quel", "Quelle", "qu'elle"]
+        },
+        {
+            "id": 17,
+            "phrase": "Dans ________________ direction souhaitez-vous aller ?",
+            "reponses": ["quelle"],
+            "options": ["quel", "quelle", "qu'elle"]
+        },
+        {
+            "id": 18,
+            "phrase": "Voici les nageuses russes : on dit ________________ sont les plus rapides.",
+            "reponses": ["qu'elles"],
+            "options": ["quel", "qu'elle", "qu'elles"]
+        },
+        {
+            "id": 19,
+            "phrase": "Un voleur s'est introduit chez elles pendant ________________ étaient absentes.",
+            "reponses": ["qu'elles"],
+            "options": ["quel", "qu'elle", "qu'elles"]
+        },
+        {
+            "id": 20,
+            "phrase": "Pendant ________________ période est-il le plus agréable de voyager à la Réunion ?",
+            "reponses": ["quelle"],
+            "options": ["quel", "quelle", "qu'elle"]
+        }
+    ]
+}    
             
 
     ]

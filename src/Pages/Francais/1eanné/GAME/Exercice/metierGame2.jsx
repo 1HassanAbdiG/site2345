@@ -268,7 +268,7 @@ function MetierGame1() {
     for (const part of templateParts) {
       if (part === "") {
         const answer = Array.isArray(answers) ? answers[blankIndex] : undefined;
-        sentenceParts.push(answer || "____");
+        sentenceParts.push(answer || "__________");
         blankIndex++;
       } else {
         sentenceParts.push(part);
@@ -324,7 +324,7 @@ function MetierGame1() {
                         Mot pour trou {blankIndex + 1}:
                       </Typography>
                       <FormControl sx={{ minWidth: 150 }} size="small">
-                        <InputLabel id={`select-label-ex1-${question.id}-blank-${blankIndex}`}>Choisir...</InputLabel>
+                        <InputLabel id={`select-label-ex1-${question.id}-blank-${blankIndex}`}></InputLabel>
                         <Select
                           labelId={`select-label-ex1-${question.id}-blank-${blankIndex}`}
                           id={`select-ex1-${question.id}-blank-${blankIndex}`}
